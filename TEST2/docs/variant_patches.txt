@@ -1,0 +1,30 @@
+[단독 변경 테스트 패치 요약]
+
+공통 전제
+- 학습형엔진.py 원본 틀은 유지(엑셀/print/plt/순차 시뮬/루프).
+- 수정은 ENTRY 블록(진입 조건/상태/SLTP)만.
+
+1) 숏 비활성(Short OFF)
+- 목적: 코인 5m에서 숏이 기대값을 갉아먹는지 빠른 검증
+- 방법:
+  - ENABLE_SHORT=False 추가
+  - pend_short 설정 및 숏 확정 진입 조건 앞에 ENABLE_SHORT and ... 추가
+
+2) PB_DEPTH_MAX=0.9
+- 목적: 깊은 풀백(추세 변질/횡보화) 진입 제거
+- 변경:
+  - PB_DEPTH_MAX_ATTACK = 1.2 -> 0.9 (단독)
+
+3) PB_WAIT=5
+- 목적: 늦은 확인 진입(상태 변질 후 진입) 제거
+- 변경:
+  - PB_WAIT_ATTACK = 8 -> 5 (단독)
+
+4) A안(최소 파동폭/손절폭 필터)
+- 목적: 손절폭%가 너무 작아 비용이 R을 잠식하는 트레이드 제거
+- 변경:
+  - MIN_STOP_PCT_FOR_COST 추가
+  - allow_by_cost 통과 후 stop_dist_pct < MIN_STOP_PCT_FOR_COST 이면 continue
+
+주의
+- 단독 변경은 ‘무엇이 먹히는지’ 분리 목적. 결과 해석은 충분히 긴 기간/고정 샘플에서 수행.
