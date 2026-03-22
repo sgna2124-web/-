@@ -1,0 +1,7 @@
+//@version=5
+strategy("OHLCV TrendPullback 4.4 (State-Switched Filters, No BE)", overlay=true, initial_capital=10000, default_qty_type=strategy.percent_of_equity, default_qty_value=1, commission_type=strategy.commission.percent, commission_value=0.04, slippage=3, pyramiding=0, process_orders_on_close=true)
+
+// NOTE: 강추세(strongTrendNow)면 필터 완화, 비강추세면 방어적으로 유지하는 스위칭 버전.
+// 테스트 결과: 4.3 대비 미미한 개선은 있으나 4.2(BE OFF) 대비 열세.
+
+// (전체 코드는 대화 로그를 참조. 저장소에는 요약/보관 목적 텍스트로 둠)
