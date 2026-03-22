@@ -1,0 +1,147 @@
+//@version=5
+strategy("OHLCV TrendPullback 4.0 (Pullback Only, Fixed SL/TP)", overlay=true, initial_capital=10000, default_qty_type=strategy.percent_of_equity, default_qty_value=1, commission_type=strategy.commission.percent, commission_value=0.04, slippage=3, pyramiding=0, process_orders_on_close=true)
+
+atrLen = input.int(14, "ATR 길이", minval=2)
+atr = ta.atr(atrLen)
+atrPct = atr / close * 100.0
+
+erLen = input.int(60, "ER 길이", minval=5)
+erChg = math.abs(close - close[erLen])
+erVol = math.sum(math.abs(close - close[1]), erLen)
+er = erVol != 0 ? erChg / erVol : 0.0
+
+chopLen = input.int(70, "CHOP 길이", minval=10)
+sumTR = math.sum(ta.tr(true), chopLen)
+rng = ta.highest(high, chopLen) - ta.lowest(low, chopLen)
+chop = rng != 0 ? 100.0 * math.log10(sumTR / rng) / math.log10(chopLen) : 100.0
+
+wickLen = input.int(60, "꼬리/몸통 평균 길이", minval=5)
+body = math.max(math.abs(close - open), syminfo.mintick)
+upperW = high - math.max(open, close)
+lowerW = math.min(open, close) - low
+wickBody = (upperW + lowerW) / body
+wickBodyAvg = ta.sma(wickBody, wickLen)
+
+qualLen = input.int(1500, "레짐 기준 길이(최대 1500)", minval=200, maxval=1500)
+erPctl = input.int(62, "ER 하한 퍼센타일(높을수록 엄격)", minval=0, maxval=100)
+chopPctl = input.int(42, "CHOP 상한 퍼센타일(낮을수록 추세)", minval=0, maxval=100)
+wickPctl = input.int(72, "Wick 상한 퍼센타일(낮을수록 휩쏘 회피)", minval=0, maxval=100)
+volLowP = input.int(18, "ATR% 하한 퍼센타일", minval=0, maxval=100)
+volHighP = input.int(86, "ATR% 상한 퍼센타일(과열 회피)", minval=0, maxval=100)
+
+erThr = ta.percentile_nearest_rank(er, qualLen, erPctl)
+chopThr = ta.percentile_nearest_rank(chop, qualLen, chopPctl)
+wickThr = ta.percentile_nearest_rank(wickBodyAvg, qualLen, wickPctl)
+atrLow = ta.percentile_nearest_rank(atrPct, qualLen, volLowP)
+atrHigh = ta.percentile_nearest_rank(atrPct, qualLen, volHighP)
+regimeOk = (er >= erThr) and (chop <= chopThr) and (wickBodyAvg <= wickThr) and (atrPct >= atrLow) and (atrPct <= atrHigh)
+
+feePctConst = 0.04
+slipTicksConst = 3
+slipPct_oneWay = (slipTicksConst * syminfo.mintick) / close * 100.0
+costPct_roundTrip = 2.0 * (feePctConst + slipPct_oneWay)
+edgeMult = input.float(3.0, "비용 대비 최소 여유배수(edgeMult)", step=0.1, minval=1.0)
+
+emaFastLen = input.int(20, "EMA Fast", minval=2)
+emaSlowLen = input.int(60, "EMA Slow", minval=2)
+emaFast = ta.ema(close, emaFastLen)
+emaSlow = ta.ema(close, emaSlowLen)
+slopeLen = input.int(10, "EMA Slow 기울기 길이", minval=2)
+emaSlowSlope = emaSlow - emaSlow[slopeLen]
+slopeOkLong = emaSlowSlope > 0
+slopeOkShort = emaSlowSlope < 0
+
+extMult = input.float(2.2, "과열회피: EMA Slow 이격 ATR배(낮을수록 엄격)", step=0.1)
+extOkLong = (close - emaSlow) <= extMult * atr
+extOkShort = (emaSlow - close) <= extMult * atr
+
+minBarsBetween = input.int(6, "최소 재진입 간격(바)", minval=0)
+var int lastEntryBar = na
+canReenter = na(lastEntryBar) ? true : (bar_index - lastEntryBar >= minBarsBetween)
+
+stopMult = input.float(1.8, "SL: ATR배", step=0.1)
+rr = input.float(3.0, "RR: TP/SL", step=0.1)
+
+tpDistPctNow = ((rr * stopMult) * atr / close) * 100.0
+allowByCost = tpDistPctNow >= costPct_roundTrip * edgeMult
+
+pbWait = input.int(8, "풀백 대기 유효기간(바)", minval=1)
+pbDepthMax = input.float(1.2, "풀백 깊이 최대(ATR배)", step=0.1)
+bodyAtrMin = input.float(0.65, "회복 바디/ATR 최소", step=0.05)
+closePosMin = input.float(0.72, "회복 종가 위치 최소(0~1)", step=0.01)
+
+rangeNow = math.max(high - low, syminfo.mintick)
+closePos = (close - low) / rangeNow
+closePosShort = (high - close) / rangeNow
+
+pullDepthLong = (emaFast - low) / atr
+pullDepthShort = (high - emaFast) / atr
+
+var bool pendLong = false
+var bool pendShort = false
+var int pendBar = na
+
+posNow = strategy.position_size
+posPrev = strategy.position_size[1]
+justEntered = (posNow != 0 and posPrev == 0)
+justExited = (posNow == 0 and posPrev != 0)
+
+var float fixStop = na
+var float fixTP = na
+var float atrOnFill = na
+
+if justExited
+    fixStop := na
+    fixTP := na
+    atrOnFill := na
+
+allowCoreLong = regimeOk and allowByCost and canReenter and extOkLong
+allowCoreShort = regimeOk and allowByCost and canReenter and extOkShort
+
+setPendLong = allowCoreLong and posNow <= 0 and emaFast > emaSlow and slopeOkLong and low <= emaFast and close < emaFast and close > emaSlow and pullDepthLong >= 0 and pullDepthLong <= pbDepthMax
+setPendShort = allowCoreShort and posNow >= 0 and emaFast < emaSlow and slopeOkShort and high >= emaFast and close > emaFast and close < emaSlow and pullDepthShort >= 0 and pullDepthShort <= pbDepthMax
+
+if setPendLong
+    pendLong := true
+    pendShort := false
+    pendBar := bar_index
+
+if setPendShort
+    pendShort := true
+    pendLong := false
+    pendBar := bar_index
+
+pendActive = not na(pendBar) and (bar_index - pendBar <= pbWait)
+if pendLong and not pendActive
+    pendLong := false
+if pendShort and not pendActive
+    pendShort := false
+
+confLong = pendLong and pendActive and posNow <= 0 and emaFast > emaSlow and slopeOkLong and extOkLong and close > emaFast and close > emaSlow and close > open and (close - open) >= bodyAtrMin * atr and closePos >= closePosMin and wickBodyAvg <= wickThr
+confShort = pendShort and pendActive and posNow >= 0 and emaFast < emaSlow and slopeOkShort and extOkShort and close < emaFast and close < emaSlow and close < open and (open - close) >= bodyAtrMin * atr and closePosShort >= closePosMin and wickBodyAvg <= wickThr
+
+if confLong
+    strategy.entry("L", strategy.long)
+    lastEntryBar := bar_index
+    pendLong := false
+    pendBar := na
+
+if confShort
+    strategy.entry("S", strategy.short)
+    lastEntryBar := bar_index
+    pendShort := false
+    pendBar := na
+
+if justEntered
+    atrOnFill := atr
+    if posNow > 0
+        fixStop := strategy.position_avg_price - stopMult * atrOnFill
+        fixTP := strategy.position_avg_price + (rr * stopMult) * atrOnFill
+    if posNow < 0
+        fixStop := strategy.position_avg_price + stopMult * atrOnFill
+        fixTP := strategy.position_avg_price - (rr * stopMult) * atrOnFill
+
+if posNow > 0 and not na(fixStop) and not na(fixTP)
+    strategy.exit("XL", from_entry="L", stop=fixStop, limit=fixTP)
+if posNow < 0 and not na(fixStop) and not na(fixTP)
+    strategy.exit("XS", from_entry="S", stop=fixStop, limit=fixTP)
