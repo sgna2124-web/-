@@ -1,0 +1,25 @@
+[백테스트 출력 로그 발췌]
+
+(전체 다종목 장기)
+- v42 (RR 3.1): 최종 4.48, MDD -95.8%, max_position 138
+- v42N (RR 3.1): 최종 93.66, MDD -33.73%, max_position 62
+- mix (RR 3.1): 최종 11.37, MDD -89.19%, max_position 126
+
+(RR 3.6)
+- v42N: 최종 89.67, MDD -35.02%, max_position 62
+- A안(파동폭 필터) 1.0: 최종 91.19, MDD -16.4%, max_position 17
+- A안 1.2: 최종 92.38, MDD -16.11%, max_position 12
+
+(긴 데이터 20개)
+- v42N RR 3.6: 최종 91.4, MDD -10.51%, max_position 6
+- A안 1.0: 최종 99.13, MDD -3.64%, max_position 3
+- A안 1.2: 최종 98.97, MDD -3.82%, max_position 3
+- Long only(A안): 최종 99.12, MDD -2.67%, max_position 2
+- pbMax09(A안): 최종 98.98, MDD -4.62%, max_position 3
+- pbWait05(A안): 최종 99.9, MDD -3.36%, max_position 3
+
+(STOP_MULT=2.0)
+- v42N RR 3.6: 최종 91.76, MDD -10.89%, max_position 6
+
+판정 요약
+- 5분봉+고정 SLTP+TrendPullback 진입 정의 조합에서 기대값이 얇거나 음수로 판단되어 실패.
