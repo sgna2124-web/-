@@ -1,0 +1,7 @@
+//@version=5
+strategy("OHLCV TrendPullback 4.3 (No BE, Headroom+WickNow)", overlay=true, initial_capital=10000, default_qty_type=strategy.percent_of_equity, default_qty_value=1, commission_type=strategy.commission.percent, commission_value=0.04, slippage=3, pyramiding=0, process_orders_on_close=true)
+
+// NOTE: 4.2(BE OFF) 대비 진입 필터(헤드룸/진입꼬리/쇼크/분할익절 옵션) 추가.
+// 테스트 결과: MDD 감소는 가능하나 총수익이 깎이는 경향으로 5m에서는 4.2보다 열세.
+
+// (전체 코드는 대화 로그를 참조. 저장소에는 요약/보관 목적 텍스트로 둠)
