@@ -1,0 +1,93 @@
+                    if e_range > 0:
+                        body_ratio = e_body / e_range
+
+                        bullish_event = e_close > e_open
+                        bearish_event = e_close < e_open
+
+                        bullish_edge_close = (e_high - e_close) / e_range
+                        bearish_edge_close = (e_close - e_low) / e_range
+
+                        event_big_enough = e_range >= avg_r * event_min_mult
+                        event_not_too_big = e_range <= avg_r * event_max_mult
+                        event_valid_size = event_big_enough and event_not_too_big
+
+                        net_move = abs(ctx_close_prev - ctx_open)
+                        trend_eff = net_move / gross_move if gross_move > 0 else np.nan
+
+                        e_close_pos = (e_close - box_low) / ctx_span
+                        e_low_pos = (e_low - box_low) / ctx_span
+                        e_high_pos = (e_high - box_low) / ctx_span
+
+                        top_extreme_ok = (e_close_pos >= (1.0 - extreme_pct)) and (e_high_pos >= (1.0 - extreme_pct))
+                        bottom_extreme_ok = (e_close_pos <= extreme_pct) and (e_low_pos <= extreme_pct)
+
+                        up_accel_ok = (pre2_close > pre3_close) and (pre3_close > pre4_close)
+                        down_accel_ok = (pre2_close < pre3_close) and (pre3_close < pre4_close)
+
+                        bull_body = (e_close - e_open) if bullish_event else np.nan
+                        bear_body = (e_open - e_close) if bearish_event else np.nan
+
+                        short_reclaim_level = e_close - bull_body * reclaim_frac if bullish_event else np.nan
+                        long_reclaim_level = e_close + bear_body * reclaim_frac if bearish_event else np.nan
+
+                        confirm_short_color = pre_close < pre_open
+                        confirm_long_color = pre_close > pre_open
+
+                        confirm_short_reclaim = bullish_event and (pre_close <= short_reclaim_level)
+                        confirm_long_reclaim = bearish_event and (pre_close >= long_reclaim_level)
+
+                        s1 = bullish_event and event_valid_size and (body_ratio >= body_ratio_min) and (bullish_edge_close <= edge_ratio_max) and (trend_eff >= trend_eff_min) and top_extreme_ok and up_accel_ok and confirm_short_color and confirm_short_reclaim
+                        l1 = bearish_event and event_valid_size and (body_ratio >= body_ratio_min) and (bearish_edge_close <= edge_ratio_max) and (trend_eff >= trend_eff_min) and bottom_extreme_ok and down_accel_ok and confirm_long_color and confirm_long_reclaim
+
+                # 손절
+                if long_count == 1 and pre_low <= long_more:
+                    profit = (long_more - long_avr_price) / long_avr_price * 100
+                    profit3 = long_seed * profit / 100
+                    fee = ((long_seed + profit3) * 0.0004)
+                    seed += profit3 - fee
+
+                    long_count = 0
+                    long_ea = 0
+
+                    date_list.append(df.date.iloc[i])
+                    count_list.append(long_count)
+                    count_list2.append(long_count)
+                    win_list.append('l')
+                    side_list.append('Long')
+                    stat_list.append('손절')
+                    in_price_list.append(long_more)
+                    av_price_list.append(long_avr_price)
+                    profit_list.append(profit)
+                    profit2_list.append(profit)
+                    profit3_list.append(profit3)
+                    fee_list.append(fee)
+                    symbol_list.append(ss)
+                    danger_list.append(long_seed)
+
+                    long_price_list = []
+                    long_ea_list = []
+
+                # 본절
+                if long_count >= 2 and pre_low <= long_more:
+                    profit = (long_more - long_avr_price) / long_avr_price * 100
+                    profit3 = long_seed * profit / 100
+                    fee = ((long_seed + profit3) * 0.0004)
+                    seed += profit3 - fee
+
+                    long_count = 0
+                    long_ea = 0
+
+                    date_list.append(df.date.iloc[i])
+                    count_list.append(long_count)
+                    count_list2.append(long_count)
+                    win_list.append('d')
+                    side_list.append('Long')
+                    stat_list.append('본절')
+                    in_price_list.append(long_more)
+                    av_price_list.append(long_avr_price)
+                    profit_list.append(profit)
+                    profit2_list.append(profit)
+                    profit3_list.append(profit3)
+                    fee_list.append(fee)
+                    symbol_list.append(ss)
+                    danger_list.append(long_seed)
