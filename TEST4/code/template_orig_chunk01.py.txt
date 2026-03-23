@@ -1,0 +1,185 @@
+"""추세"""
+import ccxt, time
+import pandas as pd
+import math, os, datetime, ta
+import numpy as np
+from collections import deque
+import matplotlib.pyplot as plt
+
+file_name = "5m Immediate_Climax_Reversal 1 RR2"
+print(file_name)
+
+def run_(prange, hl_period, skip_length, for_check, for_check_nu):
+    # coin_df = pd.read_excel('코인\\Data\\cir\\1h_-1440_-720.xlsx')
+    # coin_df = pd.read_csv('코인\\20_15m1m\\symbol_cost')
+    coin_df = pd.read_csv('symbol_cost')
+    coin_df = coin_df.sort_index(ascending=False)
+    # coin_df = coin_df.loc[coin_df.symbol == 'MYX/USDT']
+
+    # 거래내역 저장시 1
+    trade_record = 1
+
+    ap_list = []
+    aw_list = []
+    al_list = []
+    mc_list = []
+
+    a = 0
+    long_seed = 0
+    long_more = 0
+    short_seed = 0
+    short_more = 0
+
+    date_list = []
+    side_list = []
+    stat_list = []
+    price_list = []
+    profit_list = []
+    profit3_list = []
+    fee_list = []
+    count_list = []
+    in_price_list = []
+    av_price_list = []
+    symbol_list = []
+    symbol2_list = []
+    pp_list = []
+    danger_list = []
+
+    max_symbol = ""
+    max_profit = 0
+
+    min_symbol = ""
+    min_profit = 0
+    
+    # 선행파일 확인 1
+    aleady_simul = 1
+    for ss in coin_df.symbol:
+        if os.path.exists('코인\\Data\\cir\\거래결과{}.xlsx'.format(file_name)) and aleady_simul == 1 and len(coin_df) > 1:
+            df_sm = pd.read_excel('코인\\Data\\cir\\거래결과{}.xlsx'.format(file_name))
+            aleady_simul = 1
+            break
+        else:
+            aleady_simul = 0
+
+        if ss == "BTCST/USDT" or ss == "USDC/USDT" or ss == "GAIB/USDT" or ss == "XEM/USDT" or ss == "VOXEL/USDT" or ss == "BAKE/USDT" or ss == "UNFI/USDT":
+            continue
+
+        count_list2 = []
+
+        a += 1
+
+        win_list = []
+        profit2_list = []
+
+        seed = 100
+        seed2 = 100
+        devide = 100
+
+        ss_ = ss.replace("/USDT","")
+        time_1 = '5m'
+        time_2 = '15m'
+        time_3 = '1h'
+        time_4 = '4h'
+        time_5 = '1d'
+        df = pd.read_excel('코인\\Data\\time\\{}_{}.xlsx'.format(ss_,time_1))
+
+        range_base = len(df)
+
+        long_price_list = []
+        long_ea_list = []
+        short_price_list = []
+        short_ea_list = []
+        short_ea_list = []
+
+        long_count = 0
+        short_count = 0
+        
+        # ============================== datetime 컬럼 변환 ==============================
+        df["datetime"] = pd.to_datetime(df["date"])
+
+        # ============================== Immediate Climax Reversal ==============================
+        ctx_len = 48
+        range_len = 48
+
+        event_min_mult = 3.5
+        event_max_mult = 8.0
+        body_ratio_min = 0.70
+        edge_ratio_max = 0.10
+
+        trend_eff_min = 0.25
+        extreme_pct = 0.15
+
+        reclaim_frac = 0.20
+        stop_buffer_k = 0.10
+        rr_mult = 2.0
+
+        bar_range = df.high - df.low
+        avg_range = bar_range.rolling(window=range_len).mean()
+
+        # 진행 효율 계산용
+        step_move = (df.close - df.close.shift(1)).abs()
+        gross_move_ctx = step_move.shift(1).rolling(window=ctx_len).sum()
+
+        # 문맥 끝단 위치
+        ctx_high = df.high.shift(1).rolling(window=ctx_len).max()
+        ctx_low = df.low.shift(1).rolling(window=ctx_len).min()
+
+        long_c = 0
+        long_end = 0
+        short_c = 0
+        short_end = 0
+
+        endrange = range_base if len(df) > range_base else len(df)
+
+        for i in range(0, len(df)):
+            t = df.iloc[i]["datetime"]
+
+            if i > max(skip_length, ctx_len + 5):
+                pre_vol = df.volume.iloc[i]
+                pre_close = df.close.iloc[i]
+                pre2_close = df.close.iloc[i-1]
+                pre3_close = df.close.iloc[i-2]
+                pre4_close = df.close.iloc[i-3]
+                pre5_close = df.close.iloc[i-4]
+
+                pre_open = df.open.iloc[i]
+                pre2_open = df.open.iloc[i-1]
+                pre3_open = df.open.iloc[i-2]
+                pre4_open = df.open.iloc[i-3]
+
+                pre_high = df.high.iloc[i]
+                pre2_high = df.high.iloc[i-1]
+                pre3_high = df.high.iloc[i-2]
+                pre4_high = df.high.iloc[i-3]
+
+                pre_low = df.low.iloc[i]
+                pre2_low = df.low.iloc[i-1]
+                pre3_low = df.low.iloc[i-2]
+                pre4_low = df.low.iloc[i-3]
+
+                avg_r = avg_range.iloc[i-1]
+                gross_move = gross_move_ctx.iloc[i]
+                ctx_open = df.open.iloc[i - 1 - ctx_len] if i - 1 - ctx_len >= 0 else np.nan
+                ctx_close_prev = pre2_close
+
+                box_high = ctx_high.iloc[i]
+                box_low = ctx_low.iloc[i]
+                ctx_span = box_high - box_low if pd.notna(box_high) and pd.notna(box_low) else np.nan
+
+                l1 = False
+                s1 = False
+
+                if pd.notna(avg_r) and avg_r > 0 and pd.notna(gross_move) and gross_move > 0 and pd.notna(ctx_open) and pd.notna(ctx_span) and ctx_span > 0:
+                    # 이벤트 봉 = 직전 봉
+                    e_open = pre2_open
+                    e_close = pre2_close
+                    e_high = pre2_high
+                    e_low = pre2_low
+                    e_range = e_high - e_low
+                    e_body = abs(e_close - e_open)
+
+                    if e_range > 0:
+                        body_ratio = e_body / e_range
+
+                        bullish_event = e_close > e_open
+
