@@ -1,0 +1,15 @@
+{
+  "strategy": "overextension_reversion_v1",
+  "status": "benchmark_confirmed_from_session_notes",
+  "position_size": 0.01,
+  "fee_per_side": 0.0004,
+  "final_asset": 1.572,
+  "final_return": 0.572,
+  "pf": 1.098,
+  "win_rate": 0.4009,
+  "mdd": -0.1195,
+  "max_conc": 192,
+  "peak_asset": 1.68,
+  "peak_growth": 0.68,
+  "note": "reconstructed benchmark result from confirmed conversation metrics"
+}
