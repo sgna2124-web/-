@@ -1,0 +1,9 @@
+{
+  "zip_file": "CGPT_5m.zip",
+  "total_symbol_files": 242,
+  "min_rows": 11660,
+  "median_rows": 57822.5,
+  "max_rows": 109755,
+  "global_start": "2024-12-21 03:45:00",
+  "global_end": "2026-01-12 07:20:00"
+}
