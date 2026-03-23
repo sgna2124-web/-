@@ -1,0 +1,8 @@
+1. Read README.md
+2. Read 01_current_benchmark_strategy.md
+3. Read results/benchmark_overextension_reversion_v1_result.json
+4. Read results/benchmark_overextension_reversion_v1_rerun_actual.json
+5. Run code/run_overextension_reversion_v1.py with CGPT_5m.zip in working directory
+6. Save outputs to results/ and data/
+7. Compare rerun metrics vs benchmark note metrics
+8. Then move to code/run_strategy_batch_candidates.py and implement next queue
