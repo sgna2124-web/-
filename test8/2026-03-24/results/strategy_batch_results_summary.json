@@ -1,0 +1,61 @@
+[
+  {
+    "strategy": "failed_breakout_reversal_long_short",
+    "status": "rejected",
+    "final_asset": 0.0359,
+    "pf": 0.805,
+    "win_rate": 0.3564,
+    "mdd": -0.9641,
+    "max_conc": 148,
+    "trades": 463337,
+    "note": "20-bar breakout failure and close-back-inside reversal; completely rejected"
+  },
+  {
+    "strategy": "failed_breakout_reversal_long_short_with_tp_filter",
+    "status": "rejected",
+    "final_asset": 0.329,
+    "pf": 0.834,
+    "mdd": -0.671,
+    "max_conc": 97,
+    "note": "TP expected value >= 0.3% filter added but still rejected"
+  },
+  {
+    "strategy": "ema_overextension_mean_reversion_initial_variant",
+    "status": "borderline_then_rejected",
+    "final_asset": 0.947,
+    "pf": 1.003,
+    "mdd": -0.353,
+    "max_conc": 148,
+    "note": "near breakeven variant before benchmark refinement"
+  },
+  {
+    "strategy": "compression_expansion_breakout_long_short",
+    "status": "rejected",
+    "final_asset": 0.947,
+    "pf": 0.864,
+    "mdd": -0.061,
+    "max_conc": 17,
+    "note": "drawdown low but still losing strategy"
+  },
+  {
+    "strategy": "trend_pullback_reentry_long_short",
+    "status": "rejected",
+    "final_asset": 0.031,
+    "pf": 0.879,
+    "mdd": -0.973,
+    "max_conc": 178,
+    "note": "catastrophic result; fully rejected"
+  },
+  {
+    "strategy": "overextension_reversion_v1",
+    "status": "benchmark_current_best",
+    "final_asset": 1.572,
+    "pf": 1.098,
+    "win_rate": 0.4009,
+    "mdd": -0.1195,
+    "max_conc": 192,
+    "peak_asset": 1.68,
+    "peak_growth": 0.68,
+    "note": "current benchmark"
+  }
+]
