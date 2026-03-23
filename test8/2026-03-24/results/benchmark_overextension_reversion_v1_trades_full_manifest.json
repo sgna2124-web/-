@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "benchmark_overextension_reversion_v1_trades_part_01.csv",
+    "rows": 8018,
+    "bytes": 725046,
+    "sha256": "f0699b8a000bca5e278a849ad9f114948daa720e6f47015f84f89231af1bb0c7"
+  },
+  {
+    "filename": "benchmark_overextension_reversion_v1_trades_part_02.csv",
+    "rows": 8018,
+    "bytes": 722142,
+    "sha256": "d68724b3b19965813b8a571346f3be354abacdaed34539c2678a88a07956bcd2"
+  },
+  {
+    "filename": "benchmark_overextension_reversion_v1_trades_part_03.csv",
+    "rows": 8018,
+    "bytes": 720825,
+    "sha256": "fbc14ca2fe83d558dbeb0d4090609382dde9878eb727908480e93b2730acc34c"
+  },
+  {
+    "filename": "benchmark_overextension_reversion_v1_trades_part_04.csv",
+    "rows": 8018,
+    "bytes": 726441,
+    "sha256": "f69b2ad2a8f720080eb0caf716e06f9e896dd0ca29c33046c94e051e7d9c2595"
+  },
+  {
+    "filename": "benchmark_overextension_reversion_v1_trades_part_05.csv",
+    "rows": 8017,
+    "bytes": 726540,
+    "sha256": "660cd6f829d2cdde01c9d78776db69ad5073cd284468d3f5f88190144ae79990"
+  }
+]
