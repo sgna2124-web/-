@@ -1,0 +1,209 @@
+   side_list.append('Short')
+                    stat_list.append('본절')
+                    profit_list.append(profit)
+                    profit2_list.append(profit)
+                    profit3_list.append(profit3)
+                    fee_list.append(fee)
+                    in_price_list.append(short_more)
+                    av_price_list.append(short_avr_price)
+                    symbol_list.append(ss)
+                    danger_list.append(short_seed)
+
+                    short_price_list = []
+                    short_ea_list = []
+
+                elif short_count >= 1 and (pre_low <= short_end):
+                    profit = (short_avr_price - short_end) / short_avr_price * 100
+                    if pre_low > short_end:
+                        profit = (short_avr_price - df.close.iloc[i]) / short_avr_price * 100
+                    profit3 = short_seed * profit / 100
+                    short_price_list = []
+                    short_ea_list = []
+                    short_count = 0
+                    short_ea = 0
+                    fee = ((short_seed + profit3) * 0.0004)
+                    seed += profit3 - fee
+
+                    date_list.append(df.date.iloc[i])
+                    count_list.append(short_count)
+                    count_list2.append(short_count)
+                    if profit < 0:
+                        win_list.append('l')
+                    else:
+                        win_list.append('w')
+                    side_list.append('Short')
+                    profit_list.append(profit)
+                    profit2_list.append(profit)
+                    profit3_list.append(profit3)
+                    fee_list.append(fee)
+                    if pre_low > short_end:
+                        in_price_list.append(df.close.iloc[i])
+                    else:
+                        in_price_list.append(short_end)
+                    stat_list.append('정리')
+                    av_price_list.append(short_avr_price)
+                    symbol_list.append(ss)
+                    danger_list.append(short_seed)
+
+                elif short_count >= 1 and (pre_close < short_avr_price) and False:
+                    profit = (short_avr_price - pre_close) / short_avr_price * 100
+                    profit3 = short_seed * profit / 100
+                    fee = ((short_seed + profit3) * 0.0004)
+                    seed += profit3 - fee
+                    short_price_list = []
+                    short_ea_list = []
+                    short_count = 0
+
+                    date_list.append(df.date.iloc[i])
+                    count_list.append(short_count)
+                    count_list2.append(short_count)
+                    win_list.append('d')
+                    side_list.append('Short')
+                    profit_list.append(profit)
+                    profit2_list.append(profit)
+                    profit3_list.append(profit3)
+                    fee_list.append(fee)
+                    in_price_list.append(pre_close)
+                    stat_list.append('익절')
+                    av_price_list.append(short_avr_price)
+                    symbol_list.append(ss)
+                    danger_list.append(short_seed)
+
+                # Short Signal
+                if short_count == 0 and s1:
+                    short_count = 1
+                    short_ea = 1
+                    entry_price = pre_close
+                    devide = 1
+                    short_seed = seed * 1
+                    fee = seed * 1 * 0.0004
+                    seed -= fee
+                    short_avr_price = entry_price
+
+                    event_high = pre2_high
+                    short_more = event_high + avg_r * stop_buffer_k
+                    short_buy_atr = abs(entry_price - short_more)
+                    short_end = entry_price - short_buy_atr * rr_mult
+
+                    devide = abs(entry_price-short_more)/entry_price
+
+                    short_price_list.append(entry_price)
+                    short_ea_list.append(short_ea)
+                    date_list.append(df.date.iloc[i])
+                    count_list.append(short_count)
+                    count_list2.append(short_count)
+                    win_list.append('o')
+                    side_list.append('Short')
+                    stat_list.append('오픈')
+                    profit_list.append(0)
+                    profit2_list.append(0)
+                    profit3_list.append(0)
+                    fee_list.append(fee)
+                    in_price_list.append(entry_price)
+                    av_price_list.append(entry_price)
+                    symbol_list.append(ss)
+                    danger_list.append(devide)
+
+        if len(win_list) == 0:
+            last_profit = 0
+            pass
+        else:
+            w = win_list.count('w')
+            l = win_list.count('l')
+            all_ = w + l
+            aw_list.append(w)
+            al_list.append(l)
+            max_count = max(count_list2)
+            last_profit = round(seed - seed2,2)
+            sum_profit = round((seed - seed2)/seed2*100,2)
+            ap_list.append(last_profit)
+
+            if max_profit < last_profit:
+                max_symbol = ss
+                max_profit = last_profit
+            if min_profit > last_profit:
+                min_symbol = ss
+                min_profit = last_profit
+            if max_count >= 10:
+                mc_list.append(max_count)
+
+        tr_data = {'Symbol' : symbol_list, 'Date' : date_list, 'count_' : count_list, 'side':side_list, 'stat':stat_list, 'price':in_price_list, 'av_price':av_price_list, '자산비중':danger_list, '수익':profit3_list, '수수료':fee_list, '수익률':profit_list}
+        symbol2_list.append(ss)
+        pp_list.append(last_profit)
+        tr_data2 = {'Symbol' : symbol2_list, '자산' : pp_list}
+    
+    if aleady_simul == 0:
+        df_sm = pd.DataFrame(tr_data)
+        df_sm2 = pd.DataFrame(tr_data2)
+        df_sm = df_sm.sort_values('Date')
+        df_sm2 = df_sm2.sort_values('자산')
+        ss = ss.replace("/USDT","")
+
+        if len(df_sm) > 0:
+            print('기간 {} ~ {}'.format(df_sm.Date.iloc[0], df_sm.Date.iloc[-1]))
+        else:
+            print("거래없음")
+
+        win_rating = 0
+        if sum(aw_list) == 0 or sum(al_list) == 0:
+            pass
+        else:
+            win_rating = round(sum(aw_list)/(sum(aw_list)+sum(al_list))*100,2)
+            print('총 승률 : ',win_rating,"%")
+        print('총 승 : ',sum(aw_list))
+        print('총 패 : ',sum(al_list))
+        print('최대 수익 종목 : {} {}'.format(max_symbol,max_profit))
+        print('최대 손실 종목 : {} {}'.format(min_symbol,min_profit))
+        
+        try:
+            if for_check <= for_check_nu:
+                if len(coin_df) == 1:
+                    df_sm.to_excel('코인\\Data\\cir\\{}_{}.xlsx'.format(file_name,ss_), sheet_name='sheet1')
+                else: 
+                    df_sm2.to_excel('코인\\Data\\cir\\결과_{}.xlsx'.format(file_name), sheet_name='sheet1')
+                if trade_record == 1 and len(coin_df) > 1:
+                    df_sm.to_excel('코인\\Data\\cir\\거래결과{}.xlsx'.format(file_name), sheet_name='sheet1')
+        except:
+            print("결과저장에러")
+
+    base_money = 100
+    money = 100
+    fee_rate = 0.0004
+    symbol_list = []
+    asset_list = []
+    count_list = []
+    side_list = []
+    devide = 100
+    in_money = money / 100
+    max_ = 100
+    mdd = 0     
+    lev = 10
+    max_position = 0
+    day_max = 100
+    yday = 100
+    cash = 0
+    len_dev = 0
+
+    d_list = []
+    p_list = []
+    maxp_list = []
+    mdd_list = []
+    now_mdd_list = []
+    pnl_list=[]
+    in_money_list=[]
+    len_dev_list=[]
+    have_list = []
+
+    for i in range(len(df_sm)):
+        if df_sm.Date.iloc[i] != df_sm.Date.iloc[i-1]:
+            dev = df_sm[(df_sm['Date'] == df_sm.Date.iloc[i]) & (df_sm['count_'] == 1)]
+            len_dev = len(dev)
+
+            if len_dev > 100:
+                devide = len_dev
+            else:
+                devide = 100
+
+            in_money = money / 100
+
+        if df_sm.count_.iloc[i] == 1:
