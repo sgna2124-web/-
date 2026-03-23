@@ -1,0 +1,12 @@
+{
+  "strategy": "string",
+  "trades": "int",
+  "final_asset": "float",
+  "final_return": "float",
+  "peak_asset": "float",
+  "peak_growth": "float",
+  "win_rate": "float",
+  "pf": "float",
+  "mdd": "float",
+  "max_conc": "int"
+}
