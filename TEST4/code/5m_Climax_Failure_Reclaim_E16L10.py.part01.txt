@@ -1,0 +1,101 @@
+"""
+추세"""
+import ccxt, time
+import pandas as pd
+import math, os, datetime, ta
+import numpy as np
+from collections import deque
+import matplotlib.pyplot as plt
+
+file_name = "5m Climax_Failure_Reclaim E16L10 RRmix"
+print(file_name)
+
+def run_(prange, hl_period, skip_length, for_check, for_check_nu):
+    # coin_df = pd.read_excel('코인\\Data\\cir\\1h_-1440_-720.xlsx')
+    # coin_df = pd.read_csv('코인\\20_15m1m\\symbol_cost')
+    coin_df = pd.read_csv('symbol_cost')
+    coin_df = coin_df.sort_index(ascending=False)
+    # coin_df = coin_df.loc[coin_df.symbol == 'MYX/USDT']
+
+    # 거래내역 저장시 1
+    trade_record = 1
+
+    ap_list = []
+    aw_list = []
+    al_list = []
+    mc_list = []
+
+    a = 0
+    long_seed = 0
+    long_more = 0
+    short_seed = 0
+    short_more = 0
+
+    date_list = []
+    side_list = []
+    stat_list = []
+    price_list = []
+    profit_list = []
+    profit3_list = []
+    fee_list = []
+    count_list = []
+    in_price_list = []
+    av_price_list = []
+    symbol_list = []
+    symbol2_list = []
+    pp_list = []
+    danger_list = []
+
+    max_symbol = ""
+    max_profit = 0
+
+    min_symbol = ""
+    min_profit = 0
+    
+    # 선행파일 확인 1
+    aleady_simul = 1
+    for ss in coin_df.symbol:
+        if os.path.exists('코인\\Data\\cir\\거래결과{}.xlsx'.format(file_name)) and aleady_simul == 1 and len(coin_df) > 1:
+            df_sm = pd.read_excel('코인\\Data\\cir\\거래결과{}.xlsx'.format(file_name))
+            aleady_simul = 1
+            break
+        else:
+            aleady_simul = 0
+
+        if ss == "BTCST/USDT" or ss == "USDC/USDT" or ss == "GAIB/USDT" or ss == "XEM/USDT" or ss == "VOXEL/USDT" or ss == "BAKE/USDT" or ss == "UNFI/USDT":
+            continue
+
+        count_list2 = []
+
+        a += 1
+
+        win_list = []
+        profit2_list = []
+
+        seed = 100
+        seed2 = 100
+        devide = 100
+
+        ss_ = ss.replace("/USDT","")
+        time_1 = '5m'
+        time_2 = '15m'
+        time_3 = '1h'
+        time_4 = '4h'
+        time_5 = '1d'
+        df = pd.read_excel('코인\\Data\\time\\{}_{}.xlsx'.format(ss_,time_1))
+
+        range_base = len(df)
+
+        long_price_list = []
+        long_ea_list = []
+        short_price_list = []
+        short_ea_list = []
+        short_ea_list = []
+
+        long_count = 0
+        short_count = 0
+        
+        # ============================== datetime 컬럼 변환 ==============================
+        df["datetime"] = pd.to_datetime(df["date"])
+
+
