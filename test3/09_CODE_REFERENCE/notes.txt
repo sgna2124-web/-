@@ -1,0 +1,20 @@
+코드 레퍼런스 노트
+
+핵심 원칙
+- 기존 엔진 틀 유지
+- 진입 조건과 진입 시 고정 SL/TP만 수정
+- 결과 출력/시계열 순차 시뮬/엑셀 저장 구조는 유지
+
+중요 파일
+- state_miner_v1.py : 5분 OHLCV 상태 공간 대규모 탐색기
+- failed_displacement_reclaim_v1_engine.py : 최근 수용 범위 이탈 후 reclaim 사건 기반 전략
+- threshold_scanner_v1.py : 연속형 피처 임계값 조합 탐색기
+- event_scanner_ohlcv_v2.py : train/test와 robust score 기반 이벤트 스캐너
+
+주의사항
+- xlsx 전체를 아무렇게나 읽지 말 것
+- *_5m.xlsx 형식만 대상으로 할 것
+- 컬럼 normalize 필요
+- 필수 컬럼: date/open/high/low/close/volume
+- 승률만 보는 간이 코드 금지
+- 장난감 단일 종목 백테스트 금지
