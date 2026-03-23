@@ -1,0 +1,13 @@
+{
+  "strategy": "overextension_reversion_v1_rebalanced_by_max_concurrency",
+  "status": "rebalanced_reference_from_session_notes",
+  "initial_asset": 1.0,
+  "final_asset": 1.297,
+  "final_return": 0.297,
+  "mdd": -0.0635,
+  "peak_asset": 1.34,
+  "peak_growth": 0.34,
+  "base_max_conc": 192,
+  "rebalanced_position_fraction_note": "reference note only; session said capital should be resized by max concurrent positions",
+  "note": "reconstructed from confirmed conversation metrics"
+}
