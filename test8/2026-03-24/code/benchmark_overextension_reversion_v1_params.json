@@ -1,0 +1,16 @@
+{
+  "strategy": "overextension_reversion_v1",
+  "fee_per_side": 0.0004,
+  "position_size": 0.01,
+  "min_expected_tp": 0.003,
+  "ema_length": 20,
+  "deviation_threshold": 0.025,
+  "long_rsi_max": 28.0,
+  "short_rsi_min": 72.0,
+  "atr_length": 14,
+  "atr_stop_mult": 1.5,
+  "rr_cap": 2.2,
+  "entry_rule": "signal_next_bar_open",
+  "exit_rule": "ema20_revert_or_r_cap",
+  "note": "reconstructed benchmark parameter file based on confirmed session metrics"
+}
