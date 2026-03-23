@@ -1,0 +1,15 @@
+{
+  "strategy": "overextension_reversion_v1_reconstructed_runner",
+  "position_size": 0.01,
+  "fee_per_side": 0.0004,
+  "trades": 40089,
+  "final_asset": 1.623475171496789,
+  "final_return": 0.623475171496789,
+  "peak_asset": 1.672867968224219,
+  "peak_growth": 0.6728679682242189,
+  "win_rate": 0.37733542867120656,
+  "pf": 1.0842901214653384,
+  "mdd": -0.13634414766228276,
+  "max_conc": 194,
+  "note": "actual rerun from reconstructed local runner using uploaded CGPT_5m.zip"
+}
