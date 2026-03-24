@@ -1,0 +1,59 @@
+{
+  "group_name": "combinations",
+  "experiments": [
+    {
+      "name": "combo_tp006_shortstrict",
+      "description": "기대 TP 하한 상향 + 숏 보수화",
+      "enabled": false,
+      "overrides": {
+        "risk": {
+          "min_expected_tp": 0.006
+        },
+        "signal": {
+          "short_dev": 0.032,
+          "short_rsi_min": 76,
+          "short_wick_mult": 1.3
+        }
+      }
+    },
+    {
+      "name": "combo_tp006_cooldown12",
+      "description": "기대 TP 하한 상향 + 12봉 쿨다운",
+      "enabled": false,
+      "overrides": {
+        "risk": {
+          "min_expected_tp": 0.006
+        },
+        "trade_control": {
+          "cooldown_bars_same_symbol_same_side": 12
+        }
+      }
+    },
+    {
+      "name": "combo_shortstrict_cooldown12",
+      "description": "숏 보수화 + 12봉 쿨다운",
+      "enabled": false,
+      "overrides": {
+        "signal": {
+          "short_dev": 0.032,
+          "short_rsi_min": 76,
+          "short_wick_mult": 1.3
+        },
+        "trade_control": {
+          "cooldown_bars_same_symbol_same_side": 12
+        }
+      }
+    },
+    {
+      "name": "combo_tp006_timeout24",
+      "description": "기대 TP 하한 상향 + 보유 시간 단축",
+      "enabled": false,
+      "overrides": {
+        "risk": {
+          "min_expected_tp": 0.006,
+          "timeout_bars": 24
+        }
+      }
+    }
+  ]
+}
