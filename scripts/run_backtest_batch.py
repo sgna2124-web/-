@@ -21,34 +21,31 @@ DATA_DIR = ROOT / "5m_data"
 RESULT_DIR = ROOT / "results" / "latest"
 
 def load_symbol_df(path: Path) -> pd.DataFrame:
+    with open(path, "r", encoding="utf-8", errors="ignore") as f:
+        first_line = f.readline().strip()
+
+    if first_line.startswith("version https://git-lfs.github.com/spec/"):
+        raise ValueError(
+            f"{path.name} 는 실제 CSV가 아니라 Git LFS 포인터 파일입니다. "
+            "GitHub Actions checkout 단계에서 LFS 파일을 pull 하도록 설정해야 합니다."
+        )
+
     alias_map = {
         "date": [
             "date", "datetime", "timestamp", "time", "open_time", "opentime",
             "candle_date_time_utc", "candle_date_time_kst"
         ],
-        "open": [
-            "open", "open_price", "opening_price", "시가"
-        ],
-        "high": [
-            "high", "high_price", "고가"
-        ],
-        "low": [
-            "low", "low_price", "저가"
-        ],
-        "close": [
-            "close", "close_price", "closing_price", "trade_price", "종가"
-        ],
-        "volume": [
-            "volume", "vol", "base_volume", "candle_acc_trade_volume", "acc_trade_volume", "거래량"
-        ],
+        "open": ["open", "open_price", "opening_price", "시가"],
+        "high": ["high", "high_price", "고가"],
+        "low": ["low", "low_price", "저가"],
+        "close": ["close", "close_price", "closing_price", "trade_price", "종가"],
+        "volume": ["volume", "vol", "base_volume", "candle_acc_trade_volume", "acc_trade_volume", "거래량"],
     }
 
     raw = pd.read_csv(path)
     raw.columns = [str(c).strip().replace("\ufeff", "").lower() for c in raw.columns]
 
     rename_map = {}
-    used_source_cols = set()
-
     for target, aliases in alias_map.items():
         found = None
         for alias in aliases:
@@ -57,15 +54,12 @@ def load_symbol_df(path: Path) -> pd.DataFrame:
                 found = alias
                 break
         if found is None:
-            raise ValueError(
-                f"{path.name} 컬럼 매핑 실패. 현재 컬럼: {list(raw.columns)}"
-            )
+            raise ValueError(f"{path.name} 컬럼 매핑 실패. 현재 컬럼: {list(raw.columns)}")
         rename_map[found] = target
-        used_source_cols.add(found)
 
     df = raw.rename(columns=rename_map)[["date", "open", "high", "low", "close", "volume"]].copy()
-
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
+
     for col in ["open", "high", "low", "close", "volume"]:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
