@@ -1,0 +1,2 @@
+5m_data/*.csv filter=lfs diff=lfs merge=lfs -text
+5m_data/*.zip filter=lfs diff=lfs merge=lfs -text
