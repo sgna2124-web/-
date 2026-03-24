@@ -20,9 +20,56 @@ MIN_EXPECTED_TP = 0.003
 DATA_DIR = ROOT / "5m_data"
 RESULT_DIR = ROOT / "results" / "latest"
 
-
 def load_symbol_df(path: Path) -> pd.DataFrame:
-    df = pd.read_csv(path, usecols=["date", "open", "high", "low", "close", "volume"])
+    alias_map = {
+        "date": [
+            "date", "datetime", "timestamp", "time", "open_time", "opentime",
+            "candle_date_time_utc", "candle_date_time_kst"
+        ],
+        "open": [
+            "open", "open_price", "opening_price", "시가"
+        ],
+        "high": [
+            "high", "high_price", "고가"
+        ],
+        "low": [
+            "low", "low_price", "저가"
+        ],
+        "close": [
+            "close", "close_price", "closing_price", "trade_price", "종가"
+        ],
+        "volume": [
+            "volume", "vol", "base_volume", "candle_acc_trade_volume", "acc_trade_volume", "거래량"
+        ],
+    }
+
+    raw = pd.read_csv(path)
+    raw.columns = [str(c).strip().replace("\ufeff", "").lower() for c in raw.columns]
+
+    rename_map = {}
+    used_source_cols = set()
+
+    for target, aliases in alias_map.items():
+        found = None
+        for alias in aliases:
+            alias = alias.lower()
+            if alias in raw.columns:
+                found = alias
+                break
+        if found is None:
+            raise ValueError(
+                f"{path.name} 컬럼 매핑 실패. 현재 컬럼: {list(raw.columns)}"
+            )
+        rename_map[found] = target
+        used_source_cols.add(found)
+
+    df = raw.rename(columns=rename_map)[["date", "open", "high", "low", "close", "volume"]].copy()
+
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    for col in ["open", "high", "low", "close", "volume"]:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+
+    df = df.dropna(subset=["date", "open", "high", "low", "close", "volume"])
     df = df.sort_values("date").drop_duplicates("date").reset_index(drop=True)
     return df
 
