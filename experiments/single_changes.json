@@ -1,0 +1,63 @@
+{
+  "group_name": "single_changes",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "원본 전략 그대로",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "tp_min_006",
+      "description": "기대 TP 하한 상향",
+      "enabled": true,
+      "overrides": {
+        "risk": {
+          "min_expected_tp": 0.006
+        }
+      }
+    },
+    {
+      "name": "short_strict_032_76_13",
+      "description": "숏 조건만 더 보수적으로",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "short_dev": 0.032,
+          "short_rsi_min": 76,
+          "short_wick_mult": 1.3
+        }
+      }
+    },
+    {
+      "name": "cooldown_12bars",
+      "description": "같은 종목 같은 방향 재진입 12봉 제한",
+      "enabled": true,
+      "overrides": {
+        "trade_control": {
+          "cooldown_bars_same_symbol_same_side": 12
+        }
+      }
+    },
+    {
+      "name": "timeout_24bars",
+      "description": "보유 시간 36봉에서 24봉으로 단축",
+      "enabled": true,
+      "overrides": {
+        "risk": {
+          "timeout_bars": 24
+        }
+      }
+    },
+    {
+      "name": "top12_per_timestamp",
+      "description": "동일 시점 상위 12개 신호만 진입",
+      "enabled": false,
+      "overrides": {
+        "trade_control": {
+          "top_n_per_timestamp": 12
+        }
+      }
+    }
+  ]
+}
