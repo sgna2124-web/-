@@ -35,12 +35,12 @@
     },
     "htf_filter": {
       "enabled": false,
-      "timeframe": "1H",
+      "timeframe": "1h",
       "mode": "prev_completed_rsi_gate",
       "long_rsi_max": 35,
       "short_rsi_min": 65,
       "use_prev_completed_only": true
-    }
+    }    
   },
   "execution": {
     "entry_on_next_bar_open": true,
