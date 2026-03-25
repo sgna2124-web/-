@@ -219,13 +219,13 @@ def run_symbol(df: pd.DataFrame, config: dict) -> list[tuple[int, int, float, st
     volume_lookback = int(volume_cfg.get("lookback", 20))
     volume_multiple = float(volume_cfg.get("min_multiple", 1.5))
     vol_ma = pd.Series(v).rolling(volume_lookback).mean().to_numpy(float)
-
+    
     htf_cfg = filters_cfg.get("htf_filter", {})
     htf_enabled = bool(htf_cfg.get("enabled", False))
     if htf_enabled:
         if not bool(htf_cfg.get("use_prev_completed_only", True)):
             raise ValueError("HTF filter must use previous completed bar only.")
-        htf_rule = htf_cfg.get("timeframe", "1h")
+        htf_rule = str(htf_cfg.get("timeframe", "1h")).strip().lower()
         htf_long_rsi_max = float(htf_cfg.get("long_rsi_max", 35))
         htf_short_rsi_min = float(htf_cfg.get("short_rsi_min", 65))
         htf_prev_rsi = compute_prev_completed_htf_rsi(df, htf_rule, rsi_period).to_numpy(float)
