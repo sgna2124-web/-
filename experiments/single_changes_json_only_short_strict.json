@@ -1,0 +1,75 @@
+{
+  "group_name": "single_changes_json_only_short_strict",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "short_strict를 새 기준선으로 승격한 baseline",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "long_strict_light",
+      "description": "롱 조건 약한 보수화",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "long_dev": 0.028,
+          "long_rsi_max": 25,
+          "long_wick_mult": 1.2
+        }
+      }
+    },
+    {
+      "name": "tp_min_0045",
+      "description": "기대 TP 하한 0.0045",
+      "enabled": true,
+      "overrides": {
+        "risk": {
+          "min_expected_tp": 0.0045
+        }
+      }
+    },
+    {
+      "name": "tp_min_006",
+      "description": "기대 TP 하한 0.006",
+      "enabled": true,
+      "overrides": {
+        "risk": {
+          "min_expected_tp": 0.006
+        }
+      }
+    },
+    {
+      "name": "cooldown_6bars",
+      "description": "같은 종목 같은 방향 재진입 6봉 제한",
+      "enabled": true,
+      "overrides": {
+        "trade_control": {
+          "cooldown_bars_same_symbol_same_side": 6
+        }
+      }
+    },
+    {
+      "name": "timeout_30bars",
+      "description": "보유 시간 30봉으로 단축",
+      "enabled": true,
+      "overrides": {
+        "risk": {
+          "timeout_bars": 30
+        }
+      }
+    },
+    {
+      "name": "short_stricter",
+      "description": "숏 조건 추가 보수화",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "short_dev": 0.035,
+          "short_rsi_min": 78,
+          "short_wick_mult": 1.5
+        }
+      }
+    }
+  ]
+}
