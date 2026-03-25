@@ -151,8 +151,9 @@ def evaluate_trades_cfg(trades: list[tuple[int, int, float]], position_fraction:
         "max_conc": int(mx),
     }
 
-
 def compute_prev_completed_htf_rsi(df: pd.DataFrame, htf_rule: str, rsi_period: int) -> pd.Series:
+    htf_rule = str(htf_rule).strip().lower()
+
     htf = (
         df.set_index("date")["close"]
         .resample(htf_rule, label="left", closed="left")
@@ -224,7 +225,7 @@ def run_symbol(df: pd.DataFrame, config: dict) -> list[tuple[int, int, float, st
     if htf_enabled:
         if not bool(htf_cfg.get("use_prev_completed_only", True)):
             raise ValueError("HTF filter must use previous completed bar only.")
-        htf_rule = htf_cfg.get("timeframe", "1H")
+        htf_rule = htf_cfg.get("timeframe", "1h")
         htf_long_rsi_max = float(htf_cfg.get("long_rsi_max", 35))
         htf_short_rsi_min = float(htf_cfg.get("short_rsi_min", 65))
         htf_prev_rsi = compute_prev_completed_htf_rsi(df, htf_rule, rsi_period).to_numpy(float)
