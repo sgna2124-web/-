@@ -1,0 +1,68 @@
+{
+  "group_name": "single_changes_short_strict",
+  "experiments": [
+    {
+      "name": "baseline_short_strict",
+      "description": "short_strict_032_76_13 기준선",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "long_strict_light",
+      "description": "롱 조건만 약하게 보수화",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "long_dev": 0.028,
+          "long_rsi_max": 25,
+          "long_wick_mult": 1.2
+        }
+      }
+    },
+    {
+      "name": "volume_filter_15x20",
+      "description": "신호봉 거래량이 최근 20봉 평균의 1.5배 이상일 때만 진입",
+      "enabled": true,
+      "overrides": {
+        "filters": {
+          "volume_filter": {
+            "enabled": true,
+            "lookback": 20,
+            "min_multiple": 1.5
+          }
+        }
+      }
+    },
+    {
+      "name": "volume_filter_20x20",
+      "description": "신호봉 거래량이 최근 20봉 평균의 2.0배 이상일 때만 진입",
+      "enabled": true,
+      "overrides": {
+        "filters": {
+          "volume_filter": {
+            "enabled": true,
+            "lookback": 20,
+            "min_multiple": 2.0
+          }
+        }
+      }
+    },
+    {
+      "name": "htf_prev1h_rsi_gate",
+      "description": "직전 완성 1시간봉 RSI 필터만 추가. 현재 진행 중 1시간봉 사용 금지",
+      "enabled": true,
+      "overrides": {
+        "filters": {
+          "htf_filter": {
+            "enabled": true,
+            "timeframe": "1H",
+            "mode": "prev_completed_rsi_gate",
+            "long_rsi_max": 35,
+            "short_rsi_min": 65,
+            "use_prev_completed_only": true
+          }
+        }
+      }
+    }
+  ]
+}
