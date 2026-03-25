@@ -1,0 +1,122 @@
+name: Repository Backtest JSON Only Short Strict Release Assets V2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-backtest-json-only-short-strict-release-v2:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DATA_ROOT: /home/runner/work/_temp/market_data_5m
+      DATA_DIR: /home/runner/work/_temp/market_data_5m
+      REPO_NAME: sgna2124-web/-
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Prepare data directory
+        run: |
+          mkdir -p "$DATA_ROOT"
+
+      - name: Download manifest from latest release with gh
+        run: |
+          gh release download --repo "$REPO_NAME" --pattern "data_manifest.json" --dir "$DATA_ROOT" --clobber
+
+      - name: Validate manifest file
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          root = Path(os.environ["DATA_ROOT"])
+          manifest_path = root / "data_manifest.json"
+          if not manifest_path.exists():
+              raise FileNotFoundError(f"manifest not found: {manifest_path}")
+
+          raw = manifest_path.read_text(encoding="utf-8", errors="ignore").strip()
+          if not raw:
+              raise ValueError("data_manifest.json is empty")
+          if not raw.startswith("{"):
+              raise ValueError(f"data_manifest.json is not JSON. first 200 chars: {raw[:200]!r}")
+
+          manifest = json.loads(raw)
+          if "files" not in manifest or not isinstance(manifest["files"], list) or not manifest["files"]:
+              raise ValueError("manifest missing non-empty files list")
+
+          print(f"manifest ok: {len(manifest['files'])} files")
+          PY
+
+      - name: Download csv.gz assets from latest release with gh
+        run: |
+          gh release download --repo "$REPO_NAME" --pattern "*.csv.gz" --dir "$DATA_ROOT" --clobber
+
+      - name: Validate asset filenames in manifest
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          root = Path(os.environ["DATA_ROOT"])
+          manifest = json.loads((root / "data_manifest.json").read_text(encoding="utf-8"))
+          expected = {item["filename"] for item in manifest["files"]}
+          existing = {p.name for p in root.glob("*.csv.gz")}
+          missing = sorted(expected - existing)
+          extra = sorted(existing - expected)
+          if missing:
+              raise ValueError(f"missing assets from release: {missing[:20]}")
+          print(f"all manifest assets present: {len(expected)} files")
+          if extra:
+              print(f"extra release assets ignored: {extra[:20]}")
+          PY
+
+      - name: Decompress csv.gz files
+        run: |
+          python - <<'PY'
+          import gzip
+          import shutil
+          import os
+          from pathlib import Path
+
+          root = Path(os.environ["DATA_ROOT"])
+          for gz_path in root.glob("*.csv.gz"):
+              csv_path = root / gz_path.name[:-3]
+              with gzip.open(gz_path, "rb") as f_in:
+                  with open(csv_path, "wb") as f_out:
+                      shutil.copyfileobj(f_in, f_out)
+          PY
+
+      - name: Run JSON-only short_strict backtests
+        run: |
+          python scripts/run_backtest_batch_json_only_short_strict.py
+          python scripts/summarize_results_json_only_short_strict.py
+
+      - name: Upload JSON-only short_strict results as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-results-json-only-short-strict-release-v2
+          path: results_json_only_short_strict/**
+
+      - name: Commit JSON-only short_strict summary files only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results_json_only_short_strict/*/summary.json
+          git add results_json_only_short_strict/single_changes_quick_summary.csv
+          git add results_json_only_short_strict/master_summary.csv results_json_only_short_strict/master_summary.json results_json_only_short_strict/master_summary.txt
+          git diff --cached --quiet || git commit -m "Update JSON-only short_strict release-asset backtest summaries v2"
+          git push
