@@ -1,0 +1,48 @@
+{
+  "group_name": "combinations_json_only_long_strict",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "long_strict_light를 새 기준선으로 둔 baseline",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "plus_short_stricter",
+      "description": "long_strict_light + short_stricter",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "short_dev": 0.035,
+          "short_rsi_min": 78,
+          "short_wick_mult": 1.5
+        }
+      }
+    },
+    {
+      "name": "plus_timeout_30bars",
+      "description": "long_strict_light + timeout_30bars",
+      "enabled": true,
+      "overrides": {
+        "risk": {
+          "timeout_bars": 30
+        }
+      }
+    },
+    {
+      "name": "plus_short_stricter_timeout_30bars",
+      "description": "long_strict_light + short_stricter + timeout_30bars",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "short_dev": 0.035,
+          "short_rsi_min": 78,
+          "short_wick_mult": 1.5
+        },
+        "risk": {
+          "timeout_bars": 30
+        }
+      }
+    }
+  ]
+}
