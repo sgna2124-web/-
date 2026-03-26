@@ -1,0 +1,6 @@
+master_summary_json_only_short_strict
+
+experiment=baseline | verdict=baseline | final_return_pct=765.7315 | delta_final_return_pct=0.0000 | pf=1.188958 | delta_pf=0.000000 | mdd_pct=-48.4157 | delta_mdd_pct=0.0000 | max_conc=389 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=plus_long_strict_stronger_and_short_stricter | verdict=hold | final_return_pct=586.7361 | delta_final_return_pct=-178.9955 | pf=1.247232 | delta_pf=0.058274 | mdd_pct=-43.0426 | delta_mdd_pct=5.3731 | max_conc=367 | delta_max_conc=-22 | return_retention_pct=76.62
+experiment=plus_long_strict_stronger | verdict=hold | final_return_pct=665.6893 | delta_final_return_pct=-100.0423 | pf=1.212171 | delta_pf=0.023214 | mdd_pct=-44.6258 | delta_mdd_pct=3.7899 | max_conc=367 | delta_max_conc=-22 | return_retention_pct=86.94
+experiment=plus_short_stricter | verdict=hold | final_return_pct=676.1561 | delta_final_return_pct=-89.5755 | pf=1.212962 | delta_pf=0.024004 | mdd_pct=-46.9671 | delta_mdd_pct=1.4486 | max_conc=389 | delta_max_conc=0 | return_retention_pct=88.30
