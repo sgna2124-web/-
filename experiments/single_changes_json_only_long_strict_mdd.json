@@ -1,0 +1,63 @@
+{
+  "group_name": "single_changes_json_only_long_strict_mdd",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "long_strict_light를 새 기준선으로 둔 baseline",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "long_strict_stronger",
+      "description": "롱 조건을 더 강하게 보수화",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "long_dev": 0.030,
+          "long_rsi_max": 23,
+          "long_wick_mult": 1.3
+        }
+      }
+    },
+    {
+      "name": "timeout_24bars",
+      "description": "보유 시간을 24봉으로 더 단축",
+      "enabled": true,
+      "overrides": {
+        "risk": {
+          "timeout_bars": 24
+        }
+      }
+    },
+    {
+      "name": "timeout_18bars",
+      "description": "보유 시간을 18봉으로 더 단축",
+      "enabled": true,
+      "overrides": {
+        "risk": {
+          "timeout_bars": 18
+        }
+      }
+    },
+    {
+      "name": "cooldown_2bars",
+      "description": "같은 종목 같은 방향 재진입 2봉 제한",
+      "enabled": true,
+      "overrides": {
+        "trade_control": {
+          "cooldown_bars_same_symbol_same_side": 2
+        }
+      }
+    },
+    {
+      "name": "cooldown_3bars",
+      "description": "같은 종목 같은 방향 재진입 3봉 제한",
+      "enabled": true,
+      "overrides": {
+        "trade_control": {
+          "cooldown_bars_same_symbol_same_side": 3
+        }
+      }
+    }
+  ]
+}
