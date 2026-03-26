@@ -1,0 +1,8 @@
+master_summary_json_only_short_strict
+
+experiment=baseline | verdict=baseline | final_return_pct=747.4158 | delta_final_return_pct=0.0000 | pf=1.171075 | delta_pf=0.000000 | mdd_pct=-54.3699 | delta_mdd_pct=0.0000 | max_conc=389 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=timeout_18bars | verdict=pass | final_return_pct=765.7315 | delta_final_return_pct=18.3158 | pf=1.188958 | delta_pf=0.017883 | mdd_pct=-48.4157 | delta_mdd_pct=5.9542 | max_conc=389 | delta_max_conc=0 | return_retention_pct=102.45
+experiment=long_strict_stronger | verdict=pass | final_return_pct=684.7968 | delta_final_return_pct=-62.6189 | pf=1.197069 | delta_pf=0.025995 | mdd_pct=-48.5228 | delta_mdd_pct=5.8472 | max_conc=367 | delta_max_conc=-22 | return_retention_pct=91.62
+experiment=cooldown_3bars | verdict=fail | final_return_pct=302.7443 | delta_final_return_pct=-444.6714 | pf=1.130033 | delta_pf=-0.041042 | mdd_pct=-49.5813 | delta_mdd_pct=4.7886 | max_conc=388 | delta_max_conc=-1 | return_retention_pct=40.51
+experiment=cooldown_2bars | verdict=fail | final_return_pct=321.9644 | delta_final_return_pct=-425.4513 | pf=1.129168 | delta_pf=-0.041906 | mdd_pct=-50.7598 | delta_mdd_pct=3.6102 | max_conc=388 | delta_max_conc=-1 | return_retention_pct=43.08
+experiment=timeout_24bars | verdict=fail | final_return_pct=710.2555 | delta_final_return_pct=-37.1602 | pf=1.174928 | delta_pf=0.003853 | mdd_pct=-55.0378 | delta_mdd_pct=-0.6679 | max_conc=389 | delta_max_conc=0 | return_retention_pct=95.03
