@@ -1,0 +1,82 @@
+{
+  "as_of": "2026-03-26",
+  "project": "돈버는 차트 전략 찾기",
+  "goal": "코인 차트 기반 적응형 실전형 백테스트 및 전략 개선",
+  "active_strategy_family": "overextension_reversion_v1",
+  "current_stable_data_path": "repo_assets_5m via repo-assets workflows",
+  "current_core_constraints": {
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "must_report": [
+      "final_return",
+      "MDD",
+      "peak_return",
+      "trade_count",
+      "win_rate",
+      "max_conc"
+    ],
+    "htf_rule": "use only previous completed higher-timeframe candle; never use current forming HTF candle"
+  },
+  "best_single_change_from_short_strict_lane": {
+    "name": "long_strict_light",
+    "final_return_pct": 747.4157565623007,
+    "pf": 1.171074585575086,
+    "mdd_pct": -54.36992594190242,
+    "max_conc": 389
+  },
+  "best_combo_from_long_strict_combo_lane": {
+    "name": "plus_timeout_30bars",
+    "final_return_pct": 722.4198,
+    "pf": 1.17174,
+    "mdd_pct": -53.091,
+    "max_conc": 389
+  },
+  "best_mdd_candidate_from_long_strict_mdd_lane": {
+    "name": "timeout_18bars",
+    "final_return_pct": 765.7315,
+    "pf": 1.188958,
+    "mdd_pct": -48.4157,
+    "max_conc": 389
+  },
+  "best_concurrency_reducer_so_far": {
+    "name": "long_strict_stronger",
+    "final_return_pct": 684.7968,
+    "pf": 1.197069,
+    "mdd_pct": -48.5228,
+    "max_conc": 367
+  },
+  "recommended_next_tests": [
+    "long_strict_stronger + timeout_18bars",
+    "long_strict_stronger + short_stricter + timeout_18bars"
+  ],
+  "deprioritized_axes": [
+    "tp_min only changes",
+    "aggressive cooldown variants",
+    "Git LFS as primary path",
+    "release workflows as primary path"
+  ],
+  "important_repo_paths": {
+    "short_strict_branch": [
+      "experiments/base_config_json_only_short_strict.json",
+      "experiments/single_changes_json_only_short_strict.json",
+      "scripts/run_backtest_batch_json_only_short_strict.py",
+      "scripts/summarize_results_json_only_short_strict.py",
+      ".github/workflows/backtest_json_only_short_strict_repo_assets.yml"
+    ],
+    "combo_branch": [
+      "experiments/base_config_json_only_long_strict_combos.json",
+      "experiments/combinations_json_only_long_strict.json",
+      "scripts/run_backtest_batch_json_only_long_strict_combos.py",
+      "scripts/summarize_results_json_only_long_strict_combos.py",
+      ".github/workflows/backtest_json_only_long_strict_combos_repo_assets.yml"
+    ],
+    "mdd_branch": [
+      "experiments/base_config_json_only_long_strict_mdd.json",
+      "experiments/single_changes_json_only_long_strict_mdd.json",
+      "scripts/run_backtest_batch_json_only_long_strict_mdd.py",
+      "scripts/summarize_results_json_only_long_strict_mdd.py",
+      ".github/workflows/backtest_json_only_long_strict_mdd_repo_assets.yml"
+    ]
+  }
+}
