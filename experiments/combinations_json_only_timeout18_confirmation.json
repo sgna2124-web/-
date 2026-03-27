@@ -1,0 +1,65 @@
+{
+  "group_name": "combinations_json_only_timeout18_confirmation",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "timeout_18bars 현재 1위 기준선",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "reclaim_confirm",
+      "description": "신호 다음 봉이 회수형 종가를 만들 때만 진입",
+      "enabled": true,
+      "overrides": {
+        "confirmation": {
+          "mode": "reclaim_confirm"
+        }
+      }
+    },
+    {
+      "name": "followthrough_confirm",
+      "description": "신호 다음 봉이 신호봉 극값을 돌파하며 후속 진행을 만들 때만 진입",
+      "enabled": true,
+      "overrides": {
+        "confirmation": {
+          "mode": "followthrough_confirm"
+        }
+      }
+    },
+    {
+      "name": "volume_reclaim_confirm",
+      "description": "회수형 종가와 거래량 확인이 동시에 있을 때만 진입",
+      "enabled": true,
+      "overrides": {
+        "confirmation": {
+          "mode": "volume_reclaim_confirm",
+          "volume_mean_window": 20,
+          "volume_mult": 1.2
+        }
+      }
+    },
+    {
+      "name": "reclaim_no_chase_confirm",
+      "description": "회수 확인 후 다음 진입가가 너무 멀리 벌어지면 추격 진입을 금지",
+      "enabled": true,
+      "overrides": {
+        "confirmation": {
+          "mode": "reclaim_no_chase_confirm",
+          "max_entry_atr_from_confirm_close": 0.5
+        }
+      }
+    },
+    {
+      "name": "followthrough_no_chase_confirm",
+      "description": "후속 진행 확인 후 다음 진입가가 과도하게 벌어지면 진입 금지",
+      "enabled": true,
+      "overrides": {
+        "confirmation": {
+          "mode": "followthrough_no_chase_confirm",
+          "max_entry_atr_from_confirm_close": 0.5
+        }
+      }
+    }
+  ]
+}
