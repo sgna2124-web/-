@@ -1,0 +1,69 @@
+{
+  "group_name": "combinations_json_only_timeout18_multimethod",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "timeout_18bars 현재 1위 기준선",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "trend_context_guard",
+      "description": "EMA 기울기 방향과 반대 진입을 줄이는 추세 맥락 필터",
+      "enabled": true,
+      "overrides": {
+        "quality": {
+          "ema_slope_lookback": 12,
+          "long_ema_slope_min": 0.0,
+          "short_ema_slope_max": 0.0
+        }
+      }
+    },
+    {
+      "name": "reclaim_close_guard",
+      "description": "신호봉 종가 위치를 요구해 반전 회수 신호만 남기는 필터",
+      "enabled": true,
+      "overrides": {
+        "quality": {
+          "long_close_pos_min": 0.55,
+          "short_close_pos_max": 0.45
+        }
+      }
+    },
+    {
+      "name": "deviation_band_guard",
+      "description": "EMA 이격을 ATR 기준 밴드로 제한해 너무 약한 신호와 과격한 신호를 함께 거르는 필터",
+      "enabled": true,
+      "overrides": {
+        "quality": {
+          "min_dev_atr": 1.1,
+          "max_dev_atr": 3.5
+        }
+      }
+    },
+    {
+      "name": "risk_width_guard",
+      "description": "엔트리 대비 손절 폭이 과도한 포지션을 제거하는 리스크 폭 필터",
+      "enabled": true,
+      "overrides": {
+        "quality": {
+          "max_stop_pct": 0.02
+        }
+      }
+    },
+    {
+      "name": "hybrid_quality_stack",
+      "description": "추세 맥락과 반전 회수 신호를 함께 요구하는 복합 품질 필터",
+      "enabled": true,
+      "overrides": {
+        "quality": {
+          "ema_slope_lookback": 12,
+          "long_ema_slope_min": 0.0,
+          "short_ema_slope_max": 0.0,
+          "long_close_pos_min": 0.52,
+          "short_close_pos_max": 0.48
+        }
+      }
+    }
+  ]
+}
