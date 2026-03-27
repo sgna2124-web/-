@@ -1,0 +1,71 @@
+{
+  "group_name": "combinations_json_only_timeout18_split_entry",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "timeout_18bars 현재 1위 기준선",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "half_open_half_atr025",
+      "description": "절반은 즉시 진입, 절반은 0.25 ATR 유리한 가격 대기",
+      "enabled": true,
+      "overrides": {
+        "entry_refine": {
+          "mode": "split_entry",
+          "first_fraction": 0.5,
+          "second_fraction": 0.5,
+          "second_mode": "atr_pullback",
+          "retrace_atr_mult": 0.25,
+          "second_fill_window_bars": 1
+        }
+      }
+    },
+    {
+      "name": "half_open_half_wick050",
+      "description": "절반은 즉시 진입, 절반은 신호봉 꼬리 50% 되돌림 대기",
+      "enabled": true,
+      "overrides": {
+        "entry_refine": {
+          "mode": "split_entry",
+          "first_fraction": 0.5,
+          "second_fraction": 0.5,
+          "second_mode": "wick_retrace",
+          "wick_retrace_frac": 0.5,
+          "second_fill_window_bars": 1
+        }
+      }
+    },
+    {
+      "name": "one_third_open_two_thirds_atr050",
+      "description": "1/3 즉시 진입, 2/3는 0.50 ATR 유리한 가격 대기",
+      "enabled": true,
+      "overrides": {
+        "entry_refine": {
+          "mode": "split_entry",
+          "first_fraction": 0.3333,
+          "second_fraction": 0.6667,
+          "second_mode": "atr_pullback",
+          "retrace_atr_mult": 0.50,
+          "second_fill_window_bars": 2
+        }
+      }
+    },
+    {
+      "name": "one_third_open_two_thirds_wick075",
+      "description": "1/3 즉시 진입, 2/3는 꼬리 75% 되돌림 대기",
+      "enabled": true,
+      "overrides": {
+        "entry_refine": {
+          "mode": "split_entry",
+          "first_fraction": 0.3333,
+          "second_fraction": 0.6667,
+          "second_mode": "wick_retrace",
+          "wick_retrace_frac": 0.75,
+          "second_fill_window_bars": 2
+        }
+      }
+    }
+  ]
+}
