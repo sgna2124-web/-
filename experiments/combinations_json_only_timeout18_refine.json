@@ -1,0 +1,62 @@
+{
+  "group_name": "combinations_json_only_timeout18_refine",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "timeout_18bars 현재 1위 기준선",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "plus_short_stricter_light",
+      "description": "숏 품질을 약하게 강화해서 노이즈 숏만 줄이는 버전",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "short_dev": 0.034,
+          "short_rsi_min": 77,
+          "short_wick_mult": 1.4
+        }
+      }
+    },
+    {
+      "name": "plus_short_stricter",
+      "description": "기존 검증된 숏 강화 버전",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "short_dev": 0.035,
+          "short_rsi_min": 78,
+          "short_wick_mult": 1.5
+        }
+      }
+    },
+    {
+      "name": "plus_long_quality_light",
+      "description": "롱 품질을 약하게 강화해서 약한 반등 진입을 줄이는 버전",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "long_dev": 0.029,
+          "long_rsi_max": 24,
+          "long_wick_mult": 1.25
+        }
+      }
+    },
+    {
+      "name": "plus_dual_quality_light",
+      "description": "롱/숏 모두 약하게 강화한 밸런스형 품질 필터",
+      "enabled": true,
+      "overrides": {
+        "signal": {
+          "long_dev": 0.029,
+          "long_rsi_max": 24,
+          "long_wick_mult": 1.25,
+          "short_dev": 0.034,
+          "short_rsi_min": 77,
+          "short_wick_mult": 1.4
+        }
+      }
+    }
+  ]
+}
