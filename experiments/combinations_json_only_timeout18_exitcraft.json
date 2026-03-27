@@ -1,0 +1,67 @@
+{
+  "group_name": "combinations_json_only_timeout18_exitcraft",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "timeout_18bars 현재 1위 기준선",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "breakeven_075r",
+      "description": "0.75R 도달 후 손절을 진입가로 이동",
+      "enabled": true,
+      "overrides": {
+        "exit_refine": {
+          "breakeven_trigger_r": 0.75
+        }
+      }
+    },
+    {
+      "name": "trail_after_1r",
+      "description": "1R 달성 후 이전 봉 저가/고가 기반 트레일링",
+      "enabled": true,
+      "overrides": {
+        "exit_refine": {
+          "trail_activate_r": 1.0,
+          "trail_prev_bar_lookback": 1
+        }
+      }
+    },
+    {
+      "name": "fail_fast_6bars",
+      "description": "6봉 내 진척이 0.25R 미만이고 불리하면 조기 청산",
+      "enabled": true,
+      "overrides": {
+        "exit_refine": {
+          "fail_fast_bars": 6,
+          "fail_fast_min_progress_r": 0.25
+        }
+      }
+    },
+    {
+      "name": "breakeven_and_fail_fast",
+      "description": "손익분기점 이동과 조기 실패 청산을 함께 적용",
+      "enabled": true,
+      "overrides": {
+        "exit_refine": {
+          "breakeven_trigger_r": 0.75,
+          "fail_fast_bars": 6,
+          "fail_fast_min_progress_r": 0.25
+        }
+      }
+    },
+    {
+      "name": "trail_and_breakeven",
+      "description": "0.75R 손익분기점 이동 + 1R 이후 이전 봉 트레일링",
+      "enabled": true,
+      "overrides": {
+        "exit_refine": {
+          "breakeven_trigger_r": 0.75,
+          "trail_activate_r": 1.0,
+          "trail_prev_bar_lookback": 1
+        }
+      }
+    }
+  ]
+}
