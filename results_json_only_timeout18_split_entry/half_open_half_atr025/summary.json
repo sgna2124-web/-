@@ -1,0 +1,61 @@
+{
+  "trades": 155847,
+  "final_asset": 3.653984651962292,
+  "final_return": 2.653984651962292,
+  "peak_asset": 3.7746513401795787,
+  "peak_growth": 2.7746513401795787,
+  "win_rate": 0.40963252420643326,
+  "pf": 1.1329579970784194,
+  "mdd": -0.40898555529757075,
+  "max_conc": 636,
+  "strategy": "overextension_reversion_v1_json_only_timeout18_split_entry_half_open_half_atr025",
+  "experiment_name": "half_open_half_atr025",
+  "initial_asset": 100.0,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "symbols": 15365,
+  "effective_config": {
+    "strategy_name": "overextension_reversion_v1_json_only_timeout18_split_entry",
+    "data_dir": "5m_data",
+    "results_dir": "results_json_only_timeout18_split_entry",
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "min_bars": 120,
+    "signal": {
+      "ema_period": 20,
+      "rsi_period": 14,
+      "atr_period": 14,
+      "long_dev": 0.028,
+      "short_dev": 0.032,
+      "long_rsi_max": 25,
+      "short_rsi_min": 76,
+      "long_wick_mult": 1.2,
+      "short_wick_mult": 1.3
+    },
+    "risk": {
+      "atr_stop_mult": 1.5,
+      "rr_mult": 2.2,
+      "min_expected_tp": 0.003,
+      "timeout_bars": 18
+    },
+    "trade_control": {
+      "cooldown_bars_same_symbol_same_side": 0,
+      "top_n_per_timestamp": null
+    },
+    "entry_refine": {
+      "mode": "split_entry",
+      "first_fraction": 0.5,
+      "second_fraction": 0.5,
+      "second_mode": "atr_pullback",
+      "retrace_atr_mult": 0.25,
+      "wick_retrace_frac": null,
+      "second_fill_window_bars": 1
+    },
+    "execution": {
+      "entry_on_next_bar_open": true,
+      "allow_long": true,
+      "allow_short": true
+    }
+  }
+}
