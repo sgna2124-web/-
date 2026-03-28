@@ -1,0 +1,15 @@
+{
+  "group_name": "combinations_json_only_timeout18_hybrid_stack",
+  "experiments": [
+    {"name": "baseline", "description": "timeout_18bars 기준선", "enabled": true, "overrides": {}},
+    {"name": "short_light", "description": "숏 약강화", "enabled": true, "overrides": {"quality": {"short_dev": 0.034, "short_rsi_min": 77, "short_wick_mult": 1.4}}},
+    {"name": "long_light", "description": "롱 약강화", "enabled": true, "overrides": {"quality": {"long_dev": 0.029, "long_rsi_max": 24, "long_wick_mult": 1.25}}},
+    {"name": "dual_light", "description": "롱숏 약강화", "enabled": true, "overrides": {"quality": {"long_dev": 0.029, "long_rsi_max": 24, "long_wick_mult": 1.25, "short_dev": 0.034, "short_rsi_min": 77, "short_wick_mult": 1.4}}},
+    {"name": "fail_fast_6bars", "description": "6봉 0.25R 조기실패 청산", "enabled": true, "overrides": {"exit_refine": {"fail_fast_bars": 6, "fail_fast_min_progress_r": 0.25}}},
+    {"name": "fail_fast_short_light", "description": "2위 조기실패 + 숏 약강화", "enabled": true, "overrides": {"quality": {"short_dev": 0.034, "short_rsi_min": 77, "short_wick_mult": 1.4}, "exit_refine": {"fail_fast_bars": 6, "fail_fast_min_progress_r": 0.25}}},
+    {"name": "fail_fast_long_light", "description": "2위 조기실패 + 롱 약강화", "enabled": true, "overrides": {"quality": {"long_dev": 0.029, "long_rsi_max": 24, "long_wick_mult": 1.25}, "exit_refine": {"fail_fast_bars": 6, "fail_fast_min_progress_r": 0.25}}},
+    {"name": "fail_fast_dual_light", "description": "2위 조기실패 + 롱숏 약강화", "enabled": true, "overrides": {"quality": {"long_dev": 0.029, "long_rsi_max": 24, "long_wick_mult": 1.25, "short_dev": 0.034, "short_rsi_min": 77, "short_wick_mult": 1.4}, "exit_refine": {"fail_fast_bars": 6, "fail_fast_min_progress_r": 0.25}}},
+    {"name": "fail_fast_5bars_short_light", "description": "조금 더 빠른 실패청산 + 숏 약강화", "enabled": true, "overrides": {"quality": {"short_dev": 0.034, "short_rsi_min": 77, "short_wick_mult": 1.4}, "exit_refine": {"fail_fast_bars": 5, "fail_fast_min_progress_r": 0.20}}},
+    {"name": "fail_fast_7bars_long_light", "description": "조금 더 느린 실패청산 + 롱 약강화", "enabled": true, "overrides": {"quality": {"long_dev": 0.029, "long_rsi_max": 24, "long_wick_mult": 1.25}, "exit_refine": {"fail_fast_bars": 7, "fail_fast_min_progress_r": 0.30}}}
+  ]
+}
