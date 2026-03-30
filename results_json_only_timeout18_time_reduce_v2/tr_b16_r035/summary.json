@@ -1,0 +1,66 @@
+{
+  "trades": 91051,
+  "final_asset": 20.53621375788328,
+  "final_return": 19.53621375788328,
+  "peak_asset": 21.0719397826207,
+  "peak_growth": 20.0719397826207,
+  "win_rate": 0.39024283094090123,
+  "pf": 1.2537975687530643,
+  "mdd": -0.43278169709888425,
+  "max_conc": 387,
+  "strategy": "overextension_reversion_v1_json_only_timeout18_time_reduce_v2_tr_b16_r035",
+  "experiment_name": "tr_b16_r035",
+  "initial_asset": 100.0,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "effective_config": {
+    "strategy_name": "overextension_reversion_v1_json_only_timeout18_time_reduce_v2",
+    "data_dir": "5m_data",
+    "results_dir": "results_json_only_timeout18_time_reduce_v2",
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "min_bars": 120,
+    "signal": {
+      "ema_period": 20,
+      "rsi_period": 14,
+      "atr_period": 14,
+      "long_dev": 0.028,
+      "short_dev": 0.032,
+      "long_rsi_max": 25,
+      "short_rsi_min": 76,
+      "long_wick_mult": 1.2,
+      "short_wick_mult": 1.3
+    },
+    "quality": {
+      "long_dev": null,
+      "long_rsi_max": null,
+      "long_wick_mult": null,
+      "short_dev": null,
+      "short_rsi_min": null,
+      "short_wick_mult": null
+    },
+    "risk": {
+      "atr_stop_mult": 1.8,
+      "rr_mult": 2.2,
+      "min_expected_tp": 0.003,
+      "timeout_bars": 26,
+      "stop_mode": "atr_only",
+      "target_mode": "ema_only",
+      "fail_fast_bars": null,
+      "fail_fast_min_progress_r": null,
+      "protect_mode": "time_reduce",
+      "time_reduce_bars": 16,
+      "time_reduce_to_risk_frac": 0.35
+    },
+    "trade_control": {
+      "cooldown_bars_same_symbol_same_side": 0,
+      "top_n_per_timestamp": null
+    },
+    "execution": {
+      "entry_on_next_bar_open": true,
+      "allow_long": true,
+      "allow_short": true
+    }
+  }
+}
