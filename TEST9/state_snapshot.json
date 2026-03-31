@@ -1,0 +1,94 @@
+{
+  "project": "돈버는 차트 전략 찾기",
+  "handoff_folder": "TEST9",
+  "status_date_note": "created after latest confirmed result: results_json_only_timeout18_time_reduce_v4",
+  "goal": "차트 기반 전략을 지속적으로 개선해 더 나은 수익/MDD 구조를 찾는다",
+  "current_official_baseline": {
+    "experiment": "atr19_t27_b17_r020",
+    "results_dir": "results_json_only_timeout18_time_reduce_v4",
+    "family": "time_reduce_v4",
+    "config": {
+      "stop_mode": "atr_only",
+      "target_mode": "ema_only",
+      "timeout_bars": 27,
+      "atr_stop_mult": 1.9,
+      "protect_mode": "time_reduce",
+      "time_reduce_bars": 17,
+      "time_reduce_to_risk_frac": 0.2
+    },
+    "metrics": {
+      "final_return_pct": 2467.844989645954,
+      "peak_growth_pct": 2512.901345050304,
+      "mdd_pct": -39.4285119329169,
+      "pf": 1.2757368695425308,
+      "cd_value": 1582.6732
+    }
+  },
+  "top_alternatives": [
+    {
+      "experiment": "atr19_t27_b18_r020",
+      "results_dir": "results_json_only_timeout18_time_reduce_v4",
+      "metrics": {
+        "final_return_pct": 2473.9807297159823,
+        "mdd_pct": -39.82518765708628,
+        "pf": 1.2742044795260699,
+        "cd_value": 1578.8114
+      }
+    },
+    {
+      "experiment": "atr19_t27_b16_r020",
+      "results_dir": "results_json_only_timeout18_time_reduce_v4",
+      "metrics": {
+        "final_return_pct": 2410.4198073829148,
+        "mdd_pct": -39.10836685010328,
+        "pf": 1.275576035072764,
+        "cd_value": 1558.58
+      }
+    },
+    {
+      "experiment": "atr195_t27_b17_r025_long_light",
+      "results_dir": "results_json_only_timeout18_time_reduce_v4",
+      "role": "stable_auxiliary_candidate",
+      "metrics": {
+        "final_return_pct": 2099.8755671005592,
+        "mdd_pct": -38.991996261959116,
+        "pf": 1.2831406587957113
+      }
+    }
+  ],
+  "fixed_backtest_assumptions": {
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "leverage": 1,
+    "entry_on_next_bar_open": true,
+    "allow_long": true,
+    "allow_short": true,
+    "cooldown_bars_same_symbol_same_side": 0,
+    "top_n_per_timestamp": null
+  },
+  "ranking_rule": {
+    "primary_metric": "cd_value",
+    "cd_value_formula": "100 * (1 + mdd_pct/100) * (1 + peak_growth_pct/100)",
+    "deduplicate_before_sort": true
+  },
+  "lessons": [
+    "진입 필터보다 리스크/청산 구조가 더 중요한 개선 축이었다",
+    "ema_only target, atr_only stop, longer timeout, time_reduce 순서로 큰 개선이 발생했다",
+    "confirmation, pure retrace, 조기 breakeven, aggressive trailing은 주력 해답이 아니었다",
+    "현재 최강 축은 timeout 27, atr_stop_mult 약 1.9, time_reduce 16~18봉, risk_frac 0.20 전후다"
+  ],
+  "next_priority_search": {
+    "timeout_bars": [27],
+    "atr_stop_mult": [1.88, 1.9, 1.92],
+    "time_reduce_bars": [16, 17, 18],
+    "time_reduce_to_risk_frac": [0.18, 0.2, 0.22],
+    "notes": "next chat should prioritize a very narrow micro-search around the current baseline"
+  },
+  "important_workflows": [
+    "Repository Backtest JSON Only Timeout18 Time Reduce V4 Repo Assets Fixed",
+    "Repository Backtest JSON Only Timeout18 Time Reduce V3 Repo Assets Fixed",
+    "Repository Backtest JSON Only Timeout18 Time Reduce V2 Repo Assets Fixed",
+    "Repository Backtest JSON Only Timeout18 Time Reduce Refine Repo Assets Fixed"
+  ]
+}
