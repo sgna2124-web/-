@@ -1,0 +1,75 @@
+name: Repository Backtest JSON Only Timeout18 Time Reduce V6 Micro Repo Assets Fixed
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo_data_dir:
+        description: Repository directory containing data_manifest.json and monthly *.csv.gz files
+        required: true
+        default: repo_assets_5m
+
+concurrency:
+  group: backtest-results-main-push
+  cancel-in-progress: false
+
+jobs:
+  run-backtest-json-only-timeout18-time-reduce-v6-micro-repo-assets-fixed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      DATA_ROOT: /home/runner/work/_temp/market_data_5m
+      DATA_DIR: /home/runner/work/_temp/market_data_5m
+      REPO_DATA_DIR: ${{ inputs.repo_data_dir }}
+      V6_COMB: experiments/combinations_json_only_timeout18_time_reduce_v6_micro.json
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - run: mkdir -p "$DATA_ROOT"
+      - run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          repo_root = Path.cwd(); repo_data_dir = repo_root / os.environ['REPO_DATA_DIR']; manifest_path = repo_data_dir / 'data_manifest.json'
+          raw = manifest_path.read_text(encoding='utf-8', errors='ignore').strip(); manifest = json.loads(raw); files = manifest.get('files')
+          expected = {item['filename'] for item in files}; existing = {p.name for p in repo_data_dir.glob('*.csv.gz')}; missing = sorted(expected - existing)
+          if missing: raise ValueError(f'missing repo assets: {missing[:20]}')
+          PY
+      - run: |
+          python - <<'PY'
+          import gzip, json, os, shutil
+          from pathlib import Path
+          repo_root = Path.cwd(); repo_data_dir = repo_root / os.environ['REPO_DATA_DIR']; data_root = Path(os.environ['DATA_ROOT'])
+          shutil.copy2(repo_data_dir / 'data_manifest.json', data_root / 'data_manifest.json')
+          manifest = json.loads((repo_data_dir / 'data_manifest.json').read_text(encoding='utf-8'))
+          for item in manifest['files']:
+              gz_path = repo_data_dir / item['filename']; out_csv = data_root / item['filename'][:-3]
+              with gzip.open(gz_path, 'rb') as f_in:
+                  with open(out_csv, 'wb') as f_out:
+                      shutil.copyfileobj(f_in, f_out)
+          PY
+      - run: |
+          python scripts/run_backtest_batch_json_only_timeout18_time_reduce_v6.py
+          python scripts/summarize_results_json_only_timeout18_time_reduce_v6.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backtest-results-json-only-timeout18-time-reduce-v6-micro-fixed
+          path: results_json_only_timeout18_time_reduce_v6/**
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add results_json_only_timeout18_time_reduce_v6/*/summary.json
+          git add results_json_only_timeout18_time_reduce_v6/master_summary.csv results_json_only_timeout18_time_reduce_v6/master_summary.json results_json_only_timeout18_time_reduce_v6/master_summary.txt
+          git add results_json_only_timeout18_time_reduce_v6/single_changes_quick_summary_micro.csv
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Update JSON-only timeout18 time reduce v6 micro backtest summaries'
+          git fetch origin main
+          git rebase origin/main || { git rebase --abort; exit 1; }
+          git push origin HEAD:main
