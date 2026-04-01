@@ -1,0 +1,1 @@
+{"group_name":"tmp_v6_innov_test2","experiments":[{"name":"short_light_1","description":"short quality mild tighten","enabled":true,"overrides":{"quality":{"short_dev":0.033,"short_rsi_min":77,"short_wick_mult":1.35}}}]}
