@@ -1,0 +1,4 @@
+master_summary_json_only_short_strict
+
+experiment=short_only_reference_1x | verdict=baseline | final_return_pct=394.2834 | delta_final_return_pct=0.0000 | pf=1.405050 | delta_pf=0.000000 | mdd_pct=-7.7792 | delta_mdd_pct=0.0000 | max_conc=294 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=short_only_leverage_10x | verdict=fail | final_return_pct=58656915.9446 | delta_final_return_pct=58656521.6612 | pf=1.507959 | delta_pf=0.102909 | mdd_pct=-56.3231 | delta_mdd_pct=-48.5438 | max_conc=294 | delta_max_conc=0 | return_retention_pct=14876841.31
