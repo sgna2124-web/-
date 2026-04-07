@@ -1,0 +1,1 @@
+{"group_name":"v42_short_only_leverage10","experiments":[{"name":"short_only_reference_1x","enabled":true,"overrides":{}},{"name":"short_only_leverage_10x","enabled":true,"overrides":{"position_fraction":0.10}}]}
