@@ -1,0 +1,10 @@
+master_summary_json_only_short_strict
+
+experiment=short_hybrid_baseline_s22 | verdict=baseline | final_return_pct=319.0419 | delta_final_return_pct=0.0000 | pf=1.450257 | delta_pf=0.000000 | mdd_pct=-5.0169 | delta_mdd_pct=0.0000 | max_conc=286 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=short_hybrid_s22_rr30_t40 | verdict=fail | final_return_pct=141.7084 | delta_final_return_pct=-177.3334 | pf=1.260949 | delta_pf=-0.189308 | mdd_pct=-3.0599 | delta_mdd_pct=1.9570 | max_conc=286 | delta_max_conc=0 | return_retention_pct=44.42
+experiment=short_hybrid_s22_rr30_t40_defense | verdict=fail | final_return_pct=128.0743 | delta_final_return_pct=-190.9676 | pf=1.243738 | delta_pf=-0.206519 | mdd_pct=-4.6455 | delta_mdd_pct=0.3714 | max_conc=54 | delta_max_conc=-232 | return_retention_pct=40.14
+experiment=short_hybrid_s22_active_freeze | verdict=fail | final_return_pct=313.1125 | delta_final_return_pct=-5.9294 | pf=1.446266 | delta_pf=-0.003991 | mdd_pct=-5.0169 | delta_mdd_pct=-0.0000 | max_conc=249 | delta_max_conc=-37 | return_retention_pct=98.14
+experiment=short_hybrid_s22_block_dominant | verdict=fail | final_return_pct=258.5191 | delta_final_return_pct=-60.5228 | pf=1.403542 | delta_pf=-0.046715 | mdd_pct=-5.0169 | delta_mdd_pct=-0.0000 | max_conc=55 | delta_max_conc=-231 | return_retention_pct=81.03
+experiment=short_hybrid_s22_defense_combo | verdict=fail | final_return_pct=258.5191 | delta_final_return_pct=-60.5228 | pf=1.403542 | delta_pf=-0.046715 | mdd_pct=-5.0169 | delta_mdd_pct=-0.0000 | max_conc=55 | delta_max_conc=-231 | return_retention_pct=81.03
+experiment=short_hybrid_s22_rr15_t18_defense | verdict=fail | final_return_pct=61.0794 | delta_final_return_pct=-257.9625 | pf=1.134911 | delta_pf=-0.315346 | mdd_pct=-5.2524 | delta_mdd_pct=-0.2355 | max_conc=54 | delta_max_conc=-232 | return_retention_pct=19.14
+experiment=short_hybrid_s22_ema_rr_defense | verdict=fail | final_return_pct=85.3574 | delta_final_return_pct=-233.6845 | pf=1.174480 | delta_pf=-0.275777 | mdd_pct=-5.5248 | delta_mdd_pct=-0.5079 | max_conc=54 | delta_max_conc=-232 | return_retention_pct=26.75
