@@ -1,0 +1,1 @@
+{"group_name":"v43_short_only_split300_leverage10","experiments":[{"name":"short_only_split300_1x","enabled":true,"overrides":{}},{"name":"short_only_split300_10x","enabled":true,"overrides":{"position_fraction":0.03333333333333333}}]}
