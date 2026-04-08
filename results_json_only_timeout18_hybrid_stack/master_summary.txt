@@ -1,0 +1,12 @@
+master_summary_json_only_short_strict
+
+experiment=baseline | verdict=baseline | final_return_pct=765.5314 | delta_final_return_pct=0.0000 | pf=1.188938 | delta_pf=0.000000 | mdd_pct=-48.4157 | delta_mdd_pct=0.0000 | max_conc=389 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=long_light | verdict=pass | final_return_pct=716.9441 | delta_final_return_pct=-48.5872 | pf=1.201435 | delta_pf=0.012497 | mdd_pct=-47.1169 | delta_mdd_pct=1.2988 | max_conc=376 | delta_max_conc=-13 | return_retention_pct=93.65
+experiment=fail_fast_long_light | verdict=pass | final_return_pct=710.0402 | delta_final_return_pct=-55.4912 | pf=1.201203 | delta_pf=0.012265 | mdd_pct=-47.2792 | delta_mdd_pct=1.1365 | max_conc=376 | delta_max_conc=-13 | return_retention_pct=92.75
+experiment=dual_light | verdict=hold | final_return_pct=670.8752 | delta_final_return_pct=-94.6562 | pf=1.218292 | delta_pf=0.029355 | mdd_pct=-47.0362 | delta_mdd_pct=1.3795 | max_conc=376 | delta_max_conc=-13 | return_retention_pct=87.64
+experiment=fail_fast_dual_light | verdict=hold | final_return_pct=662.2962 | delta_final_return_pct=-103.2352 | pf=1.217749 | delta_pf=0.028811 | mdd_pct=-47.2308 | delta_mdd_pct=1.1849 | max_conc=376 | delta_max_conc=-13 | return_retention_pct=86.51
+experiment=fail_fast_7bars_long_light | verdict=hold | final_return_pct=693.1915 | delta_final_return_pct=-72.3399 | pf=1.199179 | delta_pf=0.010241 | mdd_pct=-47.5354 | delta_mdd_pct=0.8803 | max_conc=376 | delta_max_conc=-13 | return_retention_pct=90.55
+experiment=short_light | verdict=hold | final_return_pct=716.4402 | delta_final_return_pct=-49.0911 | pf=1.202845 | delta_pf=0.013907 | mdd_pct=-48.3548 | delta_mdd_pct=0.0609 | max_conc=389 | delta_max_conc=0 | return_retention_pct=93.59
+experiment=fail_fast_5bars_short_light | verdict=fail | final_return_pct=700.7511 | delta_final_return_pct=-64.7802 | pf=1.201238 | delta_pf=0.012300 | mdd_pct=-48.6021 | delta_mdd_pct=-0.1864 | max_conc=389 | delta_max_conc=0 | return_retention_pct=91.54
+experiment=fail_fast_short_light | verdict=fail | final_return_pct=701.6228 | delta_final_return_pct=-63.9086 | pf=1.201666 | delta_pf=0.012728 | mdd_pct=-48.6821 | delta_mdd_pct=-0.2664 | max_conc=389 | delta_max_conc=0 | return_retention_pct=91.65
+experiment=fail_fast_6bars | verdict=fail | final_return_pct=752.1244 | delta_final_return_pct=-13.4069 | pf=1.188105 | delta_pf=-0.000833 | mdd_pct=-48.7114 | delta_mdd_pct=-0.2957 | max_conc=389 | delta_max_conc=0 | return_retention_pct=98.25

@@ -1,0 +1,67 @@
+{
+  "trades": 43579,
+  "final_asset": 1122.6284775236754,
+  "final_return": 10.226284775236754,
+  "peak_asset": 1247.0289951356403,
+  "peak_growth": 11.470289951356403,
+  "win_rate": 0.39803575116455175,
+  "pf": 1.4976330172534904,
+  "mdd": -0.3930658347036803,
+  "max_conc": 3057,
+  "strategy": "overextension_reversion_v1_json_only_timeout18_time_reduce_v14_strict_long_only_wick_or_atr_guard",
+  "experiment_name": "long_only_wick_or_atr_guard",
+  "initial_asset": 100.0,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "effective_config": {
+    "strategy_name": "overextension_reversion_v1_json_only_timeout18_time_reduce_v14_strict",
+    "data_dir": "5m_data",
+    "results_dir": "results_json_only_timeout18_time_reduce_v14_strict",
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "min_bars": 120,
+    "signal": {
+      "ema_period": 20,
+      "rsi_period": 14,
+      "atr_period": 14,
+      "long_dev": 0.028,
+      "short_dev": 0.032,
+      "long_rsi_max": 25,
+      "short_rsi_min": 76,
+      "long_wick_mult": 1.2,
+      "short_wick_mult": 1.3
+    },
+    "quality": {
+      "long_dev": 0.0285,
+      "long_rsi_max": 24,
+      "long_wick_mult": 1.2,
+      "short_dev": null,
+      "short_rsi_min": null,
+      "short_wick_mult": null
+    },
+    "risk": {
+      "atr_stop_mult": 1.8975,
+      "rr_mult": 2.2,
+      "min_expected_tp": 0.003,
+      "timeout_bars": 27,
+      "stop_mode": "wick_or_atr",
+      "target_mode": "ema_only",
+      "fail_fast_bars": null,
+      "fail_fast_min_progress_r": null,
+      "protect_mode": "time_reduce",
+      "time_reduce_bars": 17,
+      "time_reduce_to_risk_frac": 0.155
+    },
+    "trade_control": {
+      "cooldown_bars_same_symbol_same_side": 0,
+      "top_n_per_timestamp": null
+    },
+    "execution": {
+      "entry_on_next_bar_open": true,
+      "allow_long": true,
+      "allow_short": false
+    }
+  },
+  "engine_mode": "strict_time_axis_realized_equity"
+}

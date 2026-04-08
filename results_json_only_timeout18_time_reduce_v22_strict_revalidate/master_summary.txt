@@ -1,0 +1,7 @@
+master_summary_json_only_short_strict
+
+experiment=long_guard_wick_only_top200_baseline | verdict=baseline | final_return_pct=513.2594 | delta_final_return_pct=0.0000 | pf=1.217839 | delta_pf=0.000000 | mdd_pct=-48.7241 | delta_mdd_pct=0.0000 | max_conc=234 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=atr18975_t27_b17_r155_legacy_baseline | verdict=hold | final_return_pct=1082.0186 | delta_final_return_pct=568.7592 | pf=1.217214 | delta_pf=-0.000624 | mdd_pct=-40.7190 | delta_mdd_pct=8.0052 | max_conc=386 | delta_max_conc=152 | return_retention_pct=210.81
+experiment=asym_guard_wick_only_top200 | verdict=hold | final_return_pct=516.4686 | delta_final_return_pct=3.2093 | pf=1.222956 | delta_pf=0.005118 | mdd_pct=-48.4336 | delta_mdd_pct=0.2905 | max_conc=234 | delta_max_conc=0 | return_retention_pct=100.63
+experiment=long_guard_wick_only_ref | verdict=fail | final_return_pct=496.2954 | delta_final_return_pct=-16.9640 | pf=1.214092 | delta_pf=-0.003747 | mdd_pct=-53.5625 | delta_mdd_pct=-4.8384 | max_conc=380 | delta_max_conc=146 | return_retention_pct=96.69
+experiment=long_guard_rr_only_ref | verdict=fail | final_return_pct=211.0316 | delta_final_return_pct=-302.2277 | pf=1.135422 | delta_pf=-0.082416 | mdd_pct=-54.6036 | delta_mdd_pct=-5.8794 | max_conc=381 | delta_max_conc=147 | return_retention_pct=41.12

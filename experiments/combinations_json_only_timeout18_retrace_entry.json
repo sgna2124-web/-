@@ -1,0 +1,59 @@
+{
+  "group_name": "combinations_json_only_timeout18_retrace_entry",
+  "experiments": [
+    {
+      "name": "baseline",
+      "description": "timeout_18bars 현재 1위 기준선",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "atr_pullback_025_1bar",
+      "description": "신호 후 0.25 ATR 유리한 가격에 1봉 동안 리밋 진입 시도",
+      "enabled": true,
+      "overrides": {
+        "entry_refine": {
+          "mode": "atr_pullback",
+          "retrace_atr_mult": 0.25,
+          "fill_window_bars": 1
+        }
+      }
+    },
+    {
+      "name": "atr_pullback_050_2bars",
+      "description": "신호 후 0.50 ATR 유리한 가격에 2봉 동안 리밋 진입 시도",
+      "enabled": true,
+      "overrides": {
+        "entry_refine": {
+          "mode": "atr_pullback",
+          "retrace_atr_mult": 0.50,
+          "fill_window_bars": 2
+        }
+      }
+    },
+    {
+      "name": "wick_retrace_050_1bar",
+      "description": "신호봉 꼬리의 50% 되돌림 가격으로 1봉 동안 리밋 진입 시도",
+      "enabled": true,
+      "overrides": {
+        "entry_refine": {
+          "mode": "wick_retrace",
+          "wick_retrace_frac": 0.50,
+          "fill_window_bars": 1
+        }
+      }
+    },
+    {
+      "name": "wick_retrace_075_2bars",
+      "description": "신호봉 꼬리의 75% 되돌림 가격으로 2봉 동안 리밋 진입 시도",
+      "enabled": true,
+      "overrides": {
+        "entry_refine": {
+          "mode": "wick_retrace",
+          "wick_retrace_frac": 0.75,
+          "fill_window_bars": 2
+        }
+      }
+    }
+  ]
+}

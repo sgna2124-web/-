@@ -1,0 +1,11 @@
+master_summary_json_only_short_strict
+
+experiment=atr18975_t27_b17_r155_baseline | verdict=baseline | final_return_pct=6250.7029 | delta_final_return_pct=0.0000 | pf=1.410614 | delta_pf=0.000000 | mdd_pct=-33.7119 | delta_mdd_pct=0.0000 | max_conc=7708 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=asym_guard_soft_ref | verdict=hold | final_return_pct=5277.7061 | delta_final_return_pct=-972.9968 | pf=1.433222 | delta_pf=0.022608 | mdd_pct=-31.2086 | delta_mdd_pct=2.5033 | max_conc=7136 | delta_max_conc=-572 | return_retention_pct=84.43
+experiment=long_guard_soft_ref | verdict=hold | final_return_pct=5400.3391 | delta_final_return_pct=-850.3638 | pf=1.425838 | delta_pf=0.015224 | mdd_pct=-31.3519 | delta_mdd_pct=2.3600 | max_conc=7324 | delta_max_conc=-384 | return_retention_pct=86.40
+experiment=asym_guard_shortcap100 | verdict=hold | final_return_pct=4973.5390 | delta_final_return_pct=-1277.1639 | pf=1.426127 | delta_pf=0.015513 | mdd_pct=-32.7124 | delta_mdd_pct=0.9995 | max_conc=7136 | delta_max_conc=-572 | return_retention_pct=79.57
+experiment=long_guard_shortcap100 | verdict=hold | final_return_pct=5087.3832 | delta_final_return_pct=-1163.3197 | pf=1.418808 | delta_pf=0.008194 | mdd_pct=-32.8456 | delta_mdd_pct=0.8663 | max_conc=7324 | delta_max_conc=-384 | return_retention_pct=81.39
+experiment=asym_guard_shortcap50 | verdict=hold | final_return_pct=4856.1103 | delta_final_return_pct=-1394.5926 | pf=1.423201 | delta_pf=0.012587 | mdd_pct=-33.2305 | delta_mdd_pct=0.4814 | max_conc=7103 | delta_max_conc=-605 | return_retention_pct=77.69
+experiment=long_guard_shortcap50 | verdict=hold | final_return_pct=4972.4460 | delta_final_return_pct=-1278.2569 | pf=1.416132 | delta_pf=0.005518 | mdd_pct=-33.3627 | delta_mdd_pct=0.3492 | max_conc=7280 | delta_max_conc=-428 | return_retention_pct=79.55
+experiment=baseline_shortcap100 | verdict=fail | final_return_pct=5889.3633 | delta_final_return_pct=-361.3396 | pf=1.403949 | delta_pf=-0.006665 | mdd_pct=-35.1543 | delta_mdd_pct=-1.4424 | max_conc=7708 | delta_max_conc=0 | return_retention_pct=94.22
+experiment=baseline_shortcap50 | verdict=fail | final_return_pct=5756.6567 | delta_final_return_pct=-494.0462 | pf=1.401402 | delta_pf=-0.009212 | mdd_pct=-35.6536 | delta_mdd_pct=-1.9417 | max_conc=7664 | delta_max_conc=-44 | return_retention_pct=92.10

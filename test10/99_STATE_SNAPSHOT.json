@@ -1,0 +1,109 @@
+{
+  "scope": "handoff for next assistant after v22-v27 and creation of test10",
+  "official_baseline": {
+    "name": "official_top200_reference",
+    "source_version": "v27",
+    "final_return_pct": 1120.699950119489,
+    "pf": 1.2199649287119587,
+    "mdd_pct": -36.03441140922301,
+    "max_conc": 271,
+    "status": "current official comparison baseline, but top200 is not structurally trusted"
+  },
+  "revalidation_turning_point": {
+    "version": "v22",
+    "note": "same-bar leak corrected; pre-v22 top rankings are not final truth",
+    "legacy_baseline_after_revalidation": {
+      "name": "atr18975_t27_b17_r155_legacy_baseline",
+      "final_return_pct": 1082.0185630569651,
+      "pf": 1.2172141684219273,
+      "mdd_pct": -40.71895405660141,
+      "max_conc": 386
+    }
+  },
+  "key_milestones": [
+    {
+      "version": "v23",
+      "result": "baseline_top200 became official baseline over revalidated legacy baseline"
+    },
+    {
+      "version": "v24",
+      "result": "topN outperformed score-floor lanes; asym_guard_top150 emerged as practical defense candidate"
+    },
+    {
+      "version": "v25",
+      "result": "top200 only triggered on 13 of 47282 candidate timestamps; mechanism remains suspect"
+    },
+    {
+      "version": "v26",
+      "result": "hardened absolute score did not replace top200"
+    },
+    {
+      "version": "v27",
+      "result": "best no-topN replacement candidate was score_l16_s20_shortheavy, still failed to replace top200"
+    }
+  ],
+  "top200_diagnostics": {
+    "timestamps_with_candidates": 47282,
+    "mean_candidates": 1.9083795101730046,
+    "median_candidates": 1.0,
+    "p95_candidates": 3.0,
+    "timestamps_over_200": 13,
+    "share_over_200": 0.0002749460682712237,
+    "interpretation": "top200 is a rare burst control device, not a frequently active general rule"
+  },
+  "best_no_topn_candidate": {
+    "name": "score_l16_s20_shortheavy",
+    "source_version": "v27",
+    "final_return_pct": 1089.065698920805,
+    "pf": 1.2242423674675684,
+    "mdd_pct": -41.06884814775283,
+    "max_conc": 386,
+    "interpretation": "closest top200-free candidate so far; short-heavy thresholding looks most promising"
+  },
+  "best_no_topn_pf_candidate": {
+    "name": "asym_guard_score_l16_s20_shortheavy",
+    "source_version": "v27",
+    "final_return_pct": 1027.1190173694988,
+    "pf": 1.2416775152307686,
+    "mdd_pct": -39.532973809666586,
+    "max_conc": 379,
+    "interpretation": "better PF, lower return; useful secondary replacement candidate"
+  },
+  "practical_defense_candidate": {
+    "name": "asym_guard_top150",
+    "source_version": "v24-3",
+    "final_return_pct": 898.76,
+    "pf": 1.21856,
+    "mdd_pct": -32.53,
+    "max_conc": 269
+  },
+  "avoid_or_lower_priority": [
+    "pre-v22 rankings as official truth",
+    "wick_or_atr as main improvement axis",
+    "top250/top300 cd-value expansion",
+    "strong score-floor only variants as main line",
+    "fail-fast as main replacement axis",
+    "treating top200 as proven final deployment rule"
+  ],
+  "next_step_recommendation": {
+    "version": "v28",
+    "goal": "replace top200 with topN-free, explainable absolute score structure",
+    "focus_axes": [
+      "score_l16_s20_shortheavy",
+      "asym_guard_score_l16_s20_shortheavy"
+    ],
+    "tune_first": [
+      "short threshold around 1.9 to 2.1",
+      "long threshold around 1.55 to 1.65",
+      "soft asym guard intensity",
+      "score weights dev/rsi/wick",
+      "wick_atr_floor_mult",
+      "score_wick_cap"
+    ],
+    "deprioritize": [
+      "fail_fast",
+      "top250/top300 expansion",
+      "wick_or_atr revival"
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+timestamps_with_candidates,mean_candidates,median_candidates,p90_candidates,p95_candidates,max_candidates,timestamps_over_50,timestamps_over_100,timestamps_over_150,timestamps_over_200,timestamps_over_250,share_over_200
+47282,1.9083795101730046,1.0,2.0,3.0,386,147,49,28,13,2,0.0002749460682712237

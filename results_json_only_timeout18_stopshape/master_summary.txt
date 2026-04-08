@@ -1,0 +1,11 @@
+master_summary_json_only_short_strict
+
+experiment=baseline | verdict=baseline | final_return_pct=765.5314 | delta_final_return_pct=0.0000 | pf=1.188938 | delta_pf=0.000000 | mdd_pct=-48.4157 | delta_mdd_pct=0.0000 | max_conc=389 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=atr_only_rr_only | verdict=hold | final_return_pct=689.3989 | delta_final_return_pct=-76.1325 | pf=1.183405 | delta_pf=-0.005532 | mdd_pct=-46.3168 | delta_mdd_pct=2.0989 | max_conc=386 | delta_max_conc=-3 | return_retention_pct=90.05
+experiment=atr_only_stop | verdict=hold | final_return_pct=644.7394 | delta_final_return_pct=-120.7919 | pf=1.179090 | delta_pf=-0.009848 | mdd_pct=-46.8480 | delta_mdd_pct=1.5677 | max_conc=386 | delta_max_conc=-3 | return_retention_pct=84.22
+experiment=atr_only_stop_fail_fast | verdict=hold | final_return_pct=644.6376 | delta_final_return_pct=-120.8938 | pf=1.179512 | delta_pf=-0.009426 | mdd_pct=-46.9507 | delta_mdd_pct=1.4650 | max_conc=386 | delta_max_conc=-3 | return_retention_pct=84.21
+experiment=ema_only_target | verdict=hold | final_return_pct=1169.4956 | delta_final_return_pct=403.9643 | pf=1.221544 | delta_pf=0.032607 | mdd_pct=-48.3181 | delta_mdd_pct=0.0977 | max_conc=389 | delta_max_conc=0 | return_retention_pct=152.77
+experiment=rr_only_target | verdict=hold | final_return_pct=846.3476 | delta_final_return_pct=80.8162 | pf=1.195660 | delta_pf=0.006722 | mdd_pct=-48.3738 | delta_mdd_pct=0.0419 | max_conc=390 | delta_max_conc=1 | return_retention_pct=110.56
+experiment=wick_only_rr_only | verdict=fail | final_return_pct=291.3362 | delta_final_return_pct=-474.1951 | pf=1.161540 | delta_pf=-0.027398 | mdd_pct=-55.4002 | delta_mdd_pct=-6.9844 | max_conc=390 | delta_max_conc=1 | return_retention_pct=38.06
+experiment=wick_only_stop | verdict=fail | final_return_pct=278.8820 | delta_final_return_pct=-486.6493 | pf=1.158107 | delta_pf=-0.030830 | mdd_pct=-55.7623 | delta_mdd_pct=-7.3466 | max_conc=389 | delta_max_conc=0 | return_retention_pct=36.43
+experiment=wick_only_stop_fail_fast | verdict=fail | final_return_pct=270.7879 | delta_final_return_pct=-494.7435 | pf=1.155828 | delta_pf=-0.033110 | mdd_pct=-56.0101 | delta_mdd_pct=-7.5944 | max_conc=389 | delta_max_conc=0 | return_retention_pct=35.37
