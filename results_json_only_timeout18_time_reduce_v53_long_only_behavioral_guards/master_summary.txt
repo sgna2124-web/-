@@ -1,0 +1,11 @@
+master_summary_json_only_short_strict
+
+experiment=long_beh_baseline_u10 | verdict=baseline | final_return_pct=195.5500 | delta_final_return_pct=0.0000 | pf=1.237313 | delta_pf=0.000000 | mdd_pct=-38.7344 | delta_mdd_pct=0.0000 | max_conc=379 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=long_beh_max_active_70 | verdict=hold | final_return_pct=153.7760 | delta_final_return_pct=-41.7741 | pf=1.247351 | delta_pf=0.010037 | mdd_pct=-19.3935 | delta_mdd_pct=19.3409 | max_conc=70 | delta_max_conc=-309 | return_retention_pct=78.64
+experiment=long_beh_conservative_combo | verdict=fail | final_return_pct=59.5996 | delta_final_return_pct=-135.9505 | pf=1.303988 | delta_pf=0.066675 | mdd_pct=-6.0715 | delta_mdd_pct=32.6629 | max_conc=40 | delta_max_conc=-339 | return_retention_pct=30.48
+experiment=long_beh_max50_plus_lossbrake | verdict=fail | final_return_pct=81.0411 | delta_final_return_pct=-114.5090 | pf=1.342389 | delta_pf=0.105075 | mdd_pct=-7.0753 | delta_mdd_pct=31.6591 | max_conc=50 | delta_max_conc=-329 | return_retention_pct=41.44
+experiment=long_beh_max_active_50 | verdict=fail | final_return_pct=126.5009 | delta_final_return_pct=-69.0491 | pf=1.233156 | delta_pf=-0.004157 | mdd_pct=-16.0677 | delta_mdd_pct=22.6668 | max_conc=50 | delta_max_conc=-329 | return_retention_pct=64.69
+experiment=long_beh_loss_streak_brake | verdict=fail | final_return_pct=129.2686 | delta_final_return_pct=-66.2814 | pf=1.409560 | delta_pf=0.172247 | mdd_pct=-23.7189 | delta_mdd_pct=15.0156 | max_conc=379 | delta_max_conc=0 | return_retention_pct=66.11
+experiment=long_beh_per_symbol_1 | verdict=fail | final_return_pct=195.5500 | delta_final_return_pct=0.0000 | pf=1.237313 | delta_pf=0.000000 | mdd_pct=-38.7344 | delta_mdd_pct=0.0000 | max_conc=379 | delta_max_conc=0 | return_retention_pct=100.00
+experiment=long_beh_dd_brake | verdict=fail | final_return_pct=183.3452 | delta_final_return_pct=-12.2048 | pf=1.248518 | delta_pf=0.011205 | mdd_pct=-39.3599 | delta_mdd_pct=-0.6255 | max_conc=379 | delta_max_conc=0 | return_retention_pct=93.76
+experiment=long_beh_symbol1_plus_ddbrake | verdict=fail | final_return_pct=183.3452 | delta_final_return_pct=-12.2048 | pf=1.248518 | delta_pf=0.011205 | mdd_pct=-39.3599 | delta_mdd_pct=-0.6255 | max_conc=379 | delta_max_conc=0 | return_retention_pct=93.76
