@@ -1,0 +1,82 @@
+{
+  "trades": 50294,
+  "final_asset": 798.9346991365803,
+  "final_return": 6.989346991365803,
+  "peak_asset": 911.4511618327471,
+  "peak_growth": 8.114511618327471,
+  "win_rate": 0.2589374478068955,
+  "pf": 1.3592897522413956,
+  "mdd": -0.4203526432559399,
+  "max_conc": 386,
+  "max_conc_unique_symbols": 386,
+  "same_bar_trades": 3554,
+  "active_leftover": 0,
+  "strategy": "overextension_reversion_v1_json_only_timeout18_time_reduce_v45_long_only_architecture_exploration_long_arch_baseline",
+  "experiment_name": "long_arch_baseline",
+  "initial_asset": 100.0,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "effective_config": {
+    "strategy_name": "overextension_reversion_v1_json_only_timeout18_time_reduce_v45_long_only_architecture_exploration",
+    "data_dir": "5m_data",
+    "results_dir": "results_json_only_timeout18_time_reduce_v45_long_only_architecture_exploration",
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "min_bars": 120,
+    "signal": {
+      "ema_period": 20,
+      "rsi_period": 14,
+      "atr_period": 14,
+      "long_dev": 0.028,
+      "short_dev": 0.032,
+      "long_rsi_max": 25,
+      "short_rsi_min": 76,
+      "long_wick_mult": 1.2,
+      "short_wick_mult": 1.3
+    },
+    "quality": {
+      "long_dev": null,
+      "long_rsi_max": null,
+      "long_wick_mult": null,
+      "short_dev": null,
+      "short_rsi_min": null,
+      "short_wick_mult": null
+    },
+    "risk": {
+      "atr_stop_mult": 1.8975,
+      "rr_mult": 3.0,
+      "min_expected_tp": 0.003,
+      "timeout_bars": 40,
+      "stop_mode": "atr_only",
+      "target_mode": "rr_only",
+      "fail_fast_bars": 10,
+      "fail_fast_min_progress_r": 0.1,
+      "protect_mode": "time_reduce",
+      "time_reduce_bars": 10,
+      "time_reduce_to_risk_frac": 0.05
+    },
+    "trade_control": {
+      "cooldown_bars_same_symbol_same_side": 0,
+      "top_n_per_timestamp": null,
+      "top_n_long_per_timestamp": null,
+      "top_n_short_per_timestamp": null,
+      "score_min": null,
+      "score_min_long": 1.6,
+      "score_min_short": 2.0,
+      "score_dev_weight": 1.0,
+      "score_rsi_weight": 0.8,
+      "score_wick_weight": 0.7,
+      "score_dev_cap": 2.0,
+      "score_rsi_cap": 2.0,
+      "score_wick_cap": 2.5,
+      "wick_atr_floor_mult": 0.2
+    },
+    "execution": {
+      "entry_on_next_bar_open": true,
+      "allow_long": true,
+      "allow_short": false
+    }
+  },
+  "engine_mode": "strict_time_axis_revalidated_hardened_absolute_score"
+}
