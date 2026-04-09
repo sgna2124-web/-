@@ -1,0 +1,161 @@
+{
+  "handoff_version": "test11",
+  "project_focus": {
+    "primary_goal": "find low-MDD long-only and short-only strategies first, combine later",
+    "current_priority": "MDD under 10 percent first, then compare return, PF, max_conc, later cd_value",
+    "avoid": [
+      "micro parameter tuning",
+      "topN or top200 style trust-heavy ranking filters",
+      "jumping back to single both-side solution too early"
+    ]
+  },
+  "current_operating_mode": {
+    "split": 100,
+    "leverage": "off unless explicitly requested",
+    "strategy_development_mode": "separate long-only and short-only",
+    "report_fields_expected": [
+      "max_return_pct",
+      "mdd_pct",
+      "max_conc",
+      "win_rate_pct",
+      "cd_value"
+    ]
+  },
+  "current_best_candidates": {
+    "short": {
+      "main_balance": {
+        "name": "short_beh_dd_brake",
+        "source": "v52",
+        "max_return_pct": 311.5456,
+        "mdd_pct": -4.7589,
+        "max_conc": 286,
+        "win_rate_pct": 15.0623,
+        "pf": 1.4457
+      },
+      "alt_main": {
+        "name": "short_next_baseline_s22",
+        "source": "v50",
+        "max_return_pct": 319.0419,
+        "mdd_pct": -5.0169,
+        "max_conc": 286,
+        "win_rate_pct": 15.0864,
+        "pf": 1.4503
+      },
+      "entry_mode_candidate": {
+        "name": "short_div_dense_skip30",
+        "source": "v54",
+        "max_return_pct": 251.3963,
+        "mdd_pct": -3.6805,
+        "max_conc": 55,
+        "win_rate_pct": 14.5801,
+        "pf": 1.4013
+      },
+      "defensive": {
+        "name": "short_beh_conservative_combo",
+        "source": "v52",
+        "max_return_pct": 144.8252,
+        "mdd_pct": -2.5182,
+        "max_conc": 60,
+        "win_rate_pct": 14.8562,
+        "pf": 1.4883
+      },
+      "ultra_defensive": [
+        {
+          "name": "short_div_first_after_quiet48",
+          "source": "v54",
+          "max_return_pct": 47.4925,
+          "mdd_pct": -1.6902,
+          "max_conc": 130,
+          "win_rate_pct": 16.8119,
+          "pf": 1.4897
+        },
+        {
+          "name": "short_div_reentry_gap48",
+          "source": "v54",
+          "max_return_pct": 53.11,
+          "mdd_pct": -1.7075,
+          "max_conc": 151,
+          "win_rate_pct": 16.6208,
+          "pf": 1.4744
+        }
+      ]
+    },
+    "long": {
+      "main_balance": {
+        "name": "long_beh_max50_plus_lossbrake",
+        "source": "v53",
+        "max_return_pct": 81.0411,
+        "mdd_pct": -7.0753,
+        "max_conc": 50,
+        "win_rate_pct": 50.3251,
+        "pf": 1.3424
+      },
+      "alt_main": {
+        "name": "long_push_u10_ema_rr_more_block",
+        "source": "v51",
+        "max_return_pct": 97.075,
+        "mdd_pct": -9.4159,
+        "max_conc": 78,
+        "win_rate_pct": 46.9012,
+        "pf": 1.2243
+      },
+      "entry_mode_candidate": {
+        "name": "long_div_confirmation_plus_reentry",
+        "source": "v55",
+        "max_return_pct": 51.4272,
+        "mdd_pct": -7.2922,
+        "max_conc": 156,
+        "win_rate_pct": 51.2903,
+        "pf": 1.5749
+      },
+      "defensive": {
+        "name": "long_beh_conservative_combo",
+        "source": "v53",
+        "max_return_pct": 59.5996,
+        "mdd_pct": -6.0715,
+        "max_conc": 40,
+        "win_rate_pct": 50.4477,
+        "pf": 1.304
+      },
+      "alt_defensive": {
+        "name": "long_div_dense_skip30_confirm",
+        "source": "v55",
+        "max_return_pct": 49.3508,
+        "mdd_pct": -6.8402,
+        "max_conc": 141,
+        "win_rate_pct": 49.0309,
+        "pf": 1.182
+      }
+    }
+  },
+  "experiment_groups_recent": [
+    {"version": "v41", "theme": "structural gate exploration"},
+    {"version": "v42", "theme": "incorrect leverage 10x reference, superseded"},
+    {"version": "v43", "theme": "corrected split300 leverage model"},
+    {"version": "v44", "theme": "short-only structural gates"},
+    {"version": "v45", "theme": "long-only architecture exploration"},
+    {"version": "v46", "theme": "short-only low MDD exploration"},
+    {"version": "v47", "theme": "long-only low MDD exploration"},
+    {"version": "v48", "theme": "short-only hybrid low MDD"},
+    {"version": "v49", "theme": "long-only hybrid low MDD"},
+    {"version": "v50", "theme": "short-only next low MDD"},
+    {"version": "v51", "theme": "long-only push under 10 percent MDD"},
+    {"version": "v52", "theme": "short-only behavioral guards"},
+    {"version": "v53", "theme": "long-only behavioral guards"},
+    {"version": "v54", "theme": "short-only diverse entry modes"},
+    {"version": "v55", "theme": "long-only diverse entry modes"}
+  ],
+  "important_cautions": [
+    "v42 leverage result should not be treated as realistic 10x because position_fraction modeling was flawed",
+    "v53 baseline is not a clean continuation of v51 best candidate",
+    "v54 and v55 diverse entry runners do not directly use every field present in base configs; naming can be misleading",
+    "recent master_summary files do not automatically include cd_value"
+  ],
+  "next_actions": [
+    "cross behavioral guards with diverse entry modes for short candidates",
+    "cross behavioral guards with diverse entry modes for long candidates",
+    "add delayed-entry or observed-entry families",
+    "repair summary pipeline so cd_value is stored consistently",
+    "later, collect only under-10-percent MDD candidates and rank by cd_value"
+  ]
+}
