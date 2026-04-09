@@ -1,0 +1,20 @@
+{
+  "group_name": "v61_long_only_confirmation_weird_mix",
+  "experiments": [
+    {"name": "long_conf_baseline", "enabled": true, "overrides": {}},
+    {"name": "long_conf_reclaim", "enabled": true, "overrides": {"confirmation": {"mode": "reclaim_confirm"}}},
+    {"name": "long_conf_followthrough", "enabled": true, "overrides": {"confirmation": {"mode": "followthrough_confirm"}}},
+    {"name": "long_conf_volume_reclaim_105", "enabled": true, "overrides": {"confirmation": {"mode": "volume_reclaim_confirm", "volume_mean_window": 20, "volume_mult": 1.05}}},
+    {"name": "long_conf_volume_reclaim_120", "enabled": true, "overrides": {"confirmation": {"mode": "volume_reclaim_confirm", "volume_mean_window": 20, "volume_mult": 1.2}}},
+    {"name": "long_conf_volume_fast8_102", "enabled": true, "overrides": {"confirmation": {"mode": "volume_reclaim_confirm", "volume_mean_window": 8, "volume_mult": 1.02}}},
+    {"name": "long_conf_reclaim_nochase_025", "enabled": true, "overrides": {"confirmation": {"mode": "reclaim_no_chase_confirm", "max_entry_atr_from_confirm_close": 0.25}}},
+    {"name": "long_conf_reclaim_nochase_050", "enabled": true, "overrides": {"confirmation": {"mode": "reclaim_no_chase_confirm", "max_entry_atr_from_confirm_close": 0.5}}},
+    {"name": "long_conf_follow_nochase_025", "enabled": true, "overrides": {"confirmation": {"mode": "followthrough_no_chase_confirm", "max_entry_atr_from_confirm_close": 0.25}}},
+    {"name": "long_conf_follow_nochase_050", "enabled": true, "overrides": {"confirmation": {"mode": "followthrough_no_chase_confirm", "max_entry_atr_from_confirm_close": 0.5}}},
+    {"name": "long_conf_reclaim_cd12", "enabled": true, "overrides": {"trade_control": {"cooldown_bars_same_symbol_same_side": 12}, "confirmation": {"mode": "reclaim_confirm"}}},
+    {"name": "long_conf_follow_cd12", "enabled": true, "overrides": {"trade_control": {"cooldown_bars_same_symbol_same_side": 12}, "confirmation": {"mode": "followthrough_confirm"}}},
+    {"name": "long_conf_reclaim_nochase025_cd24", "enabled": true, "overrides": {"trade_control": {"cooldown_bars_same_symbol_same_side": 24}, "confirmation": {"mode": "reclaim_no_chase_confirm", "max_entry_atr_from_confirm_close": 0.25}}},
+    {"name": "long_conf_follow_nochase025_cd24", "enabled": true, "overrides": {"trade_control": {"cooldown_bars_same_symbol_same_side": 24}, "confirmation": {"mode": "followthrough_no_chase_confirm", "max_entry_atr_from_confirm_close": 0.25}}},
+    {"name": "long_conf_volume_fast8_102_cd12", "enabled": true, "overrides": {"trade_control": {"cooldown_bars_same_symbol_same_side": 12}, "confirmation": {"mode": "volume_reclaim_confirm", "volume_mean_window": 8, "volume_mult": 1.02}}}
+  ]
+}
