@@ -1,0 +1,16 @@
+{
+  "group_name": "v57_long_only_hybrid_guards_and_entry_modes",
+  "experiments": [
+    {"name": "long_hybrid_baseline_max50_lossbrake", "enabled": true, "overrides": {}},
+    {"name": "long_hybrid_confirmation24", "enabled": true, "overrides": {"trade_control": {"require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24}}},
+    {"name": "long_hybrid_reentry48", "enabled": true, "overrides": {"trade_control": {"reentry_gap_after_close_bars": 48}}},
+    {"name": "long_hybrid_confirmation24_reentry48", "enabled": true, "overrides": {"trade_control": {"require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24, "reentry_gap_after_close_bars": 48}}},
+    {"name": "long_hybrid_dense30", "enabled": true, "overrides": {"trade_control": {"skip_dense_ts_threshold": 30}}},
+    {"name": "long_hybrid_dense30_confirm24", "enabled": true, "overrides": {"trade_control": {"skip_dense_ts_threshold": 30, "require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24}}},
+    {"name": "long_hybrid_dense30_reentry48", "enabled": true, "overrides": {"trade_control": {"skip_dense_ts_threshold": 30, "reentry_gap_after_close_bars": 48}}},
+    {"name": "long_hybrid_conservative_dense30_confirm", "enabled": true, "overrides": {"trade_control": {"max_active_cap": 40, "max_per_symbol": 1, "loss_streak_trigger_losses": 3, "loss_streak_window": 5, "loss_streak_freeze_steps": 4, "dd_brake_trigger_pct": 0.025, "dd_brake_freeze_steps": 6, "skip_dense_ts_threshold": 30, "require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24}}},
+    {"name": "long_hybrid_conservative_reentry48", "enabled": true, "overrides": {"trade_control": {"max_active_cap": 40, "max_per_symbol": 1, "loss_streak_trigger_losses": 3, "loss_streak_window": 5, "loss_streak_freeze_steps": 4, "dd_brake_trigger_pct": 0.025, "dd_brake_freeze_steps": 6, "reentry_gap_after_close_bars": 48}}},
+    {"name": "long_hybrid_symbol1_dd_confirmation", "enabled": true, "overrides": {"trade_control": {"max_per_symbol": 1, "dd_brake_trigger_pct": 0.03, "dd_brake_freeze_steps": 5, "require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24}}},
+    {"name": "long_hybrid_quiet48_reentry48_lossbrake", "enabled": true, "overrides": {"trade_control": {"first_signal_after_quiet_bars": 48, "reentry_gap_after_close_bars": 48}}}
+  ]
+}
