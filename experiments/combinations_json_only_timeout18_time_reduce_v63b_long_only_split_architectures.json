@@ -1,0 +1,18 @@
+{
+  "group_name": "v63b_long_only_split_architectures",
+  "experiments": [
+    {"name": "long_split_baseline", "enabled": true, "overrides": {}},
+    {"name": "long_split_half_open_half_atr025", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.5, "second_fraction": 0.5, "second_mode": "atr_pullback", "retrace_atr_mult": 0.25, "second_fill_window_bars": 1}}},
+    {"name": "long_split_half_open_half_wick050", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.5, "second_fraction": 0.5, "second_mode": "wick_retrace", "wick_retrace_frac": 0.5, "second_fill_window_bars": 1}}},
+    {"name": "long_split_one_third_open_two_thirds_atr050", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.3333, "second_fraction": 0.6667, "second_mode": "atr_pullback", "retrace_atr_mult": 0.5, "second_fill_window_bars": 2}}},
+    {"name": "long_split_one_third_open_two_thirds_wick075", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.3333, "second_fraction": 0.6667, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}}},
+    {"name": "long_split_pure_atr025_1bar", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "atr_pullback", "retrace_atr_mult": 0.25, "second_fill_window_bars": 1}}},
+    {"name": "long_split_pure_atr050_2bar", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "atr_pullback", "retrace_atr_mult": 0.5, "second_fill_window_bars": 2}}},
+    {"name": "long_split_pure_wick050_1bar", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.5, "second_fill_window_bars": 1}}},
+    {"name": "long_split_pure_wick075_2bar", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}}},
+    {"name": "long_split_two_thirds_open_one_third_atr025", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.6667, "second_fraction": 0.3333, "second_mode": "atr_pullback", "retrace_atr_mult": 0.25, "second_fill_window_bars": 1}}},
+    {"name": "long_split_two_thirds_open_one_third_wick050", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.6667, "second_fraction": 0.3333, "second_mode": "wick_retrace", "wick_retrace_frac": 0.5, "second_fill_window_bars": 1}}},
+    {"name": "long_split_quarter_open_three_quarters_atr050", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.25, "second_fraction": 0.75, "second_mode": "atr_pullback", "retrace_atr_mult": 0.5, "second_fill_window_bars": 2}}},
+    {"name": "long_split_quarter_open_three_quarters_wick075", "enabled": true, "overrides": {"entry_refine": {"mode": "split_entry", "first_fraction": 0.25, "second_fraction": 0.75, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}}}
+  ]
+}
