@@ -1,0 +1,19 @@
+{
+  "group_name": "v63a_long_only_multimethod_architectures",
+  "experiments": [
+    {"name": "long_multi_baseline", "enabled": true, "overrides": {}},
+    {"name": "long_multi_trend", "enabled": true, "overrides": {"quality": {"ema_slope_lookback": 12, "long_ema_slope_min": 0.0}}},
+    {"name": "long_multi_reclaim", "enabled": true, "overrides": {"quality": {"long_close_pos_min": 0.55}}},
+    {"name": "long_multi_deviation", "enabled": true, "overrides": {"quality": {"min_dev_atr": 1.1, "max_dev_atr": 3.5}}},
+    {"name": "long_multi_riskwidth", "enabled": true, "overrides": {"quality": {"max_stop_pct": 0.02}}},
+    {"name": "long_multi_trend_reclaim", "enabled": true, "overrides": {"quality": {"ema_slope_lookback": 12, "long_ema_slope_min": 0.0, "long_close_pos_min": 0.52}}},
+    {"name": "long_multi_trend_deviation", "enabled": true, "overrides": {"quality": {"ema_slope_lookback": 12, "long_ema_slope_min": 0.0, "min_dev_atr": 1.1, "max_dev_atr": 3.5}}},
+    {"name": "long_multi_reclaim_deviation", "enabled": true, "overrides": {"quality": {"long_close_pos_min": 0.55, "min_dev_atr": 1.1, "max_dev_atr": 3.5}}},
+    {"name": "long_multi_risk_reclaim", "enabled": true, "overrides": {"quality": {"max_stop_pct": 0.02, "long_close_pos_min": 0.55}}},
+    {"name": "long_multi_risk_deviation", "enabled": true, "overrides": {"quality": {"max_stop_pct": 0.02, "min_dev_atr": 1.1, "max_dev_atr": 3.5}}},
+    {"name": "long_multi_trend_risk", "enabled": true, "overrides": {"quality": {"ema_slope_lookback": 12, "long_ema_slope_min": 0.0, "max_stop_pct": 0.02}}},
+    {"name": "long_multi_trend_reclaim_risk", "enabled": true, "overrides": {"quality": {"ema_slope_lookback": 12, "long_ema_slope_min": 0.0, "long_close_pos_min": 0.52, "max_stop_pct": 0.02}}},
+    {"name": "long_multi_reclaim_deviation_risk", "enabled": true, "overrides": {"quality": {"long_close_pos_min": 0.55, "min_dev_atr": 1.1, "max_dev_atr": 3.5, "max_stop_pct": 0.02}}},
+    {"name": "long_multi_all_stack", "enabled": true, "overrides": {"quality": {"ema_slope_lookback": 12, "long_ema_slope_min": 0.0, "long_close_pos_min": 0.52, "min_dev_atr": 1.1, "max_dev_atr": 3.5, "max_stop_pct": 0.02}}}
+  ]
+}
