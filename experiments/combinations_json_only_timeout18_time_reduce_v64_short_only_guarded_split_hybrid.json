@@ -1,0 +1,17 @@
+{
+  "group_name": "v64_short_only_guarded_split_hybrid",
+  "experiments": [
+    {"name": "short_guarded_split_pure_atr050_2bar_baseline", "enabled": true, "overrides": {}},
+    {"name": "short_guarded_split_pure_atr025_1bar", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "atr_pullback", "retrace_atr_mult": 0.25, "second_fill_window_bars": 1}}},
+    {"name": "short_guarded_split_pure_wick075_2bar", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}}},
+    {"name": "short_guarded_split_pure_wick050_1bar", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.5, "second_fill_window_bars": 1}}},
+    {"name": "short_guarded_split_atr050_max60_dd025", "enabled": true, "overrides": {"trade_control": {"max_active_cap": 60, "dd_brake_trigger_pct": 0.025, "dd_brake_freeze_steps": 6}}},
+    {"name": "short_guarded_split_atr050_max40_dd025", "enabled": true, "overrides": {"trade_control": {"max_active_cap": 40, "dd_brake_trigger_pct": 0.025, "dd_brake_freeze_steps": 6}}},
+    {"name": "short_guarded_split_atr050_symbol1_reentry48", "enabled": true, "overrides": {"trade_control": {"max_per_symbol": 1, "reentry_gap_after_close_bars": 48, "entry_gap_same_symbol_bars": 48}}},
+    {"name": "short_guarded_split_atr050_confirm24", "enabled": true, "overrides": {"trade_control": {"require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24}}},
+    {"name": "short_guarded_split_atr050_quiet48", "enabled": true, "overrides": {"trade_control": {"first_signal_after_quiet_bars": 48}}},
+    {"name": "short_guarded_split_wick075_max60_dd025", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}, "trade_control": {"max_active_cap": 60, "dd_brake_trigger_pct": 0.025, "dd_brake_freeze_steps": 6}}},
+    {"name": "short_guarded_split_wick075_symbol1_reentry48", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}, "trade_control": {"max_per_symbol": 1, "reentry_gap_after_close_bars": 48, "entry_gap_same_symbol_bars": 48}}},
+    {"name": "short_guarded_split_wick075_confirm24", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}, "trade_control": {"require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24}}}
+  ]
+}
