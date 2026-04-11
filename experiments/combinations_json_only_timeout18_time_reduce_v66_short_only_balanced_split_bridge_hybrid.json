@@ -1,0 +1,17 @@
+{
+  "group_name": "v66_short_only_balanced_split_bridge_hybrid",
+  "experiments": [
+    {"name": "short_balanced_bridge_atr050_baseline", "enabled": true, "overrides": {}},
+    {"name": "short_balanced_bridge_wick075", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}}},
+    {"name": "short_balanced_bridge_wick050", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.5, "second_fill_window_bars": 1}}},
+    {"name": "short_balanced_bridge_atr050_max80", "enabled": true, "overrides": {"trade_control": {"max_active_cap": 80, "max_per_symbol": 2, "skip_dense_ts_threshold": 60}}},
+    {"name": "short_balanced_bridge_atr050_max60_symbol1", "enabled": true, "overrides": {"trade_control": {"max_active_cap": 60, "max_per_symbol": 1, "skip_dense_ts_threshold": 60}}},
+    {"name": "short_balanced_bridge_atr050_dense30", "enabled": true, "overrides": {"trade_control": {"skip_dense_ts_threshold": 30}}},
+    {"name": "short_balanced_bridge_wick075_dense30", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}, "trade_control": {"skip_dense_ts_threshold": 30}}},
+    {"name": "short_balanced_bridge_atr050_asia_only", "enabled": true, "overrides": {"trade_control": {"allowed_entry_hours_utc": [0,1,2,3,4,5,6,7,8,9,10,11]}}},
+    {"name": "short_balanced_bridge_wick075_asia_only", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}, "trade_control": {"allowed_entry_hours_utc": [0,1,2,3,4,5,6,7,8,9,10,11]}}},
+    {"name": "short_balanced_bridge_atr050_prior1_24", "enabled": true, "overrides": {"trade_control": {"require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24}}},
+    {"name": "short_balanced_bridge_wick075_prior1_24", "enabled": true, "overrides": {"entry_refine": {"first_fraction": 0.0, "second_fraction": 1.0, "second_mode": "wick_retrace", "wick_retrace_frac": 0.75, "second_fill_window_bars": 2}, "trade_control": {"require_prior_signals_same_symbol": 1, "prior_signal_window_bars": 24}}},
+    {"name": "short_balanced_bridge_atr050_dd025", "enabled": true, "overrides": {"trade_control": {"dd_brake_trigger_pct": 0.025, "dd_brake_freeze_steps": 5}}}
+  ]
+}
