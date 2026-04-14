@@ -1,0 +1,9 @@
+experiment,trades,final_asset,final_return,peak_asset,peak_growth,win_rate,pf,mdd,max_conc,max_conc_unique_symbols,same_bar_trades,active_leftover
+short_state_prior2_quiet24_drop_gap,0,100.0,0.0,100.0,0.0,0.0,inf,0.0,0,0,3341,0
+short_state_prior2_quiet24_keep_gap,0,100.0,0.0,100.0,0.0,0.0,inf,0.0,0,0,3341,0
+short_state_prior2_quiet36_drop_gap,0,100.0,0.0,100.0,0.0,0.0,inf,0.0,0,0,3341,0
+short_state_prior3_quiet24_drop_gap,0,100.0,0.0,100.0,0.0,0.0,inf,0.0,0,0,3341,0
+short_state_quiet24_only_drop_gap,5807,133.10164969549555,0.3310164969549556,133.12565673258428,0.33125656732584274,0.1622180127432409,1.440183521870912,-0.014489769576900291,36,36,3341,0
+short_state_prior2_only_drop_gap,4095,121.18256322959074,0.21182563229590734,121.24316788436698,0.21243167884366976,0.1514041514041514,1.3497905285868161,-0.014187442929943894,12,12,3341,0
+short_state_prior2_quiet24_broad,0,100.0,0.0,100.0,0.0,0.0,inf,0.0,0,0,3341,0
+short_state_prior2_quiet24_ddtight,0,100.0,0.0,100.0,0.0,0.0,inf,0.0,0,0,3341,0
