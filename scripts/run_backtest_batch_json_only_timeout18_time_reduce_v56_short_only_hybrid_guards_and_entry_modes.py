@@ -242,9 +242,9 @@ def evaluate_hybrid(trades, initial_asset, position_fraction, tc):
     }
 
 
-if __name__ == '__main__':
-    base = v27mod.load_json(BASE)
-    group = v27mod.load_json(COMB)
+def run_batch(base_path=BASE, comb_path=COMB):
+    base = v27mod.load_json(base_path)
+    group = v27mod.load_json(comb_path)
     out = []
     for exp in v27mod.build_experiments(base, group):
         cfg = exp['effective_config']
@@ -289,3 +289,7 @@ if __name__ == '__main__':
     d = ROOT / base['results_dir']
     d.mkdir(parents=True, exist_ok=True)
     v27mod.pd.DataFrame(out).to_csv(d / 'lane_summary.csv', index=False)
+
+
+if __name__ == '__main__':
+    run_batch(BASE, COMB)
