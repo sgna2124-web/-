@@ -1,0 +1,25 @@
+{
+  "rule": {
+    "mdd_threshold_pct": 5.0,
+    "sort_priority": [
+      "cd_value_desc"
+    ],
+    "cd_formula": "100 * (1 - abs(mdd_pct)/100) * (1 + final_return_pct/100)"
+  },
+  "long": {
+    "family": "historical_reference_from_test12",
+    "experiment": "long_hybrid_wick_bridge_halfhalf",
+    "final_return_pct": 9.9603,
+    "mdd_pct": 1.0456,
+    "cd_value": 108.8106,
+    "source": "test12/01_CURRENT_STATE_AND_TOP_CANDIDATES.md"
+  },
+  "short": {
+    "family": "historical_reference_from_test12",
+    "experiment": "short_beh_dd_brake",
+    "final_return_pct": 311.5456,
+    "mdd_pct": 4.7589,
+    "cd_value": 391.9606,
+    "source": "test12/01_CURRENT_STATE_AND_TOP_CANDIDATES.md"
+  }
+}
