@@ -1,0 +1,83 @@
+{
+  "group_name": "v90_short_state_governor",
+  "experiments": [
+    {
+      "name": "short_state_prior_or_dense_hot16_q24",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "short_state_both_hot14_q24",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_state_mode": "both",
+          "hot_dense_ts_threshold": 14
+        }
+      }
+    },
+    {
+      "name": "short_state_prior_only_hot2_q24",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_state_mode": "prior_only"
+        }
+      }
+    },
+    {
+      "name": "short_state_dense_only_hot18",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_state_mode": "dense_only",
+          "hot_dense_ts_threshold": 18
+        }
+      }
+    },
+    {
+      "name": "short_state_prior_or_dense_hot16_relax_symbol",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_relax_symbol_cap": true
+        }
+      }
+    },
+    {
+      "name": "short_state_prior_or_dense_hot16_drop_quiet_standard",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "drop_standard_when_quiet": true,
+          "quiet_dense_ts_max": 8
+        }
+      }
+    },
+    {
+      "name": "short_state_prior_or_dense_hot12_tight_dd",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_dense_ts_threshold": 12
+        },
+        "trade_control": {
+          "dd_brake_trigger_pct": 0.025,
+          "dd_brake_freeze_steps": 6,
+          "max_active_cap": 70
+        }
+      }
+    },
+    {
+      "name": "short_state_both_hot16_quiet12",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_state_mode": "both",
+          "quiet_bars": 12,
+          "quiet_dense_ts_max": 5
+        }
+      }
+    }
+  ]
+}
