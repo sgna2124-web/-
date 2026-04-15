@@ -1,0 +1,90 @@
+{
+  "experiments": [
+    {
+      "name": "short_attack_reserve_prior2_dense18_us_eu_core",
+      "overrides": {}
+    },
+    {
+      "name": "short_attack_reserve_prior1_dense20_us_core",
+      "overrides": {
+        "router": {
+          "hot_prior_required": 1,
+          "hot_dense_ts_threshold": 20,
+          "attack_preferred_sessions": ["us"],
+          "reserve_budget_when_hot": 8
+        }
+      }
+    },
+    {
+      "name": "short_attack_reserve_dense_only_us_strict",
+      "overrides": {
+        "router": {
+          "hot_state_mode": "dense_only",
+          "hot_dense_ts_threshold": 16,
+          "attack_preferred_sessions": ["us"],
+          "drop_standard_when_hot": true,
+          "reserve_budget_when_hot": 4,
+          "standard_budget_when_hot": 0
+        }
+      }
+    },
+    {
+      "name": "short_attack_reserve_prior_only_diverse",
+      "overrides": {
+        "router": {
+          "hot_state_mode": "prior_only",
+          "hot_prior_required": 2,
+          "attack_preferred_sessions": ["us", "eu", "asia"],
+          "active_symbol_penalty": 0.65,
+          "new_symbol_bias": 0.35
+        }
+      }
+    },
+    {
+      "name": "short_attack_reserve_hot16_keep_reserve",
+      "overrides": {
+        "router": {
+          "hot_dense_ts_threshold": 16,
+          "attack_budget_when_hot": 14,
+          "reserve_budget_when_hot": 10,
+          "standard_budget_when_hot": 0
+        }
+      }
+    },
+    {
+      "name": "short_attack_reserve_hot18_tight_dd",
+      "overrides": {
+        "trade_control": {
+          "dd_brake_trigger_pct": 0.04,
+          "dd_brake_freeze_steps": 6,
+          "max_active_cap": 24
+        }
+      }
+    },
+    {
+      "name": "short_attack_reserve_calm_fill_us_only",
+      "overrides": {
+        "router": {
+          "reserve_preferred_sessions": ["us"],
+          "reserve_budget_calm": 10,
+          "standard_budget_calm": 2,
+          "attack_budget_when_hot": 12,
+          "reserve_budget_when_hot": 8
+        }
+      }
+    },
+    {
+      "name": "short_attack_reserve_hot14_all_session_balanced",
+      "overrides": {
+        "router": {
+          "hot_dense_ts_threshold": 14,
+          "attack_preferred_sessions": ["us", "eu", "asia"],
+          "session_bonus_us": 0.22,
+          "session_bonus_eu": 0.16,
+          "attack_budget_when_hot": 18,
+          "reserve_budget_when_hot": 4
+        }
+      }
+    }
+  ]
+}

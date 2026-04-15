@@ -1,0 +1,75 @@
+name: V84 Short Lane Governor Reclaim Full
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/run_backtest_batch_json_only_timeout18_time_reduce_v84_short_lane_governor_reclaim.py'
+      - 'experiments/v84_short_combinations.json'
+      - '.github/workflows/v84_short_lane_governor_reclaim_full.yml'
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      EXP_PREFIX: v84_short_
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install pandas numpy
+          fi
+      - name: Run v84 short batch
+        run: python scripts/run_backtest_batch_json_only_timeout18_time_reduce_v84_short_lane_governor_reclaim.py
+      - name: Print compact summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          prefix = os.environ.get('EXP_PREFIX', '')
+          root = Path('results_json_only_timeout18_time_reduce')
+          rows = []
+          if root.exists():
+              for path in root.rglob('*.json'):
+                  try:
+                      data = json.loads(path.read_text(encoding='utf-8'))
+                  except Exception:
+                      continue
+                  if not isinstance(data, dict):
+                      continue
+                  exp = str(data.get('experiment') or data.get('name') or path.parent.name)
+                  if prefix and not exp.startswith(prefix):
+                      continue
+                  cd = data.get('cd_value')
+                  mdd = data.get('mdd_pct', data.get('max_drawdown_pct'))
+                  ret = data.get('final_return_pct', data.get('return_pct'))
+                  if cd is None or mdd is None or ret is None:
+                      continue
+                  rows.append((exp, float(cd), float(mdd), float(ret), str(path)))
+          rows.sort(key=lambda x: (-x[1], x[2], -x[3], x[0]))
+          print('v84 short summary')
+          if not rows:
+              print('No parsed result rows found.')
+          else:
+              for exp, cd, mdd, ret, path in rows[:10]:
+                  print(f'experiment={exp} | cd_value={cd:.4f} | mdd_pct={mdd:.4f} | final_return_pct={ret:.4f} | file={path}')
+          PY
+      - name: Upload results artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v84-short-results
+          path: results_json_only_timeout18_time_reduce

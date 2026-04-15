@@ -12,9 +12,10 @@ spec = importlib.util.spec_from_file_location('v56mod', str(V56))
 v56mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(v56mod)
 
-if __name__ == '__main__':
-    base = v56mod.v27mod.load_json(BASE)
-    group = v56mod.v27mod.load_json(COMB)
+
+def run_batch(base_path=BASE, comb_path=COMB):
+    base = v56mod.v27mod.load_json(base_path)
+    group = v56mod.v27mod.load_json(comb_path)
     out = []
     for exp in v56mod.v27mod.build_experiments(base, group):
         cfg = exp['effective_config']
@@ -59,3 +60,7 @@ if __name__ == '__main__':
     d = ROOT / base['results_dir']
     d.mkdir(parents=True, exist_ok=True)
     v56mod.v27mod.pd.DataFrame(out).to_csv(d / 'lane_summary.csv', index=False)
+
+
+if __name__ == '__main__':
+    run_batch(BASE, COMB)

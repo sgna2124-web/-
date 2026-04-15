@@ -1,0 +1,84 @@
+{
+  "group_name": "v87_long_state_release",
+  "experiments": [
+    {
+      "name": "long_state_release_prior2_q12_dense18",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "long_state_release_prior2_q18_dense20",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_quiet_bars": 18,
+          "release_dense_ts_max": 20
+        }
+      }
+    },
+    {
+      "name": "long_state_release_prior1_w36_q12_dense18",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_prior_required": 1,
+          "release_prior_window_bars": 36
+        }
+      }
+    },
+    {
+      "name": "long_state_release_prior2_q12_keep_standard",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "drop_standard_when_release": false
+        }
+      }
+    },
+    {
+      "name": "long_state_release_prior2_q12_relax_symbol_cap40",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_relax_symbol_cap": true
+        },
+        "trade_control": {
+          "max_active_cap": 40
+        }
+      }
+    },
+    {
+      "name": "long_state_release_prior2_q12_tight_dd",
+      "enabled": true,
+      "overrides": {
+        "trade_control": {
+          "dd_brake_trigger_pct": 0.025,
+          "dd_brake_freeze_steps": 6,
+          "max_active_cap": 40
+        }
+      }
+    },
+    {
+      "name": "long_state_release_prior2_q12_dense16",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_dense_ts_max": 16
+        }
+      }
+    },
+    {
+      "name": "long_state_release_prior2_q12_reentry_off",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_disable_reentry": true,
+          "release_disable_entrygap": true
+        },
+        "trade_control": {
+          "entry_gap_same_symbol_bars": 18
+        }
+      }
+    }
+  ]
+}

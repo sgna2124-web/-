@@ -1,0 +1,83 @@
+{
+  "trades": 12930,
+  "final_asset": 118.86858490025017,
+  "final_return": 0.18868584900250163,
+  "peak_asset": 118.86858490025017,
+  "peak_growth": 0.18868584900250163,
+  "win_rate": 0.3359628770301624,
+  "pf": 1.0889429324706736,
+  "mdd": -0.04802624340781314,
+  "max_conc": 54,
+  "max_conc_unique_symbols": 47,
+  "same_bar_trades": 5686,
+  "active_leftover": 0,
+  "strategy": "overextension_reversion_v1_json_only_timeout18_time_reduce_v68_short_only_attack_split_execution_hybrid_short_attack_exec_pure_wick075_dense30_bridge",
+  "experiment_name": "short_attack_exec_pure_wick075_dense30_bridge",
+  "initial_asset": 100.0,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "effective_config": {
+    "strategy_name": "overextension_reversion_v1_json_only_timeout18_time_reduce_v68_short_only_attack_split_execution_hybrid",
+    "data_dir": "5m_data",
+    "results_dir": "results_json_only_timeout18_time_reduce_v68_short_only_attack_split_execution_hybrid",
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "min_bars": 120,
+    "signal": {
+      "ema_period": 20,
+      "rsi_period": 14,
+      "atr_period": 14,
+      "long_dev": 0.028,
+      "short_dev": 0.032,
+      "long_rsi_max": 25,
+      "short_rsi_min": 76,
+      "long_wick_mult": 1.2,
+      "short_wick_mult": 1.3
+    },
+    "risk": {
+      "atr_stop_mult": 1.8975,
+      "rr_mult": 6.0,
+      "min_expected_tp": 0.003,
+      "timeout_bars": 200
+    },
+    "trade_control": {
+      "cooldown_bars_same_symbol_same_side": 0,
+      "top_n_per_timestamp": null,
+      "top_n_long_per_timestamp": null,
+      "top_n_short_per_timestamp": null,
+      "score_min": null,
+      "score_min_long": null,
+      "score_min_short": null,
+      "max_active_cap": 120,
+      "max_per_symbol": 2,
+      "loss_streak_trigger_losses": 4,
+      "loss_streak_window": 6,
+      "loss_streak_freeze_steps": 2,
+      "dd_brake_trigger_pct": 0.04,
+      "dd_brake_freeze_steps": 3,
+      "reentry_gap_after_close_bars": 12,
+      "entry_gap_same_symbol_bars": 12,
+      "require_prior_signals_same_symbol": null,
+      "prior_signal_window_bars": null,
+      "first_signal_after_quiet_bars": null,
+      "allowed_entry_hours_utc": null,
+      "skip_dense_ts_threshold": 30
+    },
+    "entry_refine": {
+      "mode": "split_entry",
+      "first_fraction": 0.0,
+      "second_fraction": 1.0,
+      "second_mode": "wick_retrace",
+      "retrace_atr_mult": 0.5,
+      "wick_retrace_frac": 0.75,
+      "second_fill_window_bars": 2
+    },
+    "execution": {
+      "entry_on_next_bar_open": true,
+      "allow_long": false,
+      "allow_short": true
+    }
+  },
+  "engine_mode": "attack_split_execution_hybrid_short"
+}
