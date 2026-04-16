@@ -1,0 +1,89 @@
+{
+  "group_name": "1V2_short_top_state_governor",
+  "experiments": [
+    {
+      "name": "short_top_state_base",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "short_top_state_both_hot14",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_state_mode": "both",
+          "hot_dense_ts_threshold": 14
+        }
+      }
+    },
+    {
+      "name": "short_top_state_prior_only",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_state_mode": "prior_only"
+        }
+      }
+    },
+    {
+      "name": "short_top_state_dense_only_hot18",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_state_mode": "dense_only",
+          "hot_dense_ts_threshold": 18
+        }
+      }
+    },
+    {
+      "name": "short_top_state_drop_quiet_standard",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "drop_standard_when_quiet": true,
+          "quiet_dense_ts_max": 8
+        }
+      }
+    },
+    {
+      "name": "short_top_state_hot12_tightdd70",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_dense_ts_threshold": 12
+        },
+        "trade_control": {
+          "dd_brake_trigger_pct": 0.025,
+          "dd_brake_freeze_steps": 6,
+          "max_active_cap": 70
+        }
+      }
+    },
+    {
+      "name": "short_top_state_both16_quiet12",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_state_mode": "both",
+          "hot_dense_ts_threshold": 16,
+          "quiet_bars": 12,
+          "quiet_dense_ts_max": 5
+        }
+      }
+    },
+    {
+      "name": "short_top_state_entrygap24_hotrelease",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "hot_disable_reentry": true,
+          "hot_disable_entrygap": true
+        },
+        "trade_control": {
+          "reentry_gap_after_close_bars": 48,
+          "entry_gap_same_symbol_bars": 24
+        }
+      }
+    }
+  ]
+}
