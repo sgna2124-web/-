@@ -1,0 +1,19 @@
+{
+  "run_mode": "FAST",
+  "data_root": "코인\\Data\\time",
+  "symbols_total_available": 597,
+  "symbols_selected": 10,
+  "symbols_loaded": 10,
+  "symbols_failed": 0,
+  "failed_symbols_sample": [],
+  "bars_total": 2138751,
+  "date_from": "2024-01-01",
+  "experiments": [
+    "2V2_L01_squeeze_breakout",
+    "2V2_L02_trend_pullback_reclaim",
+    "2V2_L03_expansion_followthrough",
+    "2V2_S01_failed_breakout_trap",
+    "2V2_S02_trend_pullback_fail",
+    "2V2_S03_squeeze_breakdown"
+  ]
+}
