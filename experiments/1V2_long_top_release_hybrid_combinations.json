@@ -1,0 +1,84 @@
+{
+  "group_name": "1V2_long_top_release_hybrid",
+  "experiments": [
+    {
+      "name": "long_top_release_base",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "long_top_release_dense16",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_dense_ts_max": 16
+        }
+      }
+    },
+    {
+      "name": "long_top_release_prior1_w36",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_prior_required": 1,
+          "release_prior_window_bars": 36
+        }
+      }
+    },
+    {
+      "name": "long_top_release_keep_standard",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "drop_standard_when_release": false
+        }
+      }
+    },
+    {
+      "name": "long_top_release_tight_dd40",
+      "enabled": true,
+      "overrides": {
+        "trade_control": {
+          "dd_brake_trigger_pct": 0.025,
+          "dd_brake_freeze_steps": 6,
+          "max_active_cap": 40
+        }
+      }
+    },
+    {
+      "name": "long_top_release_q18_dense20",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_quiet_bars": 18,
+          "release_dense_ts_max": 20
+        }
+      }
+    },
+    {
+      "name": "long_top_release_relax_symbol_cap40",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_relax_symbol_cap": true
+        },
+        "trade_control": {
+          "max_active_cap": 40
+        }
+      }
+    },
+    {
+      "name": "long_top_release_reentry_off_entry18",
+      "enabled": true,
+      "overrides": {
+        "governor": {
+          "release_disable_reentry": true,
+          "release_disable_entrygap": true
+        },
+        "trade_control": {
+          "entry_gap_same_symbol_bars": 18
+        }
+      }
+    }
+  ]
+}

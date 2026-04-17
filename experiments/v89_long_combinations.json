@@ -1,0 +1,103 @@
+{
+  "experiments": [
+    {
+      "name": "long_sparse_pulse_iso1to6_prior1to3_quiet12",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "name": "long_sparse_pulse_iso1to4_prior0to2_quiet12",
+      "enabled": true,
+      "overrides": {
+        "sparse_pulse": {
+          "sparse_max_ts_count": 4,
+          "require_prior_min": 0,
+          "require_prior_max": 2
+        }
+      }
+    },
+    {
+      "name": "long_sparse_pulse_iso2to5_prior1to3_quiet18",
+      "enabled": true,
+      "overrides": {
+        "sparse_pulse": {
+          "sparse_min_ts_count": 2,
+          "sparse_max_ts_count": 5,
+          "require_quiet_recent_bars": 18
+        }
+      }
+    },
+    {
+      "name": "long_sparse_pulse_iso2to4_prior2to4_quiet12",
+      "enabled": true,
+      "overrides": {
+        "sparse_pulse": {
+          "sparse_min_ts_count": 2,
+          "sparse_max_ts_count": 4,
+          "require_prior_min": 2,
+          "require_prior_max": 4
+        }
+      }
+    },
+    {
+      "name": "long_sparse_pulse_iso1to3_prior0_gap36",
+      "enabled": true,
+      "overrides": {
+        "sparse_pulse": {
+          "sparse_max_ts_count": 3,
+          "require_prior_min": 0,
+          "require_prior_max": 2,
+          "require_quiet_recent_bars": null,
+          "symbol_entry_gap_bars": 36
+        },
+        "trade_control": {
+          "entry_gap_same_symbol_bars": 36,
+          "reentry_gap_after_close_bars": 36
+        }
+      }
+    },
+    {
+      "name": "long_sparse_pulse_iso1to5_prior1_quiet24_top3",
+      "enabled": true,
+      "overrides": {
+        "sparse_pulse": {
+          "sparse_max_ts_count": 5,
+          "require_prior_min": 1,
+          "require_prior_max": 3,
+          "require_quiet_recent_bars": 24,
+          "sparse_top_k": 3
+        }
+      }
+    },
+    {
+      "name": "long_sparse_pulse_iso2to6_prior1to2_quiet12_gap12",
+      "enabled": true,
+      "overrides": {
+        "sparse_pulse": {
+          "sparse_min_ts_count": 2,
+          "sparse_max_ts_count": 6,
+          "require_prior_min": 1,
+          "require_prior_max": 2,
+          "symbol_entry_gap_bars": 12
+        },
+        "trade_control": {
+          "entry_gap_same_symbol_bars": 12,
+          "reentry_gap_after_close_bars": 12
+        }
+      }
+    },
+    {
+      "name": "long_sparse_pulse_iso1to4_prior0_skip_samebar",
+      "enabled": true,
+      "overrides": {
+        "sparse_pulse": {
+          "sparse_max_ts_count": 4,
+          "require_prior_min": 0,
+          "require_prior_max": 2,
+          "require_quiet_recent_bars": 12,
+          "skip_same_bar": true
+        }
+      }
+    }
+  ]
+}
