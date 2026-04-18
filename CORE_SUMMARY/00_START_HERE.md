@@ -1,93 +1,38 @@
-# START HERE
+이 파일은 새 대화창의 첫 진입점이다.
+새 대화창의 어시스턴트는 다른 요약 문서보다 먼저 이 파일을 읽고 현재 프로젝트 상태를 복원한다.
 
-이 파일은 새로운 대화창의 어시스턴트가 가장 먼저 읽어야 하는 시작점이다.
-현재 대화 환경에서는 기존 00_INDEX.md를 직접 업데이트하지 못해, 이 파일을 사실상 상위 인덱스 역할로 추가한다.
+현재 프로젝트 목표
+코인/주식 차트 전략 중 MDD 5% 미만 전략을 우선 후보로 보고, 그중 cd_value가 가장 높은 전략을 찾는다.
+롱 전용 전략 1위와 숏 전용 전략 1위를 별도 기준으로 유지하며, 앞으로의 모든 백테스트 결과는 이 기준과 비교한다.
 
-## 1. 가장 먼저 이해해야 할 것
-이 프로젝트는 단발성 답변 프로젝트가 아니다.
-반복 루프형 전략 개발 프로젝트다.
+성과 판단 기준
+공식 판단 기준은 cd_value와 max_drawdown_pct(MDD)이다.
+max_return_pct는 단독 판단 지표는 아니지만 cd_value 산출에 반드시 포함된다.
+final_return_pct는 참고 지표로 기록하되, 공식 우선순위는 cd_value와 MDD이다.
 
-반복 루프는 아래와 같다.
-1) 어시스턴트가 저장소와 기준선을 참고해 새 long/short 전략을 제안
-2) 사용자가 자신의 로컬 Python 환경에서 백테스트 실행
-3) 사용자가 전략 코드와 결과를 GitHub 저장소에 업로드
-4) 어시스턴트가 업로드된 파일을 읽고 성과를 해석
-5) 어시스턴트가 summary 파일과 기준선/카탈로그 반영사항을 정리
-6) 다시 다음 전략을 설계
+cd_value 정의
+cd_value는 기본 자산 100에 먼저 MDD를 적용한 뒤, 그 남은 자산에 max_return_pct를 적용한 값이다.
+문서와 결과 해석에서 cd_value를 final_return_pct 기준으로 계산하면 안 된다.
+현재 프로젝트에서 cd_value는 max_return_pct 기준이다.
 
-즉, 실행은 사용자 로컬에서 하고, 해석/기록/비교/다음 설계는 어시스턴트가 맡는다.
+고정 백테스트 환경
+자산 진입 비중은 1%다.
+수수료는 0.04%다.
+공식 판정은 전체 종목 풀 백테스트 기준이다.
+FAST 예비검사는 사용하지 않는다.
+조기탈락 규칙은 사용하지 않는다.
+거래 로그 파일은 필수가 아니다.
+백테스트 결과 요약에는 max_return_pct를 반드시 포함한다.
 
-## 2. 현재 공식 목표
-- MDD 5% 미만 전략만 유효 후보
-- 그중 cd_value 최대 전략 추구
-- long-only와 short-only를 분리 관리
-- 신규 실험은 반드시 각 side의 공식 1위와 비교
+무효 실험 처리 규칙
+정상 환경에서 실패한 전략은 기록으로 남긴다.
+하지만 환경 설정 오류, 엔진 설정 오류, 자산 비중 오류, 수수료 오류, 비교 불가능한 실험은 invalid_env로 간주한다.
+invalid_env 실험은 실패 전략 기록으로 보존하지 않고, 비교 체계 오염 방지를 위해 결과와 카탈로그에서 제거한다.
 
-cd_value 공식:
-- cd_value = 100 * (1 - abs(mdd_pct)/100) * (1 + final_return_pct/100)
+현재 상태 요약
+V2 실험군은 환경 전제 오류가 있었으므로 4V2R1을 제외하고 전부 제거했다.
+새 대화창의 어시스턴트는 기존 V2 결과를 비교 근거로 사용하면 안 된다.
 
-## 3. 절대 먼저 확인해야 하는 현재 공식 기준선
-### LONG_ONLY_OFFICIAL_1
-- strategy_name: long_hybrid_wick_bridge_halfhalf
-- family: long_only_hybrid_wick_bridge
-- code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.py
-- result_path: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/
-- summary_file: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/summary.json
-- final_return_pct: 9.9603
-- mdd_pct: -1.0456
-- cd_value: 108.8106
-
-### SHORT_ONLY_OFFICIAL_1
-- strategy_name: short_beh_dd_brake
-- family: short_only_behavioral_guards
-- code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards.py
-- result_path: results_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards/short_beh_dd_brake/
-- summary_file: results_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards/short_beh_dd_brake/summary.json
-- final_return_pct: 311.5456
-- mdd_pct: -4.7589
-- cd_value: 391.9606
-
-공식 source of truth:
-- state/global_top_reference_under_mdd5_cd.json
-- CORE_SUMMARY/10_BASELINE_PATCH_2026-04-16.md
-- CORE_SUMMARY/11_RESULTS_CATALOG_SEED_2026-04-16.md
-- CORE_SUMMARY/09_NEXT_CHAT_MANUAL.md
-
-## 4. 새 대화창에서의 첫 행동 순서
-새 대화창의 어시스턴트는 아래 순서로 행동한다.
-
-1) 이 파일을 먼저 읽는다
-2) state/global_top_reference_under_mdd5_cd.json을 확인한다
-3) CORE_SUMMARY/09_NEXT_CHAT_MANUAL.md를 읽는다
-4) CORE_SUMMARY/10_BASELINE_PATCH_2026-04-16.md를 읽는다
-5) CORE_SUMMARY/11_RESULTS_CATALOG_SEED_2026-04-16.md를 읽는다
-6) 그 다음에 기존 CORE_SUMMARY의 다른 문서들을 읽는다
-7) 사용자가 방금 업로드한 새 결과가 있다면 그 결과부터 우선 해석한다
-8) 없으면 다음 long/short 전략을 설계한다
-
-## 5. 사용자가 새 결과를 업로드했을 때 반드시 처리할 것
-- 코드 파일 경로 확인
-- 결과 폴더 경로 확인
-- summary.json 확인
-- master_summary.json 또는 txt 확인
-- 같은 side 공식 1위 대비 delta 계산
-- MDD 5% 미만 여부 확인
-- cd_value 우위 여부 확인
-- summary에 추가/수정/기록할 항목 정리
-- 다음 실험 아이디어 제안
-
-## 6. 현재 대전제
-- GitHub Actions 중심 운영으로 되돌리지 않는다
-- 로컬 Python 백테스트 + GitHub 기록 저장소 체계를 유지한다
-- 실패 전략도 삭제하지 않고 누적한다
-- path와 수치를 함께 기록한다
-- 우선순위가 바뀌더라도 재해석 가능하도록 원시 핵심 수치를 남긴다
-
-## 7. 현재 파일 구조에서의 의미
-- 00_START_HERE.md: 새 대화창 시작점
-- 09_NEXT_CHAT_MANUAL.md: 전체 운영 매뉴얼
-- 10_BASELINE_PATCH_2026-04-16.md: 현재 공식 기준선 보정
-- 11_RESULTS_CATALOG_SEED_2026-04-16.md: 결과 원장 초기 seed
-
-## 8. 한 줄 핵심
-이 저장소는 사용자가 로컬에서 백테스트한 결과를 어시스턴트가 이어받아 비교/기록/개선하는 반복형 전략 연구 저장소다.
+역할 분담
+사용자는 로컬 컴퓨터에서 백테스트를 실행하고, 전략 코드와 결과 요약 파일을 저장소에 업로드한다.
+어시스턴트는 업로드된 결과를 검토하고, 통합 요약/결과 카탈로그/다음 단계 매뉴얼을 갱신하며, 다음 실험 전략을 설계한다.
