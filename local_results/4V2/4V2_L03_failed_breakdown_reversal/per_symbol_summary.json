@@ -6,6 +6,7 @@
     "losses": 66,
     "win_rate_pct": 42.1053,
     "final_return_pct": 35.7492,
+    "max_return_pct": 38.9642,
     "max_drawdown_pct": 10.7372,
     "cd_value": 121.1735
   },
@@ -16,6 +17,7 @@
     "losses": 55,
     "win_rate_pct": 36.0465,
     "final_return_pct": 17.3777,
+    "max_return_pct": 22.4143,
     "max_drawdown_pct": 9.4862,
     "cd_value": 106.243
   },
@@ -26,6 +28,7 @@
     "losses": 46,
     "win_rate_pct": 41.0256,
     "final_return_pct": 15.2665,
+    "max_return_pct": 19.4654,
     "max_drawdown_pct": 7.6569,
     "cd_value": 106.4406
   },
@@ -36,6 +39,7 @@
     "losses": 52,
     "win_rate_pct": 41.573,
     "final_return_pct": 10.6605,
+    "max_return_pct": 12.4044,
     "max_drawdown_pct": 13.2632,
     "cd_value": 95.9834
   },
@@ -46,6 +50,7 @@
     "losses": 33,
     "win_rate_pct": 44.0678,
     "final_return_pct": 10.5815,
+    "max_return_pct": 20.2146,
     "max_drawdown_pct": 8.0132,
     "cd_value": 101.7203
   },
@@ -56,6 +61,7 @@
     "losses": 65,
     "win_rate_pct": 40.367,
     "final_return_pct": 9.7896,
+    "max_return_pct": 13.2602,
     "max_drawdown_pct": 5.7285,
     "cd_value": 103.5003
   },
@@ -66,6 +72,7 @@
     "losses": 66,
     "win_rate_pct": 38.3178,
     "final_return_pct": 8.5704,
+    "max_return_pct": 17.2718,
     "max_drawdown_pct": 11.1004,
     "cd_value": 96.5187
   },
@@ -76,6 +83,7 @@
     "losses": 95,
     "win_rate_pct": 42.0732,
     "final_return_pct": 8.3321,
+    "max_return_pct": 8.8104,
     "max_drawdown_pct": 10.9033,
     "cd_value": 96.5203
   },
@@ -86,6 +94,7 @@
     "losses": 71,
     "win_rate_pct": 41.8033,
     "final_return_pct": 7.0537,
+    "max_return_pct": 12.1426,
     "max_drawdown_pct": 8.0089,
     "cd_value": 98.48
   },
@@ -96,6 +105,7 @@
     "losses": 44,
     "win_rate_pct": 44.3038,
     "final_return_pct": 6.4993,
+    "max_return_pct": 10.0213,
     "max_drawdown_pct": 4.3897,
     "cd_value": 101.8242
   },
@@ -106,6 +116,7 @@
     "losses": 80,
     "win_rate_pct": 45.5782,
     "final_return_pct": 6.1634,
+    "max_return_pct": 16.6223,
     "max_drawdown_pct": 17.2542,
     "cd_value": 87.8457
   },
@@ -116,6 +127,7 @@
     "losses": 47,
     "win_rate_pct": 39.7436,
     "final_return_pct": 5.3808,
+    "max_return_pct": 13.1376,
     "max_drawdown_pct": 7.6386,
     "cd_value": 97.3312
   },
@@ -126,6 +138,7 @@
     "losses": 102,
     "win_rate_pct": 38.1818,
     "final_return_pct": 3.5473,
+    "max_return_pct": 19.9356,
     "max_drawdown_pct": 19.4664,
     "cd_value": 83.3904
   },
@@ -136,6 +149,7 @@
     "losses": 87,
     "win_rate_pct": 36.0294,
     "final_return_pct": 2.8229,
+    "max_return_pct": 19.0939,
     "max_drawdown_pct": 14.8686,
     "cd_value": 87.5346
   },
@@ -146,6 +160,7 @@
     "losses": 105,
     "win_rate_pct": 37.5,
     "final_return_pct": 2.5378,
+    "max_return_pct": 10.3376,
     "max_drawdown_pct": 7.5016,
     "cd_value": 94.8458
   },
@@ -156,6 +171,7 @@
     "losses": 36,
     "win_rate_pct": 43.75,
     "final_return_pct": 1.7536,
+    "max_return_pct": 7.7127,
     "max_drawdown_pct": 7.2573,
     "cd_value": 94.3691
   },
@@ -166,6 +182,7 @@
     "losses": 48,
     "win_rate_pct": 37.6623,
     "final_return_pct": 1.191,
+    "max_return_pct": 8.0278,
     "max_drawdown_pct": 6.9859,
     "cd_value": 94.1219
   },
@@ -176,6 +193,7 @@
     "losses": 93,
     "win_rate_pct": 39.2157,
     "final_return_pct": 0.9721,
+    "max_return_pct": 16.1639,
     "max_drawdown_pct": 17.4918,
     "cd_value": 83.3103
   },
@@ -186,6 +204,7 @@
     "losses": 101,
     "win_rate_pct": 41.954,
     "final_return_pct": 0.9321,
+    "max_return_pct": 3.4313,
     "max_drawdown_pct": 16.2495,
     "cd_value": 84.5311
   },
@@ -196,6 +215,7 @@
     "losses": 230,
     "win_rate_pct": 40.2597,
     "final_return_pct": 0.85,
+    "max_return_pct": 8.4447,
     "max_drawdown_pct": 14.3271,
     "cd_value": 86.4011
   },
@@ -206,6 +226,7 @@
     "losses": 58,
     "win_rate_pct": 37.6344,
     "final_return_pct": 0.594,
+    "max_return_pct": 7.0591,
     "max_drawdown_pct": 10.7285,
     "cd_value": 89.8018
   },
@@ -216,6 +237,7 @@
     "losses": 107,
     "win_rate_pct": 35.5422,
     "final_return_pct": 0.2517,
+    "max_return_pct": 17.4417,
     "max_drawdown_pct": 16.0336,
     "cd_value": 84.1777
   },
@@ -226,6 +248,7 @@
     "losses": 46,
     "win_rate_pct": 41.7722,
     "final_return_pct": 0.0543,
+    "max_return_pct": 4.4407,
     "max_drawdown_pct": 5.2488,
     "cd_value": 94.8026
   },
@@ -236,6 +259,7 @@
     "losses": 143,
     "win_rate_pct": 35.8744,
     "final_return_pct": -0.0232,
+    "max_return_pct": 2.4851,
     "max_drawdown_pct": 17.0431,
     "cd_value": 82.9376
   },
@@ -246,6 +270,7 @@
     "losses": 144,
     "win_rate_pct": 39.749,
     "final_return_pct": -0.061,
+    "max_return_pct": 25.2932,
     "max_drawdown_pct": 20.2533,
     "cd_value": 79.698
   },
@@ -256,6 +281,7 @@
     "losses": 161,
     "win_rate_pct": 37.8378,
     "final_return_pct": -0.2774,
+    "max_return_pct": 9.9357,
     "max_drawdown_pct": 10.5902,
     "cd_value": 89.1618
   },
@@ -266,6 +292,7 @@
     "losses": 88,
     "win_rate_pct": 36.6906,
     "final_return_pct": -0.5752,
+    "max_return_pct": 10.6474,
     "max_drawdown_pct": 21.7469,
     "cd_value": 77.803
   },
@@ -276,6 +303,7 @@
     "losses": 45,
     "win_rate_pct": 40.7895,
     "final_return_pct": -0.9137,
+    "max_return_pct": 7.8623,
     "max_drawdown_pct": 9.3768,
     "cd_value": 89.7952
   },
@@ -286,6 +314,7 @@
     "losses": 141,
     "win_rate_pct": 35.023,
     "final_return_pct": -1.9964,
+    "max_return_pct": 13.7853,
     "max_drawdown_pct": 18.2267,
     "cd_value": 80.1408
   },
@@ -296,6 +325,7 @@
     "losses": 166,
     "win_rate_pct": 37.8277,
     "final_return_pct": -2.1531,
+    "max_return_pct": 12.7623,
     "max_drawdown_pct": 16.0948,
     "cd_value": 82.0987
   },
@@ -306,6 +336,7 @@
     "losses": 194,
     "win_rate_pct": 37.8205,
     "final_return_pct": -2.1855,
+    "max_return_pct": 4.9165,
     "max_drawdown_pct": 21.2583,
     "cd_value": 77.0208
   },
@@ -316,6 +347,7 @@
     "losses": 201,
     "win_rate_pct": 40.3561,
     "final_return_pct": -2.4968,
+    "max_return_pct": 12.9462,
     "max_drawdown_pct": 14.6458,
     "cd_value": 83.2231
   },
@@ -326,6 +358,7 @@
     "losses": 85,
     "win_rate_pct": 36.0902,
     "final_return_pct": -2.5243,
+    "max_return_pct": 12.7764,
     "max_drawdown_pct": 22.6837,
     "cd_value": 75.3646
   },
@@ -336,6 +369,7 @@
     "losses": 65,
     "win_rate_pct": 38.0952,
     "final_return_pct": -2.7701,
+    "max_return_pct": 4.52,
     "max_drawdown_pct": 10.1841,
     "cd_value": 87.3279
   },
@@ -346,6 +380,7 @@
     "losses": 128,
     "win_rate_pct": 36.9458,
     "final_return_pct": -2.9063,
+    "max_return_pct": 16.0771,
     "max_drawdown_pct": 17.33,
     "cd_value": 80.2674
   },
@@ -356,6 +391,7 @@
     "losses": 68,
     "win_rate_pct": 36.4486,
     "final_return_pct": -3.2161,
+    "max_return_pct": 4.1843,
     "max_drawdown_pct": 12.3105,
     "cd_value": 84.8694
   },
@@ -366,6 +402,7 @@
     "losses": 92,
     "win_rate_pct": 36.9863,
     "final_return_pct": -5.1958,
+    "max_return_pct": 1.5445,
     "max_drawdown_pct": 10.2106,
     "cd_value": 85.1242
   },
@@ -376,6 +413,7 @@
     "losses": 99,
     "win_rate_pct": 34.4371,
     "final_return_pct": -5.475,
+    "max_return_pct": 19.1608,
     "max_drawdown_pct": 24.2834,
     "cd_value": 71.5712
   },
@@ -386,6 +424,7 @@
     "losses": 110,
     "win_rate_pct": 36.4162,
     "final_return_pct": -5.9169,
+    "max_return_pct": 10.4913,
     "max_drawdown_pct": 16.6197,
     "cd_value": 78.4468
   },
@@ -396,6 +435,7 @@
     "losses": 154,
     "win_rate_pct": 36.8852,
     "final_return_pct": -6.0181,
+    "max_return_pct": 29.165,
     "max_drawdown_pct": 28.2477,
     "cd_value": 67.4342
   },
@@ -406,6 +446,7 @@
     "losses": 42,
     "win_rate_pct": 39.1304,
     "final_return_pct": -6.1942,
+    "max_return_pct": 2.8137,
     "max_drawdown_pct": 12.7048,
     "cd_value": 81.888
   },
@@ -416,6 +457,7 @@
     "losses": 82,
     "win_rate_pct": 31.0924,
     "final_return_pct": -6.2806,
+    "max_return_pct": 5.2882,
     "max_drawdown_pct": 13.1334,
     "cd_value": 81.4109
   },
@@ -426,6 +468,7 @@
     "losses": 106,
     "win_rate_pct": 40.4494,
     "final_return_pct": -6.3203,
+    "max_return_pct": 3.7077,
     "max_drawdown_pct": 16.0026,
     "cd_value": 78.6885
   },
@@ -436,6 +479,7 @@
     "losses": 322,
     "win_rate_pct": 36.7387,
     "final_return_pct": -6.6485,
+    "max_return_pct": 26.6693,
     "max_drawdown_pct": 26.303,
     "cd_value": 68.7973
   },
@@ -446,6 +490,7 @@
     "losses": 95,
     "win_rate_pct": 35.3741,
     "final_return_pct": -7.8693,
+    "max_return_pct": 3.5491,
     "max_drawdown_pct": 11.4565,
     "cd_value": 81.5757
   },
@@ -456,6 +501,7 @@
     "losses": 44,
     "win_rate_pct": 32.3077,
     "final_return_pct": -7.9472,
+    "max_return_pct": 2.7197,
     "max_drawdown_pct": 16.1201,
     "cd_value": 77.2138
   },
@@ -466,6 +512,7 @@
     "losses": 243,
     "win_rate_pct": 36.3874,
     "final_return_pct": -7.9676,
+    "max_return_pct": 3.2081,
     "max_drawdown_pct": 20.8109,
     "cd_value": 72.8797
   },
@@ -476,6 +523,7 @@
     "losses": 112,
     "win_rate_pct": 38.4615,
     "final_return_pct": -8.0275,
+    "max_return_pct": 8.7356,
     "max_drawdown_pct": 15.4164,
     "cd_value": 77.7936
   },
@@ -486,6 +534,7 @@
     "losses": 400,
     "win_rate_pct": 37.0079,
     "final_return_pct": -8.6716,
+    "max_return_pct": 43.5979,
     "max_drawdown_pct": 48.4769,
     "cd_value": 47.0552
   },
@@ -496,6 +545,7 @@
     "losses": 35,
     "win_rate_pct": 33.9623,
     "final_return_pct": -8.8819,
+    "max_return_pct": 3.1736,
     "max_drawdown_pct": 13.772,
     "cd_value": 78.5693
   },
@@ -506,6 +556,7 @@
     "losses": 110,
     "win_rate_pct": 34.5238,
     "final_return_pct": -8.8938,
+    "max_return_pct": 0.5233,
     "max_drawdown_pct": 11.6684,
     "cd_value": 80.4756
   },
@@ -516,6 +567,7 @@
     "losses": 122,
     "win_rate_pct": 34.7594,
     "final_return_pct": -9.2033,
+    "max_return_pct": 17.2053,
     "max_drawdown_pct": 28.7432,
     "cd_value": 64.6988
   },
@@ -526,6 +578,7 @@
     "losses": 212,
     "win_rate_pct": 38.1924,
     "final_return_pct": -9.5807,
+    "max_return_pct": 9.6559,
     "max_drawdown_pct": 25.651,
     "cd_value": 67.2258
   },
@@ -536,6 +589,7 @@
     "losses": 153,
     "win_rate_pct": 40.2344,
     "final_return_pct": -9.7935,
+    "max_return_pct": 1.1545,
     "max_drawdown_pct": 20.5386,
     "cd_value": 71.6793
   },
@@ -546,6 +600,7 @@
     "losses": 47,
     "win_rate_pct": 30.8824,
     "final_return_pct": -10.5429,
+    "max_return_pct": 1.9075,
     "max_drawdown_pct": 12.2174,
     "cd_value": 78.5278
   },
@@ -556,6 +611,7 @@
     "losses": 140,
     "win_rate_pct": 36.3636,
     "final_return_pct": -10.7643,
+    "max_return_pct": 3.7399,
     "max_drawdown_pct": 14.5293,
     "cd_value": 76.2704
   },
@@ -566,6 +622,7 @@
     "losses": 74,
     "win_rate_pct": 34.5133,
     "final_return_pct": -10.9592,
+    "max_return_pct": 6.4674,
     "max_drawdown_pct": 19.3358,
     "cd_value": 71.824
   },
@@ -576,6 +633,7 @@
     "losses": 125,
     "win_rate_pct": 36.2245,
     "final_return_pct": -10.9734,
+    "max_return_pct": 9.4282,
     "max_drawdown_pct": 18.6438,
     "cd_value": 72.4287
   },
@@ -586,6 +644,7 @@
     "losses": 79,
     "win_rate_pct": 36.8,
     "final_return_pct": -11.4674,
+    "max_return_pct": 1.1973,
     "max_drawdown_pct": 12.5149,
     "cd_value": 77.4528
   },
@@ -596,6 +655,7 @@
     "losses": 187,
     "win_rate_pct": 37.4582,
     "final_return_pct": -11.4692,
+    "max_return_pct": 7.3316,
     "max_drawdown_pct": 21.646,
     "cd_value": 69.3675
   },
@@ -606,6 +666,7 @@
     "losses": 96,
     "win_rate_pct": 36.4238,
     "final_return_pct": -11.5492,
+    "max_return_pct": 2.7552,
     "max_drawdown_pct": 14.0959,
     "cd_value": 75.9829
   },
@@ -616,6 +677,7 @@
     "losses": 103,
     "win_rate_pct": 37.1951,
     "final_return_pct": -11.6451,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 12.8843,
     "cd_value": 76.971
   },
@@ -626,6 +688,7 @@
     "losses": 52,
     "win_rate_pct": 29.7297,
     "final_return_pct": -11.9679,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 13.0004,
     "cd_value": 76.5875
   },
@@ -636,6 +699,7 @@
     "losses": 57,
     "win_rate_pct": 26.9231,
     "final_return_pct": -12.0629,
+    "max_return_pct": 6.7523,
     "max_drawdown_pct": 18.1774,
     "cd_value": 71.9524
   },
@@ -646,6 +710,7 @@
     "losses": 49,
     "win_rate_pct": 30.0,
     "final_return_pct": -12.0753,
+    "max_return_pct": 0.7736,
     "max_drawdown_pct": 12.9384,
     "cd_value": 76.5486
   },
@@ -656,6 +721,7 @@
     "losses": 120,
     "win_rate_pct": 35.4839,
     "final_return_pct": -12.1749,
+    "max_return_pct": 6.2709,
     "max_drawdown_pct": 23.0692,
     "cd_value": 67.5646
   },
@@ -666,6 +732,7 @@
     "losses": 46,
     "win_rate_pct": 26.9841,
     "final_return_pct": -12.226,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 12.226,
     "cd_value": 77.0427
   },
@@ -676,6 +743,7 @@
     "losses": 96,
     "win_rate_pct": 33.7931,
     "final_return_pct": -12.716,
+    "max_return_pct": 6.644,
     "max_drawdown_pct": 22.0479,
     "cd_value": 68.0398
   },
@@ -686,6 +754,7 @@
     "losses": 189,
     "win_rate_pct": 35.7143,
     "final_return_pct": -12.8103,
+    "max_return_pct": 11.992,
     "max_drawdown_pct": 22.1465,
     "cd_value": 67.8803
   },
@@ -696,6 +765,7 @@
     "losses": 114,
     "win_rate_pct": 35.5932,
     "final_return_pct": -12.9631,
+    "max_return_pct": 4.7824,
     "max_drawdown_pct": 16.9356,
     "cd_value": 72.2967
   },
@@ -706,6 +776,7 @@
     "losses": 73,
     "win_rate_pct": 35.3982,
     "final_return_pct": -13.0207,
+    "max_return_pct": 7.279,
     "max_drawdown_pct": 21.5464,
     "cd_value": 68.2384
   },
@@ -716,6 +787,7 @@
     "losses": 60,
     "win_rate_pct": 36.8421,
     "final_return_pct": -13.1801,
+    "max_return_pct": 5.9514,
     "max_drawdown_pct": 19.9097,
     "cd_value": 69.5343
   },
@@ -726,6 +798,7 @@
     "losses": 238,
     "win_rate_pct": 37.2032,
     "final_return_pct": -13.2535,
+    "max_return_pct": 2.2344,
     "max_drawdown_pct": 22.2487,
     "cd_value": 67.4465
   },
@@ -736,6 +809,7 @@
     "losses": 166,
     "win_rate_pct": 34.902,
     "final_return_pct": -13.8781,
+    "max_return_pct": 1.9504,
     "max_drawdown_pct": 31.0369,
     "cd_value": 59.3924
   },
@@ -746,6 +820,7 @@
     "losses": 90,
     "win_rate_pct": 31.8182,
     "final_return_pct": -14.0598,
+    "max_return_pct": 6.9775,
     "max_drawdown_pct": 19.846,
     "cd_value": 68.8845
   },
@@ -756,6 +831,7 @@
     "losses": 223,
     "win_rate_pct": 35.9195,
     "final_return_pct": -14.2284,
+    "max_return_pct": 12.0121,
     "max_drawdown_pct": 23.4265,
     "cd_value": 65.6783
   },
@@ -766,6 +842,7 @@
     "losses": 59,
     "win_rate_pct": 27.1605,
     "final_return_pct": -14.3856,
+    "max_return_pct": 1.9936,
     "max_drawdown_pct": 16.0591,
     "cd_value": 71.8655
   },
@@ -776,6 +853,7 @@
     "losses": 102,
     "win_rate_pct": 36.646,
     "final_return_pct": -14.5996,
+    "max_return_pct": 3.2901,
     "max_drawdown_pct": 19.136,
     "cd_value": 69.0582
   },
@@ -786,6 +864,7 @@
     "losses": 72,
     "win_rate_pct": 35.1351,
     "final_return_pct": -15.6592,
+    "max_return_pct": 0.2363,
     "max_drawdown_pct": 17.1684,
     "cd_value": 69.8609
   },
@@ -796,6 +875,7 @@
     "losses": 38,
     "win_rate_pct": 30.9091,
     "final_return_pct": -16.1606,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 24.4594,
     "cd_value": 63.3327
   },
@@ -806,6 +886,7 @@
     "losses": 36,
     "win_rate_pct": 30.7692,
     "final_return_pct": -16.2289,
+    "max_return_pct": 0.885,
     "max_drawdown_pct": 16.9637,
     "cd_value": 69.5604
   },
@@ -816,6 +897,7 @@
     "losses": 107,
     "win_rate_pct": 31.8471,
     "final_return_pct": -17.3458,
+    "max_return_pct": 1.9955,
     "max_drawdown_pct": 21.5628,
     "cd_value": 64.8316
   },
@@ -826,6 +908,7 @@
     "losses": 122,
     "win_rate_pct": 31.4607,
     "final_return_pct": -17.6766,
+    "max_return_pct": 0.3315,
     "max_drawdown_pct": 18.0853,
     "cd_value": 67.435
   },
@@ -836,6 +919,7 @@
     "losses": 45,
     "win_rate_pct": 29.6875,
     "final_return_pct": -17.9517,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 18.4365,
     "cd_value": 66.9215
   },
@@ -846,6 +930,7 @@
     "losses": 220,
     "win_rate_pct": 35.8601,
     "final_return_pct": -17.9742,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 23.036,
     "cd_value": 63.1303
   },
@@ -856,6 +941,7 @@
     "losses": 56,
     "win_rate_pct": 29.1139,
     "final_return_pct": -18.6795,
+    "max_return_pct": 2.5254,
     "max_drawdown_pct": 22.361,
     "cd_value": 63.1364
   },
@@ -866,6 +952,7 @@
     "losses": 127,
     "win_rate_pct": 30.2198,
     "final_return_pct": -18.7811,
+    "max_return_pct": 0.9738,
     "max_drawdown_pct": 20.9089,
     "cd_value": 64.2369
   },
@@ -876,6 +963,7 @@
     "losses": 150,
     "win_rate_pct": 32.1267,
     "final_return_pct": -19.0714,
+    "max_return_pct": 2.1313,
     "max_drawdown_pct": 21.2718,
     "cd_value": 63.7136
   },
@@ -886,6 +974,7 @@
     "losses": 74,
     "win_rate_pct": 30.8411,
     "final_return_pct": -19.2273,
+    "max_return_pct": 3.9406,
     "max_drawdown_pct": 22.2896,
     "cd_value": 62.7688
   },
@@ -896,6 +985,7 @@
     "losses": 107,
     "win_rate_pct": 31.4103,
     "final_return_pct": -19.4418,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 21.1737,
     "cd_value": 63.5011
   },
@@ -906,6 +996,7 @@
     "losses": 262,
     "win_rate_pct": 35.7843,
     "final_return_pct": -19.6204,
+    "max_return_pct": 10.239,
     "max_drawdown_pct": 32.743,
     "cd_value": 54.0609
   },
@@ -916,6 +1007,7 @@
     "losses": 205,
     "win_rate_pct": 35.5346,
     "final_return_pct": -19.7642,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 20.3783,
     "cd_value": 63.8851
   },
@@ -926,6 +1018,7 @@
     "losses": 77,
     "win_rate_pct": 29.3578,
     "final_return_pct": -19.8176,
+    "max_return_pct": 0.2934,
     "max_drawdown_pct": 20.5349,
     "cd_value": 63.7171
   },
@@ -936,6 +1029,7 @@
     "losses": 104,
     "win_rate_pct": 32.0261,
     "final_return_pct": -20.1751,
+    "max_return_pct": 9.0465,
     "max_drawdown_pct": 27.7644,
     "cd_value": 57.662
   },
@@ -946,6 +1040,7 @@
     "losses": 69,
     "win_rate_pct": 28.125,
     "final_return_pct": -20.4216,
+    "max_return_pct": 6.5453,
     "max_drawdown_pct": 25.3103,
     "cd_value": 59.4369
   },
@@ -956,6 +1051,7 @@
     "losses": 83,
     "win_rate_pct": 28.4483,
     "final_return_pct": -20.4824,
+    "max_return_pct": 1.2828,
     "max_drawdown_pct": 22.1174,
     "cd_value": 61.9304
   },
@@ -966,6 +1062,7 @@
     "losses": 177,
     "win_rate_pct": 37.234,
     "final_return_pct": -20.5276,
+    "max_return_pct": 2.2403,
     "max_drawdown_pct": 22.4695,
     "cd_value": 61.6154
   },
@@ -976,6 +1073,7 @@
     "losses": 96,
     "win_rate_pct": 33.3333,
     "final_return_pct": -21.149,
+    "max_return_pct": 0.2874,
     "max_drawdown_pct": 23.0269,
     "cd_value": 60.6941
   },
@@ -986,6 +1084,7 @@
     "losses": 62,
     "win_rate_pct": 24.3902,
     "final_return_pct": -21.4643,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 21.4643,
     "cd_value": 61.6785
   },
@@ -996,6 +1095,7 @@
     "losses": 178,
     "win_rate_pct": 36.2007,
     "final_return_pct": -21.6589,
+    "max_return_pct": 10.5654,
     "max_drawdown_pct": 30.0288,
     "cd_value": 54.8163
   },
@@ -1006,6 +1106,7 @@
     "losses": 142,
     "win_rate_pct": 33.6449,
     "final_return_pct": -21.7592,
+    "max_return_pct": 6.6349,
     "max_drawdown_pct": 26.6274,
     "cd_value": 57.4073
   },
@@ -1016,6 +1117,7 @@
     "losses": 153,
     "win_rate_pct": 32.8947,
     "final_return_pct": -22.4368,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 23.0569,
     "cd_value": 59.6795
   },
@@ -1026,6 +1128,7 @@
     "losses": 132,
     "win_rate_pct": 29.7872,
     "final_return_pct": -22.5802,
+    "max_return_pct": 5.452,
     "max_drawdown_pct": 26.9002,
     "cd_value": 56.5937
   },
@@ -1036,6 +1139,7 @@
     "losses": 160,
     "win_rate_pct": 33.0544,
     "final_return_pct": -22.781,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 24.8798,
     "cd_value": 58.007
   },
@@ -1046,6 +1150,7 @@
     "losses": 270,
     "win_rate_pct": 36.7681,
     "final_return_pct": -22.7959,
+    "max_return_pct": 9.4538,
     "max_drawdown_pct": 29.5698,
     "cd_value": 54.375
   },
@@ -1056,6 +1161,7 @@
     "losses": 240,
     "win_rate_pct": 34.4262,
     "final_return_pct": -22.9579,
+    "max_return_pct": 2.971,
     "max_drawdown_pct": 26.6541,
     "cd_value": 56.5072
   },
@@ -1066,6 +1172,7 @@
     "losses": 258,
     "win_rate_pct": 32.6371,
     "final_return_pct": -22.9866,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 28.7928,
     "cd_value": 54.8391
   },
@@ -1076,6 +1183,7 @@
     "losses": 181,
     "win_rate_pct": 35.3571,
     "final_return_pct": -23.1145,
+    "max_return_pct": 1.2752,
     "max_drawdown_pct": 24.0826,
     "cd_value": 58.3695
   },
@@ -1086,6 +1194,7 @@
     "losses": 266,
     "win_rate_pct": 31.9693,
     "final_return_pct": -23.1684,
+    "max_return_pct": 4.36,
     "max_drawdown_pct": 29.8935,
     "cd_value": 53.8639
   },
@@ -1096,6 +1205,7 @@
     "losses": 102,
     "win_rate_pct": 29.1667,
     "final_return_pct": -23.5786,
+    "max_return_pct": 3.483,
     "max_drawdown_pct": 26.564,
     "cd_value": 56.1208
   },
@@ -1106,6 +1216,7 @@
     "losses": 284,
     "win_rate_pct": 36.8889,
     "final_return_pct": -24.2045,
+    "max_return_pct": 2.4432,
     "max_drawdown_pct": 26.0122,
     "cd_value": 56.0794
   },
@@ -1116,6 +1227,7 @@
     "losses": 294,
     "win_rate_pct": 35.0993,
     "final_return_pct": -24.4761,
+    "max_return_pct": 23.4297,
     "max_drawdown_pct": 38.8122,
     "cd_value": 46.2115
   },
@@ -1126,6 +1238,7 @@
     "losses": 71,
     "win_rate_pct": 29.0,
     "final_return_pct": -24.5635,
+    "max_return_pct": 8.5,
     "max_drawdown_pct": 30.4733,
     "cd_value": 52.4485
   },
@@ -1136,6 +1249,7 @@
     "losses": 169,
     "win_rate_pct": 36.9403,
     "final_return_pct": -24.9394,
+    "max_return_pct": 3.0699,
     "max_drawdown_pct": 29.7328,
     "cd_value": 52.743
   },
@@ -1146,6 +1260,7 @@
     "losses": 233,
     "win_rate_pct": 35.0975,
     "final_return_pct": -25.0538,
+    "max_return_pct": 2.3136,
     "max_drawdown_pct": 29.4663,
     "cd_value": 52.8624
   },
@@ -1156,6 +1271,7 @@
     "losses": 118,
     "win_rate_pct": 31.3953,
     "final_return_pct": -25.2484,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 27.0981,
     "cd_value": 54.4953
   },
@@ -1166,6 +1282,7 @@
     "losses": 235,
     "win_rate_pct": 37.1658,
     "final_return_pct": -25.5496,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 27.6162,
     "cd_value": 53.89
   },
@@ -1176,6 +1293,7 @@
     "losses": 112,
     "win_rate_pct": 31.7073,
     "final_return_pct": -25.5591,
+    "max_return_pct": 9.3399,
     "max_drawdown_pct": 32.4179,
     "cd_value": 50.3087
   },
@@ -1186,6 +1304,7 @@
     "losses": 75,
     "win_rate_pct": 21.875,
     "final_return_pct": -25.9906,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 26.3984,
     "cd_value": 54.4721
   },
@@ -1196,6 +1315,7 @@
     "losses": 143,
     "win_rate_pct": 31.5789,
     "final_return_pct": -26.1954,
+    "max_return_pct": 5.5936,
     "max_drawdown_pct": 30.105,
     "cd_value": 51.5857
   },
@@ -1206,6 +1326,7 @@
     "losses": 107,
     "win_rate_pct": 33.125,
     "final_return_pct": -26.222,
+    "max_return_pct": 0.5048,
     "max_drawdown_pct": 26.5925,
     "cd_value": 54.1586
   },
@@ -1216,6 +1337,7 @@
     "losses": 124,
     "win_rate_pct": 32.973,
     "final_return_pct": -26.3542,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 26.6312,
     "cd_value": 54.033
   },
@@ -1226,6 +1348,7 @@
     "losses": 139,
     "win_rate_pct": 33.1731,
     "final_return_pct": -26.3967,
+    "max_return_pct": 2.6788,
     "max_drawdown_pct": 28.3169,
     "cd_value": 52.7611
   },
@@ -1236,6 +1359,7 @@
     "losses": 96,
     "win_rate_pct": 32.8671,
     "final_return_pct": -26.4274,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 32.4568,
     "cd_value": 49.6933
   },
@@ -1246,6 +1370,7 @@
     "losses": 289,
     "win_rate_pct": 35.3468,
     "final_return_pct": -26.4642,
+    "max_return_pct": 3.2516,
     "max_drawdown_pct": 28.7813,
     "cd_value": 52.3712
   },
@@ -1256,6 +1381,7 @@
     "losses": 162,
     "win_rate_pct": 34.1463,
     "final_return_pct": -26.7689,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 28.1441,
     "cd_value": 52.6208
   },
@@ -1266,6 +1392,7 @@
     "losses": 294,
     "win_rate_pct": 35.9477,
     "final_return_pct": -26.8008,
+    "max_return_pct": 7.2401,
     "max_drawdown_pct": 31.7427,
     "cd_value": 49.9638
   },
@@ -1276,6 +1403,7 @@
     "losses": 274,
     "win_rate_pct": 34.6062,
     "final_return_pct": -26.8761,
+    "max_return_pct": 10.7052,
     "max_drawdown_pct": 33.9472,
     "cd_value": 48.3004
   },
@@ -1286,6 +1414,7 @@
     "losses": 343,
     "win_rate_pct": 35.1607,
     "final_return_pct": -27.6383,
+    "max_return_pct": 0.3911,
     "max_drawdown_pct": 30.7206,
     "cd_value": 50.1317
   },
@@ -1296,6 +1425,7 @@
     "losses": 231,
     "win_rate_pct": 36.5385,
     "final_return_pct": -28.045,
+    "max_return_pct": 15.2461,
     "max_drawdown_pct": 40.422,
     "cd_value": 42.8694
   },
@@ -1306,6 +1436,7 @@
     "losses": 262,
     "win_rate_pct": 36.5617,
     "final_return_pct": -28.0969,
+    "max_return_pct": 3.1352,
     "max_drawdown_pct": 32.1966,
     "cd_value": 48.7527
   },
@@ -1316,6 +1447,7 @@
     "losses": 181,
     "win_rate_pct": 31.4394,
     "final_return_pct": -28.1995,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 29.0059,
     "cd_value": 50.9741
   },
@@ -1326,6 +1458,7 @@
     "losses": 234,
     "win_rate_pct": 33.3333,
     "final_return_pct": -28.2807,
+    "max_return_pct": 2.263,
     "max_drawdown_pct": 31.4143,
     "cd_value": 49.1891
   },
@@ -1336,6 +1469,7 @@
     "losses": 97,
     "win_rate_pct": 32.6389,
     "final_return_pct": -28.637,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 28.637,
     "cd_value": 50.9268
   },
@@ -1346,6 +1480,7 @@
     "losses": 161,
     "win_rate_pct": 32.3529,
     "final_return_pct": -28.7805,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 38.5354,
     "cd_value": 43.7748
   },
@@ -1356,6 +1491,7 @@
     "losses": 283,
     "win_rate_pct": 35.0917,
     "final_return_pct": -28.9569,
+    "max_return_pct": 3.0493,
     "max_drawdown_pct": 36.2158,
     "cd_value": 45.3143
   },
@@ -1366,6 +1502,7 @@
     "losses": 365,
     "win_rate_pct": 35.1687,
     "final_return_pct": -29.0361,
+    "max_return_pct": 1.6608,
     "max_drawdown_pct": 32.9856,
     "cd_value": 47.556
   },
@@ -1376,6 +1513,7 @@
     "losses": 73,
     "win_rate_pct": 29.1262,
     "final_return_pct": -29.0715,
+    "max_return_pct": 3.6463,
     "max_drawdown_pct": 31.6755,
     "cd_value": 48.4615
   },
@@ -1386,6 +1524,7 @@
     "losses": 119,
     "win_rate_pct": 31.6092,
     "final_return_pct": -29.1389,
+    "max_return_pct": 0.6431,
     "max_drawdown_pct": 30.7212,
     "cd_value": 49.0917
   },
@@ -1396,6 +1535,7 @@
     "losses": 220,
     "win_rate_pct": 32.3077,
     "final_return_pct": -29.3282,
+    "max_return_pct": 5.5996,
     "max_drawdown_pct": 36.6313,
     "cd_value": 44.7838
   },
@@ -1406,6 +1546,7 @@
     "losses": 211,
     "win_rate_pct": 35.2761,
     "final_return_pct": -29.3891,
+    "max_return_pct": 2.6746,
     "max_drawdown_pct": 32.9888,
     "cd_value": 47.3172
   },
@@ -1416,6 +1557,7 @@
     "losses": 229,
     "win_rate_pct": 33.6232,
     "final_return_pct": -29.6925,
+    "max_return_pct": 9.1878,
     "max_drawdown_pct": 36.1573,
     "cd_value": 44.8862
   },
@@ -1426,6 +1568,7 @@
     "losses": 207,
     "win_rate_pct": 31.6832,
     "final_return_pct": -29.7617,
+    "max_return_pct": 0.0715,
     "max_drawdown_pct": 29.8119,
     "cd_value": 49.2989
   },
@@ -1436,6 +1579,7 @@
     "losses": 249,
     "win_rate_pct": 33.6,
     "final_return_pct": -29.7778,
+    "max_return_pct": 4.994,
     "max_drawdown_pct": 33.7405,
     "cd_value": 46.5289
   },
@@ -1446,6 +1590,7 @@
     "losses": 193,
     "win_rate_pct": 31.5603,
     "final_return_pct": -30.1801,
+    "max_return_pct": 0.3902,
     "max_drawdown_pct": 30.4515,
     "cd_value": 48.5586
   },
@@ -1456,6 +1601,7 @@
     "losses": 242,
     "win_rate_pct": 35.2941,
     "final_return_pct": -30.4125,
+    "max_return_pct": 10.7169,
     "max_drawdown_pct": 40.4455,
     "cd_value": 41.4425
   },
@@ -1466,6 +1612,7 @@
     "losses": 223,
     "win_rate_pct": 33.4328,
     "final_return_pct": -30.5011,
+    "max_return_pct": 1.5756,
     "max_drawdown_pct": 31.5791,
     "cd_value": 47.5517
   },
@@ -1476,6 +1623,7 @@
     "losses": 319,
     "win_rate_pct": 32.5581,
     "final_return_pct": -30.509,
+    "max_return_pct": 9.9162,
     "max_drawdown_pct": 36.7782,
     "cd_value": 43.9335
   },
@@ -1486,6 +1634,7 @@
     "losses": 261,
     "win_rate_pct": 34.0909,
     "final_return_pct": -30.5699,
+    "max_return_pct": 3.5151,
     "max_drawdown_pct": 33.3998,
     "cd_value": 46.2406
   },
@@ -1496,6 +1645,7 @@
     "losses": 217,
     "win_rate_pct": 32.3988,
     "final_return_pct": -30.6053,
+    "max_return_pct": 0.6277,
     "max_drawdown_pct": 31.0382,
     "cd_value": 47.8558
   },
@@ -1506,6 +1656,7 @@
     "losses": 245,
     "win_rate_pct": 33.4239,
     "final_return_pct": -30.6852,
+    "max_return_pct": 5.3803,
     "max_drawdown_pct": 35.1345,
     "cd_value": 44.9614
   },
@@ -1516,6 +1667,7 @@
     "losses": 126,
     "win_rate_pct": 27.1676,
     "final_return_pct": -31.2117,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 32.745,
     "cd_value": 46.2636
   },
@@ -1526,6 +1678,7 @@
     "losses": 186,
     "win_rate_pct": 32.3636,
     "final_return_pct": -31.2677,
+    "max_return_pct": 0.1445,
     "max_drawdown_pct": 32.2879,
     "cd_value": 46.5401
   },
@@ -1536,6 +1689,7 @@
     "losses": 239,
     "win_rate_pct": 36.4362,
     "final_return_pct": -31.4269,
+    "max_return_pct": 3.3324,
     "max_drawdown_pct": 37.9297,
     "cd_value": 42.5635
   },
@@ -1546,6 +1700,7 @@
     "losses": 259,
     "win_rate_pct": 33.9286,
     "final_return_pct": -31.6382,
+    "max_return_pct": 6.3815,
     "max_drawdown_pct": 36.4078,
     "cd_value": 43.4728
   },
@@ -1556,6 +1711,7 @@
     "losses": 379,
     "win_rate_pct": 37.1476,
     "final_return_pct": -31.8538,
+    "max_return_pct": 4.9627,
     "max_drawdown_pct": 36.3674,
     "cd_value": 43.3632
   },
@@ -1566,6 +1722,7 @@
     "losses": 238,
     "win_rate_pct": 32.9577,
     "final_return_pct": -31.8932,
+    "max_return_pct": 1.0217,
     "max_drawdown_pct": 32.9869,
     "cd_value": 45.6404
   },
@@ -1576,6 +1733,7 @@
     "losses": 380,
     "win_rate_pct": 0.2625,
     "final_return_pct": -31.9564,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 31.9564,
     "cd_value": 46.2994
   },
@@ -1586,6 +1744,7 @@
     "losses": 238,
     "win_rate_pct": 33.3333,
     "final_return_pct": -31.9964,
+    "max_return_pct": 10.1914,
     "max_drawdown_pct": 39.6462,
     "cd_value": 41.0427
   },
@@ -1596,6 +1755,7 @@
     "losses": 329,
     "win_rate_pct": 34.0681,
     "final_return_pct": -32.1279,
+    "max_return_pct": 0.619,
     "max_drawdown_pct": 35.3055,
     "cd_value": 43.9095
   },
@@ -1606,6 +1766,7 @@
     "losses": 244,
     "win_rate_pct": 33.1507,
     "final_return_pct": -32.2778,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 33.754,
     "cd_value": 44.8633
   },
@@ -1616,6 +1777,7 @@
     "losses": 247,
     "win_rate_pct": 35.5091,
     "final_return_pct": -32.3023,
+    "max_return_pct": 0.7077,
     "max_drawdown_pct": 33.1008,
     "cd_value": 45.2892
   },
@@ -1626,6 +1788,7 @@
     "losses": 129,
     "win_rate_pct": 30.6452,
     "final_return_pct": -32.3535,
+    "max_return_pct": 1.9813,
     "max_drawdown_pct": 36.0985,
     "cd_value": 43.2271
   },
@@ -1636,6 +1799,7 @@
     "losses": 384,
     "win_rate_pct": 36.8421,
     "final_return_pct": -32.8133,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 36.6794,
     "cd_value": 42.5431
   },
@@ -1646,6 +1810,7 @@
     "losses": 277,
     "win_rate_pct": 34.6698,
     "final_return_pct": -32.9003,
+    "max_return_pct": 0.7007,
     "max_drawdown_pct": 34.7013,
     "cd_value": 43.8152
   },
@@ -1656,6 +1821,7 @@
     "losses": 190,
     "win_rate_pct": 31.8996,
     "final_return_pct": -32.9513,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 32.9513,
     "cd_value": 44.9553
   },
@@ -1666,6 +1832,7 @@
     "losses": 142,
     "win_rate_pct": 32.7014,
     "final_return_pct": -32.9715,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 33.3627,
     "cd_value": 44.6659
   },
@@ -1676,6 +1843,7 @@
     "losses": 252,
     "win_rate_pct": 30.5785,
     "final_return_pct": -33.3105,
+    "max_return_pct": 10.849,
     "max_drawdown_pct": 46.4586,
     "cd_value": 35.7065
   },
@@ -1686,6 +1854,7 @@
     "losses": 304,
     "win_rate_pct": 33.1868,
     "final_return_pct": -33.3816,
+    "max_return_pct": 10.3675,
     "max_drawdown_pct": 39.6395,
     "cd_value": 40.2112
   },
@@ -1696,6 +1865,7 @@
     "losses": 118,
     "win_rate_pct": 27.1605,
     "final_return_pct": -33.5833,
+    "max_return_pct": 1.9275,
     "max_drawdown_pct": 35.1595,
     "cd_value": 43.065
   },
@@ -1706,6 +1876,7 @@
     "losses": 271,
     "win_rate_pct": 35.3222,
     "final_return_pct": -33.6645,
+    "max_return_pct": 3.1258,
     "max_drawdown_pct": 40.1115,
     "cd_value": 39.7274
   },
@@ -1716,6 +1887,7 @@
     "losses": 294,
     "win_rate_pct": 34.375,
     "final_return_pct": -33.9836,
+    "max_return_pct": 0.6758,
     "max_drawdown_pct": 36.7153,
     "cd_value": 41.7783
   },
@@ -1726,6 +1898,7 @@
     "losses": 389,
     "win_rate_pct": 35.2745,
     "final_return_pct": -34.7818,
+    "max_return_pct": 10.3893,
     "max_drawdown_pct": 41.2689,
     "cd_value": 38.3034
   },
@@ -1736,6 +1909,7 @@
     "losses": 163,
     "win_rate_pct": 34.2742,
     "final_return_pct": -34.8333,
+    "max_return_pct": 0.8172,
     "max_drawdown_pct": 35.3615,
     "cd_value": 42.1227
   },
@@ -1746,6 +1920,7 @@
     "losses": 337,
     "win_rate_pct": 33.9216,
     "final_return_pct": -35.0013,
+    "max_return_pct": 3.6759,
     "max_drawdown_pct": 39.7735,
     "cd_value": 39.1464
   },
@@ -1756,6 +1931,7 @@
     "losses": 185,
     "win_rate_pct": 32.2344,
     "final_return_pct": -35.4382,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 35.4382,
     "cd_value": 41.6823
   },
@@ -1766,6 +1942,7 @@
     "losses": 129,
     "win_rate_pct": 29.1209,
     "final_return_pct": -35.4698,
+    "max_return_pct": 17.7836,
     "max_drawdown_pct": 46.6676,
     "cd_value": 34.4156
   },
@@ -1776,6 +1953,7 @@
     "losses": 270,
     "win_rate_pct": 33.0025,
     "final_return_pct": -35.6993,
+    "max_return_pct": 6.2624,
     "max_drawdown_pct": 40.0365,
     "cd_value": 38.557
   },
@@ -1786,6 +1964,7 @@
     "losses": 281,
     "win_rate_pct": 31.1275,
     "final_return_pct": -36.1024,
+    "max_return_pct": 13.4932,
     "max_drawdown_pct": 43.6992,
     "cd_value": 35.9749
   },
@@ -1796,6 +1975,7 @@
     "losses": 134,
     "win_rate_pct": 32.3232,
     "final_return_pct": -36.2137,
+    "max_return_pct": 1.9614,
     "max_drawdown_pct": 38.0825,
     "cd_value": 39.4949
   },
@@ -1806,6 +1986,7 @@
     "losses": 159,
     "win_rate_pct": 27.7273,
     "final_return_pct": -36.3064,
+    "max_return_pct": 11.441,
     "max_drawdown_pct": 43.022,
     "cd_value": 36.2913
   },
@@ -1816,6 +1997,7 @@
     "losses": 303,
     "win_rate_pct": 33.8428,
     "final_return_pct": -36.9033,
+    "max_return_pct": 9.1701,
     "max_drawdown_pct": 43.0171,
     "cd_value": 35.9543
   },
@@ -1826,6 +2008,7 @@
     "losses": 114,
     "win_rate_pct": 32.1429,
     "final_return_pct": -36.9199,
+    "max_return_pct": 6.3035,
     "max_drawdown_pct": 43.6718,
     "cd_value": 35.5319
   },
@@ -1836,6 +2019,7 @@
     "losses": 313,
     "win_rate_pct": 33.8266,
     "final_return_pct": -36.9621,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 36.9621,
     "cd_value": 39.7377
   },
@@ -1846,6 +2030,7 @@
     "losses": 306,
     "win_rate_pct": 32.1508,
     "final_return_pct": -36.9875,
+    "max_return_pct": 1.5665,
     "max_drawdown_pct": 37.9623,
     "cd_value": 39.0915
   },
@@ -1856,6 +2041,7 @@
     "losses": 288,
     "win_rate_pct": 33.4873,
     "final_return_pct": -37.0078,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 37.0078,
     "cd_value": 39.6802
   },
@@ -1866,6 +2052,7 @@
     "losses": 318,
     "win_rate_pct": 34.1615,
     "final_return_pct": -37.2653,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 37.4036,
     "cd_value": 39.2697
   },
@@ -1876,6 +2063,7 @@
     "losses": 226,
     "win_rate_pct": 30.6748,
     "final_return_pct": -37.3275,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 37.7724,
     "cd_value": 38.9996
   },
@@ -1886,6 +2074,7 @@
     "losses": 285,
     "win_rate_pct": 33.5664,
     "final_return_pct": -37.7909,
+    "max_return_pct": 0.4253,
     "max_drawdown_pct": 41.7437,
     "cd_value": 36.2407
   },
@@ -1896,6 +2085,7 @@
     "losses": 269,
     "win_rate_pct": 32.2418,
     "final_return_pct": -37.8077,
+    "max_return_pct": 17.0214,
     "max_drawdown_pct": 46.8539,
     "cd_value": 33.0528
   },
@@ -1906,6 +2096,7 @@
     "losses": 168,
     "win_rate_pct": 29.4118,
     "final_return_pct": -38.0633,
+    "max_return_pct": 2.85,
     "max_drawdown_pct": 39.9076,
     "cd_value": 37.2193
   },
@@ -1916,6 +2107,7 @@
     "losses": 78,
     "win_rate_pct": 27.1028,
     "final_return_pct": -38.3534,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 38.3534,
     "cd_value": 38.003
   },
@@ -1926,6 +2118,7 @@
     "losses": 264,
     "win_rate_pct": 31.25,
     "final_return_pct": -38.4097,
+    "max_return_pct": 8.9027,
     "max_drawdown_pct": 44.9668,
     "cd_value": 33.8951
   },
@@ -1936,6 +2129,7 @@
     "losses": 296,
     "win_rate_pct": 34.2222,
     "final_return_pct": -38.4123,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 38.889,
     "cd_value": 37.6368
   },
@@ -1946,6 +2140,7 @@
     "losses": 446,
     "win_rate_pct": 36.2857,
     "final_return_pct": -38.4392,
+    "max_return_pct": 7.1401,
     "max_drawdown_pct": 43.5193,
     "cd_value": 34.77
   },
@@ -1956,6 +2151,7 @@
     "losses": 290,
     "win_rate_pct": 34.0909,
     "final_return_pct": -38.6654,
+    "max_return_pct": 5.6512,
     "max_drawdown_pct": 43.0019,
     "cd_value": 34.9595
   },
@@ -1966,6 +2162,7 @@
     "losses": 232,
     "win_rate_pct": 32.1637,
     "final_return_pct": -38.7865,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 38.7865,
     "cd_value": 37.4709
   },
@@ -1976,6 +2173,7 @@
     "losses": 301,
     "win_rate_pct": 33.9912,
     "final_return_pct": -38.9243,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 38.9243,
     "cd_value": 37.3024
   },
@@ -1986,6 +2184,7 @@
     "losses": 383,
     "win_rate_pct": 34.8639,
     "final_return_pct": -39.2295,
+    "max_return_pct": 0.0769,
     "max_drawdown_pct": 39.2762,
     "cd_value": 36.9021
   },
@@ -1996,6 +2195,7 @@
     "losses": 369,
     "win_rate_pct": 34.1071,
     "final_return_pct": -39.3837,
+    "max_return_pct": 3.4122,
     "max_drawdown_pct": 43.2257,
     "cd_value": 34.4145
   },
@@ -2006,6 +2206,7 @@
     "losses": 343,
     "win_rate_pct": 32.3471,
     "final_return_pct": -39.4306,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 39.4306,
     "cd_value": 36.6865
   },
@@ -2016,6 +2217,7 @@
     "losses": 314,
     "win_rate_pct": 34.0336,
     "final_return_pct": -39.4929,
+    "max_return_pct": 2.3556,
     "max_drawdown_pct": 40.9909,
     "cd_value": 35.7047
   },
@@ -2026,6 +2228,7 @@
     "losses": 464,
     "win_rate_pct": 36.1761,
     "final_return_pct": -39.6122,
+    "max_return_pct": 16.6986,
     "max_drawdown_pct": 48.6584,
     "cd_value": 31.0041
   },
@@ -2036,6 +2239,7 @@
     "losses": 250,
     "win_rate_pct": 31.1295,
     "final_return_pct": -39.6154,
+    "max_return_pct": 3.1854,
     "max_drawdown_pct": 42.076,
     "cd_value": 34.9772
   },
@@ -2046,6 +2250,7 @@
     "losses": 271,
     "win_rate_pct": 34.6988,
     "final_return_pct": -39.7933,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 40.7174,
     "cd_value": 35.6921
   },
@@ -2056,6 +2261,7 @@
     "losses": 394,
     "win_rate_pct": 31.5972,
     "final_return_pct": -39.9698,
+    "max_return_pct": 15.588,
     "max_drawdown_pct": 48.0654,
     "cd_value": 31.1764
   },
@@ -2066,6 +2272,7 @@
     "losses": 200,
     "win_rate_pct": 30.5556,
     "final_return_pct": -40.3671,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 40.3671,
     "cd_value": 35.5608
   },
@@ -2076,6 +2283,7 @@
     "losses": 440,
     "win_rate_pct": 33.7349,
     "final_return_pct": -41.1056,
+    "max_return_pct": 4.6733,
     "max_drawdown_pct": 44.2669,
     "cd_value": 32.8236
   },
@@ -2086,6 +2294,7 @@
     "losses": 325,
     "win_rate_pct": 34.6076,
     "final_return_pct": -41.1792,
+    "max_return_pct": 1.9876,
     "max_drawdown_pct": 45.068,
     "cd_value": 32.3114
   },
@@ -2096,6 +2305,7 @@
     "losses": 196,
     "win_rate_pct": 27.9412,
     "final_return_pct": -41.2861,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 41.2861,
     "cd_value": 34.4733
   },
@@ -2106,6 +2316,7 @@
     "losses": 558,
     "win_rate_pct": 36.8778,
     "final_return_pct": -41.4894,
+    "max_return_pct": 4.5385,
     "max_drawdown_pct": 44.0296,
     "cd_value": 32.7486
   },
@@ -2116,6 +2327,7 @@
     "losses": 204,
     "win_rate_pct": 28.169,
     "final_return_pct": -41.6787,
+    "max_return_pct": 2.0782,
     "max_drawdown_pct": 43.5134,
     "cd_value": 32.9437
   },
@@ -2126,6 +2338,7 @@
     "losses": 332,
     "win_rate_pct": 33.996,
     "final_return_pct": -41.7187,
+    "max_return_pct": 9.1346,
     "max_drawdown_pct": 48.4835,
     "cd_value": 30.0245
   },
@@ -2136,6 +2349,7 @@
     "losses": 418,
     "win_rate_pct": 34.891,
     "final_return_pct": -41.8046,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 43.2954,
     "cd_value": 32.9995
   },
@@ -2146,6 +2360,7 @@
     "losses": 321,
     "win_rate_pct": 31.7021,
     "final_return_pct": -41.9643,
+    "max_return_pct": 2.3139,
     "max_drawdown_pct": 46.6613,
     "cd_value": 30.9555
   },
@@ -2156,6 +2371,7 @@
     "losses": 195,
     "win_rate_pct": 32.7586,
     "final_return_pct": -42.1319,
+    "max_return_pct": 2.6298,
     "max_drawdown_pct": 43.6147,
     "cd_value": 32.6291
   },
@@ -2166,6 +2382,7 @@
     "losses": 295,
     "win_rate_pct": 33.5586,
     "final_return_pct": -42.3303,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 44.4219,
     "cd_value": 32.0517
   },
@@ -2176,6 +2393,7 @@
     "losses": 292,
     "win_rate_pct": 31.4554,
     "final_return_pct": -42.3635,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 42.3813,
     "cd_value": 33.2094
   },
@@ -2186,6 +2404,7 @@
     "losses": 263,
     "win_rate_pct": 33.4177,
     "final_return_pct": -42.4416,
+    "max_return_pct": 4.4164,
     "max_drawdown_pct": 49.5461,
     "cd_value": 29.0404
   },
@@ -2196,6 +2415,7 @@
     "losses": 350,
     "win_rate_pct": 32.6923,
     "final_return_pct": -42.6005,
+    "max_return_pct": 9.9327,
     "max_drawdown_pct": 47.7867,
     "cd_value": 29.9702
   },
@@ -2206,6 +2426,7 @@
     "losses": 286,
     "win_rate_pct": 32.3877,
     "final_return_pct": -42.9117,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 42.9117,
     "cd_value": 32.5908
   },
@@ -2216,6 +2437,7 @@
     "losses": 436,
     "win_rate_pct": 35.3116,
     "final_return_pct": -42.9454,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 42.9454,
     "cd_value": 32.5523
   },
@@ -2226,6 +2448,7 @@
     "losses": 201,
     "win_rate_pct": 29.7203,
     "final_return_pct": -42.9712,
+    "max_return_pct": 3.5114,
     "max_drawdown_pct": 45.1118,
     "cd_value": 31.3021
   },
@@ -2236,6 +2459,7 @@
     "losses": 395,
     "win_rate_pct": 34.7107,
     "final_return_pct": -43.3554,
+    "max_return_pct": 0.6051,
     "max_drawdown_pct": 44.9748,
     "cd_value": 31.1688
   },
@@ -2246,6 +2470,7 @@
     "losses": 227,
     "win_rate_pct": 31.8318,
     "final_return_pct": -43.7273,
+    "max_return_pct": 1.8568,
     "max_drawdown_pct": 47.7157,
     "cd_value": 29.4218
   },
@@ -2256,6 +2481,7 @@
     "losses": 428,
     "win_rate_pct": 35.3474,
     "final_return_pct": -43.8012,
+    "max_return_pct": 4.589,
     "max_drawdown_pct": 46.267,
     "cd_value": 30.1973
   },
@@ -2266,6 +2492,7 @@
     "losses": 244,
     "win_rate_pct": 29.683,
     "final_return_pct": -43.8041,
+    "max_return_pct": 1.647,
     "max_drawdown_pct": 44.947,
     "cd_value": 30.9375
   },
@@ -2276,6 +2503,7 @@
     "losses": 284,
     "win_rate_pct": 33.4895,
     "final_return_pct": -43.868,
+    "max_return_pct": 4.1458,
     "max_drawdown_pct": 46.1025,
     "cd_value": 30.2538
   },
@@ -2286,6 +2514,7 @@
     "losses": 265,
     "win_rate_pct": 31.1688,
     "final_return_pct": -44.0724,
+    "max_return_pct": 8.9608,
     "max_drawdown_pct": 49.9865,
     "cd_value": 27.9713
   },
@@ -2296,6 +2525,7 @@
     "losses": 233,
     "win_rate_pct": 33.046,
     "final_return_pct": -44.581,
+    "max_return_pct": 0.5357,
     "max_drawdown_pct": 45.9086,
     "cd_value": 29.9769
   },
@@ -2306,6 +2536,7 @@
     "losses": 433,
     "win_rate_pct": 35.6612,
     "final_return_pct": -44.5836,
+    "max_return_pct": 2.4036,
     "max_drawdown_pct": 46.4797,
     "cd_value": 29.659
   },
@@ -2316,6 +2547,7 @@
     "losses": 339,
     "win_rate_pct": 34.3023,
     "final_return_pct": -44.776,
+    "max_return_pct": 0.5983,
     "max_drawdown_pct": 45.8067,
     "cd_value": 29.9277
   },
@@ -2326,6 +2558,7 @@
     "losses": 419,
     "win_rate_pct": 18.7984,
     "final_return_pct": -44.9626,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 44.9626,
     "cd_value": 30.2912
   },
@@ -2336,6 +2569,7 @@
     "losses": 235,
     "win_rate_pct": 30.4734,
     "final_return_pct": -45.3079,
+    "max_return_pct": 0.4675,
     "max_drawdown_pct": 46.0809,
     "cd_value": 29.4895
   },
@@ -2346,6 +2580,7 @@
     "losses": 354,
     "win_rate_pct": 31.528,
     "final_return_pct": -45.4399,
+    "max_return_pct": 2.884,
     "max_drawdown_pct": 47.0495,
     "cd_value": 28.8899
   },
@@ -2356,6 +2591,7 @@
     "losses": 441,
     "win_rate_pct": 34.7633,
     "final_return_pct": -45.7762,
+    "max_return_pct": 1.3781,
     "max_drawdown_pct": 46.5133,
     "cd_value": 29.0025
   },
@@ -2366,6 +2602,7 @@
     "losses": 397,
     "win_rate_pct": 34.2715,
     "final_return_pct": -46.0446,
+    "max_return_pct": 3.1205,
     "max_drawdown_pct": 47.6773,
     "cd_value": 28.2309
   },
@@ -2376,6 +2613,7 @@
     "losses": 334,
     "win_rate_pct": 33.3333,
     "final_return_pct": -46.1015,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 47.9476,
     "cd_value": 28.0555
   },
@@ -2386,6 +2624,7 @@
     "losses": 445,
     "win_rate_pct": 33.7798,
     "final_return_pct": -46.1732,
+    "max_return_pct": 9.5907,
     "max_drawdown_pct": 50.8838,
     "cd_value": 26.4377
   },
@@ -2396,6 +2635,7 @@
     "losses": 440,
     "win_rate_pct": 34.2302,
     "final_return_pct": -46.3669,
+    "max_return_pct": 0.7216,
     "max_drawdown_pct": 50.2042,
     "cd_value": 26.707
   },
@@ -2406,6 +2646,7 @@
     "losses": 435,
     "win_rate_pct": 35.1714,
     "final_return_pct": -46.4514,
+    "max_return_pct": 7.6087,
     "max_drawdown_pct": 52.868,
     "cd_value": 25.2385
   },
@@ -2416,6 +2657,7 @@
     "losses": 314,
     "win_rate_pct": 32.3276,
     "final_return_pct": -46.511,
+    "max_return_pct": 4.5633,
     "max_drawdown_pct": 52.5162,
     "cd_value": 25.3986
   },
@@ -2426,6 +2668,7 @@
     "losses": 475,
     "win_rate_pct": 34.2105,
     "final_return_pct": -46.53,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 50.7859,
     "cd_value": 26.3148
   },
@@ -2436,6 +2679,7 @@
     "losses": 487,
     "win_rate_pct": 34.1892,
     "final_return_pct": -47.2509,
+    "max_return_pct": 2.0024,
     "max_drawdown_pct": 49.315,
     "cd_value": 26.7359
   },
@@ -2446,6 +2690,7 @@
     "losses": 335,
     "win_rate_pct": 32.1862,
     "final_return_pct": -47.2973,
+    "max_return_pct": 5.6455,
     "max_drawdown_pct": 50.2483,
     "cd_value": 26.2205
   },
@@ -2456,6 +2701,7 @@
     "losses": 519,
     "win_rate_pct": 34.5523,
     "final_return_pct": -47.3866,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 53.9505,
     "cd_value": 24.2282
   },
@@ -2466,6 +2712,7 @@
     "losses": 235,
     "win_rate_pct": 29.4294,
     "final_return_pct": -47.4259,
+    "max_return_pct": 7.973,
     "max_drawdown_pct": 51.7541,
     "cd_value": 25.3648
   },
@@ -2476,6 +2723,7 @@
     "losses": 574,
     "win_rate_pct": 34.9943,
     "final_return_pct": -47.4416,
+    "max_return_pct": 7.9877,
     "max_drawdown_pct": 54.2317,
     "cd_value": 24.0551
   },
@@ -2486,6 +2734,7 @@
     "losses": 308,
     "win_rate_pct": 30.3167,
     "final_return_pct": -47.5871,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 47.5871,
     "cd_value": 27.4711
   },
@@ -2496,6 +2745,7 @@
     "losses": 375,
     "win_rate_pct": 33.8624,
     "final_return_pct": -48.0778,
+    "max_return_pct": 0.98,
     "max_drawdown_pct": 49.6339,
     "cd_value": 26.1512
   },
@@ -2506,6 +2756,7 @@
     "losses": 388,
     "win_rate_pct": 32.6389,
     "final_return_pct": -48.9204,
+    "max_return_pct": 2.5892,
     "max_drawdown_pct": 50.5632,
     "cd_value": 25.2521
   },
@@ -2516,6 +2767,7 @@
     "losses": 398,
     "win_rate_pct": 33.3333,
     "final_return_pct": -48.9696,
+    "max_return_pct": 4.0241,
     "max_drawdown_pct": 50.9495,
     "cd_value": 25.0306
   },
@@ -2526,6 +2778,7 @@
     "losses": 237,
     "win_rate_pct": 28.8288,
     "final_return_pct": -49.2857,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 49.2857,
     "cd_value": 25.7194
   },
@@ -2536,6 +2789,7 @@
     "losses": 362,
     "win_rate_pct": 32.963,
     "final_return_pct": -49.2992,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 51.1141,
     "cd_value": 24.7856
   },
@@ -2546,6 +2800,7 @@
     "losses": 485,
     "win_rate_pct": 34.6361,
     "final_return_pct": -49.8101,
+    "max_return_pct": 2.8768,
     "max_drawdown_pct": 51.2136,
     "cd_value": 24.4859
   },
@@ -2556,6 +2811,7 @@
     "losses": 603,
     "win_rate_pct": 35.508,
     "final_return_pct": -50.0699,
+    "max_return_pct": 1.0811,
     "max_drawdown_pct": 50.8246,
     "cd_value": 24.5533
   },
@@ -2566,6 +2822,7 @@
     "losses": 296,
     "win_rate_pct": 31.1628,
     "final_return_pct": -50.1921,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 51.568,
     "cd_value": 24.123
   },
@@ -2576,6 +2833,7 @@
     "losses": 287,
     "win_rate_pct": 28.4289,
     "final_return_pct": -50.4362,
+    "max_return_pct": 6.7178,
     "max_drawdown_pct": 53.933,
     "cd_value": 22.8326
   },
@@ -2586,6 +2844,7 @@
     "losses": 497,
     "win_rate_pct": 33.6449,
     "final_return_pct": -50.87,
+    "max_return_pct": 8.4131,
     "max_drawdown_pct": 55.8846,
     "cd_value": 21.6739
   },
@@ -2596,6 +2855,7 @@
     "losses": 420,
     "win_rate_pct": 32.9073,
     "final_return_pct": -50.903,
+    "max_return_pct": 0.7224,
     "max_drawdown_pct": 53.0826,
     "cd_value": 23.035
   },
@@ -2606,6 +2866,7 @@
     "losses": 510,
     "win_rate_pct": 34.949,
     "final_return_pct": -51.0714,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 53.7429,
     "cd_value": 22.633
   },
@@ -2616,6 +2877,7 @@
     "losses": 318,
     "win_rate_pct": 32.9114,
     "final_return_pct": -51.247,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 51.247,
     "cd_value": 23.7686
   },
@@ -2626,6 +2888,7 @@
     "losses": 438,
     "win_rate_pct": 33.5357,
     "final_return_pct": -52.1156,
+    "max_return_pct": 5.3037,
     "max_drawdown_pct": 54.9087,
     "cd_value": 21.5917
   },
@@ -2636,6 +2899,7 @@
     "losses": 490,
     "win_rate_pct": 33.6043,
     "final_return_pct": -52.181,
+    "max_return_pct": 1.7504,
     "max_drawdown_pct": 54.2805,
     "cd_value": 21.8626
   },
@@ -2646,6 +2910,7 @@
     "losses": 367,
     "win_rate_pct": 32.5368,
     "final_return_pct": -52.1891,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 55.2033,
     "cd_value": 21.4177
   },
@@ -2656,6 +2921,7 @@
     "losses": 216,
     "win_rate_pct": 26.7797,
     "final_return_pct": -52.9328,
+    "max_return_pct": 3.9622,
     "max_drawdown_pct": 56.2369,
     "cd_value": 20.5981
   },
@@ -2666,6 +2932,7 @@
     "losses": 525,
     "win_rate_pct": 32.6059,
     "final_return_pct": -53.2584,
+    "max_return_pct": 1.4362,
     "max_drawdown_pct": 53.9202,
     "cd_value": 21.5384
   },
@@ -2676,6 +2943,7 @@
     "losses": 320,
     "win_rate_pct": 33.4719,
     "final_return_pct": -53.7105,
+    "max_return_pct": 12.9503,
     "max_drawdown_pct": 65.0802,
     "cd_value": 16.1642
   },
@@ -2686,6 +2954,7 @@
     "losses": 314,
     "win_rate_pct": 29.7539,
     "final_return_pct": -53.9586,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 56.0994,
     "cd_value": 20.2125
   },
@@ -2696,6 +2965,7 @@
     "losses": 345,
     "win_rate_pct": 31.5476,
     "final_return_pct": -53.9947,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 53.9947,
     "cd_value": 21.1649
   },
@@ -2706,6 +2976,7 @@
     "losses": 449,
     "win_rate_pct": 33.3828,
     "final_return_pct": -54.1142,
+    "max_return_pct": 4.1754,
     "max_drawdown_pct": 56.1299,
     "cd_value": 20.1301
   },
@@ -2716,6 +2987,7 @@
     "losses": 344,
     "win_rate_pct": 30.5051,
     "final_return_pct": -54.1585,
+    "max_return_pct": 0.701,
     "max_drawdown_pct": 55.8386,
     "cd_value": 20.2442
   },
@@ -2726,6 +2998,7 @@
     "losses": 386,
     "win_rate_pct": 32.8696,
     "final_return_pct": -54.7066,
+    "max_return_pct": 3.6105,
     "max_drawdown_pct": 57.3985,
     "cd_value": 19.2957
   },
@@ -2736,6 +3009,7 @@
     "losses": 421,
     "win_rate_pct": 32.0968,
     "final_return_pct": -54.9981,
+    "max_return_pct": 2.2364,
     "max_drawdown_pct": 56.6472,
     "cd_value": 19.5096
   },
@@ -2746,6 +3020,7 @@
     "losses": 403,
     "win_rate_pct": 32.0405,
     "final_return_pct": -55.1954,
+    "max_return_pct": 7.4428,
     "max_drawdown_pct": 58.2991,
     "cd_value": 18.6839
   },
@@ -2756,6 +3031,7 @@
     "losses": 555,
     "win_rate_pct": 35.2392,
     "final_return_pct": -55.411,
+    "max_return_pct": 0.961,
     "max_drawdown_pct": 57.3468,
     "cd_value": 19.0186
   },
@@ -2766,6 +3042,7 @@
     "losses": 454,
     "win_rate_pct": 33.8192,
     "final_return_pct": -55.455,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 55.455,
     "cd_value": 19.8426
   },
@@ -2776,6 +3053,7 @@
     "losses": 387,
     "win_rate_pct": 31.8662,
     "final_return_pct": -56.4985,
+    "max_return_pct": 0.1904,
     "max_drawdown_pct": 57.0189,
     "cd_value": 18.6974
   },
@@ -2786,6 +3064,7 @@
     "losses": 301,
     "win_rate_pct": 31.2785,
     "final_return_pct": -56.5973,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 56.6174,
     "cd_value": 18.8292
   },
@@ -2796,6 +3075,7 @@
     "losses": 347,
     "win_rate_pct": 26.4831,
     "final_return_pct": -56.7142,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 56.7142,
     "cd_value": 18.7366
   },
@@ -2806,6 +3086,7 @@
     "losses": 330,
     "win_rate_pct": 30.3797,
     "final_return_pct": -56.7475,
+    "max_return_pct": 5.7599,
     "max_drawdown_pct": 59.3213,
     "cd_value": 17.5945
   },
@@ -2816,6 +3097,7 @@
     "losses": 470,
     "win_rate_pct": 30.4734,
     "final_return_pct": -56.9852,
+    "max_return_pct": 6.4265,
     "max_drawdown_pct": 59.7995,
     "cd_value": 17.2922
   },
@@ -2826,6 +3108,7 @@
     "losses": 439,
     "win_rate_pct": 31.5133,
     "final_return_pct": -57.5523,
+    "max_return_pct": 2.0463,
     "max_drawdown_pct": 58.8281,
     "cd_value": 17.4765
   },
@@ -2836,6 +3119,7 @@
     "losses": 613,
     "win_rate_pct": 34.298,
     "final_return_pct": -57.5876,
+    "max_return_pct": 14.9416,
     "max_drawdown_pct": 63.1009,
     "cd_value": 15.6498
   },
@@ -2846,6 +3130,7 @@
     "losses": 428,
     "win_rate_pct": 32.5984,
     "final_return_pct": -57.9185,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 58.8504,
     "cd_value": 17.3164
   },
@@ -2856,6 +3141,7 @@
     "losses": 312,
     "win_rate_pct": 29.0909,
     "final_return_pct": -58.373,
+    "max_return_pct": 7.7908,
     "max_drawdown_pct": 62.2909,
     "cd_value": 15.6972
   },
@@ -2866,6 +3152,7 @@
     "losses": 374,
     "win_rate_pct": 31.1234,
     "final_return_pct": -58.4443,
+    "max_return_pct": 11.4,
     "max_drawdown_pct": 63.7403,
     "cd_value": 15.068
   },
@@ -2876,6 +3163,7 @@
     "losses": 296,
     "win_rate_pct": 30.6792,
     "final_return_pct": -58.5516,
+    "max_return_pct": 1.2134,
     "max_drawdown_pct": 59.7747,
     "cd_value": 16.6727
   },
@@ -2886,6 +3174,7 @@
     "losses": 611,
     "win_rate_pct": 34.8614,
     "final_return_pct": -58.7065,
+    "max_return_pct": 5.9861,
     "max_drawdown_pct": 61.4975,
     "cd_value": 15.899
   },
@@ -2896,6 +3185,7 @@
     "losses": 474,
     "win_rate_pct": 34.6207,
     "final_return_pct": -58.877,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 59.4602,
     "cd_value": 16.6711
   },
@@ -2906,6 +3196,7 @@
     "losses": 330,
     "win_rate_pct": 29.0323,
     "final_return_pct": -59.0386,
+    "max_return_pct": 4.3948,
     "max_drawdown_pct": 61.3623,
     "cd_value": 15.8265
   },
@@ -2916,6 +3207,7 @@
     "losses": 435,
     "win_rate_pct": 31.388,
     "final_return_pct": -59.0419,
+    "max_return_pct": 2.2266,
     "max_drawdown_pct": 60.062,
     "cd_value": 16.3578
   },
@@ -2926,6 +3218,7 @@
     "losses": 449,
     "win_rate_pct": 31.7629,
     "final_return_pct": -59.0838,
+    "max_return_pct": 3.1286,
     "max_drawdown_pct": 61.1474,
     "cd_value": 15.897
   },
@@ -2936,6 +3229,7 @@
     "losses": 572,
     "win_rate_pct": 34.1014,
     "final_return_pct": -59.1953,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 59.1953,
     "cd_value": 16.6502
   },
@@ -2946,6 +3240,7 @@
     "losses": 898,
     "win_rate_pct": 35.6272,
     "final_return_pct": -59.3514,
+    "max_return_pct": 5.9863,
     "max_drawdown_pct": 62.2913,
     "cd_value": 15.3281
   },
@@ -2956,6 +3251,7 @@
     "losses": 439,
     "win_rate_pct": 32.8746,
     "final_return_pct": -59.3787,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 59.3787,
     "cd_value": 16.5009
   },
@@ -2966,6 +3262,7 @@
     "losses": 547,
     "win_rate_pct": 31.2814,
     "final_return_pct": -59.6994,
+    "max_return_pct": 1.8694,
     "max_drawdown_pct": 60.4741,
     "cd_value": 15.9291
   },
@@ -2976,6 +3273,7 @@
     "losses": 234,
     "win_rate_pct": 27.1028,
     "final_return_pct": -59.7366,
+    "max_return_pct": 4.2182,
     "max_drawdown_pct": 61.3663,
     "cd_value": 15.5552
   },
@@ -2986,6 +3284,7 @@
     "losses": 422,
     "win_rate_pct": 30.0166,
     "final_return_pct": -59.7421,
+    "max_return_pct": 4.5712,
     "max_drawdown_pct": 63.1408,
     "cd_value": 14.8387
   },
@@ -2996,6 +3295,7 @@
     "losses": 396,
     "win_rate_pct": 29.2857,
     "final_return_pct": -59.9645,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 60.1011,
     "cd_value": 15.9737
   },
@@ -3006,6 +3306,7 @@
     "losses": 529,
     "win_rate_pct": 32.6115,
     "final_return_pct": -60.433,
+    "max_return_pct": 0.2095,
     "max_drawdown_pct": 60.8125,
     "cd_value": 15.5053
   },
@@ -3016,6 +3317,7 @@
     "losses": 548,
     "win_rate_pct": 32.4291,
     "final_return_pct": -60.4943,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 60.8694,
     "cd_value": 15.4588
   },
@@ -3026,6 +3328,7 @@
     "losses": 477,
     "win_rate_pct": 31.6619,
     "final_return_pct": -60.6036,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 61.5477,
     "cd_value": 15.1488
   },
@@ -3036,6 +3339,7 @@
     "losses": 510,
     "win_rate_pct": 31.7269,
     "final_return_pct": -60.7842,
+    "max_return_pct": 5.8632,
     "max_drawdown_pct": 62.9561,
     "cd_value": 14.527
   },
@@ -3046,6 +3350,7 @@
     "losses": 414,
     "win_rate_pct": 30.7692,
     "final_return_pct": -61.026,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 61.6287,
     "cd_value": 14.9548
   },
@@ -3056,6 +3361,7 @@
     "losses": 428,
     "win_rate_pct": 31.4103,
     "final_return_pct": -61.0647,
+    "max_return_pct": 0.2036,
     "max_drawdown_pct": 61.4272,
     "cd_value": 15.0184
   },
@@ -3066,6 +3372,7 @@
     "losses": 913,
     "win_rate_pct": 36.6852,
     "final_return_pct": -61.1593,
+    "max_return_pct": 7.269,
     "max_drawdown_pct": 64.0404,
     "cd_value": 13.9669
   },
@@ -3076,6 +3383,7 @@
     "losses": 411,
     "win_rate_pct": 30.4569,
     "final_return_pct": -61.1624,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 61.5684,
     "cd_value": 14.9259
   },
@@ -3086,6 +3394,7 @@
     "losses": 555,
     "win_rate_pct": 33.6918,
     "final_return_pct": -61.3341,
+    "max_return_pct": 11.9027,
     "max_drawdown_pct": 65.6535,
     "cd_value": 13.2804
   },
@@ -3096,6 +3405,7 @@
     "losses": 642,
     "win_rate_pct": 32.9854,
     "final_return_pct": -61.6938,
+    "max_return_pct": 1.8503,
     "max_drawdown_pct": 62.9485,
     "cd_value": 14.193
   },
@@ -3106,6 +3416,7 @@
     "losses": 506,
     "win_rate_pct": 31.7139,
     "final_return_pct": -61.7943,
+    "max_return_pct": 9.6965,
     "max_drawdown_pct": 65.2209,
     "cd_value": 13.2876
   },
@@ -3116,6 +3427,7 @@
     "losses": 395,
     "win_rate_pct": 30.0885,
     "final_return_pct": -61.8708,
+    "max_return_pct": 5.7865,
     "max_drawdown_pct": 64.2013,
     "cd_value": 13.6498
   },
@@ -3126,6 +3438,7 @@
     "losses": 484,
     "win_rate_pct": 31.6384,
     "final_return_pct": -62.1518,
+    "max_return_pct": 1.1008,
     "max_drawdown_pct": 64.2915,
     "cd_value": 13.515
   },
@@ -3136,6 +3449,7 @@
     "losses": 462,
     "win_rate_pct": 32.2581,
     "final_return_pct": -62.3061,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 62.3061,
     "cd_value": 14.2083
   },
@@ -3146,6 +3460,7 @@
     "losses": 793,
     "win_rate_pct": 33.9717,
     "final_return_pct": -62.6742,
+    "max_return_pct": 4.9169,
     "max_drawdown_pct": 66.7964,
     "cd_value": 12.3935
   },
@@ -3156,6 +3471,7 @@
     "losses": 546,
     "win_rate_pct": 32.6757,
     "final_return_pct": -63.133,
+    "max_return_pct": 15.0892,
     "max_drawdown_pct": 70.1933,
     "cd_value": 10.9888
   },
@@ -3166,6 +3482,7 @@
     "losses": 379,
     "win_rate_pct": 32.5623,
     "final_return_pct": -63.2977,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 63.8994,
     "cd_value": 13.2497
   },
@@ -3176,6 +3493,7 @@
     "losses": 447,
     "win_rate_pct": 30.9119,
     "final_return_pct": -63.2984,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 66.9398,
     "cd_value": 12.1336
   },
@@ -3186,6 +3504,7 @@
     "losses": 529,
     "win_rate_pct": 33.2071,
     "final_return_pct": -63.3573,
+    "max_return_pct": 20.6804,
     "max_drawdown_pct": 69.8458,
     "cd_value": 11.0493
   },
@@ -3196,6 +3515,7 @@
     "losses": 613,
     "win_rate_pct": 32.6374,
     "final_return_pct": -63.6658,
+    "max_return_pct": 0.6199,
     "max_drawdown_pct": 64.7765,
     "cd_value": 12.7982
   },
@@ -3206,6 +3526,7 @@
     "losses": 472,
     "win_rate_pct": 32.8592,
     "final_return_pct": -63.6993,
+    "max_return_pct": 5.5278,
     "max_drawdown_pct": 65.6214,
     "cd_value": 12.4797
   },
@@ -3216,6 +3537,7 @@
     "losses": 964,
     "win_rate_pct": 36.2855,
     "final_return_pct": -63.8138,
+    "max_return_pct": 1.8125,
     "max_drawdown_pct": 64.6052,
     "cd_value": 12.808
   },
@@ -3226,6 +3548,7 @@
     "losses": 439,
     "win_rate_pct": 32.5653,
     "final_return_pct": -64.508,
+    "max_return_pct": 1.6719,
     "max_drawdown_pct": 65.216,
     "cd_value": 12.3455
   },
@@ -3236,6 +3559,7 @@
     "losses": 486,
     "win_rate_pct": 31.5493,
     "final_return_pct": -64.574,
+    "max_return_pct": 3.9223,
     "max_drawdown_pct": 67.166,
     "cd_value": 11.6318
   },
@@ -3246,6 +3570,7 @@
     "losses": 572,
     "win_rate_pct": 33.3333,
     "final_return_pct": -64.5812,
+    "max_return_pct": 1.9528,
     "max_drawdown_pct": 65.2596,
     "cd_value": 12.3046
   },
@@ -3256,6 +3581,7 @@
     "losses": 431,
     "win_rate_pct": 31.9115,
     "final_return_pct": -64.6158,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 65.1992,
     "cd_value": 12.314
   },
@@ -3266,6 +3592,7 @@
     "losses": 646,
     "win_rate_pct": 34.2159,
     "final_return_pct": -64.6538,
+    "max_return_pct": 3.7629,
     "max_drawdown_pct": 66.2344,
     "cd_value": 11.9348
   },
@@ -3276,6 +3603,7 @@
     "losses": 337,
     "win_rate_pct": 28.903,
     "final_return_pct": -64.6577,
+    "max_return_pct": 2.0192,
     "max_drawdown_pct": 65.3572,
     "cd_value": 12.2436
   },
@@ -3286,6 +3614,7 @@
     "losses": 404,
     "win_rate_pct": 29.8611,
     "final_return_pct": -64.7357,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 67.7524,
     "cd_value": 11.3719
   },
@@ -3296,6 +3625,7 @@
     "losses": 831,
     "win_rate_pct": 34.5669,
     "final_return_pct": -65.2264,
+    "max_return_pct": 7.0583,
     "max_drawdown_pct": 67.8274,
     "cd_value": 11.1876
   },
@@ -3306,6 +3636,7 @@
     "losses": 808,
     "win_rate_pct": 34.1483,
     "final_return_pct": -65.3389,
+    "max_return_pct": 7.2242,
     "max_drawdown_pct": 69.0043,
     "cd_value": 10.7434
   },
@@ -3316,6 +3647,7 @@
     "losses": 790,
     "win_rate_pct": 34.1118,
     "final_return_pct": -65.358,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 66.0105,
     "cd_value": 11.7747
   },
@@ -3326,6 +3658,7 @@
     "losses": 379,
     "win_rate_pct": 30.8394,
     "final_return_pct": -65.7783,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 65.7783,
     "cd_value": 11.7112
   },
@@ -3336,6 +3669,7 @@
     "losses": 757,
     "win_rate_pct": 33.5965,
     "final_return_pct": -65.9072,
+    "max_return_pct": 17.7245,
     "max_drawdown_pct": 71.9634,
     "cd_value": 9.5585
   },
@@ -3346,6 +3680,7 @@
     "losses": 494,
     "win_rate_pct": 32.6975,
     "final_return_pct": -65.9124,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 67.4122,
     "cd_value": 11.1084
   },
@@ -3356,6 +3691,7 @@
     "losses": 358,
     "win_rate_pct": 28.2565,
     "final_return_pct": -66.1621,
+    "max_return_pct": 2.6503,
     "max_drawdown_pct": 68.7055,
     "cd_value": 10.5894
   },
@@ -3366,6 +3702,7 @@
     "losses": 851,
     "win_rate_pct": 35.0382,
     "final_return_pct": -66.2578,
+    "max_return_pct": 4.0488,
     "max_drawdown_pct": 70.4195,
     "cd_value": 9.9811
   },
@@ -3376,6 +3713,7 @@
     "losses": 521,
     "win_rate_pct": 29.6896,
     "final_return_pct": -66.4276,
+    "max_return_pct": 1.3012,
     "max_drawdown_pct": 67.2416,
     "cd_value": 10.9978
   },
@@ -3386,6 +3724,7 @@
     "losses": 886,
     "win_rate_pct": 34.9486,
     "final_return_pct": -66.4831,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 68.8415,
     "cd_value": 10.4434
   },
@@ -3396,6 +3735,7 @@
     "losses": 430,
     "win_rate_pct": 30.8682,
     "final_return_pct": -66.7027,
+    "max_return_pct": 2.8961,
     "max_drawdown_pct": 67.8235,
     "cd_value": 10.7139
   },
@@ -3406,6 +3746,7 @@
     "losses": 457,
     "win_rate_pct": 30.6525,
     "final_return_pct": -66.9633,
+    "max_return_pct": 2.6645,
     "max_drawdown_pct": 67.9991,
     "cd_value": 10.572
   },
@@ -3416,6 +3757,7 @@
     "losses": 502,
     "win_rate_pct": 30.4709,
     "final_return_pct": -66.9656,
+    "max_return_pct": 0.8231,
     "max_drawdown_pct": 68.0112,
     "cd_value": 10.5673
   },
@@ -3426,6 +3768,7 @@
     "losses": 498,
     "win_rate_pct": 29.7602,
     "final_return_pct": -67.0105,
+    "max_return_pct": 5.1367,
     "max_drawdown_pct": 69.107,
     "cd_value": 10.1915
   },
@@ -3436,6 +3779,7 @@
     "losses": 729,
     "win_rate_pct": 32.9347,
     "final_return_pct": -67.0763,
+    "max_return_pct": 8.5957,
     "max_drawdown_pct": 70.0359,
     "cd_value": 9.8653
   },
@@ -3446,6 +3790,7 @@
     "losses": 892,
     "win_rate_pct": 36.3766,
     "final_return_pct": -67.1582,
+    "max_return_pct": 1.5709,
     "max_drawdown_pct": 69.176,
     "cd_value": 10.1232
   },
@@ -3456,6 +3801,7 @@
     "losses": 657,
     "win_rate_pct": 31.9171,
     "final_return_pct": -67.2771,
+    "max_return_pct": 7.101,
     "max_drawdown_pct": 70.9798,
     "cd_value": 9.4962
   },
@@ -3466,6 +3812,7 @@
     "losses": 576,
     "win_rate_pct": 32.3944,
     "final_return_pct": -67.6922,
+    "max_return_pct": 3.6208,
     "max_drawdown_pct": 69.222,
     "cd_value": 9.9437
   },
@@ -3476,6 +3823,7 @@
     "losses": 446,
     "win_rate_pct": 30.7453,
     "final_return_pct": -67.7733,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 68.1161,
     "cd_value": 10.2751
   },
@@ -3486,6 +3834,7 @@
     "losses": 503,
     "win_rate_pct": 32.4832,
     "final_return_pct": -67.8077,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 67.8077,
     "cd_value": 10.3635
   },
@@ -3496,6 +3845,7 @@
     "losses": 423,
     "win_rate_pct": 30.313,
     "final_return_pct": -68.1553,
+    "max_return_pct": 1.7314,
     "max_drawdown_pct": 70.5829,
     "cd_value": 9.3678
   },
@@ -3506,6 +3856,7 @@
     "losses": 697,
     "win_rate_pct": 32.7869,
     "final_return_pct": -68.3002,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 68.3588,
     "cd_value": 10.0302
   },
@@ -3516,6 +3867,7 @@
     "losses": 865,
     "win_rate_pct": 34.5688,
     "final_return_pct": -68.5242,
+    "max_return_pct": 5.1032,
     "max_drawdown_pct": 72.0565,
     "cd_value": 8.7954
   },
@@ -3526,6 +3878,7 @@
     "losses": 851,
     "win_rate_pct": 33.6711,
     "final_return_pct": -68.8766,
+    "max_return_pct": 6.8439,
     "max_drawdown_pct": 70.9479,
     "cd_value": 9.042
   },
@@ -3536,6 +3889,7 @@
     "losses": 548,
     "win_rate_pct": 30.102,
     "final_return_pct": -69.0146,
+    "max_return_pct": 1.4212,
     "max_drawdown_pct": 70.4546,
     "cd_value": 9.1548
   },
@@ -3546,6 +3900,7 @@
     "losses": 846,
     "win_rate_pct": 34.1121,
     "final_return_pct": -69.8681,
+    "max_return_pct": 2.5801,
     "max_drawdown_pct": 71.0241,
     "cd_value": 8.731
   },
@@ -3556,6 +3911,7 @@
     "losses": 925,
     "win_rate_pct": 34.8132,
     "final_return_pct": -70.3933,
+    "max_return_pct": 0.191,
     "max_drawdown_pct": 70.66,
     "cd_value": 8.6866
   },
@@ -3566,6 +3922,7 @@
     "losses": 858,
     "win_rate_pct": 34.9014,
     "final_return_pct": -71.4433,
+    "max_return_pct": 1.6998,
     "max_drawdown_pct": 71.9207,
     "cd_value": 8.0185
   },
@@ -3576,6 +3933,7 @@
     "losses": 649,
     "win_rate_pct": 32.4662,
     "final_return_pct": -71.6944,
+    "max_return_pct": 5.9208,
     "max_drawdown_pct": 73.8558,
     "cd_value": 7.4003
   },
@@ -3586,6 +3944,7 @@
     "losses": 723,
     "win_rate_pct": 32.6816,
     "final_return_pct": -72.2065,
+    "max_return_pct": 14.8874,
     "max_drawdown_pct": 75.8081,
     "cd_value": 6.7238
   },
@@ -3596,6 +3955,7 @@
     "losses": 1339,
     "win_rate_pct": 35.063,
     "final_return_pct": -72.2115,
+    "max_return_pct": 15.4242,
     "max_drawdown_pct": 77.4095,
     "cd_value": 6.2776
   },
@@ -3606,6 +3966,7 @@
     "losses": 713,
     "win_rate_pct": 32.0305,
     "final_return_pct": -73.235,
+    "max_return_pct": 1.9136,
     "max_drawdown_pct": 73.7375,
     "cd_value": 7.0292
   },
@@ -3616,6 +3977,7 @@
     "losses": 804,
     "win_rate_pct": 34.4743,
     "final_return_pct": -73.2812,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 73.9246,
     "cd_value": 6.967
   },
@@ -3626,6 +3988,7 @@
     "losses": 815,
     "win_rate_pct": 32.2527,
     "final_return_pct": -73.2962,
+    "max_return_pct": 13.8811,
     "max_drawdown_pct": 76.5512,
     "cd_value": 6.2617
   },
@@ -3636,6 +3999,7 @@
     "losses": 517,
     "win_rate_pct": 28.7879,
     "final_return_pct": -73.7903,
+    "max_return_pct": 4.8483,
     "max_drawdown_pct": 75.1166,
     "cd_value": 6.5219
   },
@@ -3646,6 +4010,7 @@
     "losses": 603,
     "win_rate_pct": 31.9413,
     "final_return_pct": -73.8614,
+    "max_return_pct": 1.3666,
     "max_drawdown_pct": 74.6405,
     "cd_value": 6.6286
   },
@@ -3656,6 +4021,7 @@
     "losses": 842,
     "win_rate_pct": 32.9084,
     "final_return_pct": -74.2468,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 74.8253,
     "cd_value": 6.4833
   },
@@ -3666,6 +4032,7 @@
     "losses": 927,
     "win_rate_pct": 34.0214,
     "final_return_pct": -74.3364,
+    "max_return_pct": 3.5845,
     "max_drawdown_pct": 76.1271,
     "cd_value": 6.1266
   },
@@ -3676,6 +4043,7 @@
     "losses": 701,
     "win_rate_pct": 33.2381,
     "final_return_pct": -74.3486,
+    "max_return_pct": 3.9293,
     "max_drawdown_pct": 75.4767,
     "cd_value": 6.2906
   },
@@ -3686,6 +4054,7 @@
     "losses": 1057,
     "win_rate_pct": 34.2253,
     "final_return_pct": -74.358,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 75.5546,
     "cd_value": 6.2683
   },
@@ -3696,6 +4065,7 @@
     "losses": 869,
     "win_rate_pct": 34.1168,
     "final_return_pct": -74.4131,
+    "max_return_pct": 14.5111,
     "max_drawdown_pct": 77.6555,
     "cd_value": 5.7173
   },
@@ -3706,6 +4076,7 @@
     "losses": 901,
     "win_rate_pct": 32.6607,
     "final_return_pct": -74.581,
+    "max_return_pct": 5.8325,
     "max_drawdown_pct": 76.5023,
     "cd_value": 5.9729
   },
@@ -3716,6 +4087,7 @@
     "losses": 514,
     "win_rate_pct": 29.8772,
     "final_return_pct": -74.6299,
+    "max_return_pct": 9.55,
     "max_drawdown_pct": 77.5035,
     "cd_value": 5.7074
   },
@@ -3726,6 +4098,7 @@
     "losses": 744,
     "win_rate_pct": 31.9927,
     "final_return_pct": -74.9985,
+    "max_return_pct": 11.4353,
     "max_drawdown_pct": 77.5641,
     "cd_value": 5.6093
   },
@@ -3736,6 +4109,7 @@
     "losses": 577,
     "win_rate_pct": 30.9809,
     "final_return_pct": -75.0782,
+    "max_return_pct": 1.0464,
     "max_drawdown_pct": 75.3363,
     "cd_value": 6.1466
   },
@@ -3746,6 +4120,7 @@
     "losses": 774,
     "win_rate_pct": 32.987,
     "final_return_pct": -75.1862,
+    "max_return_pct": 1.8169,
     "max_drawdown_pct": 76.5073,
     "cd_value": 5.8294
   },
@@ -3756,6 +4131,7 @@
     "losses": 854,
     "win_rate_pct": 32.8616,
     "final_return_pct": -75.7008,
+    "max_return_pct": 6.021,
     "max_drawdown_pct": 77.6217,
     "cd_value": 5.4377
   },
@@ -3766,6 +4142,7 @@
     "losses": 1029,
     "win_rate_pct": 33.9538,
     "final_return_pct": -75.9642,
+    "max_return_pct": 10.1681,
     "max_drawdown_pct": 78.7781,
     "cd_value": 5.1009
   },
@@ -3776,6 +4153,7 @@
     "losses": 879,
     "win_rate_pct": 33.8102,
     "final_return_pct": -76.1371,
+    "max_return_pct": 24.5505,
     "max_drawdown_pct": 81.2503,
     "cd_value": 4.4742
   },
@@ -3786,6 +4164,7 @@
     "losses": 1392,
     "win_rate_pct": 36.6697,
     "final_return_pct": -76.1961,
+    "max_return_pct": 10.2807,
     "max_drawdown_pct": 79.4534,
     "cd_value": 4.8909
   },
@@ -3796,6 +4175,7 @@
     "losses": 797,
     "win_rate_pct": 32.343,
     "final_return_pct": -76.3204,
+    "max_return_pct": 14.32,
     "max_drawdown_pct": 79.2942,
     "cd_value": 4.903
   },
@@ -3806,6 +4186,7 @@
     "losses": 886,
     "win_rate_pct": 33.3835,
     "final_return_pct": -76.5918,
+    "max_return_pct": 4.7191,
     "max_drawdown_pct": 77.9558,
     "cd_value": 5.1602
   },
@@ -3816,6 +4197,7 @@
     "losses": 800,
     "win_rate_pct": 32.3181,
     "final_return_pct": -76.6029,
+    "max_return_pct": 2.5616,
     "max_drawdown_pct": 77.3912,
     "cd_value": 5.2898
   },
@@ -3826,6 +4208,7 @@
     "losses": 703,
     "win_rate_pct": 29.4885,
     "final_return_pct": -76.6454,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 76.6454,
     "cd_value": 5.4544
   },
@@ -3836,6 +4219,7 @@
     "losses": 882,
     "win_rate_pct": 33.8335,
     "final_return_pct": -76.7651,
+    "max_return_pct": 8.4885,
     "max_drawdown_pct": 81.6097,
     "cd_value": 4.273
   },
@@ -3846,6 +4230,7 @@
     "losses": 1243,
     "win_rate_pct": 34.9555,
     "final_return_pct": -77.0676,
+    "max_return_pct": 2.8751,
     "max_drawdown_pct": 78.937,
     "cd_value": 4.8302
   },
@@ -3856,6 +4241,7 @@
     "losses": 879,
     "win_rate_pct": 33.5098,
     "final_return_pct": -77.2058,
+    "max_return_pct": 3.3766,
     "max_drawdown_pct": 78.004,
     "cd_value": 5.0138
   },
@@ -3866,6 +4252,7 @@
     "losses": 972,
     "win_rate_pct": 33.1499,
     "final_return_pct": -77.5058,
+    "max_return_pct": 9.06,
     "max_drawdown_pct": 79.5926,
     "cd_value": 4.5905
   },
@@ -3876,6 +4263,7 @@
     "losses": 761,
     "win_rate_pct": 31.8711,
     "final_return_pct": -77.5715,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 77.5715,
     "cd_value": 5.0304
   },
@@ -3886,6 +4274,7 @@
     "losses": 838,
     "win_rate_pct": 31.5359,
     "final_return_pct": -77.7304,
+    "max_return_pct": 2.4735,
     "max_drawdown_pct": 78.8273,
     "cd_value": 4.7151
   },
@@ -3896,6 +4285,7 @@
     "losses": 980,
     "win_rate_pct": 33.9177,
     "final_return_pct": -78.1415,
+    "max_return_pct": 2.3144,
     "max_drawdown_pct": 78.7703,
     "cd_value": 4.6405
   },
@@ -3906,6 +4296,7 @@
     "losses": 813,
     "win_rate_pct": 31.738,
     "final_return_pct": -78.3241,
+    "max_return_pct": 10.3376,
     "max_drawdown_pct": 81.0001,
     "cd_value": 4.1184
   },
@@ -3916,6 +4307,7 @@
     "losses": 831,
     "win_rate_pct": 33.1994,
     "final_return_pct": -78.3875,
+    "max_return_pct": 9.0389,
     "max_drawdown_pct": 80.2075,
     "cd_value": 4.2776
   },
@@ -3926,6 +4318,7 @@
     "losses": 1000,
     "win_rate_pct": 33.8624,
     "final_return_pct": -78.4056,
+    "max_return_pct": 5.6838,
     "max_drawdown_pct": 79.8051,
     "cd_value": 4.361
   },
@@ -3936,6 +4329,7 @@
     "losses": 930,
     "win_rate_pct": 33.0935,
     "final_return_pct": -78.429,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 78.9393,
     "cd_value": 4.543
   },
@@ -3946,6 +4340,7 @@
     "losses": 1161,
     "win_rate_pct": 33.5052,
     "final_return_pct": -78.6239,
+    "max_return_pct": 4.1878,
     "max_drawdown_pct": 79.9427,
     "cd_value": 4.2875
   },
@@ -3956,6 +4351,7 @@
     "losses": 942,
     "win_rate_pct": 33.4746,
     "final_return_pct": -78.7459,
+    "max_return_pct": 5.6908,
     "max_drawdown_pct": 80.9891,
     "cd_value": 4.0406
   },
@@ -3966,6 +4362,7 @@
     "losses": 1204,
     "win_rate_pct": 34.7072,
     "final_return_pct": -78.7646,
+    "max_return_pct": 1.7187,
     "max_drawdown_pct": 80.9834,
     "cd_value": 4.0382
   },
@@ -3976,6 +4373,7 @@
     "losses": 539,
     "win_rate_pct": 30.0908,
     "final_return_pct": -78.8364,
+    "max_return_pct": 9.039,
     "max_drawdown_pct": 80.68,
     "cd_value": 4.0888
   },
@@ -3986,6 +4384,7 @@
     "losses": 1146,
     "win_rate_pct": 34.0621,
     "final_return_pct": -79.0089,
+    "max_return_pct": 3.9509,
     "max_drawdown_pct": 80.2961,
     "cd_value": 4.136
   },
@@ -3996,6 +4395,7 @@
     "losses": 1078,
     "win_rate_pct": 34.4681,
     "final_return_pct": -79.1575,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 79.3794,
     "cd_value": 4.2979
   },
@@ -4006,6 +4406,7 @@
     "losses": 915,
     "win_rate_pct": 32.2724,
     "final_return_pct": -79.2481,
+    "max_return_pct": 0.5051,
     "max_drawdown_pct": 79.4308,
     "cd_value": 4.2685
   },
@@ -4016,6 +4417,7 @@
     "losses": 1184,
     "win_rate_pct": 34.9093,
     "final_return_pct": -79.5576,
+    "max_return_pct": 0.2953,
     "max_drawdown_pct": 80.1482,
     "cd_value": 4.0582
   },
@@ -4026,6 +4428,7 @@
     "losses": 849,
     "win_rate_pct": 31.8072,
     "final_return_pct": -79.568,
+    "max_return_pct": 3.2609,
     "max_drawdown_pct": 80.2159,
     "cd_value": 4.0423
   },
@@ -4036,6 +4439,7 @@
     "losses": 738,
     "win_rate_pct": 31.2209,
     "final_return_pct": -79.7111,
+    "max_return_pct": 7.4207,
     "max_drawdown_pct": 81.2737,
     "cd_value": 3.7994
   },
@@ -4046,6 +4450,7 @@
     "losses": 969,
     "win_rate_pct": 32.8017,
     "final_return_pct": -79.7849,
+    "max_return_pct": 23.3667,
     "max_drawdown_pct": 84.3037,
     "cd_value": 3.173
   },
@@ -4056,6 +4461,7 @@
     "losses": 872,
     "win_rate_pct": 32.5077,
     "final_return_pct": -79.8243,
+    "max_return_pct": 1.3325,
     "max_drawdown_pct": 80.0896,
     "cd_value": 4.0171
   },
@@ -4066,6 +4472,7 @@
     "losses": 1123,
     "win_rate_pct": 33.511,
     "final_return_pct": -79.9723,
+    "max_return_pct": 10.2827,
     "max_drawdown_pct": 82.6267,
     "cd_value": 3.4795
   },
@@ -4076,6 +4483,7 @@
     "losses": 1254,
     "win_rate_pct": 34.4828,
     "final_return_pct": -80.1229,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 80.2903,
     "cd_value": 3.9177
   },
@@ -4086,6 +4494,7 @@
     "losses": 785,
     "win_rate_pct": 31.7391,
     "final_return_pct": -80.2404,
+    "max_return_pct": 0.0208,
     "max_drawdown_pct": 80.8467,
     "cd_value": 3.7846
   },
@@ -4096,6 +4505,7 @@
     "losses": 1007,
     "win_rate_pct": 33.0452,
     "final_return_pct": -80.2421,
+    "max_return_pct": 3.881,
     "max_drawdown_pct": 81.1879,
     "cd_value": 3.7169
   },
@@ -4106,6 +4516,7 @@
     "losses": 1181,
     "win_rate_pct": 33.5397,
     "final_return_pct": -80.3555,
+    "max_return_pct": 6.2028,
     "max_drawdown_pct": 81.5029,
     "cd_value": 3.6337
   },
@@ -4116,6 +4527,7 @@
     "losses": 934,
     "win_rate_pct": 32.9505,
     "final_return_pct": -80.532,
+    "max_return_pct": 6.7141,
     "max_drawdown_pct": 82.4341,
     "cd_value": 3.4197
   },
@@ -4126,6 +4538,7 @@
     "losses": 1163,
     "win_rate_pct": 34.8824,
     "final_return_pct": -80.6792,
+    "max_return_pct": 2.7818,
     "max_drawdown_pct": 81.803,
     "cd_value": 3.5158
   },
@@ -4136,6 +4549,7 @@
     "losses": 1031,
     "win_rate_pct": 33.1821,
     "final_return_pct": -80.7234,
+    "max_return_pct": 0.5511,
     "max_drawdown_pct": 81.5121,
     "cd_value": 3.5638
   },
@@ -4146,6 +4560,7 @@
     "losses": 1361,
     "win_rate_pct": 35.4058,
     "final_return_pct": -80.9791,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 81.1178,
     "cd_value": 3.5916
   },
@@ -4156,6 +4571,7 @@
     "losses": 1206,
     "win_rate_pct": 34.1344,
     "final_return_pct": -81.0448,
+    "max_return_pct": 0.9136,
     "max_drawdown_pct": 81.919,
     "cd_value": 3.4273
   },
@@ -4166,6 +4582,7 @@
     "losses": 775,
     "win_rate_pct": 32.3735,
     "final_return_pct": -81.3167,
+    "max_return_pct": 5.3315,
     "max_drawdown_pct": 82.5355,
     "cd_value": 3.2629
   },
@@ -4176,6 +4593,7 @@
     "losses": 1162,
     "win_rate_pct": 34.4244,
     "final_return_pct": -81.3602,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 81.8033,
     "cd_value": 3.3918
   },
@@ -4186,6 +4604,7 @@
     "losses": 1144,
     "win_rate_pct": 32.8638,
     "final_return_pct": -81.3701,
+    "max_return_pct": 4.1042,
     "max_drawdown_pct": 82.3059,
     "cd_value": 3.2964
   },
@@ -4196,6 +4615,7 @@
     "losses": 1217,
     "win_rate_pct": 34.1094,
     "final_return_pct": -81.4338,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 83.1088,
     "cd_value": 3.136
   },
@@ -4206,6 +4626,7 @@
     "losses": 978,
     "win_rate_pct": 31.7516,
     "final_return_pct": -81.5444,
+    "max_return_pct": 6.6907,
     "max_drawdown_pct": 83.715,
     "cd_value": 3.0055
   },
@@ -4216,6 +4637,7 @@
     "losses": 1057,
     "win_rate_pct": 32.5893,
     "final_return_pct": -81.7236,
+    "max_return_pct": 2.7199,
     "max_drawdown_pct": 82.553,
     "cd_value": 3.1887
   },
@@ -4226,6 +4648,7 @@
     "losses": 1602,
     "win_rate_pct": 35.7401,
     "final_return_pct": -82.0793,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 83.5231,
     "cd_value": 2.9528
   },
@@ -4236,6 +4659,7 @@
     "losses": 975,
     "win_rate_pct": 33.2649,
     "final_return_pct": -82.0918,
+    "max_return_pct": 7.3477,
     "max_drawdown_pct": 83.694,
     "cd_value": 2.9201
   },
@@ -4246,6 +4670,7 @@
     "losses": 1045,
     "win_rate_pct": 33.3971,
     "final_return_pct": -82.1493,
+    "max_return_pct": 7.6432,
     "max_drawdown_pct": 83.4167,
     "cd_value": 2.9602
   },
@@ -4256,6 +4681,7 @@
     "losses": 1354,
     "win_rate_pct": 34.7155,
     "final_return_pct": -82.4882,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 82.9391,
     "cd_value": 2.9877
   },
@@ -4266,6 +4692,7 @@
     "losses": 1154,
     "win_rate_pct": 33.7543,
     "final_return_pct": -82.5847,
+    "max_return_pct": 1.9879,
     "max_drawdown_pct": 82.9242,
     "cd_value": 2.9738
   },
@@ -4276,6 +4703,7 @@
     "losses": 972,
     "win_rate_pct": 32.9655,
     "final_return_pct": -82.6087,
+    "max_return_pct": 2.3249,
     "max_drawdown_pct": 83.5705,
     "cd_value": 2.8573
   },
@@ -4286,6 +4714,7 @@
     "losses": 1267,
     "win_rate_pct": 34.5558,
     "final_return_pct": -82.6251,
+    "max_return_pct": 8.6019,
     "max_drawdown_pct": 84.2639,
     "cd_value": 2.7341
   },
@@ -4296,6 +4725,7 @@
     "losses": 1259,
     "win_rate_pct": 33.9801,
     "final_return_pct": -82.757,
+    "max_return_pct": 2.2417,
     "max_drawdown_pct": 83.2833,
     "cd_value": 2.8825
   },
@@ -4306,6 +4736,7 @@
     "losses": 1106,
     "win_rate_pct": 33.4937,
     "final_return_pct": -82.7652,
+    "max_return_pct": 2.2819,
     "max_drawdown_pct": 83.2574,
     "cd_value": 2.8856
   },
@@ -4316,6 +4747,7 @@
     "losses": 1024,
     "win_rate_pct": 32.3199,
     "final_return_pct": -82.8193,
+    "max_return_pct": 1.3368,
     "max_drawdown_pct": 83.0747,
     "cd_value": 2.9079
   },
@@ -4326,6 +4758,7 @@
     "losses": 853,
     "win_rate_pct": 30.3105,
     "final_return_pct": -82.8449,
+    "max_return_pct": 0.2674,
     "max_drawdown_pct": 83.3512,
     "cd_value": 2.8561
   },
@@ -4336,6 +4769,7 @@
     "losses": 1015,
     "win_rate_pct": 31.6038,
     "final_return_pct": -82.8662,
+    "max_return_pct": 22.758,
     "max_drawdown_pct": 86.1553,
     "cd_value": 2.3721
   },
@@ -4346,6 +4780,7 @@
     "losses": 1017,
     "win_rate_pct": 32.9598,
     "final_return_pct": -82.8852,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 82.8852,
     "cd_value": 2.9292
   },
@@ -4356,6 +4791,7 @@
     "losses": 980,
     "win_rate_pct": 33.0144,
     "final_return_pct": -83.0032,
+    "max_return_pct": 2.6002,
     "max_drawdown_pct": 83.5325,
     "cd_value": 2.7989
   },
@@ -4366,6 +4802,7 @@
     "losses": 1054,
     "win_rate_pct": 32.6087,
     "final_return_pct": -83.0037,
+    "max_return_pct": 8.3438,
     "max_drawdown_pct": 84.5065,
     "cd_value": 2.6333
   },
@@ -4376,6 +4813,7 @@
     "losses": 961,
     "win_rate_pct": 32.7502,
     "final_return_pct": -83.0063,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 83.0063,
     "cd_value": 2.8879
   },
@@ -4386,6 +4824,7 @@
     "losses": 879,
     "win_rate_pct": 31.2744,
     "final_return_pct": -83.1835,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 83.3933,
     "cd_value": 2.7927
   },
@@ -4396,6 +4835,7 @@
     "losses": 1676,
     "win_rate_pct": 34.786,
     "final_return_pct": -83.472,
+    "max_return_pct": 5.2214,
     "max_drawdown_pct": 84.6552,
     "cd_value": 2.5362
   },
@@ -4406,6 +4846,7 @@
     "losses": 972,
     "win_rate_pct": 33.4702,
     "final_return_pct": -83.6144,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 84.7952,
     "cd_value": 2.4914
   },
@@ -4416,6 +4857,7 @@
     "losses": 1214,
     "win_rate_pct": 34.0217,
     "final_return_pct": -83.6197,
+    "max_return_pct": 2.365,
     "max_drawdown_pct": 84.8618,
     "cd_value": 2.4797
   },
@@ -4426,6 +4868,7 @@
     "losses": 1559,
     "win_rate_pct": 35.9491,
     "final_return_pct": -83.6955,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 83.813,
     "cd_value": 2.6392
   },
@@ -4436,6 +4879,7 @@
     "losses": 936,
     "win_rate_pct": 32.7586,
     "final_return_pct": -83.9409,
+    "max_return_pct": 36.7906,
     "max_drawdown_pct": 88.4579,
     "cd_value": 1.8536
   },
@@ -4446,6 +4890,7 @@
     "losses": 1154,
     "win_rate_pct": 34.0571,
     "final_return_pct": -84.0639,
+    "max_return_pct": 0.6034,
     "max_drawdown_pct": 84.3463,
     "cd_value": 2.4946
   },
@@ -4456,6 +4901,7 @@
     "losses": 1140,
     "win_rate_pct": 32.6241,
     "final_return_pct": -84.1599,
+    "max_return_pct": 1.0738,
     "max_drawdown_pct": 84.3643,
     "cd_value": 2.4767
   },
@@ -4466,6 +4912,7 @@
     "losses": 1220,
     "win_rate_pct": 34.3026,
     "final_return_pct": -84.2388,
+    "max_return_pct": 1.1799,
     "max_drawdown_pct": 85.0253,
     "cd_value": 2.3602
   },
@@ -4476,6 +4923,7 @@
     "losses": 1095,
     "win_rate_pct": 33.1093,
     "final_return_pct": -84.4524,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 84.9326,
     "cd_value": 2.3426
   },
@@ -4486,6 +4934,7 @@
     "losses": 1590,
     "win_rate_pct": 34.8628,
     "final_return_pct": -84.5523,
+    "max_return_pct": 11.8635,
     "max_drawdown_pct": 86.1906,
     "cd_value": 2.1332
   },
@@ -4496,6 +4945,7 @@
     "losses": 1352,
     "win_rate_pct": 34.2732,
     "final_return_pct": -84.5979,
+    "max_return_pct": 12.2718,
     "max_drawdown_pct": 87.3528,
     "cd_value": 1.9479
   },
@@ -4506,6 +4956,7 @@
     "losses": 1112,
     "win_rate_pct": 32.769,
     "final_return_pct": -84.7241,
+    "max_return_pct": 9.3285,
     "max_drawdown_pct": 86.1827,
     "cd_value": 2.1107
   },
@@ -4516,6 +4967,7 @@
     "losses": 1026,
     "win_rate_pct": 32.3219,
     "final_return_pct": -84.8478,
+    "max_return_pct": 7.4987,
     "max_drawdown_pct": 86.0052,
     "cd_value": 2.1205
   },
@@ -4526,6 +4978,7 @@
     "losses": 1259,
     "win_rate_pct": 34.0838,
     "final_return_pct": -84.9709,
+    "max_return_pct": 4.3582,
     "max_drawdown_pct": 86.0926,
     "cd_value": 2.0902
   },
@@ -4536,6 +4989,7 @@
     "losses": 1463,
     "win_rate_pct": 34.1288,
     "final_return_pct": -85.1472,
+    "max_return_pct": 17.6971,
     "max_drawdown_pct": 87.634,
     "cd_value": 1.8367
   },
@@ -4546,6 +5000,7 @@
     "losses": 1095,
     "win_rate_pct": 33.7969,
     "final_return_pct": -85.204,
+    "max_return_pct": 3.35,
     "max_drawdown_pct": 85.6835,
     "cd_value": 2.1183
   },
@@ -4556,6 +5011,7 @@
     "losses": 1208,
     "win_rate_pct": 34.0971,
     "final_return_pct": -85.4286,
+    "max_return_pct": 10.1247,
     "max_drawdown_pct": 87.0745,
     "cd_value": 1.8834
   },
@@ -4566,6 +5022,7 @@
     "losses": 924,
     "win_rate_pct": 30.3167,
     "final_return_pct": -85.4328,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 85.6837,
     "cd_value": 2.0855
   },
@@ -4576,6 +5033,7 @@
     "losses": 1348,
     "win_rate_pct": 34.1797,
     "final_return_pct": -85.6884,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 85.6884,
     "cd_value": 2.0482
   },
@@ -4586,6 +5044,7 @@
     "losses": 1105,
     "win_rate_pct": 33.0303,
     "final_return_pct": -85.7666,
+    "max_return_pct": 15.6291,
     "max_drawdown_pct": 87.8232,
     "cd_value": 1.7332
   },
@@ -4596,6 +5055,7 @@
     "losses": 1462,
     "win_rate_pct": 34.1145,
     "final_return_pct": -85.7822,
+    "max_return_pct": 1.1879,
     "max_drawdown_pct": 86.2419,
     "cd_value": 1.9561
   },
@@ -4606,6 +5066,7 @@
     "losses": 1628,
     "win_rate_pct": 35.3712,
     "final_return_pct": -85.8729,
+    "max_return_pct": 0.3752,
     "max_drawdown_pct": 86.4645,
     "cd_value": 1.9122
   },
@@ -4616,6 +5077,7 @@
     "losses": 1020,
     "win_rate_pct": 31.8637,
     "final_return_pct": -85.9412,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 86.329,
     "cd_value": 1.922
   },
@@ -4626,6 +5088,7 @@
     "losses": 895,
     "win_rate_pct": 30.5663,
     "final_return_pct": -86.1445,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 86.5009,
     "cd_value": 1.8704
   },
@@ -4636,6 +5099,7 @@
     "losses": 1187,
     "win_rate_pct": 33.6501,
     "final_return_pct": -86.3718,
+    "max_return_pct": 1.6058,
     "max_drawdown_pct": 86.5872,
     "cd_value": 1.8279
   },
@@ -4646,6 +5110,7 @@
     "losses": 1636,
     "win_rate_pct": 34.9762,
     "final_return_pct": -86.4859,
+    "max_return_pct": 8.521,
     "max_drawdown_pct": 87.547,
     "cd_value": 1.6829
   },
@@ -4656,6 +5121,7 @@
     "losses": 1534,
     "win_rate_pct": 35.0825,
     "final_return_pct": -86.5392,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 86.9128,
     "cd_value": 1.7616
   },
@@ -4666,6 +5132,7 @@
     "losses": 940,
     "win_rate_pct": 31.1859,
     "final_return_pct": -86.5965,
+    "max_return_pct": 3.2839,
     "max_drawdown_pct": 87.1493,
     "cd_value": 1.7224
   },
@@ -4676,6 +5143,7 @@
     "losses": 1540,
     "win_rate_pct": 33.9623,
     "final_return_pct": -86.5989,
+    "max_return_pct": 3.9456,
     "max_drawdown_pct": 87.5754,
     "cd_value": 1.665
   },
@@ -4686,6 +5154,7 @@
     "losses": 1110,
     "win_rate_pct": 31.8182,
     "final_return_pct": -86.6384,
+    "max_return_pct": 3.6297,
     "max_drawdown_pct": 87.2588,
     "cd_value": 1.7024
   },
@@ -4696,6 +5165,7 @@
     "losses": 1534,
     "win_rate_pct": 34.8343,
     "final_return_pct": -86.7003,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 86.8196,
     "cd_value": 1.753
   },
@@ -4706,6 +5176,7 @@
     "losses": 1246,
     "win_rate_pct": 33.2262,
     "final_return_pct": -86.8793,
+    "max_return_pct": 5.4604,
     "max_drawdown_pct": 87.788,
     "cd_value": 1.6023
   },
@@ -4716,6 +5187,7 @@
     "losses": 1348,
     "win_rate_pct": 33.5961,
     "final_return_pct": -87.6052,
+    "max_return_pct": 10.2361,
     "max_drawdown_pct": 89.6709,
     "cd_value": 1.2803
   },
@@ -4726,6 +5198,7 @@
     "losses": 1356,
     "win_rate_pct": 33.9503,
     "final_return_pct": -87.6695,
+    "max_return_pct": 3.537,
     "max_drawdown_pct": 88.2762,
     "cd_value": 1.4456
   },
@@ -4736,6 +5209,7 @@
     "losses": 1477,
     "win_rate_pct": 34.9912,
     "final_return_pct": -87.7316,
+    "max_return_pct": 0.7716,
     "max_drawdown_pct": 88.1366,
     "cd_value": 1.4554
   },
@@ -4746,6 +5220,7 @@
     "losses": 980,
     "win_rate_pct": 31.0345,
     "final_return_pct": -88.114,
+    "max_return_pct": 0.354,
     "max_drawdown_pct": 88.2615,
     "cd_value": 1.3952
   },
@@ -4756,6 +5231,7 @@
     "losses": 1885,
     "win_rate_pct": 35.2234,
     "final_return_pct": -88.9511,
+    "max_return_pct": 5.885,
     "max_drawdown_pct": 89.8112,
     "cd_value": 1.1258
   },
@@ -4766,6 +5242,7 @@
     "losses": 903,
     "win_rate_pct": 30.1624,
     "final_return_pct": -88.9777,
+    "max_return_pct": 3.2569,
     "max_drawdown_pct": 89.9895,
     "cd_value": 1.1034
   },
@@ -4776,6 +5253,7 @@
     "losses": 1791,
     "win_rate_pct": 35.2962,
     "final_return_pct": -89.1204,
+    "max_return_pct": 4.2213,
     "max_drawdown_pct": 89.6934,
     "cd_value": 1.1213
   },
@@ -4786,6 +5264,7 @@
     "losses": 948,
     "win_rate_pct": 29.0419,
     "final_return_pct": -89.2247,
+    "max_return_pct": 1.4878,
     "max_drawdown_pct": 90.0744,
     "cd_value": 1.0695
   },
@@ -4796,6 +5275,7 @@
     "losses": 1876,
     "win_rate_pct": 35.4439,
     "final_return_pct": -89.306,
+    "max_return_pct": 1.6327,
     "max_drawdown_pct": 90.2984,
     "cd_value": 1.0375
   },
@@ -4806,6 +5286,7 @@
     "losses": 871,
     "win_rate_pct": 30.4868,
     "final_return_pct": -89.3218,
+    "max_return_pct": 2.579,
     "max_drawdown_pct": 89.5902,
     "cd_value": 1.1116
   },
@@ -4816,6 +5297,7 @@
     "losses": 995,
     "win_rate_pct": 30.4682,
     "final_return_pct": -89.4734,
+    "max_return_pct": 0.064,
     "max_drawdown_pct": 89.5599,
     "cd_value": 1.099
   },
@@ -4826,6 +5308,7 @@
     "losses": 1650,
     "win_rate_pct": 34.7568,
     "final_return_pct": -89.6307,
+    "max_return_pct": 7.3419,
     "max_drawdown_pct": 90.4786,
     "cd_value": 0.9873
   },
@@ -4836,6 +5319,7 @@
     "losses": 1347,
     "win_rate_pct": 33.0184,
     "final_return_pct": -89.7624,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 89.7624,
     "cd_value": 1.0481
   },
@@ -4846,6 +5330,7 @@
     "losses": 1524,
     "win_rate_pct": 33.2165,
     "final_return_pct": -89.8968,
+    "max_return_pct": 3.7409,
     "max_drawdown_pct": 90.6448,
     "cd_value": 0.9452
   },
@@ -4856,6 +5341,7 @@
     "losses": 1509,
     "win_rate_pct": 34.2197,
     "final_return_pct": -90.1036,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 90.2608,
     "cd_value": 0.9638
   },
@@ -4866,6 +5352,7 @@
     "losses": 1638,
     "win_rate_pct": 34.2697,
     "final_return_pct": -90.1936,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 90.4978,
     "cd_value": 0.9318
   },
@@ -4876,6 +5363,7 @@
     "losses": 1732,
     "win_rate_pct": 34.6168,
     "final_return_pct": -90.2314,
+    "max_return_pct": 2.0501,
     "max_drawdown_pct": 90.4276,
     "cd_value": 0.9351
   },
@@ -4886,6 +5374,7 @@
     "losses": 1158,
     "win_rate_pct": 31.0304,
     "final_return_pct": -90.2497,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 90.2497,
     "cd_value": 0.9507
   },
@@ -4896,6 +5385,7 @@
     "losses": 1428,
     "win_rate_pct": 33.3955,
     "final_return_pct": -90.3551,
+    "max_return_pct": 6.53,
     "max_drawdown_pct": 91.1572,
     "cd_value": 0.8529
   },
@@ -4906,6 +5396,7 @@
     "losses": 1618,
     "win_rate_pct": 33.6069,
     "final_return_pct": -90.5314,
+    "max_return_pct": 30.119,
     "max_drawdown_pct": 92.7231,
     "cd_value": 0.689
   },
@@ -4916,6 +5407,7 @@
     "losses": 2101,
     "win_rate_pct": 35.8669,
     "final_return_pct": -90.8468,
+    "max_return_pct": 7.0459,
     "max_drawdown_pct": 91.6263,
     "cd_value": 0.7665
   },
@@ -4926,6 +5418,7 @@
     "losses": 1684,
     "win_rate_pct": 34.3726,
     "final_return_pct": -90.9449,
+    "max_return_pct": 9.1308,
     "max_drawdown_pct": 91.7546,
     "cd_value": 0.7466
   },
@@ -4936,6 +5429,7 @@
     "losses": 1476,
     "win_rate_pct": 32.4176,
     "final_return_pct": -91.2467,
+    "max_return_pct": 0.3783,
     "max_drawdown_pct": 91.4271,
     "cd_value": 0.7504
   },
@@ -4946,6 +5440,7 @@
     "losses": 1586,
     "win_rate_pct": 34.8398,
     "final_return_pct": -91.346,
+    "max_return_pct": 11.712,
     "max_drawdown_pct": 92.6168,
     "cd_value": 0.6389
   },
@@ -4956,6 +5451,7 @@
     "losses": 1723,
     "win_rate_pct": 35.2256,
     "final_return_pct": -91.376,
+    "max_return_pct": 3.4602,
     "max_drawdown_pct": 92.0282,
     "cd_value": 0.6875
   },
@@ -4966,6 +5462,7 @@
     "losses": 1596,
     "win_rate_pct": 33.7484,
     "final_return_pct": -91.382,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 91.3933,
     "cd_value": 0.7417
   },
@@ -4976,6 +5473,7 @@
     "losses": 1146,
     "win_rate_pct": 31.5412,
     "final_return_pct": -91.3874,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 91.3912,
     "cd_value": 0.7414
   },
@@ -4986,6 +5484,7 @@
     "losses": 1239,
     "win_rate_pct": 32.7362,
     "final_return_pct": -91.4971,
+    "max_return_pct": 4.8398,
     "max_drawdown_pct": 91.8896,
     "cd_value": 0.6896
   },
@@ -4996,6 +5495,7 @@
     "losses": 2015,
     "win_rate_pct": 34.7685,
     "final_return_pct": -91.5526,
+    "max_return_pct": 1.8549,
     "max_drawdown_pct": 91.9168,
     "cd_value": 0.6828
   },
@@ -5006,6 +5506,7 @@
     "losses": 1510,
     "win_rate_pct": 33.6847,
     "final_return_pct": -91.6152,
+    "max_return_pct": 2.6835,
     "max_drawdown_pct": 91.9242,
     "cd_value": 0.6771
   },
@@ -5016,6 +5517,7 @@
     "losses": 1775,
     "win_rate_pct": 34.8624,
     "final_return_pct": -91.6499,
+    "max_return_pct": 9.4541,
     "max_drawdown_pct": 92.6461,
     "cd_value": 0.6141
   },
@@ -5026,6 +5528,7 @@
     "losses": 1892,
     "win_rate_pct": 35.2277,
     "final_return_pct": -91.6769,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 91.8832,
     "cd_value": 0.6756
   },
@@ -5036,6 +5539,7 @@
     "losses": 1408,
     "win_rate_pct": 32.9843,
     "final_return_pct": -91.6787,
+    "max_return_pct": 3.1031,
     "max_drawdown_pct": 92.0158,
     "cd_value": 0.6644
   },
@@ -5046,6 +5550,7 @@
     "losses": 1322,
     "win_rate_pct": 33.1648,
     "final_return_pct": -91.6929,
+    "max_return_pct": 1.669,
     "max_drawdown_pct": 91.8292,
     "cd_value": 0.6788
   },
@@ -5056,6 +5561,7 @@
     "losses": 1618,
     "win_rate_pct": 33.4977,
     "final_return_pct": -91.7595,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 91.8291,
     "cd_value": 0.6733
   },
@@ -5066,6 +5572,7 @@
     "losses": 1637,
     "win_rate_pct": 33.6979,
     "final_return_pct": -91.8338,
+    "max_return_pct": 16.0722,
     "max_drawdown_pct": 92.9645,
     "cd_value": 0.5745
   },
@@ -5076,6 +5583,7 @@
     "losses": 1281,
     "win_rate_pct": 31.7528,
     "final_return_pct": -91.8402,
+    "max_return_pct": 9.964,
     "max_drawdown_pct": 93.1183,
     "cd_value": 0.5615
   },
@@ -5086,6 +5594,7 @@
     "losses": 1416,
     "win_rate_pct": 31.6602,
     "final_return_pct": -92.0212,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 92.1743,
     "cd_value": 0.6244
   },
@@ -5096,6 +5605,7 @@
     "losses": 1192,
     "win_rate_pct": 31.0584,
     "final_return_pct": -92.1422,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 92.4378,
     "cd_value": 0.5942
   },
@@ -5106,6 +5616,7 @@
     "losses": 1642,
     "win_rate_pct": 33.7101,
     "final_return_pct": -92.1924,
+    "max_return_pct": 2.4419,
     "max_drawdown_pct": 92.5179,
     "cd_value": 0.5842
   },
@@ -5116,6 +5627,7 @@
     "losses": 1950,
     "win_rate_pct": 35.259,
     "final_return_pct": -92.2175,
+    "max_return_pct": 1.0904,
     "max_drawdown_pct": 92.4554,
     "cd_value": 0.5872
   },
@@ -5126,6 +5638,7 @@
     "losses": 2028,
     "win_rate_pct": 34.3477,
     "final_return_pct": -92.2262,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 92.2262,
     "cd_value": 0.6043
   },
@@ -5136,6 +5649,7 @@
     "losses": 1588,
     "win_rate_pct": 34.4614,
     "final_return_pct": -92.2966,
+    "max_return_pct": 31.8333,
     "max_drawdown_pct": 94.2809,
     "cd_value": 0.4406
   },
@@ -5146,6 +5660,7 @@
     "losses": 1912,
     "win_rate_pct": 34.7217,
     "final_return_pct": -92.4212,
+    "max_return_pct": 3.4951,
     "max_drawdown_pct": 93.1209,
     "cd_value": 0.5213
   },
@@ -5156,6 +5671,7 @@
     "losses": 1448,
     "win_rate_pct": 31.6981,
     "final_return_pct": -93.016,
+    "max_return_pct": 1.7221,
     "max_drawdown_pct": 93.1793,
     "cd_value": 0.4764
   },
@@ -5166,6 +5682,7 @@
     "losses": 1900,
     "win_rate_pct": 35.0427,
     "final_return_pct": -93.0234,
+    "max_return_pct": 8.2276,
     "max_drawdown_pct": 93.7432,
     "cd_value": 0.4365
   },
@@ -5176,6 +5693,7 @@
     "losses": 1689,
     "win_rate_pct": 34.152,
     "final_return_pct": -93.0833,
+    "max_return_pct": 2.975,
     "max_drawdown_pct": 93.4011,
     "cd_value": 0.4564
   },
@@ -5186,6 +5704,7 @@
     "losses": 1846,
     "win_rate_pct": 34.539,
     "final_return_pct": -93.2469,
+    "max_return_pct": 17.9616,
     "max_drawdown_pct": 94.3747,
     "cd_value": 0.3799
   },
@@ -5196,6 +5715,7 @@
     "losses": 1415,
     "win_rate_pct": 32.6832,
     "final_return_pct": -93.2979,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 93.2979,
     "cd_value": 0.4492
   },
@@ -5206,6 +5726,7 @@
     "losses": 1176,
     "win_rate_pct": 30.5785,
     "final_return_pct": -93.3149,
+    "max_return_pct": 1.0049,
     "max_drawdown_pct": 93.3814,
     "cd_value": 0.4425
   },
@@ -5216,6 +5737,7 @@
     "losses": 1926,
     "win_rate_pct": 32.1114,
     "final_return_pct": -93.3625,
+    "max_return_pct": 4.1492,
     "max_drawdown_pct": 93.6353,
     "cd_value": 0.4225
   },
@@ -5226,6 +5748,7 @@
     "losses": 1384,
     "win_rate_pct": 32.7175,
     "final_return_pct": -93.3867,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 93.4076,
     "cd_value": 0.436
   },
@@ -5236,6 +5759,7 @@
     "losses": 2170,
     "win_rate_pct": 34.4807,
     "final_return_pct": -93.4783,
+    "max_return_pct": 1.414,
     "max_drawdown_pct": 93.6207,
     "cd_value": 0.416
   },
@@ -5246,6 +5770,7 @@
     "losses": 1508,
     "win_rate_pct": 33.5975,
     "final_return_pct": -93.5091,
+    "max_return_pct": 3.8314,
     "max_drawdown_pct": 93.7486,
     "cd_value": 0.4058
   },
@@ -5256,6 +5781,7 @@
     "losses": 2138,
     "win_rate_pct": 35.2121,
     "final_return_pct": -93.6423,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 93.6832,
     "cd_value": 0.4016
   },
@@ -5266,6 +5792,7 @@
     "losses": 1916,
     "win_rate_pct": 34.8521,
     "final_return_pct": -93.6493,
+    "max_return_pct": 5.773,
     "max_drawdown_pct": 94.0544,
     "cd_value": 0.3776
   },
@@ -5276,6 +5803,7 @@
     "losses": 1655,
     "win_rate_pct": 33.1313,
     "final_return_pct": -93.9495,
+    "max_return_pct": 17.498,
     "max_drawdown_pct": 94.8954,
     "cd_value": 0.3089
   },
@@ -5286,6 +5814,7 @@
     "losses": 1703,
     "win_rate_pct": 32.367,
     "final_return_pct": -94.0105,
+    "max_return_pct": 7.9088,
     "max_drawdown_pct": 94.5427,
     "cd_value": 0.3269
   },
@@ -5296,6 +5825,7 @@
     "losses": 2060,
     "win_rate_pct": 35.4434,
     "final_return_pct": -94.4836,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 94.5243,
     "cd_value": 0.3021
   },
@@ -5306,6 +5836,7 @@
     "losses": 1959,
     "win_rate_pct": 33.7504,
     "final_return_pct": -94.4846,
+    "max_return_pct": 1.0351,
     "max_drawdown_pct": 94.5964,
     "cd_value": 0.298
   },
@@ -5316,6 +5847,7 @@
     "losses": 2060,
     "win_rate_pct": 34.1432,
     "final_return_pct": -94.4961,
+    "max_return_pct": 4.3477,
     "max_drawdown_pct": 95.079,
     "cd_value": 0.2708
   },
@@ -5326,6 +5858,7 @@
     "losses": 1844,
     "win_rate_pct": 34.3071,
     "final_return_pct": -94.5972,
+    "max_return_pct": 0.3166,
     "max_drawdown_pct": 94.6143,
     "cd_value": 0.291
   },
@@ -5336,6 +5869,7 @@
     "losses": 2321,
     "win_rate_pct": 35.1857,
     "final_return_pct": -94.6324,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 94.6324,
     "cd_value": 0.2881
   },
@@ -5346,6 +5880,7 @@
     "losses": 1867,
     "win_rate_pct": 34.0049,
     "final_return_pct": -94.9014,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 94.9014,
     "cd_value": 0.26
   },
@@ -5356,6 +5891,7 @@
     "losses": 2105,
     "win_rate_pct": 34.3828,
     "final_return_pct": -94.9343,
+    "max_return_pct": 4.4164,
     "max_drawdown_pct": 95.2662,
     "cd_value": 0.2398
   },
@@ -5366,6 +5902,7 @@
     "losses": 1828,
     "win_rate_pct": 33.4789,
     "final_return_pct": -95.1173,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 95.1609,
     "cd_value": 0.2363
   },
@@ -5376,6 +5913,7 @@
     "losses": 1750,
     "win_rate_pct": 33.3333,
     "final_return_pct": -95.137,
+    "max_return_pct": 13.1337,
     "max_drawdown_pct": 95.7482,
     "cd_value": 0.2068
   },
@@ -5386,6 +5924,7 @@
     "losses": 2134,
     "win_rate_pct": 33.9319,
     "final_return_pct": -95.1516,
+    "max_return_pct": 4.1811,
     "max_drawdown_pct": 95.5429,
     "cd_value": 0.2161
   },
@@ -5396,6 +5935,7 @@
     "losses": 1960,
     "win_rate_pct": 33.3333,
     "final_return_pct": -95.3441,
+    "max_return_pct": 2.6097,
     "max_drawdown_pct": 95.6271,
     "cd_value": 0.2036
   },
@@ -5406,6 +5946,7 @@
     "losses": 2196,
     "win_rate_pct": 34.2908,
     "final_return_pct": -95.356,
+    "max_return_pct": 0.7695,
     "max_drawdown_pct": 95.585,
     "cd_value": 0.205
   },
@@ -5416,6 +5957,7 @@
     "losses": 1766,
     "win_rate_pct": 33.4589,
     "final_return_pct": -95.5318,
+    "max_return_pct": 0.2531,
     "max_drawdown_pct": 95.614,
     "cd_value": 0.196
   },
@@ -5426,6 +5968,7 @@
     "losses": 2205,
     "win_rate_pct": 33.5443,
     "final_return_pct": -95.5698,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 95.7665,
     "cd_value": 0.1876
   },
@@ -5436,6 +5979,7 @@
     "losses": 1190,
     "win_rate_pct": 30.2462,
     "final_return_pct": -95.6426,
+    "max_return_pct": 2.2379,
     "max_drawdown_pct": 95.738,
     "cd_value": 0.1857
   },
@@ -5446,6 +5990,7 @@
     "losses": 2243,
     "win_rate_pct": 35.0043,
     "final_return_pct": -95.7482,
+    "max_return_pct": 0.5725,
     "max_drawdown_pct": 95.9324,
     "cd_value": 0.1729
   },
@@ -5456,6 +6001,7 @@
     "losses": 2249,
     "win_rate_pct": 33.6382,
     "final_return_pct": -96.0056,
+    "max_return_pct": 10.3978,
     "max_drawdown_pct": 96.4905,
     "cd_value": 0.1402
   },
@@ -5466,6 +6012,7 @@
     "losses": 2072,
     "win_rate_pct": 33.8653,
     "final_return_pct": -96.0158,
+    "max_return_pct": 1.3158,
     "max_drawdown_pct": 96.099,
     "cd_value": 0.1554
   },
@@ -5476,6 +6023,7 @@
     "losses": 2038,
     "win_rate_pct": 33.8526,
     "final_return_pct": -96.0198,
+    "max_return_pct": 0.8361,
     "max_drawdown_pct": 96.0937,
     "cd_value": 0.1555
   },
@@ -5486,6 +6034,7 @@
     "losses": 2023,
     "win_rate_pct": 33.8673,
     "final_return_pct": -96.0846,
+    "max_return_pct": 13.9883,
     "max_drawdown_pct": 96.5856,
     "cd_value": 0.1337
   },
@@ -5496,6 +6045,7 @@
     "losses": 2133,
     "win_rate_pct": 33.2603,
     "final_return_pct": -96.1025,
+    "max_return_pct": 1.2077,
     "max_drawdown_pct": 96.2182,
     "cd_value": 0.1474
   },
@@ -5506,6 +6056,7 @@
     "losses": 2144,
     "win_rate_pct": 33.8067,
     "final_return_pct": -96.1167,
+    "max_return_pct": 2.5735,
     "max_drawdown_pct": 96.2525,
     "cd_value": 0.1455
   },
@@ -5516,6 +6067,7 @@
     "losses": 1784,
     "win_rate_pct": 32.1673,
     "final_return_pct": -96.1434,
+    "max_return_pct": 3.4473,
     "max_drawdown_pct": 96.3846,
     "cd_value": 0.1394
   },
@@ -5526,6 +6078,7 @@
     "losses": 2150,
     "win_rate_pct": 33.6624,
     "final_return_pct": -96.2876,
+    "max_return_pct": 26.7011,
     "max_drawdown_pct": 97.1408,
     "cd_value": 0.1061
   },
@@ -5536,6 +6089,7 @@
     "losses": 2446,
     "win_rate_pct": 35.291,
     "final_return_pct": -96.3562,
+    "max_return_pct": 0.743,
     "max_drawdown_pct": 96.4216,
     "cd_value": 0.1304
   },
@@ -5546,6 +6100,7 @@
     "losses": 2155,
     "win_rate_pct": 32.9913,
     "final_return_pct": -96.5748,
+    "max_return_pct": 9.2045,
     "max_drawdown_pct": 97.2306,
     "cd_value": 0.0949
   },
@@ -5556,6 +6111,7 @@
     "losses": 2232,
     "win_rate_pct": 34.3915,
     "final_return_pct": -96.6257,
+    "max_return_pct": 11.3802,
     "max_drawdown_pct": 97.1514,
     "cd_value": 0.0961
   },
@@ -5566,6 +6122,7 @@
     "losses": 2339,
     "win_rate_pct": 34.4634,
     "final_return_pct": -96.6395,
+    "max_return_pct": 3.5954,
     "max_drawdown_pct": 96.9883,
     "cd_value": 0.1012
   },
@@ -5576,6 +6133,7 @@
     "losses": 2149,
     "win_rate_pct": 33.5087,
     "final_return_pct": -96.8614,
+    "max_return_pct": 0.0732,
     "max_drawdown_pct": 96.9407,
     "cd_value": 0.096
   },
@@ -5586,6 +6144,7 @@
     "losses": 2277,
     "win_rate_pct": 33.9617,
     "final_return_pct": -96.9339,
+    "max_return_pct": 3.3165,
     "max_drawdown_pct": 97.1421,
     "cd_value": 0.0876
   },
@@ -5596,6 +6155,7 @@
     "losses": 2210,
     "win_rate_pct": 33.5338,
     "final_return_pct": -97.0408,
+    "max_return_pct": 3.8652,
     "max_drawdown_pct": 97.1888,
     "cd_value": 0.0832
   },
@@ -5606,6 +6166,7 @@
     "losses": 2335,
     "win_rate_pct": 34.6305,
     "final_return_pct": -97.1304,
+    "max_return_pct": 0.3338,
     "max_drawdown_pct": 97.1561,
     "cd_value": 0.0816
   },
@@ -5616,6 +6177,7 @@
     "losses": 2178,
     "win_rate_pct": 34.358,
     "final_return_pct": -97.187,
+    "max_return_pct": 11.5179,
     "max_drawdown_pct": 97.5364,
     "cd_value": 0.0693
   },
@@ -5626,6 +6188,7 @@
     "losses": 2123,
     "win_rate_pct": 33.677,
     "final_return_pct": -97.2402,
+    "max_return_pct": 3.5192,
     "max_drawdown_pct": 97.3579,
     "cd_value": 0.0729
   },
@@ -5636,6 +6199,7 @@
     "losses": 2209,
     "win_rate_pct": 33.1821,
     "final_return_pct": -97.3258,
+    "max_return_pct": 0.4357,
     "max_drawdown_pct": 97.3374,
     "cd_value": 0.0712
   },
@@ -5646,6 +6210,7 @@
     "losses": 2115,
     "win_rate_pct": 32.8145,
     "final_return_pct": -97.3812,
+    "max_return_pct": 3.3285,
     "max_drawdown_pct": 97.4655,
     "cd_value": 0.0664
   },
@@ -5656,6 +6221,7 @@
     "losses": 2545,
     "win_rate_pct": 34.8772,
     "final_return_pct": -97.4105,
+    "max_return_pct": 1.6642,
     "max_drawdown_pct": 97.6824,
     "cd_value": 0.06
   },
@@ -5666,6 +6232,7 @@
     "losses": 2423,
     "win_rate_pct": 33.3975,
     "final_return_pct": -97.4253,
+    "max_return_pct": 24.2943,
     "max_drawdown_pct": 97.9697,
     "cd_value": 0.0523
   },
@@ -5676,6 +6243,7 @@
     "losses": 2269,
     "win_rate_pct": 34.289,
     "final_return_pct": -97.4792,
+    "max_return_pct": 17.0635,
     "max_drawdown_pct": 97.9254,
     "cd_value": 0.0523
   },
@@ -5686,6 +6254,7 @@
     "losses": 1715,
     "win_rate_pct": 32.3738,
     "final_return_pct": -97.4841,
+    "max_return_pct": 12.8177,
     "max_drawdown_pct": 97.8772,
     "cd_value": 0.0534
   },
@@ -5696,6 +6265,7 @@
     "losses": 2177,
     "win_rate_pct": 33.628,
     "final_return_pct": -97.4981,
+    "max_return_pct": 0.371,
     "max_drawdown_pct": 97.6363,
     "cd_value": 0.0591
   },
@@ -5706,6 +6276,7 @@
     "losses": 2460,
     "win_rate_pct": 33.2066,
     "final_return_pct": -97.5211,
+    "max_return_pct": 0.0134,
     "max_drawdown_pct": 97.5225,
     "cd_value": 0.0614
   },
@@ -5716,6 +6287,7 @@
     "losses": 2188,
     "win_rate_pct": 33.0067,
     "final_return_pct": -97.5755,
+    "max_return_pct": 4.918,
     "max_drawdown_pct": 97.6891,
     "cd_value": 0.056
   },
@@ -5726,6 +6298,7 @@
     "losses": 2534,
     "win_rate_pct": 33.9588,
     "final_return_pct": -97.5861,
+    "max_return_pct": 0.1353,
     "max_drawdown_pct": 97.6758,
     "cd_value": 0.0561
   },
@@ -5736,6 +6309,7 @@
     "losses": 2348,
     "win_rate_pct": 34.3584,
     "final_return_pct": -97.5905,
+    "max_return_pct": 1.7745,
     "max_drawdown_pct": 97.6325,
     "cd_value": 0.057
   },
@@ -5746,6 +6320,7 @@
     "losses": 2466,
     "win_rate_pct": 34.0289,
     "final_return_pct": -97.8251,
+    "max_return_pct": 1.7465,
     "max_drawdown_pct": 98.5035,
     "cd_value": 0.0325
   },
@@ -5756,6 +6331,7 @@
     "losses": 2236,
     "win_rate_pct": 32.6911,
     "final_return_pct": -97.8297,
+    "max_return_pct": 0.0952,
     "max_drawdown_pct": 97.8446,
     "cd_value": 0.0468
   },
@@ -5766,6 +6342,7 @@
     "losses": 2253,
     "win_rate_pct": 33.5006,
     "final_return_pct": -97.9387,
+    "max_return_pct": 10.5327,
     "max_drawdown_pct": 98.1483,
     "cd_value": 0.0382
   },
@@ -5776,6 +6353,7 @@
     "losses": 2458,
     "win_rate_pct": 33.5855,
     "final_return_pct": -98.0705,
+    "max_return_pct": 7.263,
     "max_drawdown_pct": 98.2227,
     "cd_value": 0.0343
   },
@@ -5786,6 +6364,7 @@
     "losses": 2852,
     "win_rate_pct": 34.482,
     "final_return_pct": -98.1906,
+    "max_return_pct": 2.0057,
     "max_drawdown_pct": 98.2546,
     "cd_value": 0.0316
   },
@@ -5796,6 +6375,7 @@
     "losses": 2507,
     "win_rate_pct": 33.4837,
     "final_return_pct": -98.2298,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 98.242,
     "cd_value": 0.0311
   },
@@ -5806,6 +6386,7 @@
     "losses": 2504,
     "win_rate_pct": 33.7741,
     "final_return_pct": -98.2447,
+    "max_return_pct": 4.304,
     "max_drawdown_pct": 98.3509,
     "cd_value": 0.0289
   },
@@ -5816,6 +6397,7 @@
     "losses": 2618,
     "win_rate_pct": 34.0222,
     "final_return_pct": -98.3065,
+    "max_return_pct": 10.4367,
     "max_drawdown_pct": 98.4803,
     "cd_value": 0.0257
   },
@@ -5826,6 +6408,7 @@
     "losses": 2750,
     "win_rate_pct": 33.3656,
     "final_return_pct": -98.5118,
+    "max_return_pct": 2.2028,
     "max_drawdown_pct": 98.5704,
     "cd_value": 0.0213
   },
@@ -5836,6 +6419,7 @@
     "losses": 2440,
     "win_rate_pct": 33.1324,
     "final_return_pct": -98.5145,
+    "max_return_pct": 2.4875,
     "max_drawdown_pct": 98.559,
     "cd_value": 0.0214
   },
@@ -5846,6 +6430,7 @@
     "losses": 2071,
     "win_rate_pct": 31.7852,
     "final_return_pct": -98.6719,
+    "max_return_pct": 1.2963,
     "max_drawdown_pct": 98.6958,
     "cd_value": 0.0173
   },
@@ -5856,6 +6441,7 @@
     "losses": 2747,
     "win_rate_pct": 32.622,
     "final_return_pct": -98.8462,
+    "max_return_pct": 2.7549,
     "max_drawdown_pct": 98.8971,
     "cd_value": 0.0127
   },
@@ -5866,6 +6452,7 @@
     "losses": 2710,
     "win_rate_pct": 33.3333,
     "final_return_pct": -98.8927,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 98.8994,
     "cd_value": 0.0122
   },
@@ -5876,6 +6463,7 @@
     "losses": 2916,
     "win_rate_pct": 34.6774,
     "final_return_pct": -98.9145,
+    "max_return_pct": 0.2552,
     "max_drawdown_pct": 98.9173,
     "cd_value": 0.0118
   },
@@ -5886,6 +6474,7 @@
     "losses": 2981,
     "win_rate_pct": 33.8878,
     "final_return_pct": -98.9782,
+    "max_return_pct": 0.4756,
     "max_drawdown_pct": 99.0125,
     "cd_value": 0.0101
   },
@@ -5896,6 +6485,7 @@
     "losses": 2820,
     "win_rate_pct": 34.1121,
     "final_return_pct": -98.9995,
+    "max_return_pct": 2.5706,
     "max_drawdown_pct": 99.0407,
     "cd_value": 0.0096
   },
@@ -5906,6 +6496,7 @@
     "losses": 2692,
     "win_rate_pct": 33.2176,
     "final_return_pct": -99.0191,
+    "max_return_pct": 0.1666,
     "max_drawdown_pct": 99.0386,
     "cd_value": 0.0094
   },
@@ -5916,6 +6507,7 @@
     "losses": 2539,
     "win_rate_pct": 32.1304,
     "final_return_pct": -99.0666,
+    "max_return_pct": 0.2809,
     "max_drawdown_pct": 99.0782,
     "cd_value": 0.0086
   },
@@ -5926,6 +6518,7 @@
     "losses": 2583,
     "win_rate_pct": 32.4176,
     "final_return_pct": -99.0671,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 99.083,
     "cd_value": 0.0086
   },
@@ -5936,6 +6529,7 @@
     "losses": 3069,
     "win_rate_pct": 32.7711,
     "final_return_pct": -99.1788,
+    "max_return_pct": 3.2835,
     "max_drawdown_pct": 99.2065,
     "cd_value": 0.0065
   },
@@ -5946,6 +6540,7 @@
     "losses": 2633,
     "win_rate_pct": 32.5391,
     "final_return_pct": -99.2219,
+    "max_return_pct": 13.2285,
     "max_drawdown_pct": 99.3461,
     "cd_value": 0.0051
   },
@@ -5956,6 +6551,7 @@
     "losses": 3510,
     "win_rate_pct": 33.3207,
     "final_return_pct": -99.6126,
+    "max_return_pct": 0.2257,
     "max_drawdown_pct": 99.6194,
     "cd_value": 0.0015
   },
@@ -5966,6 +6562,7 @@
     "losses": 4017,
     "win_rate_pct": 32.3168,
     "final_return_pct": -99.7161,
+    "max_return_pct": 0.0,
     "max_drawdown_pct": 99.7198,
     "cd_value": 0.0008
   }

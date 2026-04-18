@@ -1,1 +1,1 @@
-strategy=4V2_S01_short_top_strict_gateside=shortdescription=기존 숏 1위 강화형symbols_tested=597trades=267497win_rate_pct=31.6658final_return_pct=-100.0max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=reject
+strategy=4V2_S01_short_top_strict_gateside=shortdescription=기존 숏 1위 강화형symbols_tested=597trades=267497win_rate_pct=31.6658final_return_pct=-100.0max_return_pct=427.9627max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin
