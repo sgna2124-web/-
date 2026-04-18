@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_S10_volatility_expansion_short",
+  "side": "short",
+  "description": "변동성 확장 하락 가속",
+  "symbols_tested": 597,
+  "trades": 25511,
+  "wins": 7534,
+  "losses": 17977,
+  "win_rate_pct": 29.5324,
+  "final_return_pct": -100.0,
+  "max_return_pct": 262.8143,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value_vs_baseline": -391.9606,
+  "verdict": "ruin"
+}

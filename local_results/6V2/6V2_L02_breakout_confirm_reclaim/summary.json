@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_L02_breakout_confirm_reclaim",
+  "side": "long",
+  "description": "급락 회수 후 신호봉 고가 돌파 확인",
+  "symbols_tested": 597,
+  "trades": 1659,
+  "wins": 545,
+  "losses": 1114,
+  "win_rate_pct": 32.8511,
+  "final_return_pct": -96.6327,
+  "max_return_pct": 50.7413,
+  "max_drawdown_pct": 98.9991,
+  "cd_value": 0.0337,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.7769,
+  "verdict": "mdd_fail"
+}

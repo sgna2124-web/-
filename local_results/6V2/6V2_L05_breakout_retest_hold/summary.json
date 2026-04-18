@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_L05_breakout_retest_hold",
+  "side": "long",
+  "description": "박스 상단 돌파 후 재지지 확인",
+  "symbols_tested": 597,
+  "trades": 623475,
+  "wins": 190034,
+  "losses": 433441,
+  "win_rate_pct": 30.4798,
+  "final_return_pct": -100.0,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.8106,
+  "verdict": "ruin"
+}

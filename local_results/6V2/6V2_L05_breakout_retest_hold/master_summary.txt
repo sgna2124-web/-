@@ -1,0 +1,1 @@
+strategy=6V2_L05_breakout_retest_holdside=longdescription=박스 상단 돌파 후 재지지 확인symbols_tested=597trades=623475win_rate_pct=30.4798final_return_pct=-100.0max_return_pct=0.0max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=108.8106delta_cd_value_vs_baseline=-108.8106verdict=ruin

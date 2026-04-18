@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_S08_weak_reclaim_trap",
+  "side": "short",
+  "description": "약한 상방 복귀 실패 트랩",
+  "symbols_tested": 597,
+  "trades": 1157969,
+  "wins": 391250,
+  "losses": 766719,
+  "win_rate_pct": 33.7876,
+  "final_return_pct": -100.0,
+  "max_return_pct": 0.9944,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value_vs_baseline": -391.9606,
+  "verdict": "ruin"
+}

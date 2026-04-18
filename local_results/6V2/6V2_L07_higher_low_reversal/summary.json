@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_L07_higher_low_reversal",
+  "side": "long",
+  "description": "고점은 약하지만 저점 상승 전환",
+  "symbols_tested": 597,
+  "trades": 1196286,
+  "wins": 399998,
+  "losses": 796288,
+  "win_rate_pct": 33.4367,
+  "final_return_pct": -100.0,
+  "max_return_pct": 4.5323,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.8106,
+  "verdict": "ruin"
+}

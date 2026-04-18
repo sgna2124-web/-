@@ -1,0 +1,1 @@
+strategy=6V2_L10_vol_reclaim_thrustside=longdescription=거래량 급증 동반 하단 회복 추격symbols_tested=597trades=4win_rate_pct=0.0final_return_pct=-14.123max_return_pct=0.0max_drawdown_pct=14.123cd_value=73.7487baseline_cd_value=108.8106delta_cd_value_vs_baseline=-35.0619verdict=mdd_fail

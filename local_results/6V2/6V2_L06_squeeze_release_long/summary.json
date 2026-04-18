@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_L06_squeeze_release_long",
+  "side": "long",
+  "description": "압축 후 상방 확장",
+  "symbols_tested": 597,
+  "trades": 723115,
+  "wins": 221823,
+  "losses": 501292,
+  "win_rate_pct": 30.676,
+  "final_return_pct": -100.0,
+  "max_return_pct": 2.8554,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.8106,
+  "verdict": "ruin"
+}

@@ -1,0 +1,1 @@
+strategy=6V2_S06_upthrust_exhaustionside=shortdescription=장대 윗꼬리 과열 후 소진symbols_tested=597trades=7759win_rate_pct=34.5405final_return_pct=-100.0max_return_pct=596.77max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin

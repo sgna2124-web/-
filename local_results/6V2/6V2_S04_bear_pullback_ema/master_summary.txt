@@ -1,0 +1,1 @@
+strategy=6V2_S04_bear_pullback_emaside=shortdescription=하락 추세 EMA20 반등 후 재하락symbols_tested=597trades=859458win_rate_pct=34.3128final_return_pct=-100.0max_return_pct=1.7489max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin

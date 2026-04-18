@@ -1,0 +1,1 @@
+strategy=6V2_S02_failed_breakout_shortside=shortdescription=상방 돌파 실패 후 재하락symbols_tested=597trades=178942win_rate_pct=34.9795final_return_pct=-100.0max_return_pct=1.493max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin
