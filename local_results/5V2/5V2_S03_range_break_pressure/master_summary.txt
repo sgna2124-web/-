@@ -1,0 +1,1 @@
+strategy=5V2_S03_range_break_pressureside=shortdescription=신규 숏: 압축 후 하단 이탈 + 추세 압력symbols_tested=597trades=161099win_rate_pct=30.9704final_return_pct=-100.0max_return_pct=0.0max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin

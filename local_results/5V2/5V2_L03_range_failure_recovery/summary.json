@@ -1,0 +1,17 @@
+{
+  "strategy_name": "5V2_L03_range_failure_recovery",
+  "side": "long",
+  "description": "L01 변형: 장기 하단 이탈 실패 후 범위 복귀",
+  "symbols_tested": 597,
+  "trades": 64785,
+  "wins": 21996,
+  "losses": 42789,
+  "win_rate_pct": 33.9523,
+  "final_return_pct": -100.0,
+  "max_return_pct": 0.8182,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.8106,
+  "verdict": "ruin"
+}

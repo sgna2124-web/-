@@ -1,0 +1,10 @@
+{
+  "symbols": 597,
+  "strategies": 6,
+  "workers": 11,
+  "wall_clock_sec": 1451.3942,
+  "parallel_phase_sec": 1451.0701,
+  "sum_load_sec": 518.4971,
+  "sum_feature_sec": 167.7403,
+  "sum_backtest_sec": 15063.6252
+}

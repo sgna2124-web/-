@@ -1,0 +1,1 @@
+strategy=5V2_L01_reclaim_uptrend_gateside=longdescription=L01 정제형: 상위 추세 또는 중립 회복 구간에서의 급락 회수symbols_tested=597trades=105win_rate_pct=36.1905final_return_pct=-27.9897max_return_pct=0.0max_drawdown_pct=43.5431cd_value=40.6548baseline_cd_value=108.8106delta_cd_value_vs_baseline=-68.1558verdict=mdd_fail
