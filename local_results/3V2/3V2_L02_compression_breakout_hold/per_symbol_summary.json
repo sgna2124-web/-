@@ -1,0 +1,4922 @@
+[
+  {
+    "symbol": "0G/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.400974,
+    "net_return_pct_on_initial": 0.400974,
+    "avg_r_multiple": 0.949477
+  },
+  {
+    "symbol": "1000000BOB/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.158011,
+    "net_return_pct_on_initial": -0.158011,
+    "avg_r_multiple": -0.131396
+  },
+  {
+    "symbol": "1000000MOG/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.086272,
+    "net_return_pct_on_initial": -0.086272,
+    "avg_r_multiple": 0.035538
+  },
+  {
+    "symbol": "1000BONK/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.136239,
+    "net_return_pct_on_initial": -0.136239,
+    "avg_r_multiple": -0.154737
+  },
+  {
+    "symbol": "1000CAT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.015122,
+    "net_return_pct_on_initial": -0.015122,
+    "avg_r_multiple": -0.042982
+  },
+  {
+    "symbol": "1000CHEEMS/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.191521,
+    "net_return_pct_on_initial": -0.191521,
+    "avg_r_multiple": -0.500242
+  },
+  {
+    "symbol": "1000FLOKI/USDT",
+    "trades": 7,
+    "wins": 2,
+    "losses": 5,
+    "win_rate_pct": 28.5714,
+    "net_pnl": 0.0389,
+    "net_return_pct_on_initial": 0.0389,
+    "avg_r_multiple": -0.057077
+  },
+  {
+    "symbol": "1000LUNC/USDT",
+    "trades": 7,
+    "wins": 2,
+    "losses": 5,
+    "win_rate_pct": 28.5714,
+    "net_pnl": -0.181293,
+    "net_return_pct_on_initial": -0.181293,
+    "avg_r_multiple": 0.092118
+  },
+  {
+    "symbol": "1000PEPE/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.187304,
+    "net_return_pct_on_initial": -0.187304,
+    "avg_r_multiple": -0.089473
+  },
+  {
+    "symbol": "1000RATS/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.101791,
+    "net_return_pct_on_initial": -0.101791,
+    "avg_r_multiple": -0.155195
+  },
+  {
+    "symbol": "1000SATS/USDT",
+    "trades": 13,
+    "wins": 4,
+    "losses": 9,
+    "win_rate_pct": 30.7692,
+    "net_pnl": -0.467223,
+    "net_return_pct_on_initial": -0.467223,
+    "avg_r_multiple": -0.176506
+  },
+  {
+    "symbol": "1000SHIB/USDT",
+    "trades": 10,
+    "wins": 3,
+    "losses": 7,
+    "win_rate_pct": 30.0,
+    "net_pnl": -0.164235,
+    "net_return_pct_on_initial": -0.164235,
+    "avg_r_multiple": 0.007811
+  },
+  {
+    "symbol": "1000WHY/USDT",
+    "trades": 12,
+    "wins": 1,
+    "losses": 11,
+    "win_rate_pct": 8.3333,
+    "net_pnl": -0.937175,
+    "net_return_pct_on_initial": -0.937175,
+    "avg_r_multiple": -0.493891
+  },
+  {
+    "symbol": "1000X/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.234309,
+    "net_return_pct_on_initial": -0.234309,
+    "avg_r_multiple": -0.336948
+  },
+  {
+    "symbol": "1000XEC/USDT",
+    "trades": 9,
+    "wins": 0,
+    "losses": 9,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.69864,
+    "net_return_pct_on_initial": -0.69864,
+    "avg_r_multiple": -0.453156
+  },
+  {
+    "symbol": "1INCH/USDT",
+    "trades": 9,
+    "wins": 3,
+    "losses": 6,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.074658,
+    "net_return_pct_on_initial": 0.074658,
+    "avg_r_multiple": 0.008855
+  },
+  {
+    "symbol": "1MBABYDOGE/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.030112,
+    "net_return_pct_on_initial": -0.030112,
+    "avg_r_multiple": -0.091546
+  },
+  {
+    "symbol": "2Z/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.168168,
+    "net_return_pct_on_initial": -0.168168,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "A2Z/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.025818,
+    "net_return_pct_on_initial": -0.025818,
+    "avg_r_multiple": -0.224125
+  },
+  {
+    "symbol": "AAVE/USDT",
+    "trades": 13,
+    "wins": 4,
+    "losses": 9,
+    "win_rate_pct": 30.7692,
+    "net_pnl": -0.037638,
+    "net_return_pct_on_initial": -0.037638,
+    "avg_r_multiple": 0.094243
+  },
+  {
+    "symbol": "ACE/USDT",
+    "trades": 6,
+    "wins": 0,
+    "losses": 6,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.458941,
+    "net_return_pct_on_initial": -0.458941,
+    "avg_r_multiple": -0.425058
+  },
+  {
+    "symbol": "ACH/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.079525,
+    "net_return_pct_on_initial": -0.079525,
+    "avg_r_multiple": -0.195385
+  },
+  {
+    "symbol": "ACT/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": -0.029387,
+    "net_return_pct_on_initial": -0.029387,
+    "avg_r_multiple": 0.131738
+  },
+  {
+    "symbol": "ADA/USDT",
+    "trades": 12,
+    "wins": 2,
+    "losses": 10,
+    "win_rate_pct": 16.6667,
+    "net_pnl": -0.693622,
+    "net_return_pct_on_initial": -0.693622,
+    "avg_r_multiple": -0.258177
+  },
+  {
+    "symbol": "AERGO/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.026497,
+    "net_return_pct_on_initial": 0.026497,
+    "avg_r_multiple": 0.51556
+  },
+  {
+    "symbol": "AERO/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.109067,
+    "net_return_pct_on_initial": -0.109067,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "AEVO/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.245703,
+    "net_return_pct_on_initial": -0.245703,
+    "avg_r_multiple": -0.462176
+  },
+  {
+    "symbol": "AGIX/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.011321,
+    "net_return_pct_on_initial": 0.011321,
+    "avg_r_multiple": 0.363636
+  },
+  {
+    "symbol": "AGLD/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.297451,
+    "net_return_pct_on_initial": -0.297451,
+    "avg_r_multiple": -0.007753
+  },
+  {
+    "symbol": "AGT/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.140659,
+    "net_return_pct_on_initial": -0.140659,
+    "avg_r_multiple": -0.43483
+  },
+  {
+    "symbol": "AI16Z/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.141132,
+    "net_return_pct_on_initial": -0.141132,
+    "avg_r_multiple": -0.356694
+  },
+  {
+    "symbol": "AIN/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.014859,
+    "net_return_pct_on_initial": -0.014859,
+    "avg_r_multiple": -0.032407
+  },
+  {
+    "symbol": "AIOT/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": 0.038655,
+    "net_return_pct_on_initial": 0.038655,
+    "avg_r_multiple": 0.220232
+  },
+  {
+    "symbol": "AIXBT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.182136,
+    "net_return_pct_on_initial": -0.182136,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "AKE/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.116698,
+    "net_return_pct_on_initial": -0.116698,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "AKT/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.186311,
+    "net_return_pct_on_initial": 0.186311,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "ALCH/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.120067,
+    "net_return_pct_on_initial": -0.120067,
+    "avg_r_multiple": -0.414046
+  },
+  {
+    "symbol": "ALGO/USDT",
+    "trades": 11,
+    "wins": 4,
+    "losses": 7,
+    "win_rate_pct": 36.3636,
+    "net_pnl": 0.506321,
+    "net_return_pct_on_initial": 0.506321,
+    "avg_r_multiple": 0.233979
+  },
+  {
+    "symbol": "ALICE/USDT",
+    "trades": 27,
+    "wins": 4,
+    "losses": 23,
+    "win_rate_pct": 14.8148,
+    "net_pnl": -1.053218,
+    "net_return_pct_on_initial": -1.053218,
+    "avg_r_multiple": -0.192008
+  },
+  {
+    "symbol": "ALL/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.064727,
+    "net_return_pct_on_initial": -0.064727,
+    "avg_r_multiple": -0.75327
+  },
+  {
+    "symbol": "ALPACA/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.281117,
+    "net_return_pct_on_initial": -0.281117,
+    "avg_r_multiple": -0.015095
+  },
+  {
+    "symbol": "ALPHA/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.040428,
+    "net_return_pct_on_initial": -0.040428,
+    "avg_r_multiple": 0.035384
+  },
+  {
+    "symbol": "ALPINE/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.211407,
+    "net_return_pct_on_initial": -0.211407,
+    "avg_r_multiple": -0.33931
+  },
+  {
+    "symbol": "ALT/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.146788,
+    "net_return_pct_on_initial": -0.146788,
+    "avg_r_multiple": -0.343425
+  },
+  {
+    "symbol": "AMB/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": -0.097834,
+    "net_return_pct_on_initial": -0.097834,
+    "avg_r_multiple": -0.027564
+  },
+  {
+    "symbol": "ANIME/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": -0.066698,
+    "net_return_pct_on_initial": -0.066698,
+    "avg_r_multiple": 0.380634
+  },
+  {
+    "symbol": "ANKR/USDT",
+    "trades": 13,
+    "wins": 4,
+    "losses": 9,
+    "win_rate_pct": 30.7692,
+    "net_pnl": -0.090907,
+    "net_return_pct_on_initial": -0.090907,
+    "avg_r_multiple": 0.10725
+  },
+  {
+    "symbol": "APE/USDT",
+    "trades": 7,
+    "wins": 2,
+    "losses": 5,
+    "win_rate_pct": 28.5714,
+    "net_pnl": -0.033703,
+    "net_return_pct_on_initial": -0.033703,
+    "avg_r_multiple": 0.039333
+  },
+  {
+    "symbol": "API3/USDT",
+    "trades": 16,
+    "wins": 4,
+    "losses": 12,
+    "win_rate_pct": 25.0,
+    "net_pnl": 0.795834,
+    "net_return_pct_on_initial": 0.795834,
+    "avg_r_multiple": 0.309792
+  },
+  {
+    "symbol": "APR/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.088738,
+    "net_return_pct_on_initial": -0.088738,
+    "avg_r_multiple": -0.551411
+  },
+  {
+    "symbol": "APT/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.169607,
+    "net_return_pct_on_initial": -0.169607,
+    "avg_r_multiple": -0.217778
+  },
+  {
+    "symbol": "AR/USDT",
+    "trades": 9,
+    "wins": 2,
+    "losses": 7,
+    "win_rate_pct": 22.2222,
+    "net_pnl": 0.251403,
+    "net_return_pct_on_initial": 0.251403,
+    "avg_r_multiple": 0.251723
+  },
+  {
+    "symbol": "ARB/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.151988,
+    "net_return_pct_on_initial": -0.151988,
+    "avg_r_multiple": -0.534801
+  },
+  {
+    "symbol": "ARC/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.043112,
+    "net_return_pct_on_initial": -0.043112,
+    "avg_r_multiple": -0.094249
+  },
+  {
+    "symbol": "ARIA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.127845,
+    "net_return_pct_on_initial": -0.127845,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "ARK/USDT",
+    "trades": 4,
+    "wins": 2,
+    "losses": 2,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.469907,
+    "net_return_pct_on_initial": 0.469907,
+    "avg_r_multiple": 1.032736
+  },
+  {
+    "symbol": "ARKM/USDT",
+    "trades": 7,
+    "wins": 2,
+    "losses": 5,
+    "win_rate_pct": 28.5714,
+    "net_pnl": -0.26357,
+    "net_return_pct_on_initial": -0.26357,
+    "avg_r_multiple": -0.141281
+  },
+  {
+    "symbol": "ARPA/USDT",
+    "trades": 12,
+    "wins": 5,
+    "losses": 7,
+    "win_rate_pct": 41.6667,
+    "net_pnl": -0.19315,
+    "net_return_pct_on_initial": -0.19315,
+    "avg_r_multiple": 0.161064
+  },
+  {
+    "symbol": "ASR/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.054693,
+    "net_return_pct_on_initial": -0.054693,
+    "avg_r_multiple": -0.538082
+  },
+  {
+    "symbol": "ASTR/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.280322,
+    "net_return_pct_on_initial": -0.280322,
+    "avg_r_multiple": -0.244095
+  },
+  {
+    "symbol": "AT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.027915,
+    "net_return_pct_on_initial": -0.027915,
+    "avg_r_multiple": -0.189025
+  },
+  {
+    "symbol": "ATA/USDT",
+    "trades": 18,
+    "wins": 4,
+    "losses": 14,
+    "win_rate_pct": 22.2222,
+    "net_pnl": -0.289533,
+    "net_return_pct_on_initial": -0.289533,
+    "avg_r_multiple": -0.071454
+  },
+  {
+    "symbol": "ATH/USDT",
+    "trades": 2,
+    "wins": 2,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.099127,
+    "net_return_pct_on_initial": 0.099127,
+    "avg_r_multiple": 0.343117
+  },
+  {
+    "symbol": "ATOM/USDT",
+    "trades": 19,
+    "wins": 0,
+    "losses": 19,
+    "win_rate_pct": 0.0,
+    "net_pnl": -1.402235,
+    "net_return_pct_on_initial": -1.402235,
+    "avg_r_multiple": -0.456743
+  },
+  {
+    "symbol": "AUCTION/USDT",
+    "trades": 5,
+    "wins": 0,
+    "losses": 5,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.390068,
+    "net_return_pct_on_initial": -0.390068,
+    "avg_r_multiple": -0.476469
+  },
+  {
+    "symbol": "AVA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.065334,
+    "net_return_pct_on_initial": -0.065334,
+    "avg_r_multiple": -0.459311
+  },
+  {
+    "symbol": "AVAAI/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.042997,
+    "net_return_pct_on_initial": -0.042997,
+    "avg_r_multiple": -0.199632
+  },
+  {
+    "symbol": "AVAX/USDT",
+    "trades": 13,
+    "wins": 4,
+    "losses": 9,
+    "win_rate_pct": 30.7692,
+    "net_pnl": 0.206285,
+    "net_return_pct_on_initial": 0.206285,
+    "avg_r_multiple": 0.140992
+  },
+  {
+    "symbol": "AWE/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.104976,
+    "net_return_pct_on_initial": -0.104976,
+    "avg_r_multiple": -0.637071
+  },
+  {
+    "symbol": "AXL/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": 0.108748,
+    "net_return_pct_on_initial": 0.108748,
+    "avg_r_multiple": 0.209206
+  },
+  {
+    "symbol": "AXS/USDT",
+    "trades": 9,
+    "wins": 2,
+    "losses": 7,
+    "win_rate_pct": 22.2222,
+    "net_pnl": 0.130898,
+    "net_return_pct_on_initial": 0.130898,
+    "avg_r_multiple": 0.093055
+  },
+  {
+    "symbol": "B/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.059208,
+    "net_return_pct_on_initial": -0.059208,
+    "avg_r_multiple": -0.452892
+  },
+  {
+    "symbol": "B2/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.187216,
+    "net_return_pct_on_initial": -0.187216,
+    "avg_r_multiple": -0.563196
+  },
+  {
+    "symbol": "B3/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": 0.215654,
+    "net_return_pct_on_initial": 0.215654,
+    "avg_r_multiple": 0.228589
+  },
+  {
+    "symbol": "BABY/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.067496,
+    "net_return_pct_on_initial": -0.067496,
+    "avg_r_multiple": -0.355014
+  },
+  {
+    "symbol": "BADGER/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": 0.002714,
+    "net_return_pct_on_initial": 0.002714,
+    "avg_r_multiple": 0.237216
+  },
+  {
+    "symbol": "BAL/USDT",
+    "trades": 11,
+    "wins": 1,
+    "losses": 10,
+    "win_rate_pct": 9.0909,
+    "net_pnl": -0.609784,
+    "net_return_pct_on_initial": -0.609784,
+    "avg_r_multiple": -0.228949
+  },
+  {
+    "symbol": "BAN/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.332635,
+    "net_return_pct_on_initial": -0.332635,
+    "avg_r_multiple": -0.875138
+  },
+  {
+    "symbol": "BANANA/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.129085,
+    "net_return_pct_on_initial": 0.129085,
+    "avg_r_multiple": 0.473491
+  },
+  {
+    "symbol": "BANANAS31/USDT",
+    "trades": 6,
+    "wins": 0,
+    "losses": 6,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.408493,
+    "net_return_pct_on_initial": -0.408493,
+    "avg_r_multiple": -0.424893
+  },
+  {
+    "symbol": "BAND/USDT",
+    "trades": 19,
+    "wins": 4,
+    "losses": 15,
+    "win_rate_pct": 21.0526,
+    "net_pnl": 0.323255,
+    "net_return_pct_on_initial": 0.323255,
+    "avg_r_multiple": 0.107819
+  },
+  {
+    "symbol": "BANK/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.080555,
+    "net_return_pct_on_initial": -0.080555,
+    "avg_r_multiple": -0.080697
+  },
+  {
+    "symbol": "BAT/USDT",
+    "trades": 15,
+    "wins": 4,
+    "losses": 11,
+    "win_rate_pct": 26.6667,
+    "net_pnl": 0.324032,
+    "net_return_pct_on_initial": 0.324032,
+    "avg_r_multiple": 0.110934
+  },
+  {
+    "symbol": "BB/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.110845,
+    "net_return_pct_on_initial": 0.110845,
+    "avg_r_multiple": 0.215611
+  },
+  {
+    "symbol": "BCH/USDT",
+    "trades": 23,
+    "wins": 5,
+    "losses": 18,
+    "win_rate_pct": 21.7391,
+    "net_pnl": -0.524383,
+    "net_return_pct_on_initial": -0.524383,
+    "avg_r_multiple": -0.064209
+  },
+  {
+    "symbol": "BDXN/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.365464,
+    "net_return_pct_on_initial": -0.365464,
+    "avg_r_multiple": -0.712678
+  },
+  {
+    "symbol": "BEAMX/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.062329,
+    "net_return_pct_on_initial": -0.062329,
+    "avg_r_multiple": -0.515434
+  },
+  {
+    "symbol": "BEL/USDT",
+    "trades": 13,
+    "wins": 4,
+    "losses": 9,
+    "win_rate_pct": 30.7692,
+    "net_pnl": 0.402359,
+    "net_return_pct_on_initial": 0.402359,
+    "avg_r_multiple": 0.382201
+  },
+  {
+    "symbol": "BERA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.112774,
+    "net_return_pct_on_initial": -0.112774,
+    "avg_r_multiple": -0.701758
+  },
+  {
+    "symbol": "BICO/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.207431,
+    "net_return_pct_on_initial": -0.207431,
+    "avg_r_multiple": -0.22117
+  },
+  {
+    "symbol": "BID/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.080341,
+    "net_return_pct_on_initial": -0.080341,
+    "avg_r_multiple": -0.806071
+  },
+  {
+    "symbol": "BIGTIME/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.609475,
+    "net_return_pct_on_initial": 0.609475,
+    "avg_r_multiple": 0.832134
+  },
+  {
+    "symbol": "BLESS/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.032774,
+    "net_return_pct_on_initial": -0.032774,
+    "avg_r_multiple": -0.160986
+  },
+  {
+    "symbol": "BLUR/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.273728,
+    "net_return_pct_on_initial": -0.273728,
+    "avg_r_multiple": -0.377053
+  },
+  {
+    "symbol": "BLZ/USDT",
+    "trades": 18,
+    "wins": 6,
+    "losses": 12,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.22091,
+    "net_return_pct_on_initial": 0.22091,
+    "avg_r_multiple": 0.173937
+  },
+  {
+    "symbol": "BMT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.106138,
+    "net_return_pct_on_initial": -0.106138,
+    "avg_r_multiple": -0.607737
+  },
+  {
+    "symbol": "BNB/USDT",
+    "trades": 23,
+    "wins": 8,
+    "losses": 15,
+    "win_rate_pct": 34.7826,
+    "net_pnl": -0.106903,
+    "net_return_pct_on_initial": -0.106903,
+    "avg_r_multiple": 0.059139
+  },
+  {
+    "symbol": "BNT/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.126004,
+    "net_return_pct_on_initial": 0.126004,
+    "avg_r_multiple": 0.244149
+  },
+  {
+    "symbol": "BNX/USDT",
+    "trades": 6,
+    "wins": 1,
+    "losses": 5,
+    "win_rate_pct": 16.6667,
+    "net_pnl": -0.384021,
+    "net_return_pct_on_initial": -0.384021,
+    "avg_r_multiple": -0.220045
+  },
+  {
+    "symbol": "BOME/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.25561,
+    "net_return_pct_on_initial": -0.25561,
+    "avg_r_multiple": -0.741916
+  },
+  {
+    "symbol": "BOND/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.247811,
+    "net_return_pct_on_initial": -0.247811,
+    "avg_r_multiple": -0.509134
+  },
+  {
+    "symbol": "BR/USDT",
+    "trades": 8,
+    "wins": 0,
+    "losses": 8,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.377139,
+    "net_return_pct_on_initial": -0.377139,
+    "avg_r_multiple": -0.579164
+  },
+  {
+    "symbol": "BRETT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.027904,
+    "net_return_pct_on_initial": -0.027904,
+    "avg_r_multiple": -0.105198
+  },
+  {
+    "symbol": "BROCCOLIF3B/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.121806,
+    "net_return_pct_on_initial": -0.121806,
+    "avg_r_multiple": -0.64494
+  },
+  {
+    "symbol": "BSV/USDT",
+    "trades": 4,
+    "wins": 2,
+    "losses": 2,
+    "win_rate_pct": 50.0,
+    "net_pnl": -0.06382,
+    "net_return_pct_on_initial": -0.06382,
+    "avg_r_multiple": 0.126678
+  },
+  {
+    "symbol": "BSW/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.279626,
+    "net_return_pct_on_initial": 0.279626,
+    "avg_r_multiple": 0.644053
+  },
+  {
+    "symbol": "BTC/USDT",
+    "trades": 10,
+    "wins": 2,
+    "losses": 8,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.205071,
+    "net_return_pct_on_initial": -0.205071,
+    "avg_r_multiple": 0.014073
+  },
+  {
+    "symbol": "BTCDOM/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.172483,
+    "net_return_pct_on_initial": -0.172483,
+    "avg_r_multiple": -0.198112
+  },
+  {
+    "symbol": "BULLA/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": 0.07179,
+    "net_return_pct_on_initial": 0.07179,
+    "avg_r_multiple": 0.03919
+  },
+  {
+    "symbol": "C98/USDT",
+    "trades": 19,
+    "wins": 5,
+    "losses": 14,
+    "win_rate_pct": 26.3158,
+    "net_pnl": -0.60511,
+    "net_return_pct_on_initial": -0.60511,
+    "avg_r_multiple": -0.082743
+  },
+  {
+    "symbol": "CAKE/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": 0.077684,
+    "net_return_pct_on_initial": 0.077684,
+    "avg_r_multiple": 0.135092
+  },
+  {
+    "symbol": "CARV/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.068917,
+    "net_return_pct_on_initial": -0.068917,
+    "avg_r_multiple": -0.824972
+  },
+  {
+    "symbol": "CATI/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.023789,
+    "net_return_pct_on_initial": -0.023789,
+    "avg_r_multiple": -0.114297
+  },
+  {
+    "symbol": "CELO/USDT",
+    "trades": 32,
+    "wins": 5,
+    "losses": 27,
+    "win_rate_pct": 15.625,
+    "net_pnl": -1.253797,
+    "net_return_pct_on_initial": -1.253797,
+    "avg_r_multiple": -0.208631
+  },
+  {
+    "symbol": "CELR/USDT",
+    "trades": 16,
+    "wins": 4,
+    "losses": 12,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.491599,
+    "net_return_pct_on_initial": -0.491599,
+    "avg_r_multiple": 0.025721
+  },
+  {
+    "symbol": "CETUS/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.093027,
+    "net_return_pct_on_initial": -0.093027,
+    "avg_r_multiple": -0.445414
+  },
+  {
+    "symbol": "CFX/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.258661,
+    "net_return_pct_on_initial": -0.258661,
+    "avg_r_multiple": -0.20622
+  },
+  {
+    "symbol": "CGPT/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.265527,
+    "net_return_pct_on_initial": 0.265527,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "CHESS/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.198271,
+    "net_return_pct_on_initial": -0.198271,
+    "avg_r_multiple": -0.309109
+  },
+  {
+    "symbol": "CHILLGUY/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.109306,
+    "net_return_pct_on_initial": -0.109306,
+    "avg_r_multiple": -0.286732
+  },
+  {
+    "symbol": "CHR/USDT",
+    "trades": 7,
+    "wins": 3,
+    "losses": 4,
+    "win_rate_pct": 42.8571,
+    "net_pnl": 0.006524,
+    "net_return_pct_on_initial": 0.006524,
+    "avg_r_multiple": 0.26532
+  },
+  {
+    "symbol": "CHZ/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.499062,
+    "net_return_pct_on_initial": -0.499062,
+    "avg_r_multiple": -0.274027
+  },
+  {
+    "symbol": "CKB/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.115908,
+    "net_return_pct_on_initial": -0.115908,
+    "avg_r_multiple": 0.215739
+  },
+  {
+    "symbol": "COAI/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.143096,
+    "net_return_pct_on_initial": -0.143096,
+    "avg_r_multiple": -0.8947
+  },
+  {
+    "symbol": "COMBO/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.064331,
+    "net_return_pct_on_initial": -0.064331,
+    "avg_r_multiple": -0.088016
+  },
+  {
+    "symbol": "COMP/USDT",
+    "trades": 10,
+    "wins": 0,
+    "losses": 10,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.675992,
+    "net_return_pct_on_initial": -0.675992,
+    "avg_r_multiple": -0.336786
+  },
+  {
+    "symbol": "COS/USDT",
+    "trades": 6,
+    "wins": 1,
+    "losses": 5,
+    "win_rate_pct": 16.6667,
+    "net_pnl": -0.040952,
+    "net_return_pct_on_initial": -0.040952,
+    "avg_r_multiple": -0.091992
+  },
+  {
+    "symbol": "COTI/USDT",
+    "trades": 8,
+    "wins": 1,
+    "losses": 7,
+    "win_rate_pct": 12.5,
+    "net_pnl": -0.236849,
+    "net_return_pct_on_initial": -0.236849,
+    "avg_r_multiple": -0.110452
+  },
+  {
+    "symbol": "COW/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.116499,
+    "net_return_pct_on_initial": -0.116499,
+    "avg_r_multiple": -0.26161
+  },
+  {
+    "symbol": "CROSS/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.108367,
+    "net_return_pct_on_initial": 0.108367,
+    "avg_r_multiple": 0.758942
+  },
+  {
+    "symbol": "CRV/USDT",
+    "trades": 21,
+    "wins": 2,
+    "losses": 19,
+    "win_rate_pct": 9.5238,
+    "net_pnl": -1.183429,
+    "net_return_pct_on_initial": -1.183429,
+    "avg_r_multiple": -0.25772
+  },
+  {
+    "symbol": "CTK/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.236321,
+    "net_return_pct_on_initial": -0.236321,
+    "avg_r_multiple": -0.618383
+  },
+  {
+    "symbol": "CTSI/USDT",
+    "trades": 15,
+    "wins": 2,
+    "losses": 13,
+    "win_rate_pct": 13.3333,
+    "net_pnl": -1.039724,
+    "net_return_pct_on_initial": -1.039724,
+    "avg_r_multiple": -0.30433
+  },
+  {
+    "symbol": "CYBER/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.102873,
+    "net_return_pct_on_initial": 0.102873,
+    "avg_r_multiple": 0.071426
+  },
+  {
+    "symbol": "D/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.292005,
+    "net_return_pct_on_initial": -0.292005,
+    "avg_r_multiple": -0.790882
+  },
+  {
+    "symbol": "DAM/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.052273,
+    "net_return_pct_on_initial": 0.052273,
+    "avg_r_multiple": 0.133333
+  },
+  {
+    "symbol": "DAR/USDT",
+    "trades": 9,
+    "wins": 1,
+    "losses": 8,
+    "win_rate_pct": 11.1111,
+    "net_pnl": -0.35722,
+    "net_return_pct_on_initial": -0.35722,
+    "avg_r_multiple": -0.198345
+  },
+  {
+    "symbol": "DASH/USDT",
+    "trades": 7,
+    "wins": 2,
+    "losses": 5,
+    "win_rate_pct": 28.5714,
+    "net_pnl": 0.254067,
+    "net_return_pct_on_initial": 0.254067,
+    "avg_r_multiple": 0.48166
+  },
+  {
+    "symbol": "DEEP/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.06138,
+    "net_return_pct_on_initial": -0.06138,
+    "avg_r_multiple": -0.398353
+  },
+  {
+    "symbol": "DEFI/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": 0.046928,
+    "net_return_pct_on_initial": 0.046928,
+    "avg_r_multiple": 0.116364
+  },
+  {
+    "symbol": "DEGEN/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.069539,
+    "net_return_pct_on_initial": -0.069539,
+    "avg_r_multiple": -0.067092
+  },
+  {
+    "symbol": "DEGO/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.053919,
+    "net_return_pct_on_initial": -0.053919,
+    "avg_r_multiple": -0.268563
+  },
+  {
+    "symbol": "DENT/USDT",
+    "trades": 18,
+    "wins": 4,
+    "losses": 14,
+    "win_rate_pct": 22.2222,
+    "net_pnl": -0.611452,
+    "net_return_pct_on_initial": -0.611452,
+    "avg_r_multiple": -0.263918
+  },
+  {
+    "symbol": "DEXE/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.148595,
+    "net_return_pct_on_initial": -0.148595,
+    "avg_r_multiple": -0.275777
+  },
+  {
+    "symbol": "DF/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.110761,
+    "net_return_pct_on_initial": -0.110761,
+    "avg_r_multiple": -0.159513
+  },
+  {
+    "symbol": "DGB/USDT",
+    "trades": 16,
+    "wins": 3,
+    "losses": 13,
+    "win_rate_pct": 18.75,
+    "net_pnl": -0.415112,
+    "net_return_pct_on_initial": -0.415112,
+    "avg_r_multiple": -0.08578
+  },
+  {
+    "symbol": "DIA/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.046323,
+    "net_return_pct_on_initial": 0.046323,
+    "avg_r_multiple": 0.064092
+  },
+  {
+    "symbol": "DMC/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.06538,
+    "net_return_pct_on_initial": -0.06538,
+    "avg_r_multiple": -0.122178
+  },
+  {
+    "symbol": "DODOX/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": -0.034193,
+    "net_return_pct_on_initial": -0.034193,
+    "avg_r_multiple": -0.223569
+  },
+  {
+    "symbol": "DOGE/USDT",
+    "trades": 22,
+    "wins": 5,
+    "losses": 17,
+    "win_rate_pct": 22.7273,
+    "net_pnl": 0.244741,
+    "net_return_pct_on_initial": 0.244741,
+    "avg_r_multiple": 0.223239
+  },
+  {
+    "symbol": "DOGS/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.101315,
+    "net_return_pct_on_initial": -0.101315,
+    "avg_r_multiple": -0.250007
+  },
+  {
+    "symbol": "DOLO/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.293768,
+    "net_return_pct_on_initial": -0.293768,
+    "avg_r_multiple": -0.833005
+  },
+  {
+    "symbol": "DOOD/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.105031,
+    "net_return_pct_on_initial": -0.105031,
+    "avg_r_multiple": -0.584503
+  },
+  {
+    "symbol": "DOT/USDT",
+    "trades": 16,
+    "wins": 7,
+    "losses": 9,
+    "win_rate_pct": 43.75,
+    "net_pnl": 0.602253,
+    "net_return_pct_on_initial": 0.602253,
+    "avg_r_multiple": 0.181399
+  },
+  {
+    "symbol": "DRIFT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.082662,
+    "net_return_pct_on_initial": -0.082662,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "DUSK/USDT",
+    "trades": 9,
+    "wins": 1,
+    "losses": 8,
+    "win_rate_pct": 11.1111,
+    "net_pnl": -0.382058,
+    "net_return_pct_on_initial": -0.382058,
+    "avg_r_multiple": -0.275245
+  },
+  {
+    "symbol": "DYDX/USDT",
+    "trades": 19,
+    "wins": 5,
+    "losses": 14,
+    "win_rate_pct": 26.3158,
+    "net_pnl": -0.648121,
+    "net_return_pct_on_initial": -0.648121,
+    "avg_r_multiple": -0.101992
+  },
+  {
+    "symbol": "DYM/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.029852,
+    "net_return_pct_on_initial": -0.029852,
+    "avg_r_multiple": -0.110298
+  },
+  {
+    "symbol": "EDU/USDT",
+    "trades": 11,
+    "wins": 3,
+    "losses": 8,
+    "win_rate_pct": 27.2727,
+    "net_pnl": 0.160456,
+    "net_return_pct_on_initial": 0.160456,
+    "avg_r_multiple": 0.226043
+  },
+  {
+    "symbol": "EGLD/USDT",
+    "trades": 17,
+    "wins": 4,
+    "losses": 13,
+    "win_rate_pct": 23.5294,
+    "net_pnl": -0.639834,
+    "net_return_pct_on_initial": -0.639834,
+    "avg_r_multiple": -0.186223
+  },
+  {
+    "symbol": "EIGEN/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.267335,
+    "net_return_pct_on_initial": 0.267335,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "ENA/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.045706,
+    "net_return_pct_on_initial": -0.045706,
+    "avg_r_multiple": -0.033459
+  },
+  {
+    "symbol": "ENJ/USDT",
+    "trades": 18,
+    "wins": 6,
+    "losses": 12,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.633869,
+    "net_return_pct_on_initial": 0.633869,
+    "avg_r_multiple": 0.183312
+  },
+  {
+    "symbol": "ENS/USDT",
+    "trades": 9,
+    "wins": 1,
+    "losses": 8,
+    "win_rate_pct": 11.1111,
+    "net_pnl": -0.10579,
+    "net_return_pct_on_initial": -0.10579,
+    "avg_r_multiple": -0.052425
+  },
+  {
+    "symbol": "EPT/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.098946,
+    "net_return_pct_on_initial": -0.098946,
+    "avg_r_multiple": -0.183983
+  },
+  {
+    "symbol": "ERA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.037452,
+    "net_return_pct_on_initial": -0.037452,
+    "avg_r_multiple": -0.324973
+  },
+  {
+    "symbol": "ETC/USDT",
+    "trades": 12,
+    "wins": 5,
+    "losses": 7,
+    "win_rate_pct": 41.6667,
+    "net_pnl": 0.465432,
+    "net_return_pct_on_initial": 0.465432,
+    "avg_r_multiple": 0.489341
+  },
+  {
+    "symbol": "ETH/USDT",
+    "trades": 21,
+    "wins": 4,
+    "losses": 17,
+    "win_rate_pct": 19.0476,
+    "net_pnl": -0.450631,
+    "net_return_pct_on_initial": -0.450631,
+    "avg_r_multiple": -0.051711
+  },
+  {
+    "symbol": "ETHFI/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.177664,
+    "net_return_pct_on_initial": -0.177664,
+    "avg_r_multiple": -0.426495
+  },
+  {
+    "symbol": "ETHW/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.0362,
+    "net_return_pct_on_initial": -0.0362,
+    "avg_r_multiple": 0.002914
+  },
+  {
+    "symbol": "EUL/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.066891,
+    "net_return_pct_on_initial": -0.066891,
+    "avg_r_multiple": -0.405428
+  },
+  {
+    "symbol": "FARTCOIN/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.019763,
+    "net_return_pct_on_initial": -0.019763,
+    "avg_r_multiple": -0.057958
+  },
+  {
+    "symbol": "FET/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.184523,
+    "net_return_pct_on_initial": 0.184523,
+    "avg_r_multiple": 0.261386
+  },
+  {
+    "symbol": "FHE/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.194876,
+    "net_return_pct_on_initial": -0.194876,
+    "avg_r_multiple": -0.568132
+  },
+  {
+    "symbol": "FIDA/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.164805,
+    "net_return_pct_on_initial": -0.164805,
+    "avg_r_multiple": -0.458614
+  },
+  {
+    "symbol": "FIL/USDT",
+    "trades": 18,
+    "wins": 4,
+    "losses": 14,
+    "win_rate_pct": 22.2222,
+    "net_pnl": -0.081524,
+    "net_return_pct_on_initial": -0.081524,
+    "avg_r_multiple": -0.042201
+  },
+  {
+    "symbol": "FIO/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.080502,
+    "net_return_pct_on_initial": 0.080502,
+    "avg_r_multiple": 0.739059
+  },
+  {
+    "symbol": "FIS/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.040222,
+    "net_return_pct_on_initial": -0.040222,
+    "avg_r_multiple": -0.237437
+  },
+  {
+    "symbol": "FLM/USDT",
+    "trades": 20,
+    "wins": 6,
+    "losses": 14,
+    "win_rate_pct": 30.0,
+    "net_pnl": -0.305224,
+    "net_return_pct_on_initial": -0.305224,
+    "avg_r_multiple": -0.078868
+  },
+  {
+    "symbol": "FLOCK/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.011446,
+    "net_return_pct_on_initial": 0.011446,
+    "avg_r_multiple": 0.11034
+  },
+  {
+    "symbol": "FLOW/USDT",
+    "trades": 38,
+    "wins": 12,
+    "losses": 26,
+    "win_rate_pct": 31.5789,
+    "net_pnl": 0.217694,
+    "net_return_pct_on_initial": 0.217694,
+    "avg_r_multiple": 0.166605
+  },
+  {
+    "symbol": "FLUX/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.071865,
+    "net_return_pct_on_initial": -0.071865,
+    "avg_r_multiple": -0.45917
+  },
+  {
+    "symbol": "FOLKS/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.12385,
+    "net_return_pct_on_initial": -0.12385,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "FORM/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.180736,
+    "net_return_pct_on_initial": -0.180736,
+    "avg_r_multiple": -0.349292
+  },
+  {
+    "symbol": "FORTH/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.109116,
+    "net_return_pct_on_initial": -0.109116,
+    "avg_r_multiple": -0.329727
+  },
+  {
+    "symbol": "FTM/USDT",
+    "trades": 14,
+    "wins": 3,
+    "losses": 11,
+    "win_rate_pct": 21.4286,
+    "net_pnl": -0.968502,
+    "net_return_pct_on_initial": -0.968502,
+    "avg_r_multiple": -0.26659
+  },
+  {
+    "symbol": "FTT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.021744,
+    "net_return_pct_on_initial": -0.021744,
+    "avg_r_multiple": -0.045604
+  },
+  {
+    "symbol": "FUN/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.04649,
+    "net_return_pct_on_initial": -0.04649,
+    "avg_r_multiple": -0.54014
+  },
+  {
+    "symbol": "FXS/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.108487,
+    "net_return_pct_on_initial": -0.108487,
+    "avg_r_multiple": -0.305949
+  },
+  {
+    "symbol": "G/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.088758,
+    "net_return_pct_on_initial": -0.088758,
+    "avg_r_multiple": -0.35929
+  },
+  {
+    "symbol": "GALA/USDT",
+    "trades": 11,
+    "wins": 0,
+    "losses": 11,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.944848,
+    "net_return_pct_on_initial": -0.944848,
+    "avg_r_multiple": -0.437493
+  },
+  {
+    "symbol": "GAS/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": 0.218734,
+    "net_return_pct_on_initial": 0.218734,
+    "avg_r_multiple": 0.320996
+  },
+  {
+    "symbol": "GHST/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.110767,
+    "net_return_pct_on_initial": -0.110767,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "GLM/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.198694,
+    "net_return_pct_on_initial": -0.198694,
+    "avg_r_multiple": -0.222432
+  },
+  {
+    "symbol": "GLMR/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.203226,
+    "net_return_pct_on_initial": -0.203226,
+    "avg_r_multiple": -0.442119
+  },
+  {
+    "symbol": "GMT/USDT",
+    "trades": 7,
+    "wins": 2,
+    "losses": 5,
+    "win_rate_pct": 28.5714,
+    "net_pnl": 0.196334,
+    "net_return_pct_on_initial": 0.196334,
+    "avg_r_multiple": 0.29796
+  },
+  {
+    "symbol": "GMX/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.045668,
+    "net_return_pct_on_initial": 0.045668,
+    "avg_r_multiple": 0.193743
+  },
+  {
+    "symbol": "GPS/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.205071,
+    "net_return_pct_on_initial": -0.205071,
+    "avg_r_multiple": -0.601811
+  },
+  {
+    "symbol": "GRASS/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.004479,
+    "net_return_pct_on_initial": 0.004479,
+    "avg_r_multiple": 0.158784
+  },
+  {
+    "symbol": "GRIFFAIN/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.348399,
+    "net_return_pct_on_initial": 0.348399,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "GRT/USDT",
+    "trades": 15,
+    "wins": 4,
+    "losses": 11,
+    "win_rate_pct": 26.6667,
+    "net_pnl": -0.536217,
+    "net_return_pct_on_initial": -0.536217,
+    "avg_r_multiple": -0.100234
+  },
+  {
+    "symbol": "GTC/USDT",
+    "trades": 26,
+    "wins": 7,
+    "losses": 19,
+    "win_rate_pct": 26.9231,
+    "net_pnl": 0.178669,
+    "net_return_pct_on_initial": 0.178669,
+    "avg_r_multiple": 0.105921
+  },
+  {
+    "symbol": "GUN/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": -0.043847,
+    "net_return_pct_on_initial": -0.043847,
+    "avg_r_multiple": -0.043795
+  },
+  {
+    "symbol": "H/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.2056,
+    "net_return_pct_on_initial": 0.2056,
+    "avg_r_multiple": 0.64479
+  },
+  {
+    "symbol": "HAEDAL/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.197561,
+    "net_return_pct_on_initial": -0.197561,
+    "avg_r_multiple": -0.322669
+  },
+  {
+    "symbol": "HANA/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.088133,
+    "net_return_pct_on_initial": 0.088133,
+    "avg_r_multiple": 0.583405
+  },
+  {
+    "symbol": "HBAR/USDT",
+    "trades": 10,
+    "wins": 4,
+    "losses": 6,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.002465,
+    "net_return_pct_on_initial": 0.002465,
+    "avg_r_multiple": 0.236805
+  },
+  {
+    "symbol": "HEI/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.058822,
+    "net_return_pct_on_initial": -0.058822,
+    "avg_r_multiple": -0.806503
+  },
+  {
+    "symbol": "HFT/USDT",
+    "trades": 10,
+    "wins": 4,
+    "losses": 6,
+    "win_rate_pct": 40.0,
+    "net_pnl": -0.204407,
+    "net_return_pct_on_initial": -0.204407,
+    "avg_r_multiple": -0.010295
+  },
+  {
+    "symbol": "HIFI/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.058919,
+    "net_return_pct_on_initial": 0.058919,
+    "avg_r_multiple": 0.086175
+  },
+  {
+    "symbol": "HIGH/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.314416,
+    "net_return_pct_on_initial": -0.314416,
+    "avg_r_multiple": -0.251801
+  },
+  {
+    "symbol": "HIPPO/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.479471,
+    "net_return_pct_on_initial": -0.479471,
+    "avg_r_multiple": -0.396704
+  },
+  {
+    "symbol": "HIVE/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.026202,
+    "net_return_pct_on_initial": 0.026202,
+    "avg_r_multiple": 0.358038
+  },
+  {
+    "symbol": "HMSTR/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.204722,
+    "net_return_pct_on_initial": 0.204722,
+    "avg_r_multiple": 0.870653
+  },
+  {
+    "symbol": "HOME/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.088936,
+    "net_return_pct_on_initial": -0.088936,
+    "avg_r_multiple": -0.49268
+  },
+  {
+    "symbol": "HOOK/USDT",
+    "trades": 10,
+    "wins": 2,
+    "losses": 8,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.541675,
+    "net_return_pct_on_initial": -0.541675,
+    "avg_r_multiple": -0.270305
+  },
+  {
+    "symbol": "HOT/USDT",
+    "trades": 14,
+    "wins": 4,
+    "losses": 10,
+    "win_rate_pct": 28.5714,
+    "net_pnl": -0.261855,
+    "net_return_pct_on_initial": -0.261855,
+    "avg_r_multiple": 0.208539
+  },
+  {
+    "symbol": "HUMA/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.112336,
+    "net_return_pct_on_initial": 0.112336,
+    "avg_r_multiple": 1.274245
+  },
+  {
+    "symbol": "HYPE/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.204843,
+    "net_return_pct_on_initial": -0.204843,
+    "avg_r_multiple": -0.475076
+  },
+  {
+    "symbol": "HYPER/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.034783,
+    "net_return_pct_on_initial": 0.034783,
+    "avg_r_multiple": 0.245652
+  },
+  {
+    "symbol": "ICNT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.07538,
+    "net_return_pct_on_initial": -0.07538,
+    "avg_r_multiple": -0.403953
+  },
+  {
+    "symbol": "ICP/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.099271,
+    "net_return_pct_on_initial": 0.099271,
+    "avg_r_multiple": 0.132781
+  },
+  {
+    "symbol": "ICX/USDT",
+    "trades": 21,
+    "wins": 1,
+    "losses": 20,
+    "win_rate_pct": 4.7619,
+    "net_pnl": -2.194244,
+    "net_return_pct_on_initial": -2.194244,
+    "avg_r_multiple": -0.487503
+  },
+  {
+    "symbol": "ID/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.179078,
+    "net_return_pct_on_initial": -0.179078,
+    "avg_r_multiple": -0.407895
+  },
+  {
+    "symbol": "IDEX/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.142197,
+    "net_return_pct_on_initial": -0.142197,
+    "avg_r_multiple": -0.224813
+  },
+  {
+    "symbol": "IDOL/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.030825,
+    "net_return_pct_on_initial": -0.030825,
+    "avg_r_multiple": -0.159159
+  },
+  {
+    "symbol": "ILV/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.050631,
+    "net_return_pct_on_initial": -0.050631,
+    "avg_r_multiple": -0.195783
+  },
+  {
+    "symbol": "IMX/USDT",
+    "trades": 12,
+    "wins": 1,
+    "losses": 11,
+    "win_rate_pct": 8.3333,
+    "net_pnl": -0.946749,
+    "net_return_pct_on_initial": -0.946749,
+    "avg_r_multiple": -0.376922
+  },
+  {
+    "symbol": "IN/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.379282,
+    "net_return_pct_on_initial": 0.379282,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "INIT/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.290943,
+    "net_return_pct_on_initial": 0.290943,
+    "avg_r_multiple": 0.938215
+  },
+  {
+    "symbol": "INJ/USDT",
+    "trades": 6,
+    "wins": 3,
+    "losses": 3,
+    "win_rate_pct": 50.0,
+    "net_pnl": 1.013802,
+    "net_return_pct_on_initial": 1.013802,
+    "avg_r_multiple": 0.927218
+  },
+  {
+    "symbol": "IOST/USDT",
+    "trades": 19,
+    "wins": 5,
+    "losses": 14,
+    "win_rate_pct": 26.3158,
+    "net_pnl": -0.447301,
+    "net_return_pct_on_initial": -0.447301,
+    "avg_r_multiple": -0.014019
+  },
+  {
+    "symbol": "IOTA/USDT",
+    "trades": 17,
+    "wins": 5,
+    "losses": 12,
+    "win_rate_pct": 29.4118,
+    "net_pnl": 0.551553,
+    "net_return_pct_on_initial": 0.551553,
+    "avg_r_multiple": 0.23251
+  },
+  {
+    "symbol": "IOTX/USDT",
+    "trades": 10,
+    "wins": 2,
+    "losses": 8,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.290838,
+    "net_return_pct_on_initial": -0.290838,
+    "avg_r_multiple": -0.043811
+  },
+  {
+    "symbol": "IP/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.070216,
+    "net_return_pct_on_initial": -0.070216,
+    "avg_r_multiple": -0.215244
+  },
+  {
+    "symbol": "JASMY/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.449837,
+    "net_return_pct_on_initial": -0.449837,
+    "avg_r_multiple": -0.350614
+  },
+  {
+    "symbol": "JELLYJELLY/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.03899,
+    "net_return_pct_on_initial": -0.03899,
+    "avg_r_multiple": -0.168217
+  },
+  {
+    "symbol": "JOE/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.182709,
+    "net_return_pct_on_initial": -0.182709,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "JST/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.026818,
+    "net_return_pct_on_initial": -0.026818,
+    "avg_r_multiple": -0.328458
+  },
+  {
+    "symbol": "JTO/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.194314,
+    "net_return_pct_on_initial": -0.194314,
+    "avg_r_multiple": -0.324644
+  },
+  {
+    "symbol": "JUP/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.303261,
+    "net_return_pct_on_initial": 0.303261,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "KAITO/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.092,
+    "net_return_pct_on_initial": -0.092,
+    "avg_r_multiple": -0.491551
+  },
+  {
+    "symbol": "KAS/USDT",
+    "trades": 7,
+    "wins": 2,
+    "losses": 5,
+    "win_rate_pct": 28.5714,
+    "net_pnl": -0.185671,
+    "net_return_pct_on_initial": -0.185671,
+    "avg_r_multiple": -0.054735
+  },
+  {
+    "symbol": "KAVA/USDT",
+    "trades": 12,
+    "wins": 4,
+    "losses": 8,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.024349,
+    "net_return_pct_on_initial": -0.024349,
+    "avg_r_multiple": 0.177149
+  },
+  {
+    "symbol": "KERNEL/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.251065,
+    "net_return_pct_on_initial": -0.251065,
+    "avg_r_multiple": -0.656047
+  },
+  {
+    "symbol": "KEY/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.143181,
+    "net_return_pct_on_initial": -0.143181,
+    "avg_r_multiple": -0.333801
+  },
+  {
+    "symbol": "KGEN/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.016614,
+    "net_return_pct_on_initial": -0.016614,
+    "avg_r_multiple": -0.082026
+  },
+  {
+    "symbol": "KLAY/USDT",
+    "trades": 8,
+    "wins": 4,
+    "losses": 4,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.264295,
+    "net_return_pct_on_initial": 0.264295,
+    "avg_r_multiple": 0.654545
+  },
+  {
+    "symbol": "KMNO/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.234383,
+    "net_return_pct_on_initial": -0.234383,
+    "avg_r_multiple": -0.580425
+  },
+  {
+    "symbol": "KNC/USDT",
+    "trades": 9,
+    "wins": 3,
+    "losses": 6,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.337787,
+    "net_return_pct_on_initial": 0.337787,
+    "avg_r_multiple": 0.283923
+  },
+  {
+    "symbol": "KSM/USDT",
+    "trades": 14,
+    "wins": 3,
+    "losses": 11,
+    "win_rate_pct": 21.4286,
+    "net_pnl": 0.015931,
+    "net_return_pct_on_initial": 0.015931,
+    "avg_r_multiple": 0.062577
+  },
+  {
+    "symbol": "LA/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.092228,
+    "net_return_pct_on_initial": 0.092228,
+    "avg_r_multiple": 0.998099
+  },
+  {
+    "symbol": "LAYER/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.057197,
+    "net_return_pct_on_initial": 0.057197,
+    "avg_r_multiple": 0.261876
+  },
+  {
+    "symbol": "LDO/USDT",
+    "trades": 9,
+    "wins": 2,
+    "losses": 7,
+    "win_rate_pct": 22.2222,
+    "net_pnl": 0.130436,
+    "net_return_pct_on_initial": 0.130436,
+    "avg_r_multiple": 0.054123
+  },
+  {
+    "symbol": "LEVER/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.135574,
+    "net_return_pct_on_initial": -0.135574,
+    "avg_r_multiple": -0.142667
+  },
+  {
+    "symbol": "LIGHT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.05148,
+    "net_return_pct_on_initial": -0.05148,
+    "avg_r_multiple": -0.28928
+  },
+  {
+    "symbol": "LINA/USDT",
+    "trades": 12,
+    "wins": 3,
+    "losses": 9,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.194631,
+    "net_return_pct_on_initial": -0.194631,
+    "avg_r_multiple": 0.015049
+  },
+  {
+    "symbol": "LINK/USDT",
+    "trades": 18,
+    "wins": 7,
+    "losses": 11,
+    "win_rate_pct": 38.8889,
+    "net_pnl": -0.084256,
+    "net_return_pct_on_initial": -0.084256,
+    "avg_r_multiple": 0.096534
+  },
+  {
+    "symbol": "LISTA/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.230309,
+    "net_return_pct_on_initial": 0.230309,
+    "avg_r_multiple": 1.080006
+  },
+  {
+    "symbol": "LIT/USDT",
+    "trades": 17,
+    "wins": 0,
+    "losses": 17,
+    "win_rate_pct": 0.0,
+    "net_pnl": -1.453184,
+    "net_return_pct_on_initial": -1.453184,
+    "avg_r_multiple": -0.466847
+  },
+  {
+    "symbol": "LOKA/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.016252,
+    "net_return_pct_on_initial": 0.016252,
+    "avg_r_multiple": 0.300595
+  },
+  {
+    "symbol": "LOOM/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.428284,
+    "net_return_pct_on_initial": 0.428284,
+    "avg_r_multiple": 0.814572
+  },
+  {
+    "symbol": "LPT/USDT",
+    "trades": 11,
+    "wins": 5,
+    "losses": 6,
+    "win_rate_pct": 45.4545,
+    "net_pnl": 0.470025,
+    "net_return_pct_on_initial": 0.470025,
+    "avg_r_multiple": 0.548022
+  },
+  {
+    "symbol": "LQTY/USDT",
+    "trades": 7,
+    "wins": 4,
+    "losses": 3,
+    "win_rate_pct": 57.1429,
+    "net_pnl": 0.753701,
+    "net_return_pct_on_initial": 0.753701,
+    "avg_r_multiple": 0.973285
+  },
+  {
+    "symbol": "LRC/USDT",
+    "trades": 13,
+    "wins": 1,
+    "losses": 12,
+    "win_rate_pct": 7.6923,
+    "net_pnl": -0.595106,
+    "net_return_pct_on_initial": -0.595106,
+    "avg_r_multiple": -0.151714
+  },
+  {
+    "symbol": "LSK/USDT",
+    "trades": 8,
+    "wins": 0,
+    "losses": 8,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.414984,
+    "net_return_pct_on_initial": -0.414984,
+    "avg_r_multiple": -0.296605
+  },
+  {
+    "symbol": "LTC/USDT",
+    "trades": 21,
+    "wins": 3,
+    "losses": 18,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.817294,
+    "net_return_pct_on_initial": -0.817294,
+    "avg_r_multiple": -0.135619
+  },
+  {
+    "symbol": "LUMIA/USDT",
+    "trades": 5,
+    "wins": 0,
+    "losses": 5,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.330384,
+    "net_return_pct_on_initial": -0.330384,
+    "avg_r_multiple": -0.463428
+  },
+  {
+    "symbol": "LUNA2/USDT",
+    "trades": 10,
+    "wins": 1,
+    "losses": 9,
+    "win_rate_pct": 10.0,
+    "net_pnl": -0.344659,
+    "net_return_pct_on_initial": -0.344659,
+    "avg_r_multiple": -0.026667
+  },
+  {
+    "symbol": "MAGIC/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.289879,
+    "net_return_pct_on_initial": -0.289879,
+    "avg_r_multiple": -0.426591
+  },
+  {
+    "symbol": "MANA/USDT",
+    "trades": 16,
+    "wins": 6,
+    "losses": 10,
+    "win_rate_pct": 37.5,
+    "net_pnl": 0.913088,
+    "net_return_pct_on_initial": 0.913088,
+    "avg_r_multiple": 0.44986
+  },
+  {
+    "symbol": "MANTA/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": 0.131705,
+    "net_return_pct_on_initial": 0.131705,
+    "avg_r_multiple": 0.423335
+  },
+  {
+    "symbol": "MASK/USDT",
+    "trades": 10,
+    "wins": 5,
+    "losses": 5,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.162361,
+    "net_return_pct_on_initial": 0.162361,
+    "avg_r_multiple": 0.322686
+  },
+  {
+    "symbol": "MAV/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.056565,
+    "net_return_pct_on_initial": 0.056565,
+    "avg_r_multiple": 0.243747
+  },
+  {
+    "symbol": "MAVIA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.128578,
+    "net_return_pct_on_initial": -0.128578,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "MBOX/USDT",
+    "trades": 5,
+    "wins": 0,
+    "losses": 5,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.44034,
+    "net_return_pct_on_initial": -0.44034,
+    "avg_r_multiple": -0.513416
+  },
+  {
+    "symbol": "MDT/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.192548,
+    "net_return_pct_on_initial": 0.192548,
+    "avg_r_multiple": 0.369169
+  },
+  {
+    "symbol": "ME/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.125612,
+    "net_return_pct_on_initial": -0.125612,
+    "avg_r_multiple": -0.44454
+  },
+  {
+    "symbol": "MELANIA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.181343,
+    "net_return_pct_on_initial": -0.181343,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "MEME/USDT",
+    "trades": 8,
+    "wins": 2,
+    "losses": 6,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.042349,
+    "net_return_pct_on_initial": -0.042349,
+    "avg_r_multiple": 0.027199
+  },
+  {
+    "symbol": "MERL/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.083307,
+    "net_return_pct_on_initial": -0.083307,
+    "avg_r_multiple": -0.245402
+  },
+  {
+    "symbol": "METIS/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.021726,
+    "net_return_pct_on_initial": -0.021726,
+    "avg_r_multiple": -0.079948
+  },
+  {
+    "symbol": "MEW/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.101317,
+    "net_return_pct_on_initial": 0.101317,
+    "avg_r_multiple": 0.276457
+  },
+  {
+    "symbol": "MILK/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.116661,
+    "net_return_pct_on_initial": -0.116661,
+    "avg_r_multiple": -0.206675
+  },
+  {
+    "symbol": "MINA/USDT",
+    "trades": 4,
+    "wins": 2,
+    "losses": 2,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.372104,
+    "net_return_pct_on_initial": 0.372104,
+    "avg_r_multiple": 0.976697
+  },
+  {
+    "symbol": "MIRA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.054089,
+    "net_return_pct_on_initial": -0.054089,
+    "avg_r_multiple": -0.312299
+  },
+  {
+    "symbol": "MITO/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.061595,
+    "net_return_pct_on_initial": 0.061595,
+    "avg_r_multiple": 0.255159
+  },
+  {
+    "symbol": "MKR/USDT",
+    "trades": 10,
+    "wins": 0,
+    "losses": 10,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.75927,
+    "net_return_pct_on_initial": -0.75927,
+    "avg_r_multiple": -0.457327
+  },
+  {
+    "symbol": "MLN/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.052579,
+    "net_return_pct_on_initial": -0.052579,
+    "avg_r_multiple": -0.43498
+  },
+  {
+    "symbol": "MOCA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.048078,
+    "net_return_pct_on_initial": -0.048078,
+    "avg_r_multiple": -0.575438
+  },
+  {
+    "symbol": "MON/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.032682,
+    "net_return_pct_on_initial": -0.032682,
+    "avg_r_multiple": -0.213307
+  },
+  {
+    "symbol": "MORPHO/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.397152,
+    "net_return_pct_on_initial": 0.397152,
+    "avg_r_multiple": 0.403744
+  },
+  {
+    "symbol": "MOVE/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.053808,
+    "net_return_pct_on_initial": -0.053808,
+    "avg_r_multiple": -0.088765
+  },
+  {
+    "symbol": "MOVR/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.07691,
+    "net_return_pct_on_initial": -0.07691,
+    "avg_r_multiple": -0.091856
+  },
+  {
+    "symbol": "MTL/USDT",
+    "trades": 24,
+    "wins": 6,
+    "losses": 18,
+    "win_rate_pct": 25.0,
+    "net_pnl": 0.183818,
+    "net_return_pct_on_initial": 0.183818,
+    "avg_r_multiple": 0.210595
+  },
+  {
+    "symbol": "MUBARAK/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.251133,
+    "net_return_pct_on_initial": -0.251133,
+    "avg_r_multiple": -0.691029
+  },
+  {
+    "symbol": "MYRO/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.123987,
+    "net_return_pct_on_initial": -0.123987,
+    "avg_r_multiple": -0.18649
+  },
+  {
+    "symbol": "MYX/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": -0.032217,
+    "net_return_pct_on_initial": -0.032217,
+    "avg_r_multiple": -0.049676
+  },
+  {
+    "symbol": "NAORIS/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.106401,
+    "net_return_pct_on_initial": -0.106401,
+    "avg_r_multiple": -0.330059
+  },
+  {
+    "symbol": "NEAR/USDT",
+    "trades": 16,
+    "wins": 3,
+    "losses": 13,
+    "win_rate_pct": 18.75,
+    "net_pnl": -0.141838,
+    "net_return_pct_on_initial": -0.141838,
+    "avg_r_multiple": 0.125394
+  },
+  {
+    "symbol": "NEIRO/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.129932,
+    "net_return_pct_on_initial": -0.129932,
+    "avg_r_multiple": -0.314924
+  },
+  {
+    "symbol": "NEIROETH/USDT",
+    "trades": 2,
+    "wins": 2,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.512198,
+    "net_return_pct_on_initial": 0.512198,
+    "avg_r_multiple": 1.593474
+  },
+  {
+    "symbol": "NEO/USDT",
+    "trades": 15,
+    "wins": 5,
+    "losses": 10,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.116272,
+    "net_return_pct_on_initial": 0.116272,
+    "avg_r_multiple": 0.124171
+  },
+  {
+    "symbol": "NEWT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.086745,
+    "net_return_pct_on_initial": -0.086745,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "NFP/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.22356,
+    "net_return_pct_on_initial": -0.22356,
+    "avg_r_multiple": -0.290967
+  },
+  {
+    "symbol": "NIL/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.30292,
+    "net_return_pct_on_initial": -0.30292,
+    "avg_r_multiple": -0.443123
+  },
+  {
+    "symbol": "NKN/USDT",
+    "trades": 15,
+    "wins": 3,
+    "losses": 12,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.892738,
+    "net_return_pct_on_initial": -0.892738,
+    "avg_r_multiple": -0.294194
+  },
+  {
+    "symbol": "NMR/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.374337,
+    "net_return_pct_on_initial": -0.374337,
+    "avg_r_multiple": -0.177032
+  },
+  {
+    "symbol": "NOT/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.061754,
+    "net_return_pct_on_initial": -0.061754,
+    "avg_r_multiple": -0.105189
+  },
+  {
+    "symbol": "NTRN/USDT",
+    "trades": 8,
+    "wins": 3,
+    "losses": 5,
+    "win_rate_pct": 37.5,
+    "net_pnl": 0.021269,
+    "net_return_pct_on_initial": 0.021269,
+    "avg_r_multiple": 0.139597
+  },
+  {
+    "symbol": "NULS/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.220635,
+    "net_return_pct_on_initial": 0.220635,
+    "avg_r_multiple": 1.039847
+  },
+  {
+    "symbol": "OBOL/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.090526,
+    "net_return_pct_on_initial": 0.090526,
+    "avg_r_multiple": 0.444843
+  },
+  {
+    "symbol": "OCEAN/USDT",
+    "trades": 8,
+    "wins": 1,
+    "losses": 7,
+    "win_rate_pct": 12.5,
+    "net_pnl": -0.392752,
+    "net_return_pct_on_initial": -0.392752,
+    "avg_r_multiple": -0.103114
+  },
+  {
+    "symbol": "OG/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.331692,
+    "net_return_pct_on_initial": -0.331692,
+    "avg_r_multiple": -0.497296
+  },
+  {
+    "symbol": "OGN/USDT",
+    "trades": 23,
+    "wins": 5,
+    "losses": 18,
+    "win_rate_pct": 21.7391,
+    "net_pnl": 0.153048,
+    "net_return_pct_on_initial": 0.153048,
+    "avg_r_multiple": 0.103814
+  },
+  {
+    "symbol": "OL/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.092522,
+    "net_return_pct_on_initial": -0.092522,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "OM/USDT",
+    "trades": 8,
+    "wins": 0,
+    "losses": 8,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.702086,
+    "net_return_pct_on_initial": -0.702086,
+    "avg_r_multiple": -0.536449
+  },
+  {
+    "symbol": "OMG/USDT",
+    "trades": 14,
+    "wins": 4,
+    "losses": 10,
+    "win_rate_pct": 28.5714,
+    "net_pnl": -0.016913,
+    "net_return_pct_on_initial": -0.016913,
+    "avg_r_multiple": 0.059314
+  },
+  {
+    "symbol": "OMNI/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.123664,
+    "net_return_pct_on_initial": -0.123664,
+    "avg_r_multiple": -0.241581
+  },
+  {
+    "symbol": "ON/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.060987,
+    "net_return_pct_on_initial": -0.060987,
+    "avg_r_multiple": -0.887939
+  },
+  {
+    "symbol": "ONDO/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.362677,
+    "net_return_pct_on_initial": -0.362677,
+    "avg_r_multiple": -0.666546
+  },
+  {
+    "symbol": "ONE/USDT",
+    "trades": 12,
+    "wins": 4,
+    "losses": 8,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.036814,
+    "net_return_pct_on_initial": -0.036814,
+    "avg_r_multiple": 0.133825
+  },
+  {
+    "symbol": "ONG/USDT",
+    "trades": 5,
+    "wins": 3,
+    "losses": 2,
+    "win_rate_pct": 60.0,
+    "net_pnl": 0.316646,
+    "net_return_pct_on_initial": 0.316646,
+    "avg_r_multiple": 0.977945
+  },
+  {
+    "symbol": "ONT/USDT",
+    "trades": 23,
+    "wins": 8,
+    "losses": 15,
+    "win_rate_pct": 34.7826,
+    "net_pnl": 0.138365,
+    "net_return_pct_on_initial": 0.138365,
+    "avg_r_multiple": 0.042418
+  },
+  {
+    "symbol": "OP/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.135034,
+    "net_return_pct_on_initial": -0.135034,
+    "avg_r_multiple": -0.100117
+  },
+  {
+    "symbol": "OPEN/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.05782,
+    "net_return_pct_on_initial": 0.05782,
+    "avg_r_multiple": 0.409586
+  },
+  {
+    "symbol": "ORBS/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.06721,
+    "net_return_pct_on_initial": 0.06721,
+    "avg_r_multiple": 0.513198
+  },
+  {
+    "symbol": "ORDI/USDT",
+    "trades": 7,
+    "wins": 3,
+    "losses": 4,
+    "win_rate_pct": 42.8571,
+    "net_pnl": 0.615503,
+    "net_return_pct_on_initial": 0.615503,
+    "avg_r_multiple": 0.673708
+  },
+  {
+    "symbol": "OXT/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.061883,
+    "net_return_pct_on_initial": 0.061883,
+    "avg_r_multiple": 0.050591
+  },
+  {
+    "symbol": "PARTI/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.102644,
+    "net_return_pct_on_initial": -0.102644,
+    "avg_r_multiple": -0.702533
+  },
+  {
+    "symbol": "PAXG/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.037026,
+    "net_return_pct_on_initial": -0.037026,
+    "avg_r_multiple": -0.245081
+  },
+  {
+    "symbol": "PENDLE/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.390158,
+    "net_return_pct_on_initial": 0.390158,
+    "avg_r_multiple": 0.589325
+  },
+  {
+    "symbol": "PENGU/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.210279,
+    "net_return_pct_on_initial": -0.210279,
+    "avg_r_multiple": -0.5444
+  },
+  {
+    "symbol": "PEOPLE/USDT",
+    "trades": 5,
+    "wins": 3,
+    "losses": 2,
+    "win_rate_pct": 60.0,
+    "net_pnl": 0.323342,
+    "net_return_pct_on_initial": 0.323342,
+    "avg_r_multiple": 0.59948
+  },
+  {
+    "symbol": "PERP/USDT",
+    "trades": 9,
+    "wins": 2,
+    "losses": 7,
+    "win_rate_pct": 22.2222,
+    "net_pnl": 0.008233,
+    "net_return_pct_on_initial": 0.008233,
+    "avg_r_multiple": 0.132343
+  },
+  {
+    "symbol": "PHA/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.2958,
+    "net_return_pct_on_initial": -0.2958,
+    "avg_r_multiple": -0.522824
+  },
+  {
+    "symbol": "PHB/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.197538,
+    "net_return_pct_on_initial": -0.197538,
+    "avg_r_multiple": -0.243352
+  },
+  {
+    "symbol": "PIPPIN/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.033736,
+    "net_return_pct_on_initial": -0.033736,
+    "avg_r_multiple": 0.081517
+  },
+  {
+    "symbol": "PIXEL/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.112121,
+    "net_return_pct_on_initial": -0.112121,
+    "avg_r_multiple": -0.15575
+  },
+  {
+    "symbol": "PLAY/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.03273,
+    "net_return_pct_on_initial": -0.03273,
+    "avg_r_multiple": -0.189018
+  },
+  {
+    "symbol": "PLUME/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.019316,
+    "net_return_pct_on_initial": -0.019316,
+    "avg_r_multiple": -0.083154
+  },
+  {
+    "symbol": "PNUT/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.266076,
+    "net_return_pct_on_initial": -0.266076,
+    "avg_r_multiple": -0.930773
+  },
+  {
+    "symbol": "POL/USDT",
+    "trades": 6,
+    "wins": 1,
+    "losses": 5,
+    "win_rate_pct": 16.6667,
+    "net_pnl": -0.211374,
+    "net_return_pct_on_initial": -0.211374,
+    "avg_r_multiple": -0.234778
+  },
+  {
+    "symbol": "POLYX/USDT",
+    "trades": 7,
+    "wins": 3,
+    "losses": 4,
+    "win_rate_pct": 42.8571,
+    "net_pnl": 0.231311,
+    "net_return_pct_on_initial": 0.231311,
+    "avg_r_multiple": 0.295105
+  },
+  {
+    "symbol": "POPCAT/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.526968,
+    "net_return_pct_on_initial": 0.526968,
+    "avg_r_multiple": 1.215556
+  },
+  {
+    "symbol": "PORT3/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.080493,
+    "net_return_pct_on_initial": 0.080493,
+    "avg_r_multiple": 0.190307
+  },
+  {
+    "symbol": "PORTAL/USDT",
+    "trades": 4,
+    "wins": 3,
+    "losses": 1,
+    "win_rate_pct": 75.0,
+    "net_pnl": 0.281977,
+    "net_return_pct_on_initial": 0.281977,
+    "avg_r_multiple": 0.453666
+  },
+  {
+    "symbol": "POWR/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.387171,
+    "net_return_pct_on_initial": -0.387171,
+    "avg_r_multiple": -0.418393
+  },
+  {
+    "symbol": "PROM/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.251298,
+    "net_return_pct_on_initial": 0.251298,
+    "avg_r_multiple": 0.998107
+  },
+  {
+    "symbol": "PROMPT/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": -0.019782,
+    "net_return_pct_on_initial": -0.019782,
+    "avg_r_multiple": -0.016528
+  },
+  {
+    "symbol": "PTB/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.172871,
+    "net_return_pct_on_initial": 0.172871,
+    "avg_r_multiple": 1.174075
+  },
+  {
+    "symbol": "PUMPBTC/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.122887,
+    "net_return_pct_on_initial": -0.122887,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "PYTH/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.005916,
+    "net_return_pct_on_initial": -0.005916,
+    "avg_r_multiple": 0.073735
+  },
+  {
+    "symbol": "Q/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.193241,
+    "net_return_pct_on_initial": -0.193241,
+    "avg_r_multiple": -0.568294
+  },
+  {
+    "symbol": "QNT/USDT",
+    "trades": 11,
+    "wins": 1,
+    "losses": 10,
+    "win_rate_pct": 9.0909,
+    "net_pnl": -0.665328,
+    "net_return_pct_on_initial": -0.665328,
+    "avg_r_multiple": -0.336214
+  },
+  {
+    "symbol": "QTUM/USDT",
+    "trades": 15,
+    "wins": 4,
+    "losses": 11,
+    "win_rate_pct": 26.6667,
+    "net_pnl": -0.379047,
+    "net_return_pct_on_initial": -0.379047,
+    "avg_r_multiple": 0.081976
+  },
+  {
+    "symbol": "RAD/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.102045,
+    "net_return_pct_on_initial": -0.102045,
+    "avg_r_multiple": -0.140093
+  },
+  {
+    "symbol": "RARE/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.137754,
+    "net_return_pct_on_initial": 0.137754,
+    "avg_r_multiple": 0.729338
+  },
+  {
+    "symbol": "RAY/USDT",
+    "trades": 6,
+    "wins": 1,
+    "losses": 5,
+    "win_rate_pct": 16.6667,
+    "net_pnl": -0.242001,
+    "net_return_pct_on_initial": -0.242001,
+    "avg_r_multiple": -0.174681
+  },
+  {
+    "symbol": "RAYSOL/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.334584,
+    "net_return_pct_on_initial": 0.334584,
+    "avg_r_multiple": 1.137321
+  },
+  {
+    "symbol": "RDNT/USDT",
+    "trades": 5,
+    "wins": 0,
+    "losses": 5,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.334607,
+    "net_return_pct_on_initial": -0.334607,
+    "avg_r_multiple": -0.376513
+  },
+  {
+    "symbol": "RECALL/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.135922,
+    "net_return_pct_on_initial": 0.135922,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "RED/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.076633,
+    "net_return_pct_on_initial": -0.076633,
+    "avg_r_multiple": -0.194221
+  },
+  {
+    "symbol": "REEF/USDT",
+    "trades": 10,
+    "wins": 3,
+    "losses": 7,
+    "win_rate_pct": 30.0,
+    "net_pnl": -0.007771,
+    "net_return_pct_on_initial": -0.007771,
+    "avg_r_multiple": 0.303754
+  },
+  {
+    "symbol": "REI/USDT",
+    "trades": 4,
+    "wins": 2,
+    "losses": 2,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.303822,
+    "net_return_pct_on_initial": 0.303822,
+    "avg_r_multiple": 0.49551
+  },
+  {
+    "symbol": "REN/USDT",
+    "trades": 13,
+    "wins": 7,
+    "losses": 6,
+    "win_rate_pct": 53.8462,
+    "net_pnl": 0.86131,
+    "net_return_pct_on_initial": 0.86131,
+    "avg_r_multiple": 0.394532
+  },
+  {
+    "symbol": "RENDER/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.114493,
+    "net_return_pct_on_initial": -0.114493,
+    "avg_r_multiple": -0.550346
+  },
+  {
+    "symbol": "REZ/USDT",
+    "trades": 6,
+    "wins": 1,
+    "losses": 5,
+    "win_rate_pct": 16.6667,
+    "net_pnl": -0.031867,
+    "net_return_pct_on_initial": -0.031867,
+    "avg_r_multiple": 0.04562
+  },
+  {
+    "symbol": "RIF/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.027846,
+    "net_return_pct_on_initial": -0.027846,
+    "avg_r_multiple": 0.096539
+  },
+  {
+    "symbol": "RIVER/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.08346,
+    "net_return_pct_on_initial": 0.08346,
+    "avg_r_multiple": 0.641736
+  },
+  {
+    "symbol": "RLC/USDT",
+    "trades": 14,
+    "wins": 3,
+    "losses": 11,
+    "win_rate_pct": 21.4286,
+    "net_pnl": -0.699878,
+    "net_return_pct_on_initial": -0.699878,
+    "avg_r_multiple": -0.219479
+  },
+  {
+    "symbol": "RLS/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.057944,
+    "net_return_pct_on_initial": -0.057944,
+    "avg_r_multiple": -0.528277
+  },
+  {
+    "symbol": "RONIN/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.316462,
+    "net_return_pct_on_initial": 0.316462,
+    "avg_r_multiple": 0.676535
+  },
+  {
+    "symbol": "ROSE/USDT",
+    "trades": 9,
+    "wins": 2,
+    "losses": 7,
+    "win_rate_pct": 22.2222,
+    "net_pnl": 0.265608,
+    "net_return_pct_on_initial": 0.265608,
+    "avg_r_multiple": 0.072272
+  },
+  {
+    "symbol": "RPL/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": 0.00825,
+    "net_return_pct_on_initial": 0.00825,
+    "avg_r_multiple": 0.156095
+  },
+  {
+    "symbol": "RSR/USDT",
+    "trades": 13,
+    "wins": 4,
+    "losses": 9,
+    "win_rate_pct": 30.7692,
+    "net_pnl": -0.392529,
+    "net_return_pct_on_initial": -0.392529,
+    "avg_r_multiple": -0.073755
+  },
+  {
+    "symbol": "RUNE/USDT",
+    "trades": 16,
+    "wins": 3,
+    "losses": 13,
+    "win_rate_pct": 18.75,
+    "net_pnl": -0.719425,
+    "net_return_pct_on_initial": -0.719425,
+    "avg_r_multiple": -0.227789
+  },
+  {
+    "symbol": "RVN/USDT",
+    "trades": 18,
+    "wins": 3,
+    "losses": 15,
+    "win_rate_pct": 16.6667,
+    "net_pnl": -0.652503,
+    "net_return_pct_on_initial": -0.652503,
+    "avg_r_multiple": -0.123352
+  },
+  {
+    "symbol": "SAFE/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.152091,
+    "net_return_pct_on_initial": -0.152091,
+    "avg_r_multiple": -0.257771
+  },
+  {
+    "symbol": "SAGA/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.149112,
+    "net_return_pct_on_initial": -0.149112,
+    "avg_r_multiple": -0.236762
+  },
+  {
+    "symbol": "SAND/USDT",
+    "trades": 15,
+    "wins": 6,
+    "losses": 9,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.118949,
+    "net_return_pct_on_initial": 0.118949,
+    "avg_r_multiple": 0.260426
+  },
+  {
+    "symbol": "SANTOS/USDT",
+    "trades": 5,
+    "wins": 4,
+    "losses": 1,
+    "win_rate_pct": 80.0,
+    "net_pnl": 0.129815,
+    "net_return_pct_on_initial": 0.129815,
+    "avg_r_multiple": 0.341115
+  },
+  {
+    "symbol": "SAPIEN/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.028232,
+    "net_return_pct_on_initial": -0.028232,
+    "avg_r_multiple": -0.116466
+  },
+  {
+    "symbol": "SC/USDT",
+    "trades": 7,
+    "wins": 0,
+    "losses": 7,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.501849,
+    "net_return_pct_on_initial": -0.501849,
+    "avg_r_multiple": -0.280375
+  },
+  {
+    "symbol": "SCR/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.141865,
+    "net_return_pct_on_initial": -0.141865,
+    "avg_r_multiple": -0.292398
+  },
+  {
+    "symbol": "SEI/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": -0.141017,
+    "net_return_pct_on_initial": -0.141017,
+    "avg_r_multiple": -0.078926
+  },
+  {
+    "symbol": "SFP/USDT",
+    "trades": 11,
+    "wins": 5,
+    "losses": 6,
+    "win_rate_pct": 45.4545,
+    "net_pnl": 0.372187,
+    "net_return_pct_on_initial": 0.372187,
+    "avg_r_multiple": 0.675665
+  },
+  {
+    "symbol": "SHELL/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.065104,
+    "net_return_pct_on_initial": -0.065104,
+    "avg_r_multiple": -0.335817
+  },
+  {
+    "symbol": "SIREN/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.11089,
+    "net_return_pct_on_initial": -0.11089,
+    "avg_r_multiple": -0.395246
+  },
+  {
+    "symbol": "SKATE/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.393988,
+    "net_return_pct_on_initial": 0.393988,
+    "avg_r_multiple": 0.882645
+  },
+  {
+    "symbol": "SKL/USDT",
+    "trades": 10,
+    "wins": 2,
+    "losses": 8,
+    "win_rate_pct": 20.0,
+    "net_pnl": 0.015412,
+    "net_return_pct_on_initial": 0.015412,
+    "avg_r_multiple": -0.064854
+  },
+  {
+    "symbol": "SKY/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.283183,
+    "net_return_pct_on_initial": 0.283183,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "SKYAI/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.05931,
+    "net_return_pct_on_initial": -0.05931,
+    "avg_r_multiple": -0.396971
+  },
+  {
+    "symbol": "SLERF/USDT",
+    "trades": 3,
+    "wins": 3,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.546826,
+    "net_return_pct_on_initial": 0.546826,
+    "avg_r_multiple": 1.271065
+  },
+  {
+    "symbol": "SNT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.081674,
+    "net_return_pct_on_initial": -0.081674,
+    "avg_r_multiple": -0.498005
+  },
+  {
+    "symbol": "SNX/USDT",
+    "trades": 14,
+    "wins": 4,
+    "losses": 10,
+    "win_rate_pct": 28.5714,
+    "net_pnl": -0.529402,
+    "net_return_pct_on_initial": -0.529402,
+    "avg_r_multiple": -0.2368
+  },
+  {
+    "symbol": "SOL/USDT",
+    "trades": 8,
+    "wins": 1,
+    "losses": 7,
+    "win_rate_pct": 12.5,
+    "net_pnl": -0.498237,
+    "net_return_pct_on_initial": -0.498237,
+    "avg_r_multiple": -0.316962
+  },
+  {
+    "symbol": "SONIC/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": -0.027824,
+    "net_return_pct_on_initial": -0.027824,
+    "avg_r_multiple": -0.140865
+  },
+  {
+    "symbol": "SOON/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.326138,
+    "net_return_pct_on_initial": 0.326138,
+    "avg_r_multiple": 0.836327
+  },
+  {
+    "symbol": "SPELL/USDT",
+    "trades": 7,
+    "wins": 3,
+    "losses": 4,
+    "win_rate_pct": 42.8571,
+    "net_pnl": 0.058028,
+    "net_return_pct_on_initial": 0.058028,
+    "avg_r_multiple": 0.321146
+  },
+  {
+    "symbol": "SPK/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.140221,
+    "net_return_pct_on_initial": -0.140221,
+    "avg_r_multiple": -0.920451
+  },
+  {
+    "symbol": "SPX/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.092899,
+    "net_return_pct_on_initial": -0.092899,
+    "avg_r_multiple": -0.490976
+  },
+  {
+    "symbol": "SQD/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.224567,
+    "net_return_pct_on_initial": 0.224567,
+    "avg_r_multiple": 1.029112
+  },
+  {
+    "symbol": "SSV/USDT",
+    "trades": 6,
+    "wins": 2,
+    "losses": 4,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.051098,
+    "net_return_pct_on_initial": 0.051098,
+    "avg_r_multiple": 0.274472
+  },
+  {
+    "symbol": "STEEM/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.059891,
+    "net_return_pct_on_initial": -0.059891,
+    "avg_r_multiple": -0.17946
+  },
+  {
+    "symbol": "STG/USDT",
+    "trades": 5,
+    "wins": 3,
+    "losses": 2,
+    "win_rate_pct": 60.0,
+    "net_pnl": 0.315739,
+    "net_return_pct_on_initial": 0.315739,
+    "avg_r_multiple": 0.750236
+  },
+  {
+    "symbol": "STMX/USDT",
+    "trades": 24,
+    "wins": 8,
+    "losses": 16,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.535883,
+    "net_return_pct_on_initial": 0.535883,
+    "avg_r_multiple": 0.14366
+  },
+  {
+    "symbol": "STORJ/USDT",
+    "trades": 13,
+    "wins": 5,
+    "losses": 8,
+    "win_rate_pct": 38.4615,
+    "net_pnl": 0.011542,
+    "net_return_pct_on_initial": 0.011542,
+    "avg_r_multiple": 0.076791
+  },
+  {
+    "symbol": "STPT/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.071088,
+    "net_return_pct_on_initial": 0.071088,
+    "avg_r_multiple": 0.644206
+  },
+  {
+    "symbol": "STRAX/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.043888,
+    "net_return_pct_on_initial": -0.043888,
+    "avg_r_multiple": -0.175763
+  },
+  {
+    "symbol": "STRK/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.199354,
+    "net_return_pct_on_initial": -0.199354,
+    "avg_r_multiple": -0.219689
+  },
+  {
+    "symbol": "STX/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.008108,
+    "net_return_pct_on_initial": 0.008108,
+    "avg_r_multiple": 0.169642
+  },
+  {
+    "symbol": "SUI/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.184048,
+    "net_return_pct_on_initial": -0.184048,
+    "avg_r_multiple": -0.310892
+  },
+  {
+    "symbol": "SUN/USDT",
+    "trades": 8,
+    "wins": 2,
+    "losses": 6,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.064055,
+    "net_return_pct_on_initial": -0.064055,
+    "avg_r_multiple": -0.045637
+  },
+  {
+    "symbol": "SUPER/USDT",
+    "trades": 3,
+    "wins": 0,
+    "losses": 3,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.291009,
+    "net_return_pct_on_initial": -0.291009,
+    "avg_r_multiple": -0.456773
+  },
+  {
+    "symbol": "SUSHI/USDT",
+    "trades": 10,
+    "wins": 2,
+    "losses": 8,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.359216,
+    "net_return_pct_on_initial": -0.359216,
+    "avg_r_multiple": -0.142272
+  },
+  {
+    "symbol": "SWARMS/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.09908,
+    "net_return_pct_on_initial": -0.09908,
+    "avg_r_multiple": -0.270208
+  },
+  {
+    "symbol": "SWELL/USDT",
+    "trades": 5,
+    "wins": 3,
+    "losses": 2,
+    "win_rate_pct": 60.0,
+    "net_pnl": -0.138502,
+    "net_return_pct_on_initial": -0.138502,
+    "avg_r_multiple": 0.011147
+  },
+  {
+    "symbol": "SXP/USDT",
+    "trades": 10,
+    "wins": 4,
+    "losses": 6,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.582601,
+    "net_return_pct_on_initial": 0.582601,
+    "avg_r_multiple": 0.275877
+  },
+  {
+    "symbol": "SXT/USDT",
+    "trades": 4,
+    "wins": 2,
+    "losses": 2,
+    "win_rate_pct": 50.0,
+    "net_pnl": -0.027951,
+    "net_return_pct_on_initial": -0.027951,
+    "avg_r_multiple": 0.012376
+  },
+  {
+    "symbol": "SYN/USDT",
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate_pct": 66.6667,
+    "net_pnl": 0.148369,
+    "net_return_pct_on_initial": 0.148369,
+    "avg_r_multiple": 0.371346
+  },
+  {
+    "symbol": "SYRUP/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.034565,
+    "net_return_pct_on_initial": -0.034565,
+    "avg_r_multiple": -0.220891
+  },
+  {
+    "symbol": "SYS/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": -0.033918,
+    "net_return_pct_on_initial": -0.033918,
+    "avg_r_multiple": 0.077126
+  },
+  {
+    "symbol": "T/USDT",
+    "trades": 9,
+    "wins": 3,
+    "losses": 6,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.353683,
+    "net_return_pct_on_initial": -0.353683,
+    "avg_r_multiple": -0.185603
+  },
+  {
+    "symbol": "TAC/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.072418,
+    "net_return_pct_on_initial": -0.072418,
+    "avg_r_multiple": -0.427435
+  },
+  {
+    "symbol": "TAIKO/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.103598,
+    "net_return_pct_on_initial": -0.103598,
+    "avg_r_multiple": -0.440568
+  },
+  {
+    "symbol": "TAO/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": 0.12447,
+    "net_return_pct_on_initial": 0.12447,
+    "avg_r_multiple": 0.083345
+  },
+  {
+    "symbol": "THE/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.119696,
+    "net_return_pct_on_initial": -0.119696,
+    "avg_r_multiple": -0.287669
+  },
+  {
+    "symbol": "THETA/USDT",
+    "trades": 18,
+    "wins": 8,
+    "losses": 10,
+    "win_rate_pct": 44.4444,
+    "net_pnl": 0.903119,
+    "net_return_pct_on_initial": 0.903119,
+    "avg_r_multiple": 0.355177
+  },
+  {
+    "symbol": "TIA/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.117305,
+    "net_return_pct_on_initial": -0.117305,
+    "avg_r_multiple": -0.06846
+  },
+  {
+    "symbol": "TLM/USDT",
+    "trades": 9,
+    "wins": 2,
+    "losses": 7,
+    "win_rate_pct": 22.2222,
+    "net_pnl": -0.124722,
+    "net_return_pct_on_initial": -0.124722,
+    "avg_r_multiple": -0.014427
+  },
+  {
+    "symbol": "TNSR/USDT",
+    "trades": 5,
+    "wins": 0,
+    "losses": 5,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.357979,
+    "net_return_pct_on_initial": -0.357979,
+    "avg_r_multiple": -0.446589
+  },
+  {
+    "symbol": "TOKEN/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.461411,
+    "net_return_pct_on_initial": 0.461411,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "TON/USDT",
+    "trades": 6,
+    "wins": 0,
+    "losses": 6,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.344054,
+    "net_return_pct_on_initial": -0.344054,
+    "avg_r_multiple": -0.366774
+  },
+  {
+    "symbol": "TOWNS/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.029729,
+    "net_return_pct_on_initial": -0.029729,
+    "avg_r_multiple": -0.118096
+  },
+  {
+    "symbol": "TRADOOR/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.136532,
+    "net_return_pct_on_initial": -0.136532,
+    "avg_r_multiple": -0.655941
+  },
+  {
+    "symbol": "TRB/USDT",
+    "trades": 17,
+    "wins": 3,
+    "losses": 14,
+    "win_rate_pct": 17.6471,
+    "net_pnl": -0.083204,
+    "net_return_pct_on_initial": -0.083204,
+    "avg_r_multiple": 0.026955
+  },
+  {
+    "symbol": "TRU/USDT",
+    "trades": 8,
+    "wins": 3,
+    "losses": 5,
+    "win_rate_pct": 37.5,
+    "net_pnl": 0.013237,
+    "net_return_pct_on_initial": 0.013237,
+    "avg_r_multiple": 0.187445
+  },
+  {
+    "symbol": "TRUMP/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.114547,
+    "net_return_pct_on_initial": -0.114547,
+    "avg_r_multiple": -0.1928
+  },
+  {
+    "symbol": "TRX/USDT",
+    "trades": 27,
+    "wins": 4,
+    "losses": 23,
+    "win_rate_pct": 14.8148,
+    "net_pnl": -1.080797,
+    "net_return_pct_on_initial": -1.080797,
+    "avg_r_multiple": -0.104538
+  },
+  {
+    "symbol": "TST/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.12031,
+    "net_return_pct_on_initial": -0.12031,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "TURBO/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": 0.169585,
+    "net_return_pct_on_initial": 0.169585,
+    "avg_r_multiple": 0.281975
+  },
+  {
+    "symbol": "TUT/USDT",
+    "trades": 4,
+    "wins": 3,
+    "losses": 1,
+    "win_rate_pct": 75.0,
+    "net_pnl": 0.686029,
+    "net_return_pct_on_initial": 0.686029,
+    "avg_r_multiple": 1.009418
+  },
+  {
+    "symbol": "TWT/USDT",
+    "trades": 5,
+    "wins": 2,
+    "losses": 3,
+    "win_rate_pct": 40.0,
+    "net_pnl": 0.205424,
+    "net_return_pct_on_initial": 0.205424,
+    "avg_r_multiple": 0.630269
+  },
+  {
+    "symbol": "UAI/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.028762,
+    "net_return_pct_on_initial": -0.028762,
+    "avg_r_multiple": -0.128292
+  },
+  {
+    "symbol": "UMA/USDT",
+    "trades": 5,
+    "wins": 5,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.865028,
+    "net_return_pct_on_initial": 0.865028,
+    "avg_r_multiple": 1.547372
+  },
+  {
+    "symbol": "UNI/USDT",
+    "trades": 10,
+    "wins": 1,
+    "losses": 9,
+    "win_rate_pct": 10.0,
+    "net_pnl": -0.986671,
+    "net_return_pct_on_initial": -0.986671,
+    "avg_r_multiple": -0.432395
+  },
+  {
+    "symbol": "USELESS/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.212387,
+    "net_return_pct_on_initial": 0.212387,
+    "avg_r_multiple": 0.511652
+  },
+  {
+    "symbol": "USTC/USDT",
+    "trades": 5,
+    "wins": 0,
+    "losses": 5,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.312024,
+    "net_return_pct_on_initial": -0.312024,
+    "avg_r_multiple": -0.484825
+  },
+  {
+    "symbol": "USUAL/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.286737,
+    "net_return_pct_on_initial": 0.286737,
+    "avg_r_multiple": 1.025505
+  },
+  {
+    "symbol": "UXLINK/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.239155,
+    "net_return_pct_on_initial": 0.239155,
+    "avg_r_multiple": 1.142489
+  },
+  {
+    "symbol": "VANA/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.073899,
+    "net_return_pct_on_initial": -0.073899,
+    "avg_r_multiple": 0.353489
+  },
+  {
+    "symbol": "VANRY/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.212801,
+    "net_return_pct_on_initial": -0.212801,
+    "avg_r_multiple": -0.403409
+  },
+  {
+    "symbol": "VELODROME/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.091304,
+    "net_return_pct_on_initial": -0.091304,
+    "avg_r_multiple": -0.438706
+  },
+  {
+    "symbol": "VELVET/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.053045,
+    "net_return_pct_on_initial": -0.053045,
+    "avg_r_multiple": -0.078391
+  },
+  {
+    "symbol": "VET/USDT",
+    "trades": 19,
+    "wins": 4,
+    "losses": 15,
+    "win_rate_pct": 21.0526,
+    "net_pnl": -0.750941,
+    "net_return_pct_on_initial": -0.750941,
+    "avg_r_multiple": -0.158383
+  },
+  {
+    "symbol": "VIC/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.1122,
+    "net_return_pct_on_initial": -0.1122,
+    "avg_r_multiple": -0.685054
+  },
+  {
+    "symbol": "VIDT/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.137637,
+    "net_return_pct_on_initial": -0.137637,
+    "avg_r_multiple": -0.964949
+  },
+  {
+    "symbol": "VIRTUAL/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.039421,
+    "net_return_pct_on_initial": -0.039421,
+    "avg_r_multiple": 0.49518
+  },
+  {
+    "symbol": "VVV/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.214369,
+    "net_return_pct_on_initial": -0.214369,
+    "avg_r_multiple": -0.319367
+  },
+  {
+    "symbol": "W/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": -0.184253,
+    "net_return_pct_on_initial": -0.184253,
+    "avg_r_multiple": -0.245039
+  },
+  {
+    "symbol": "WAL/USDT",
+    "trades": 2,
+    "wins": 1,
+    "losses": 1,
+    "win_rate_pct": 50.0,
+    "net_pnl": 0.093965,
+    "net_return_pct_on_initial": 0.093965,
+    "avg_r_multiple": 0.485241
+  },
+  {
+    "symbol": "WAVES/USDT",
+    "trades": 23,
+    "wins": 7,
+    "losses": 16,
+    "win_rate_pct": 30.4348,
+    "net_pnl": -0.7243,
+    "net_return_pct_on_initial": -0.7243,
+    "avg_r_multiple": -0.038167
+  },
+  {
+    "symbol": "WAXP/USDT",
+    "trades": 9,
+    "wins": 4,
+    "losses": 5,
+    "win_rate_pct": 44.4444,
+    "net_pnl": -0.009713,
+    "net_return_pct_on_initial": -0.009713,
+    "avg_r_multiple": 0.030909
+  },
+  {
+    "symbol": "WIF/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": -0.21335,
+    "net_return_pct_on_initial": -0.21335,
+    "avg_r_multiple": -0.264994
+  },
+  {
+    "symbol": "WLD/USDT",
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.284197,
+    "net_return_pct_on_initial": -0.284197,
+    "avg_r_multiple": -0.353035
+  },
+  {
+    "symbol": "WLFI/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.094396,
+    "net_return_pct_on_initial": -0.094396,
+    "avg_r_multiple": -0.564038
+  },
+  {
+    "symbol": "WOO/USDT",
+    "trades": 16,
+    "wins": 2,
+    "losses": 14,
+    "win_rate_pct": 12.5,
+    "net_pnl": -0.796456,
+    "net_return_pct_on_initial": -0.796456,
+    "avg_r_multiple": -0.261668
+  },
+  {
+    "symbol": "XAI/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.121626,
+    "net_return_pct_on_initial": -0.121626,
+    "avg_r_multiple": 0.138642
+  },
+  {
+    "symbol": "XAN/USDT",
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate_pct": 100.0,
+    "net_pnl": 0.354241,
+    "net_return_pct_on_initial": 0.354241,
+    "avg_r_multiple": 2.4
+  },
+  {
+    "symbol": "XLM/USDT",
+    "trades": 18,
+    "wins": 6,
+    "losses": 12,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.244779,
+    "net_return_pct_on_initial": 0.244779,
+    "avg_r_multiple": 0.246043
+  },
+  {
+    "symbol": "XMR/USDT",
+    "trades": 28,
+    "wins": 6,
+    "losses": 22,
+    "win_rate_pct": 21.4286,
+    "net_pnl": -0.712971,
+    "net_return_pct_on_initial": -0.712971,
+    "avg_r_multiple": -0.024421
+  },
+  {
+    "symbol": "XRP/USDT",
+    "trades": 21,
+    "wins": 5,
+    "losses": 16,
+    "win_rate_pct": 23.8095,
+    "net_pnl": -0.732475,
+    "net_return_pct_on_initial": -0.732475,
+    "avg_r_multiple": -0.163748
+  },
+  {
+    "symbol": "XTZ/USDT",
+    "trades": 33,
+    "wins": 7,
+    "losses": 26,
+    "win_rate_pct": 21.2121,
+    "net_pnl": -1.005176,
+    "net_return_pct_on_initial": -1.005176,
+    "avg_r_multiple": -0.136315
+  },
+  {
+    "symbol": "XVG/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.104657,
+    "net_return_pct_on_initial": -0.104657,
+    "avg_r_multiple": 0.102953
+  },
+  {
+    "symbol": "XVS/USDT",
+    "trades": 7,
+    "wins": 1,
+    "losses": 6,
+    "win_rate_pct": 14.2857,
+    "net_pnl": -0.224101,
+    "net_return_pct_on_initial": -0.224101,
+    "avg_r_multiple": -0.024731
+  },
+  {
+    "symbol": "YALA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.058357,
+    "net_return_pct_on_initial": -0.058357,
+    "avg_r_multiple": -0.336773
+  },
+  {
+    "symbol": "YB/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.107035,
+    "net_return_pct_on_initial": -0.107035,
+    "avg_r_multiple": -1.0
+  },
+  {
+    "symbol": "YFI/USDT",
+    "trades": 20,
+    "wins": 7,
+    "losses": 13,
+    "win_rate_pct": 35.0,
+    "net_pnl": 0.339547,
+    "net_return_pct_on_initial": 0.339547,
+    "avg_r_multiple": 0.265594
+  },
+  {
+    "symbol": "YGG/USDT",
+    "trades": 5,
+    "wins": 1,
+    "losses": 4,
+    "win_rate_pct": 20.0,
+    "net_pnl": -0.247918,
+    "net_return_pct_on_initial": -0.247918,
+    "avg_r_multiple": -0.22718
+  },
+  {
+    "symbol": "ZEC/USDT",
+    "trades": 19,
+    "wins": 6,
+    "losses": 13,
+    "win_rate_pct": 31.5789,
+    "net_pnl": -0.541694,
+    "net_return_pct_on_initial": -0.541694,
+    "avg_r_multiple": 0.046202
+  },
+  {
+    "symbol": "ZEN/USDT",
+    "trades": 12,
+    "wins": 1,
+    "losses": 11,
+    "win_rate_pct": 8.3333,
+    "net_pnl": -0.293127,
+    "net_return_pct_on_initial": -0.293127,
+    "avg_r_multiple": -0.029992
+  },
+  {
+    "symbol": "ZEREBRO/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.035401,
+    "net_return_pct_on_initial": -0.035401,
+    "avg_r_multiple": -0.15458
+  },
+  {
+    "symbol": "ZETA/USDT",
+    "trades": 6,
+    "wins": 1,
+    "losses": 5,
+    "win_rate_pct": 16.6667,
+    "net_pnl": -0.159798,
+    "net_return_pct_on_initial": -0.159798,
+    "avg_r_multiple": -0.206599
+  },
+  {
+    "symbol": "ZIL/USDT",
+    "trades": 11,
+    "wins": 1,
+    "losses": 10,
+    "win_rate_pct": 9.0909,
+    "net_pnl": -1.05829,
+    "net_return_pct_on_initial": -1.05829,
+    "avg_r_multiple": -0.404202
+  },
+  {
+    "symbol": "ZK/USDT",
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "win_rate_pct": 25.0,
+    "net_pnl": 0.022516,
+    "net_return_pct_on_initial": 0.022516,
+    "avg_r_multiple": 0.436528
+  },
+  {
+    "symbol": "ZKC/USDT",
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "win_rate_pct": 33.3333,
+    "net_pnl": 0.24478,
+    "net_return_pct_on_initial": 0.24478,
+    "avg_r_multiple": 0.71161
+  },
+  {
+    "symbol": "ZKJ/USDT",
+    "trades": 5,
+    "wins": 0,
+    "losses": 5,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.153094,
+    "net_return_pct_on_initial": -0.153094,
+    "avg_r_multiple": -0.522561
+  },
+  {
+    "symbol": "ZORA/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.109939,
+    "net_return_pct_on_initial": -0.109939,
+    "avg_r_multiple": -0.637064
+  },
+  {
+    "symbol": "ZRC/USDT",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.076279,
+    "net_return_pct_on_initial": -0.076279,
+    "avg_r_multiple": -0.449156
+  },
+  {
+    "symbol": "ZRO/USDT",
+    "trades": 2,
+    "wins": 0,
+    "losses": 2,
+    "win_rate_pct": 0.0,
+    "net_pnl": -0.045415,
+    "net_return_pct_on_initial": -0.045415,
+    "avg_r_multiple": -0.104577
+  },
+  {
+    "symbol": "ZRX/USDT",
+    "trades": 13,
+    "wins": 2,
+    "losses": 11,
+    "win_rate_pct": 15.3846,
+    "net_pnl": -0.216091,
+    "net_return_pct_on_initial": -0.216091,
+    "avg_r_multiple": 0.045131
+  }
+]

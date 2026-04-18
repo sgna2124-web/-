@@ -1,0 +1,3 @@
+master_summary_local_3V2
+
+experiment=3V2_S01_dd_brake_retest_fail | side=short_only | final_return_pct=-100.0000 | mdd_pct=100.0000 | cd_value=0.0000 | pf=0.851865 | trades=375767 | max_conc=12 | delta_cd_value_vs_baseline=-391.9606 | verdict=over_mdd5
