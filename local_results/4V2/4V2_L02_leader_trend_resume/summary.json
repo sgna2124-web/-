@@ -1,0 +1,16 @@
+{
+  "strategy_name": "4V2_L02_leader_trend_resume",
+  "side": "long",
+  "description": "리더형 추세 지속",
+  "symbols_tested": 597,
+  "trades": 983438,
+  "wins": 263219,
+  "losses": 720219,
+  "win_rate_pct": 26.7652,
+  "final_return_pct": -100.0,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.8106,
+  "verdict": "reject"
+}

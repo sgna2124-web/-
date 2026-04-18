@@ -1,0 +1,7 @@
+﻿strategy_name,side,description,symbols_tested,trades,wins,losses,win_rate_pct,final_return_pct,max_drawdown_pct,cd_value,baseline_cd_value,delta_cd_value_vs_baseline,verdict
+4V2_L01_capitulation_reclaim,long,급락 후 회복형,597,3594,1643,1951,45.7151,1.1625451256895683e+20,100.0,5693531408.2219,108.8106,5693531299.4113,mdd_fail
+4V2_L02_leader_trend_resume,long,리더형 추세 지속,597,983438,263219,720219,26.7652,-100.0,100.0,0.0,108.8106,-108.8106,reject
+4V2_L03_failed_breakdown_reversal,long,실패한 하방 이탈 되돌림,597,712470,239018,473452,33.5478,-100.0,100.0,0.0,108.8106,-108.8106,reject
+4V2_S01_short_top_strict_gate,short,기존 숏 1위 강화형,597,267497,84705,182792,31.6658,-100.0,100.0,0.0,391.9606,-391.9606,reject
+4V2_S02_short_top_delayed_retest,short,기존 숏 1위 지연 재테스트형,597,735072,217263,517809,29.5567,-100.0,100.0,0.0,391.9606,-391.9606,reject
+4V2_S03_compression_breakdown_v2,short,압축 후 하방 이탈 재설계형,597,1176202,371078,805124,31.5488,-100.0,100.0,0.0,391.9606,-391.9606,reject

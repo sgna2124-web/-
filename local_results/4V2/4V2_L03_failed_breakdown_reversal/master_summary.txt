@@ -1,0 +1,1 @@
+strategy=4V2_L03_failed_breakdown_reversalside=longdescription=실패한 하방 이탈 되돌림symbols_tested=597trades=712470win_rate_pct=33.5478final_return_pct=-100.0max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=108.8106delta_cd_value_vs_baseline=-108.8106verdict=reject

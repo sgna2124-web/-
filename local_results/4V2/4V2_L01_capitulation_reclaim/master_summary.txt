@@ -1,0 +1,1 @@
+strategy=4V2_L01_capitulation_reclaimside=longdescription=급락 후 회복형symbols_tested=597trades=3594win_rate_pct=45.7151final_return_pct=1.1625451256895683e+20max_drawdown_pct=100.0cd_value=5693531408.2219baseline_cd_value=108.8106delta_cd_value_vs_baseline=5693531299.4113verdict=mdd_fail

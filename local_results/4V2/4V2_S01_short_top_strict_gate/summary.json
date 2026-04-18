@@ -1,0 +1,16 @@
+{
+  "strategy_name": "4V2_S01_short_top_strict_gate",
+  "side": "short",
+  "description": "기존 숏 1위 강화형",
+  "symbols_tested": 597,
+  "trades": 267497,
+  "wins": 84705,
+  "losses": 182792,
+  "win_rate_pct": 31.6658,
+  "final_return_pct": -100.0,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value_vs_baseline": -391.9606,
+  "verdict": "reject"
+}
