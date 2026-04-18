@@ -1,1 +1,0 @@
-strategy=6V2_L06_squeeze_release_longside=longdescription=압축 후 상방 확장symbols_tested=597trades=723115win_rate_pct=30.676final_return_pct=-100.0max_return_pct=2.8554max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=108.8106delta_cd_value_vs_baseline=-108.8106verdict=ruin

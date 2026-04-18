@@ -1,3 +1,0 @@
-master_summary_local_3V2
-
-experiment=3V2_L01_trend_pullback_resume | side=long_only | final_return_pct=-100.0000 | mdd_pct=100.0000 | cd_value=0.0000 | pf=0.742391 | trades=157886 | max_conc=12 | delta_cd_value_vs_baseline=-108.8106 | verdict=over_mdd5

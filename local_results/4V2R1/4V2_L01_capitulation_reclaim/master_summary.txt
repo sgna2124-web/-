@@ -1,0 +1,1 @@
+strategy=4V2_L01_capitulation_reclaimside=longdescription=4V2 L01 재검증: 1% 진입 기준 원형 급락 회수 전략symbols_tested=597trades=2829win_rate_pct=45.9526final_return_pct=49.0178max_return_pct=49.7927max_drawdown_pct=12.1331cd_value=130.9373baseline_cd_value=108.8106delta_cd_value_vs_baseline=22.1267verdict=mdd_fail

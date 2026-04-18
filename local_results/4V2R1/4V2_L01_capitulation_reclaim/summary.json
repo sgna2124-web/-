@@ -1,0 +1,17 @@
+{
+  "strategy_name": "4V2_L01_capitulation_reclaim",
+  "side": "long",
+  "description": "4V2 L01 재검증: 1% 진입 기준 원형 급락 회수 전략",
+  "symbols_tested": 597,
+  "trades": 2829,
+  "wins": 1300,
+  "losses": 1529,
+  "win_rate_pct": 45.9526,
+  "final_return_pct": 49.0178,
+  "max_return_pct": 49.7927,
+  "max_drawdown_pct": 12.1331,
+  "cd_value": 130.9373,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": 22.1267,
+  "verdict": "mdd_fail"
+}

@@ -1,1 +1,0 @@
-strategy=6V2_L02_breakout_confirm_reclaimside=longdescription=급락 회수 후 신호봉 고가 돌파 확인symbols_tested=597trades=1659win_rate_pct=32.8511final_return_pct=-96.6327max_return_pct=50.7413max_drawdown_pct=98.9991cd_value=0.0337baseline_cd_value=108.8106delta_cd_value_vs_baseline=-108.7769verdict=mdd_fail

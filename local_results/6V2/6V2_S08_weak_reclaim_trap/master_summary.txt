@@ -1,1 +1,0 @@
-strategy=6V2_S08_weak_reclaim_trapside=shortdescription=약한 상방 복귀 실패 트랩symbols_tested=597trades=1157969win_rate_pct=33.7876final_return_pct=-100.0max_return_pct=0.9944max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin

@@ -1,1 +1,0 @@
-strategy=5V2_L02_two_step_flush_reversalside=longdescription=L01 변형: 2단계 확인형 급락 반전symbols_tested=597trades=1952win_rate_pct=35.2971final_return_pct=-63.8706max_return_pct=474.1948max_drawdown_pct=95.6093cd_value=1.5863baseline_cd_value=108.8106delta_cd_value_vs_baseline=-107.2243verdict=mdd_fail

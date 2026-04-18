@@ -1,1 +1,0 @@
-strategy=6V2_L04_trend_pullback_resumeside=longdescription=상승 추세 중 EMA20 되돌림 후 재상승symbols_tested=597trades=725637win_rate_pct=32.2843final_return_pct=-100.0max_return_pct=7.3879max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=108.8106delta_cd_value_vs_baseline=-108.8106verdict=ruin

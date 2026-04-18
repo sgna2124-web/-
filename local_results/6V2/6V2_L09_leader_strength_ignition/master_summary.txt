@@ -1,1 +1,0 @@
-strategy=6V2_L09_leader_strength_ignitionside=longdescription=강한 상대강도 후 재점화symbols_tested=597trades=41332win_rate_pct=29.4372final_return_pct=-100.0max_return_pct=12.8726max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=108.8106delta_cd_value_vs_baseline=-108.8106verdict=ruin

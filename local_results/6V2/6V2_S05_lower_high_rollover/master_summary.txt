@@ -1,1 +1,0 @@
-strategy=6V2_S05_lower_high_rolloverside=shortdescription=낮은 고점 형성 후 롤오버symbols_tested=597trades=1387734win_rate_pct=34.5199final_return_pct=-100.0max_return_pct=0.9162max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin

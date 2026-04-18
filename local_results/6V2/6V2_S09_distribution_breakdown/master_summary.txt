@@ -1,1 +1,0 @@
-strategy=6V2_S09_distribution_breakdownside=shortdescription=분배 구간 하단 붕괴symbols_tested=597trades=559482win_rate_pct=31.3638final_return_pct=-100.0max_return_pct=0.0max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin

@@ -1,1 +1,0 @@
-strategy=5V2_S01_trend_bounce_failside=shortdescription=신규 숏: 하락 추세 중 약한 반등 실패symbols_tested=597trades=17496win_rate_pct=30.2755final_return_pct=-100.0max_return_pct=16.8953max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin

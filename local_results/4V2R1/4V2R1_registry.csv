@@ -1,0 +1,2 @@
+﻿strategy_name,side,description,symbols_tested,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,cd_value,baseline_cd_value,delta_cd_value_vs_baseline,verdict
+4V2_L01_capitulation_reclaim,long,4V2 L01 재검증: 1% 진입 기준 원형 급락 회수 전략,597,2829,1300,1529,45.9526,49.0178,49.7927,12.1331,130.9373,108.8106,22.1267,mdd_fail

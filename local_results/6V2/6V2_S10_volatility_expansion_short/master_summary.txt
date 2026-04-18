@@ -1,1 +1,0 @@
-strategy=6V2_S10_volatility_expansion_shortside=shortdescription=변동성 확장 하락 가속symbols_tested=597trades=25511win_rate_pct=29.5324final_return_pct=-100.0max_return_pct=262.8143max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-391.9606verdict=ruin
