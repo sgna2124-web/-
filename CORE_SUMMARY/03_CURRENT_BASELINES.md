@@ -1,71 +1,72 @@
-# CURRENT BASELINES
+현재 공식 기준선
 
-이 문서는 '현재 무엇을 공식 비교 기준선으로 볼 것인가'를 적는 중앙 문서다.
-새로운 롱 1위/숏 1위가 나오면 가장 먼저 이 파일을 갱신한다.
+이 문서는 새 대화창의 어시스턴트가 현재 공식 long 1위와 short 1위를 즉시 파악하기 위한 기준선 문서다.
+비교는 long-only와 short-only를 분리하여 수행한다.
 
-## A. 기존 혼합 탐색 구간에서 확인된 주요 기준선
+현재 프로젝트의 공식 판단 기준
+공식 판단 기준은 cd_value와 max_drawdown_pct(MDD)다.
+현재 프로젝트에서 cd_value는 기본 자산 100에 먼저 MDD를 적용한 뒤, 그 남은 자산에 max_return_pct를 적용한 값으로 해석한다.
+final_return_pct는 참고 지표다.
 
-### official_top200_reference
-- final_return_pct: 1120.69995
-- pf: 1.2199649
-- mdd_pct: -36.03441
-- max_conc: 271
-- 해석: v23 baseline_top200 이후 v26/v27까지도 종합 성과 기준 가장 강했던 비교선
-- 주의: 이것은 과거 mixed 탐색의 강한 기준선일 뿐, 현재 프로젝트의 최종 목적(MDD 5% 미만 cd_value 최고)의 정답은 아님
+중요한 주의사항
+아래 공식 기준선 수치 중 legacy 항목은 과거 state/global_top_reference_under_mdd5_cd.json 및 관련 패치 문서에서 가져온 값이다.
+이 legacy 수치의 cd_value는 과거 공식으로 계산된 값일 수 있다.
+따라서 현재 max_return_pct 기반 공식으로 엄밀하게 승격/교체를 판정하려면, 기존 공식 1위도 max_return_pct를 포함한 현재 공식으로 재계산하거나, 최소한 challenger와 incumbent 모두 동일한 계산 규칙을 사용해야 한다.
+즉, 아래 전략명과 경로는 현재 공식 비교 기준선으로 유지하되, legacy cd_value는 역사적 참고치로 본다.
 
-### asym_guard_top200
-- final_return_pct: 1030.7929
-- pf: 1.2327923
-- mdd_pct: -35.22274
-- max_conc: 269
-- 해석: 공식 기준선보다 방어/균형형 참고선으로 의미가 있었음
+1. 현재 공식 long-only 기준선
+strategy_name: long_hybrid_wick_bridge_halfhalf
+family: long_only_hybrid_wick_bridge
+version_reference: legacy_v67
+code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.py
+config_path: experiments/base_config_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.json
+combinations_path: experiments/combinations_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.json
+result_path: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/
+summary_file: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/summary.json
+legacy_final_return_pct: 9.9603
+legacy_mdd_pct: -1.0456
+legacy_cd_value: 108.8106
+max_return_pct: unknown_legacy_not_recorded
+current_cd_value: pending_recompute_under_current_formula
+pf: 1.3033
+win_rate_pct: 54.9859
+max_conc: 50
+source_of_truth: state/global_top_reference_under_mdd5_cd.json
+status: official_long_reference
+note: 현재 long-only 공식 비교 기준 전략명과 경로. 수치 중 legacy_cd_value는 역사적 참고치다.
 
-### asym_guard_top150
-- final_return_pct: 898.76
-- pf: 1.21856
-- mdd_pct: -32.53
-- max_conc: 269
-- 해석: MDD 방어형 기준선 참고용
+2. 현재 공식 short-only 기준선
+strategy_name: short_beh_dd_brake
+family: short_only_behavioral_guards
+version_reference: legacy_v52
+code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards.py
+config_path: experiments/base_config_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards.json
+combinations_path: experiments/combinations_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards.json
+result_path: results_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards/short_beh_dd_brake/
+summary_file: results_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards/short_beh_dd_brake/summary.json
+legacy_final_return_pct: 311.5456
+legacy_mdd_pct: -4.7589
+legacy_cd_value: 391.9606
+max_return_pct: unknown_legacy_not_recorded
+current_cd_value: pending_recompute_under_current_formula
+pf: 1.4457
+win_rate_pct: 15.0623
+max_conc: 286
+source_of_truth: state/global_top_reference_under_mdd5_cd.json
+status: official_short_reference
+note: 현재 short-only 공식 비교 기준 전략명과 경로. 수치 중 legacy_cd_value는 역사적 참고치다.
 
-### score_l16_s20_shortheavy
-- final_return_pct: 1089.0657
-- pf: 1.2242424
-- mdd_pct: -41.06885
-- max_conc: 386
-- 해석: top200 제거 상태에서 수익 보존율이 높았던 유력 대체 후보
-- 한계: MDD와 max_conc 악화로 공식 대체 성공은 아님
+3. mixed historical reference
+strategy_name: official_top200_reference
+result_path: summary_upload_draft/summary_upload_draft/04_현재기준_TOP1_참조.md
+legacy_final_return_pct: 1120.69995
+legacy_mdd_pct: -36.03441
+legacy_cd_value: 780.8279
+status: archive_reference_only
+note: mixed historical reference only. long-only / short-only 공식 비교선으로 사용하지 않음.
 
-## B. 현재 롱 전용 / 숏 전용 공식 기준선
-
-주의:
-- 이 섹션은 앞으로 프로젝트의 공식 비교 기준선이 된다.
-- 현재 값이 확정되면 아래에 전략명, 결과, cd_value, 경로를 기록한다.
-- 아직 최신 값 정리가 끝나지 않았다면 임시로 TODO 상태를 둔다.
-
-### LONG_ONLY_OFFICIAL_1
-- strategy_name: TODO
-- source_path: TODO
-- final_return_pct: TODO
-- mdd_pct: TODO
-- cd_value: TODO
-- max_conc: TODO
-- notes: 앞으로 새 롱 전략은 반드시 이 값과 비교
-
-### SHORT_ONLY_OFFICIAL_1
-- strategy_name: TODO
-- source_path: TODO
-- final_return_pct: TODO
-- mdd_pct: TODO
-- cd_value: TODO
-- max_conc: TODO
-- notes: 앞으로 새 숏 전략은 반드시 이 값과 비교
-
-## C. 갱신 규칙
-- 새 롱 전략이 기존 LONG_ONLY_OFFICIAL_1보다 우수하면 즉시 교체
-- 새 숏 전략이 기존 SHORT_ONLY_OFFICIAL_1보다 우수하면 즉시 교체
-- 우수 판정은 MDD 우선, 그 다음 cd_value, 그 다음 final_return_pct 순서로 판단
-- 교체 시 이전 1위는 ARCHIVED_BASELINES 섹션 또는 별도 아카이브 문서로 이동
-
-## D. TODO
-- 저장소 내 최신 long-only / short-only 결과를 추려 위 빈칸을 채울 것
-- long/short 전용 1위의 코드 경로와 결과 폴더 경로를 같이 명시할 것
+4. 승격 규칙
+신규 long 전략은 1번 기준선과 비교한다.
+신규 short 전략은 2번 기준선과 비교한다.
+새 전략 결과에는 최소한 final_return_pct, max_return_pct, max_drawdown_pct, cd_value, result_path가 포함되어야 한다.
+현재 공식 1위를 교체하려면 challenger와 incumbent가 동일 계산 규칙으로 비교 가능해야 한다.

@@ -1,59 +1,54 @@
-# EXPERIMENT ENTRY TEMPLATE
+실험 기록 템플릿
 
-아래 템플릿을 복붙해서 새 실험 문서를 만들면 된다.
+아래 형식을 새 전략 결과 기록에 그대로 사용한다.
+모든 항목은 가능한 한 채운다.
+max_return_pct는 반드시 포함한다.
 
----
+strategy_name:
+side:
+family:
+version_reference:
+status:
 
-# [실험명]
+code_path:
+config_path:
+combinations_path:
+result_path:
+summary_file:
 
-## 1. 기본 정보
-- version_prefix:
-- side:
-- date:
-- compare_target:
-- strategy_id:
-- code_path:
-- result_path:
+capital_per_trade_pct: 1
+fee_pct: 0.04
+full_universe_backtest: true
+fast_screening_used: false
+early_rejection_used: false
+trade_log_required: false
 
-## 2. 실험 의도
-- 왜 이 실험을 했는가:
-- 이전 기준선의 어떤 한계를 건드리려는가:
-- 기대한 핵심 개선점:
+trades:
+win_rate_pct:
+pf:
+final_return_pct:
+max_return_pct:
+max_drawdown_pct:
+cd_value:
+max_conc:
+verdict:
 
-## 3. 변경 사항
-- entry 변경:
-- filter 변경:
-- exit 변경:
-- risk 변경:
-- 기타:
+notes:
 
-## 4. 결과
-- final_return_pct:
-- mdd_pct:
-- cd_value:
-- pf:
-- win_rate:
-- max_conc:
+verdict 사용 규칙
+official_long_reference
+official_short_reference
+candidate
+strong_candidate_not_promoted
+carry_forward_same_as_official_long_1
+carry_forward_same_as_official_short_1
+archive_reference_only
+reject
+invalid_env
+pending_review
 
-## 5. 기준선 대비 비교
-- delta_final_return_pct:
-- delta_mdd_pct:
-- delta_cd_value:
-- delta_pf:
-- delta_max_conc:
-
-## 6. 해석
-- 잘된 점:
-- 안된 점:
-- 구조적으로 배운 점:
-- 재시도 가치:
-
-## 7. 판정
-- verdict: promoted / candidate / hold / failed / invalid
-- one_line_reason:
-- next_action:
-
----
-
-## 빠른 복붙용 한 줄 요약 형식
-experiment=[이름] | compare=[기준선] | final_return_pct=[값] | mdd_pct=[값] | cd_value=[값] | pf=[값] | max_conc=[값] | verdict=[판정]
+기록 규칙
+공식 판단 기준은 cd_value와 max_drawdown_pct(MDD)다.
+final_return_pct는 참고 지표다.
+max_return_pct는 참고 지표이면서 cd_value 산출에 반드시 필요한 항목이다.
+invalid_env는 정상 실패가 아니라 제거 대상 실험이다.

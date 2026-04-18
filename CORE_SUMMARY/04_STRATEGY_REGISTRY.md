@@ -1,95 +1,46 @@
-# STRATEGY REGISTRY
+전략 등록부
 
-이 문서는 전략들을 '전략 카드'처럼 등록하는 중앙 등록부다.
-새 전략을 만들면 최소 1줄이라도 여기에 추가한다.
+이 문서는 새 대화창의 어시스턴트가 현재 공식 기준 전략과 현재 개발 초점을 빠르게 이해하기 위한 등록부다.
+정확한 진입/청산 로직은 반드시 code_path의 실제 코드를 다시 확인한다.
+이 문서는 전략의 역할, 기준선 여부, 참조 경로를 고정하는 목적이다.
 
-## 작성 형식
-- strategy_id:
-- side: long_only / short_only / mixed
-- family:
-- concept:
-- core_filters:
-- entry_logic:
-- exit_logic:
-- risk_logic:
-- expected_edge:
-- known_strengths:
-- known_weaknesses:
-- result_path:
-- code_path:
-- status: active / archived / failed / needs_retest
-- notes:
+1. official long reference
+strategy_name: long_hybrid_wick_bridge_halfhalf
+side: long_only
+family: long_only_hybrid_wick_bridge
+version_reference: legacy_v67
+role: official_long_reference
+code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.py
+config_path: experiments/base_config_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.json
+combinations_path: experiments/combinations_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.json
+result_path: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/
+summary_file: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/summary.json
+strength_hint: 현재 long-only 공식 비교 기준선으로 유지되는 전략 계열
+risk_hint: legacy 기준선이므로 max_return_pct 기반 현행 공식으로는 재검증이 필요할 수 있음
+usage_rule: 새로운 long 전략은 이 전략을 기준으로 비교한다.
 
----
+2. official short reference
+strategy_name: short_beh_dd_brake
+side: short_only
+family: short_only_behavioral_guards
+version_reference: legacy_v52
+role: official_short_reference
+code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards.py
+config_path: experiments/base_config_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards.json
+combinations_path: experiments/combinations_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards.json
+result_path: results_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards/short_beh_dd_brake/
+summary_file: results_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards/short_beh_dd_brake/summary.json
+strength_hint: 현재 short-only 공식 비교 기준선으로 유지되는 전략 계열
+risk_hint: legacy 기준선이므로 max_return_pct 기반 현행 공식으로는 재검증이 필요할 수 있음
+usage_rule: 새로운 short 전략은 이 전략을 기준으로 비교한다.
 
-## 예시 등록
+3. current development focus
+long_focus: 기존 long 성과가 약하므로, 고수익 잠재력이 보였던 reclaim/capitulation 계열이나 전혀 다른 신규 long 구조를 적극 탐색한다.
+short_focus: 공식 short 1위는 유지하되, 전혀 다른 계열의 신규 short 전략도 병행 탐색한다.
+comparison_rule: 결과 비교는 long-only와 short-only를 섞지 않는다.
+environment_rule: 자산 진입 비중 1%, 수수료 0.04%, FAST 미사용, 풀 백테스트 기준을 유지한다.
+result_rule: max_return_pct를 반드시 남긴다.
 
-### official_top200_reference
-- strategy_id: official_top200_reference
-- side: mixed
-- family: top-ranked candidate selection
-- concept: top200 기반 후보 선택과 비대칭 guard를 활용한 혼합형 기준선
-- core_filters: top200 selection, hardened score 계열, quality guard 계열
-- entry_logic: 기존 mixed baseline 계열 참조
-- exit_logic: 기존 러너 기준
-- risk_logic: same-bar revalidated 엔진, 수수료 0.0004, 동시 포지션 분할 반영
-- expected_edge: 전체 수익성과 균형
-- known_strengths: 현재 mixed 탐색 역사에서 종합 기준선으로 강했음
-- known_weaknesses: MDD가 매우 큼, 현재 최종 목표(MDD 5% 미만)와 거리 멂
-- result_path: results_json_only_timeout18_time_reduce_v23_strict_revalidated/ 또는 v26/v27 비교 문서 참고
-- code_path: 관련 v23~v27 러너 참조
-- status: archived_reference
-- notes: 현재 long/short 단독 프로젝트의 직접 정답은 아니지만 비교 문화의 기점
-
-### score_l16_s20_shortheavy
-- strategy_id: score_l16_s20_shortheavy
-- side: mixed
-- family: non-top200 replacement attempt
-- concept: short threshold를 더 엄격하게 둔 절대 score 컷 대체 실험
-- core_filters: absolute score threshold, short-heavy bias
-- entry_logic: 기존 v27 계열 참조
-- exit_logic: 기존 러너 기준
-- risk_logic: MDD와 max_conc 개선이 미흡
-- expected_edge: top200 제거 후에도 수익 보존
-- known_strengths: 대체 후보 중 수익 보존율 우수
-- known_weaknesses: MDD 악화, max_conc 악화
-- result_path: results_json_only_timeout18_time_reduce_v27_strict_score_replace_topn/
-- code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v27_strict_score_replace_topn.py
-- status: archived_candidate
-- notes: 구조적 힌트는 남지만 최종 채택 아님
-
-## LONG ONLY / SHORT ONLY 등록 구역
-
-### LONG_ONLY_OFFICIAL_1
-- strategy_id: TODO
-- side: long_only
-- family: TODO
-- concept: TODO
-- core_filters: TODO
-- entry_logic: TODO
-- exit_logic: TODO
-- risk_logic: TODO
-- expected_edge: TODO
-- known_strengths: TODO
-- known_weaknesses: TODO
-- result_path: TODO
-- code_path: TODO
-- status: active_baseline
-- notes: 현재 롱 공식 1위를 여기에 기록
-
-### SHORT_ONLY_OFFICIAL_1
-- strategy_id: TODO
-- side: short_only
-- family: TODO
-- concept: TODO
-- core_filters: TODO
-- entry_logic: TODO
-- exit_logic: TODO
-- risk_logic: TODO
-- expected_edge: TODO
-- known_strengths: TODO
-- known_weaknesses: TODO
-- result_path: TODO
-- code_path: TODO
-- status: active_baseline
-- notes: 현재 숏 공식 1위를 여기에 기록
+4. invalid_env 처리 원칙
+환경 설정 오류, 자산 비중 오류, 수수료 오류, 비교 불가능한 실험은 invalid_env로 처리한다.
+invalid_env 실험은 전략 실패 기록으로 누적하지 않고 결과 카탈로그에서 제거한다.
