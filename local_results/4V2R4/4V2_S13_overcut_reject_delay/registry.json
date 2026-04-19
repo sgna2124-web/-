@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S13_overcut_reject_delay",
+  "side": "short",
+  "description": "20봉 고점을 오버컷한 뒤 1~3바 지연 후 재거부하는 지연 리젝트 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_S13_overcut_reject_delay\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_S13_overcut_reject_delay\\per_symbol_summary.json",
+  "generated_at_unix": 1776597288
+}

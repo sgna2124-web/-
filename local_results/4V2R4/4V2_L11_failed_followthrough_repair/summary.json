@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L11_failed_followthrough_repair",
+  "side": "long",
+  "description": "하방 연장 시도가 실패하고 다음 바에서 고점을 회수하는 후속 실패 복구 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R4",
+  "processed_symbols": 597,
+  "total_trades": 31191,
+  "total_wins": 11358,
+  "total_losses": 19833,
+  "win_rate_pct": 36.4144,
+  "final_return_pct": -25.8114,
+  "max_return_pct": 0.0085,
+  "max_drawdown_pct": 26.5759,
+  "cd_value": 73.4303,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -35.3803,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

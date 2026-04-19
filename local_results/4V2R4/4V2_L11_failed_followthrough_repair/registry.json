@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L11_failed_followthrough_repair",
+  "side": "long",
+  "description": "하방 연장 시도가 실패하고 다음 바에서 고점을 회수하는 후속 실패 복구 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_L11_failed_followthrough_repair\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_L11_failed_followthrough_repair\\per_symbol_summary.json",
+  "generated_at_unix": 1776597287
+}

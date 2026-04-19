@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L13_undercut_reclaim_delay",
+  "side": "long",
+  "description": "20봉 저점을 언더컷한 뒤 1~3바 지연 후 재회수하는 지연 리클레임 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_L13_undercut_reclaim_delay\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_L13_undercut_reclaim_delay\\per_symbol_summary.json",
+  "generated_at_unix": 1776597287
+}

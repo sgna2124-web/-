@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L12_inside_spring_release",
+  "side": "long",
+  "description": "저점 부근 연속 인사이드 압축 뒤 상방 해제되는 스프링 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R4",
+  "processed_symbols": 597,
+  "total_trades": 6993,
+  "total_wins": 2329,
+  "total_losses": 4664,
+  "win_rate_pct": 33.3047,
+  "final_return_pct": -8.6298,
+  "max_return_pct": 0.007,
+  "max_drawdown_pct": 8.6362,
+  "cd_value": 91.3702,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -17.4404,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

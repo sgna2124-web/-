@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S06_distribution_ceiling_strict",
+  "side": "short",
+  "description": "상단 재시험 반복 뒤 강한 음봉 종가로 직전 저점을 되잃는 분배 천장형 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_S06_distribution_ceiling_strict\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_S06_distribution_ceiling_strict\\per_symbol_summary.json",
+  "generated_at_unix": 1776597288
+}

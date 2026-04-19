@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S12_inside_uptrap_release",
+  "side": "short",
+  "description": "고점 부근 연속 인사이드 압축 뒤 하방 해제되는 업트랩 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R4",
+  "processed_symbols": 597,
+  "total_trades": 7919,
+  "total_wins": 2794,
+  "total_losses": 5125,
+  "win_rate_pct": 35.2822,
+  "final_return_pct": -8.0787,
+  "max_return_pct": 0.0057,
+  "max_drawdown_pct": 8.1146,
+  "cd_value": 91.8907,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -300.0699,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

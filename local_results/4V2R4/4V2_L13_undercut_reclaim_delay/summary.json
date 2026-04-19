@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L13_undercut_reclaim_delay",
+  "side": "long",
+  "description": "20봉 저점을 언더컷한 뒤 1~3바 지연 후 재회수하는 지연 리클레임 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R4",
+  "processed_symbols": 597,
+  "total_trades": 698982,
+  "total_wins": 248145,
+  "total_losses": 450837,
+  "win_rate_pct": 35.5009,
+  "final_return_pct": -99.8684,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 99.8685,
+  "cd_value": 0.1315,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -108.6791,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

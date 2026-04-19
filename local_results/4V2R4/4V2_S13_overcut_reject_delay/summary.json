@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S13_overcut_reject_delay",
+  "side": "short",
+  "description": "20봉 고점을 오버컷한 뒤 1~3바 지연 후 재거부하는 지연 리젝트 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R4",
+  "processed_symbols": 597,
+  "total_trades": 664244,
+  "total_wins": 234830,
+  "total_losses": 429414,
+  "win_rate_pct": 35.353,
+  "final_return_pct": -99.8346,
+  "max_return_pct": 0.0318,
+  "max_drawdown_pct": 99.8355,
+  "cd_value": 0.1645,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -391.7961,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

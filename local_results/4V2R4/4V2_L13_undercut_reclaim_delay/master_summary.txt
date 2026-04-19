@@ -1,0 +1,14 @@
+experiment=4V2_L13_undercut_reclaim_delay
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=698982
+win_rate_pct=35.5009
+final_return_pct=-99.8684
+max_return_pct=0.0
+max_drawdown_pct=99.8685
+cd_value=0.1315
+baseline_cd_value=108.8106
+delta_cd_value=-108.6791
+passes_mdd_lt_5=False
+ruined=False

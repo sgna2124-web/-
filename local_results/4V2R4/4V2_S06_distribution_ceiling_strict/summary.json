@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S06_distribution_ceiling_strict",
+  "side": "short",
+  "description": "상단 재시험 반복 뒤 강한 음봉 종가로 직전 저점을 되잃는 분배 천장형 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R4",
+  "processed_symbols": 597,
+  "total_trades": 73401,
+  "total_wins": 25825,
+  "total_losses": 47576,
+  "win_rate_pct": 35.1834,
+  "final_return_pct": -54.3716,
+  "max_return_pct": 0.0105,
+  "max_drawdown_pct": 54.3936,
+  "cd_value": 45.6112,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -346.3494,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S14_positive_drift_exhaust",
+  "side": "short",
+  "description": "작은 양봉 누적으로 밀어올리다 고점 진행이 멎고 반전하는 드리프트 소진 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_S14_positive_drift_exhaust\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_S14_positive_drift_exhaust\\per_symbol_summary.json",
+  "generated_at_unix": 1776597288
+}

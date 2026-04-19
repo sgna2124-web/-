@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S11_failed_followthrough_trap",
+  "side": "short",
+  "description": "상방 연장 시도가 실패하고 다음 바에서 저점을 잃는 후속 실패 함정 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_S11_failed_followthrough_trap\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R4\\4V2_S11_failed_followthrough_trap\\per_symbol_summary.json",
+  "generated_at_unix": 1776597288
+}

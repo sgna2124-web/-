@@ -1,0 +1,14 @@
+experiment=4V2_L06_absorption_shelf_strict
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=80854
+win_rate_pct=37.1002
+final_return_pct=-50.0038
+max_return_pct=0.0361
+max_drawdown_pct=50.0388
+cd_value=49.9792
+baseline_cd_value=108.8106
+delta_cd_value=-58.8314
+passes_mdd_lt_5=False
+ruined=False
