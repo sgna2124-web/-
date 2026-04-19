@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S10_inventory_vacuum_drop",
+  "side": "short",
+  "description": "하단은 수평인데 고점이 계단식 하락하고 거래량이 마르는 수요 진공 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R3",
+  "processed_symbols": 597,
+  "total_trades": 1409620,
+  "total_wins": 487447,
+  "total_losses": 922173,
+  "win_rate_pct": 34.58,
+  "final_return_pct": -99.9994,
+  "max_return_pct": 0.0074,
+  "max_drawdown_pct": 99.9994,
+  "cd_value": 0.0006,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -391.96,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

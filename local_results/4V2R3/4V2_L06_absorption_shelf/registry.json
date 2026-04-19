@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L06_absorption_shelf",
+  "side": "long",
+  "description": "하단 재시험이 반복되지만 종가 수용이 개선되는 흡수 선반형 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_L06_absorption_shelf\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_L06_absorption_shelf\\per_symbol_summary.json",
+  "generated_at_unix": 1776591851
+}

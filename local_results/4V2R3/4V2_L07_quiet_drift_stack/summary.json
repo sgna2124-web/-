@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L07_quiet_drift_stack",
+  "side": "long",
+  "description": "저변동성 구간에서 양의 바디가 조용히 누적되는 지루한 추세 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R3",
+  "processed_symbols": 597,
+  "total_trades": 1320819,
+  "total_wins": 468871,
+  "total_losses": 851948,
+  "win_rate_pct": 35.4985,
+  "final_return_pct": -100.0,
+  "max_return_pct": 0.0185,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -108.8106,
+  "passes_mdd_lt_5": false,
+  "ruined": true,
+  "verdict": "mdd_fail"
+}

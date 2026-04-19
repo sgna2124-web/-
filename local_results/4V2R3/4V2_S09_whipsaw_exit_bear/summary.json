@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S09_whipsaw_exit_bear",
+  "side": "short",
+  "description": "양방향 휩쏘 종료 뒤 하단 종가 지배가 정착되는 소음 종료 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R3",
+  "processed_symbols": 597,
+  "total_trades": 731071,
+  "total_wins": 265643,
+  "total_losses": 465428,
+  "win_rate_pct": 36.3361,
+  "final_return_pct": -99.9398,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 99.94,
+  "cd_value": 0.06,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -391.9006,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

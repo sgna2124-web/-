@@ -1,0 +1,14 @@
+experiment=4V2_L08_panic_to_apathy_switch
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=65039
+win_rate_pct=36.6411
+final_return_pct=-47.4714
+max_return_pct=0.126
+max_drawdown_pct=47.5375
+cd_value=52.5286
+baseline_cd_value=108.8106
+delta_cd_value=-56.282
+passes_mdd_lt_5=False
+ruined=False

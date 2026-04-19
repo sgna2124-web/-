@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L06_absorption_shelf",
+  "side": "long",
+  "description": "하단 재시험이 반복되지만 종가 수용이 개선되는 흡수 선반형 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R3",
+  "processed_symbols": 597,
+  "total_trades": 12209,
+  "total_wins": 4570,
+  "total_losses": 7639,
+  "win_rate_pct": 37.4314,
+  "final_return_pct": -13.6995,
+  "max_return_pct": 0.0443,
+  "max_drawdown_pct": 14.323,
+  "cd_value": 85.7149,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -23.0957,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

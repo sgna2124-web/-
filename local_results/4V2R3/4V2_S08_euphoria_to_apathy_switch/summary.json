@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S08_euphoria_to_apathy_switch",
+  "side": "short",
+  "description": "급등 직후가 아니라 변동성과 거래량이 꺼지는 무관심 전환 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R3",
+  "processed_symbols": 597,
+  "total_trades": 50577,
+  "total_wins": 19162,
+  "total_losses": 31415,
+  "win_rate_pct": 37.8868,
+  "final_return_pct": -34.4178,
+  "max_return_pct": 0.1047,
+  "max_drawdown_pct": 34.4905,
+  "cd_value": 65.5781,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -326.3825,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

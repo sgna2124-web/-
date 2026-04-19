@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L09_whipsaw_exit_bias",
+  "side": "long",
+  "description": "양방향 휩쏘 종료 뒤 상단 종가 지배가 정착되는 소음 종료 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R3",
+  "processed_symbols": 597,
+  "total_trades": 808236,
+  "total_wins": 287147,
+  "total_losses": 521089,
+  "win_rate_pct": 35.5276,
+  "final_return_pct": -99.9889,
+  "max_return_pct": 0.0188,
+  "max_drawdown_pct": 99.9889,
+  "cd_value": 0.0111,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -108.7995,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L08_panic_to_apathy_switch",
+  "side": "long",
+  "description": "급락 직후가 아니라 변동성과 거래량이 꺼지는 무관심 전환 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_L08_panic_to_apathy_switch\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_L08_panic_to_apathy_switch\\per_symbol_summary.json",
+  "generated_at_unix": 1776591852
+}

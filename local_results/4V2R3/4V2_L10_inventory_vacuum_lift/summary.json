@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L10_inventory_vacuum_lift",
+  "side": "long",
+  "description": "상단은 수평인데 저점이 계단식 상승하고 거래량이 마르는 재고 진공 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R3",
+  "processed_symbols": 597,
+  "total_trades": 1485763,
+  "total_wins": 490829,
+  "total_losses": 994934,
+  "win_rate_pct": 33.0355,
+  "final_return_pct": -100.0,
+  "max_return_pct": 0.0025,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -108.8106,
+  "passes_mdd_lt_5": false,
+  "ruined": true,
+  "verdict": "mdd_fail"
+}

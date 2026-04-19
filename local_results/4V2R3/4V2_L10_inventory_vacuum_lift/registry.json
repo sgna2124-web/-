@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L10_inventory_vacuum_lift",
+  "side": "long",
+  "description": "상단은 수평인데 저점이 계단식 상승하고 거래량이 마르는 재고 진공 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_L10_inventory_vacuum_lift\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_L10_inventory_vacuum_lift\\per_symbol_summary.json",
+  "generated_at_unix": 1776591853
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S10_inventory_vacuum_drop",
+  "side": "short",
+  "description": "하단은 수평인데 고점이 계단식 하락하고 거래량이 마르는 수요 진공 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_S10_inventory_vacuum_drop\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_S10_inventory_vacuum_drop\\per_symbol_summary.json",
+  "generated_at_unix": 1776591855
+}

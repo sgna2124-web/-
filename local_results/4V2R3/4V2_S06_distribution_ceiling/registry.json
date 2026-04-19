@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S06_distribution_ceiling",
+  "side": "short",
+  "description": "상단 재시험이 반복되지만 종가 수용이 악화되는 분배 천장형 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_S06_distribution_ceiling\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_S06_distribution_ceiling\\per_symbol_summary.json",
+  "generated_at_unix": 1776591853
+}

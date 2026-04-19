@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L07_quiet_drift_stack",
+  "side": "long",
+  "description": "저변동성 구간에서 양의 바디가 조용히 누적되는 지루한 추세 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_L07_quiet_drift_stack\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R3\\4V2_L07_quiet_drift_stack\\per_symbol_summary.json",
+  "generated_at_unix": 1776591852
+}
