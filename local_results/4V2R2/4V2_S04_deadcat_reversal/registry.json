@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S04_deadcat_reversal",
+  "side": "short",
+  "description": "단기 과열 반등 이후 재하락 전환 캔들 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_S04_deadcat_reversal\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_S04_deadcat_reversal\\per_symbol_summary.json",
+  "generated_at_unix": 1776585976
+}

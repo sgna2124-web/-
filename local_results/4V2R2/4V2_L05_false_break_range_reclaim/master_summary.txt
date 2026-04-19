@@ -1,0 +1,14 @@
+experiment=4V2_L05_false_break_range_reclaim
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=292836
+win_rate_pct=34.6081
+final_return_pct=-93.6328
+max_return_pct=0.0495
+max_drawdown_pct=93.7202
+cd_value=6.2829
+baseline_cd_value=108.8106
+delta_cd_value=-102.5277
+passes_mdd_lt_5=False
+ruined=False

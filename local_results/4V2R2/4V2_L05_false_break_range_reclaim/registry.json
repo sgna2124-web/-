@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L05_false_break_range_reclaim",
+  "side": "long",
+  "description": "20봉 하단 이탈 실패 후 박스 복귀 매수",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_L05_false_break_range_reclaim\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_L05_false_break_range_reclaim\\per_symbol_summary.json",
+  "generated_at_unix": 1776585976
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S03_squeeze_breakdown_follow",
+  "side": "short",
+  "description": "저변동성 압축 뒤 하단 이탈 추종",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_S03_squeeze_breakdown_follow\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_S03_squeeze_breakdown_follow\\per_symbol_summary.json",
+  "generated_at_unix": 1776585976
+}

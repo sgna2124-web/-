@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L03_squeeze_breakout_follow",
+  "side": "long",
+  "description": "저변동성 압축 뒤 상단 돌파 추종",
+  "timeframe": "5m",
+  "batch_label": "4V2R2",
+  "processed_symbols": 597,
+  "total_trades": 402993,
+  "total_wins": 116054,
+  "total_losses": 286939,
+  "win_rate_pct": 28.798,
+  "final_return_pct": -99.4471,
+  "max_return_pct": 0.0072,
+  "max_drawdown_pct": 99.4474,
+  "cd_value": 0.5527,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -108.2579,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

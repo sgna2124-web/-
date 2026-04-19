@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S02_trend_bounce_fail",
+  "side": "short",
+  "description": "하락 추세 중 반등 실패 캔들 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R2",
+  "processed_symbols": 597,
+  "total_trades": 4306,
+  "total_wins": 1500,
+  "total_losses": 2806,
+  "win_rate_pct": 34.8351,
+  "final_return_pct": -6.7351,
+  "max_return_pct": 0.1704,
+  "max_drawdown_pct": 7.0517,
+  "cd_value": 93.1067,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -298.8539,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

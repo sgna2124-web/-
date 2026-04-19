@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L04_wick_rescue_trend",
+  "side": "long",
+  "description": "상승 추세에서 긴 아래꼬리 반전 캔들 포착",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_L04_wick_rescue_trend\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_L04_wick_rescue_trend\\per_symbol_summary.json",
+  "generated_at_unix": 1776585975
+}

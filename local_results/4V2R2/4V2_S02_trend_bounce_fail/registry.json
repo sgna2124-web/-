@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S02_trend_bounce_fail",
+  "side": "short",
+  "description": "하락 추세 중 반등 실패 캔들 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_S02_trend_bounce_fail\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_S02_trend_bounce_fail\\per_symbol_summary.json",
+  "generated_at_unix": 1776585976
+}

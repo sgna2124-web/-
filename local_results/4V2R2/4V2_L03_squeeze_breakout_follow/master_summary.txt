@@ -1,0 +1,14 @@
+experiment=4V2_L03_squeeze_breakout_follow
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=402993
+win_rate_pct=28.798
+final_return_pct=-99.4471
+max_return_pct=0.0072
+max_drawdown_pct=99.4474
+cd_value=0.5527
+baseline_cd_value=108.8106
+delta_cd_value=-108.2579
+passes_mdd_lt_5=False
+ruined=False

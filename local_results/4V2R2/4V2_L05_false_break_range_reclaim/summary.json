@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L05_false_break_range_reclaim",
+  "side": "long",
+  "description": "20봉 하단 이탈 실패 후 박스 복귀 매수",
+  "timeframe": "5m",
+  "batch_label": "4V2R2",
+  "processed_symbols": 597,
+  "total_trades": 292836,
+  "total_wins": 101345,
+  "total_losses": 191491,
+  "win_rate_pct": 34.6081,
+  "final_return_pct": -93.6328,
+  "max_return_pct": 0.0495,
+  "max_drawdown_pct": 93.7202,
+  "cd_value": 6.2829,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -102.5277,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L01_capitulation_reclaim_tight",
+  "side": "long",
+  "description": "급락 후 즉시 회수. 기존 L01보다 볼륨/종가 위치 필터를 강화해 MDD 억제",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_L01_capitulation_reclaim_tight\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_L01_capitulation_reclaim_tight\\per_symbol_summary.json",
+  "generated_at_unix": 1776585975
+}

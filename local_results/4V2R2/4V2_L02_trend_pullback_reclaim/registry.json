@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L02_trend_pullback_reclaim",
+  "side": "long",
+  "description": "상승 추세 중 눌림 후 회복 캔들 진입",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_L02_trend_pullback_reclaim\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_L02_trend_pullback_reclaim\\per_symbol_summary.json",
+  "generated_at_unix": 1776585975
+}

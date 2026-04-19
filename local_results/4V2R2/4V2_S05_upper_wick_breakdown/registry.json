@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S05_upper_wick_breakdown",
+  "side": "short",
+  "description": "하락 추세 내 긴 윗꼬리와 약종가 조합 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_S05_upper_wick_breakdown\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R2\\4V2_S05_upper_wick_breakdown\\per_symbol_summary.json",
+  "generated_at_unix": 1776585976
+}

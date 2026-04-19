@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S03_squeeze_breakdown_follow",
+  "side": "short",
+  "description": "저변동성 압축 뒤 하단 이탈 추종",
+  "timeframe": "5m",
+  "batch_label": "4V2R2",
+  "processed_symbols": 597,
+  "total_trades": 448389,
+  "total_wins": 135881,
+  "total_losses": 312508,
+  "win_rate_pct": 30.3043,
+  "final_return_pct": -98.984,
+  "max_return_pct": 0.0014,
+  "max_drawdown_pct": 98.984,
+  "cd_value": 1.016,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -390.9446,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}
