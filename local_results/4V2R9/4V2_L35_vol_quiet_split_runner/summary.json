@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L35_vol_quiet_split_runner",
+  "side": "long",
+  "description": "저거래량 돌파에서 1차 수익확정 후 러너를 남기는 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R9",
+  "processed_symbols": 597,
+  "total_trades": 27,
+  "total_wins": 18,
+  "total_losses": 9,
+  "win_rate_pct": 66.6667,
+  "final_return_pct": 0.0847,
+  "max_return_pct": 0.1151,
+  "max_drawdown_pct": 0.0673,
+  "cd_value": 100.0478,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -8.7628,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

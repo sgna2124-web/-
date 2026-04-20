@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S34_delayed_confirm_split_runner",
+  "side": "short",
+  "description": "지연 확인 숏에서 1차 수익확정 후 러너를 남기는 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R9\\4V2_S34_delayed_confirm_split_runner\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R9\\4V2_S34_delayed_confirm_split_runner\\per_symbol_summary.json",
+  "generated_at_unix": 1776691464
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L34_delayed_confirm_split_runner",
+  "side": "long",
+  "description": "지연 확인 진입 뒤 1차 수익확정 후 러너를 남기는 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R9",
+  "processed_symbols": 597,
+  "total_trades": 69,
+  "total_wins": 34,
+  "total_losses": 35,
+  "win_rate_pct": 49.2754,
+  "final_return_pct": 0.0057,
+  "max_return_pct": 0.0683,
+  "max_drawdown_pct": 0.087,
+  "cd_value": 99.9813,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -8.8293,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

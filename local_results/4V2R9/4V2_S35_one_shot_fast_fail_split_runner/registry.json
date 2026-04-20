@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S35_one_shot_fast_fail_split_runner",
+  "side": "short",
+  "description": "원샷 붕괴에서 빠른 실패 정리와 부분청산 러너를 결합한 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R9\\4V2_S35_one_shot_fast_fail_split_runner\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R9\\4V2_S35_one_shot_fast_fail_split_runner\\per_symbol_summary.json",
+  "generated_at_unix": 1776691464
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S35_one_shot_fast_fail_split_runner",
+  "side": "short",
+  "description": "원샷 붕괴에서 빠른 실패 정리와 부분청산 러너를 결합한 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R9",
+  "processed_symbols": 597,
+  "total_trades": 17,
+  "total_wins": 6,
+  "total_losses": 11,
+  "win_rate_pct": 35.2941,
+  "final_return_pct": -0.0317,
+  "max_return_pct": 0.0221,
+  "max_drawdown_pct": 0.0538,
+  "cd_value": 99.9683,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -291.9923,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

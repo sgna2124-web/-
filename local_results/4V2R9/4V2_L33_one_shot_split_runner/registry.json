@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L33_one_shot_split_runner",
+  "side": "long",
+  "description": "원샷 반전에서 1차 수익확정 후 나머지를 러너로 남기는 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R9\\4V2_L33_one_shot_split_runner\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R9\\4V2_L33_one_shot_split_runner\\per_symbol_summary.json",
+  "generated_at_unix": 1776691464
+}
