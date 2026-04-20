@@ -1,0 +1,14 @@
+experiment=4V2_L25_one_shot_breakeven_guard
+side=long
+verdict=baseline_fail
+processed_symbols=597
+total_trades=166
+win_rate_pct=19.2771
+final_return_pct=-0.097
+max_return_pct=0.0312
+max_drawdown_pct=0.148
+cd_value=99.8831
+baseline_cd_value=108.8106
+delta_cd_value=-8.9275
+passes_mdd_lt_5=True
+ruined=False

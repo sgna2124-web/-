@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S27_delayed_confirm_breakeven",
+  "side": "short",
+  "description": "지연 확인 진입 후 본전 보호를 결합한 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R7",
+  "processed_symbols": 597,
+  "total_trades": 7,
+  "total_wins": 2,
+  "total_losses": 5,
+  "win_rate_pct": 28.5714,
+  "final_return_pct": -0.0159,
+  "max_return_pct": 0.007,
+  "max_drawdown_pct": 0.0229,
+  "cd_value": 99.9841,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -291.9765,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L25_one_shot_breakeven_guard",
+  "side": "long",
+  "description": "원샷 반전 후 초기 이익을 확인하면 본전 보호를 거는 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R7",
+  "processed_symbols": 597,
+  "total_trades": 166,
+  "total_wins": 32,
+  "total_losses": 134,
+  "win_rate_pct": 19.2771,
+  "final_return_pct": -0.097,
+  "max_return_pct": 0.0312,
+  "max_drawdown_pct": 0.148,
+  "cd_value": 99.8831,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -8.9275,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

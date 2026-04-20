@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S26_one_shot_fast_fail_exit",
+  "side": "short",
+  "description": "원샷 붕괴 뒤 즉시 후속 하락이 없으면 빨리 정리하는 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R7\\4V2_S26_one_shot_fast_fail_exit\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R7\\4V2_S26_one_shot_fast_fail_exit\\per_symbol_summary.json",
+  "generated_at_unix": 1776663730
+}

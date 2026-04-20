@@ -1,0 +1,14 @@
+experiment=4V2_S28_vol_quiet_early_flush_take
+side=short
+verdict=baseline_fail
+processed_symbols=597
+total_trades=44
+win_rate_pct=45.4545
+final_return_pct=-0.048
+max_return_pct=0.0
+max_drawdown_pct=0.1596
+cd_value=99.8404
+baseline_cd_value=391.9606
+delta_cd_value=-292.1202
+passes_mdd_lt_5=True
+ruined=False

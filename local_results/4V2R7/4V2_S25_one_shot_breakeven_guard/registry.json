@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S25_one_shot_breakeven_guard",
+  "side": "short",
+  "description": "원샷 붕괴 후 초기 이익을 확인하면 본전 보호를 거는 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R7\\4V2_S25_one_shot_breakeven_guard\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R7\\4V2_S25_one_shot_breakeven_guard\\per_symbol_summary.json",
+  "generated_at_unix": 1776663730
+}
