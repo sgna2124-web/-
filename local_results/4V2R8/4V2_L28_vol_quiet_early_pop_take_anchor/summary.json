@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L28_vol_quiet_early_pop_take_anchor",
+  "side": "long",
+  "description": "저거래량 돌파 초반 팝 수익확정 앵커 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R8",
+  "processed_symbols": 597,
+  "total_trades": 27,
+  "total_wins": 18,
+  "total_losses": 9,
+  "win_rate_pct": 66.6667,
+  "final_return_pct": 0.0989,
+  "max_return_pct": 0.1156,
+  "max_drawdown_pct": 0.0565,
+  "cd_value": 100.059,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -8.7516,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

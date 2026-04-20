@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S31_vol_quiet_trendstack_early_flush",
+  "side": "short",
+  "description": "EMA 하락 스택에서 저거래량 붕괴의 초반 급락만 챙기는 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R8",
+  "processed_symbols": 597,
+  "total_trades": 9,
+  "total_wins": 2,
+  "total_losses": 7,
+  "win_rate_pct": 22.2222,
+  "final_return_pct": -0.0453,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 0.0453,
+  "cd_value": 99.9547,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -292.0059,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

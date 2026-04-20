@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L31_vol_quiet_trendfloor_early_pop",
+  "side": "long",
+  "description": "저거래량 돌파 중 EMA 바닥이 살아 있는 경우만 초반 팝을 노리는 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R8",
+  "processed_symbols": 597,
+  "total_trades": 8,
+  "total_wins": 5,
+  "total_losses": 3,
+  "win_rate_pct": 62.5,
+  "final_return_pct": 0.0235,
+  "max_return_pct": 0.0235,
+  "max_drawdown_pct": 0.0411,
+  "cd_value": 99.9824,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -8.8282,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

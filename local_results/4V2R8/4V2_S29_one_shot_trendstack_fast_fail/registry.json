@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S29_one_shot_trendstack_fast_fail",
+  "side": "short",
+  "description": "EMA 하락 스택이 완성된 곳에서만 원샷 붕괴 후 빠르게 실패를 정리하는 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R8\\4V2_S29_one_shot_trendstack_fast_fail\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R8\\4V2_S29_one_shot_trendstack_fast_fail\\per_symbol_summary.json",
+  "generated_at_unix": 1776673742
+}

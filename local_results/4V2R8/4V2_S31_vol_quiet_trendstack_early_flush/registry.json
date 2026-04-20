@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S31_vol_quiet_trendstack_early_flush",
+  "side": "short",
+  "description": "EMA 하락 스택에서 저거래량 붕괴의 초반 급락만 챙기는 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R8\\4V2_S31_vol_quiet_trendstack_early_flush\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R8\\4V2_S31_vol_quiet_trendstack_early_flush\\per_symbol_summary.json",
+  "generated_at_unix": 1776673743
+}

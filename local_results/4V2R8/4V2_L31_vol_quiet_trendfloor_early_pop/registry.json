@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L31_vol_quiet_trendfloor_early_pop",
+  "side": "long",
+  "description": "저거래량 돌파 중 EMA 바닥이 살아 있는 경우만 초반 팝을 노리는 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R8\\4V2_L31_vol_quiet_trendfloor_early_pop\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R8\\4V2_L31_vol_quiet_trendfloor_early_pop\\per_symbol_summary.json",
+  "generated_at_unix": 1776673742
+}

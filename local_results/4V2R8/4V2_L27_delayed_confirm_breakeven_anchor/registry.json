@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L27_delayed_confirm_breakeven_anchor",
+  "side": "long",
+  "description": "지연 확인 본전 보호 앵커 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R8\\4V2_L27_delayed_confirm_breakeven_anchor\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R8\\4V2_L27_delayed_confirm_breakeven_anchor\\per_symbol_summary.json",
+  "generated_at_unix": 1776673742
+}
