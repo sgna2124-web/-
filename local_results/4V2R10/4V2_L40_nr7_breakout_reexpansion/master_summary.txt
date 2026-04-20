@@ -1,0 +1,14 @@
+experiment=4V2_L40_nr7_breakout_reexpansion
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=241213
+win_rate_pct=33.1831
+final_return_pct=-94.7178
+max_return_pct=0.0113
+max_drawdown_pct=94.7231
+cd_value=5.2775
+baseline_cd_value=108.8106
+delta_cd_value=-103.5331
+passes_mdd_lt_5=False
+ruined=False

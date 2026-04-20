@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S37_double_inside_breakdown",
+  "side": "short",
+  "description": "이중 인사이드 압축 뒤 거래량 동반 하방 확장 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R10\\4V2_S37_double_inside_breakdown\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R10\\4V2_S37_double_inside_breakdown\\per_symbol_summary.json",
+  "generated_at_unix": 1776723469
+}

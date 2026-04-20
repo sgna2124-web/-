@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S38_upthrust_wick_reversal",
+  "side": "short",
+  "description": "긴 위꼬리 업쓰러스트 뒤 확인 음봉 진입 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R10",
+  "processed_symbols": 597,
+  "total_trades": 162719,
+  "total_wins": 57953,
+  "total_losses": 104766,
+  "win_rate_pct": 35.6154,
+  "final_return_pct": -81.0456,
+  "max_return_pct": 0.0077,
+  "max_drawdown_pct": 81.0961,
+  "cd_value": 18.9053,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -373.0553,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

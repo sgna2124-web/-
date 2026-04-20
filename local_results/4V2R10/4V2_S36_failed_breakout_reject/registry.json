@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S36_failed_breakout_reject",
+  "side": "short",
+  "description": "직전 상방 이탈 실패 뒤 재하락 확인 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R10\\4V2_S36_failed_breakout_reject\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R10\\4V2_S36_failed_breakout_reject\\per_symbol_summary.json",
+  "generated_at_unix": 1776723469
+}

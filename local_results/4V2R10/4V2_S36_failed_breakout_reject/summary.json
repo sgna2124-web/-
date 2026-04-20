@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S36_failed_breakout_reject",
+  "side": "short",
+  "description": "직전 상방 이탈 실패 뒤 재하락 확인 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R10",
+  "processed_symbols": 597,
+  "total_trades": 59012,
+  "total_wins": 20441,
+  "total_losses": 38571,
+  "win_rate_pct": 34.6387,
+  "final_return_pct": -48.3256,
+  "max_return_pct": 0.0324,
+  "max_drawdown_pct": 48.372,
+  "cd_value": 51.6448,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -340.3158,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S39_trend_pause_resume",
+  "side": "short",
+  "description": "하락 추세 내 미세 정지 후 재확장 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R10",
+  "processed_symbols": 597,
+  "total_trades": 279454,
+  "total_wins": 99243,
+  "total_losses": 180211,
+  "win_rate_pct": 35.5132,
+  "final_return_pct": -94.3888,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 94.3892,
+  "cd_value": 5.6108,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -386.3498,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

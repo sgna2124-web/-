@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L37_double_inside_expansion",
+  "side": "long",
+  "description": "이중 인사이드 압축 뒤 거래량 동반 상방 확장 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R10",
+  "processed_symbols": 597,
+  "total_trades": 26587,
+  "total_wins": 9083,
+  "total_losses": 17504,
+  "win_rate_pct": 34.1633,
+  "final_return_pct": -27.66,
+  "max_return_pct": 0.0016,
+  "max_drawdown_pct": 27.675,
+  "cd_value": 72.3262,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -36.4844,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}
