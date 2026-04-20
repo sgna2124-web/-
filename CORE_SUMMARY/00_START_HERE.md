@@ -8,10 +8,10 @@
 성과 판단 기준
 공식 판단 기준은 cd_value와 max_drawdown_pct(MDD)이다.
 max_return_pct는 단독 판단 지표는 아니지만 cd_value 산출에 반드시 포함된다.
-final_return_pct는 참고 지표로 기록하되, 공식 우선순위는 cd_value와 MDD이다.
+final_return_pct는 참고 지표로 기록하되, 공식 우선순위는 MDD -> cd_value(max_return_pct 기반) -> final_return_pct 다.
 
 cd_value 정의
-cd_value는 기본 자산 100에 먼저 MDD를 적용한 뒤, 그 남은 자산에 max_return_pct를 적용한 값이다.
+cd_value는 max_return_pct / max_drawdown_pct 로 해석한다.
 문서와 결과 해석에서 cd_value를 final_return_pct 기준으로 계산하면 안 된다.
 현재 프로젝트에서 cd_value는 max_return_pct 기준이다.
 
@@ -32,7 +32,22 @@ invalid_env 실험은 실패 전략 기록으로 보존하지 않고, 비교 체
 현재 상태 요약
 V2 실험군은 환경 전제 오류가 있었으므로 4V2R1을 제외하고 전부 제거했다.
 새 대화창의 어시스턴트는 기존 V2 결과를 비교 근거로 사용하면 안 된다.
+최근 4V2R4 ~ 4V2R9 신규 진입 조건 실험군은 공식 1위 교체 없이 종료되었고, 장단점은 별도 문서로 정리한다.
 
 역할 분담
 사용자는 로컬 컴퓨터에서 백테스트를 실행하고, 전략 코드와 결과 요약 파일을 저장소에 업로드한다.
-어시스턴트는 업로드된 결과를 검토하고, 통합 요약/결과 카탈로그/다음 단계 매뉴얼을 갱신하며, 다음 실험 전략을 설계한다.
+어시스턴트는 업로드된 결과를 검토하고, 통합 요약/결과 카탈로그/장단점 문서/다음 단계 매뉴얼을 갱신하며, 다음 실험 전략을 설계한다.
+
+결과 업로드 후 반드시 할 일
+1. 업로드된 local_results 또는 결과 폴더를 확인한다.
+2. 공식 long-only / short-only 기준선과 비교한다.
+3. CORE_SUMMARY/08_ALL_RESULTS_CATALOG.md 를 갱신한다.
+4. CORE_SUMMARY/12_STRATEGY_STRENGTHS_WEAKNESSES.md 를 갱신한다.
+5. 승격이면 CORE_SUMMARY/03_CURRENT_BASELINES.md 도 갱신한다.
+6. 결과만 보고 끝내지 말고, 왜 그런 결과가 나왔는지 장점과 단점을 남긴다.
+
+다음으로 읽을 문서
+1. CORE_SUMMARY/06_LOCAL_BACKTEST_AND_GITHUB_POLICY.md
+2. CORE_SUMMARY/08_ALL_RESULTS_CATALOG.md
+3. CORE_SUMMARY/12_STRATEGY_STRENGTHS_WEAKNESSES.md
+4. CORE_SUMMARY/09_NEXT_CHAT_MANUAL.md
