@@ -4,8 +4,9 @@
 비교는 long-only와 short-only를 분리하여 수행한다.
 
 현재 프로젝트의 공식 판단 기준
-공식 판단 기준은 cd_value와 max_drawdown_pct(MDD)다.
-현재 프로젝트에서 cd_value는 기본 자산 100에 먼저 MDD를 적용한 뒤, 그 남은 자산에 max_return_pct를 적용한 값으로 해석한다.
+공식 판단 기준은 MDD와 cd_value다.
+현재 프로젝트에서 cd_value의 공식 정의는 다음과 같다.
+cd_value = max_return_pct / max_drawdown_pct
 final_return_pct는 참고 지표다.
 
 중요한 주의사항
@@ -65,7 +66,11 @@ legacy_cd_value: 780.8279
 status: archive_reference_only
 note: mixed historical reference only. long-only / short-only 공식 비교선으로 사용하지 않음.
 
-4. 승격 규칙
+4. 최근 상태 메모
+4V2R4 ~ 4V2R9까지의 최근 신규 진입 조건 실험군에서는 공식 long-only / short-only 기준선 교체가 발생하지 않았다.
+즉 현재 공식 1위는 그대로 유지한다.
+
+5. 승격 규칙
 신규 long 전략은 1번 기준선과 비교한다.
 신규 short 전략은 2번 기준선과 비교한다.
 새 전략 결과에는 최소한 final_return_pct, max_return_pct, max_drawdown_pct, cd_value, result_path가 포함되어야 한다.
