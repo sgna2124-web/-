@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L20_one_shot_trendfloor",
+  "side": "long",
+  "description": "원샷 반전 뒤 EMA 바닥을 회수한 경우만 진입하는 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R6",
+  "processed_symbols": 597,
+  "total_trades": 31,
+  "total_wins": 13,
+  "total_losses": 18,
+  "win_rate_pct": 41.9355,
+  "final_return_pct": 0.0226,
+  "max_return_pct": 0.0859,
+  "max_drawdown_pct": 0.1103,
+  "cd_value": 99.9755,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -8.8351,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

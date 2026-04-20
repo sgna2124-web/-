@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L24_two_pause_reclaim",
+  "side": "long",
+  "description": "하락 드리프트 중 두 번의 멈춤 뒤 구조 회수가 나올 때만 진입하는 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_L24_two_pause_reclaim\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_L24_two_pause_reclaim\\per_symbol_summary.json",
+  "generated_at_unix": 1776653682
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S22_vol_quiet_breakdown_strict",
+  "side": "short",
+  "description": "저거래량 상승 드리프트 뒤 거래량 확장과 저점 이탈을 동시 충족하는 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_S22_vol_quiet_breakdown_strict\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_S22_vol_quiet_breakdown_strict\\per_symbol_summary.json",
+  "generated_at_unix": 1776653683
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S15_drift_exhaust_one_shot_anchor",
+  "side": "short",
+  "description": "원샷 드리프트 소진 앵커 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R6",
+  "processed_symbols": 597,
+  "total_trades": 133,
+  "total_wins": 40,
+  "total_losses": 93,
+  "win_rate_pct": 30.0752,
+  "final_return_pct": -0.5084,
+  "max_return_pct": 0.0059,
+  "max_drawdown_pct": 0.5197,
+  "cd_value": 99.4862,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -292.4744,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

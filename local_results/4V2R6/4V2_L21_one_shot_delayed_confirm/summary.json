@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L21_one_shot_delayed_confirm",
+  "side": "long",
+  "description": "원샷 반전 다음 바 확인 종가까지 기다리는 지연 확인 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R6",
+  "processed_symbols": 597,
+  "total_trades": 69,
+  "total_wins": 22,
+  "total_losses": 47,
+  "win_rate_pct": 31.8841,
+  "final_return_pct": -0.0018,
+  "max_return_pct": 0.0735,
+  "max_drawdown_pct": 0.1013,
+  "cd_value": 99.9722,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -8.8384,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L20_one_shot_trendfloor",
+  "side": "long",
+  "description": "원샷 반전 뒤 EMA 바닥을 회수한 경우만 진입하는 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_L20_one_shot_trendfloor\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_L20_one_shot_trendfloor\\per_symbol_summary.json",
+  "generated_at_unix": 1776653682
+}

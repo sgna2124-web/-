@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L21_one_shot_delayed_confirm",
+  "side": "long",
+  "description": "원샷 반전 다음 바 확인 종가까지 기다리는 지연 확인 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_L21_one_shot_delayed_confirm\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_L21_one_shot_delayed_confirm\\per_symbol_summary.json",
+  "generated_at_unix": 1776653682
+}

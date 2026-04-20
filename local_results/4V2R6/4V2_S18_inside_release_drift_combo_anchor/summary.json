@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S18_inside_release_drift_combo_anchor",
+  "side": "short",
+  "description": "인사이드 해제 드리프트 앵커 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R6",
+  "processed_symbols": 597,
+  "total_trades": 221,
+  "total_wins": 79,
+  "total_losses": 142,
+  "win_rate_pct": 35.7466,
+  "final_return_pct": -0.3444,
+  "max_return_pct": 0.0004,
+  "max_drawdown_pct": 0.4086,
+  "cd_value": 99.5918,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -292.3688,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

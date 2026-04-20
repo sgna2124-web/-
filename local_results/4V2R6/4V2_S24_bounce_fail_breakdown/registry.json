@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S24_bounce_fail_breakdown",
+  "side": "short",
+  "description": "상승 드리프트 끝 첫 붕괴 후 약한 반등이 실패할 때만 진입하는 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_S24_bounce_fail_breakdown\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R6\\4V2_S24_bounce_fail_breakdown\\per_symbol_summary.json",
+  "generated_at_unix": 1776653683
+}

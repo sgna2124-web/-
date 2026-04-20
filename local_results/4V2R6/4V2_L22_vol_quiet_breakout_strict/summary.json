@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L22_vol_quiet_breakout_strict",
+  "side": "long",
+  "description": "저거래량 드리프트 뒤 거래량 확장과 고점 회수를 동시 충족하는 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R6",
+  "processed_symbols": 597,
+  "total_trades": 27,
+  "total_wins": 12,
+  "total_losses": 15,
+  "win_rate_pct": 44.4444,
+  "final_return_pct": 0.0726,
+  "max_return_pct": 0.1677,
+  "max_drawdown_pct": 0.1427,
+  "cd_value": 100.0248,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -8.7858,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}
