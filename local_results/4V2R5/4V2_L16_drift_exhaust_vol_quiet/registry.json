@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L16_drift_exhaust_vol_quiet",
+  "side": "long",
+  "description": "거래량 무관심이 누적된 드리프트 끝 반등 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_L16_drift_exhaust_vol_quiet\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_L16_drift_exhaust_vol_quiet\\per_symbol_summary.json",
+  "generated_at_unix": 1776645228
+}

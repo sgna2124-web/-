@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S15_drift_exhaust_one_shot_trap",
+  "side": "short",
+  "description": "작은 양봉 드리프트 뒤 한 번의 강한 붕괴만 노리는 원샷 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_S15_drift_exhaust_one_shot_trap\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_S15_drift_exhaust_one_shot_trap\\per_symbol_summary.json",
+  "generated_at_unix": 1776645228
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S15_drift_exhaust_one_shot_trap",
+  "side": "short",
+  "description": "작은 양봉 드리프트 뒤 한 번의 강한 붕괴만 노리는 원샷 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R5",
+  "processed_symbols": 597,
+  "total_trades": 148,
+  "total_wins": 47,
+  "total_losses": 101,
+  "win_rate_pct": 31.7568,
+  "final_return_pct": -0.4756,
+  "max_return_pct": 0.0169,
+  "max_drawdown_pct": 0.4979,
+  "cd_value": 99.519,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -292.4416,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

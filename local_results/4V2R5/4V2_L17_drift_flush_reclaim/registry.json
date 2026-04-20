@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L17_drift_flush_reclaim",
+  "side": "long",
+  "description": "저점 플러시 후 종가가 높게 복귀하는 플러시-리클레임 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_L17_drift_flush_reclaim\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_L17_drift_flush_reclaim\\per_symbol_summary.json",
+  "generated_at_unix": 1776645228
+}

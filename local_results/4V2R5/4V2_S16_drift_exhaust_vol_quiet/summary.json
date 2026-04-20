@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S16_drift_exhaust_vol_quiet",
+  "side": "short",
+  "description": "거래량 무관심이 누적된 상승 드리프트 끝 반전 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R5",
+  "processed_symbols": 597,
+  "total_trades": 911,
+  "total_wins": 298,
+  "total_losses": 613,
+  "win_rate_pct": 32.7113,
+  "final_return_pct": -1.7132,
+  "max_return_pct": 0.015,
+  "max_drawdown_pct": 1.7618,
+  "cd_value": 98.253,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -293.7076,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

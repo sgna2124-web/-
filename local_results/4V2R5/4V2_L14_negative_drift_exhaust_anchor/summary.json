@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L14_negative_drift_exhaust_anchor",
+  "side": "long",
+  "description": "기존 저점 소진형 앵커 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R5",
+  "processed_symbols": 597,
+  "total_trades": 1630,
+  "total_wins": 674,
+  "total_losses": 956,
+  "win_rate_pct": 41.3497,
+  "final_return_pct": -0.2652,
+  "max_return_pct": 0.3847,
+  "max_drawdown_pct": 1.2063,
+  "cd_value": 99.1738,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -9.6368,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

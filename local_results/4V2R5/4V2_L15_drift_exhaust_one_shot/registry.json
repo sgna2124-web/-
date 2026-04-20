@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L15_drift_exhaust_one_shot",
+  "side": "long",
+  "description": "작은 음봉 드리프트 뒤 한 번의 강한 회수만 노리는 원샷 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_L15_drift_exhaust_one_shot\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_L15_drift_exhaust_one_shot\\per_symbol_summary.json",
+  "generated_at_unix": 1776645228
+}

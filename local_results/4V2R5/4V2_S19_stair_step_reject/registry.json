@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S19_stair_step_reject",
+  "side": "short",
+  "description": "계단식 상승 뒤 작은 구조 이탈로 전환되는 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_S19_stair_step_reject\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_S19_stair_step_reject\\per_symbol_summary.json",
+  "generated_at_unix": 1776645228
+}

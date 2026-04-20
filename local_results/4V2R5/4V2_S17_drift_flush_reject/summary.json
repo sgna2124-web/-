@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S17_drift_flush_reject",
+  "side": "short",
+  "description": "고점 플러시 후 종가가 낮게 복귀하는 플러시-리젝트 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R5",
+  "processed_symbols": 597,
+  "total_trades": 37280,
+  "total_wins": 13268,
+  "total_losses": 24012,
+  "win_rate_pct": 35.5901,
+  "final_return_pct": -35.0747,
+  "max_return_pct": 0.0246,
+  "max_drawdown_pct": 35.8052,
+  "cd_value": 64.2106,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -327.75,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

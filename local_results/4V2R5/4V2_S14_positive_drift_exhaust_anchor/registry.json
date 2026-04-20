@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S14_positive_drift_exhaust_anchor",
+  "side": "short",
+  "description": "기존 고점 소진형 앵커 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_S14_positive_drift_exhaust_anchor\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R5\\4V2_S14_positive_drift_exhaust_anchor\\per_symbol_summary.json",
+  "generated_at_unix": 1776645228
+}
