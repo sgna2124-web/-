@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L42_whipsaw_release_breakout",
+  "side": "long",
+  "description": "심한 휩쏘 압축 뒤 상방 탈출 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R11",
+  "processed_symbols": 597,
+  "total_trades": 464269,
+  "total_wins": 153384,
+  "total_losses": 310885,
+  "win_rate_pct": 33.0377,
+  "final_return_pct": -99.6249,
+  "max_return_pct": 0.0074,
+  "max_drawdown_pct": 99.6258,
+  "cd_value": 0.3742,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -108.4364,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

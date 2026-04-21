@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S43_bear_bounce_snap",
+  "side": "short",
+  "description": "하락 추세 내 짧은 상방 바운스 후 스냅 재하락 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R11",
+  "processed_symbols": 597,
+  "total_trades": 17632,
+  "total_wins": 6212,
+  "total_losses": 11420,
+  "win_rate_pct": 35.2314,
+  "final_return_pct": -16.6706,
+  "max_return_pct": 0.0856,
+  "max_drawdown_pct": 17.211,
+  "cd_value": 82.8599,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -309.1007,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

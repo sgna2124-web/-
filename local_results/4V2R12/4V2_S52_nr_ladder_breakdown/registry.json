@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S52_nr_ladder_breakdown",
+  "side": "short",
+  "description": "좁은 범위 lower-high 사다리 뒤 붕괴 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R12\\4V2_S52_nr_ladder_breakdown\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R12\\4V2_S52_nr_ladder_breakdown\\per_symbol_summary.json",
+  "generated_at_unix": 1776752825
+}

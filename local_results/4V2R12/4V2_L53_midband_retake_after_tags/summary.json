@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L53_midband_retake_after_tags",
+  "side": "long",
+  "description": "저점 태그 누적 후 중단 복귀 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R12",
+  "processed_symbols": 597,
+  "total_trades": 369503,
+  "total_wins": 127956,
+  "total_losses": 241547,
+  "win_rate_pct": 34.6292,
+  "final_return_pct": -98.212,
+  "max_return_pct": 0.0052,
+  "max_drawdown_pct": 98.2142,
+  "cd_value": 1.7859,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -107.0247,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

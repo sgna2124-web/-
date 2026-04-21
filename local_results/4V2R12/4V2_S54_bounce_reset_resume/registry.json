@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S54_bounce_reset_resume",
+  "side": "short",
+  "description": "하락 추세 냉각 바운스 후 재가속 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R12\\4V2_S54_bounce_reset_resume\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R12\\4V2_S54_bounce_reset_resume\\per_symbol_summary.json",
+  "generated_at_unix": 1776752825
+}

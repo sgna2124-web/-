@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S51_upshock_fail_reject",
+  "side": "short",
+  "description": "급등 연장 실패 뒤 재거절 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R12\\4V2_S51_upshock_fail_reject\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R12\\4V2_S51_upshock_fail_reject\\per_symbol_summary.json",
+  "generated_at_unix": 1776752825
+}

@@ -1,0 +1,14 @@
+experiment=4V2_L53_midband_retake_after_tags
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=369503
+win_rate_pct=34.6292
+final_return_pct=-98.212
+max_return_pct=0.0052
+max_drawdown_pct=98.2142
+cd_value=1.7859
+baseline_cd_value=108.8106
+delta_cd_value=-107.0247
+passes_mdd_lt_5=False
+ruined=False

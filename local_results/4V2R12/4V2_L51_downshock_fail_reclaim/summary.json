@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L51_downshock_fail_reclaim",
+  "side": "long",
+  "description": "급락 연장 실패 뒤 재장악 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R12",
+  "processed_symbols": 597,
+  "total_trades": 48378,
+  "total_wins": 16357,
+  "total_losses": 32021,
+  "win_rate_pct": 33.8108,
+  "final_return_pct": -40.6485,
+  "max_return_pct": 0.0112,
+  "max_drawdown_pct": 40.6552,
+  "cd_value": 59.3515,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -49.4591,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

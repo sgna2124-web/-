@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S45_ema_knot_release",
+  "side": "short",
+  "description": "이평 매듭 압축 뒤 하방 해소 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R11",
+  "processed_symbols": 597,
+  "total_trades": 253979,
+  "total_wins": 87734,
+  "total_losses": 166245,
+  "win_rate_pct": 34.5438,
+  "final_return_pct": -90.6533,
+  "max_return_pct": 0.0091,
+  "max_drawdown_pct": 90.6552,
+  "cd_value": 9.3456,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -382.615,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S44_trend_shelf_pop_reject",
+  "side": "short",
+  "description": "추세 선반 구간의 미세 상방 스윕 뒤 재하락 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R11",
+  "processed_symbols": 597,
+  "total_trades": 22073,
+  "total_wins": 8397,
+  "total_losses": 13676,
+  "win_rate_pct": 38.042,
+  "final_return_pct": -10.2644,
+  "max_return_pct": 1.2105,
+  "max_drawdown_pct": 11.5933,
+  "cd_value": 89.4769,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -302.4837,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

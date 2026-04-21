@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S54_bounce_reset_resume",
+  "side": "short",
+  "description": "하락 추세 냉각 바운스 후 재가속 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R12",
+  "processed_symbols": 597,
+  "total_trades": 32619,
+  "total_wins": 10757,
+  "total_losses": 21862,
+  "win_rate_pct": 32.9777,
+  "final_return_pct": -36.2795,
+  "max_return_pct": 2.4026,
+  "max_drawdown_pct": 38.0478,
+  "cd_value": 63.4406,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -328.52,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

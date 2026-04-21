@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L43_bull_drift_snap",
+  "side": "long",
+  "description": "상승 추세 내 짧은 하방 드리프트 후 스냅 복귀 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R11",
+  "processed_symbols": 597,
+  "total_trades": 20002,
+  "total_wins": 6795,
+  "total_losses": 13207,
+  "win_rate_pct": 33.9716,
+  "final_return_pct": -21.2844,
+  "max_return_pct": 0.0075,
+  "max_drawdown_pct": 21.3015,
+  "cd_value": 78.7045,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -30.1061,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

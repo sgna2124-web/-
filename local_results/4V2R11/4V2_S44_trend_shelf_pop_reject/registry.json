@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S44_trend_shelf_pop_reject",
+  "side": "short",
+  "description": "추세 선반 구간의 미세 상방 스윕 뒤 재하락 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R11\\4V2_S44_trend_shelf_pop_reject\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R11\\4V2_S44_trend_shelf_pop_reject\\per_symbol_summary.json",
+  "generated_at_unix": 1776736035
+}

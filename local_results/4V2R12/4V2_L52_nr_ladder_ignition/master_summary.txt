@@ -1,0 +1,14 @@
+experiment=4V2_L52_nr_ladder_ignition
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=243497
+win_rate_pct=32.0308
+final_return_pct=-94.4411
+max_return_pct=0.0
+max_drawdown_pct=94.4414
+cd_value=5.5586
+baseline_cd_value=108.8106
+delta_cd_value=-103.252
+passes_mdd_lt_5=False
+ruined=False

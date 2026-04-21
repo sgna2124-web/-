@@ -1,0 +1,14 @@
+experiment=4V2_S42_whipsaw_release_breakdown
+side=short
+verdict=mdd_fail
+processed_symbols=597
+total_trades=491277
+win_rate_pct=34.3957
+final_return_pct=-99.4475
+max_return_pct=0.0311
+max_drawdown_pct=99.4476
+cd_value=0.5525
+baseline_cd_value=391.9606
+delta_cd_value=-391.4081
+passes_mdd_lt_5=False
+ruined=False

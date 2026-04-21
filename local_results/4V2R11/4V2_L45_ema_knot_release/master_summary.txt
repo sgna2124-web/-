@@ -1,0 +1,14 @@
+experiment=4V2_L45_ema_knot_release
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=237073
+win_rate_pct=32.4322
+final_return_pct=-93.9556
+max_return_pct=0.0322
+max_drawdown_pct=93.9587
+cd_value=6.0432
+baseline_cd_value=108.8106
+delta_cd_value=-102.7674
+passes_mdd_lt_5=False
+ruined=False

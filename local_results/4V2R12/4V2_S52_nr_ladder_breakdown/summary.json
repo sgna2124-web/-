@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S52_nr_ladder_breakdown",
+  "side": "short",
+  "description": "좁은 범위 lower-high 사다리 뒤 붕괴 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R12",
+  "processed_symbols": 597,
+  "total_trades": 247671,
+  "total_wins": 84111,
+  "total_losses": 163560,
+  "win_rate_pct": 33.9608,
+  "final_return_pct": -91.9487,
+  "max_return_pct": 0.002,
+  "max_drawdown_pct": 91.9502,
+  "cd_value": 8.0499,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -383.9107,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

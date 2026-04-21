@@ -1,0 +1,14 @@
+experiment=4V2_S41_hh_cluster_reject_flush
+side=short
+verdict=mdd_fail
+processed_symbols=597
+total_trades=46793
+win_rate_pct=34.7573
+final_return_pct=-39.4716
+max_return_pct=0.0102
+max_drawdown_pct=39.5439
+cd_value=60.4623
+baseline_cd_value=391.9606
+delta_cd_value=-331.4983
+passes_mdd_lt_5=False
+ruined=False

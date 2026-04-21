@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L44_trend_shelf_flush_reclaim",
+  "side": "long",
+  "description": "추세 선반 구간의 미세 하방 스윕 뒤 재확장 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R11",
+  "processed_symbols": 597,
+  "total_trades": 22603,
+  "total_wins": 7825,
+  "total_losses": 14778,
+  "win_rate_pct": 34.6193,
+  "final_return_pct": -18.8075,
+  "max_return_pct": 0.0449,
+  "max_drawdown_pct": 18.8691,
+  "cd_value": 81.1673,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -27.6433,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

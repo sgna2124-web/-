@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S55_wick_distribution_flush",
+  "side": "short",
+  "description": "상단 위크 분배 누적 뒤 급락 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R12",
+  "processed_symbols": 597,
+  "total_trades": 648353,
+  "total_wins": 215961,
+  "total_losses": 432392,
+  "win_rate_pct": 33.3092,
+  "final_return_pct": -99.9163,
+  "max_return_pct": 0.0022,
+  "max_drawdown_pct": 99.9163,
+  "cd_value": 0.0837,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -391.8769,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

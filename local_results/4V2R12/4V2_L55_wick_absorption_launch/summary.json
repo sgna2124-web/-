@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L55_wick_absorption_launch",
+  "side": "long",
+  "description": "하단 위크 흡수 누적 뒤 발사 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R12",
+  "processed_symbols": 597,
+  "total_trades": 683399,
+  "total_wins": 221489,
+  "total_losses": 461910,
+  "win_rate_pct": 32.4099,
+  "final_return_pct": -99.9676,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 99.9676,
+  "cd_value": 0.0324,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -108.7782,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

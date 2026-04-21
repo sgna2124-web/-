@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L54_pullback_reset_resume",
+  "side": "long",
+  "description": "상승 추세 냉각 풀백 후 재가속 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R12",
+  "processed_symbols": 597,
+  "total_trades": 45134,
+  "total_wins": 15095,
+  "total_losses": 30039,
+  "win_rate_pct": 33.4449,
+  "final_return_pct": -42.8141,
+  "max_return_pct": 0.029,
+  "max_drawdown_pct": 42.9564,
+  "cd_value": 57.0602,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -51.7504,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

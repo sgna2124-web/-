@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L41_ll_cluster_reclaim_pop",
+  "side": "long",
+  "description": "저점 태그 누적 뒤 흡수형 재장악 팝 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R11",
+  "processed_symbols": 597,
+  "total_trades": 45829,
+  "total_wins": 16275,
+  "total_losses": 29554,
+  "win_rate_pct": 35.5124,
+  "final_return_pct": -33.5034,
+  "max_return_pct": 0.2342,
+  "max_drawdown_pct": 33.7051,
+  "cd_value": 66.4502,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -42.3604,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}
