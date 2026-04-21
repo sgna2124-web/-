@@ -120,6 +120,19 @@ notes:
 - fixed 버전 결과에서도 공식 1위 교체는 발생하지 않았다.
 - 다만 신규 진입 조건 탐색 자체는 계속 유효하며, 기존 저장소 전략 반복이 아니라 새로운 조건군을 확장하는 흐름으로 유지되었다.
 
+8. recent round note: 4V2R12
+side: split long_only / short_only
+version_reference: 4V2R12
+summary_file: local_results/4V2R12/*/summary.json
+verdict: no_promotion_all_mdd_fail
+notes:
+- 4V2R12의 10개 전략은 전부 passes_mdd_lt_5=false, verdict=mdd_fail 이었다.
+- batch long best(max_return_pct 기준): 4V2_L54_pullback_reset_resume | trades 45134 | max_return_pct 0.0290 | final_return_pct -42.8141 | max_drawdown_pct 42.9564 | cd_value 57.0602
+- batch short best(max_return_pct 기준): 4V2_S54_bounce_reset_resume | trades 32619 | max_return_pct 2.4026 | final_return_pct -36.2795 | max_drawdown_pct 38.0478 | cd_value 63.4406
+- 상대적으로 덜 나빴던 것은 fail-reject / reset-resume 계열이었지만, 공식 long reference cd_value 108.8106 및 official short reference cd_value 391.9606을 크게 하회했다.
+- nr_ladder / midband tag / wick accumulation 계열은 거래 수가 과다하게 늘어나며(약 24만~68만 회) max_return_pct가 거의 0에 수렴했고, MDD도 91~99%대로 붕괴했다.
+- 따라서 이번 라운드는 승격 후보 발굴보다는 "과다거래형 구조를 배제하고, 선택도가 높은 reset-resume / fail-reject 계열에 더 강한 위치 필터를 붙여야 한다"는 학습 기록으로 남긴다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
