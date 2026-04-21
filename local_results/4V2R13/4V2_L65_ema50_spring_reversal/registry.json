@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L65_ema50_spring_reversal",
+  "side": "long",
+  "description": "EMA50 스프링 반전 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R13\\4V2_L65_ema50_spring_reversal\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R13\\4V2_L65_ema50_spring_reversal\\per_symbol_summary.json",
+  "generated_at_unix": 1776772925
+}

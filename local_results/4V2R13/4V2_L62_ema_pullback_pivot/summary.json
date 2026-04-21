@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L62_ema_pullback_pivot",
+  "side": "long",
+  "description": "EMA20-50 풀백 뒤 피벗 재개 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R13",
+  "processed_symbols": 597,
+  "total_trades": 101256,
+  "total_wins": 33678,
+  "total_losses": 67578,
+  "win_rate_pct": 33.2603,
+  "final_return_pct": -69.0376,
+  "max_return_pct": 0.0588,
+  "max_drawdown_pct": 69.0558,
+  "cd_value": 30.9624,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -77.8482,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

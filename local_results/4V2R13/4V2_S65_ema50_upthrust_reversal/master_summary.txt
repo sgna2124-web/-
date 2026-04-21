@@ -1,0 +1,14 @@
+experiment=4V2_S65_ema50_upthrust_reversal
+side=short
+verdict=baseline_fail
+processed_symbols=597
+total_trades=404
+win_rate_pct=37.8713
+final_return_pct=0.2828
+max_return_pct=0.3963
+max_drawdown_pct=0.4946
+cd_value=99.8997
+baseline_cd_value=391.9606
+delta_cd_value=-292.0609
+passes_mdd_lt_5=True
+ruined=False

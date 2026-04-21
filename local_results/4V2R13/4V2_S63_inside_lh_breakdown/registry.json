@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S63_inside_lh_breakdown",
+  "side": "short",
+  "description": "lower-high 인사이드 압축 뒤 붕괴 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R13\\4V2_S63_inside_lh_breakdown\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R13\\4V2_S63_inside_lh_breakdown\\per_symbol_summary.json",
+  "generated_at_unix": 1776772925
+}

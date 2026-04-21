@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L64_mid_reclaim_resume",
+  "side": "long",
+  "description": "채널 중단 재장악 후 재개 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R13",
+  "processed_symbols": 597,
+  "total_trades": 36336,
+  "total_wins": 12613,
+  "total_losses": 23723,
+  "win_rate_pct": 34.7121,
+  "final_return_pct": -32.8199,
+  "max_return_pct": 0.0083,
+  "max_drawdown_pct": 32.8519,
+  "cd_value": 67.1536,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -41.657,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,14 @@
+experiment=4V2_L64_mid_reclaim_resume
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=36336
+win_rate_pct=34.7121
+final_return_pct=-32.8199
+max_return_pct=0.0083
+max_drawdown_pct=32.8519
+cd_value=67.1536
+baseline_cd_value=108.8106
+delta_cd_value=-41.657
+passes_mdd_lt_5=False
+ruined=False

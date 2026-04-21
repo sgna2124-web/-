@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S61_stacked_fail_reject",
+  "side": "short",
+  "description": "역배열 추세 내 급등 실패 재거절 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R13\\4V2_S61_stacked_fail_reject\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R13\\4V2_S61_stacked_fail_reject\\per_symbol_summary.json",
+  "generated_at_unix": 1776772925
+}

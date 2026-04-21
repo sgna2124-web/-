@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L63_inside_hl_breakout",
+  "side": "long",
+  "description": "higher-low 인사이드 압축 뒤 돌파 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R13",
+  "processed_symbols": 597,
+  "total_trades": 41400,
+  "total_wins": 13346,
+  "total_losses": 28054,
+  "win_rate_pct": 32.2367,
+  "final_return_pct": -41.0742,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 41.0798,
+  "cd_value": 58.9202,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -49.8904,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

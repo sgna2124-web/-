@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L62_ema_pullback_pivot",
+  "side": "long",
+  "description": "EMA20-50 풀백 뒤 피벗 재개 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R13\\4V2_L62_ema_pullback_pivot\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R13\\4V2_L62_ema_pullback_pivot\\per_symbol_summary.json",
+  "generated_at_unix": 1776772925
+}

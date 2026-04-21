@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S63_inside_lh_breakdown",
+  "side": "short",
+  "description": "lower-high 인사이드 압축 뒤 붕괴 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R13",
+  "processed_symbols": 597,
+  "total_trades": 43089,
+  "total_wins": 14362,
+  "total_losses": 28727,
+  "win_rate_pct": 33.331,
+  "final_return_pct": -38.0677,
+  "max_return_pct": 0.0678,
+  "max_drawdown_pct": 38.1096,
+  "cd_value": 61.9323,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -330.0283,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}
