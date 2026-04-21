@@ -133,6 +133,20 @@ notes:
 - nr_ladder / midband tag / wick accumulation 계열은 거래 수가 과다하게 늘어나며(약 24만~68만 회) max_return_pct가 거의 0에 수렴했고, MDD도 91~99%대로 붕괴했다.
 - 따라서 이번 라운드는 승격 후보 발굴보다는 "과다거래형 구조를 배제하고, 선택도가 높은 reset-resume / fail-reject 계열에 더 강한 위치 필터를 붙여야 한다"는 학습 기록으로 남긴다.
 
+9. recent round note: 4V2R13
+side: split long_only / short_only
+version_reference: 4V2R13
+summary_file: local_results/4V2R13/*/summary.json
+verdict: partial_candidates_but_no_promotion
+notes:
+- 4V2R13은 10개 중 4개 전략이 passes_mdd_lt_5=true 를 기록했다. long에서는 L61, L65가, short에서는 S61, S65가 생존했다.
+- batch long best(max_return_pct 기준): 4V2_L61_stacked_fail_reclaim | trades 3602 | max_return_pct 0.0683 | final_return_pct -3.2824 | max_drawdown_pct 3.4064 | cd_value 96.6595
+- batch short best(max_return_pct 기준): 4V2_S65_ema50_upthrust_reversal | trades 404 | max_return_pct 0.3963 | final_return_pct 0.2828 | max_drawdown_pct 0.4946 | cd_value 99.8997
+- long 쪽에서는 L61과 L65가 둘 다 MDD 5% 미만을 통과했고, 특히 L61은 공식 long reference 108.8106에 근접한 cd_value 96.6595까지 올라왔다. 다만 아직 공식 교체에는 실패했다.
+- short 쪽에서는 S65가 가장 안정적이었다. 거래 수 404, max_drawdown_pct 0.4946, final_return_pct 0.2828로 구조적 생존성은 강했지만, 공식 short reference cd_value 391.9606과의 격차는 매우 컸다.
+- 반면 EMA pullback / bounce pivot, inside breakout / breakdown, mid reclaim / loss resume 계열은 거래 수가 다시 수만~10만 회대로 커지며 MDD 29~69% 구간으로 무너졌다.
+- 따라서 이번 라운드는 "강한 방향 필터와 매우 선택적인 상단/하단 스윕 반전 구조는 MDD를 확실히 줄일 수 있다"는 긍정적 진전으로 평가하되, 아직 max_return_pct 기반 cd_value가 공식 기준을 넘지는 못했으므로 승격은 보류한다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
