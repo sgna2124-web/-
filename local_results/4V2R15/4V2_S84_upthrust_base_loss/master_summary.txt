@@ -1,0 +1,14 @@
+experiment=4V2_S84_upthrust_base_loss
+side=short
+verdict=baseline_fail
+processed_symbols=597
+total_trades=3200
+win_rate_pct=30.9688
+final_return_pct=-2.9529
+max_return_pct=0.1728
+max_drawdown_pct=3.2251
+cd_value=96.9422
+baseline_cd_value=391.9606
+delta_cd_value=-295.0184
+passes_mdd_lt_5=True
+ruined=False

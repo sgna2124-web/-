@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S85_overreaction_fade_resume",
+  "side": "short",
+  "description": "과잉반등 소진 후 추세 재개 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R15\\4V2_S85_overreaction_fade_resume\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R15\\4V2_S85_overreaction_fade_resume\\per_symbol_summary.json",
+  "generated_at_unix": 1776849295
+}

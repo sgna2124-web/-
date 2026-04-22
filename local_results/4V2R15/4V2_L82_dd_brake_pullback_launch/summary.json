@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L82_dd_brake_pullback_launch",
+  "side": "long",
+  "description": "DD 브레이크형 눌림 재가속 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R15",
+  "processed_symbols": 597,
+  "total_trades": 17461,
+  "total_wins": 5487,
+  "total_losses": 11974,
+  "win_rate_pct": 31.4243,
+  "final_return_pct": -14.7983,
+  "max_return_pct": 0.0522,
+  "max_drawdown_pct": 14.8779,
+  "cd_value": 85.1665,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -23.6441,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

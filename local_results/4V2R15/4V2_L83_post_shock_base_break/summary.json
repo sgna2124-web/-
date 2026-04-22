@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L83_post_shock_base_break",
+  "side": "long",
+  "description": "쇼크 후 저변 형성 돌파 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R15",
+  "processed_symbols": 597,
+  "total_trades": 6148,
+  "total_wins": 1810,
+  "total_losses": 4338,
+  "win_rate_pct": 29.4405,
+  "final_return_pct": -4.68,
+  "max_return_pct": 0.0154,
+  "max_drawdown_pct": 5.6284,
+  "cd_value": 94.3862,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -14.4244,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

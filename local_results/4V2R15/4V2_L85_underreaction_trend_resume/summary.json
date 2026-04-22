@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L85_underreaction_trend_resume",
+  "side": "long",
+  "description": "언더리액션 조정 후 추세 재개 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R15",
+  "processed_symbols": 597,
+  "total_trades": 43,
+  "total_wins": 11,
+  "total_losses": 32,
+  "win_rate_pct": 25.5814,
+  "final_return_pct": -0.2506,
+  "max_return_pct": 0.0801,
+  "max_drawdown_pct": 0.3933,
+  "cd_value": 99.6865,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -9.1241,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L84_tight_flag_release",
+  "side": "long",
+  "description": "상승 플래그 압축 해제 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R15",
+  "processed_symbols": 597,
+  "total_trades": 15488,
+  "total_wins": 4215,
+  "total_losses": 11273,
+  "win_rate_pct": 27.2146,
+  "final_return_pct": -17.4455,
+  "max_return_pct": 0.0043,
+  "max_drawdown_pct": 17.449,
+  "cd_value": 82.5545,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -26.2561,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

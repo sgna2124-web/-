@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L81_behavior_flush_absorb",
+  "side": "long",
+  "description": "행동 기반 투매 흡수 후 재시동 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R15\\4V2_L81_behavior_flush_absorb\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R15\\4V2_L81_behavior_flush_absorb\\per_symbol_summary.json",
+  "generated_at_unix": 1776849295
+}

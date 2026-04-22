@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S85_overreaction_fade_resume",
+  "side": "short",
+  "description": "과잉반등 소진 후 추세 재개 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R15",
+  "processed_symbols": 597,
+  "total_trades": 0,
+  "total_wins": 0,
+  "total_losses": 0,
+  "win_rate_pct": 0.0,
+  "final_return_pct": 0.0,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 0.0,
+  "cd_value": 100.0,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -291.9606,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

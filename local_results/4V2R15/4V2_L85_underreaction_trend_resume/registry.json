@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L85_underreaction_trend_resume",
+  "side": "long",
+  "description": "언더리액션 조정 후 추세 재개 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R15\\4V2_L85_underreaction_trend_resume\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R15\\4V2_L85_underreaction_trend_resume\\per_symbol_summary.json",
+  "generated_at_unix": 1776849295
+}

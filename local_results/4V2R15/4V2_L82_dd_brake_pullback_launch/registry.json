@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L82_dd_brake_pullback_launch",
+  "side": "long",
+  "description": "DD 브레이크형 눌림 재가속 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R15\\4V2_L82_dd_brake_pullback_launch\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R15\\4V2_L82_dd_brake_pullback_launch\\per_symbol_summary.json",
+  "generated_at_unix": 1776849295
+}
