@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S73_tp03_compression_flush",
+  "side": "short",
+  "description": "TP 0.3% 이상일 때만 압축 해제 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R14",
+  "processed_symbols": 597,
+  "total_trades": 17535,
+  "total_wins": 5633,
+  "total_losses": 11902,
+  "win_rate_pct": 32.1243,
+  "final_return_pct": -18.8367,
+  "max_return_pct": 0.0483,
+  "max_drawdown_pct": 18.8762,
+  "cd_value": 81.163,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -310.7976,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

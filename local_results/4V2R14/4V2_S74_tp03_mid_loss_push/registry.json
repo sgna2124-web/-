@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S74_tp03_mid_loss_push",
+  "side": "short",
+  "description": "TP 0.3% 이상일 때만 중단 이탈 재가속 숏",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_S74_tp03_mid_loss_push\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_S74_tp03_mid_loss_push\\per_symbol_summary.json",
+  "generated_at_unix": 1776813287
+}

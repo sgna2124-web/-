@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L73_tp03_compression_release",
+  "side": "long",
+  "description": "TP 0.3% 이상일 때만 압축 해제 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_L73_tp03_compression_release\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_L73_tp03_compression_release\\per_symbol_summary.json",
+  "generated_at_unix": 1776813287
+}

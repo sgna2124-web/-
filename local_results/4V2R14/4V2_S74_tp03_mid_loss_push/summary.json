@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S74_tp03_mid_loss_push",
+  "side": "short",
+  "description": "TP 0.3% 이상일 때만 중단 이탈 재가속 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R14",
+  "processed_symbols": 597,
+  "total_trades": 11246,
+  "total_wins": 3860,
+  "total_losses": 7386,
+  "win_rate_pct": 34.3233,
+  "final_return_pct": -13.3914,
+  "max_return_pct": 0.1483,
+  "max_drawdown_pct": 13.6998,
+  "cd_value": 86.4282,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -305.5324,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

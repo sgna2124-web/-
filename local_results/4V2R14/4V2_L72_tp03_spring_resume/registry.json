@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L72_tp03_spring_resume",
+  "side": "long",
+  "description": "TP 0.3% 이상일 때만 스프링 후 재개 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_L72_tp03_spring_resume\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_L72_tp03_spring_resume\\per_symbol_summary.json",
+  "generated_at_unix": 1776813287
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L74_tp03_mid_reclaim_push",
+  "side": "long",
+  "description": "TP 0.3% 이상일 때만 중단 재장악 재가속 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_L74_tp03_mid_reclaim_push\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_L74_tp03_mid_reclaim_push\\per_symbol_summary.json",
+  "generated_at_unix": 1776813287
+}

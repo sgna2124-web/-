@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L75_tp03_hl_break_pulse",
+  "side": "long",
+  "description": "TP 0.3% 이상일 때만 higher-low 펄스 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R14",
+  "processed_symbols": 597,
+  "total_trades": 67703,
+  "total_wins": 21113,
+  "total_losses": 46590,
+  "win_rate_pct": 31.1847,
+  "final_return_pct": -56.1685,
+  "max_return_pct": 0.0066,
+  "max_drawdown_pct": 56.1714,
+  "cd_value": 43.8315,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -64.9791,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

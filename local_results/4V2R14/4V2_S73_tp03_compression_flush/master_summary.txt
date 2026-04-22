@@ -1,0 +1,14 @@
+experiment=4V2_S73_tp03_compression_flush
+side=short
+verdict=mdd_fail
+processed_symbols=597
+total_trades=17535
+win_rate_pct=32.1243
+final_return_pct=-18.8367
+max_return_pct=0.0483
+max_drawdown_pct=18.8762
+cd_value=81.163
+baseline_cd_value=391.9606
+delta_cd_value=-310.7976
+passes_mdd_lt_5=False
+ruined=False

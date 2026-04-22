@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S75_tp03_lh_break_pulse",
+  "side": "short",
+  "description": "TP 0.3% 이상일 때만 lower-high 펄스 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R14",
+  "processed_symbols": 597,
+  "total_trades": 65690,
+  "total_wins": 20079,
+  "total_losses": 45611,
+  "win_rate_pct": 30.5663,
+  "final_return_pct": -57.873,
+  "max_return_pct": 0.0776,
+  "max_drawdown_pct": 57.9177,
+  "cd_value": 42.115,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -349.8456,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

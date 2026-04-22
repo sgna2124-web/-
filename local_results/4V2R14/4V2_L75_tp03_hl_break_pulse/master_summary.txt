@@ -1,0 +1,14 @@
+experiment=4V2_L75_tp03_hl_break_pulse
+side=long
+verdict=mdd_fail
+processed_symbols=597
+total_trades=67703
+win_rate_pct=31.1847
+final_return_pct=-56.1685
+max_return_pct=0.0066
+max_drawdown_pct=56.1714
+cd_value=43.8315
+baseline_cd_value=108.8106
+delta_cd_value=-64.9791
+passes_mdd_lt_5=False
+ruined=False

@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L72_tp03_spring_resume",
+  "side": "long",
+  "description": "TP 0.3% 이상일 때만 스프링 후 재개 롱",
+  "timeframe": "5m",
+  "batch_label": "4V2R14",
+  "processed_symbols": 597,
+  "total_trades": 327,
+  "total_wins": 95,
+  "total_losses": 232,
+  "win_rate_pct": 29.052,
+  "final_return_pct": -0.3969,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 0.4586,
+  "cd_value": 99.5414,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -9.2692,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

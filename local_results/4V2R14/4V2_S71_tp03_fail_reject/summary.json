@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S71_tp03_fail_reject",
+  "side": "short",
+  "description": "TP 0.3% 이상일 때만 급등 실패 재거절 숏",
+  "timeframe": "5m",
+  "batch_label": "4V2R14",
+  "processed_symbols": 597,
+  "total_trades": 2294,
+  "total_wins": 815,
+  "total_losses": 1479,
+  "win_rate_pct": 35.5275,
+  "final_return_pct": -1.6845,
+  "max_return_pct": 0.0649,
+  "max_drawdown_pct": 2.5634,
+  "cd_value": 97.4998,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -294.4608,
+  "passes_mdd_lt_5": true,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

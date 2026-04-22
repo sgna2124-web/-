@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L75_tp03_hl_break_pulse",
+  "side": "long",
+  "description": "TP 0.3% 이상일 때만 higher-low 펄스 롱",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_L75_tp03_hl_break_pulse\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R14\\4V2_L75_tp03_hl_break_pulse\\per_symbol_summary.json",
+  "generated_at_unix": 1776813287
+}
