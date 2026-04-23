@@ -1,0 +1,19 @@
+{
+  "batch_label": "5V2_COMBO10_REVIEWED",
+  "strategy_name": "5V2_L02_trend_pullback_resume",
+  "side": "long",
+  "description": "상승 추세 중 EMA20/50 부근 눌림 뒤 재상승을 노리는 롱",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1373078,
+  "wins": 440791,
+  "losses": 932287,
+  "win_rate_pct": 32.10240059195472,
+  "final_return_pct": -99.99999490891969,
+  "max_return_pct": 0.04887434459870388,
+  "max_drawdown_pct": 99.99999491200757,
+  "cd_value": 2.5903378135625496e-13,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

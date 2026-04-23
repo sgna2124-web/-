@@ -1,0 +1,19 @@
+{
+  "batch_label": "5V2_COMBO10_REVIEWED",
+  "strategy_name": "5V2_S01_blowoff_reject",
+  "side": "short",
+  "description": "급등 후 고점 돌파 실패와 종가 밀림을 이용한 숏",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4063,
+  "wins": 1455,
+  "losses": 2608,
+  "win_rate_pct": 35.81097711050948,
+  "final_return_pct": 3.827564135620798,
+  "max_return_pct": 3.9929257286974273,
+  "max_drawdown_pct": 2.2938680519962618,
+  "cd_value": 101.44589681274788,
+  "baseline_cd_value": 391.9606,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

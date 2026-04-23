@@ -1,0 +1,19 @@
+{
+  "batch_label": "5V2_COMBO10_REVIEWED",
+  "strategy_name": "5V2_L05_false_breakdown_reversal",
+  "side": "long",
+  "description": "가짜 하방 이탈 후 긴 아랫꼬리 회복형 반전을 노리는 롱",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 277056,
+  "wins": 99481,
+  "losses": 177575,
+  "win_rate_pct": 35.90645934395935,
+  "final_return_pct": -91.998086071526,
+  "max_return_pct": 0.0975107766747918,
+  "max_drawdown_pct": 92.0280294027241,
+  "cd_value": 0.6379102255972716,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

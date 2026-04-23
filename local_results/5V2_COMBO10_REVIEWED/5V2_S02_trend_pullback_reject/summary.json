@@ -1,0 +1,19 @@
+{
+  "batch_label": "5V2_COMBO10_REVIEWED",
+  "strategy_name": "5V2_S02_trend_pullback_reject",
+  "side": "short",
+  "description": "하락 추세 중 EMA20/50 되돌림 이후 재하락을 노리는 숏",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1435302,
+  "wins": 493148,
+  "losses": 942154,
+  "win_rate_pct": 34.35848344111553,
+  "final_return_pct": -99.99986460360635,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 99.99986520018142,
+  "cd_value": 1.8251409299932045e-10,
+  "baseline_cd_value": 391.9606,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

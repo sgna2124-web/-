@@ -1,0 +1,19 @@
+{
+  "batch_label": "5V2_COMBO10_REVIEWED",
+  "strategy_name": "5V2_S04_compression_breakdown",
+  "side": "short",
+  "description": "박스 압축 뒤 거래량 동반 하방 확장을 노리는 숏",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 782740,
+  "wins": 243156,
+  "losses": 539584,
+  "win_rate_pct": 31.064721363415693,
+  "final_return_pct": -99.98117286035048,
+  "max_return_pct": 0.0036994678352719745,
+  "max_drawdown_pct": 99.98127287166342,
+  "cd_value": 3.525782604271848e-06,
+  "baseline_cd_value": 391.9606,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

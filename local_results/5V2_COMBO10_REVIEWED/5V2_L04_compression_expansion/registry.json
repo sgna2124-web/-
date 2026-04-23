@@ -1,0 +1,28 @@
+{
+  "batch_label": "5V2_COMBO10_REVIEWED",
+  "strategy_name": "5V2_L04_compression_expansion",
+  "side": "long",
+  "description": "박스 압축 뒤 거래량 동반 상방 확장을 노리는 롱",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "5V2_COMBO10_REVIEWED",
+    "strategy_name": "5V2_L04_compression_expansion",
+    "side": "long",
+    "description": "박스 압축 뒤 거래량 동반 상방 확장을 노리는 롱",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 732982,
+    "wins": 217722,
+    "losses": 515260,
+    "win_rate_pct": 29.703594358388063,
+    "final_return_pct": -99.98915826782853,
+    "max_return_pct": 0.004684245046471247,
+    "max_drawdown_pct": 99.98916142220658,
+    "cd_value": 1.1750895755600916e-06,
+    "baseline_cd_value": 108.8106,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "5V2_COMBO10_REVIEWED",
+  "strategy_name": "5V2_L01_capitulation_reclaim",
+  "side": "long",
+  "description": "급락 후 저점 이탈-회수 캔들의 강한 반등을 노리는 롱",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3333,
+  "wins": 1489,
+  "losses": 1844,
+  "win_rate_pct": 44.67446744674468,
+  "final_return_pct": 50.94226846704719,
+  "max_return_pct": 51.77175271254162,
+  "max_drawdown_pct": 13.724018674845562,
+  "cd_value": 130.2269233543941,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

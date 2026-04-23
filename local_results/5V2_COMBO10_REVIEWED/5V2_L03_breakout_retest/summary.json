@@ -1,0 +1,19 @@
+{
+  "batch_label": "5V2_COMBO10_REVIEWED",
+  "strategy_name": "5V2_L03_breakout_retest",
+  "side": "long",
+  "description": "직전 돌파 이후 상단 재지지 확인 후 재상승을 노리는 롱",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 795202,
+  "wins": 245292,
+  "losses": 549910,
+  "win_rate_pct": 30.846501895115956,
+  "final_return_pct": -99.99653504865525,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 99.99653569961504,
+  "cd_value": 1.200363227750177e-07,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

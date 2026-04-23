@@ -1,0 +1,16 @@
+batch=5V2_COMBO10_REVIEWED
+timeframe=5m
+
+[long]
+5V2_L01_capitulation_reclaim | verdict=mdd_fail | final_return_pct=50.9423 | max_return_pct=51.7718 | max_drawdown_pct=13.7240 | cd_value=130.2269 | trades=3333
+5V2_L05_false_breakdown_reversal | verdict=mdd_fail | final_return_pct=-91.9981 | max_return_pct=0.0975 | max_drawdown_pct=92.0280 | cd_value=0.6379 | trades=277056
+5V2_L04_compression_expansion | verdict=mdd_fail | final_return_pct=-99.9892 | max_return_pct=0.0047 | max_drawdown_pct=99.9892 | cd_value=0.0000 | trades=732982
+5V2_L03_breakout_retest | verdict=mdd_fail | final_return_pct=-99.9965 | max_return_pct=0.0000 | max_drawdown_pct=99.9965 | cd_value=0.0000 | trades=795202
+5V2_L02_trend_pullback_resume | verdict=mdd_fail | final_return_pct=-100.0000 | max_return_pct=0.0489 | max_drawdown_pct=100.0000 | cd_value=0.0000 | trades=1373078
+
+[short]
+5V2_S01_blowoff_reject | verdict=baseline_fail | final_return_pct=3.8276 | max_return_pct=3.9929 | max_drawdown_pct=2.2939 | cd_value=101.4459 | trades=4063
+5V2_S05_false_breakout_reversal | verdict=mdd_fail | final_return_pct=-90.1771 | max_return_pct=0.0015 | max_drawdown_pct=90.1785 | cd_value=0.9648 | trades=248879
+5V2_S04_compression_breakdown | verdict=mdd_fail | final_return_pct=-99.9812 | max_return_pct=0.0037 | max_drawdown_pct=99.9813 | cd_value=0.0000 | trades=782740
+5V2_S03_breakdown_retest | verdict=mdd_fail | final_return_pct=-99.9885 | max_return_pct=0.0000 | max_drawdown_pct=99.9885 | cd_value=0.0000 | trades=815628
+5V2_S02_trend_pullback_reject | verdict=mdd_fail | final_return_pct=-99.9999 | max_return_pct=0.0000 | max_drawdown_pct=99.9999 | cd_value=0.0000 | trades=1435302
