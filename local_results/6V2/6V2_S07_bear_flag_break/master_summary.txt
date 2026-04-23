@@ -1,0 +1,1 @@
+strategy=6V2_S07_bear_flag_breakside=shortdescription=약세 플래그 하단 이탈symbols_tested=597trades=0win_rate_pct=0.0final_return_pct=0.0max_return_pct=0.0max_drawdown_pct=0.0cd_value=100.0baseline_cd_value=391.9606delta_cd_value_vs_baseline=-291.9606verdict=below_baseline

@@ -1,0 +1,11 @@
+﻿batch_label,strategy_name,side,description,timeframe,processed_symbols,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,cd_value,baseline_cd_value,ruined,verdict
+6V2_LONG10_REVIEWED,6V2_L01_doubleflush_core,long,cap reclaim + double flush core,5m,597,592,344,248,58.108108108108105,23.696117709950173,23.919059992296397,1.7511833415334799,121.52997190248988,108.8106,False,baseline_win
+6V2_LONG10_REVIEWED,6V2_L04_doubleflush_extremeclose,long,double flush + extreme close quality,5m,597,442,271,171,61.31221719457014,19.208591270142318,19.47815214053108,1.0102062105042164,118.00433867767674,108.8106,False,baseline_win
+6V2_LONG10_REVIEWED,6V2_L10_contraction_flush_break,long,double flush + contraction break,5m,597,3,2,1,66.66666666666666,0.13842712643670207,0.1483803516748594,0.009938478488824565,100.1284748903977,108.8106,False,baseline_fail
+6V2_LONG10_REVIEWED,6V2_L03_doubleflush_quiet,long,double flush + quiet regime,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V2_LONG10_REVIEWED,6V2_L08_quiet_reclaim_secondpush,long,quiet reclaim + second push,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V2_LONG10_REVIEWED,6V2_L06_doubleflush_absorbbreak,long,double flush + absorb base break,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V2_LONG10_REVIEWED,6V2_L09_retest_hold_break,long,retest hold after reclaim,5m,597,3,1,2,33.33333333333333,-0.05241636028963104,0.0,0.07111396092446265,99.87650695413588,108.8106,False,baseline_fail
+6V2_LONG10_REVIEWED,6V2_L07_absorb_reclaim_core,long,post shock absorb + reclaim break,5m,597,19,6,13,31.57894736842105,-0.2120404874608739,0.018253879351060043,0.23025233682816282,99.55819540388836,108.8106,False,baseline_fail
+6V2_LONG10_REVIEWED,6V2_L02_doubleflush_trendfloor,long,double flush + trend floor,5m,597,54,19,35,35.18518518518518,-0.5371062425656326,0.0,0.7739195302150614,98.69313099732852,108.8106,False,baseline_fail
+6V2_LONG10_REVIEWED,6V2_L05_doubleflush_secondpush,long,double flush + delayed second push,5m,597,354,75,279,21.1864406779661,-2.3851562990125807,0.0,2.3851562990125807,95.28657710768204,108.8106,False,baseline_fail

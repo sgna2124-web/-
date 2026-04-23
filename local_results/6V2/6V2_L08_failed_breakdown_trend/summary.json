@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_L08_failed_breakdown_trend",
+  "side": "long",
+  "description": "상승 문맥 내 하단 이탈 실패",
+  "symbols_tested": 597,
+  "trades": 3984,
+  "wins": 1331,
+  "losses": 2653,
+  "win_rate_pct": 33.4086,
+  "final_return_pct": -98.1702,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 98.1702,
+  "cd_value": 0.0335,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.7771,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_L04_trend_pullback_resume",
+  "side": "long",
+  "description": "상승 추세 중 EMA20 되돌림 후 재상승",
+  "symbols_tested": 597,
+  "trades": 725637,
+  "wins": 234267,
+  "losses": 491370,
+  "win_rate_pct": 32.2843,
+  "final_return_pct": -100.0,
+  "max_return_pct": 7.3879,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.8106,
+  "verdict": "ruin"
+}

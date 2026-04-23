@@ -1,0 +1,1 @@
+strategy=6V2_L03_range_failure_recoveryside=longdescription=장기 하단 이탈 실패 후 범위 복귀symbols_tested=597trades=64785win_rate_pct=33.9523final_return_pct=-100.0max_return_pct=0.8182max_drawdown_pct=100.0cd_value=0.0baseline_cd_value=108.8106delta_cd_value_vs_baseline=-108.8106verdict=ruin

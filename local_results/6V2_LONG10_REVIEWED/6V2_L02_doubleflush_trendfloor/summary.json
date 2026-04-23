@@ -1,0 +1,19 @@
+{
+  "batch_label": "6V2_LONG10_REVIEWED",
+  "strategy_name": "6V2_L02_doubleflush_trendfloor",
+  "side": "long",
+  "description": "double flush + trend floor",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 54,
+  "wins": 19,
+  "losses": 35,
+  "win_rate_pct": 35.18518518518518,
+  "final_return_pct": -0.5371062425656326,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 0.7739195302150614,
+  "cd_value": 98.69313099732852,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

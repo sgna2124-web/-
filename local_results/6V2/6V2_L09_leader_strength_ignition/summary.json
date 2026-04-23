@@ -1,0 +1,17 @@
+{
+  "strategy_name": "6V2_L09_leader_strength_ignition",
+  "side": "long",
+  "description": "강한 상대강도 후 재점화",
+  "symbols_tested": 597,
+  "trades": 41332,
+  "wins": 12167,
+  "losses": 29165,
+  "win_rate_pct": 29.4372,
+  "final_return_pct": -100.0,
+  "max_return_pct": 12.8726,
+  "max_drawdown_pct": 100.0,
+  "cd_value": 0.0,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value_vs_baseline": -108.8106,
+  "verdict": "ruin"
+}

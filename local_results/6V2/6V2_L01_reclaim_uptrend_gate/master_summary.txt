@@ -1,0 +1,1 @@
+strategy=6V2_L01_reclaim_uptrend_gateside=longdescription=L01 정제형: 상위 추세 회복형 급락 회수symbols_tested=597trades=79win_rate_pct=43.038final_return_pct=-12.327max_return_pct=0.0max_drawdown_pct=33.1169cd_value=58.6384baseline_cd_value=108.8106delta_cd_value_vs_baseline=-50.1722verdict=mdd_fail
