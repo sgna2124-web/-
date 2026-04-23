@@ -44,3 +44,14 @@ result_rule: max_return_pct를 반드시 남긴다.
 4. invalid_env 처리 원칙
 환경 설정 오류, 자산 비중 오류, 수수료 오류, 비교 불가능한 실험은 invalid_env로 처리한다.
 invalid_env 실험은 전략 실패 기록으로 누적하지 않고 결과 카탈로그에서 제거한다.
+
+5. latest experimental reference
+version_reference: 5V2_COMBO10_REVIEWED
+role: latest_archive_reference_for_next_design
+code_path: local_results/5V2_COMBO10_REVIEWED/5V2_combo10_reviewed.py
+result_path: local_results/5V2_COMBO10_REVIEWED/
+summary_file: local_results/5V2_COMBO10_REVIEWED/master_summary.txt
+long_reuse_hint: 5V2_L01_capitulation_reclaim은 max_return_pct 51.7718, final_return_pct 50.9423, cd_value 130.2269로 수익 잠재력이 확인됐으나 MDD 13.7240 때문에 raw 형태 재사용은 금지하고, MDD 절감용 regime/location 게이트를 붙인 코어로만 재사용한다.
+short_reuse_hint: 5V2_S01_blowoff_reject는 max_drawdown_pct 2.2939로 방어력이 확인됐으나 cd_value 101.4459로 공식 short 기준선과 격차가 커서, 주력 숏이 아니라 continuation 확인을 붙일 보조 코어로 본다.
+avoid_hint: 5V2의 L02~L05, S02~S05에 해당하는 raw trend_pullback_resume / breakout_retest / compression expansion / false-break reversal 계열은 거래 수가 약 24만~143만 회로 폭증하며 90~100% MDD 붕괴가 확인됐으므로, hard regime/location gate 없이 단독 재사용하지 않는다.
+usage_rule: 다음 5분봉 split 전략은 selective shock-reclaim/reject를 중심축으로 하고, broad continuation 모듈은 보조 확인으로만 붙인다.
