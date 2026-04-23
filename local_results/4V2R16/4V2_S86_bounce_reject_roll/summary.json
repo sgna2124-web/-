@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S86_bounce_reject_roll",
+  "side": "short",
+  "description": "relief bounce rejected near midpoint then rolls over",
+  "timeframe": "5m",
+  "batch_label": "4V2R16",
+  "processed_symbols": 597,
+  "total_trades": 162611,
+  "total_wins": 50654,
+  "total_losses": 111957,
+  "win_rate_pct": 31.1504,
+  "final_return_pct": 32.3273,
+  "max_return_pct": 38.7973,
+  "max_drawdown_pct": 8.944,
+  "cd_value": 126.3833,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -265.5773,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

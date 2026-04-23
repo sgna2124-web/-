@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L86_shakeout_reclaim_drive",
+  "side": "long",
+  "description": "recent flush absorbed then reclaim above EMA20/channel midpoint",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R16\\4V2_L86_shakeout_reclaim_drive\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R16\\4V2_L86_shakeout_reclaim_drive\\per_symbol_summary.json",
+  "generated_at_unix": 1776911067
+}

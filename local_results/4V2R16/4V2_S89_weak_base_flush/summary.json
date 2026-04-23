@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_S89_weak_base_flush",
+  "side": "short",
+  "description": "weak compressed base under resistance then breakdown",
+  "timeframe": "5m",
+  "batch_label": "4V2R16",
+  "processed_symbols": 597,
+  "total_trades": 57959,
+  "total_wins": 18864,
+  "total_losses": 39095,
+  "win_rate_pct": 32.5471,
+  "final_return_pct": 2.1448,
+  "max_return_pct": 5.9255,
+  "max_drawdown_pct": 5.1155,
+  "cd_value": 100.5069,
+  "baseline_cd_value": 391.9606,
+  "delta_cd_value": -291.4537,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

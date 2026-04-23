@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_S89_weak_base_flush",
+  "side": "short",
+  "description": "weak compressed base under resistance then breakdown",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R16\\4V2_S89_weak_base_flush\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R16\\4V2_S89_weak_base_flush\\per_symbol_summary.json",
+  "generated_at_unix": 1776911067
+}

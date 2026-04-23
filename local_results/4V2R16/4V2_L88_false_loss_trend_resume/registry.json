@@ -1,0 +1,8 @@
+{
+  "experiment": "4V2_L88_false_loss_trend_resume",
+  "side": "long",
+  "description": "failed breakdown under 20-bar low then trend resumption",
+  "summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R16\\4V2_L88_false_loss_trend_resume\\summary.json",
+  "per_symbol_summary_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\4V2R16\\4V2_L88_false_loss_trend_resume\\per_symbol_summary.json",
+  "generated_at_unix": 1776911067
+}

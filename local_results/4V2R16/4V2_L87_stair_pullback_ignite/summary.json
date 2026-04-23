@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L87_stair_pullback_ignite",
+  "side": "long",
+  "description": "strong uptrend staircase pullback into support then breakout",
+  "timeframe": "5m",
+  "batch_label": "4V2R16",
+  "processed_symbols": 597,
+  "total_trades": 112685,
+  "total_wins": 34144,
+  "total_losses": 78541,
+  "win_rate_pct": 30.3004,
+  "final_return_pct": -27.5604,
+  "max_return_pct": 0.0834,
+  "max_drawdown_pct": 29.6749,
+  "cd_value": 70.3837,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -38.4269,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

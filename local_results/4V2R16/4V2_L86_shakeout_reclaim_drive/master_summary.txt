@@ -1,0 +1,14 @@
+experiment=4V2_L86_shakeout_reclaim_drive
+side=long
+verdict=baseline_fail
+processed_symbols=597
+total_trades=4036
+win_rate_pct=30.6492
+final_return_pct=0.4261
+max_return_pct=0.9545
+max_drawdown_pct=1.2056
+cd_value=99.7373
+baseline_cd_value=108.8106
+delta_cd_value=-9.0733
+passes_mdd_lt_5=True
+ruined=False

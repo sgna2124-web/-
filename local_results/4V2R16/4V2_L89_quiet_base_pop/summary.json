@@ -1,0 +1,21 @@
+{
+  "experiment": "4V2_L89_quiet_base_pop",
+  "side": "long",
+  "description": "tight base compression then controlled breakout",
+  "timeframe": "5m",
+  "batch_label": "4V2R16",
+  "processed_symbols": 597,
+  "total_trades": 66165,
+  "total_wins": 20606,
+  "total_losses": 45559,
+  "win_rate_pct": 31.1434,
+  "final_return_pct": -16.9863,
+  "max_return_pct": 0.3429,
+  "max_drawdown_pct": 17.2868,
+  "cd_value": 82.9968,
+  "baseline_cd_value": 108.8106,
+  "delta_cd_value": -25.8138,
+  "passes_mdd_lt_5": false,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}
