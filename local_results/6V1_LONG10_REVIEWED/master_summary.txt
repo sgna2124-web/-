@@ -1,0 +1,13 @@
+batch=6V1_LONG10_REVIEWED
+timeframe=5m
+
+6V1_L06_capreclaim_doubleflush | verdict=baseline_win | final_return_pct=22.0847 | max_return_pct=22.3343 | max_drawdown_pct=1.5060 | cd_value=120.2461 | trades=530
+6V1_L03_v67_shockassist | verdict=mdd_fail | final_return_pct=20.7922 | max_return_pct=22.2395 | max_drawdown_pct=10.9897 | cd_value=107.5175 | trades=3067
+6V1_L02_v67_quiet_secondpush | verdict=baseline_fail | final_return_pct=1.1216 | max_return_pct=1.2091 | max_drawdown_pct=0.4219 | cd_value=100.6950 | trades=324
+6V1_L08_postshock_absorb_break | verdict=baseline_fail | final_return_pct=-0.1144 | max_return_pct=0.0211 | max_drawdown_pct=0.1721 | cd_value=99.7136 | trades=37
+6V1_L05_capreclaim_secondpush | verdict=baseline_fail | final_return_pct=-0.3432 | max_return_pct=0.0664 | max_drawdown_pct=0.5104 | cd_value=99.1481 | trades=52
+6V1_L01_v67_trendfloor | verdict=baseline_fail | final_return_pct=-1.0010 | max_return_pct=0.0054 | max_drawdown_pct=1.0997 | cd_value=97.9103 | trades=350
+6V1_L10_underreaction_impulse_pullback | verdict=baseline_fail | final_return_pct=-1.4935 | max_return_pct=0.1216 | max_drawdown_pct=1.9847 | cd_value=96.5514 | trades=291
+6V1_L04_capreclaim_trendfloor | verdict=baseline_fail | final_return_pct=-1.9635 | max_return_pct=0.0000 | max_drawdown_pct=2.5138 | cd_value=95.5720 | trades=314
+6V1_L09_failed_breakdown_midreclaim | verdict=baseline_fail | final_return_pct=-1.4263 | max_return_pct=2.3176 | max_drawdown_pct=3.6591 | cd_value=94.9669 | trades=8981
+6V1_L07_ema50_spring_drive | verdict=mdd_fail | final_return_pct=-61.6752 | max_return_pct=0.0008 | max_drawdown_pct=61.6755 | cd_value=14.6878 | trades=77818

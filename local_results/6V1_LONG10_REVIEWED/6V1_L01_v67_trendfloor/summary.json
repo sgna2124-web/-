@@ -1,0 +1,19 @@
+{
+  "batch_label": "6V1_LONG10_REVIEWED",
+  "strategy_name": "6V1_L01_v67_trendfloor",
+  "side": "long",
+  "description": "기준선형 과매도 꼬리 반등 + trend floor",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 350,
+  "wins": 115,
+  "losses": 235,
+  "win_rate_pct": 32.857142857142854,
+  "final_return_pct": -1.0009678117389842,
+  "max_return_pct": 0.005397573015208934,
+  "max_drawdown_pct": 1.0997437032861712,
+  "cd_value": 97.91029656545638,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

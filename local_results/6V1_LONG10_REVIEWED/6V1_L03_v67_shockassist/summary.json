@@ -1,0 +1,19 @@
+{
+  "batch_label": "6V1_LONG10_REVIEWED",
+  "strategy_name": "6V1_L03_v67_shockassist",
+  "side": "long",
+  "description": "기준선형 과매도 꼬리 반등 + short-term shock assist",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3067,
+  "wins": 1269,
+  "losses": 1798,
+  "win_rate_pct": 41.3759373981089,
+  "final_return_pct": 20.792248455942406,
+  "max_return_pct": 22.23953485735377,
+  "max_drawdown_pct": 10.989739863723369,
+  "cd_value": 107.51749457509193,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}
