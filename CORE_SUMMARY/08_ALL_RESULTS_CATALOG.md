@@ -185,6 +185,20 @@ notes:
 - 이번 배치는 조건을 계속 좁히면 MDD는 줄어들 수 있어도 전략 자체가 사라질 수 있다는 점을 분명히 보여줬다.
 - 따라서 selective 구조는 유지하되, 과선택화로 0트레이드가 나는 조합은 회피하는 방향으로 다음 전략을 설계한다.
 
+13. recent round note: 5V2_COMBO10_REVIEWED
+side: split long_only / short_only
+version_reference: 5V2_COMBO10_REVIEWED
+summary_file: local_results/5V2_COMBO10_REVIEWED/*/summary.json
+verdict: long_candidate_but_no_promotion_short_defensive_only
+notes:
+- 10개 중 의미 있게 남은 것은 사실상 long L01과 short S01뿐이었다.
+- batch long best(max_return_pct 기준): 5V2_L01_capitulation_reclaim | trades 3333 | max_return_pct 51.7718 | final_return_pct 50.9423 | max_drawdown_pct 13.7240 | cd_value 130.2269
+- L01은 공식 long reference legacy_cd_value 108.8106을 max_return 기반 cd_value로 넘어섰지만, max_drawdown_pct 13.7240으로 MDD 규칙을 위반해 승격 실패했다.
+- batch short best(max_return_pct 기준): 5V2_S01_blowoff_reject | trades 4063 | max_return_pct 3.9929 | final_return_pct 3.8276 | max_drawdown_pct 2.2939 | cd_value 101.4459
+- S01은 MDD는 우수했지만 official short reference 391.9606에 크게 못 미쳐 baseline_fail 이다.
+- 반면 L02~L05와 S02~S05는 거래 수가 약 24만~143만 회까지 폭증했고, max_drawdown_pct 90~100% 붕괴로 사실상 구조 실패가 확인됐다.
+- 따라서 이번 라운드는 "급락 후 회수형 capitulation reclaim은 수익 잠재력이 실제로 존재하지만 아직 위험 압축이 부족하고, broad pullback / retest / compression / false-break 구조는 단독 운용 시 과다거래로 붕괴한다"는 학습 기록으로 남긴다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
