@@ -147,6 +147,44 @@ notes:
 - 반면 EMA pullback / bounce pivot, inside breakout / breakdown, mid reclaim / loss resume 계열은 거래 수가 다시 수만~10만 회대로 커지며 MDD 29~69% 구간으로 무너졌다.
 - 따라서 이번 라운드는 "강한 방향 필터와 매우 선택적인 상단/하단 스윕 반전 구조는 MDD를 확실히 줄일 수 있다"는 긍정적 진전으로 평가하되, 아직 max_return_pct 기반 cd_value가 공식 기준을 넘지는 못했으므로 승격은 보류한다.
 
+10. recent round note: 4V2R14
+side: split long_only / short_only
+version_reference: 4V2R14
+summary_file: local_results/4V2R14/*/summary.json
+verdict: no_promotion_high_variance_archive_candidates
+notes:
+- 4V2R14는 selective fail-reclaim / fail-reject 계열을 다시 밀어본 배치였지만, 공식 승격 후보는 나오지 않았다.
+- batch long best(max_return_pct 기준): 4V2_L71_tp03_fail_reclaim
+- batch short best(max_return_pct 기준): 4V2_S72_tp03_upthrust_resume
+- 숏 S72는 배치 내에서는 상대적으로 강한 폭발력을 보였지만 MDD 조건을 넘겨 공식 후보가 될 수 없었다.
+- 롱 쪽도 일부 후보가 국지적 반응은 있었으나, 공식 long reference를 흔들 수준의 cd_value나 안정성을 만들지 못했다.
+- 결론적으로 이번 배치는 "tp03류 실패 복귀 구조는 아이디어 저장 가치는 있으나, 방향/위치 필터 없이 단독 승격용으로 쓰기 어렵다"는 기록으로 남긴다.
+
+11. recent round note: 4V2R15
+side: split long_only / short_only
+version_reference: 4V2R15
+summary_file: local_results/4V2R15/*/summary.json
+verdict: no_promotion_behavioral_family_needs_stronger_gates
+notes:
+- 4V2R15는 behavior flush, dd brake, post shock, tight flag, underreaction 같은 행동 서술형 구조를 탐색한 배치였다.
+- batch long best(max_return_pct 기준): 4V2_L81_behavior_flush_absorb
+- batch short best(max_return_pct 기준): 4V2_S84_upthrust_base_loss
+- 롱 L81과 숏 S84가 배치 내 상대 강자였지만, 전체 풀 기준으로는 공식 승격에 필요한 MDD 통제와 재현성을 보여주지 못했다.
+- 이번 배치는 이름이 설득력 있는 행동 기반 구조라도, 추세 위치 필터와 거래 수 제어가 없으면 실제 성능 우위로 이어지지 않는다는 점을 보여준다.
+
+12. recent round note: 4V2R16
+side: split long_only / short_only
+version_reference: 4V2R16
+summary_file: local_results/4V2R16/*/summary.json
+verdict: no_promotion_overselection_and_zero_trade_warning
+notes:
+- 4V2R16은 shakeout reclaim, stair pullback, false loss, quiet base, vol reset 계열을 실험한 배치였다.
+- batch long best(max_return_pct 기준): 4V2_L86_shakeout_reclaim_drive
+- batch short best(max_return_pct 기준): 4V2_S86_bounce_reject_roll
+- L88에서는 0트레이드가 발생했다. 이후부터는 거래 수와 재현성을 별도 체크 항목으로 본다.
+- 이번 배치는 조건을 계속 좁히면 MDD는 줄어들 수 있어도 전략 자체가 사라질 수 있다는 점을 분명히 보여줬다.
+- 따라서 selective 구조는 유지하되, 과선택화로 0트레이드가 나는 조합은 회피하는 방향으로 다음 전략을 설계한다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
