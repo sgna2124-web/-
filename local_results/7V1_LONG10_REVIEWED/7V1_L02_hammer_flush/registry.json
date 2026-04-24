@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V1_LONG10_REVIEWED",
+  "strategy_name": "7V1_L02_hammer_flush",
+  "side": "long",
+  "description": "flush hammer reclaim with downside damage context",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V1_LONG10_REVIEWED",
+    "strategy_name": "7V1_L02_hammer_flush",
+    "side": "long",
+    "description": "flush hammer reclaim with downside damage context",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 2944,
+    "wins": 1061,
+    "losses": 1883,
+    "win_rate_pct": 36.03940217391305,
+    "final_return_pct": 13.45554452218105,
+    "max_return_pct": 13.512458730130206,
+    "max_drawdown_pct": 6.184432149280927,
+    "cd_value": 106.43896335160956,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V1_LONG10_REVIEWED",
+  "strategy_name": "7V1_L10_shock_reversal_balance",
+  "side": "long",
+  "description": "balanced recent-shock reversal with score gate",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V1_LONG10_REVIEWED",
+    "strategy_name": "7V1_L10_shock_reversal_balance",
+    "side": "long",
+    "description": "balanced recent-shock reversal with score gate",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 33481,
+    "wins": 12033,
+    "losses": 21448,
+    "win_rate_pct": 35.939786744720884,
+    "final_return_pct": 51.02036226351883,
+    "max_return_pct": 56.59633485565316,
+    "max_drawdown_pct": 15.103275279839146,
+    "cd_value": 128.21134122224925,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

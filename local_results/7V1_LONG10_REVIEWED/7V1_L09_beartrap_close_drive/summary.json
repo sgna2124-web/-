@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V1_LONG10_REVIEWED",
+  "strategy_name": "7V1_L09_beartrap_close_drive",
+  "side": "long",
+  "description": "bear trap reclaim with strong close drive",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4778,
+  "wins": 1761,
+  "losses": 3017,
+  "win_rate_pct": 36.856425282545,
+  "final_return_pct": 21.125101523341616,
+  "max_return_pct": 21.87692123680991,
+  "max_drawdown_pct": 7.674095722506302,
+  "cd_value": 111.82984528845743,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

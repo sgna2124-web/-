@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V1_LONG10_REVIEWED",
+  "strategy_name": "7V1_L04_engulf_panic_retake",
+  "side": "long",
+  "description": "panic selloff followed by bullish engulf retake",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 5071,
+  "wins": 1941,
+  "losses": 3130,
+  "win_rate_pct": 38.27647406823112,
+  "final_return_pct": 34.256675711243915,
+  "max_return_pct": 36.45165323062254,
+  "max_drawdown_pct": 7.965961284528311,
+  "cd_value": 123.5618409021915,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

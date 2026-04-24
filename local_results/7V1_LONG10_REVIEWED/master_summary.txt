@@ -1,0 +1,13 @@
+batch=7V1_LONG10_REVIEWED
+timeframe=5m
+
+7V1_L10_shock_reversal_balance | verdict=mdd_fail | final_return_pct=51.0204 | max_return_pct=56.5963 | max_drawdown_pct=15.1033 | cd_value=128.2113 | trades=33481
+7V1_L04_engulf_panic_retake | verdict=mdd_fail | final_return_pct=34.2567 | max_return_pct=36.4517 | max_drawdown_pct=7.9660 | cd_value=123.5618 | trades=5071
+7V1_L09_beartrap_close_drive | verdict=mdd_fail | final_return_pct=21.1251 | max_return_pct=21.8769 | max_drawdown_pct=7.6741 | cd_value=111.8298 | trades=4778
+7V1_L07_climax_wick_reclaim | verdict=mdd_fail | final_return_pct=17.3992 | max_return_pct=17.8515 | max_drawdown_pct=5.5953 | cd_value=110.8303 | trades=2118
+7V1_L01_spring_undercut | verdict=mdd_fail | final_return_pct=22.9500 | max_return_pct=24.0477 | max_drawdown_pct=12.3993 | cd_value=107.7052 | trades=9885
+7V1_L02_hammer_flush | verdict=mdd_fail | final_return_pct=13.4555 | max_return_pct=13.5125 | max_drawdown_pct=6.1844 | cd_value=106.4390 | trades=2944
+7V1_L06_deep_ema20_retake | verdict=baseline_fail | final_return_pct=0.9083 | max_return_pct=0.9889 | max_drawdown_pct=0.6282 | cd_value=100.2744 | trades=332
+7V1_L05_outside_flush_reversal | verdict=baseline_fail | final_return_pct=0.5184 | max_return_pct=1.0127 | max_drawdown_pct=0.6614 | cd_value=99.8535 | trades=471
+7V1_L03_beartrap_midflip | verdict=baseline_fail | final_return_pct=-0.2632 | max_return_pct=0.1215 | max_drawdown_pct=0.4819 | cd_value=99.2562 | trades=45
+7V1_L08_rangefloor_pop | verdict=baseline_fail | final_return_pct=-0.7596 | max_return_pct=0.0793 | max_drawdown_pct=1.9005 | cd_value=97.3543 | trades=671
