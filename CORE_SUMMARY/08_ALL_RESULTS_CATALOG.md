@@ -199,6 +199,21 @@ notes:
 - 즉 이번 라운드는 상태 필터형 개선이라는 방향 자체는 맞았지만, core 위에 얹은 hard gate는 과선택화로 무너졌고, 신규 전략은 거래수 상한 장치가 없어 과다거래로 붕괴했다.
 - 다음 long 개선은 state 요소를 hard filter가 아니라 soft score 또는 tie-break로 낮추고, 신규 전략은 signal cooldown / one-shot rarity / recent-fire suppression을 기본 내장해야 한다.
 
+14. recent round note: 6V5_LONG10_REVIEWED
+side: long_only
+version_reference: 6V5_LONG10_REVIEWED
+summary_file: local_results/6V5_LONG10_REVIEWED/*/summary.json
+verdict: no_promotion_softscore_stabilized_but_edge_diluted
+notes:
+- batch best: 6V5_L05_core_score_shockfresh | trades 337 | max_return_pct 4.3842 | final_return_pct 3.9127 | max_drawdown_pct 1.0476 | cd_value 102.8241
+- next best: 6V5_L10_extreme_score_shockfresh | trades 254 | max_return_pct 3.0029 | final_return_pct 2.5475 | max_drawdown_pct 0.7294 | cd_value 101.7995
+- third: 6V5_L06_extreme_score_balance | trades 254 | max_return_pct 2.8736 | final_return_pct 2.4189 | max_drawdown_pct 0.6719 | cd_value 101.7307
+- quiet variants L02, L07은 다시 0트레이드였다. 즉 quiet gate는 여전히 과선택화 성향이 강하다.
+- 반면 나머지 8개는 전부 과다거래 없이 61~337 trades 범위에 들어왔고, MDD도 모두 1.05% 이하로 안정화됐다.
+- 즉 6V4의 문제였던 hard gate 과선택화와 신규 패턴 과다거래는 soft score + spacing으로 해결됐지만, 정작 수익 엣지가 크게 희석되어 6V2 기준선과는 매우 큰 격차를 보였다.
+- 현재 해석은 명확하다. double flush 계열은 더 정교한 보조점수로 안정화할 수는 있지만, 기존 코어 위에 score를 덧칠하는 개선만으로는 공식 기준선을 넘어설 만큼의 추가 엣지를 만들지 못한다.
+- 따라서 다음 단계는 같은 코어의 미세 조정 반복보다, 신규 family 개발로 이동하는 것이 합리적이다. 다만 shockfresh 보조축과 extreme branch의 낮은 MDD 성향은 새 family 설계 시 재사용 가치가 있다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
