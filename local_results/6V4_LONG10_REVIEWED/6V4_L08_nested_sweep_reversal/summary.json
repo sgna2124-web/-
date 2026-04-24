@@ -1,0 +1,19 @@
+{
+  "batch_label": "6V4_LONG10_REVIEWED",
+  "strategy_name": "6V4_L08_nested_sweep_reversal",
+  "side": "long",
+  "description": "New nested sweep reversal",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 875873,
+  "wins": 244976,
+  "losses": 630897,
+  "win_rate_pct": 27.96935172108285,
+  "final_return_pct": -99.9946959320796,
+  "max_return_pct": 0.005518699957685058,
+  "max_drawdown_pct": 99.99469846632569,
+  "cd_value": 2.811969469091527e-07,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

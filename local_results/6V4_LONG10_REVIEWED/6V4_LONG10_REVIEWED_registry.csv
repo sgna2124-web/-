@@ -1,0 +1,11 @@
+﻿batch_label,strategy_name,side,description,timeframe,processed_symbols,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,cd_value,baseline_cd_value,ruined,verdict
+6V4_LONG10_REVIEWED,6V4_L01_core_volcool_state,long,L01 core + volatility cool state,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V4_LONG10_REVIEWED,6V4_L02_core_oversold_reset,long,L01 core + oversold reset state,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V4_LONG10_REVIEWED,6V4_L04_extreme_volcool_state,long,L04 extreme close + volatility cool state,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V4_LONG10_REVIEWED,6V4_L05_extreme_depth_reclaim,long,L04 extreme close + depth reclaim state,5m,597,1,0,1,0.0,-0.01773142525115512,0.0,0.01773142525115512,99.9645402935321,108.8106,False,baseline_fail
+6V4_LONG10_REVIEWED,6V4_L06_extreme_regime_score,long,L04 extreme close + regime score filter,5m,597,44,14,30,31.818181818181817,-0.1577826783510594,0.19265985757790371,0.3497686721034343,99.49300052392438,108.8106,False,baseline_fail
+6V4_LONG10_REVIEWED,6V4_L07_reset_reclaim_rangeflip,long,New reset reclaim + range flip,5m,597,1701,667,1034,39.21222810111699,1.1176115794846897,2.248289419590588,1.7167532292522214,99.38167171735117,108.8106,False,baseline_fail
+6V4_LONG10_REVIEWED,6V4_L03_core_regime_score,long,L01 core + regime score filter,5m,597,67,21,46,31.343283582089555,-0.264031179056623,0.2167143211812661,0.47970590883389397,99.25752948527658,108.8106,False,baseline_fail
+6V4_LONG10_REVIEWED,6V4_L10_failed_breakdown_trendflip,long,New failed breakdown trend flip,5m,597,334127,91788,242339,27.470991569074034,-97.12328704433126,0.0,97.1250953733042,0.08270275385927787,108.8106,False,mdd_fail
+6V4_LONG10_REVIEWED,6V4_L08_nested_sweep_reversal,long,New nested sweep reversal,5m,597,875873,244976,630897,27.96935172108285,-99.9946959320796,0.005518699957685058,99.99469846632569,2.811969469091527e-07,108.8106,False,mdd_fail
+6V4_LONG10_REVIEWED,6V4_L09_volcrush_reclaim,long,New volume crush reclaim,5m,597,1644460,448384,1196076,27.26633666978826,-99.99999964687993,0.005788684115426435,99.99999964705991,1.2463022744642636e-15,108.8106,False,mdd_fail
