@@ -10,31 +10,30 @@ cd_value = max_return_pct / max_drawdown_pct
 final_return_pct는 참고 지표다.
 
 중요한 주의사항
-아래 공식 기준선 수치 중 legacy 항목은 과거 state/global_top_reference_under_mdd5_cd.json 및 관련 패치 문서에서 가져온 값이다.
-이 legacy 수치의 cd_value는 과거 공식으로 계산된 값일 수 있다.
-따라서 현재 max_return_pct 기반 공식으로 엄밀하게 승격/교체를 판정하려면, 기존 공식 1위도 max_return_pct를 포함한 현재 공식으로 재계산하거나, 최소한 challenger와 incumbent 모두 동일한 계산 규칙을 사용해야 한다.
-즉, 아래 전략명과 경로는 현재 공식 비교 기준선으로 유지하되, legacy cd_value는 역사적 참고치로 본다.
+현재 기준선 교체 판단은 동일한 프로젝트 규칙을 따른 결과끼리 비교한다.
+즉 신규 전략은 MDD 5% 미만을 먼저 통과해야 하며, 그 다음 cd_value(max_return_pct 기반)를 본다.
+거래 수가 0이거나 극단적으로 적은 전략은 cd_value 숫자가 높아 보여도 공식 기준선으로 승격하지 않는다.
 
 1. 현재 공식 long-only 기준선
-strategy_name: long_hybrid_wick_bridge_halfhalf
-family: long_only_hybrid_wick_bridge
-version_reference: legacy_v67
-code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.py
-config_path: experiments/base_config_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.json
-combinations_path: experiments/combinations_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.json
-result_path: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/
-summary_file: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/summary.json
-legacy_final_return_pct: 9.9603
-legacy_mdd_pct: -1.0456
-legacy_cd_value: 108.8106
-max_return_pct: unknown_legacy_not_recorded
-current_cd_value: pending_recompute_under_current_formula
-pf: 1.3033
-win_rate_pct: 54.9859
-max_conc: 50
-source_of_truth: state/global_top_reference_under_mdd5_cd.json
+strategy_name: 6V2_L01_doubleflush_core
+family: long_only_doubleflush_cap_reclaim
+version_reference: 6V2_LONG10_REVIEWED
+code_path: unknown_local_backtest_file_not_in_repo
+config_path: unknown_local_backtest_file_not_in_repo
+combinations_path: unknown_local_backtest_file_not_in_repo
+result_path: local_results/6V2_LONG10_REVIEWED/6V2_L01_doubleflush_core/
+summary_file: local_results/6V2_LONG10_REVIEWED/6V2_L01_doubleflush_core/summary.json
+final_return_pct: 23.6961
+max_return_pct: 23.9191
+max_drawdown_pct: 1.7512
+current_cd_value: 121.5300
+pf: unknown_not_recorded
+win_rate_pct: 58.1081
+trades: 592
+processed_symbols: 597
+source_of_truth: local_results/6V2_LONG10_REVIEWED/6V2_L01_doubleflush_core/summary.json
 status: official_long_reference
-note: 현재 long-only 공식 비교 기준 전략명과 경로. 수치 중 legacy_cd_value는 역사적 참고치다.
+note: 6V2_LONG10_REVIEWED에서 첫 공식 long 승격이 발생했다. 기존 legacy long reference 108.8106을 넘는 cd_value 121.5300을 기록했고, MDD도 1.7512로 규칙을 충족했다. 현재 long 설계의 코어는 broad continuation이 아니라 selective double flush + cap reclaim 계열이다.
 
 2. 현재 공식 short-only 기준선
 strategy_name: short_beh_dd_brake
@@ -57,7 +56,28 @@ source_of_truth: state/global_top_reference_under_mdd5_cd.json
 status: official_short_reference
 note: 현재 short-only 공식 비교 기준 전략명과 경로. 수치 중 legacy_cd_value는 역사적 참고치다.
 
-3. mixed historical reference
+3. 직전 long 기준선 보관
+strategy_name: long_hybrid_wick_bridge_halfhalf
+family: long_only_hybrid_wick_bridge
+version_reference: legacy_v67
+code_path: scripts/run_backtest_batch_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.py
+config_path: experiments/base_config_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.json
+combinations_path: experiments/combinations_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge.json
+result_path: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/
+summary_file: results_json_only_timeout18_time_reduce_v67_long_only_hybrid_wick_bridge/long_hybrid_wick_bridge_halfhalf/summary.json
+legacy_final_return_pct: 9.9603
+legacy_mdd_pct: -1.0456
+legacy_cd_value: 108.8106
+max_return_pct: unknown_legacy_not_recorded
+current_cd_value: archived_after_6V2_promotion
+pf: 1.3033
+win_rate_pct: 54.9859
+max_conc: 50
+source_of_truth: state/global_top_reference_under_mdd5_cd.json
+status: archived_previous_long_reference
+note: 6V2_L01_doubleflush_core 승격 전까지 사용하던 long 공식 기준선. 이후 비교용 역사 참조로만 남긴다.
+
+4. mixed historical reference
 strategy_name: official_top200_reference
 result_path: summary_upload_draft/summary_upload_draft/04_현재기준_TOP1_참조.md
 legacy_final_return_pct: 1120.69995
@@ -66,11 +86,14 @@ legacy_cd_value: 780.8279
 status: archive_reference_only
 note: mixed historical reference only. long-only / short-only 공식 비교선으로 사용하지 않음.
 
-4. 최근 상태 메모
-4V2R4 ~ 4V2R9까지의 최근 신규 진입 조건 실험군에서는 공식 long-only / short-only 기준선 교체가 발생하지 않았다.
-즉 현재 공식 1위는 그대로 유지한다.
+5. 최근 상태 메모
+6V2_LONG10_REVIEWED에서 long 쪽 두 개의 baseline_win 후보가 나왔다.
+- 1위: 6V2_L01_doubleflush_core | final_return_pct 23.6961 | max_return_pct 23.9191 | max_drawdown_pct 1.7512 | cd_value 121.5300 | trades 592
+- 2위: 6V2_L04_doubleflush_extremeclose | final_return_pct 19.2086 | max_return_pct 19.4782 | max_drawdown_pct 1.0102 | cd_value 118.0043 | trades 442
+L01이 공식 long 1위로 승격되었고, L04는 같은 코어의 품질 강화형 후보로 보관한다.
+숏 공식 기준선은 변동 없다.
 
-5. 승격 규칙
+6. 승격 규칙
 신규 long 전략은 1번 기준선과 비교한다.
 신규 short 전략은 2번 기준선과 비교한다.
 새 전략 결과에는 최소한 final_return_pct, max_return_pct, max_drawdown_pct, cd_value, result_path가 포함되어야 한다.
