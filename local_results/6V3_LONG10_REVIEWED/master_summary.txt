@@ -1,0 +1,13 @@
+batch=6V3_LONG10_REVIEWED
+timeframe=5m
+
+6V3_L04_core_redtogreen | verdict=baseline_fail | final_return_pct=0.2983 | max_return_pct=0.3507 | max_drawdown_pct=0.0542 | cd_value=100.2439 | trades=9
+6V3_L08_extreme_inside_pop | verdict=baseline_fail | final_return_pct=0.0975 | max_return_pct=0.0975 | max_drawdown_pct=0.0591 | cd_value=100.0384 | trades=8
+6V3_L03_core_precompress_release | verdict=baseline_fail | final_return_pct=0.0000 | max_return_pct=0.0000 | max_drawdown_pct=0.0000 | cd_value=100.0000 | trades=0
+6V3_L10_extreme_sweepfail_break | verdict=baseline_fail | final_return_pct=0.0433 | max_return_pct=0.1080 | max_drawdown_pct=0.0647 | cd_value=99.9786 | trades=4
+6V3_L07_extreme_ema20hold | verdict=baseline_fail | final_return_pct=-0.0177 | max_return_pct=0.0000 | max_drawdown_pct=0.0177 | cd_value=99.9645 | trades=1
+6V3_L02_core_ema20snap | verdict=baseline_fail | final_return_pct=-0.0186 | max_return_pct=0.0000 | max_drawdown_pct=0.0186 | cd_value=99.9628 | trades=1
+6V3_L09_extreme_vrecover_break | verdict=baseline_fail | final_return_pct=0.0673 | max_return_pct=0.0673 | max_drawdown_pct=0.1832 | cd_value=99.8840 | trades=15
+6V3_L06_extreme_midreclaim | verdict=baseline_fail | final_return_pct=-0.0085 | max_return_pct=0.1518 | max_drawdown_pct=0.1600 | cd_value=99.8315 | trades=4
+6V3_L01_core_midreclaim | verdict=baseline_fail | final_return_pct=-0.2060 | max_return_pct=0.1100 | max_drawdown_pct=0.3156 | cd_value=99.4790 | trades=9
+6V3_L05_core_holdbreak_follow | verdict=baseline_fail | final_return_pct=-0.7699 | max_return_pct=0.2951 | max_drawdown_pct=1.3228 | cd_value=97.9175 | trades=115

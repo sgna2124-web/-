@@ -1,0 +1,28 @@
+{
+  "batch_label": "6V3_LONG10_REVIEWED",
+  "strategy_name": "6V3_L05_core_holdbreak_follow",
+  "side": "long",
+  "description": "L01 core + hold break follow-through",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "6V3_LONG10_REVIEWED",
+    "strategy_name": "6V3_L05_core_holdbreak_follow",
+    "side": "long",
+    "description": "L01 core + hold break follow-through",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 115,
+    "wins": 29,
+    "losses": 86,
+    "win_rate_pct": 25.217391304347824,
+    "final_return_pct": -0.7698988876456592,
+    "max_return_pct": 0.2950817382385118,
+    "max_drawdown_pct": 1.3227545739481927,
+    "cd_value": 97.91753041115726,
+    "baseline_cd_value": 108.8106,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

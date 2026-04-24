@@ -1,0 +1,11 @@
+﻿batch_label,strategy_name,side,description,timeframe,processed_symbols,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,cd_value,baseline_cd_value,ruined,verdict
+6V3_LONG10_REVIEWED,6V3_L04_core_redtogreen,long,L01 core + red to green reclaim,5m,597,9,5,4,55.55555555555556,0.2982820296029587,0.3506730088174814,0.054237109526555916,100.24388314052531,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L08_extreme_inside_pop,long,L04 extreme close + inside bar pop,5m,597,8,3,5,37.5,0.09751316305455227,0.09751316305455227,0.05906611409269846,100.0383894517257,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L03_core_precompress_release,long,L01 core + pre-compression release,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L10_extreme_sweepfail_break,long,L04 extreme close + sweep fail breakout,5m,597,4,1,3,25.0,0.0433013503701396,0.10804420893544275,0.06467298315225856,99.97860036294284,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L07_extreme_ema20hold,long,L04 extreme close + ema20 hold,5m,597,1,0,1,0.0,-0.01773142525115512,0.0,0.01773142525115512,99.9645402935321,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L02_core_ema20snap,long,L01 core + ema20 snap reclaim,5m,597,1,0,1,0.0,-0.01861202658016703,0.0,0.01861202658016703,99.96277941091499,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L09_extreme_vrecover_break,long,L04 extreme close + volume recover break,5m,597,15,5,10,33.33333333333333,0.06732048826521009,0.06732048826521009,0.18320558405506837,99.88399156931642,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L06_extreme_midreclaim,long,L04 extreme close + range mid reclaim,5m,597,4,1,3,25.0,-0.008485317160478179,0.15177480758368223,0.16001725885742557,99.83151100195403,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L01_core_midreclaim,long,L01 core + range mid reclaim,5m,597,9,3,6,33.33333333333333,-0.2059911794302871,0.10997910658272492,0.31562316647435473,99.47903580997854,108.8106,False,baseline_fail
+6V3_LONG10_REVIEWED,6V3_L05_core_holdbreak_follow,long,L01 core + hold break follow-through,5m,597,115,29,86,25.217391304347824,-0.7698988876456592,0.2950817382385118,1.3227545739481927,97.91753041115726,108.8106,False,baseline_fail
