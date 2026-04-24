@@ -186,6 +186,19 @@ notes:
 - 즉 6V2의 승리 구조 위에 mid reclaim, ema snap, inside pop, hold-break 같은 후속 패턴 게이트를 덧붙이는 방식은 샘플 수를 지나치게 죽이거나, 반대로 늦은 추격형 진입을 만들어 엣지를 훼손했다.
 - 따라서 다음 long 개선은 post-signal 패턴 덧칠보다, core 자체는 유지한 채 종목 상태 진단이나 위치/레짐 필터를 얇게 추가하는 방향이 더 적절하다.
 
+13. recent round note: 6V4_LONG10_REVIEWED
+side: long_only
+version_reference: 6V4_LONG10_REVIEWED
+summary_file: local_results/6V4_LONG10_REVIEWED/*/summary.json
+verdict: no_promotion_state_filters_overshot_or_unbounded
+notes:
+- batch best: 6V4_L01_core_volcool_state | trades 0 | max_return_pct 0.0000 | final_return_pct 0.0000 | max_drawdown_pct 0.0000 | cd_value 100.0000
+- near-top but still fail: 6V4_L06_extreme_regime_score | trades 44 | max_return_pct 0.1927 | final_return_pct -0.1578 | max_drawdown_pct 0.3498 | cd_value 99.4930
+- L01, L02, L04는 0트레이드였다. L05는 1트레이드, L03은 67트레이드로 전체적으로 state filter가 지나치게 빡빡했다.
+- 반대로 신규 전략 L07, L08, L09, L10은 cooldown / spacing / rarity guard 없이 설계되어 trades가 각각 1701, 875873, 1644460, 334127까지 폭증했고 대형 MDD 실패로 붕괴했다.
+- 즉 이번 라운드는 상태 필터형 개선이라는 방향 자체는 맞았지만, core 위에 얹은 hard gate는 과선택화로 무너졌고, 신규 전략은 거래수 상한 장치가 없어 과다거래로 붕괴했다.
+- 다음 long 개선은 state 요소를 hard filter가 아니라 soft score 또는 tie-break로 낮추고, 신규 전략은 signal cooldown / one-shot rarity / recent-fire suppression을 기본 내장해야 한다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
