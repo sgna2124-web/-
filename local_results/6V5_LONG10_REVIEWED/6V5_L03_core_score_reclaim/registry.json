@@ -1,0 +1,28 @@
+{
+  "batch_label": "6V5_LONG10_REVIEWED",
+  "strategy_name": "6V5_L03_core_score_reclaim",
+  "side": "long",
+  "description": "L01 core + reclaim strength score",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "6V5_LONG10_REVIEWED",
+    "strategy_name": "6V5_L03_core_score_reclaim",
+    "side": "long",
+    "description": "L01 core + reclaim strength score",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 87,
+    "wins": 23,
+    "losses": 64,
+    "win_rate_pct": 26.436781609195403,
+    "final_return_pct": -0.7040918608167357,
+    "max_return_pct": 0.05026338485962789,
+    "max_drawdown_pct": 0.7553022224589201,
+    "cd_value": 98.54592393819725,
+    "baseline_cd_value": 108.8106,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

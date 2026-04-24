@@ -1,0 +1,19 @@
+{
+  "batch_label": "6V5_LONG10_REVIEWED",
+  "strategy_name": "6V5_L05_core_score_shockfresh",
+  "side": "long",
+  "description": "L01 core + fresh shock score",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 337,
+  "wins": 145,
+  "losses": 192,
+  "win_rate_pct": 43.02670623145401,
+  "final_return_pct": 3.9126730824880385,
+  "max_return_pct": 4.384171798550018,
+  "max_drawdown_pct": 1.0475870923272845,
+  "cd_value": 102.82409733198364,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

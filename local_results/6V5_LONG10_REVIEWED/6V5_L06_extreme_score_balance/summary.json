@@ -1,0 +1,19 @@
+{
+  "batch_label": "6V5_LONG10_REVIEWED",
+  "strategy_name": "6V5_L06_extreme_score_balance",
+  "side": "long",
+  "description": "L04 extreme + balanced soft score",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 254,
+  "wins": 118,
+  "losses": 136,
+  "win_rate_pct": 46.45669291338583,
+  "final_return_pct": 2.4188828258401296,
+  "max_return_pct": 2.8736220130128,
+  "max_drawdown_pct": 0.6719480299627989,
+  "cd_value": 101.73068116038198,
+  "baseline_cd_value": 108.8106,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

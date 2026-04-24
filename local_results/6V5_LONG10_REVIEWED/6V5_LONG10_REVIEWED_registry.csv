@@ -1,0 +1,11 @@
+﻿batch_label,strategy_name,side,description,timeframe,processed_symbols,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,cd_value,baseline_cd_value,ruined,verdict
+6V5_LONG10_REVIEWED,6V5_L05_core_score_shockfresh,long,L01 core + fresh shock score,5m,597,337,145,192,43.02670623145401,3.9126730824880385,4.384171798550018,1.0475870923272845,102.82409733198364,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L10_extreme_score_shockfresh,long,L04 extreme + fresh shock score,5m,597,254,117,137,46.06299212598425,2.5475482647739023,3.00285872567565,0.729428343535421,101.79953738212998,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L06_extreme_score_balance,long,L04 extreme + balanced soft score,5m,597,254,118,136,46.45669291338583,2.4188828258401296,2.8736220130128,0.6719480299627989,101.73068116038198,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L02_core_score_quiet,long,L01 core + quiet score,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L07_extreme_score_quiet,long,L04 extreme + quiet score,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L08_extreme_score_reclaim,long,L04 extreme + reclaim strength score,5m,597,61,19,42,31.147540983606557,-0.5547030223876592,0.06914795740433632,0.6234198976667105,98.82533520896015,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L09_extreme_score_trendfloor,long,L04 extreme + trend floor score,5m,597,69,21,48,30.434782608695656,-0.6255784040680945,0.07129437864146215,0.6963763055495065,98.68240167016097,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L01_core_score_balance,long,L01 core + balanced soft score,5m,597,87,23,64,26.436781609195403,-0.6866280811872016,0.07469408341129746,0.7620797866527917,98.55652478597622,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L03_core_score_reclaim,long,L01 core + reclaim strength score,5m,597,87,23,64,26.436781609195403,-0.7040918608167357,0.05026338485962789,0.7553022224589201,98.54592393819725,108.8106,False,baseline_fail
+6V5_LONG10_REVIEWED,6V5_L04_core_score_trendfloor,long,L01 core + trend floor score,5m,597,100,27,73,27.0,-0.7110821482821494,0.09901349020025041,0.8983588575207091,98.39694706366049,108.8106,False,baseline_fail

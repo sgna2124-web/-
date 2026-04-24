@@ -1,0 +1,13 @@
+batch=6V5_LONG10_REVIEWED
+timeframe=5m
+
+6V5_L05_core_score_shockfresh | verdict=baseline_fail | final_return_pct=3.9127 | max_return_pct=4.3842 | max_drawdown_pct=1.0476 | cd_value=102.8241 | trades=337
+6V5_L10_extreme_score_shockfresh | verdict=baseline_fail | final_return_pct=2.5475 | max_return_pct=3.0029 | max_drawdown_pct=0.7294 | cd_value=101.7995 | trades=254
+6V5_L06_extreme_score_balance | verdict=baseline_fail | final_return_pct=2.4189 | max_return_pct=2.8736 | max_drawdown_pct=0.6719 | cd_value=101.7307 | trades=254
+6V5_L02_core_score_quiet | verdict=baseline_fail | final_return_pct=0.0000 | max_return_pct=0.0000 | max_drawdown_pct=0.0000 | cd_value=100.0000 | trades=0
+6V5_L07_extreme_score_quiet | verdict=baseline_fail | final_return_pct=0.0000 | max_return_pct=0.0000 | max_drawdown_pct=0.0000 | cd_value=100.0000 | trades=0
+6V5_L08_extreme_score_reclaim | verdict=baseline_fail | final_return_pct=-0.5547 | max_return_pct=0.0691 | max_drawdown_pct=0.6234 | cd_value=98.8253 | trades=61
+6V5_L09_extreme_score_trendfloor | verdict=baseline_fail | final_return_pct=-0.6256 | max_return_pct=0.0713 | max_drawdown_pct=0.6964 | cd_value=98.6824 | trades=69
+6V5_L01_core_score_balance | verdict=baseline_fail | final_return_pct=-0.6866 | max_return_pct=0.0747 | max_drawdown_pct=0.7621 | cd_value=98.5565 | trades=87
+6V5_L03_core_score_reclaim | verdict=baseline_fail | final_return_pct=-0.7041 | max_return_pct=0.0503 | max_drawdown_pct=0.7553 | cd_value=98.5459 | trades=87
+6V5_L04_core_score_trendfloor | verdict=baseline_fail | final_return_pct=-0.7111 | max_return_pct=0.0990 | max_drawdown_pct=0.8984 | cd_value=98.3969 | trades=100
