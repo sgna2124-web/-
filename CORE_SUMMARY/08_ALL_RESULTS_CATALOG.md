@@ -214,6 +214,21 @@ notes:
 - 현재 해석은 명확하다. double flush 계열은 더 정교한 보조점수로 안정화할 수는 있지만, 기존 코어 위에 score를 덧칠하는 개선만으로는 공식 기준선을 넘어설 만큼의 추가 엣지를 만들지 못한다.
 - 따라서 다음 단계는 같은 코어의 미세 조정 반복보다, 신규 family 개발로 이동하는 것이 합리적이다. 다만 shockfresh 보조축과 extreme branch의 낮은 MDD 성향은 새 family 설계 시 재사용 가치가 있다.
 
+15. recent round note: 7V1_LONG10_REVIEWED
+side: long_only
+version_reference: 7V1_LONG10_REVIEWED
+summary_file: local_results/7V1_LONG10_REVIEWED/*/summary.json
+verdict: no_promotion_new_reversal_family_raw_edge_found_but_samebar_overtrading_failed
+notes:
+- batch raw-upside best: 7V1_L10_shock_reversal_balance | trades 33481 | max_return_pct 56.5963 | final_return_pct 51.0204 | max_drawdown_pct 15.1033 | cd_value 128.2113
+- runner-up raw reversal: 7V1_L04_engulf_panic_retake | trades 5071 | max_return_pct 36.4517 | final_return_pct 34.2567 | max_drawdown_pct 7.9660 | cd_value 123.5618
+- third raw reversal: 7V1_L09_beartrap_close_drive | trades 4778 | max_return_pct 21.8769 | final_return_pct 21.1251 | max_drawdown_pct 7.6741 | cd_value 111.8298
+- low-MDD best: 7V1_L06_deep_ema20_retake | trades 332 | max_return_pct 0.9889 | final_return_pct 0.9083 | max_drawdown_pct 0.6282 | cd_value 100.2744
+- broad same-bar shock / engulf / beartrap / climax-wick reversal 계열은 raw upside는 분명히 존재했지만, rarity suppression과 spacing이 부족해 trades와 MDD가 동시에 팽창하며 공식 승격에 실패했다.
+- 반대로 outside flush / deep ema20 retake / rangefloor pop / beartrap midflip처럼 거래를 강하게 억제한 브랜치는 MDD는 안정적이었지만 수익이 너무 얕았다.
+- 이번 라운드의 핵심 학습은 새 reversal family 자체는 살아 있지만, same-bar 반전 신호를 넓게 허용하면 5V2식 broad overtrading이 다시 재현된다는 점이다.
+- 따라서 다음 long 개선은 broad continuation 회귀가 아니라, 7V1 상위 raw reversal family 위에 6V2의 선택도와 6V5의 spacing / shockfresh / rarity control을 결합하는 방향이 적절하다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
