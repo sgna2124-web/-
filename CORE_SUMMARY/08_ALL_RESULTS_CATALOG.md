@@ -199,6 +199,21 @@ notes:
 - 반면 L02~L05와 S02~S05는 거래 수가 약 24만~143만 회까지 폭증했고, max_drawdown_pct 90~100% 붕괴로 사실상 구조 실패가 확인됐다.
 - 따라서 이번 라운드는 "급락 후 회수형 capitulation reclaim은 수익 잠재력이 실제로 존재하지만 아직 위험 압축이 부족하고, broad pullback / retest / compression / false-break 구조는 단독 운용 시 과다거래로 붕괴한다"는 학습 기록으로 남긴다.
 
+14. recent round note: 6V2_LONG10_REVIEWED
+side: long_only
+version_reference: 6V2_LONG10_REVIEWED
+summary_file: local_results/6V2_LONG10_REVIEWED/*/summary.json
+verdict: long_promotion_doubleflush_core_established
+notes:
+- 6V2_LONG10_REVIEWED는 최근 long 전용 실험 중 처음으로 공식 기준선 교체를 만들었다.
+- batch long best(max_return_pct 기준): 6V2_L01_doubleflush_core | trades 592 | max_return_pct 23.9191 | final_return_pct 23.6961 | max_drawdown_pct 1.7512 | cd_value 121.5300
+- L01은 MDD 5% 미만을 유지한 상태에서 기존 long 기준선 108.8106을 넘어, 새 공식 long reference로 승격되었다.
+- batch runner-up: 6V2_L04_doubleflush_extremeclose | trades 442 | max_return_pct 19.4782 | final_return_pct 19.2086 | max_drawdown_pct 1.0102 | cd_value 118.0043
+- L04 역시 baseline_win 이지만, 수익 확장과 cd_value 모두 L01보다 낮아 2위 품질 강화형 후보로 보관한다.
+- 반면 L02는 trend floor 강화 후 trades 54, final_return_pct -0.5371, cd_value 98.6931로 약화됐고, L05는 delayed second push 구조에서 trades 354, win_rate_pct 21.1864, final_return_pct -2.3852로 악화됐다.
+- L03, L06, L08은 0트레이드였고 L10은 3트레이드에 그쳤다. 즉 quiet / absorb / contraction / 과도한 품질 게이트는 double flush 코어를 개선하는 대신 전략 자체를 소거할 위험이 크다.
+- 따라서 이번 라운드는 "5V2의 capitulation reclaim 잠재력을 double flush 코어로 재구성하면 MDD를 크게 줄이면서도 공식 long 승격이 가능하다"는 것을 증명했고, 다음 long 설계는 broad continuation이 아니라 selective shock-reclaim 코어를 중심으로 진행해야 한다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
