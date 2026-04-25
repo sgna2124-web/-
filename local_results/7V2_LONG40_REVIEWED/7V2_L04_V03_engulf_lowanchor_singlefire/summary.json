@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L04_V03_engulf_lowanchor_singlefire",
+  "side": "long",
+  "description": "engulf panic retake with low anchor and single fire",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2409,
+  "wins": 890,
+  "losses": 1519,
+  "win_rate_pct": 36.94479036944791,
+  "final_return_pct": 4.062075487788719,
+  "max_return_pct": 4.60397308552134,
+  "max_drawdown_pct": 2.4929130742727845,
+  "cd_value": 101.46789840259403,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L10_V09_balance_clusterban",
+  "side": "long",
+  "description": "shock reversal balance with cluster ban",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 29408,
+  "wins": 10522,
+  "losses": 18886,
+  "win_rate_pct": 35.77937976060936,
+  "final_return_pct": 11.794588885630564,
+  "max_return_pct": 26.166304658527075,
+  "max_drawdown_pct": 13.173160171927512,
+  "cd_value": 97.06770862817858,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

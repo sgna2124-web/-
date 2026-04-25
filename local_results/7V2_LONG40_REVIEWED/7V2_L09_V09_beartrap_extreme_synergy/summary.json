@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L09_V09_beartrap_extreme_synergy",
+  "side": "long",
+  "description": "beartrap close drive with extreme reclaim synergy",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 730,
+  "wins": 344,
+  "losses": 386,
+  "win_rate_pct": 47.12328767123288,
+  "final_return_pct": 15.833038757989604,
+  "max_return_pct": 16.01804267595741,
+  "max_drawdown_pct": 2.5329876624955117,
+  "cd_value": 112.89900217715608,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

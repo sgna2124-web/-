@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L10_V06_balance_shocklow_retake",
+  "side": "long",
+  "description": "shock reversal balance with shock low retake",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V2_LONG40_REVIEWED",
+    "strategy_name": "7V2_L10_V06_balance_shocklow_retake",
+    "side": "long",
+    "description": "shock reversal balance with shock low retake",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 30585,
+    "wins": 11087,
+    "losses": 19498,
+    "win_rate_pct": 36.24979565146313,
+    "final_return_pct": 52.71935852523559,
+    "max_return_pct": 58.91800894009484,
+    "max_drawdown_pct": 18.521259907351396,
+    "cd_value": 124.4338092039369,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

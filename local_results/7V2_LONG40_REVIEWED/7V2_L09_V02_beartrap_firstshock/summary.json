@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L09_V02_beartrap_firstshock",
+  "side": "long",
+  "description": "beartrap close drive first shock variant",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 5149,
+  "wins": 1741,
+  "losses": 3408,
+  "win_rate_pct": 33.812390755486504,
+  "final_return_pct": -3.9335007357362617,
+  "max_return_pct": 1.9056969686545022,
+  "max_drawdown_pct": 7.361044766570002,
+  "cd_value": 88.99500124774464,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

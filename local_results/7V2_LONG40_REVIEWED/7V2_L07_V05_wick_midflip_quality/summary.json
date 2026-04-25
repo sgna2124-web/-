@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L07_V05_wick_midflip_quality",
+  "side": "long",
+  "description": "climax wick reclaim with mid range flip",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 54,
+  "wins": 19,
+  "losses": 35,
+  "win_rate_pct": 35.18518518518518,
+  "final_return_pct": -0.11910678738309421,
+  "max_return_pct": 0.1415402274049793,
+  "max_drawdown_pct": 0.26027861584332346,
+  "cd_value": 99.62092460627116,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

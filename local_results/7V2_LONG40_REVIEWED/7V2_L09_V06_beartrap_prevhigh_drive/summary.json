@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L09_V06_beartrap_prevhigh_drive",
+  "side": "long",
+  "description": "beartrap close drive with previous high reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 632,
+  "wins": 173,
+  "losses": 459,
+  "win_rate_pct": 27.37341772151899,
+  "final_return_pct": -0.8758039163279441,
+  "max_return_pct": 0.2507434846533707,
+  "max_drawdown_pct": 2.6610803239282665,
+  "cd_value": 96.48642160543739,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

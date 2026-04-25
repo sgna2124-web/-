@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L07_V02_wick_firstshock_drive",
+  "side": "long",
+  "description": "climax wick reclaim with first shock and drive close",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 908,
+  "wins": 285,
+  "losses": 623,
+  "win_rate_pct": 31.387665198237887,
+  "final_return_pct": -2.038511840885915,
+  "max_return_pct": 1.0132395810864336,
+  "max_drawdown_pct": 3.0989063372443226,
+  "cd_value": 94.92575339449245,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

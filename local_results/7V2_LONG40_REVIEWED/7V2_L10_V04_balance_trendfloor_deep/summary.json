@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L10_V04_balance_trendfloor_deep",
+  "side": "long",
+  "description": "shock reversal balance with trend floor and deep discount",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 8064,
+  "wins": 2718,
+  "losses": 5346,
+  "win_rate_pct": 33.705357142857146,
+  "final_return_pct": -9.913234227738943,
+  "max_return_pct": 2.216660825321193,
+  "max_drawdown_pct": 11.882250443572861,
+  "cd_value": 79.38243064668613,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

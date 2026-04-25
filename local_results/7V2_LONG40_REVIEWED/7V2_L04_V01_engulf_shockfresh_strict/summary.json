@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L04_V01_engulf_shockfresh_strict",
+  "side": "long",
+  "description": "engulf panic retake with shockfresh and strict reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 610,
+  "wins": 195,
+  "losses": 415,
+  "win_rate_pct": 31.967213114754102,
+  "final_return_pct": 0.15859562917388548,
+  "max_return_pct": 1.651199858880803,
+  "max_drawdown_pct": 2.1887822082405473,
+  "cd_value": 97.96634210801892,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

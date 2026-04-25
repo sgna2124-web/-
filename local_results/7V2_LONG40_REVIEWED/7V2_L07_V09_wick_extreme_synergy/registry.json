@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L07_V09_wick_extreme_synergy",
+  "side": "long",
+  "description": "climax wick reclaim with extreme reclaim synergy",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V2_LONG40_REVIEWED",
+    "strategy_name": "7V2_L07_V09_wick_extreme_synergy",
+    "side": "long",
+    "description": "climax wick reclaim with extreme reclaim synergy",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 754,
+    "wins": 348,
+    "losses": 406,
+    "win_rate_pct": 46.15384615384615,
+    "final_return_pct": 14.308961693005152,
+    "max_return_pct": 14.527993530789551,
+    "max_drawdown_pct": 3.31811082213731,
+    "cd_value": 110.51606366439675,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

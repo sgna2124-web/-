@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L10_V07_balance_closedrive",
+  "side": "long",
+  "description": "shock reversal balance with close drive",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 19328,
+  "wins": 7149,
+  "losses": 12179,
+  "win_rate_pct": 36.987789735099334,
+  "final_return_pct": 43.42330070780138,
+  "max_return_pct": 47.11520811303984,
+  "max_drawdown_pct": 9.359591692233204,
+  "cd_value": 129.99946537002734,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

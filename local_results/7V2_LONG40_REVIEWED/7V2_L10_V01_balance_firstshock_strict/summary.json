@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L10_V01_balance_firstshock_strict",
+  "side": "long",
+  "description": "shock reversal balance with first shock strict reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4877,
+  "wins": 1548,
+  "losses": 3329,
+  "win_rate_pct": 31.740824277219602,
+  "final_return_pct": -7.77195627542916,
+  "max_return_pct": 0.018999999999991246,
+  "max_drawdown_pct": 8.43558241184712,
+  "cd_value": 84.44807108935026,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V2_LONG40_REVIEWED",
+  "strategy_name": "7V2_L04_V06_engulf_shock_clusterban",
+  "side": "long",
+  "description": "engulf panic retake with shockfresh and cluster ban",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2853,
+  "wins": 1003,
+  "losses": 1850,
+  "win_rate_pct": 35.15597616543989,
+  "final_return_pct": -0.7681961829563266,
+  "max_return_pct": 0.8877508004102141,
+  "max_drawdown_pct": 3.210502077188293,
+  "cd_value": 96.04596469426608,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}
