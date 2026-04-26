@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L09_V01_beartrap_shockfresh_quality",
+  "side": "long",
+  "description": "beartrap close drive with shockfresh and reclaim quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3044,
+  "wins": 1138,
+  "losses": 1906,
+  "win_rate_pct": 37.385019710906704,
+  "final_return_pct": 18.620555392000426,
+  "max_return_pct": 18.901730964218256,
+  "max_drawdown_pct": 5.272988105610099,
+  "cd_value": 112.3657076153716,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

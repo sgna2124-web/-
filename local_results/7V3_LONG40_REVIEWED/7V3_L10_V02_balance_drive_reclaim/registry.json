@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L10_V02_balance_drive_reclaim",
+  "side": "long",
+  "description": "shock reversal balance with drive reclaim",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V3_LONG40_REVIEWED",
+    "strategy_name": "7V3_L10_V02_balance_drive_reclaim",
+    "side": "long",
+    "description": "shock reversal balance with drive reclaim",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 17869,
+    "wins": 6556,
+    "losses": 11313,
+    "win_rate_pct": 36.68923834573843,
+    "final_return_pct": 20.55946754863438,
+    "max_return_pct": 23.44204745081977,
+    "max_drawdown_pct": 8.767464526883318,
+    "cd_value": 109.98945899750846,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

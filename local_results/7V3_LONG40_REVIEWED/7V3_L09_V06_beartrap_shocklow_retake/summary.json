@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L09_V06_beartrap_shocklow_retake",
+  "side": "long",
+  "description": "beartrap close drive with shock-low retake",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4543,
+  "wins": 1736,
+  "losses": 2807,
+  "win_rate_pct": 38.21263482280431,
+  "final_return_pct": 9.71021679135735,
+  "max_return_pct": 23.31953630740269,
+  "max_drawdown_pct": 11.660975574635547,
+  "cd_value": 96.91693520843747,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

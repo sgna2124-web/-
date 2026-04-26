@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L04_V07_engulf_volcap_drive",
+  "side": "long",
+  "description": "engulf panic retake with volume cap and drive",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V3_LONG40_REVIEWED",
+    "strategy_name": "7V3_L04_V07_engulf_volcap_drive",
+    "side": "long",
+    "description": "engulf panic retake with volume cap and drive",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 1676,
+    "wins": 641,
+    "losses": 1035,
+    "win_rate_pct": 38.245823389021474,
+    "final_return_pct": 7.592167074268152,
+    "max_return_pct": 7.804475840757608,
+    "max_drawdown_pct": 4.82016187654275,
+    "cd_value": 102.4060504548081,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

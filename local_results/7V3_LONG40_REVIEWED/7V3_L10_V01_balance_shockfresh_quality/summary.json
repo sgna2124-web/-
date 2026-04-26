@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L10_V01_balance_shockfresh_quality",
+  "side": "long",
+  "description": "shock reversal balance with shockfresh and reclaim quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 7043,
+  "wins": 2321,
+  "losses": 4722,
+  "win_rate_pct": 32.954706801079084,
+  "final_return_pct": -0.5708948412672776,
+  "max_return_pct": 6.594732198340125,
+  "max_drawdown_pct": 10.244174678355854,
+  "cd_value": 89.243413945146,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

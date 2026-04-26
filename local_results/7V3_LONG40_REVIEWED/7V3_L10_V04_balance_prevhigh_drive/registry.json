@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L10_V04_balance_prevhigh_drive",
+  "side": "long",
+  "description": "shock reversal balance with previous-high drive",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V3_LONG40_REVIEWED",
+    "strategy_name": "7V3_L10_V04_balance_prevhigh_drive",
+    "side": "long",
+    "description": "shock reversal balance with previous-high drive",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 6206,
+    "wins": 2159,
+    "losses": 4047,
+    "win_rate_pct": 34.788913954237835,
+    "final_return_pct": -0.4804843237044998,
+    "max_return_pct": 2.2849494101389034,
+    "max_drawdown_pct": 8.101768425990553,
+    "cd_value": 91.45667497753468,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

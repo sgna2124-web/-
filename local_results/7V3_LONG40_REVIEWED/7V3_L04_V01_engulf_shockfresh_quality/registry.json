@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L04_V01_engulf_shockfresh_quality",
+  "side": "long",
+  "description": "engulf panic retake with shockfresh and reclaim quality",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V3_LONG40_REVIEWED",
+    "strategy_name": "7V3_L04_V01_engulf_shockfresh_quality",
+    "side": "long",
+    "description": "engulf panic retake with shockfresh and reclaim quality",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 610,
+    "wins": 195,
+    "losses": 415,
+    "win_rate_pct": 31.967213114754102,
+    "final_return_pct": 0.15859562917390768,
+    "max_return_pct": 1.6511998588808252,
+    "max_drawdown_pct": 2.1887822082405473,
+    "cd_value": 97.96634210801895,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

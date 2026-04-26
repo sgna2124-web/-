@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L10_V05_balance_lowanchor_firstshock",
+  "side": "long",
+  "description": "shock reversal balance with low anchor and first-shock gating",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4357,
+  "wins": 1391,
+  "losses": 2966,
+  "win_rate_pct": 31.92563690612807,
+  "final_return_pct": -5.403156993849246,
+  "max_return_pct": 0.7534660664818338,
+  "max_drawdown_pct": 7.025973138498465,
+  "cd_value": 87.95049422667103,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L07_V04_wick_shocklow_retake",
+  "side": "long",
+  "description": "climax wick reclaim with shock-low retake",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1868,
+  "wins": 705,
+  "losses": 1163,
+  "win_rate_pct": 37.74089935760171,
+  "final_return_pct": 16.960246256658085,
+  "max_return_pct": 17.508255425361675,
+  "max_drawdown_pct": 5.512055149845818,
+  "cd_value": 110.5133329795956,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

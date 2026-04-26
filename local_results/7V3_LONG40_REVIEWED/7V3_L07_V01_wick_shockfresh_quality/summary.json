@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L07_V01_wick_shockfresh_quality",
+  "side": "long",
+  "description": "climax wick reclaim with shockfresh and reclaim quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1822,
+  "wins": 685,
+  "losses": 1137,
+  "win_rate_pct": 37.596048298572995,
+  "final_return_pct": 15.74200473605778,
+  "max_return_pct": 16.027145212157468,
+  "max_drawdown_pct": 5.230727279620506,
+  "cd_value": 109.68785612034914,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L04_V09_engulf_cluster_pressure",
+  "side": "long",
+  "description": "engulf panic retake with stronger cluster suppression",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4916,
+  "wins": 1824,
+  "losses": 3092,
+  "win_rate_pct": 37.1033360455655,
+  "final_return_pct": 25.973390218810533,
+  "max_return_pct": 28.626113017601295,
+  "max_drawdown_pct": 7.659005919101192,
+  "cd_value": 116.3250808054594,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

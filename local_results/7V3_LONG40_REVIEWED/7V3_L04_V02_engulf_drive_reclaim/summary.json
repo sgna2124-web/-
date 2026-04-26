@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L04_V02_engulf_drive_reclaim",
+  "side": "long",
+  "description": "engulf panic retake with drive reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3157,
+  "wins": 1179,
+  "losses": 1978,
+  "win_rate_pct": 37.345581248020274,
+  "final_return_pct": 20.248129056432585,
+  "max_return_pct": 20.970179407942613,
+  "max_drawdown_pct": 7.7301231792787695,
+  "cd_value": 110.95280055959225,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

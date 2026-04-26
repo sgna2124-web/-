@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V3_LONG40_REVIEWED",
+  "strategy_name": "7V3_L10_V06_balance_volcap_quality",
+  "side": "long",
+  "description": "shock reversal balance with volume cap and quality close",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V3_LONG40_REVIEWED",
+    "strategy_name": "7V3_L10_V06_balance_volcap_quality",
+    "side": "long",
+    "description": "shock reversal balance with volume cap and quality close",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 2337,
+    "wins": 779,
+    "losses": 1558,
+    "win_rate_pct": 33.33333333333333,
+    "final_return_pct": -0.7260512266097918,
+    "max_return_pct": 0.7231580843127583,
+    "max_drawdown_pct": 2.64369443088609,
+    "cd_value": 96.64944891834739,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}
