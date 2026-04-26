@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L09_V10_beartrap_quality_scoregate",
+  "side": "long",
+  "description": "beartrap quality score-gate",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4365,
+  "wins": 1540,
+  "losses": 2825,
+  "win_rate_pct": 35.28064146620848,
+  "final_return_pct": 6.016792855255515,
+  "max_return_pct": 12.257040663181872,
+  "max_drawdown_pct": 6.168415904602831,
+  "cd_value": 99.4772361432221,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L07_V11_wick_lowecho_extreme",
+  "side": "long",
+  "description": "wick low-echo extreme",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 693,
+  "wins": 288,
+  "losses": 405,
+  "win_rate_pct": 41.55844155844156,
+  "final_return_pct": 5.582914968005093,
+  "max_return_pct": 7.287775668574081,
+  "max_drawdown_pct": 2.9383354622681157,
+  "cd_value": 102.48053473540381,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L09_V05_beartrap_pause_quality_norepeat",
+  "side": "long",
+  "description": "beartrap pause quality no-repeat",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 364,
+  "wins": 128,
+  "losses": 236,
+  "win_rate_pct": 35.16483516483517,
+  "final_return_pct": 0.5711346915601601,
+  "max_return_pct": 1.059167280089146,
+  "max_drawdown_pct": 0.5789544213335773,
+  "cd_value": 99.98887366067802,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

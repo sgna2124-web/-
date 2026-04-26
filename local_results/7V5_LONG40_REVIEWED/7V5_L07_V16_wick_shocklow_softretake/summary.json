@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L07_V16_wick_shocklow_softretake",
+  "side": "long",
+  "description": "wick shock-low soft-retake",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1819,
+  "wins": 684,
+  "losses": 1135,
+  "win_rate_pct": 37.60307861462342,
+  "final_return_pct": 15.694337978848516,
+  "max_return_pct": 15.979361023753924,
+  "max_drawdown_pct": 5.207364558492078,
+  "cd_value": 109.66971202675592,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

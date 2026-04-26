@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L09_V04_beartrap_lowanchor_softcap_drive",
+  "side": "long",
+  "description": "beartrap lowanchor softcap drive",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V5_LONG40_REVIEWED",
+    "strategy_name": "7V5_L09_V04_beartrap_lowanchor_softcap_drive",
+    "side": "long",
+    "description": "beartrap lowanchor softcap drive",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 6154,
+    "wins": 2385,
+    "losses": 3769,
+    "win_rate_pct": 38.75528111797205,
+    "final_return_pct": 41.13497078444803,
+    "max_return_pct": 42.109781807718164,
+    "max_drawdown_pct": 13.554808748973201,
+    "cd_value": 122.0043954166969,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "candidate_cd_win_mdd_fail"
+  }
+}

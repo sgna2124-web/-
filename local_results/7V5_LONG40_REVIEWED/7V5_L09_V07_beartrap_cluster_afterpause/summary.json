@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L09_V07_beartrap_cluster_afterpause",
+  "side": "long",
+  "description": "beartrap cluster after-pause",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 533,
+  "wins": 181,
+  "losses": 352,
+  "win_rate_pct": 33.95872420262664,
+  "final_return_pct": 0.34631826776383434,
+  "max_return_pct": 1.666424613857087,
+  "max_drawdown_pct": 1.540869878200779,
+  "cd_value": 98.80011207569237,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

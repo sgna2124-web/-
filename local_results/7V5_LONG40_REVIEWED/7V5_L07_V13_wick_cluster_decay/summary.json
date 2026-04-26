@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L07_V13_wick_cluster_decay",
+  "side": "long",
+  "description": "wick cluster decay",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 153,
+  "wins": 52,
+  "losses": 101,
+  "win_rate_pct": 33.98692810457516,
+  "final_return_pct": 0.18873228566826938,
+  "max_return_pct": 0.18873228566826938,
+  "max_drawdown_pct": 0.41189690740185414,
+  "cd_value": 99.77605799581848,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

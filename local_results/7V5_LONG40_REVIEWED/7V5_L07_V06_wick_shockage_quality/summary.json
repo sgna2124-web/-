@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L07_V06_wick_shockage_quality",
+  "side": "long",
+  "description": "wick shock-age quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 7,
+  "wins": 3,
+  "losses": 4,
+  "win_rate_pct": 42.857142857142854,
+  "final_return_pct": 0.09365195129589221,
+  "max_return_pct": 0.09365195129589221,
+  "max_drawdown_pct": 0.0478018202951791,
+  "cd_value": 100.04580536366325,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

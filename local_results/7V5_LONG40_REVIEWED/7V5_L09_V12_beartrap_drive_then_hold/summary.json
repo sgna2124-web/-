@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L09_V12_beartrap_drive_then_hold",
+  "side": "long",
+  "description": "beartrap drive then hold",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1230,
+  "wins": 447,
+  "losses": 783,
+  "win_rate_pct": 36.34146341463415,
+  "final_return_pct": 0.3058895888887747,
+  "max_return_pct": 1.6777212524239138,
+  "max_drawdown_pct": 2.0610737451835615,
+  "cd_value": 98.23851123369937,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

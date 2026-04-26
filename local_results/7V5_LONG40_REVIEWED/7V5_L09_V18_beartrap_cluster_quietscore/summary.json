@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L09_V18_beartrap_cluster_quietscore",
+  "side": "long",
+  "description": "beartrap cluster quiet-score",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 13,
+  "wins": 3,
+  "losses": 10,
+  "win_rate_pct": 23.076923076923077,
+  "final_return_pct": -0.10591365027907695,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 0.20461650732961356,
+  "cd_value": 99.6896865592033,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

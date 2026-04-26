@@ -1,0 +1,43 @@
+batch=7V5_LONG40_REVIEWED
+timeframe=5m
+
+7V5_L09_V03_beartrap_lowanchor_softcap | verdict=candidate_cd_win_mdd_fail | final_return_pct=39.4890 | max_return_pct=40.2473 | max_drawdown_pct=11.2710 | cd_value=123.7672 | trades=7656
+7V5_L09_V04_beartrap_lowanchor_softcap_drive | verdict=candidate_cd_win_mdd_fail | final_return_pct=41.1350 | max_return_pct=42.1098 | max_drawdown_pct=13.5548 | cd_value=122.0044 | trades=6154
+7V5_L09_V19_beartrap_agewindow_drive | verdict=mdd_fail | final_return_pct=40.2089 | max_return_pct=41.1773 | max_drawdown_pct=13.6998 | cd_value=121.0005 | trades=6290
+7V5_L09_V02_beartrap_cluster_softcap_extreme | verdict=baseline_fail | final_return_pct=14.9152 | max_return_pct=15.0922 | max_drawdown_pct=2.4717 | cd_value=112.0749 | trades=726
+7V5_L09_V16_beartrap_shocklow_softretake | verdict=mdd_fail | final_return_pct=18.7982 | max_return_pct=19.2600 | max_drawdown_pct=5.8091 | cd_value=111.8971 | trades=3305
+7V5_L07_V04_wick_lowanchor_softcap_drive | verdict=baseline_fail | final_return_pct=15.5155 | max_return_pct=15.7170 | max_drawdown_pct=3.2255 | cd_value=111.7896 | trades=1282
+7V5_L09_V01_beartrap_cluster_softcap | verdict=mdd_fail | final_return_pct=18.6248 | max_return_pct=19.0860 | max_drawdown_pct=5.9323 | cd_value=111.5876 | trades=3370
+7V5_L07_V19_wick_agewindow_drive | verdict=baseline_fail | final_return_pct=15.2683 | max_return_pct=15.5598 | max_drawdown_pct=3.4010 | cd_value=111.3480 | trades=1319
+7V5_L07_V02_wick_cluster_softcap_extreme | verdict=baseline_fail | final_return_pct=13.6284 | max_return_pct=13.8371 | max_drawdown_pct=3.0450 | cd_value=110.1685 | trades=753
+7V5_L07_V01_wick_cluster_softcap | verdict=mdd_fail | final_return_pct=15.7420 | max_return_pct=16.0271 | max_drawdown_pct=5.2307 | cd_value=109.6879 | trades=1822
+7V5_L07_V16_wick_shocklow_softretake | verdict=mdd_fail | final_return_pct=15.6943 | max_return_pct=15.9794 | max_drawdown_pct=5.2074 | cd_value=109.6697 | trades=1819
+7V5_L09_V08_beartrap_discount_bodyhold | verdict=baseline_fail | final_return_pct=7.9294 | max_return_pct=11.0468 | max_drawdown_pct=2.8999 | cd_value=104.7996 | trades=2373
+7V5_L09_V11_beartrap_lowecho_extreme | verdict=baseline_fail | final_return_pct=7.2257 | max_return_pct=8.3619 | max_drawdown_pct=2.5932 | cd_value=104.4451 | trades=673
+7V5_L09_V14_beartrap_deepdiscount_norepeat | verdict=baseline_fail | final_return_pct=6.7153 | max_return_pct=10.8662 | max_drawdown_pct=3.8551 | cd_value=102.6013 | trades=2556
+7V5_L07_V11_wick_lowecho_extreme | verdict=baseline_fail | final_return_pct=5.5829 | max_return_pct=7.2878 | max_drawdown_pct=2.9383 | cd_value=102.4805 | trades=693
+7V5_L09_V20_beartrap_candidate_mddcut | verdict=baseline_fail | final_return_pct=0.9500 | max_return_pct=0.9500 | max_drawdown_pct=0.3892 | cd_value=100.5570 | trades=428
+7V5_L07_V17_wick_drive_score_tiebreak | verdict=baseline_fail | final_return_pct=4.2476 | max_return_pct=7.9078 | max_drawdown_pct=3.5756 | cd_value=100.5202 | trades=1345
+7V5_L09_V06_beartrap_shockage_quality | verdict=baseline_fail | final_return_pct=0.5761 | max_return_pct=0.6500 | max_drawdown_pct=0.1972 | cd_value=100.3778 | trades=131
+7V5_L07_V06_wick_shockage_quality | verdict=baseline_fail | final_return_pct=0.0937 | max_return_pct=0.0937 | max_drawdown_pct=0.0478 | cd_value=100.0458 | trades=7
+7V5_L07_V05_wick_pause_quality_norepeat | verdict=baseline_fail | final_return_pct=0.2771 | max_return_pct=0.4808 | max_drawdown_pct=0.2511 | cd_value=100.0253 | trades=44
+7V5_L07_V07_wick_cluster_afterpause | verdict=baseline_fail | final_return_pct=0.2876 | max_return_pct=0.5575 | max_drawdown_pct=0.2684 | cd_value=100.0185 | trades=33
+7V5_L09_V05_beartrap_pause_quality_norepeat | verdict=baseline_fail | final_return_pct=0.5711 | max_return_pct=1.0592 | max_drawdown_pct=0.5790 | cd_value=99.9889 | trades=364
+7V5_L07_V08_wick_discount_bodyhold | verdict=baseline_fail | final_return_pct=3.2415 | max_return_pct=6.5829 | max_drawdown_pct=3.1559 | cd_value=99.9833 | trades=1101
+7V5_L07_V12_wick_drive_then_hold | verdict=baseline_fail | final_return_pct=0.2486 | max_return_pct=0.3540 | max_drawdown_pct=0.2763 | cd_value=99.9716 | trades=89
+7V5_L07_V18_wick_cluster_quietscore | verdict=baseline_fail | final_return_pct=0.0159 | max_return_pct=0.0159 | max_drawdown_pct=0.0878 | cd_value=99.9281 | trades=4
+7V5_L09_V13_beartrap_cluster_decay | verdict=baseline_fail | final_return_pct=0.6558 | max_return_pct=0.6968 | max_drawdown_pct=0.7388 | cd_value=99.9122 | trades=645
+7V5_L07_V20_wick_candidate_mddcut | verdict=baseline_fail | final_return_pct=0.2408 | max_return_pct=0.2920 | max_drawdown_pct=0.3300 | cd_value=99.9100 | trades=115
+7V5_L07_V13_wick_cluster_decay | verdict=baseline_fail | final_return_pct=0.1887 | max_return_pct=0.1887 | max_drawdown_pct=0.4119 | cd_value=99.7761 | trades=153
+7V5_L09_V18_beartrap_cluster_quietscore | verdict=baseline_fail | final_return_pct=-0.1059 | max_return_pct=0.0000 | max_drawdown_pct=0.2046 | cd_value=99.6897 | trades=13
+7V5_L07_V15_wick_pause_extreme_hold | verdict=baseline_fail | final_return_pct=-0.1448 | max_return_pct=0.1259 | max_drawdown_pct=0.2704 | cd_value=99.5852 | trades=10
+7V5_L09_V15_beartrap_pause_extreme_hold | verdict=baseline_fail | final_return_pct=-0.1490 | max_return_pct=0.1374 | max_drawdown_pct=0.2861 | cd_value=99.5653 | trades=13
+7V5_L09_V10_beartrap_quality_scoregate | verdict=mdd_fail | final_return_pct=6.0168 | max_return_pct=12.2570 | max_drawdown_pct=6.1684 | cd_value=99.4772 | trades=4365
+7V5_L09_V07_beartrap_cluster_afterpause | verdict=baseline_fail | final_return_pct=0.3463 | max_return_pct=1.6664 | max_drawdown_pct=1.5409 | cd_value=98.8001 | trades=533
+7V5_L09_V12_beartrap_drive_then_hold | verdict=baseline_fail | final_return_pct=0.3059 | max_return_pct=1.6777 | max_drawdown_pct=2.0611 | cd_value=98.2385 | trades=1230
+7V5_L07_V10_wick_quality_scoregate | verdict=mdd_fail | final_return_pct=3.1801 | max_return_pct=8.5519 | max_drawdown_pct=5.0828 | cd_value=97.9356 | trades=1884
+7V5_L07_V14_wick_deepdiscount_norepeat | verdict=baseline_fail | final_return_pct=2.0883 | max_return_pct=7.1862 | max_drawdown_pct=4.8110 | cd_value=97.1768 | trades=1336
+7V5_L07_V09_wick_norepeat_reclaim | verdict=baseline_fail | final_return_pct=-1.6745 | max_return_pct=2.0051 | max_drawdown_pct=3.8184 | cd_value=94.5710 | trades=1578
+7V5_L09_V17_beartrap_drive_score_tiebreak | verdict=mdd_fail | final_return_pct=9.4200 | max_return_pct=25.2916 | max_drawdown_pct=13.6502 | cd_value=94.4839 | trades=7421
+7V5_L07_V03_wick_lowanchor_softcap | verdict=baseline_fail | final_return_pct=-2.6338 | max_return_pct=0.9902 | max_drawdown_pct=3.9292 | cd_value=93.5406 | trades=1271
+7V5_L09_V09_beartrap_norepeat_reclaim | verdict=mdd_fail | final_return_pct=-3.2851 | max_return_pct=3.8907 | max_drawdown_pct=7.3926 | cd_value=89.5651 | trades=3859

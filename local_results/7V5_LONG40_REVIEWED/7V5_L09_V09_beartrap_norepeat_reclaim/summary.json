@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L09_V09_beartrap_norepeat_reclaim",
+  "side": "long",
+  "description": "beartrap no-repeat reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3859,
+  "wins": 1282,
+  "losses": 2577,
+  "win_rate_pct": 33.22104172065302,
+  "final_return_pct": -3.2851259859602577,
+  "max_return_pct": 3.890667595122377,
+  "max_drawdown_pct": 7.392641230498221,
+  "cd_value": 89.56509036165343,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L07_V05_wick_pause_quality_norepeat",
+  "side": "long",
+  "description": "wick pause quality no-repeat",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 44,
+  "wins": 21,
+  "losses": 23,
+  "win_rate_pct": 47.72727272727273,
+  "final_return_pct": 0.27711478532144174,
+  "max_return_pct": 0.48076733824862217,
+  "max_drawdown_pct": 0.2510880134890203,
+  "cd_value": 100.02533096982287,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

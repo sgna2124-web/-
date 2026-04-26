@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V5_LONG40_REVIEWED",
+  "strategy_name": "7V5_L09_V13_beartrap_cluster_decay",
+  "side": "long",
+  "description": "beartrap cluster decay",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 645,
+  "wins": 231,
+  "losses": 414,
+  "win_rate_pct": 35.81395348837209,
+  "final_return_pct": 0.6558046443727816,
+  "max_return_pct": 0.6968025253693444,
+  "max_drawdown_pct": 0.7387647917939777,
+  "cd_value": 99.91219499876323,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}
