@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V18_beartrap_volcrush_reclaim",
+  "side": "long",
+  "description": "beartrap with vol-crush reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 15,
+  "wins": 4,
+  "losses": 11,
+  "win_rate_pct": 26.666666666666668,
+  "final_return_pct": -0.14827237392331938,
+  "max_return_pct": 0.010735483512647193,
+  "max_drawdown_pct": 0.20461650732961356,
+  "cd_value": 99.64741450849992,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

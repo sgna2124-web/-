@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V04_beartrap_prevhigh_drive",
+  "side": "long",
+  "description": "beartrap with previous-high drive reclaim",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V4_LONG40_REVIEWED",
+    "strategy_name": "7V4_L09_V04_beartrap_prevhigh_drive",
+    "side": "long",
+    "description": "beartrap with previous-high drive reclaim",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 560,
+    "wins": 157,
+    "losses": 403,
+    "win_rate_pct": 28.035714285714285,
+    "final_return_pct": -0.6057076689429786,
+    "max_return_pct": 0.20667066564901138,
+    "max_drawdown_pct": 2.434758466311071,
+    "cd_value": 96.97428138349665,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

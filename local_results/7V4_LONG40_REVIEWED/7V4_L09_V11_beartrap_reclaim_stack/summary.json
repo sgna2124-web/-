@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V11_beartrap_reclaim_stack",
+  "side": "long",
+  "description": "beartrap with stacked reclaim confirmations",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 44,
+  "wins": 17,
+  "losses": 27,
+  "win_rate_pct": 38.63636363636363,
+  "final_return_pct": 0.026827296531806155,
+  "max_return_pct": 0.061702440609567866,
+  "max_drawdown_pct": 0.22633323781834358,
+  "cd_value": 99.8004333396246,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

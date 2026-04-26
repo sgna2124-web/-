@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V05_beartrap_firstshock_capped",
+  "side": "long",
+  "description": "beartrap with first-shock capped firing",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3025,
+  "wins": 961,
+  "losses": 2064,
+  "win_rate_pct": 31.76859504132231,
+  "final_return_pct": -3.6907031984626637,
+  "max_return_pct": 1.1472082219625257,
+  "max_drawdown_pct": 5.3116815404854805,
+  "cd_value": 91.1936536615587,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

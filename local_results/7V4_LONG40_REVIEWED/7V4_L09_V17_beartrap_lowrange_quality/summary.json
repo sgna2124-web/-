@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V17_beartrap_lowrange_quality",
+  "side": "long",
+  "description": "beartrap with low-range quality reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3910,
+  "wins": 1306,
+  "losses": 2604,
+  "win_rate_pct": 33.40153452685422,
+  "final_return_pct": -2.974510775785888,
+  "max_return_pct": 3.9548514507905974,
+  "max_drawdown_pct": 7.097322210704671,
+  "cd_value": 90.1392776274591,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

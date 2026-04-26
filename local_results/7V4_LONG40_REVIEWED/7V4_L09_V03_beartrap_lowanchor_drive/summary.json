@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V03_beartrap_lowanchor_drive",
+  "side": "long",
+  "description": "beartrap with low-anchor drive reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 7664,
+  "wins": 2831,
+  "losses": 4833,
+  "win_rate_pct": 36.93893528183716,
+  "final_return_pct": 39.36173437014365,
+  "max_return_pct": 40.16017183434795,
+  "max_drawdown_pct": 11.91391766575297,
+  "cd_value": 122.75829207971937,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

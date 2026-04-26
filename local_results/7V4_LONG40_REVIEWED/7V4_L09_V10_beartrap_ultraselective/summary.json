@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V10_beartrap_ultraselective",
+  "side": "long",
+  "description": "beartrap with ultraselective rarity control",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 311,
+  "wins": 97,
+  "losses": 214,
+  "win_rate_pct": 31.189710610932476,
+  "final_return_pct": -0.6758331016557428,
+  "max_return_pct": 0.6652432657299201,
+  "max_drawdown_pct": 1.4313397601610767,
+  "cd_value": 97.9025006060795,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

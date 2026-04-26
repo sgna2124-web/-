@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L07_V08_wick_cluster_pressure",
+  "side": "long",
+  "description": "wick reclaim with cluster-pressure suppression",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2117,
+  "wins": 803,
+  "losses": 1314,
+  "win_rate_pct": 37.93103448275862,
+  "final_return_pct": 16.953074158666116,
+  "max_return_pct": 17.416849667834967,
+  "max_drawdown_pct": 5.515039180105841,
+  "cd_value": 110.50306629647743,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

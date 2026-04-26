@@ -1,0 +1,28 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V06_beartrap_shocklow_retake",
+  "side": "long",
+  "description": "beartrap with shock-low retake",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "7V4_LONG40_REVIEWED",
+    "strategy_name": "7V4_L09_V06_beartrap_shocklow_retake",
+    "side": "long",
+    "description": "beartrap with shock-low retake",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 4543,
+    "wins": 1736,
+    "losses": 2807,
+    "win_rate_pct": 38.21263482280431,
+    "final_return_pct": 9.710216791357595,
+    "max_return_pct": 23.319536307402732,
+    "max_drawdown_pct": 11.66097557463538,
+    "cd_value": 96.91693520843788,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

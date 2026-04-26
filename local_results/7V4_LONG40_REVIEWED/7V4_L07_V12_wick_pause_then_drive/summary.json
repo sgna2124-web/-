@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L07_V12_wick_pause_then_drive",
+  "side": "long",
+  "description": "wick reclaim with pause-then-drive context",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 33,
+  "wins": 18,
+  "losses": 15,
+  "win_rate_pct": 54.54545454545454,
+  "final_return_pct": 0.3460094337726982,
+  "max_return_pct": 0.6051172698233742,
+  "max_drawdown_pct": 0.2575493603926171,
+  "cd_value": 100.0875689282965,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

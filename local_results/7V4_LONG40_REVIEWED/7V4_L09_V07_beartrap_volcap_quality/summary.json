@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V07_beartrap_volcap_quality",
+  "side": "long",
+  "description": "beartrap with volume-cap quality reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1833,
+  "wins": 641,
+  "losses": 1192,
+  "win_rate_pct": 34.96999454446263,
+  "final_return_pct": 1.3539348282066932,
+  "max_return_pct": 2.4259092815268612,
+  "max_drawdown_pct": 2.8126720173422104,
+  "cd_value": 98.50318106481846,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

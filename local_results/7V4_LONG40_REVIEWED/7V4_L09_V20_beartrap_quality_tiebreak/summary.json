@@ -1,0 +1,19 @@
+{
+  "batch_label": "7V4_LONG40_REVIEWED",
+  "strategy_name": "7V4_L09_V20_beartrap_quality_tiebreak",
+  "side": "long",
+  "description": "beartrap with quality tie-break stack",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4363,
+  "wins": 1539,
+  "losses": 2824,
+  "win_rate_pct": 35.273894109557645,
+  "final_return_pct": 5.9901015326628615,
+  "max_return_pct": 12.207535969772177,
+  "max_drawdown_pct": 6.150652408326851,
+  "cd_value": 99.47101880015606,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}
