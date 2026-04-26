@@ -130,7 +130,21 @@ notes:
 - 8V1의 새로운 family들(L21 shock_absorb, L22 inside, L23 microbase, L24 holdpop, L25 squeeze)은 이전 L09/L07 family와 달리 raw upside 자체가 거의 없었다.
 - 특히 L24 holdpop family는 trades 5만~19만 회대로 폭증하며 MDD 44~87% 구간으로 붕괴해 현재 형태로는 폐기 대상이다.
 - L25 squeeze family는 MDD는 낮았지만 수익과 max_return_pct가 지나치게 얕아 long 기준선 도전력은 거의 없었다.
-- 결론적으로 8V1은 "이전과 다른 50개 전략"이라는 조건은 충족했지만, 새로운 엣지를 만들지 못했다. 다음 단계는 다시 L09/L07 중심으로 회귀하고, 8V1에서는 after_pause, shockage_window, lowanchor_pop 같은 일부 보조 태그만 제한적으로 참고한다.
+- 결론적으로 8V1은 새로운 50개 전략이라는 조건은 충족했지만, 새로운 엣지를 만들지 못했다. 다음 단계는 다시 L09/L07 중심으로 회귀하고, 8V1에서는 after_pause, shockage_window, lowanchor_pop 같은 일부 보조 태그만 제한적으로 참고한다.
+
+15. recent round note: 8V2_LONG100_REVIEWED
+side: long_only
+version_reference: 8V2_LONG100_REVIEWED
+summary_file: local_results/8V2_LONG100_REVIEWED/*/summary.json
+verdict: no_promotion_new_families_100_failed_again_return_to_l09_l07
+notes:
+- batch best: 8V2_L31_V01_core_relaunch | trades 107 | max_return_pct 1.7448 | final_return_pct 1.6503 | max_drawdown_pct 0.3516 | cd_value 101.2929
+- next: 8V2_L31_V08_shockage_window | trades 73 | max_return_pct 1.6856 | final_return_pct 1.6124 | max_drawdown_pct 0.3302 | cd_value 101.2769
+- strongest upside but still weak: 8V2_L36_V05_prevhigh_rearm | trades 2553 | max_return_pct 3.0428 | final_return_pct 2.4436 | max_drawdown_pct 1.9631 | cd_value 100.4325
+- 8V2의 신규 family들(L31~L40)은 8V1보다 아주 약간 나아졌지만, 이전 L09/L07 reversal family와 비교할 raw upside가 전혀 없었다.
+- 특히 L32, L33, L40 축은 trades 20만~92만 회대로 폭증하며 MDD 93~99.99% 구간으로 붕괴해 broad overtrading failure로 분류한다.
+- L31 relaunch와 L36 extreme_reclaim은 방어형/보조 필터 차원에서만 제한적 참고 가치가 있다.
+- 결론적으로 8V2도 새로운 엣지를 만들지 못했다. 다음 단계는 다시 L09/L07 중심으로 회귀하고, 8V2에서는 relaunch, shockage_window, extreme_reclaim 정도만 보조 태그로 참고한다.
 
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
