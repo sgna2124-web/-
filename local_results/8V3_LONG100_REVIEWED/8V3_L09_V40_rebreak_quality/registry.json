@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V40_rebreak_quality",
+  "side": "long",
+  "description": "beartrap rebreak quality",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V3_LONG100_REVIEWED",
+    "strategy_name": "8V3_L09_V40_rebreak_quality",
+    "side": "long",
+    "description": "beartrap rebreak quality",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 2755,
+    "wins": 1013,
+    "losses": 1742,
+    "win_rate_pct": 36.76950998185118,
+    "final_return_pct": 18.475558448995688,
+    "max_return_pct": 18.89037001241163,
+    "max_drawdown_pct": 5.508210502266298,
+    "cd_value": 111.94967529588946,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

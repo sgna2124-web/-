@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V59_pivot_kick",
+  "side": "long",
+  "description": "beartrap pivot kick",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 48,
+  "wins": 19,
+  "losses": 29,
+  "win_rate_pct": 39.58333333333333,
+  "final_return_pct": 0.023626040137103566,
+  "max_return_pct": 0.04791633501608494,
+  "max_drawdown_pct": 0.22673304531789507,
+  "cd_value": 99.79683942677892,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

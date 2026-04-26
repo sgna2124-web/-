@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V05_prevhigh_drive",
+  "side": "long",
+  "description": "wick reclaim prevhigh drive",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 12,
+  "wins": 8,
+  "losses": 4,
+  "win_rate_pct": 66.66666666666666,
+  "final_return_pct": 0.4982584369709553,
+  "max_return_pct": 0.5319143854106922,
+  "max_drawdown_pct": 0.03347787480770803,
+  "cd_value": 100.4646137558275,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

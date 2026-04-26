@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V52_midband_recover",
+  "side": "long",
+  "description": "beartrap midband recover",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 673,
+  "wins": 289,
+  "losses": 384,
+  "win_rate_pct": 42.94205052005943,
+  "final_return_pct": 7.11385637337576,
+  "max_return_pct": 8.304608283889191,
+  "max_drawdown_pct": 2.4671383326907215,
+  "cd_value": 104.47120936316492,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

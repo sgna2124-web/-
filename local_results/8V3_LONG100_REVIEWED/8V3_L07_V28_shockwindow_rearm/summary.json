@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V28_shockwindow_rearm",
+  "side": "long",
+  "description": "wick reclaim shockwindow rearm",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1315,
+  "wins": 549,
+  "losses": 766,
+  "win_rate_pct": 41.749049429657795,
+  "final_return_pct": 16.70086541703697,
+  "max_return_pct": 16.884844252753805,
+  "max_drawdown_pct": 3.935094087583657,
+  "cd_value": 112.10857656185219,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

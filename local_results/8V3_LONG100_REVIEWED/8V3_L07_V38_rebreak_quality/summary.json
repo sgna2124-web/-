@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V38_rebreak_quality",
+  "side": "long",
+  "description": "wick reclaim rebreak quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 11,
+  "wins": 8,
+  "losses": 3,
+  "win_rate_pct": 72.72727272727273,
+  "final_return_pct": 0.4878932660412394,
+  "max_return_pct": 0.5225558006986875,
+  "max_drawdown_pct": 0.03448234516257864,
+  "cd_value": 100.45324268383864,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

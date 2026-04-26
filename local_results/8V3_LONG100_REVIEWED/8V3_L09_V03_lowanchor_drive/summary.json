@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V03_lowanchor_drive",
+  "side": "long",
+  "description": "beartrap lowanchor drive",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 7646,
+  "wins": 2860,
+  "losses": 4786,
+  "win_rate_pct": 37.40517917865551,
+  "final_return_pct": 39.34334810373154,
+  "max_return_pct": 40.304540349282505,
+  "max_drawdown_pct": 14.5777100564914,
+  "cd_value": 119.03027883416206,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

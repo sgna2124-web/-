@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V06_shocklow_retake",
+  "side": "long",
+  "description": "beartrap shocklow retake",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4571,
+  "wins": 1758,
+  "losses": 2813,
+  "win_rate_pct": 38.459855611463574,
+  "final_return_pct": 12.630566888631712,
+  "max_return_pct": 21.335993191153335,
+  "max_drawdown_pct": 7.420027496368609,
+  "cd_value": 104.2733478561794,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

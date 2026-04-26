@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V20_quality_tiebreak",
+  "side": "long",
+  "description": "beartrap quality tiebreak",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4349,
+  "wins": 1453,
+  "losses": 2896,
+  "win_rate_pct": 33.40997930558749,
+  "final_return_pct": 5.287633041248174,
+  "max_return_pct": 11.975713345569904,
+  "max_drawdown_pct": 6.496790144635023,
+  "cd_value": 98.44731647430487,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

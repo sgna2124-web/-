@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V34_range_pivot",
+  "side": "long",
+  "description": "beartrap range pivot",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 7645,
+  "wins": 2733,
+  "losses": 4912,
+  "win_rate_pct": 35.748855461085675,
+  "final_return_pct": 35.77958257927969,
+  "max_return_pct": 36.34684207255769,
+  "max_drawdown_pct": 10.9582989949367,
+  "cd_value": 120.90044994616524,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V19_deepdiscount_drive",
+  "side": "long",
+  "description": "beartrap deepdiscount drive",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V3_LONG100_REVIEWED",
+    "strategy_name": "8V3_L09_V19_deepdiscount_drive",
+    "side": "long",
+    "description": "beartrap deepdiscount drive",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 4326,
+    "wins": 1602,
+    "losses": 2724,
+    "win_rate_pct": 37.03190013869626,
+    "final_return_pct": 9.969662795380874,
+    "max_return_pct": 19.337686636126517,
+    "max_drawdown_pct": 8.227171170149116,
+    "cd_value": 100.9222704019691,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V27_failed_break_pivot",
+  "side": "long",
+  "description": "beartrap failed break pivot",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 7656,
+  "wins": 2839,
+  "losses": 4817,
+  "win_rate_pct": 37.08202716823406,
+  "final_return_pct": 39.488990662582424,
+  "max_return_pct": 40.24733517420185,
+  "max_drawdown_pct": 11.431371458941797,
+  "cd_value": 123.54348599561399,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

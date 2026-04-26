@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V04_shocklow_retake",
+  "side": "long",
+  "description": "wick reclaim shocklow retake",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1890,
+  "wins": 685,
+  "losses": 1205,
+  "win_rate_pct": 36.24338624338625,
+  "final_return_pct": 16.02358699063182,
+  "max_return_pct": 16.42600755709911,
+  "max_drawdown_pct": 5.5354239687076205,
+  "cd_value": 109.60118954699806,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

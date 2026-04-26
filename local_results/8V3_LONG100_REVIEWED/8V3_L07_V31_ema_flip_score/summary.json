@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V31_ema_flip_score",
+  "side": "long",
+  "description": "wick reclaim ema flip score",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 13,
+  "wins": 3,
+  "losses": 10,
+  "win_rate_pct": 23.076923076923077,
+  "final_return_pct": -0.13102054908282756,
+  "max_return_pct": 0.08745746742295779,
+  "max_drawdown_pct": 0.2182871081293003,
+  "cd_value": 99.65097834375551,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

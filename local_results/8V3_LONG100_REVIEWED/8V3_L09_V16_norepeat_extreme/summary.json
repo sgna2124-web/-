@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V16_norepeat_extreme",
+  "side": "long",
+  "description": "beartrap norepeat extreme",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 671,
+  "wins": 294,
+  "losses": 377,
+  "win_rate_pct": 43.81520119225038,
+  "final_return_pct": 6.774886381972833,
+  "max_return_pct": 7.789172267540279,
+  "max_drawdown_pct": 2.25865594924618,
+  "cd_value": 104.36320905840556,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

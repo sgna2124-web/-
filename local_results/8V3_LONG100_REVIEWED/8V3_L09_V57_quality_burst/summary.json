@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V57_quality_burst",
+  "side": "long",
+  "description": "beartrap quality burst",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 131,
+  "wins": 43,
+  "losses": 88,
+  "win_rate_pct": 32.82442748091603,
+  "final_return_pct": 0.6154340095159805,
+  "max_return_pct": 0.7432786794357993,
+  "max_drawdown_pct": 0.3805846456408024,
+  "cd_value": 100.2325071165309,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

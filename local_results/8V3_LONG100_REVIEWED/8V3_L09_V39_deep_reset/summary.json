@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V39_deep_reset",
+  "side": "long",
+  "description": "beartrap deep reset",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 6513,
+  "wins": 2158,
+  "losses": 4355,
+  "win_rate_pct": 33.13373253493014,
+  "final_return_pct": -3.403967131563135,
+  "max_return_pct": 4.616223614604831,
+  "max_drawdown_pct": 8.583993803363821,
+  "cd_value": 88.30423539271496,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

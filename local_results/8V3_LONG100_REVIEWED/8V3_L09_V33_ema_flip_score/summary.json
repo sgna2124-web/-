@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V33_ema_flip_score",
+  "side": "long",
+  "description": "beartrap ema flip score",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 5082,
+  "wins": 1744,
+  "losses": 3338,
+  "win_rate_pct": 34.31719795356159,
+  "final_return_pct": -3.617901896455411,
+  "max_return_pct": 3.2298943288067816,
+  "max_drawdown_pct": 8.31349996867875,
+  "cd_value": 88.36937240789449,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

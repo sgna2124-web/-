@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V28_refire_block",
+  "side": "long",
+  "description": "beartrap refire block",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 6347,
+  "wins": 2444,
+  "losses": 3903,
+  "win_rate_pct": 38.506380967386164,
+  "final_return_pct": 41.41013142564902,
+  "max_return_pct": 42.37322288471523,
+  "max_drawdown_pct": 14.025297560963413,
+  "cd_value": 121.57693971185232,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

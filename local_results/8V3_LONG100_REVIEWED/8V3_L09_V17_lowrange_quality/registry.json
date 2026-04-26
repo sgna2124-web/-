@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V17_lowrange_quality",
+  "side": "long",
+  "description": "beartrap lowrange quality",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V3_LONG100_REVIEWED",
+    "strategy_name": "8V3_L09_V17_lowrange_quality",
+    "side": "long",
+    "description": "beartrap lowrange quality",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 3911,
+    "wins": 1298,
+    "losses": 2613,
+    "win_rate_pct": 33.18844285349016,
+    "final_return_pct": -3.3758925363218895,
+    "max_return_pct": 3.7578818327640873,
+    "max_drawdown_pct": 7.266593202697846,
+    "cd_value": 89.60282663855502,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

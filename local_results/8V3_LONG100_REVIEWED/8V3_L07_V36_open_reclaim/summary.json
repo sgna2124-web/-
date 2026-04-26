@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V36_open_reclaim",
+  "side": "long",
+  "description": "wick reclaim open reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 26,
+  "wins": 5,
+  "losses": 21,
+  "win_rate_pct": 19.230769230769234,
+  "final_return_pct": -0.2331580346964457,
+  "max_return_pct": 0.053332100724423626,
+  "max_drawdown_pct": 0.28633742565660203,
+  "cd_value": 99.48117215836122,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V42_panic_to_drive",
+  "side": "long",
+  "description": "beartrap panic to drive",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 9,
+  "wins": 5,
+  "losses": 4,
+  "win_rate_pct": 55.55555555555556,
+  "final_return_pct": 0.3175904473389002,
+  "max_return_pct": 0.3674708429485696,
+  "max_drawdown_pct": 0.07720831879249879,
+  "cd_value": 100.24013692230136,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

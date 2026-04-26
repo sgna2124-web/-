@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V22_firstfire_quality",
+  "side": "long",
+  "description": "wick reclaim firstfire quality",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V3_LONG100_REVIEWED",
+    "strategy_name": "8V3_L07_V22_firstfire_quality",
+    "side": "long",
+    "description": "wick reclaim firstfire quality",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 907,
+    "wins": 285,
+    "losses": 622,
+    "win_rate_pct": 31.422271223814775,
+    "final_return_pct": -2.0013801558407263,
+    "max_return_pct": 1.0515280132856297,
+    "max_drawdown_pct": 3.098906337244234,
+    "cd_value": 94.96173440339675,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

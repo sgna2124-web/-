@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V20_quality_tiebreak",
+  "side": "long",
+  "description": "wick reclaim quality tiebreak",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1882,
+  "wins": 655,
+  "losses": 1227,
+  "win_rate_pct": 34.80340063761955,
+  "final_return_pct": 3.332195059941978,
+  "max_return_pct": 8.71171657339218,
+  "max_drawdown_pct": 5.332493997303267,
+  "cd_value": 97.82201196108888,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

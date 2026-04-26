@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V46_atr_compress",
+  "side": "long",
+  "description": "beartrap atr compress",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2047,
+  "wins": 800,
+  "losses": 1247,
+  "win_rate_pct": 39.08158280410356,
+  "final_return_pct": 6.567469125268932,
+  "max_return_pct": 10.35155169169959,
+  "max_drawdown_pct": 3.5132812946794156,
+  "cd_value": 102.8234541662776,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

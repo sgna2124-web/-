@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V10_ultraselective",
+  "side": "long",
+  "description": "beartrap ultraselective",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 311,
+  "wins": 90,
+  "losses": 221,
+  "win_rate_pct": 28.938906752411576,
+  "final_return_pct": -0.7516970459506722,
+  "max_return_pct": 0.6985563212040802,
+  "max_drawdown_pct": 1.5168104541329885,
+  "cd_value": 97.74289431929272,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V12_pause_then_drive",
+  "side": "long",
+  "description": "beartrap pause then drive",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V3_LONG100_REVIEWED",
+    "strategy_name": "8V3_L09_V12_pause_then_drive",
+    "side": "long",
+    "description": "beartrap pause then drive",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 535,
+    "wins": 182,
+    "losses": 353,
+    "win_rate_pct": 34.018691588785046,
+    "final_return_pct": 0.3555106701810251,
+    "max_return_pct": 1.666424613857087,
+    "max_drawdown_pct": 1.531850355000064,
+    "cd_value": 98.81821442371773,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

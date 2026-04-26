@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V27_bodydrive_reclaim",
+  "side": "long",
+  "description": "wick reclaim bodydrive reclaim",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V3_LONG100_REVIEWED",
+    "strategy_name": "8V3_L07_V27_bodydrive_reclaim",
+    "side": "long",
+    "description": "wick reclaim bodydrive reclaim",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 1345,
+    "wins": 549,
+    "losses": 796,
+    "win_rate_pct": 40.817843866171,
+    "final_return_pct": 14.813938472675892,
+    "max_return_pct": 14.970675102992171,
+    "max_drawdown_pct": 3.1389831263395784,
+    "cd_value": 111.20994831733269,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

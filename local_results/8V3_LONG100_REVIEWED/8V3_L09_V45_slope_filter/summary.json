@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V45_slope_filter",
+  "side": "long",
+  "description": "beartrap slope filter",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 41,
+  "wins": 9,
+  "losses": 32,
+  "win_rate_pct": 21.951219512195124,
+  "final_return_pct": -0.14132044459832516,
+  "max_return_pct": 0.15247118475454347,
+  "max_drawdown_pct": 0.2933443637260891,
+  "cd_value": 99.5657497472346,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

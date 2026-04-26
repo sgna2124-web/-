@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V25_failed_break_pivot",
+  "side": "long",
+  "description": "wick reclaim failed break pivot",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1037,
+  "wins": 340,
+  "losses": 697,
+  "win_rate_pct": 32.78688524590164,
+  "final_return_pct": -0.28926558834903027,
+  "max_return_pct": 1.943740526113391,
+  "max_drawdown_pct": 2.3341748129061646,
+  "cd_value": 97.38331156325044,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

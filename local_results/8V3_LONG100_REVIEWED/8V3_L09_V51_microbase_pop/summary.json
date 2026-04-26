@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V51_microbase_pop",
+  "side": "long",
+  "description": "beartrap microbase pop",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2277,
+  "wins": 1043,
+  "losses": 1234,
+  "win_rate_pct": 45.80588493631972,
+  "final_return_pct": 41.50967543010091,
+  "max_return_pct": 42.00174458671513,
+  "max_drawdown_pct": 6.314398932239684,
+  "cd_value": 132.57418999572678,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V53_shocktail_drive",
+  "side": "long",
+  "description": "beartrap shocktail drive",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 15,
+  "wins": 3,
+  "losses": 12,
+  "win_rate_pct": 20.0,
+  "final_return_pct": -0.16478457176554162,
+  "max_return_pct": 0.04323689699354816,
+  "max_drawdown_pct": 0.20793156560224846,
+  "cd_value": 99.62762650177216,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

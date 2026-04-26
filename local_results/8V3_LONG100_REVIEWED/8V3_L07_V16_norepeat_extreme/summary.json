@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V16_norepeat_extreme",
+  "side": "long",
+  "description": "wick reclaim norepeat extreme",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 692,
+  "wins": 294,
+  "losses": 398,
+  "win_rate_pct": 42.48554913294797,
+  "final_return_pct": 5.3965809363461625,
+  "max_return_pct": 7.011501111346141,
+  "max_drawdown_pct": 2.77801036477463,
+  "cd_value": 102.46865299381638,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

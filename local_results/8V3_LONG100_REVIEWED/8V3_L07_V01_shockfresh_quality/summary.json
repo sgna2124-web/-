@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L07_V01_shockfresh_quality",
+  "side": "long",
+  "description": "wick reclaim shockfresh quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1822,
+  "wins": 705,
+  "losses": 1117,
+  "win_rate_pct": 38.693743139407246,
+  "final_return_pct": 15.970342712860486,
+  "max_return_pct": 16.220618330353997,
+  "max_drawdown_pct": 5.218547402163765,
+  "cd_value": 109.9183754059381,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V24_double_reclaim",
+  "side": "long",
+  "description": "beartrap double reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 53,
+  "wins": 20,
+  "losses": 33,
+  "win_rate_pct": 37.735849056603776,
+  "final_return_pct": 0.3957444190670456,
+  "max_return_pct": 0.5227018344960532,
+  "max_drawdown_pct": 0.1262972573479293,
+  "cd_value": 100.26894734737172,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

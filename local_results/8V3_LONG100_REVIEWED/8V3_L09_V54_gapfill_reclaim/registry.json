@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V54_gapfill_reclaim",
+  "side": "long",
+  "description": "beartrap gapfill reclaim",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V3_LONG100_REVIEWED",
+    "strategy_name": "8V3_L09_V54_gapfill_reclaim",
+    "side": "long",
+    "description": "beartrap gapfill reclaim",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 216,
+    "wins": 68,
+    "losses": 148,
+    "win_rate_pct": 31.48148148148148,
+    "final_return_pct": 0.5349846055435092,
+    "max_return_pct": 0.7684461401537668,
+    "max_drawdown_pct": 0.40305814512288096,
+    "cd_value": 100.12977016139283,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

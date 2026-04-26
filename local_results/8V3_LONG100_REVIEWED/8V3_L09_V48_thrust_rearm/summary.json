@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V3_LONG100_REVIEWED",
+  "strategy_name": "8V3_L09_V48_thrust_rearm",
+  "side": "long",
+  "description": "beartrap thrust rearm",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 671,
+  "wins": 293,
+  "losses": 378,
+  "win_rate_pct": 43.666169895678095,
+  "final_return_pct": 7.564995248440831,
+  "max_return_pct": 8.711687464834728,
+  "max_drawdown_pct": 2.6931394767148675,
+  "cd_value": 104.6681198982786,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}
