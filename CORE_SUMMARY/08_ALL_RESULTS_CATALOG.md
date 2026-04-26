@@ -116,9 +116,21 @@ notes:
 - best under MDD<5: 7V4_L09_V02_beartrap_extreme_synergy | trades 730 | max_return_pct 16.0180 | final_return_pct 15.8330 | max_drawdown_pct 2.5330 | cd_value 112.8990
 - next under MDD<5: 7V4_L07_V02_wick_drive_reclaim | trades 1443 | max_return_pct 16.0068 | final_return_pct 15.6410 | max_drawdown_pct 3.2136 | cd_value 111.9247
 - 7V4는 candidate_cd_win_mdd_fail 규칙을 적용한 첫 라운드로, L09 family 안에 기준선 이상 cd를 가진 개선 후보가 실제로 존재함을 고정했다.
-- 다만 MDD<5에서의 best는 7V3/7V2와 거의 같은 수준에 머물러, 공식 승격까지는 못 갔다.
-- ultraselective, lowrange, closehold, reclaim_stack 계열은 대체로 edge를 과하게 죽였다.
-- 따라서 다음 단계는 L09의 candidate_cd_win_mdd_fail 후보를 우선 보관하면서, L09/L07에서 MDD를 낮추는 쪽의 구조 개선을 더 시도하는 것이다.
+- 다음 단계는 L09의 high-cd raw 후보를 보관하면서 MDD를 낮추는 구조 개선 시도였다.
+
+14. recent round note: 8V1_LONG50_REVIEWED
+side: long_only
+version_reference: 8V1_LONG50_REVIEWED
+summary_file: local_results/8V1_LONG50_REVIEWED/*/summary.json
+verdict: no_promotion_new_families_failed_to_create_edge_return_to_l09_l07
+notes:
+- batch best: 8V1_L25_V01_washout_squeeze_release | trades 54 | max_return_pct 1.2888 | final_return_pct 1.2567 | max_drawdown_pct 0.1903 | cd_value 101.0640
+- next: 8V1_L25_V08_squeeze_shockage_window | trades 222 | max_return_pct 0.9310 | final_return_pct 0.9310 | max_drawdown_pct 0.4424 | cd_value 100.4845
+- best non-squeeze but still weak: 8V1_L22_V06_inside_lowanchor_pop | trades 3372 | max_return_pct 3.2382 | final_return_pct 1.7901 | max_drawdown_pct 1.7176 | cd_value 100.0417
+- 8V1의 새로운 family들(L21 shock_absorb, L22 inside, L23 microbase, L24 holdpop, L25 squeeze)은 이전 L09/L07 family와 달리 raw upside 자체가 거의 없었다.
+- 특히 L24 holdpop family는 trades 5만~19만 회대로 폭증하며 MDD 44~87% 구간으로 붕괴해 현재 형태로는 폐기 대상이다.
+- L25 squeeze family는 MDD는 낮았지만 수익과 max_return_pct가 지나치게 얕아 long 기준선 도전력은 거의 없었다.
+- 결론적으로 8V1은 "이전과 다른 50개 전략"이라는 조건은 충족했지만, 새로운 엣지를 만들지 못했다. 다음 단계는 다시 L09/L07 중심으로 회귀하고, 8V1에서는 after_pause, shockage_window, lowanchor_pop 같은 일부 보조 태그만 제한적으로 참고한다.
 
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
