@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L39_V10_quality_stack",
+  "side": "long",
+  "description": "range_sweep_pivot quality_stack",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 73098,
+  "wins": 21092,
+  "losses": 52006,
+  "win_rate_pct": 28.854414621467072,
+  "final_return_pct": -55.57139570438445,
+  "max_return_pct": 0.08312552737319567,
+  "max_drawdown_pct": 55.713189927274364,
+  "cd_value": 19.67601160236208,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

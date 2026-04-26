@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L36_V06_lowanchor_thrust",
+  "side": "long",
+  "description": "inside_fakebreak_go lowanchor_thrust",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1343,
+  "wins": 477,
+  "losses": 866,
+  "win_rate_pct": 35.51749813849591,
+  "final_return_pct": 1.1239822812780575,
+  "max_return_pct": 1.654550612808281,
+  "max_drawdown_pct": 1.8199402470923665,
+  "cd_value": 99.28358622827852,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

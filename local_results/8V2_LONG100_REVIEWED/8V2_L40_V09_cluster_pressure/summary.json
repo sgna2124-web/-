@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L40_V09_cluster_pressure",
+  "side": "long",
+  "description": "pressure_flip_go cluster_pressure",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 765588,
+  "wins": 221454,
+  "losses": 544134,
+  "win_rate_pct": 28.926001974952587,
+  "final_return_pct": -99.98034442338941,
+  "max_return_pct": 0.0032317358523714645,
+  "max_drawdown_pct": 99.98036226367661,
+  "cd_value": 3.859910307628507e-06,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

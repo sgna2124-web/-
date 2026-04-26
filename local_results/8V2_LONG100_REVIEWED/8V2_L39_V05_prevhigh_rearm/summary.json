@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L39_V05_prevhigh_rearm",
+  "side": "long",
+  "description": "range_sweep_pivot prevhigh_rearm",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 42560,
+  "wins": 11972,
+  "losses": 30588,
+  "win_rate_pct": 28.1296992481203,
+  "final_return_pct": -36.10186279517782,
+  "max_return_pct": 0.032834489924615795,
+  "max_drawdown_pct": 36.252528870392375,
+  "cd_value": 40.73344656700109,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

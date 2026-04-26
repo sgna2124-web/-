@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L37_V06_lowanchor_thrust",
+  "side": "long",
+  "description": "volcrush_pop lowanchor_thrust",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L37_V06_lowanchor_thrust",
+    "side": "long",
+    "description": "volcrush_pop lowanchor_thrust",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 22,
+    "wins": 8,
+    "losses": 14,
+    "win_rate_pct": 36.36363636363637,
+    "final_return_pct": 0.07164283042868647,
+    "max_return_pct": 0.08164569967348267,
+    "max_drawdown_pct": 0.0933010263059586,
+    "cd_value": 99.97827496062665,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

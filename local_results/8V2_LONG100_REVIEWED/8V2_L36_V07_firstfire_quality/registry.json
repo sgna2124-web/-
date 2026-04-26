@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L36_V07_firstfire_quality",
+  "side": "long",
+  "description": "inside_fakebreak_go firstfire_quality",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L36_V07_firstfire_quality",
+    "side": "long",
+    "description": "inside_fakebreak_go firstfire_quality",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 255,
+    "wins": 82,
+    "losses": 173,
+    "win_rate_pct": 32.15686274509804,
+    "final_return_pct": -0.43907621780798767,
+    "max_return_pct": 0.02383184026810703,
+    "max_drawdown_pct": 0.7178004856712272,
+    "cd_value": 98.84627498774468,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

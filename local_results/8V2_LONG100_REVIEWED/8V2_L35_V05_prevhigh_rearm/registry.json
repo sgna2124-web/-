@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L35_V05_prevhigh_rearm",
+  "side": "long",
+  "description": "squeeze_washout_go prevhigh_rearm",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L35_V05_prevhigh_rearm",
+    "side": "long",
+    "description": "squeeze_washout_go prevhigh_rearm",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 51,
+    "wins": 18,
+    "losses": 33,
+    "win_rate_pct": 35.294117647058826,
+    "final_return_pct": -0.04452105886804114,
+    "max_return_pct": 0.037847912203448075,
+    "max_drawdown_pct": 0.2074724372151171,
+    "cd_value": 99.74809887284275,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

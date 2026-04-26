@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L40_V08_shockage_window",
+  "side": "long",
+  "description": "pressure_flip_go shockage_window",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1512,
+  "wins": 508,
+  "losses": 1004,
+  "win_rate_pct": 33.5978835978836,
+  "final_return_pct": 0.622127399506045,
+  "max_return_pct": 4.167532111555983,
+  "max_drawdown_pct": 3.5284206891278647,
+  "cd_value": 97.07175543850127,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

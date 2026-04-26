@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L38_V06_lowanchor_thrust",
+  "side": "long",
+  "description": "ladder_release lowanchor_thrust",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 366,
+  "wins": 111,
+  "losses": 255,
+  "win_rate_pct": 30.327868852459016,
+  "final_return_pct": -0.2741800302024533,
+  "max_return_pct": 0.04494281451932203,
+  "max_drawdown_pct": 0.6989689465223048,
+  "cd_value": 99.02876745654393,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

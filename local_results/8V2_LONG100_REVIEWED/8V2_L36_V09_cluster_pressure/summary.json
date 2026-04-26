@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L36_V09_cluster_pressure",
+  "side": "long",
+  "description": "inside_fakebreak_go cluster_pressure",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3404,
+  "wins": 1171,
+  "losses": 2233,
+  "win_rate_pct": 34.40070505287897,
+  "final_return_pct": 0.4299710211552288,
+  "max_return_pct": 1.7966568825893203,
+  "max_drawdown_pct": 2.6509405418557064,
+  "cd_value": 97.76763220318149,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L35_V03_pause_liftoff",
+  "side": "long",
+  "description": "squeeze_washout_go pause_liftoff",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L35_V03_pause_liftoff",
+    "side": "long",
+    "description": "squeeze_washout_go pause_liftoff",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 14,
+    "wins": 4,
+    "losses": 10,
+    "win_rate_pct": 28.57142857142857,
+    "final_return_pct": -0.026279844162246935,
+    "max_return_pct": 0.008837053516019822,
+    "max_drawdown_pct": 0.07686338325840758,
+    "cd_value": 99.89687697215668,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

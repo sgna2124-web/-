@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L33_V06_lowanchor_thrust",
+  "side": "long",
+  "description": "undercut_pause_pop lowanchor_thrust",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 736023,
+  "wins": 214398,
+  "losses": 521625,
+  "win_rate_pct": 29.129252754329688,
+  "final_return_pct": -99.95760054889988,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 99.9576798256618,
+  "cd_value": 1.7943521624016666e-05,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L33_V01_core_relaunch",
+  "side": "long",
+  "description": "undercut_pause_pop core_relaunch",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L33_V01_core_relaunch",
+    "side": "long",
+    "description": "undercut_pause_pop core_relaunch",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 10441,
+    "wins": 3457,
+    "losses": 6984,
+    "win_rate_pct": 33.10985537783737,
+    "final_return_pct": -6.789926673113067,
+    "max_return_pct": 0.1362676967332721,
+    "max_drawdown_pct": 8.402467287374659,
+    "cd_value": 85.37812740705732,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

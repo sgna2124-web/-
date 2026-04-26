@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L40_V05_prevhigh_rearm",
+  "side": "long",
+  "description": "pressure_flip_go prevhigh_rearm",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 887924,
+  "wins": 245451,
+  "losses": 642473,
+  "win_rate_pct": 27.64324424162428,
+  "final_return_pct": -99.99409803925501,
+  "max_return_pct": 0.012394883469091234,
+  "max_drawdown_pct": 99.99410401456466,
+  "cd_value": 3.4797874592446983e-07,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

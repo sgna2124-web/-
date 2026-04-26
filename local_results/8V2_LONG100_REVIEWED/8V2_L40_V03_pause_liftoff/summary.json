@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L40_V03_pause_liftoff",
+  "side": "long",
+  "description": "pressure_flip_go pause_liftoff",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 676,
+  "wins": 209,
+  "losses": 467,
+  "win_rate_pct": 30.917159763313613,
+  "final_return_pct": -1.272213598245786,
+  "max_return_pct": 0.34394785638147685,
+  "max_drawdown_pct": 1.6106217556243752,
+  "cd_value": 97.1376551951212,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

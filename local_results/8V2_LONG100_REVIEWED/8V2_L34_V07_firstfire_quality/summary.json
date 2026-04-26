@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L34_V07_firstfire_quality",
+  "side": "long",
+  "description": "reset_burst_retake firstfire_quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 340,
+  "wins": 111,
+  "losses": 229,
+  "win_rate_pct": 32.64705882352941,
+  "final_return_pct": 0.5908884790422508,
+  "max_return_pct": 1.352938084994415,
+  "max_drawdown_pct": 0.9044376118043873,
+  "cd_value": 99.6811066495896,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

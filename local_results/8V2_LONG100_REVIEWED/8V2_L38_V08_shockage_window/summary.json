@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L38_V08_shockage_window",
+  "side": "long",
+  "description": "ladder_release shockage_window",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 5644,
+  "wins": 1874,
+  "losses": 3770,
+  "win_rate_pct": 33.203401842664775,
+  "final_return_pct": -8.180866092478578,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 10.761870821851938,
+  "cd_value": 81.93767732665071,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

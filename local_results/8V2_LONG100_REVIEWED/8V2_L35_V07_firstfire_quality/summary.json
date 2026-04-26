@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L35_V07_firstfire_quality",
+  "side": "long",
+  "description": "squeeze_washout_go firstfire_quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 79,
+  "wins": 23,
+  "losses": 56,
+  "win_rate_pct": 29.11392405063291,
+  "final_return_pct": -0.29826277381339583,
+  "max_return_pct": 0.03073178108943253,
+  "max_drawdown_pct": 0.3521301104513763,
+  "cd_value": 99.3506573887701,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L34_V08_shockage_window",
+  "side": "long",
+  "description": "reset_burst_retake shockage_window",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L34_V08_shockage_window",
+    "side": "long",
+    "description": "reset_burst_retake shockage_window",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 315,
+    "wins": 113,
+    "losses": 202,
+    "win_rate_pct": 35.87301587301587,
+    "final_return_pct": 0.14228236508737613,
+    "max_return_pct": 0.42343825849242567,
+    "max_drawdown_pct": 0.9294053772123112,
+    "cd_value": 99.21155460792312,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

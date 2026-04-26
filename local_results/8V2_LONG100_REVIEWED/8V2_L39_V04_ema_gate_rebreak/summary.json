@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L39_V04_ema_gate_rebreak",
+  "side": "long",
+  "description": "range_sweep_pivot ema_gate_rebreak",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 56887,
+  "wins": 16051,
+  "losses": 40836,
+  "win_rate_pct": 28.215585283105106,
+  "final_return_pct": -47.80395072894629,
+  "max_return_pct": 0.04918357916707805,
+  "max_drawdown_pct": 47.89468089742126,
+  "cd_value": 27.196918031621756,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

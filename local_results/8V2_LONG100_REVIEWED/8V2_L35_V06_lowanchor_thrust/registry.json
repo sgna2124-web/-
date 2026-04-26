@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L35_V06_lowanchor_thrust",
+  "side": "long",
+  "description": "squeeze_washout_go lowanchor_thrust",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L35_V06_lowanchor_thrust",
+    "side": "long",
+    "description": "squeeze_washout_go lowanchor_thrust",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 44,
+    "wins": 15,
+    "losses": 29,
+    "win_rate_pct": 34.090909090909086,
+    "final_return_pct": -0.06706859676715027,
+    "max_return_pct": 0.03307709816591231,
+    "max_drawdown_pct": 0.19910745426844345,
+    "cd_value": 99.73395748754004,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

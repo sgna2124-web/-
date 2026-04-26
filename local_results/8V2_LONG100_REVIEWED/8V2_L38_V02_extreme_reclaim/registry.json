@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L38_V02_extreme_reclaim",
+  "side": "long",
+  "description": "ladder_release extreme_reclaim",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L38_V02_extreme_reclaim",
+    "side": "long",
+    "description": "ladder_release extreme_reclaim",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 34,
+    "wins": 15,
+    "losses": 19,
+    "win_rate_pct": 44.11764705882353,
+    "final_return_pct": 0.06649870132928726,
+    "max_return_pct": 0.13882027410452302,
+    "max_drawdown_pct": 0.1307398431286133,
+    "cd_value": 99.93567191790288,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

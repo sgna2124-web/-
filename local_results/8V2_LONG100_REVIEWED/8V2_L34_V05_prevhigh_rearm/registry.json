@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L34_V05_prevhigh_rearm",
+  "side": "long",
+  "description": "reset_burst_retake prevhigh_rearm",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L34_V05_prevhigh_rearm",
+    "side": "long",
+    "description": "reset_burst_retake prevhigh_rearm",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 520,
+    "wins": 190,
+    "losses": 330,
+    "win_rate_pct": 36.53846153846153,
+    "final_return_pct": 0.2864988269423163,
+    "max_return_pct": 0.3950086158866162,
+    "max_drawdown_pct": 1.04688644877039,
+    "cd_value": 99.23661306077678,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

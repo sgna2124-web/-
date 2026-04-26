@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L38_V09_cluster_pressure",
+  "side": "long",
+  "description": "ladder_release cluster_pressure",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V2_LONG100_REVIEWED",
+    "strategy_name": "8V2_L38_V09_cluster_pressure",
+    "side": "long",
+    "description": "ladder_release cluster_pressure",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 13185,
+    "wins": 4299,
+    "losses": 8886,
+    "win_rate_pct": 32.605233219567694,
+    "final_return_pct": -12.418381722276406,
+    "max_return_pct": 0.0,
+    "max_drawdown_pct": 15.892395013664695,
+    "cd_value": 73.6628015416678,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

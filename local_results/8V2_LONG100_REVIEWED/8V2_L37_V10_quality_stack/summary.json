@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V2_LONG100_REVIEWED",
+  "strategy_name": "8V2_L37_V10_quality_stack",
+  "side": "long",
+  "description": "volcrush_pop quality_stack",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 14,
+  "wins": 4,
+  "losses": 10,
+  "win_rate_pct": 28.57142857142857,
+  "final_return_pct": -0.02418861428108432,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 0.15005723227770051,
+  "cd_value": 99.82579045020633,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}
