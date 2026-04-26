@@ -88,7 +88,15 @@ status: archive_reference_only
 - MDD<5 최고: 7V4_L09_V02_beartrap_extreme_synergy | final_return_pct 15.8330 | max_return_pct 16.0180 | max_drawdown_pct 2.5330 | cd_value 112.8990 | trades 730
 - 다음: 7V4_L07_V02_wick_drive_reclaim | final_return_pct 15.6410 | max_return_pct 16.0068 | max_drawdown_pct 3.2136 | cd_value 111.9247 | trades 1443
 해석은 명확하다. L09 family 안에는 이미 기준선보다 높은 cd를 가진 개선 후보가 존재한다. 다만 MDD를 충분히 낮추지 못해 아직 공식 승격은 아니다.
-따라서 다음 우선순위는 L09 family를 가장 먼저 다듬고, L07 family를 보조 축으로 유지하는 것이다.
+
+8V1_LONG50_REVIEWED에서도 공식 기준선 교체는 없었다.
+- 배치 최고: 8V1_L25_V01_washout_squeeze_release | final_return_pct 1.2567 | max_return_pct 1.2888 | max_drawdown_pct 0.1903 | cd_value 101.0640 | trades 54
+- 다음: 8V1_L25_V08_squeeze_shockage_window | final_return_pct 0.9310 | max_return_pct 0.9310 | max_drawdown_pct 0.4424 | cd_value 100.4845 | trades 222
+- best non-squeeze but still weak: 8V1_L22_V06_inside_lowanchor_pop | final_return_pct 1.7901 | max_return_pct 3.2382 | max_drawdown_pct 1.7176 | cd_value 100.0417 | trades 3372
+- 8V1의 새로운 family들(L21 shock_absorb, L22 inside, L23 microbase, L24 holdpop, L25 squeeze)은 이전 L09/L07 family와 달리 raw upside 자체가 거의 없었다.
+- 특히 L24 holdpop family는 trades 5만~19만 회대로 폭증하며 MDD 44~87% 구간으로 붕괴해 현재 형태로는 폐기 대상이다.
+- L25 squeeze family는 MDD는 낮았지만 수익과 max_return_pct가 지나치게 얕아 long 기준선 도전력은 거의 없었다.
+따라서 다음 우선순위는 다시 L09 family를 가장 먼저 다듬고, L07 family를 보조 축으로 유지하는 것이다. 8V1 family들은 주력 신규 family로 승격하지 않는다.
 
 6. 현재 우선순위
 1) L09 beartrap family
