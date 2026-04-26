@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L24_V09_holdpop_cluster_decay",
+  "side": "long",
+  "description": "holdpop cluster decay",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 52660,
+  "wins": 15611,
+  "losses": 37049,
+  "win_rate_pct": 29.644891758450438,
+  "final_return_pct": -44.19848700256863,
+  "max_return_pct": 0.0011556330050455088,
+  "max_drawdown_pct": 44.19913185581801,
+  "cd_value": 31.137728690155253,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

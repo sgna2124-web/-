@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L24_V08_holdpop_shockage_window",
+  "side": "long",
+  "description": "holdpop shockage window",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1796,
+  "wins": 610,
+  "losses": 1186,
+  "win_rate_pct": 33.96436525612472,
+  "final_return_pct": -3.747172017178768,
+  "max_return_pct": 0.3430910911244478,
+  "max_drawdown_pct": 5.301398123278789,
+  "cd_value": 91.15008236653719,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

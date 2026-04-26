@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L24_V06_holdpop_lowanchor_hold",
+  "side": "long",
+  "description": "holdpop lowanchor hold",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 102964,
+  "wins": 30032,
+  "losses": 72932,
+  "win_rate_pct": 29.167476011032985,
+  "final_return_pct": -66.77810876034354,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 66.92980169140938,
+  "cd_value": 10.986545314818681,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

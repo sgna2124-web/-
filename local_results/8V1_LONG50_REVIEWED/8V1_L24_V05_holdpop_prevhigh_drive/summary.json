@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L24_V05_holdpop_prevhigh_drive",
+  "side": "long",
+  "description": "holdpop prevhigh drive",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 113392,
+  "wins": 33599,
+  "losses": 79793,
+  "win_rate_pct": 29.63083815436715,
+  "final_return_pct": -65.9138711336407,
+  "max_return_pct": 0.24852744273806682,
+  "max_drawdown_pct": 66.67099184390467,
+  "cd_value": 11.360568669966055,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

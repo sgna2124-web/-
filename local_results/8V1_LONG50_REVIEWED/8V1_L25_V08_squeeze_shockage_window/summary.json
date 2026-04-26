@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L25_V08_squeeze_shockage_window",
+  "side": "long",
+  "description": "squeeze shockage window",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 222,
+  "wins": 83,
+  "losses": 139,
+  "win_rate_pct": 37.38738738738739,
+  "final_return_pct": 0.9310233973239157,
+  "max_return_pct": 0.9310233973239157,
+  "max_drawdown_pct": 0.44242153264172357,
+  "cd_value": 100.4844828166985,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

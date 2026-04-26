@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L22_V06_inside_lowanchor_pop",
+  "side": "long",
+  "description": "inside lowanchor pop",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3372,
+  "wins": 1200,
+  "losses": 2172,
+  "win_rate_pct": 35.587188612099645,
+  "final_return_pct": 1.7901185261856911,
+  "max_return_pct": 3.2381822089502466,
+  "max_drawdown_pct": 1.7176224062144585,
+  "cd_value": 100.04174864306766,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

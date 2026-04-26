@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L21_V05_absorb_prevhigh_punch",
+  "side": "long",
+  "description": "absorb prevhigh punch",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 14970,
+  "wins": 5058,
+  "losses": 9912,
+  "win_rate_pct": 33.787575150300604,
+  "final_return_pct": -8.686634979148355,
+  "max_return_pct": 0.9654327368936899,
+  "max_drawdown_pct": 12.972346928620649,
+  "cd_value": 79.46787851814904,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

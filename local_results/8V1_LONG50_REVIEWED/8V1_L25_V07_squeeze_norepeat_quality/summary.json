@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L25_V07_squeeze_norepeat_quality",
+  "side": "long",
+  "description": "squeeze norepeat quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1034,
+  "wins": 341,
+  "losses": 693,
+  "win_rate_pct": 32.97872340425532,
+  "final_return_pct": -0.3896921049302615,
+  "max_return_pct": 0.4458220046692274,
+  "max_drawdown_pct": 1.4073806393352983,
+  "cd_value": 98.20841170697224,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

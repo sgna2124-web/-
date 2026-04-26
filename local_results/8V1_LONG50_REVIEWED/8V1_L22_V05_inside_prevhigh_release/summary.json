@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L22_V05_inside_prevhigh_release",
+  "side": "long",
+  "description": "inside prevhigh release",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 10576,
+  "wins": 3638,
+  "losses": 6938,
+  "win_rate_pct": 34.39863842662632,
+  "final_return_pct": -4.446609743309649,
+  "max_return_pct": 10.896755467031216,
+  "max_drawdown_pct": 19.419121999210944,
+  "cd_value": 76.9977608283615,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

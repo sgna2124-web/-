@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L21_V03_absorb_after_pause",
+  "side": "long",
+  "description": "absorb after pause",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 870,
+  "wins": 282,
+  "losses": 588,
+  "win_rate_pct": 32.41379310344827,
+  "final_return_pct": -1.4010885470173928,
+  "max_return_pct": 0.2283261709896678,
+  "max_drawdown_pct": 2.2215044701066056,
+  "cd_value": 96.40853222757814,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

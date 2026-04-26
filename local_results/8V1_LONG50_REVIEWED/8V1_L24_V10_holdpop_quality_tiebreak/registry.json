@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L24_V10_holdpop_quality_tiebreak",
+  "side": "long",
+  "description": "holdpop quality tiebreak",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V1_LONG50_REVIEWED",
+    "strategy_name": "8V1_L24_V10_holdpop_quality_tiebreak",
+    "side": "long",
+    "description": "holdpop quality tiebreak",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 180810,
+    "wins": 53085,
+    "losses": 127725,
+    "win_rate_pct": 29.359548697527792,
+    "final_return_pct": -86.00000989731046,
+    "max_return_pct": 0.0,
+    "max_drawdown_pct": 86.0643389155741,
+    "cd_value": 1.950991172563984,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L23_V07_microbase_norepeat_quality",
+  "side": "long",
+  "description": "microbase norepeat quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 5418,
+  "wins": 1662,
+  "losses": 3756,
+  "win_rate_pct": 30.67552602436323,
+  "final_return_pct": -6.640834972713183,
+  "max_return_pct": 0.8954673837784366,
+  "max_drawdown_pct": 7.469416170922338,
+  "cd_value": 86.38578045770058,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

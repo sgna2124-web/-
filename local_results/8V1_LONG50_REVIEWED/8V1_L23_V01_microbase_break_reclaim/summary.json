@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L23_V01_microbase_break_reclaim",
+  "side": "long",
+  "description": "microbase break reclaim",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3020,
+  "wins": 1018,
+  "losses": 2002,
+  "win_rate_pct": 33.70860927152318,
+  "final_return_pct": -3.949711465074046,
+  "max_return_pct": 0.11927221320036097,
+  "max_drawdown_pct": 4.286764529005838,
+  "cd_value": 91.93283883600299,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L21_V07_absorb_norepeat_quality",
+  "side": "long",
+  "description": "absorb norepeat quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 17100,
+  "wins": 5592,
+  "losses": 11508,
+  "win_rate_pct": 32.70175438596491,
+  "final_return_pct": -10.459933043480662,
+  "max_return_pct": 0.3711996817562291,
+  "max_drawdown_pct": 12.553831348077516,
+  "cd_value": 78.29935796184222,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

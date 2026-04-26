@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L21_V08_absorb_shockage_bridge",
+  "side": "long",
+  "description": "absorb shockage bridge",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 9286,
+  "wins": 3066,
+  "losses": 6220,
+  "win_rate_pct": 33.01744561705794,
+  "final_return_pct": -9.81175223189361,
+  "max_return_pct": 0.057218480085108325,
+  "max_drawdown_pct": 12.663438852968623,
+  "cd_value": 78.7673141594284,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

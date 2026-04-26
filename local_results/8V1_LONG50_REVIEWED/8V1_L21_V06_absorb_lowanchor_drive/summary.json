@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L21_V06_absorb_lowanchor_drive",
+  "side": "long",
+  "description": "absorb lowanchor drive",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 7732,
+  "wins": 2713,
+  "losses": 5019,
+  "win_rate_pct": 35.087946197620276,
+  "final_return_pct": 0.29989329101658413,
+  "max_return_pct": 2.143768861758666,
+  "max_drawdown_pct": 3.412348790348829,
+  "cd_value": 96.87731109557942,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

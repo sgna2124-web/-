@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L25_V09_squeeze_cluster_decay",
+  "side": "long",
+  "description": "squeeze cluster decay",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3626,
+  "wins": 1160,
+  "losses": 2466,
+  "win_rate_pct": 31.991174848317705,
+  "final_return_pct": -7.14965662489202,
+  "max_return_pct": 0.03529231921075571,
+  "max_drawdown_pct": 8.699172156331725,
+  "cd_value": 84.77313215716218,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L24_V07_holdpop_norepeat_quality",
+  "side": "long",
+  "description": "holdpop norepeat quality",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 199537,
+  "wins": 59523,
+  "losses": 140014,
+  "win_rate_pct": 29.83055774117081,
+  "final_return_pct": -87.37635471277568,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 87.42952556257968,
+  "cd_value": 1.5868521039011476,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

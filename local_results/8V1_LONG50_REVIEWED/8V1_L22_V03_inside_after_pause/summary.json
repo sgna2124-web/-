@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L22_V03_inside_after_pause",
+  "side": "long",
+  "description": "inside after pause",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 343,
+  "wins": 128,
+  "losses": 215,
+  "win_rate_pct": 37.31778425655977,
+  "final_return_pct": 0.18455164477018116,
+  "max_return_pct": 0.22854076215323982,
+  "max_drawdown_pct": 1.014138170567891,
+  "cd_value": 99.16854186552827,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

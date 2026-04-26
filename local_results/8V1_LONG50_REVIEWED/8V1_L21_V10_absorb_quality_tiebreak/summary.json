@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L21_V10_absorb_quality_tiebreak",
+  "side": "long",
+  "description": "absorb quality tiebreak",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2198,
+  "wins": 768,
+  "losses": 1430,
+  "win_rate_pct": 34.940855323020934,
+  "final_return_pct": 0.3331072192007678,
+  "max_return_pct": 1.0952445047605508,
+  "max_drawdown_pct": 2.370335838145088,
+  "cd_value": 97.95487562125952,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

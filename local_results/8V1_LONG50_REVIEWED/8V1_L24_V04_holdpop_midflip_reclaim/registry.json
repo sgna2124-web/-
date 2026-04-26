@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L24_V04_holdpop_midflip_reclaim",
+  "side": "long",
+  "description": "holdpop midflip reclaim",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V1_LONG50_REVIEWED",
+    "strategy_name": "8V1_L24_V04_holdpop_midflip_reclaim",
+    "side": "long",
+    "description": "holdpop midflip reclaim",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 55641,
+    "wins": 16230,
+    "losses": 39411,
+    "win_rate_pct": 29.169137865962153,
+    "final_return_pct": -48.00839602764708,
+    "max_return_pct": 0.4255507810314585,
+    "max_drawdown_pct": 48.59269660661136,
+    "cd_value": 26.727481593156565,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

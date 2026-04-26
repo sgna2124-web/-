@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V1_LONG50_REVIEWED",
+  "strategy_name": "8V1_L25_V10_squeeze_quality_tiebreak",
+  "side": "long",
+  "description": "squeeze quality tiebreak",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V1_LONG50_REVIEWED",
+    "strategy_name": "8V1_L25_V10_squeeze_quality_tiebreak",
+    "side": "long",
+    "description": "squeeze quality tiebreak",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 302,
+    "wins": 95,
+    "losses": 207,
+    "win_rate_pct": 31.456953642384107,
+    "final_return_pct": -0.28732295543297814,
+    "max_return_pct": 0.0,
+    "max_drawdown_pct": 0.7620917383812875,
+    "cd_value": 98.95277497069156,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}
