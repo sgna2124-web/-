@@ -148,11 +148,35 @@ notes:
 - next candidate_cd_win_mdd_fail: 8V3_L09_V09_cluster_pressure | trades 6869 | max_return_pct 38.9188 | final_return_pct 38.1414 | max_drawdown_pct 11.3164 | cd_value 122.5087
 - next candidate_cd_win_mdd_fail: 8V3_L09_V28_refire_block | trades 6347 | max_return_pct 42.3732 | final_return_pct 41.4101 | max_drawdown_pct 14.0253 | cd_value 121.5769
 - best under MDD<5: 8V3_L09_V41_exhaustion_recover | trades 1126 | max_return_pct 19.7022 | final_return_pct 19.4175 | max_drawdown_pct 3.0952 | cd_value 115.7213
-- next under MDD<5: 8V3_L09_V01_shockfresh_quality | trades 3045 | max_return_pct 17.9117 | final_return_pct 17.7347 | max_drawdown_pct 4.3807 | cd_value 112.5770
-- best L07 under MDD<5: 8V3_L07_V28_shockwindow_rearm | trades 1315 | max_return_pct 16.8848 | final_return_pct 16.7009 | max_drawdown_pct 3.9351 | cd_value 112.1086
 - 8V3는 8V1/8V2 이후 다시 L09/L07으로 회귀하자 즉시 성과가 회복됐고, L09의 candidate_cd_win_mdd_fail 풀이 4개로 늘어났다.
-- 특히 L09_V51_microbase_pop은 MDD 6.3144까지 내려오며 기준선 이상 cd를 기록해, 현재 가장 근접한 고잠재력 후보가 되었다.
-- 공식 승격은 아니지만, 방향은 완전히 맞았다. 다음 단계는 새 family 탐색이 아니라 L09 상위 후보들의 MDD를 5% 아래로 더 끌어내리는 것이다.
+
+17. recent round note: 8V4_LONG400_REVIEWED
+side: long_only
+version_reference: 8V4_LONG400_REVIEWED
+summary_file: local_results/8V4_LONG400_REVIEWED/*/summary.json
+verdict: no_promotion_v51_became_clear_primary_core
+notes:
+- batch best candidate_cd_win_mdd_fail: 8V4_V51_V002_core_rare22_c1 | trades 2276 | max_return_pct 44.2664 | final_return_pct 43.6673 | max_drawdown_pct 6.7587 | cd_value 133.9572
+- next: 8V4_V51_V001_core_base | trades 2277 | max_return_pct 43.8091 | final_return_pct 43.2929 | max_drawdown_pct 6.7547 | cd_value 133.6139
+- best under MDD<5 overall: 8V4_V51_V022_lowanchor_rare22_c1 | trades 1040 | max_return_pct 21.5445 | final_return_pct 21.2903 | max_drawdown_pct 3.0752 | cd_value 117.5603
+- next under MDD<5: 8V4_V51_V021_lowanchor_base | trades 1040 | max_return_pct 21.1577 | final_return_pct 20.9035 | max_drawdown_pct 3.1165 | cd_value 117.1355
+- 8V4는 V51 microbase_pop 계열이 clear 최우선 코어로 부상한 라운드였다.
+- raw/cd는 이미 기준선을 크게 넘었고, 남은 핵심 과제는 V51의 MDD를 6.7대에서 5 아래로 더 내리는 것으로 정리되었다.
+
+18. recent round note: 8V5_LONG300_REVIEWED
+side: long_only
+version_reference: 8V5_LONG300_REVIEWED
+summary_file: local_results/8V5_LONG300_REVIEWED/*/summary.json
+verdict: no_promotion_v51_parameter_tuning_helped_top_mdd_but_safe_branch_slightly_weaker
+notes:
+- batch best candidate_cd_win_mdd_fail: 8V5_V51P_V002_core_rare22_c1 | trades 2277 | max_return_pct 42.1517 | final_return_pct 41.6763 | max_drawdown_pct 6.3109 | cd_value 132.7352
+- next: 8V5_V51P_V001_core_base | trades 2277 | max_return_pct 41.4900 | final_return_pct 41.0096 | max_drawdown_pct 6.2801 | cd_value 132.1541
+- best under MDD<5 overall: 8V5_V51P_V012_strict_rare22_c1 | trades 1040 | max_return_pct 19.7596 | final_return_pct 19.5333 | max_drawdown_pct 2.7359 | cd_value 116.2630
+- next under MDD<5: 8V5_V51P_V011_strict_base | trades 1040 | max_return_pct 19.4241 | final_return_pct 19.1976 | max_drawdown_pct 2.6505 | cd_value 116.0383
+- 8V5는 V51만 300개로 확장해 파라미터 조정, 장점 극대화, 단점 커버를 함께 시험한 라운드였다.
+- top candidate의 MDD는 8V4의 6.75대에서 8V5의 6.28~6.31대로 실제 개선되었다.
+- 반면 MDD<5 최고권은 8V4의 117.5603보다 약간 낮은 116.2630에 그쳤다.
+- 해석은 명확하다. 파라미터 조정은 top candidate를 더 근접하게 만들었지만, safe branch를 더 강하게 만들지는 못했다. 다음 단계는 V51 core_base/core_rare22_c1의 MDD를 5 아래로 더 내리고, strict/lowanchor의 safe branch cd를 다시 끌어올리는 것이다.
 
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
