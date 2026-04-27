@@ -7,6 +7,7 @@ FAST 예비검사는 사용하지 않음
 공식 결과는 전체 종목 풀 백테스트 기준
 조기탈락 규칙 사용 안 함
 거래 로그 파일 생성은 필수 아님
+거래 수 제한, trade cap, top N 제한은 공식 개선안의 기본 도구로 사용하지 않음
 
 결과 출력 최소 항목
 strategy_name
@@ -43,6 +44,20 @@ verdict
 family별로 비슷한 계산을 반복하지 않는다.
 entry 조건은 가능하면 boolean array 재사용 구조로 만든다.
 전략 수가 늘어날수록 "전략마다 새로 계산"하는 방식보다 "공통 계산 후 조합" 방식의 우선순위를 높인다.
+
+8V8~8V9에서 사용한 고속화 구조
+8V8, 8V9 계열의 속도 개선은 전략 논리 자체를 생략해서 빠르게 한 것이 아니라, 같은 계산을 반복하지 않도록 구조를 바꾼 것이다.
+핵심은 FeaturePack 캐시다.
+각 심볼의 OHLCV에서 필요한 지표와 파생 feature를 한 번 계산해 FeaturePack에 담고, 200개 전략은 이 feature 배열을 재조합해서 entry mask를 만든다.
+반복 루프 안에서는 DataFrame 컬럼을 계속 만들지 않고 numpy boolean array를 사용한다.
+ATR, range, body, wick, volume ratio, MA slope, rolling high/low, previous candle 계열처럼 여러 전략이 공통으로 쓰는 값은 전략별로 다시 계산하지 않는다.
+결과 저장은 master_summary.txt와 registry.csv 중심으로 제한하고, 거래별 상세 로그는 만들지 않는다.
+실패 진단은 전략명, group, parent, error 요약만 남겨 대량 IO를 피한다.
+공식 비교 출력은 현재 기준선 대비 delta, MDD 5% 미만 1위, MDD 무관 전체 1위를 한 번에 출력하도록 한다.
+이 구조 덕분에 전략 수가 늘어날수록 "전략마다 전체 지표 재계산" 방식보다 시간이 크게 줄어든다.
+주의할 점은 FeaturePack에 없는 속성을 전략 조건에서 호출하면 AttributeError가 난다는 것이다.
+8V9 fixed에서는 lower_wick_body 같은 미정의 속성을 제거하거나 기존 feature 조합으로 대체했다.
+따라서 다음 코드 생성 시에는 조건식에서 사용하는 모든 feature가 FeaturePack에 실제 정의되어 있는지 업로드 전 정적 점검해야 한다.
 
 GitHub 반영 원칙
 사용자는 로컬에서 실행 후 결과를 업로드한다.
