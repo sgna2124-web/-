@@ -89,28 +89,31 @@ status: archive_reference_only
 - 다음: 7V4_L07_V02_wick_drive_reclaim | final_return_pct 15.6410 | max_return_pct 16.0068 | max_drawdown_pct 3.2136 | cd_value 111.9247 | trades 1443
 해석은 명확하다. L09 family 안에는 이미 기준선보다 높은 cd를 가진 개선 후보가 존재한다. 다만 MDD를 충분히 낮추지 못해 아직 공식 승격은 아니다.
 
-8V1_LONG50_REVIEWED에서도 공식 기준선 교체는 없었다.
-- 배치 최고: 8V1_L25_V01_washout_squeeze_release | final_return_pct 1.2567 | max_return_pct 1.2888 | max_drawdown_pct 0.1903 | cd_value 101.0640 | trades 54
-- 다음: 8V1_L25_V08_squeeze_shockage_window | final_return_pct 0.9310 | max_return_pct 0.9310 | max_drawdown_pct 0.4424 | cd_value 100.4845 | trades 222
-- best non-squeeze but still weak: 8V1_L22_V06_inside_lowanchor_pop | final_return_pct 1.7901 | max_return_pct 3.2382 | max_drawdown_pct 1.7176 | cd_value 100.0417 | trades 3372
-- 8V1의 새로운 family들(L21 shock_absorb, L22 inside, L23 microbase, L24 holdpop, L25 squeeze)은 이전 L09/L07 family와 달리 raw upside 자체가 거의 없었다.
-- 특히 L24 holdpop family는 trades 5만~19만 회대로 폭증하며 MDD 44~87% 구간으로 붕괴해 현재 형태로는 폐기 대상이다.
-- L25 squeeze family는 MDD는 낮았지만 수익과 max_return_pct가 지나치게 얕아 long 기준선 도전력은 거의 없었다.
+8V1, 8V2에서는 완전히 새로운 family를 각각 50개, 100개씩 시도했지만 새로운 엣지를 만들지 못했다.
+- 8V1 최고: 8V1_L25_V01_washout_squeeze_release | cd_value 101.0640
+- 8V2 최고: 8V2_L31_V01_core_relaunch | cd_value 101.2929
+따라서 long 주력 개발은 다시 L09/L07 중심으로 회귀했다.
 
-8V2_LONG100_REVIEWED에서도 공식 기준선 교체는 없었다.
-- 배치 최고: 8V2_L31_V01_core_relaunch | final_return_pct 1.6503 | max_return_pct 1.7448 | max_drawdown_pct 0.3516 | cd_value 101.2929 | trades 107
-- 다음: 8V2_L31_V08_shockage_window | final_return_pct 1.6124 | max_return_pct 1.6856 | max_drawdown_pct 0.3302 | cd_value 101.2769 | trades 73
-- strongest upside but still weak: 8V2_L36_V05_prevhigh_rearm | final_return_pct 2.4436 | max_return_pct 3.0428 | max_drawdown_pct 1.9631 | cd_value 100.4325 | trades 2553
-- 8V2의 신규 family들(L31~L40)은 8V1보다 아주 약간 나아졌지만, 이전 L09/L07 reversal family와 비교할 raw upside가 전혀 없었다.
-- 특히 L32, L33, L40 축은 trades 20만~92만 회대로 폭증하며 MDD 93~99.99% 구간으로 붕괴해 broad overtrading failure로 분류한다.
-- L31 relaunch와 L36 extreme_reclaim은 방어형/보조 필터 차원에서만 제한적 참고 가치가 있다.
-따라서 다음 우선순위는 여전히 L09 family를 가장 먼저 다듬고, L07 family를 보조 축으로 유지하는 것이다. 8V1과 8V2의 신규 family들은 주력 신규 family로 승격하지 않는다.
+8V3에서는 L09/L07 회귀가 성공했다.
+- batch best candidate_cd_win_mdd_fail: 8V3_L09_V51_microbase_pop | final_return_pct 41.5097 | max_return_pct 42.0017 | max_drawdown_pct 6.3144 | cd_value 132.5742 | trades 2277
+- best under MDD<5: 8V3_L09_V41_exhaustion_recover | final_return_pct 19.4175 | max_return_pct 19.7022 | max_drawdown_pct 3.0952 | cd_value 115.7213 | trades 1126
+즉 새 family 탐색이 아니라 L09 상위 후보들의 MDD를 5% 아래로 더 끌어내리는 단계로 전환되었다.
+
+8V4에서는 이 방향이 더 강화되었다.
+- batch best candidate_cd_win_mdd_fail: 8V4_V51_V002_core_rare22_c1 | final_return_pct 43.6673 | max_return_pct 44.2664 | max_drawdown_pct 6.7587 | cd_value 133.9572 | trades 2276
+- next: 8V4_V51_V001_core_base | final_return_pct 43.2929 | max_return_pct 43.8091 | max_drawdown_pct 6.7547 | cd_value 133.6139 | trades 2277
+- next: 8V4_V51_V032_shocklow_rare22_c1 | final_return_pct 42.0892 | max_return_pct 42.6508 | max_drawdown_pct 6.7352 | cd_value 132.5192 | trades 2275
+- next: 8V4_V51_V031_shocklow_base | final_return_pct 41.7279 | max_return_pct 42.2024 | max_drawdown_pct 6.7353 | cd_value 132.1821 | trades 2276
+- best under MDD<5 overall: 8V4_V51_V022_lowanchor_rare22_c1 | final_return_pct 21.2903 | max_return_pct 21.5445 | max_drawdown_pct 3.0752 | cd_value 117.5603 | trades 1040
+- next under MDD<5: 8V4_V51_V021_lowanchor_base | final_return_pct 20.9035 | max_return_pct 21.1577 | max_drawdown_pct 3.1165 | cd_value 117.1355 | trades 1040
+해석은 명확하다. 이제 L09 내부에서도 V51 microbase_pop 계열이 최우선 코어다. raw/cd는 이미 기준선을 크게 넘었고, 공식 후보군도 117대까지 올라왔다. 남은 과제는 V51의 MDD를 6.7대에서 5 아래로 더 내리는 것이다.
 
 6. 현재 우선순위
-1) L09 beartrap family
-2) L07 wick family
-3) L10 balance family
-4) L04 engulf family
+1) V51 microbase_pop family
+2) V28 refire_block family
+3) V09 cluster/shocklow family
+4) V27 failed_break_pivot family
+5) L07 wick family
 
 7. 승격 규칙
 신규 long 전략은 1번 기준선과 비교한다.
