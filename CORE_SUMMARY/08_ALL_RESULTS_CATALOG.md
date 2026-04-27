@@ -4,17 +4,16 @@
 단, invalid_env 실험은 남기지 않는다.
 
 기록 원칙
-공식 우선순위는 MDD -> cd_value(max_return_pct 기반) -> final_return_pct 다.
+공식 우선순위는 MDD 5% 미만 통과 여부 -> official_cd_value -> max_return_pct/trades/재현성 보조 판단이다.
 max_return_pct는 반드시 기록한다.
-legacy 결과 중 max_return_pct가 없는 항목은 unknown_legacy_not_recorded로 적고, current_cd_value는 pending_recompute_under_current_formula로 표시한다.
 final_return_pct는 참고 지표다.
 거래 수가 0이거나 극단적으로 적은 전략은 cd_value 숫자가 높아 보여도 공식 승격 후보로 보지 않는다.
 
 중요 보정
-현재 프로젝트의 공식 cd_value는 max_return_pct / max_drawdown_pct다.
-기존 6V2~8V5 문서에 기록된 121.5300, 132.7352 같은 값은 과거 legacy_equity_cd_value 성격이 섞여 있을 수 있다.
-공식 ratio 비교가 필요한 경우 max_return_pct / max_drawdown_pct로 재계산한다.
-예: 6V2_L01_doubleflush_core는 23.9191 / 1.7512 = 13.6587이다.
+현재 프로젝트의 공식 cd_value는 사용자가 정의한 자산 기준 계산식으로 고정한다.
+cd_value = 100 * (1 - (abs(max_drawdown_pct) / 100)) * (1 + (max_return_pct / 100))
+max_return_pct / max_drawdown_pct 방식은 폐기된 비공식 ratio이며 앞으로 공식 cd_value로 쓰지 않는다.
+이전 문서에 남아 있는 official_ratio, current_cd_value_ratio, legacy_equity_cd_value 표기는 혼동 가능성이 있으므로 신규 판정에서는 official_cd_value 또는 cd_value만 사용한다.
 
 현재 등록 항목
 
@@ -29,10 +28,9 @@ trades: 592
 final_return_pct: 23.6961
 max_return_pct: 23.9191
 max_drawdown_pct: 1.7512
-current_cd_value_ratio: 13.6587
-legacy_equity_cd_value: 121.5300
+official_cd_value: 121.7490
 verdict: official_long_reference
-notes: 현재 long 공식 기준선. 공식 승격 비교에는 current_cd_value_ratio를 사용한다.
+notes: 현재 long 공식 기준선. 공식 승격 비교에는 official_cd_value를 사용한다.
 
 2. official short reference
 strategy_name: short_beh_dd_brake
@@ -45,7 +43,7 @@ legacy_final_return_pct: 311.5456
 legacy_mdd_pct: 4.7589
 legacy_cd_value: 391.9606
 verdict: official_short_reference
-notes: 현재 short 공식 기준선.
+notes: 현재 short 공식 기준선. legacy 결과는 max_return_pct가 없으면 current formula 재계산 전까지 참고값으로만 본다.
 
 3. archived previous long reference
 strategy_name: long_hybrid_wick_bridge_halfhalf
@@ -73,7 +71,7 @@ notes:
 verdict: long_promotion_doubleflush_core_established
 notes:
 - 6V2_L01_doubleflush_core가 long 공식 기준선으로 승격.
-- 공식 ratio: max_return_pct 23.9191 / max_drawdown_pct 1.7512 = 13.6587.
+- official_cd_value: 121.7490.
 - 6V2_L04_doubleflush_extremeclose도 강한 runner-up으로 보관.
 
 7. recent round note: 6V3_LONG10_REVIEWED
@@ -102,8 +100,8 @@ notes:
 11. recent round note: 7V2_LONG40_REVIEWED
 verdict: no_promotion_new_family_mdd_lt_5_reached_110_cd_zone
 notes:
-- L09 beartrap, L07 wick 제한형이 MDD<5에서도 cd 110대 legacy 영역 도달.
-- 공식 기준선 ratio를 넘는 MDD<5 전략은 없음.
+- L09 beartrap, L07 wick 제한형이 MDD<5에서도 110대 cd 영역 도달.
+- 공식 기준선을 넘는 MDD<5 전략은 없음.
 - 다음 우선순위는 L09 1순위, L07 2순위.
 
 12. recent round note: 7V3_LONG40_REVIEWED
@@ -164,10 +162,10 @@ version_reference: 8V4_LONG400_REVIEWED
 summary_file: local_results/8V4_LONG400_REVIEWED/*/summary.json
 verdict: no_promotion_v51_became_clear_primary_core
 notes:
-- batch best candidate_cd_win_mdd_fail: 8V4_V51_V002_core_rare22_c1 | trades 2276 | max_return_pct 44.2664 | final_return_pct 43.6673 | max_drawdown_pct 6.7587 | official_ratio 6.5481 | legacy_cd_value 133.9572
-- next: 8V4_V51_V001_core_base | trades 2277 | max_return_pct 43.8091 | final_return_pct 43.2929 | max_drawdown_pct 6.7547 | official_ratio 6.4857 | legacy_cd_value 133.6139
-- best under MDD<5 overall: 8V4_V51_V022_lowanchor_rare22_c1 | trades 1040 | max_return_pct 21.5445 | final_return_pct 21.2903 | max_drawdown_pct 3.0752 | official_ratio 7.0059 | legacy_cd_value 117.5603
-- next under MDD<5: 8V4_V51_V021_lowanchor_base | trades 1040 | max_return_pct 21.1577 | final_return_pct 20.9035 | max_drawdown_pct 3.1165 | official_ratio 6.7889 | legacy_cd_value 117.1355
+- batch best candidate_cd_win_mdd_fail: 8V4_V51_V002_core_rare22_c1 | trades 2276 | max_return_pct 44.2664 | final_return_pct 43.6673 | max_drawdown_pct 6.7587 | official_cd_value 134.5172
+- next: 8V4_V51_V001_core_base | trades 2277 | max_return_pct 43.8091 | final_return_pct 43.2929 | max_drawdown_pct 6.7547 | official_cd_value 134.0943
+- best under MDD<5 overall: 8V4_V51_V022_lowanchor_rare22_c1 | trades 1040 | max_return_pct 21.5445 | final_return_pct 21.2903 | max_drawdown_pct 3.0752 | official_cd_value 117.8075
+- next under MDD<5: 8V4_V51_V021_lowanchor_base | trades 1040 | max_return_pct 21.1577 | final_return_pct 20.9035 | max_drawdown_pct 3.1165 | official_cd_value 117.3784
 - 8V4는 V51 microbase_pop 계열이 clear 최우선 코어로 부상한 라운드였다.
 - raw/cd는 유망했지만, 남은 핵심 과제는 V51의 MDD를 6.7대에서 5 아래로 더 내리는 것으로 정리되었다.
 
@@ -177,13 +175,13 @@ version_reference: 8V5_LONG300_REVIEWED
 summary_file: local_results/8V5_LONG300_REVIEWED/*/summary.json
 verdict: no_promotion_v51_parameter_tuning_helped_top_mdd_but_safe_branch_slightly_weaker
 notes:
-- batch best candidate_cd_win_mdd_fail: 8V5_V51P_V002_core_rare22_c1 | trades 2277 | max_return_pct 42.1517 | final_return_pct 41.6763 | max_drawdown_pct 6.3109 | official_ratio 6.6792 | legacy_cd_value 132.7352
-- next: 8V5_V51P_V001_core_base | trades 2277 | max_return_pct 41.4900 | final_return_pct 41.0096 | max_drawdown_pct 6.2801 | official_ratio 6.6066 | legacy_cd_value 132.1541
-- best under MDD<5 overall: 8V5_V51P_V012_strict_rare22_c1 | trades 1040 | max_return_pct 19.7596 | final_return_pct 19.5333 | max_drawdown_pct 2.7359 | official_ratio 7.2223 | legacy_cd_value 116.2630
-- next under MDD<5: 8V5_V51P_V011_strict_base | trades 1040 | max_return_pct 19.4241 | final_return_pct 19.1976 | max_drawdown_pct 2.6505 | official_ratio 7.3285 | legacy_cd_value 116.0383
+- batch best candidate_cd_win_mdd_fail: 8V5_V51P_V002_core_rare22_c1 | trades 2277 | max_return_pct 42.1517 | final_return_pct 41.6763 | max_drawdown_pct 6.3109 | official_cd_value 133.1863
+- next: 8V5_V51P_V001_core_base | trades 2277 | max_return_pct 41.4900 | final_return_pct 41.0096 | max_drawdown_pct 6.2801 | official_cd_value 132.6036
+- best under MDD<5 overall: 8V5_V51P_V012_strict_rare22_c1 | trades 1040 | max_return_pct 19.7596 | final_return_pct 19.5333 | max_drawdown_pct 2.7359 | official_cd_value 116.4858
+- next under MDD<5: 8V5_V51P_V011_strict_base | trades 1040 | max_return_pct 19.4241 | final_return_pct 19.1976 | max_drawdown_pct 2.6505 | official_cd_value 116.2587
 - 8V5는 V51만 300개로 확장해 파라미터 조정, 장점 극대화, 단점 커버를 함께 시험한 라운드였다.
 - top candidate의 MDD는 8V4의 6.75대에서 8V5의 6.28~6.31대로 실제 개선되었다.
-- 반면 MDD<5 최고권은 8V4의 legacy 117.5603보다 약간 낮은 legacy 116.2630에 그쳤다.
+- 반면 MDD<5 최고권은 8V4의 official_cd_value 117.8075보다 낮은 116.4858에 그쳤다.
 - 해석은 명확하다. 파라미터 조정은 top candidate를 더 근접하게 만들었지만, safe branch를 더 강하게 만들지는 못했다.
 
 19. recent round note: 8V6_TOP3_300_FROM_8V5_WINDOWS_SAFE_V3
@@ -194,10 +192,11 @@ registry_file: local_results/8V6_TOP3_300_FROM_8V5_WINDOWS_SAFE_V3/8V6_TOP3_300_
 verdict: no_promotion_mdd_compressed_but_edge_overfiltered
 notes:
 - failed_symbols: 0
-- batch best official_ratio: 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V001_core_base | trades 652 | max_return_pct 5.2510 | final_return_pct 3.0599 | max_drawdown_pct 2.1312 | cd_value 2.4639 | legacy_equity_cd_value 100.8636
-- next: 8V6_P2_CORE_BASE_I050_mdd_compress_mdd15 | parent 8V5_V51P_V001_core_base | trades 501 | max_return_pct 3.7822 | final_return_pct 2.2944 | max_drawdown_pct 1.5658 | cd_value 2.4155 | legacy_equity_cd_value 100.6927
-- next: 8V6_P3_SHOCKLOW_RARE22_C1_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V032_shocklow_rare22_c1 | trades 666 | max_return_pct 5.1129 | final_return_pct 2.7986 | max_drawdown_pct 2.2018 | cd_value 2.3222 | legacy_equity_cd_value 100.5352
-- next: 8V6_P1_CORE_RARE22_C1_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V002_core_rare22_c1 | trades 668 | max_return_pct 4.9854 | final_return_pct 2.6855 | max_drawdown_pct 2.1985 | cd_value 2.2677 | legacy_equity_cd_value 100.4280
+- baseline_candidate_under_mdd5: 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V001_core_base | trades 652 | max_return_pct 5.2510 | final_return_pct 3.0599 | max_drawdown_pct 2.1312 | official_cd_value 103.0070
+- raw_cd_candidate_any_mdd: same_as_baseline_candidate_under_mdd5
+- next: 8V6_P2_CORE_BASE_I050_mdd_compress_mdd15 | parent 8V5_V51P_V001_core_base | trades 501 | max_return_pct 3.7822 | final_return_pct 2.2944 | max_drawdown_pct 1.5658 | official_cd_value 102.1572
+- next: 8V6_P3_SHOCKLOW_RARE22_C1_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V032_shocklow_rare22_c1 | trades 666 | max_return_pct 5.1129 | final_return_pct 2.7986 | max_drawdown_pct 2.2018 | official_cd_value 102.7978
+- next: 8V6_P1_CORE_RARE22_C1_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V002_core_rare22_c1 | trades 668 | max_return_pct 4.9854 | final_return_pct 2.6855 | max_drawdown_pct 2.1985 | official_cd_value 102.6784
 - 8V6는 MDD 5 미만을 다수 만들었으나, max_return_pct가 8V5의 41~42%대에서 3~5%대로 급감했다.
 - 핵심 해석: V51 문제를 진입 희소화와 강한 전단 필터로 해결하려 하면 MDD보다 edge가 먼저 죽는다.
 - 다음 단계: core_base/core_rare22_c1의 진입 밀도를 최대한 유지하면서 사후 브레이크, 손실 군집 회피, exit/hold/stop 재조정으로 MDD를 낮춰야 한다.
@@ -210,14 +209,33 @@ registry_file: local_results/8V7_AB_BEST_200_FROM_8V6_CANDIDATE/8V7_AB_BEST_200_
 verdict: no_promotion_more_mdd_compression_but_edge_destroyed
 notes:
 - failed_symbols: 0
-- baseline_candidate_under_mdd5: 8V7_AB_BEST_I070_post_loss_brake_plb20 | parent 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group post_loss_brake | trades 93 | win_rate_pct 60.2151 | final_return_pct 1.1655 | max_return_pct 1.3290 | max_drawdown_pct 0.2122 | cd_value 6.261968 | legacy_cd 100.9508
+- baseline_candidate_under_mdd5: 8V7_AB_BEST_I070_post_loss_brake_plb20 | parent 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group post_loss_brake | trades 93 | win_rate_pct 60.2151 | final_return_pct 1.1655 | max_return_pct 1.3290 | max_drawdown_pct 0.2122 | official_cd_value 101.1140
 - raw_cd_candidate_any_mdd: same_as_baseline_candidate_under_mdd5
 - candidate_cd_win_mdd_fail: none
-- next: 8V7_AB_BEST_I068_post_loss_brake_plb18 | trades 104 | max_return_pct 1.2213 | max_drawdown_pct 0.2154 | cd_value 5.669132
-- next: 8V7_AB_BEST_I193_soft_safe_mix_ssm13 | trades 96 | max_return_pct 0.9030 | max_drawdown_pct 0.1729 | cd_value 5.222699
+- next: 8V7_AB_BEST_I068_post_loss_brake_plb18 | trades 104 | max_return_pct 1.2213 | max_drawdown_pct 0.2154 | official_cd_value 101.0033
+- next: 8V7_AB_BEST_I193_soft_safe_mix_ssm13 | trades 96 | max_return_pct 0.9030 | max_drawdown_pct 0.1729 | official_cd_value 100.7285
 - 8V7은 MDD를 0.15~0.42% 수준까지 더 낮추었지만, max_return_pct가 0.7~1.8% 수준으로 붕괴했다.
 - post_loss_brake와 soft_safe_mix는 손실 군집 차단 도구로 유효하지만, 이미 희소화된 8V6 후보 위에 얹으면 edge가 완전히 죽는다.
 - 다음 단계는 8V7 top 전략을 부모로 삼지 않고, 8V5 core_base/core_rare22_c1로 되돌아가 post_loss_brake를 가벼운 부분 브레이크로만 이식하는 것이다.
+
+21. recent round note: 8V8_LONG_DUAL_BEST_200_UNTRIED
+side: long_only
+version_reference: 8V8_LONG_DUAL_BEST_200_UNTRIED
+summary_file: local_results/8V8_LONG_DUAL_BEST_200_UNTRIED/master_summary.txt
+registry_file: local_results/8V8_LONG_DUAL_BEST_200_UNTRIED/8V8_LONG_DUAL_BEST_200_UNTRIED_registry.csv
+verdict: no_promotion_mdd_pass_but_edge_still_too_low
+notes:
+- failed_symbols: 0
+- baseline_candidate_under_mdd5: 8V8_RAWV51_I080_raw_official_conversion_r080 | parent 8V4_V51_V002_core_rare22_c1 | group raw_official_conversion | trades 1027 | win_rate_pct 52.6777 | final_return_pct 6.0489 | max_return_pct 9.6311 | max_drawdown_pct 3.5251 | official_cd_value 105.766560
+- raw_cd_candidate_any_mdd: same_as_baseline_candidate_under_mdd5
+- candidate_cd_win_mdd_fail: none
+- next: 8V8_RAWV51_I090_raw_official_conversion_r090 | trades 584 | max_return_pct 7.7293 | max_drawdown_pct 2.5052 | official_cd_value 105.030527
+- next: 8V8_SAFE6V2_I040_safe_dd_brake_s040 | trades 1110 | max_return_pct 6.4903 | max_drawdown_pct 2.3197 | official_cd_value 104.020008
+- next: 8V8_RAWV51_I100_raw_official_conversion_r100 | trades 675 | max_return_pct 6.5341 | max_drawdown_pct 2.7078 | official_cd_value 103.649405
+- next: 8V8_RAWV51_I004_raw_cluster_cover_r004 | trades 1324 | max_return_pct 7.1702 | max_drawdown_pct 3.3138 | official_cd_value 103.618780
+- 8V8은 raw_official_conversion으로 V51 raw 후보를 MDD 5% 미만으로 변환하는 데는 성공했지만, max_return_pct가 9.6311까지 낮아져 기준선 121.7490을 넘지 못했다.
+- 8V8 top은 8V6/8V7보다 trade density 보존은 낫지만, 8V5 raw의 41~42%대 max_return_pct와 비교하면 edge 손실이 여전히 크다.
+- 다음 단계는 8V8 top을 직접 부모로 삼기보다 V51 core_base/core_rare22_c1에 raw_official_conversion의 일부 로직만 약하게 이식하는 것이다.
 
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.

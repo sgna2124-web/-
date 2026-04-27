@@ -5,8 +5,8 @@
 3. 그 다음 CORE_SUMMARY/06_LOCAL_BACKTEST_AND_GITHUB_POLICY.md 를 읽어 현재 백테스트 고정 환경을 확인한다.
 4. 그 다음 CORE_SUMMARY/08_ALL_RESULTS_CATALOG.md 를 읽어 현재 유효 결과만 파악한다.
 5. CORE_SUMMARY/12_STRATEGY_STRENGTHS_WEAKNESSES.md 를 읽어 최근 전략군의 구조적 장단점을 파악한다.
-6. 최신 addendum인 CORE_SUMMARY/24_8V4_LONG400_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/25_8V5_LONG300_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/26_8V6_TOP3_300_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/29_8V7_AB_BEST_200_STRENGTHS_WEAKNESSES_ADDENDUM.md 를 읽는다.
-7. CORE_SUMMARY/27_NEXT_STEP_AFTER_8V6.md 를 읽되, 8V7 결과 때문에 다음 지시는 29번 addendum의 최신 결론을 우선한다.
+6. 최신 addendum인 CORE_SUMMARY/24_8V4_LONG400_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/25_8V5_LONG300_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/26_8V6_TOP3_300_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/29_8V7_AB_BEST_200_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/30_8V8_LONG_DUAL_BEST_200_UNTRIED_ADDENDUM.md 를 읽는다.
+7. CORE_SUMMARY/27_NEXT_STEP_AFTER_8V6.md 는 과거 참고로만 읽고, 최신 판단은 30번 addendum을 우선한다.
 8. CORE_SUMMARY/28_BASELINE_AND_IMPROVEMENT_CANDIDATE_RULES.md 를 읽고 기준선 및 개선 후보 선정 규칙을 확인한다.
 9. 이후 사용자 요청에 맞춰 전략 설계, 결과 해석, 문서 갱신을 진행한다.
 
@@ -95,6 +95,10 @@ official_cd_value는 121.7490이다.
 - 8V7 best: 8V7_AB_BEST_I070_post_loss_brake_plb20 | max_return_pct 1.3290 | max_drawdown_pct 0.2122 | official_cd_value 101.1140 | trades 93
 8V7의 후보 A와 후보 B는 모두 8V7_AB_BEST_I070_post_loss_brake_plb20 이다.
 8V7의 핵심 학습은 post_loss_brake와 soft_safe_mix가 MDD 압축 도구로는 유효하지만, 이미 희소화된 8V6 후보 위에 얹으면 edge가 완전히 죽는다는 점이다.
+8V8은 저장소 내 long 전략 중 MDD 5% 미만 cd 1위와 MDD 무관 cd 1위를 각각 100개씩 개선했으나 no_promotion이다.
+- 8V8 best: 8V8_RAWV51_I080_raw_official_conversion_r080 | parent 8V4_V51_V002_core_rare22_c1 | max_return_pct 9.6311 | max_drawdown_pct 3.5251 | official_cd_value 105.766560 | trades 1027
+8V8의 후보 A와 후보 B는 모두 8V8_RAWV51_I080_raw_official_conversion_r080 이다.
+8V8의 핵심 학습은 V51 raw를 MDD 5% 미만으로 변환하는 것은 가능하지만, hard conversion은 max_return_pct를 10% 미만으로 낮춰 기준선 초과 가능성을 죽인다는 점이다.
 
 다음 우선순위
 1. V51 core_base / core_rare22_c1의 edge 보존형 MDD 압축
@@ -108,13 +112,14 @@ official_cd_value는 121.7490이다.
 
 다음 전략 설계 방향
 새로운 family 탐색보다 V51 심화가 우선이다.
-8V7 top 전략을 직접 부모로 쓰지 않는다.
-목표는 8V5 V51 core_base/core_rare22_c1의 trades를 1500~2300 구간으로 최대한 유지하면서 MDD를 6.28~6.31에서 4.9대로 낮추는 것이다.
+8V7 top 전략이나 8V8 top 전략을 직접 부모로 쓰지 않는다.
+목표는 8V5 V51 core_base/core_rare22_c1의 trades를 최소 1500 이상, 가능하면 2000 내외로 최대한 유지하면서 MDD를 6.28~6.31에서 4.9대로 낮추는 것이다.
 8V6처럼 500~700 trades까지 잘라내거나 8V7처럼 100 trades 안팎으로 잘라내는 방식은 피한다.
+8V8처럼 1000 trades 수준까지는 버틸 수 있으나 max_return_pct가 10% 아래로 내려가는 hard conversion은 피한다.
 전단 entry filter보다 사후 drawdown brake, 손실 군집 회피, 변동성 폭발 직후 일시 회피, exit/hold/stop 재조정을 우선한다.
 strict/lowanchor는 safe branch 핵심 축이지만 전면 필터가 아니라 부분 브레이크로 사용하는 것이 우선이다.
 shocklow는 단독 부모가 아니라 위험 구간 보조 커버로 사용한다.
-post_loss_brake와 soft_safe_mix는 8V7에서 유효성이 확인됐지만 hard filter가 아니라 부분 모듈로만 이식한다.
+post_loss_brake, soft_safe_mix, raw_official_conversion은 유효성이 확인됐지만 hard filter가 아니라 부분 모듈로만 이식한다.
 
 환경 오류 발생 시 처리
 환경 오류가 확인되면 그 실험군은 invalid_env로 처리한다.
