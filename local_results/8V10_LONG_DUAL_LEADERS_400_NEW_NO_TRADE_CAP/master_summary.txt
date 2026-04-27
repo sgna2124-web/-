@@ -1,0 +1,43 @@
+batch=8V10_LONG_DUAL_LEADERS_400_NEW_NO_TRADE_CAP
+cd_value_formula=100 * (1 - abs(max_drawdown_pct)/100) * (1 + max_return_pct/100)
+official_promotion=max_drawdown_pct < 5.0
+strategies=400
+failed_symbols=0
+
+REFERENCE COMPARISON
+mdd5_reference=8V9_RAWV51_I013_entry_timing_window_r013 | cd=105.640342 | mdd=4.3852 | max=10.4863
+any_cd_reference=8V9_RAWV51_I013_entry_timing_window_r013 | cd=105.640342 | mdd=4.3852 | max=10.4863
+top_mdd5_candidate=8V10_B_ANYCD_I013_I376_b_rescue_mix_b176 | cd=115.524476 | delta_vs_mdd5_ref=9.884134 | mdd=4.4791 | max=20.9416
+top_any_candidate=8V10_B_ANYCD_I013_I302_b_trend_runner_b102 | cd=119.175585 | delta_vs_any_ref=13.535243 | mdd=5.6679 | max=26.3362
+
+TOP 30
+01. 8V10_B_ANYCD_I013_I376_b_rescue_mix_b176 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_rescue_mix | verdict=official_mdd_pass | trades=1714 | win=38.7981 | final=15.7815 | max=20.9416 | mdd=4.4791 | cd=115.524476 | old_ratio_cd=4.6754
+02. 8V10_B_ANYCD_I013_I358_b_fast_reentry_b158 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_fast_reentry | verdict=official_mdd_pass | trades=1343 | win=35.5920 | final=13.4313 | max=18.3024 | mdd=4.1175 | cd=113.431276 | old_ratio_cd=4.4450
+03. 8V10_B_ANYCD_I013_I386_b_rescue_mix_b186 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_rescue_mix | verdict=official_mdd_pass | trades=2302 | win=29.8002 | final=12.1793 | max=17.8946 | mdd=4.8479 | cd=112.179257 | old_ratio_cd=3.6912
+04. 8V10_B_ANYCD_I013_I353_b_fast_reentry_b153 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_fast_reentry | verdict=official_mdd_pass | trades=874 | win=45.0801 | final=10.9846 | max=16.2818 | mdd=4.6353 | cd=110.891868 | old_ratio_cd=3.5126
+05. 8V10_B_ANYCD_I013_I238_b_deep_sweep_b038 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_deep_sweep | verdict=official_mdd_pass | trades=545 | win=42.2018 | final=10.8450 | max=13.3418 | mdd=2.2470 | cd=110.794953 | old_ratio_cd=5.9375
+06. 8V10_B_ANYCD_I013_I232_b_deep_sweep_b032 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_deep_sweep | verdict=official_mdd_pass | trades=1596 | win=35.4010 | final=9.7332 | max=13.9492 | mdd=3.6998 | cd=109.733250 | old_ratio_cd=3.7702
+07. 8V10_B_ANYCD_I013_I266_b_volshock_b066 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_volshock | verdict=official_mdd_pass | trades=1033 | win=41.0455 | final=9.4758 | max=13.5275 | mdd=4.2042 | cd=108.754528 | old_ratio_cd=3.2176
+08. 8V10_B_ANYCD_I013_I270_b_volshock_b070 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_volshock | verdict=official_mdd_pass | trades=850 | win=43.2941 | final=10.0831 | max=13.2258 | mdd=4.5644 | cd=108.057753 | old_ratio_cd=2.8976
+09. 8V10_B_ANYCD_I013_I214_b_expansion_b014 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_expansion | verdict=official_mdd_pass | trades=1235 | win=31.5789 | final=7.3242 | max=11.3333 | mdd=3.6010 | cd=107.324176 | old_ratio_cd=3.1473
+10. 8V10_B_ANYCD_I013_I233_b_deep_sweep_b033 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_deep_sweep | verdict=official_mdd_pass | trades=548 | win=47.8102 | final=6.3499 | max=10.0412 | mdd=3.3632 | cd=106.340348 | old_ratio_cd=2.9856
+11. 8V10_B_ANYCD_I013_I256_b_volshock_b056 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_volshock | verdict=official_mdd_pass | trades=1097 | win=37.4658 | final=6.0664 | max=11.0112 | mdd=4.4543 | cd=106.066414 | old_ratio_cd=2.4720
+12. 8V10_B_ANYCD_I013_I242_b_deep_sweep_b042 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_deep_sweep | verdict=official_mdd_pass | trades=2179 | win=27.9945 | final=5.6184 | max=11.0127 | mdd=4.8592 | cd=105.618406 | old_ratio_cd=2.2664
+13. 8V10_B_ANYCD_I013_I220_b_expansion_b020 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_expansion | verdict=official_mdd_pass | trades=1076 | win=34.1078 | final=5.4213 | max=9.4831 | mdd=3.7100 | cd=105.421318 | old_ratio_cd=2.5561
+14. 8V10_B_ANYCD_I013_I209_b_expansion_b009 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_expansion | verdict=official_mdd_pass | trades=779 | win=40.6932 | final=5.2295 | max=9.9004 | mdd=4.3646 | cd=105.103764 | old_ratio_cd=2.2684
+15. 8V10_B_ANYCD_I013_I372_b_fast_reentry_b172 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_fast_reentry | verdict=official_mdd_pass | trades=543 | win=36.4641 | final=4.8689 | max=7.9670 | mdd=3.3298 | cd=104.371967 | old_ratio_cd=2.3927
+16. 8V10_B_ANYCD_I013_I400_b_rescue_mix_b200 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_rescue_mix | verdict=official_mdd_pass | trades=2171 | win=19.9908 | final=5.9816 | max=8.9678 | mdd=4.2786 | cd=104.305491 | old_ratio_cd=2.0960
+17. 8V10_B_ANYCD_I013_I396_b_rescue_mix_b196 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_rescue_mix | verdict=official_mdd_pass | trades=435 | win=38.6207 | final=4.1724 | max=9.1765 | mdd=4.5835 | cd=104.172424 | old_ratio_cd=2.0021
+18. 8V10_B_ANYCD_I013_I340_b_wide_rr_b140 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_wide_rr | verdict=official_mdd_pass | trades=1055 | win=35.7346 | final=4.0579 | max=6.7811 | mdd=2.5768 | cd=104.029477 | old_ratio_cd=2.6315
+19. 8V10_B_ANYCD_I013_I348_b_wide_rr_b148 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_wide_rr | verdict=official_mdd_pass | trades=989 | win=28.6148 | final=4.4544 | max=7.5223 | mdd=3.4365 | cd=103.827293 | old_ratio_cd=2.1889
+20. 8V10_B_ANYCD_I013_I330_b_wide_rr_b130 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_wide_rr | verdict=official_mdd_pass | trades=405 | win=48.1481 | final=3.7049 | max=6.5025 | mdd=2.6722 | cd=103.656530 | old_ratio_cd=2.4334
+21. 8V10_B_ANYCD_I013_I308_b_trend_runner_b108 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_trend_runner | verdict=official_mdd_pass | trades=183 | win=42.6230 | final=3.0306 | max=3.3504 | mdd=0.3953 | cd=102.941828 | old_ratio_cd=8.4747
+22. 8V10_B_ANYCD_I013_I390_b_rescue_mix_b190 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_rescue_mix | verdict=official_mdd_pass | trades=89 | win=82.0225 | final=2.9610 | max=2.9610 | mdd=0.2307 | cd=102.723451 | old_ratio_cd=12.8346
+23. 8V10_B_ANYCD_I013_I228_b_deep_sweep_b028 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_deep_sweep | verdict=official_mdd_pass | trades=214 | win=48.1308 | final=2.6035 | max=4.6663 | mdd=1.9709 | cd=102.603459 | old_ratio_cd=2.3676
+24. 8V10_B_ANYCD_I013_I334_b_wide_rr_b134 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_wide_rr | verdict=official_mdd_pass | trades=1381 | win=29.7610 | final=2.5877 | max=7.2870 | mdd=4.3801 | cd=102.587744 | old_ratio_cd=1.6637
+25. 8V10_B_ANYCD_I013_I314_b_trend_runner_b114 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_trend_runner | verdict=official_mdd_pass | trades=338 | win=39.0533 | final=2.8201 | max=4.2258 | mdd=1.7177 | cd=102.435521 | old_ratio_cd=2.4601
+26. 8V10_A_MDD5_I013_I173_a_supply_filter_a173 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=a_supply_filter | verdict=official_mdd_pass | trades=408 | win=34.0686 | final=2.3538 | max=3.4868 | mdd=1.4319 | cd=102.004982 | old_ratio_cd=2.4351
+27. 8V10_B_ANYCD_I013_I204_b_expansion_b004 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_expansion | verdict=official_mdd_pass | trades=272 | win=40.4412 | final=1.9576 | max=4.1822 | mdd=2.2520 | cd=101.836048 | old_ratio_cd=1.8571
+28. 8V10_B_ANYCD_I013_I368_b_fast_reentry_b168 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_fast_reentry | verdict=official_mdd_pass | trades=50 | win=86.0000 | final=1.7856 | max=1.8747 | mdd=0.0875 | cd=101.785582 | old_ratio_cd=21.4358
+29. 8V10_B_ANYCD_I013_I342_b_wide_rr_b142 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_wide_rr | verdict=official_mdd_pass | trades=814 | win=37.2236 | final=1.7569 | max=5.2313 | mdd=3.4298 | cd=101.622068 | old_ratio_cd=1.5252
+30. 8V10_B_ANYCD_I013_I210_b_expansion_b010 | parent=8V9_RAWV51_I013_entry_timing_window_r013 | group=b_expansion | verdict=official_mdd_pass | trades=163 | win=55.8282 | final=1.6542 | max=3.3270 | mdd=1.6852 | cd=101.585752 | old_ratio_cd=1.9743
