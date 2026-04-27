@@ -5,8 +5,8 @@
 3. 그 다음 CORE_SUMMARY/06_LOCAL_BACKTEST_AND_GITHUB_POLICY.md 를 읽어 현재 백테스트 고정 환경을 확인한다.
 4. 그 다음 CORE_SUMMARY/08_ALL_RESULTS_CATALOG.md 를 읽어 현재 유효 결과만 파악한다.
 5. CORE_SUMMARY/12_STRATEGY_STRENGTHS_WEAKNESSES.md 를 읽어 최근 전략군의 구조적 장단점을 파악한다.
-6. 최신 addendum인 CORE_SUMMARY/24_8V4_LONG400_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/25_8V5_LONG300_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/26_8V6_TOP3_300_STRENGTHS_WEAKNESSES_ADDENDUM.md 를 읽는다.
-7. CORE_SUMMARY/27_NEXT_STEP_AFTER_8V6.md 를 읽고 다음 실험 방향을 확인한다.
+6. 최신 addendum인 CORE_SUMMARY/24_8V4_LONG400_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/25_8V5_LONG300_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/26_8V6_TOP3_300_STRENGTHS_WEAKNESSES_ADDENDUM.md, CORE_SUMMARY/29_8V7_AB_BEST_200_STRENGTHS_WEAKNESSES_ADDENDUM.md 를 읽는다.
+7. CORE_SUMMARY/27_NEXT_STEP_AFTER_8V6.md 를 읽되, 8V7 결과 때문에 다음 지시는 29번 addendum의 최신 결론을 우선한다.
 8. CORE_SUMMARY/28_BASELINE_AND_IMPROVEMENT_CANDIDATE_RULES.md 를 읽고 기준선 및 개선 후보 선정 규칙을 확인한다.
 9. 이후 사용자 요청에 맞춰 전략 설계, 결과 해석, 문서 갱신을 진행한다.
 
@@ -83,6 +83,10 @@ legacy_equity_cd_value와 공식 ratio를 혼동하지 않았는가
 - 8V6 best: 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | max_return_pct 5.2510 | max_drawdown_pct 2.1312 | official_ratio 2.4639 | trades 652
 8V6의 후보 A와 후보 B는 모두 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 이다.
 8V6의 핵심 학습은 MDD 압축은 가능하지만, 전단 필터로 진입을 줄이면 V51 edge가 먼저 죽는다는 점이다.
+8V7은 8V6 후보를 200개 개선했으나 no_promotion이다.
+- 8V7 best: 8V7_AB_BEST_I070_post_loss_brake_plb20 | max_return_pct 1.3290 | max_drawdown_pct 0.2122 | official_ratio 6.261968 | trades 93
+8V7의 후보 A와 후보 B는 모두 8V7_AB_BEST_I070_post_loss_brake_plb20 이다.
+8V7의 핵심 학습은 post_loss_brake와 soft_safe_mix가 MDD 압축 도구로는 유효하지만, 이미 희소화된 8V6 후보 위에 얹으면 edge가 완전히 죽는다는 점이다.
 
 다음 우선순위
 1. V51 core_base / core_rare22_c1의 edge 보존형 MDD 압축
@@ -96,11 +100,13 @@ legacy_equity_cd_value와 공식 ratio를 혼동하지 않았는가
 
 다음 전략 설계 방향
 새로운 family 탐색보다 V51 심화가 우선이다.
-목표는 V51 core_base/core_rare22_c1의 trades를 8V5의 2277에 최대한 가깝게 유지하면서 MDD를 6.28~6.31에서 4.9대로 낮추는 것이다.
-8V6처럼 500~700 trades까지 잘라내는 방식은 피한다.
+8V7 top 전략을 직접 부모로 쓰지 않는다.
+목표는 8V5 V51 core_base/core_rare22_c1의 trades를 1500~2300 구간으로 최대한 유지하면서 MDD를 6.28~6.31에서 4.9대로 낮추는 것이다.
+8V6처럼 500~700 trades까지 잘라내거나 8V7처럼 100 trades 안팎으로 잘라내는 방식은 피한다.
 전단 entry filter보다 사후 drawdown brake, 손실 군집 회피, 변동성 폭발 직후 일시 회피, exit/hold/stop 재조정을 우선한다.
 strict/lowanchor는 safe branch 핵심 축이지만 전면 필터가 아니라 부분 브레이크로 사용하는 것이 우선이다.
 shocklow는 단독 부모가 아니라 위험 구간 보조 커버로 사용한다.
+post_loss_brake와 soft_safe_mix는 8V7에서 유효성이 확인됐지만 hard filter가 아니라 부분 모듈로만 이식한다.
 
 환경 오류 발생 시 처리
 환경 오류가 확인되면 그 실험군은 invalid_env로 처리한다.
