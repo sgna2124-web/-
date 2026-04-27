@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V024_lowanchor_vol18",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + lowanchor + vol18",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 523,
+  "wins": 177,
+  "losses": 346,
+  "win_rate_pct": 33.84321223709369,
+  "final_return_pct": 0.48695421449502785,
+  "max_return_pct": 0.8589533635508184,
+  "max_drawdown_pct": 0.9796434543651977,
+  "cd_value": 99.50254034504177,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

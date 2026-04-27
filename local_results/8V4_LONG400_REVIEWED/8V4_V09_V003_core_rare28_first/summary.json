@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V003_core_rare28_first",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + core + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3635,
+  "wins": 1169,
+  "losses": 2466,
+  "win_rate_pct": 32.1595598349381,
+  "final_return_pct": -3.6372789149969775,
+  "max_return_pct": 2.1203816415166665,
+  "max_drawdown_pct": 7.229409098231409,
+  "cd_value": 89.39626575958046,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

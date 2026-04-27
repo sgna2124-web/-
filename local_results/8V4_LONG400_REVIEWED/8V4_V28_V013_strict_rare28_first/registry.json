@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V013_strict_rare28_first",
+  "side": "long",
+  "description": "l09 v28 refire block + strict + rare28_first",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V28_V013_strict_rare28_first",
+    "side": "long",
+    "description": "l09 v28 refire block + strict + rare28_first",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 1713,
+    "wins": 537,
+    "losses": 1176,
+    "win_rate_pct": 31.34851138353765,
+    "final_return_pct": -3.405550024255599,
+    "max_return_pct": 0.40219173457107793,
+    "max_drawdown_pct": 4.009565362920842,
+    "cd_value": 92.72143236701305,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

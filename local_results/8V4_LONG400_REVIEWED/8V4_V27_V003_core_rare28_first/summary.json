@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V003_core_rare28_first",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + core + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1711,
+  "wins": 500,
+  "losses": 1211,
+  "win_rate_pct": 29.222676797194623,
+  "final_return_pct": -3.67458708243551,
+  "max_return_pct": 0.20401659568032304,
+  "max_drawdown_pct": 4.099682603054433,
+  "cd_value": 92.37637672186275,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

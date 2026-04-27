@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V070_spring_shortgap",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + spring + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 12,
+  "wins": 6,
+  "losses": 6,
+  "win_rate_pct": 50.0,
+  "final_return_pct": -0.06707520623751018,
+  "max_return_pct": 0.1725809460596084,
+  "max_drawdown_pct": 0.23924326400870388,
+  "cd_value": 99.69384200266653,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

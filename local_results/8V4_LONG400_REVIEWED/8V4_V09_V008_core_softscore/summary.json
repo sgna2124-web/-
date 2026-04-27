@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V008_core_softscore",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + core + softscore",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 581,
+  "wins": 159,
+  "losses": 422,
+  "win_rate_pct": 27.36660929432014,
+  "final_return_pct": -1.123877067878598,
+  "max_return_pct": 0.3200777077944972,
+  "max_drawdown_pct": 2.163677804927011,
+  "cd_value": 96.73676220586675,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

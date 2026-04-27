@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V062_spring_rare22_c1",
+  "side": "long",
+  "description": "l09 v28 refire block + spring + rare22_c1",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V28_V062_spring_rare22_c1",
+    "side": "long",
+    "description": "l09 v28 refire block + spring + rare22_c1",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 2765,
+    "wins": 1000,
+    "losses": 1765,
+    "win_rate_pct": 36.166365280289334,
+    "final_return_pct": 17.70448638057609,
+    "max_return_pct": 18.075672823248645,
+    "max_drawdown_pct": 5.041355285240479,
+    "cd_value": 111.77058503546375,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

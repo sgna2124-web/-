@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V007_core_refire40",
+  "side": "long",
+  "description": "l09 v28 refire block + core + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2726,
+  "wins": 1029,
+  "losses": 1697,
+  "win_rate_pct": 37.747615553925165,
+  "final_return_pct": 18.271957333104783,
+  "max_return_pct": 18.597002356135974,
+  "max_drawdown_pct": 5.264640216628214,
+  "cd_value": 112.0453643023528,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

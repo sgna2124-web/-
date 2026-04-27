@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V057_extreme_refire40",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + extreme + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 671,
+  "wins": 323,
+  "losses": 348,
+  "win_rate_pct": 48.1371087928465,
+  "final_return_pct": 15.890274199048914,
+  "max_return_pct": 16.072188104205164,
+  "max_drawdown_pct": 1.8165406576566845,
+  "cd_value": 113.78508024995337,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

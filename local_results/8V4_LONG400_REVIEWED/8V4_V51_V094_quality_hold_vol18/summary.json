@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V094_quality_hold_vol18",
+  "side": "long",
+  "description": "l09 v51 microbase pop + quality_hold + vol18",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 72,
+  "wins": 24,
+  "losses": 48,
+  "win_rate_pct": 33.33333333333333,
+  "final_return_pct": 0.6530678737504791,
+  "max_return_pct": 0.6530678737504791,
+  "max_drawdown_pct": 0.40761301163351193,
+  "cd_value": 100.24279287248876,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

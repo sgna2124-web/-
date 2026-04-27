@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V039_shocklow_microguard",
+  "side": "long",
+  "description": "l09 v28 refire block + shocklow + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3171,
+  "wins": 1035,
+  "losses": 2136,
+  "win_rate_pct": 32.63954588457899,
+  "final_return_pct": -3.874063452076504,
+  "max_return_pct": 1.3868620168444146,
+  "max_drawdown_pct": 6.153981937266306,
+  "cd_value": 90.21036377573621,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

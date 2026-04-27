@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V042_prevhigh_rare22_c1",
+  "side": "long",
+  "description": "l09 v51 microbase pop + prevhigh + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 17,
+  "wins": 10,
+  "losses": 7,
+  "win_rate_pct": 58.82352941176471,
+  "final_return_pct": 0.7449679046522606,
+  "max_return_pct": 0.7761202180277094,
+  "max_drawdown_pct": 0.07099708152054074,
+  "cd_value": 100.67344191766115,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

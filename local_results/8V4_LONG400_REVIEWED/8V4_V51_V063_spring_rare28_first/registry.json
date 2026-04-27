@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V063_spring_rare28_first",
+  "side": "long",
+  "description": "l09 v51 microbase pop + spring + rare28_first",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V51_V063_spring_rare28_first",
+    "side": "long",
+    "description": "l09 v51 microbase pop + spring + rare28_first",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 318,
+    "wins": 91,
+    "losses": 227,
+    "win_rate_pct": 28.61635220125786,
+    "final_return_pct": -0.573181054235139,
+    "max_return_pct": 0.9433355779454589,
+    "max_drawdown_pct": 1.554668231545997,
+    "cd_value": 97.88106177797829,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

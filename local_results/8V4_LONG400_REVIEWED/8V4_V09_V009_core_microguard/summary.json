@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V009_core_microguard",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + core + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 5639,
+  "wins": 1906,
+  "losses": 3733,
+  "win_rate_pct": 33.800319205532894,
+  "final_return_pct": -2.908274481882389,
+  "max_return_pct": 5.071186401813477,
+  "max_drawdown_pct": 8.42565914415233,
+  "cd_value": 88.91110766878505,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

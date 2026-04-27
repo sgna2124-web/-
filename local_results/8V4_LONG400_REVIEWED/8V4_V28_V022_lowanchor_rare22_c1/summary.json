@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V022_lowanchor_rare22_c1",
+  "side": "long",
+  "description": "l09 v28 refire block + lowanchor + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3043,
+  "wins": 1176,
+  "losses": 1867,
+  "win_rate_pct": 38.64607295432139,
+  "final_return_pct": 19.756953175860126,
+  "max_return_pct": 20.03966907362409,
+  "max_drawdown_pct": 5.4963159388526694,
+  "cd_value": 113.17473267057099,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

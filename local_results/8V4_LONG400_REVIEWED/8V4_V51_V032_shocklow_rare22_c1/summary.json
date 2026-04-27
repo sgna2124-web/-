@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V032_shocklow_rare22_c1",
+  "side": "long",
+  "description": "l09 v51 microbase pop + shocklow + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2275,
+  "wins": 1020,
+  "losses": 1255,
+  "win_rate_pct": 44.83516483516484,
+  "final_return_pct": 42.08917884710679,
+  "max_return_pct": 42.65077297287516,
+  "max_drawdown_pct": 6.735214260055555,
+  "cd_value": 132.5191682114006,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

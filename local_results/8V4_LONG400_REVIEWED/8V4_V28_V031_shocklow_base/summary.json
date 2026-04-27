@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V031_shocklow_base",
+  "side": "long",
+  "description": "l09 v28 refire block + shocklow + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3199,
+  "wins": 1050,
+  "losses": 2149,
+  "win_rate_pct": 32.822757111597376,
+  "final_return_pct": -3.614404965866247,
+  "max_return_pct": 1.6378498743649939,
+  "max_drawdown_pct": 6.132854492694184,
+  "cd_value": 90.47440673877287,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

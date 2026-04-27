@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V061_spring_base",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + spring + base",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V09_V061_spring_base",
+    "side": "long",
+    "description": "l09 v09 cluster pressure + spring + base",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 725,
+    "wins": 326,
+    "losses": 399,
+    "win_rate_pct": 44.96551724137931,
+    "final_return_pct": 14.481306054576915,
+    "max_return_pct": 14.679986557784218,
+    "max_drawdown_pct": 2.2807911397183966,
+    "cd_value": 111.87022656945021,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

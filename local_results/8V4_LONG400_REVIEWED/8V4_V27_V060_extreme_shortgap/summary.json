@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V060_extreme_shortgap",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + extreme + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 13,
+  "wins": 8,
+  "losses": 5,
+  "win_rate_pct": 61.53846153846154,
+  "final_return_pct": 0.04631371723013977,
+  "max_return_pct": 0.18187329712460176,
+  "max_drawdown_pct": 0.17920424482846808,
+  "cd_value": 99.86702647625445,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

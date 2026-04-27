@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V018_strict_softscore",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + strict + softscore",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V09_V018_strict_softscore",
+    "side": "long",
+    "description": "l09 v09 cluster pressure + strict + softscore",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 179,
+    "wins": 57,
+    "losses": 122,
+    "win_rate_pct": 31.843575418994412,
+    "final_return_pct": 0.432501761865689,
+    "max_return_pct": 0.667510196509058,
+    "max_drawdown_pct": 0.4270878742143158,
+    "cd_value": 100.00356672507067,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

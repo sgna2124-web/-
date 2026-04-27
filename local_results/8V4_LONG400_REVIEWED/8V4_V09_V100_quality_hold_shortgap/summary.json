@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V100_quality_hold_shortgap",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + quality_hold + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 331,
+  "wins": 113,
+  "losses": 218,
+  "win_rate_pct": 34.13897280966767,
+  "final_return_pct": 0.46273091607720307,
+  "max_return_pct": 0.8060435783628916,
+  "max_drawdown_pct": 0.5276585835631065,
+  "cd_value": 99.93263069311661,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

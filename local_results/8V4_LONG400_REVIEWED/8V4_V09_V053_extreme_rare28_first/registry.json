@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V053_extreme_rare28_first",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + extreme + rare28_first",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V09_V053_extreme_rare28_first",
+    "side": "long",
+    "description": "l09 v09 cluster pressure + extreme + rare28_first",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 318,
+    "wins": 101,
+    "losses": 217,
+    "win_rate_pct": 31.761006289308174,
+    "final_return_pct": -0.41154898778993365,
+    "max_return_pct": 1.209245888336996,
+    "max_drawdown_pct": 1.6469893188421958,
+    "cd_value": 97.94823986123856,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

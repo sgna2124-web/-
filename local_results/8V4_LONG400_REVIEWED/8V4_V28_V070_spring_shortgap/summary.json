@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V070_spring_shortgap",
+  "side": "long",
+  "description": "l09 v28 refire block + spring + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 221,
+  "wins": 76,
+  "losses": 145,
+  "win_rate_pct": 34.38914027149321,
+  "final_return_pct": 0.15955296504959193,
+  "max_return_pct": 0.5105640014539947,
+  "max_drawdown_pct": 0.5545896836573472,
+  "cd_value": 99.60407841710811,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

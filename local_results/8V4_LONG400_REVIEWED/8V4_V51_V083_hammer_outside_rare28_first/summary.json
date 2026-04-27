@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V083_hammer_outside_rare28_first",
+  "side": "long",
+  "description": "l09 v51 microbase pop + hammer_outside + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 281,
+  "wins": 86,
+  "losses": 195,
+  "win_rate_pct": 30.604982206405694,
+  "final_return_pct": -0.3640237837248983,
+  "max_return_pct": 1.1512557198277262,
+  "max_drawdown_pct": 1.5124893732826439,
+  "cd_value": 98.12899266403751,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V087_hammer_outside_refire40",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + hammer_outside + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 353,
+  "wins": 114,
+  "losses": 239,
+  "win_rate_pct": 32.29461756373937,
+  "final_return_pct": -0.6975360741390713,
+  "max_return_pct": 1.0728956406824253,
+  "max_drawdown_pct": 1.7672083763015434,
+  "cd_value": 97.5475824654893,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

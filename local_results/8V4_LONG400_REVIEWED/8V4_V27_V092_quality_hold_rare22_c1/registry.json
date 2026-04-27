@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V092_quality_hold_rare22_c1",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + quality_hold + rare22_c1",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V27_V092_quality_hold_rare22_c1",
+    "side": "long",
+    "description": "l09 v27 failed break pivot + quality_hold + rare22_c1",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 3989,
+    "wins": 1351,
+    "losses": 2638,
+    "win_rate_pct": 33.86813737778892,
+    "final_return_pct": 9.272393623098818,
+    "max_return_pct": 12.482813342313692,
+    "max_drawdown_pct": 5.880706974411276,
+    "cd_value": 102.8464043501991,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V049_prevhigh_microguard",
+  "side": "long",
+  "description": "l09 v28 refire block + prevhigh + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 560,
+  "wins": 162,
+  "losses": 398,
+  "win_rate_pct": 28.92857142857143,
+  "final_return_pct": -0.19604481205344193,
+  "max_return_pct": 0.34896966125093076,
+  "max_drawdown_pct": 2.181176470090984,
+  "cd_value": 97.6270548011669,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

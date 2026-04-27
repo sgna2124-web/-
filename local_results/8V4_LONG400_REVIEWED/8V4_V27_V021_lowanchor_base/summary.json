@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V021_lowanchor_base",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + lowanchor + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3041,
+  "wins": 1120,
+  "losses": 1921,
+  "win_rate_pct": 36.82999013482407,
+  "final_return_pct": 18.27561871549306,
+  "max_return_pct": 18.69486074758102,
+  "max_drawdown_pct": 5.849932707294469,
+  "cd_value": 111.35657461150053,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

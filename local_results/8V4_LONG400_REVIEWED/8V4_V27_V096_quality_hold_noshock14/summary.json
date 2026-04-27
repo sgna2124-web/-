@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V096_quality_hold_noshock14",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + quality_hold + noshock14",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 357,
+  "wins": 118,
+  "losses": 239,
+  "win_rate_pct": 33.0532212885154,
+  "final_return_pct": -0.2872794948621693,
+  "max_return_pct": 0.2919298338392773,
+  "max_drawdown_pct": 0.5775233656995726,
+  "cd_value": 99.13685624564594,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

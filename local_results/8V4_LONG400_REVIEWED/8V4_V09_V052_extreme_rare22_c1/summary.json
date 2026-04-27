@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V052_extreme_rare22_c1",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + extreme + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 672,
+  "wins": 324,
+  "losses": 348,
+  "win_rate_pct": 48.214285714285715,
+  "final_return_pct": 15.766433787842349,
+  "max_return_pct": 15.948920263754808,
+  "max_drawdown_pct": 1.8408587735091908,
+  "cd_value": 113.63533723468014,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V042_prevhigh_rare22_c1",
+  "side": "long",
+  "description": "l09 v28 refire block + prevhigh + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 557,
+  "wins": 158,
+  "losses": 399,
+  "win_rate_pct": 28.366247755834827,
+  "final_return_pct": -0.34311951251052575,
+  "max_return_pct": 0.2920799168004029,
+  "max_drawdown_pct": 2.2834651396864025,
+  "cd_value": 97.38125036225871,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

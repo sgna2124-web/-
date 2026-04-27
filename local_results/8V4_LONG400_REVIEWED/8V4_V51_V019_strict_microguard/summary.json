@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V019_strict_microguard",
+  "side": "long",
+  "description": "l09 v51 microbase pop + strict + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 563,
+  "wins": 266,
+  "losses": 297,
+  "win_rate_pct": 47.246891651865006,
+  "final_return_pct": 11.32914126746314,
+  "max_return_pct": 11.436419935030994,
+  "max_drawdown_pct": 1.8126139445857614,
+  "cd_value": 109.31117372846151,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

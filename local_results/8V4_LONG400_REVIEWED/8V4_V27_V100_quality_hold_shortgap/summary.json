@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V100_quality_hold_shortgap",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + quality_hold + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 334,
+  "wins": 115,
+  "losses": 219,
+  "win_rate_pct": 34.4311377245509,
+  "final_return_pct": 0.5699109164390093,
+  "max_return_pct": 0.9741302483776915,
+  "max_drawdown_pct": 0.4548307331686652,
+  "cd_value": 100.1124880532707,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

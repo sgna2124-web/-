@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V014_strict_vol18",
+  "side": "long",
+  "description": "l09 v28 refire block + strict + vol18",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 262,
+  "wins": 91,
+  "losses": 171,
+  "win_rate_pct": 34.73282442748092,
+  "final_return_pct": -0.1921419277152503,
+  "max_return_pct": 0.24420896460417563,
+  "max_drawdown_pct": 0.5860560305411044,
+  "cd_value": 99.22292810109822,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

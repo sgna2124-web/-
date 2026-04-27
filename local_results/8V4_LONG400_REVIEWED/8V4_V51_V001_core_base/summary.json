@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V001_core_base",
+  "side": "long",
+  "description": "l09 v51 microbase pop + core + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2277,
+  "wins": 1034,
+  "losses": 1243,
+  "win_rate_pct": 45.410628019323674,
+  "final_return_pct": 43.29285385404382,
+  "max_return_pct": 43.80905332305143,
+  "max_drawdown_pct": 6.754657242737949,
+  "cd_value": 133.61391272286573,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

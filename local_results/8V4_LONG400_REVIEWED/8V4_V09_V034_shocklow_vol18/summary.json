@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V034_shocklow_vol18",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + shocklow + vol18",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1364,
+  "wins": 458,
+  "losses": 906,
+  "win_rate_pct": 33.577712609970675,
+  "final_return_pct": 1.080670018318397,
+  "max_return_pct": 2.282947467320451,
+  "max_drawdown_pct": 2.9091487753912015,
+  "cd_value": 98.14008294432327,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

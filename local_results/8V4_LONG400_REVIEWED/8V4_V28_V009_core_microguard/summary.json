@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V009_core_microguard",
+  "side": "long",
+  "description": "l09 v28 refire block + core + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 6266,
+  "wins": 2379,
+  "losses": 3887,
+  "win_rate_pct": 37.96680497925311,
+  "final_return_pct": 39.24763903417696,
+  "max_return_pct": 39.95235476954191,
+  "max_drawdown_pct": 9.945879470119213,
+  "cd_value": 125.39823669085105,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

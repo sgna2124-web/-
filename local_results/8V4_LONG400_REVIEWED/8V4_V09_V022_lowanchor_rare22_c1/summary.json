@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V022_lowanchor_rare22_c1",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + lowanchor + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3635,
+  "wins": 1205,
+  "losses": 2430,
+  "win_rate_pct": 33.14993122420908,
+  "final_return_pct": -3.647687640041486,
+  "max_return_pct": 2.7942551075255784,
+  "max_drawdown_pct": 7.893891898312577,
+  "cd_value": 88.74636498073892,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

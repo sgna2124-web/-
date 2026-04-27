@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V037_shocklow_refire40",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + shocklow + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 671,
+  "wins": 316,
+  "losses": 355,
+  "win_rate_pct": 47.093889716840536,
+  "final_return_pct": 15.453618210399878,
+  "max_return_pct": 15.624721428504929,
+  "max_drawdown_pct": 1.7152172058697124,
+  "cd_value": 113.47333788605597,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

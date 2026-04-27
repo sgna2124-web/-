@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V097_quality_hold_refire40",
+  "side": "long",
+  "description": "l09 v28 refire block + quality_hold + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2624,
+  "wins": 922,
+  "losses": 1702,
+  "win_rate_pct": 35.13719512195122,
+  "final_return_pct": 6.38203858040951,
+  "max_return_pct": 12.019070406681486,
+  "max_drawdown_pct": 5.409792410539305,
+  "cd_value": 100.62699113110952,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

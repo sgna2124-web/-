@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V037_shocklow_refire40",
+  "side": "long",
+  "description": "l09 v51 microbase pop + shocklow + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 671,
+  "wins": 312,
+  "losses": 359,
+  "win_rate_pct": 46.497764530551414,
+  "final_return_pct": 14.375040969088793,
+  "max_return_pct": 14.534764179289095,
+  "max_drawdown_pct": 1.7178119693411542,
+  "cd_value": 112.41029282538294,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

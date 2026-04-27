@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V011_strict_base",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + strict + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3346,
+  "wins": 1180,
+  "losses": 2166,
+  "win_rate_pct": 35.265989240884636,
+  "final_return_pct": 16.896090733699776,
+  "max_return_pct": 17.38823087647612,
+  "max_drawdown_pct": 6.8222971497688745,
+  "cd_value": 108.92109206738334,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

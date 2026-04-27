@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V033_shocklow_rare28_first",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + shocklow + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1651,
+  "wins": 502,
+  "losses": 1149,
+  "win_rate_pct": 30.40581465778316,
+  "final_return_pct": -2.9844517318191266,
+  "max_return_pct": 0.5938800353417539,
+  "max_drawdown_pct": 3.788841427732692,
+  "cd_value": 93.33978298405403,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

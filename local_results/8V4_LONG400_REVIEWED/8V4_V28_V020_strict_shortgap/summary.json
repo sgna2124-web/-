@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V020_strict_shortgap",
+  "side": "long",
+  "description": "l09 v28 refire block + strict + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 334,
+  "wins": 118,
+  "losses": 216,
+  "win_rate_pct": 35.32934131736527,
+  "final_return_pct": 0.0823010300571525,
+  "max_return_pct": 0.6486152515534638,
+  "max_drawdown_pct": 0.6541719761072207,
+  "cd_value": 99.42759066367525,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

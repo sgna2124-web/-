@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V030_lowanchor_shortgap",
+  "side": "long",
+  "description": "l09 v28 refire block + lowanchor + shortgap",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V28_V030_lowanchor_shortgap",
+    "side": "long",
+    "description": "l09 v28 refire block + lowanchor + shortgap",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 331,
+    "wins": 119,
+    "losses": 212,
+    "win_rate_pct": 35.95166163141994,
+    "final_return_pct": 0.24710122770019716,
+    "max_return_pct": 0.7643777090514892,
+    "max_drawdown_pct": 0.5911731730735115,
+    "cd_value": 99.65446725845818,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

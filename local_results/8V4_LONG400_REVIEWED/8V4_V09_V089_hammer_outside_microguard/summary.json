@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V089_hammer_outside_microguard",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + hammer_outside + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1248,
+  "wins": 395,
+  "losses": 853,
+  "win_rate_pct": 31.650641025641026,
+  "final_return_pct": -2.084889964265013,
+  "max_return_pct": 1.5909734037227619,
+  "max_drawdown_pct": 3.8151807166093676,
+  "cd_value": 94.17947163900479,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

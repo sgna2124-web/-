@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V28_V050_prevhigh_shortgap",
+  "side": "long",
+  "description": "l09 v28 refire block + prevhigh + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 188,
+  "wins": 44,
+  "losses": 144,
+  "win_rate_pct": 23.404255319148938,
+  "final_return_pct": -0.98785001190278,
+  "max_return_pct": 0.10993940775438915,
+  "max_drawdown_pct": 1.0965838418758755,
+  "cd_value": 97.92639874983385,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

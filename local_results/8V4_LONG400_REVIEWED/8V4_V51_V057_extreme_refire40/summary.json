@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V51_V057_extreme_refire40",
+  "side": "long",
+  "description": "l09 v51 microbase pop + extreme + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 7,
+  "wins": 4,
+  "losses": 3,
+  "win_rate_pct": 57.14285714285714,
+  "final_return_pct": 0.388270715230421,
+  "max_return_pct": 0.4057383376210755,
+  "max_drawdown_pct": 0.05317236733600739,
+  "cd_value": 100.33489189516345,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

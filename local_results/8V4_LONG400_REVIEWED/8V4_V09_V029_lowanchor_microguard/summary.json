@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V09_V029_lowanchor_microguard",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + lowanchor + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3411,
+  "wins": 1132,
+  "losses": 2279,
+  "win_rate_pct": 33.18674875403108,
+  "final_return_pct": -3.768490759544052,
+  "max_return_pct": 0.6653541979287247,
+  "max_drawdown_pct": 5.502752097386232,
+  "cd_value": 90.93612784738033,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

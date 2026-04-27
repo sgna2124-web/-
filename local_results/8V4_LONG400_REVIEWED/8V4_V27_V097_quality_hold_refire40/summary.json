@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V097_quality_hold_refire40",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + quality_hold + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 620,
+  "wins": 271,
+  "losses": 349,
+  "win_rate_pct": 43.70967741935484,
+  "final_return_pct": 7.7900902285499285,
+  "max_return_pct": 8.140576130918987,
+  "max_drawdown_pct": 1.8815415243257694,
+  "cd_value": 105.76197492179155,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V011_strict_base",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + strict + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 4078,
+  "wins": 1450,
+  "losses": 2628,
+  "win_rate_pct": 35.55664541441883,
+  "final_return_pct": 18.1731335568055,
+  "max_return_pct": 18.54857764942912,
+  "max_drawdown_pct": 5.927605329612263,
+  "cd_value": 111.16829659392248,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

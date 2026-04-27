@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V4_LONG400_REVIEWED",
+  "strategy_name": "8V4_V27_V040_shocklow_shortgap",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + shocklow + shortgap",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V4_LONG400_REVIEWED",
+    "strategy_name": "8V4_V27_V040_shocklow_shortgap",
+    "side": "long",
+    "description": "l09 v27 failed break pivot + shocklow + shortgap",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 428,
+    "wins": 151,
+    "losses": 277,
+    "win_rate_pct": 35.280373831775705,
+    "final_return_pct": 0.4297495312663324,
+    "max_return_pct": 1.7828812867328292,
+    "max_drawdown_pct": 1.3560491783063622,
+    "cd_value": 99.06787273797245,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}
