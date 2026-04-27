@@ -1,0 +1,37 @@
+batch=8V7_AB_BEST_200_FROM_8V6_CANDIDATE
+cd_value_formula=max_return_pct / max_drawdown_pct
+official_promotion=max_drawdown_pct < 5.0
+strategies=200
+failed_symbols=0
+
+TOP 30
+01. 8V7_AB_BEST_I070_post_loss_brake_plb20 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=93 | win=60.2151 | final=1.1655 | max=1.3290 | mdd=0.2122 | cd=6.261968 | legacy_cd=100.9508
+02. 8V7_AB_BEST_I068_post_loss_brake_plb18 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=104 | win=52.8846 | final=1.0453 | max=1.2213 | mdd=0.2154 | cd=5.669132 | legacy_cd=100.8276
+03. 8V7_AB_BEST_I193_soft_safe_mix_ssm13 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=soft_safe_mix | verdict=official_mdd_pass | trades=96 | win=51.0417 | final=0.8404 | max=0.9030 | mdd=0.1729 | cd=5.222699 | legacy_cd=100.6660
+04. 8V7_AB_BEST_I198_soft_safe_mix_ssm18 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=soft_safe_mix | verdict=official_mdd_pass | trades=68 | win=57.3529 | final=0.7043 | max=0.7782 | mdd=0.1550 | cd=5.018994 | legacy_cd=100.5481
+05. 8V7_AB_BEST_I067_post_loss_brake_plb17 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=106 | win=50.0000 | final=0.8457 | max=1.0445 | mdd=0.2260 | cd=4.621651 | legacy_cd=100.6177
+06. 8V7_AB_BEST_I188_soft_safe_mix_ssm08 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=soft_safe_mix | verdict=official_mdd_pass | trades=146 | win=48.6301 | final=1.2266 | max=1.2820 | mdd=0.2869 | cd=4.468265 | legacy_cd=100.9361
+07. 8V7_AB_BEST_I095_post_loss_brake_plb45 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=135 | win=53.3333 | final=1.4484 | max=1.8354 | mdd=0.4226 | cd=4.343210 | legacy_cd=101.0196
+08. 8V7_AB_BEST_I066_post_loss_brake_plb16 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=173 | win=41.0405 | final=0.8101 | max=1.0194 | mdd=0.2357 | cd=4.323980 | legacy_cd=100.5724
+09. 8V7_AB_BEST_I069_post_loss_brake_plb19 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=93 | win=54.8387 | final=0.8370 | max=1.0467 | mdd=0.2558 | cd=4.092008 | legacy_cd=100.5791
+10. 8V7_AB_BEST_I094_post_loss_brake_plb44 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=197 | win=47.7157 | final=1.0675 | max=1.3870 | mdd=0.3772 | cd=3.677337 | legacy_cd=100.6863
+11. 8V7_AB_BEST_I195_soft_safe_mix_ssm15 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=soft_safe_mix | verdict=official_mdd_pass | trades=175 | win=52.5714 | final=1.2576 | max=1.4250 | mdd=0.4035 | cd=3.531672 | legacy_cd=100.8491
+12. 8V7_AB_BEST_I183_soft_safe_mix_ssm03 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=soft_safe_mix | verdict=official_mdd_pass | trades=235 | win=48.5106 | final=1.3303 | max=1.8690 | mdd=0.6613 | cd=2.826076 | legacy_cd=100.6602
+13. 8V7_AB_BEST_I093_post_loss_brake_plb43 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=203 | win=45.3202 | final=0.8614 | max=1.3101 | mdd=0.4727 | cd=2.771609 | legacy_cd=100.3847
+14. 8V7_AB_BEST_I200_soft_safe_mix_ssm20 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=soft_safe_mix | verdict=official_mdd_pass | trades=170 | win=54.7059 | final=0.9369 | max=1.3249 | mdd=0.4830 | cd=2.742855 | legacy_cd=100.4493
+15. 8V7_AB_BEST_I015_edge_restore_er15 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=edge_restore | verdict=official_mdd_pass | trades=56 | win=57.1429 | final=0.6889 | max=0.6889 | mdd=0.2580 | cd=2.669985 | legacy_cd=100.4291
+16. 8V7_AB_BEST_I038_edge_restore_er38 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=edge_restore | verdict=official_mdd_pass | trades=61 | win=47.5410 | final=0.7111 | max=0.7111 | mdd=0.2670 | cd=2.663296 | legacy_cd=100.4422
+17. 8V7_AB_BEST_I140_volshock_brake_vsb40 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=volshock_brake | verdict=official_mdd_pass | trades=301 | win=48.5050 | final=2.2443 | max=3.6926 | mdd=1.3967 | cd=2.643787 | legacy_cd=100.8163
+18. 8V7_AB_BEST_I013_edge_restore_er13 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=edge_restore | verdict=official_mdd_pass | trades=80 | win=47.5000 | final=0.6977 | max=0.8534 | mdd=0.3316 | cd=2.573534 | legacy_cd=100.3638
+19. 8V7_AB_BEST_I040_edge_restore_er40 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=edge_restore | verdict=official_mdd_pass | trades=40 | win=52.5000 | final=0.5674 | max=0.5674 | mdd=0.2249 | cd=2.523219 | legacy_cd=100.3412
+20. 8V7_AB_BEST_I014_edge_restore_er14 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=edge_restore | verdict=official_mdd_pass | trades=68 | win=52.9412 | final=0.6956 | max=0.8339 | mdd=0.3421 | cd=2.437546 | legacy_cd=100.3511
+21. 8V7_AB_BEST_I115_volshock_brake_vsb15 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=volshock_brake | verdict=official_mdd_pass | trades=277 | win=49.4585 | final=1.6965 | max=2.9713 | mdd=1.2404 | cd=2.395425 | legacy_cd=100.4351
+22. 8V7_AB_BEST_I120_volshock_brake_vsb20 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=volshock_brake | verdict=official_mdd_pass | trades=298 | win=49.3289 | final=1.9739 | max=3.4837 | mdd=1.4589 | cd=2.387828 | legacy_cd=100.4862
+23. 8V7_AB_BEST_I127_volshock_brake_vsb27 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=volshock_brake | verdict=official_mdd_pass | trades=259 | win=38.2239 | final=0.8431 | max=1.4527 | mdd=0.6115 | cd=2.375616 | legacy_cd=100.2264
+24. 8V7_AB_BEST_I114_volshock_brake_vsb14 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=volshock_brake | verdict=official_mdd_pass | trades=285 | win=46.6667 | final=1.0149 | max=1.6897 | mdd=0.7210 | cd=2.343560 | legacy_cd=100.2866
+25. 8V7_AB_BEST_I037_edge_restore_er37 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=edge_restore | verdict=official_mdd_pass | trades=68 | win=41.1765 | final=0.5462 | max=0.6662 | mdd=0.2913 | cd=2.286618 | legacy_cd=100.2532
+26. 8V7_AB_BEST_I113_volshock_brake_vsb13 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=volshock_brake | verdict=official_mdd_pass | trades=58 | win=48.2759 | final=0.4961 | max=0.7155 | mdd=0.3141 | cd=2.277926 | legacy_cd=100.1804
+27. 8V7_AB_BEST_I092_post_loss_brake_plb42 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=post_loss_brake | verdict=official_mdd_pass | trades=260 | win=42.3077 | final=0.7078 | max=1.2515 | mdd=0.5496 | cd=2.277098 | legacy_cd=100.1543
+28. 8V7_AB_BEST_I110_volshock_brake_vsb10 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=volshock_brake | verdict=official_mdd_pass | trades=457 | win=45.9519 | final=2.4317 | max=4.4233 | mdd=1.9628 | cd=2.253534 | legacy_cd=100.4211
+29. 8V7_AB_BEST_I190_soft_safe_mix_ssm10 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=soft_safe_mix | verdict=official_mdd_pass | trades=203 | win=52.2167 | final=0.8004 | max=1.2674 | mdd=0.5635 | cd=2.249116 | legacy_cd=100.2323
+30. 8V7_AB_BEST_I158_adaptive_exit_aex18 | parent=8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group=adaptive_exit | verdict=official_mdd_pass | trades=156 | win=31.4103 | final=0.7725 | max=1.1202 | mdd=0.5046 | cd=2.220055 | legacy_cd=100.2640
