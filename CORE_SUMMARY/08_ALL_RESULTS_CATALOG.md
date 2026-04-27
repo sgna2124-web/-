@@ -237,6 +237,26 @@ notes:
 - 8V8 top은 8V6/8V7보다 trade density 보존은 낫지만, 8V5 raw의 41~42%대 max_return_pct와 비교하면 edge 손실이 여전히 크다.
 - 다음 단계는 8V8 top을 직접 부모로 삼기보다 V51 core_base/core_rare22_c1에 raw_official_conversion의 일부 로직만 약하게 이식하는 것이다.
 
+22. recent round note: 8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED
+side: long_only
+version_reference: 8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED
+summary_file: local_results/8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED/master_summary.txt
+registry_file: local_results/8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED/8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED_registry.csv
+verdict: no_promotion_trade_density_improved_but_mdd_rise_cancelled_cd_gain
+notes:
+- failed_symbols: 0
+- baseline_candidate_under_mdd5: 8V9_RAWV51_I013_entry_timing_window_r013 | parent 8V4_V51_V002_core_rare22_c1 | group entry_timing_window | trades 1292 | win_rate_pct 52.9412 | final_return_pct 6.3735 | max_return_pct 10.4863 | max_drawdown_pct 4.3852 | official_cd_value 105.640342
+- raw_cd_candidate_any_mdd: same_as_baseline_candidate_under_mdd5
+- candidate_cd_win_mdd_fail: none
+- next: 8V9_RAWV51_I014_entry_timing_window_r014 | trades 1387 | max_return_pct 9.2488 | max_drawdown_pct 4.0206 | official_cd_value 104.857076
+- next: 8V9_RAWV51_I012_entry_timing_window_r012 | trades 1403 | max_return_pct 10.7723 | max_drawdown_pct 5.7564 | official_cd_value 104.392873 | MDD 초과
+- next: 8V9_RAWV51_I054_candle_quality_gate_cq054 | trades 1123 | max_return_pct 8.7562 | max_drawdown_pct 4.2363 | official_cd_value 104.149400
+- next: 8V9_RAWV51_I046_candle_quality_gate_cq046 | trades 1546 | max_return_pct 8.7499 | max_drawdown_pct 5.0119 | official_cd_value 103.299765 | MDD 초과
+- 8V9는 거래 수 제한을 제거하고도 top 후보 거래 수를 1292~1546까지 회복했다.
+- 8V9는 8V8보다 max_return_pct를 9.6311에서 10.4863까지 올렸지만 MDD도 3.5251에서 4.3852로 상승해 official_cd_value는 105.766560에서 105.640342로 소폭 하락했다.
+- 핵심 해석: trade cap 제거 방향은 맞지만, entry_timing_window와 candle_quality_gate만으로는 V51 raw edge를 기준선 초과 수준까지 복원하지 못한다.
+- 다음 단계: 거래 수를 인위적으로 제한하지 않고, V51 raw core에 사후 위험 제어, 손실 군집 회피, exit/hold/stop 조정, 시장 상태 회피를 약하게 결합해야 한다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
