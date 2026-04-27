@@ -1,0 +1,43 @@
+batch=8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED
+cd_value_formula=100 * (1 - abs(max_drawdown_pct)/100) * (1 + max_return_pct/100)
+official_promotion=max_drawdown_pct < 5.0
+strategies=200
+failed_symbols=0
+
+REFERENCE COMPARISON
+mdd5_reference=6V2_L01_doubleflush_core | cd=121.749029 | mdd=1.7512 | max=23.9191
+any_cd_reference=8V4_V51_V002_core_rare22_c1 | cd=134.515867 | mdd=6.7587 | max=44.2664
+top_mdd5_candidate=8V9_RAWV51_I103_raw_dryup_reaccel_r003 | cd=111.836758 | delta_vs_mdd5_ref=-9.912271 | mdd=4.0653 | max=16.5759
+top_any_candidate=8V9_RAWV51_I103_raw_dryup_reaccel_r003 | cd=111.836758 | delta_vs_any_ref=-22.679109 | mdd=4.0653 | max=16.5759
+
+TOP 30
+01. 8V9_RAWV51_I103_raw_dryup_reaccel_r003 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=2210 | win=38.1900 | final=11.8959 | max=16.5759 | mdd=4.0653 | cd=111.836758 | old_ratio_cd=4.0774
+02. 8V9_RAWV51_I119_raw_dryup_reaccel_r019 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=966 | win=41.7184 | final=5.7615 | max=9.4004 | mdd=3.4014 | cd=105.679212 | old_ratio_cd=2.7637
+03. 8V9_RAWV51_I104_raw_dryup_reaccel_r004 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=1078 | win=38.7755 | final=5.0864 | max=7.9713 | mdd=2.7349 | cd=105.018382 | old_ratio_cd=2.9146
+04. 8V9_SAFE6V2_I003_safe_dryup_reaccel_s003 | parent=6V2_L01_doubleflush_core | group=safe_dryup_reaccel | verdict=official_mdd_pass | trades=2651 | win=36.1750 | final=4.6765 | max=9.4480 | mdd=4.4134 | cd=104.617644 | old_ratio_cd=2.1408
+05. 8V9_RAWV51_I126_raw_absorption_mdd_cut_r026 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=2185 | win=38.2151 | final=4.5594 | max=7.7410 | mdd=3.0443 | cd=104.460999 | old_ratio_cd=2.5428
+06. 8V9_RAWV51_I116_raw_dryup_reaccel_r016 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=2152 | win=34.7584 | final=5.6890 | max=8.6828 | mdd=4.1529 | cd=104.169344 | old_ratio_cd=2.0908
+07. 8V9_RAWV51_I142_raw_absorption_mdd_cut_r042 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=1292 | win=44.5820 | final=4.4002 | max=6.2767 | mdd=2.3217 | cd=103.809339 | old_ratio_cd=2.7035
+08. 8V9_SAFE6V2_I043_safe_absorption_floor_s043 | parent=6V2_L01_doubleflush_core | group=safe_absorption_floor | verdict=official_mdd_pass | trades=824 | win=41.0194 | final=3.4457 | max=4.6606 | mdd=1.3454 | cd=103.252556 | old_ratio_cd=3.4642
+09. 8V9_RAWV51_I111_raw_dryup_reaccel_r011 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=2339 | win=39.4186 | final=4.7456 | max=7.8104 | mdd=4.2815 | cd=103.194441 | old_ratio_cd=1.8242
+10. 8V9_SAFE6V2_I028_safe_absorption_floor_s028 | parent=6V2_L01_doubleflush_core | group=safe_absorption_floor | verdict=official_mdd_pass | trades=1025 | win=41.4634 | final=3.3121 | max=5.0412 | mdd=1.9200 | cd=103.024331 | old_ratio_cd=2.6256
+11. 8V9_RAWV51_I127_raw_absorption_mdd_cut_r027 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=1705 | win=36.4809 | final=3.0236 | max=7.1480 | mdd=3.8847 | cd=102.985640 | old_ratio_cd=1.8401
+12. 8V9_SAFE6V2_I027_safe_absorption_floor_s027 | parent=6V2_L01_doubleflush_core | group=safe_absorption_floor | verdict=official_mdd_pass | trades=2310 | win=34.9351 | final=3.6591 | max=7.1633 | mdd=3.9960 | cd=102.881056 | old_ratio_cd=1.7926
+13. 8V9_RAWV51_I112_raw_dryup_reaccel_r012 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=1889 | win=37.9566 | final=3.3500 | max=7.8522 | mdd=4.6514 | cd=102.835468 | old_ratio_cd=1.6881
+14. 8V9_RAWV51_I123_raw_dryup_reaccel_r023 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=965 | win=40.2073 | final=3.0161 | max=6.2430 | mdd=3.3456 | cd=102.688442 | old_ratio_cd=1.8660
+15. 8V9_RAWV51_I107_raw_dryup_reaccel_r007 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=1327 | win=36.8500 | final=2.9569 | max=6.9558 | mdd=4.0145 | cd=102.662130 | old_ratio_cd=1.7327
+16. 8V9_RAWV51_I190_raw_followthrough_runner_r090 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_followthrough_runner | verdict=official_mdd_pass | trades=1218 | win=40.0657 | final=2.5790 | max=7.0812 | mdd=4.2197 | cd=102.562659 | old_ratio_cd=1.6781
+17. 8V9_SAFE6V2_I019_safe_dryup_reaccel_s019 | parent=6V2_L01_doubleflush_core | group=safe_dryup_reaccel | verdict=official_mdd_pass | trades=764 | win=43.8482 | final=2.8312 | max=4.1984 | mdd=1.5985 | cd=102.532745 | old_ratio_cd=2.6264
+18. 8V9_SAFE6V2_I004_safe_dryup_reaccel_s004 | parent=6V2_L01_doubleflush_core | group=safe_dryup_reaccel | verdict=official_mdd_pass | trades=1579 | win=35.0855 | final=2.8444 | max=5.5414 | mdd=2.8860 | cd=102.495481 | old_ratio_cd=1.9201
+19. 8V9_RAWV51_I138_raw_absorption_mdd_cut_r038 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=664 | win=40.0602 | final=3.4811 | max=5.4516 | mdd=2.8143 | cd=102.483893 | old_ratio_cd=1.9371
+20. 8V9_RAWV51_I143_raw_absorption_mdd_cut_r043 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=1039 | win=41.2897 | final=2.4464 | max=5.0560 | mdd=2.4840 | cd=102.446367 | old_ratio_cd=2.0354
+21. 8V9_RAWV51_I108_raw_dryup_reaccel_r008 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=818 | win=39.2421 | final=2.9131 | max=5.8497 | mdd=3.3445 | cd=102.309605 | old_ratio_cd=1.7491
+22. 8V9_RAWV51_I139_raw_absorption_mdd_cut_r039 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=501 | win=40.5190 | final=2.4850 | max=4.3871 | mdd=2.0785 | cd=102.217467 | old_ratio_cd=2.1107
+23. 8V9_SAFE6V2_I042_safe_absorption_floor_s042 | parent=6V2_L01_doubleflush_core | group=safe_absorption_floor | verdict=official_mdd_pass | trades=1372 | win=36.4431 | final=2.7494 | max=5.1831 | mdd=2.8697 | cd=102.164745 | old_ratio_cd=1.8062
+24. 8V9_RAWV51_I124_raw_dryup_reaccel_r024 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=717 | win=41.1437 | final=2.2228 | max=5.0556 | mdd=2.8551 | cd=102.056083 | old_ratio_cd=1.7707
+25. 8V9_SAFE6V2_I023_safe_dryup_reaccel_s023 | parent=6V2_L01_doubleflush_core | group=safe_dryup_reaccel | verdict=official_mdd_pass | trades=1434 | win=41.4226 | final=2.1368 | max=4.3301 | mdd=2.5321 | cd=101.688408 | old_ratio_cd=1.7101
+26. 8V9_RAWV51_I146_raw_absorption_mdd_cut_r046 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=1016 | win=43.5039 | final=2.1556 | max=4.1416 | mdd=2.4886 | cd=101.549916 | old_ratio_cd=1.6642
+27. 8V9_RAWV51_I128_raw_absorption_mdd_cut_r028 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=679 | win=39.3225 | final=1.5083 | max=4.1834 | mdd=2.5698 | cd=101.506091 | old_ratio_cd=1.6279
+28. 8V9_RAWV51_I147_raw_absorption_mdd_cut_r047 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_absorption_mdd_cut | verdict=official_mdd_pass | trades=724 | win=45.4420 | final=1.7338 | max=3.1938 | mdd=1.6534 | cd=101.487633 | old_ratio_cd=1.9317
+29. 8V9_RAWV51_I120_raw_dryup_reaccel_r020 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_dryup_reaccel | verdict=official_mdd_pass | trades=359 | win=41.7827 | final=1.6344 | max=3.5744 | mdd=2.0396 | cd=101.461912 | old_ratio_cd=1.7525
+30. 8V9_RAWV51_I166_raw_shelf_conversion_r066 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_shelf_conversion | verdict=official_mdd_pass | trades=663 | win=42.3831 | final=1.9070 | max=3.8969 | mdd=2.3492 | cd=101.456191 | old_ratio_cd=1.6588
