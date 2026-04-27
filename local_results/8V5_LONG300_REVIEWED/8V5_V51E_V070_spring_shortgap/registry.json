@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V070_spring_shortgap",
+  "side": "long",
+  "description": "v51 edge boost + spring + shortgap",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V5_LONG300_REVIEWED",
+    "strategy_name": "8V5_V51E_V070_spring_shortgap",
+    "side": "long",
+    "description": "v51 edge boost + spring + shortgap",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 13,
+    "wins": 6,
+    "losses": 7,
+    "win_rate_pct": 46.15384615384615,
+    "final_return_pct": -0.15450049549845524,
+    "max_return_pct": 0.1234523266643528,
+    "max_drawdown_pct": 0.27761010602785907,
+    "cd_value": 99.56831830746304,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

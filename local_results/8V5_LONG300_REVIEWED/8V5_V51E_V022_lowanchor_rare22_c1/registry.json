@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V022_lowanchor_rare22_c1",
+  "side": "long",
+  "description": "v51 edge boost + lowanchor + rare22_c1",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V5_LONG300_REVIEWED",
+    "strategy_name": "8V5_V51E_V022_lowanchor_rare22_c1",
+    "side": "long",
+    "description": "v51 edge boost + lowanchor + rare22_c1",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 969,
+    "wins": 425,
+    "losses": 544,
+    "win_rate_pct": 43.859649122807014,
+    "final_return_pct": 12.498311004275852,
+    "max_return_pct": 12.771418740702178,
+    "max_drawdown_pct": 3.3584905346212612,
+    "cd_value": 108.72006587758845,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51P_V070_spring_shortgap",
+  "side": "long",
+  "description": "v51 parameter tuning + spring + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 13,
+  "wins": 6,
+  "losses": 7,
+  "win_rate_pct": 46.15384615384615,
+  "final_return_pct": -0.0982887775500374,
+  "max_return_pct": 0.1842581303321822,
+  "max_drawdown_pct": 0.2820272497448095,
+  "cd_value": 99.61996117384128,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

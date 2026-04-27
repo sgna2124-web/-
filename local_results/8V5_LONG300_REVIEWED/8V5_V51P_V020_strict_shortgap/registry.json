@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51P_V020_strict_shortgap",
+  "side": "long",
+  "description": "v51 parameter tuning + strict + shortgap",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V5_LONG300_REVIEWED",
+    "strategy_name": "8V5_V51P_V020_strict_shortgap",
+    "side": "long",
+    "description": "v51 parameter tuning + strict + shortgap",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 20,
+    "wins": 9,
+    "losses": 11,
+    "win_rate_pct": 45.0,
+    "final_return_pct": -0.15814606974465795,
+    "max_return_pct": 0.16147230580341176,
+    "max_drawdown_pct": 0.319103112394592,
+    "cd_value": 99.52325546689144,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

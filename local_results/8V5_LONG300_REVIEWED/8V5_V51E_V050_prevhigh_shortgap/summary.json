@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V050_prevhigh_shortgap",
+  "side": "long",
+  "description": "v51 edge boost + prevhigh + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 13,
+  "wins": 5,
+  "losses": 8,
+  "win_rate_pct": 38.46153846153847,
+  "final_return_pct": 0.02421740808467021,
+  "max_return_pct": 0.20625460848491262,
+  "max_drawdown_pct": 0.1816625130950933,
+  "cd_value": 99.84251090103744,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

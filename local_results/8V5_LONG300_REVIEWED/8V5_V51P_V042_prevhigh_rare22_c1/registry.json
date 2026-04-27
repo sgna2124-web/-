@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51P_V042_prevhigh_rare22_c1",
+  "side": "long",
+  "description": "v51 parameter tuning + prevhigh + rare22_c1",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V5_LONG300_REVIEWED",
+    "strategy_name": "8V5_V51P_V042_prevhigh_rare22_c1",
+    "side": "long",
+    "description": "v51 parameter tuning + prevhigh + rare22_c1",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 17,
+    "wins": 10,
+    "losses": 7,
+    "win_rate_pct": 58.82352941176471,
+    "final_return_pct": 0.7388013919648939,
+    "max_return_pct": 0.770258556506831,
+    "max_drawdown_pct": 0.07173389290497934,
+    "cd_value": 100.66653752806063,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

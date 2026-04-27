@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V007_core_refire40",
+  "side": "long",
+  "description": "v51 edge boost + core + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 15,
+  "wins": 4,
+  "losses": 11,
+  "win_rate_pct": 26.666666666666668,
+  "final_return_pct": -0.054925094714430855,
+  "max_return_pct": 0.04463281768691818,
+  "max_drawdown_pct": 0.1295231973532207,
+  "cd_value": 99.81562284867117,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

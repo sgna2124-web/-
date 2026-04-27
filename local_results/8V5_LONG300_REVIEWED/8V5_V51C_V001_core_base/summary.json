@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V001_core_base",
+  "side": "long",
+  "description": "v51 mdd cover + core + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 31,
+  "wins": 13,
+  "losses": 18,
+  "win_rate_pct": 41.935483870967744,
+  "final_return_pct": 0.2112695420041888,
+  "max_return_pct": 0.5545315533077133,
+  "max_drawdown_pct": 0.3413690124164592,
+  "cd_value": 99.86917932083865,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

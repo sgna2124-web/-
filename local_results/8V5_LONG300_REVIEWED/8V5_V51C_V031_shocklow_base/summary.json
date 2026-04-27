@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V031_shocklow_base",
+  "side": "long",
+  "description": "v51 mdd cover + shocklow + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1,
+  "wins": 1,
+  "losses": 0,
+  "win_rate_pct": 100.0,
+  "final_return_pct": 0.15145249460248866,
+  "max_return_pct": 0.15145249460248866,
+  "max_drawdown_pct": 0.0,
+  "cd_value": 100.1514524946025,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

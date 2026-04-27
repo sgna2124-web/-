@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V068_spring_softscore",
+  "side": "long",
+  "description": "v51 edge boost + spring + softscore",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 619,
+  "wins": 265,
+  "losses": 354,
+  "win_rate_pct": 42.81098546042003,
+  "final_return_pct": 5.1129431471576225,
+  "max_return_pct": 7.7009981357462065,
+  "max_drawdown_pct": 2.403000003144451,
+  "cd_value": 102.58707912002619,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

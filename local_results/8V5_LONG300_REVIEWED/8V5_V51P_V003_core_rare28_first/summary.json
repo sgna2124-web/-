@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51P_V003_core_rare28_first",
+  "side": "long",
+  "description": "v51 parameter tuning + core + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 476,
+  "wins": 143,
+  "losses": 333,
+  "win_rate_pct": 30.04201680672269,
+  "final_return_pct": -0.9755805293523934,
+  "max_return_pct": 1.1669364048781494,
+  "max_drawdown_pct": 2.2170352241054236,
+  "cd_value": 96.82901321051743,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

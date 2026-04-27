@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V049_prevhigh_microguard",
+  "side": "long",
+  "description": "v51 mdd cover + prevhigh + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 53,
+  "wins": 25,
+  "losses": 28,
+  "win_rate_pct": 47.16981132075472,
+  "final_return_pct": 1.4634479406699707,
+  "max_return_pct": 1.6404053400283392,
+  "max_drawdown_pct": 0.1741014302003019,
+  "cd_value": 101.28679862667474,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

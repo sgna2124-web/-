@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V097_quality_hold_refire40",
+  "side": "long",
+  "description": "v51 mdd cover + quality_hold + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 614,
+  "wins": 263,
+  "losses": 351,
+  "win_rate_pct": 42.83387622149837,
+  "final_return_pct": 4.876312439298314,
+  "max_return_pct": 6.866329067988808,
+  "max_drawdown_pct": 1.9155256214318905,
+  "cd_value": 102.86737980371059,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

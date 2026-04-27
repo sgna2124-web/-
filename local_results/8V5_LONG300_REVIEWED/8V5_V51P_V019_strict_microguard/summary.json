@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51P_V019_strict_microguard",
+  "side": "long",
+  "description": "v51 parameter tuning + strict + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 563,
+  "wins": 263,
+  "losses": 300,
+  "win_rate_pct": 46.714031971580816,
+  "final_return_pct": 11.441168709071237,
+  "max_return_pct": 11.542212620842607,
+  "max_drawdown_pct": 1.6707644809141775,
+  "cd_value": 109.57924924516443,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V021_lowanchor_base",
+  "side": "long",
+  "description": "v51 edge boost + lowanchor + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 72,
+  "wins": 25,
+  "losses": 47,
+  "win_rate_pct": 34.72222222222222,
+  "final_return_pct": 0.5999537455219306,
+  "max_return_pct": 0.5999537455219306,
+  "max_drawdown_pct": 0.40311876681969894,
+  "cd_value": 100.1944164525618,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

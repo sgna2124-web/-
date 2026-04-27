@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V014_strict_vol18",
+  "side": "long",
+  "description": "v51 edge boost + strict + vol18",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V5_LONG300_REVIEWED",
+    "strategy_name": "8V5_V51E_V014_strict_vol18",
+    "side": "long",
+    "description": "v51 edge boost + strict + vol18",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 72,
+    "wins": 25,
+    "losses": 47,
+    "win_rate_pct": 34.72222222222222,
+    "final_return_pct": 0.6391943819378021,
+    "max_return_pct": 0.6391943819378021,
+    "max_drawdown_pct": 0.4058498653837117,
+    "cd_value": 100.23075034701546,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

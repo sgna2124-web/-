@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V037_shocklow_refire40",
+  "side": "long",
+  "description": "v51 edge boost + shocklow + refire40",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V5_LONG300_REVIEWED",
+    "strategy_name": "8V5_V51E_V037_shocklow_refire40",
+    "side": "long",
+    "description": "v51 edge boost + shocklow + refire40",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 620,
+    "wins": 275,
+    "losses": 345,
+    "win_rate_pct": 44.354838709677416,
+    "final_return_pct": 8.170718946797727,
+    "max_return_pct": 8.498947607962638,
+    "max_drawdown_pct": 2.222180549382713,
+    "cd_value": 105.76697027023455,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

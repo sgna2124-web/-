@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V011_strict_base",
+  "side": "long",
+  "description": "v51 edge boost + strict + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 72,
+  "wins": 25,
+  "losses": 47,
+  "win_rate_pct": 34.72222222222222,
+  "final_return_pct": 0.5529326762842235,
+  "max_return_pct": 0.5529326762842235,
+  "max_drawdown_pct": 0.40890393184106477,
+  "cd_value": 100.1417677809894,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

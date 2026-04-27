@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V062_spring_rare22_c1",
+  "side": "long",
+  "description": "v51 edge boost + spring + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 624,
+  "wins": 271,
+  "losses": 353,
+  "win_rate_pct": 43.42948717948718,
+  "final_return_pct": 7.305521969955442,
+  "max_return_pct": 7.699742394718201,
+  "max_drawdown_pct": 2.206353273606798,
+  "cd_value": 104.93798307321048,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

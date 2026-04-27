@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51P_V031_shocklow_base",
+  "side": "long",
+  "description": "v51 parameter tuning + shocklow + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2276,
+  "wins": 1029,
+  "losses": 1247,
+  "win_rate_pct": 45.210896309314585,
+  "final_return_pct": 41.480783862127765,
+  "max_return_pct": 41.979939187593,
+  "max_drawdown_pct": 7.2419009590016685,
+  "cd_value": 131.23488561881325,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

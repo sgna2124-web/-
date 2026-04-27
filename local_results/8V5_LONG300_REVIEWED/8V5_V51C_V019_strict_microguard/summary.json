@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V019_strict_microguard",
+  "side": "long",
+  "description": "v51 mdd cover + strict + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1036,
+  "wins": 485,
+  "losses": 551,
+  "win_rate_pct": 46.81467181467182,
+  "final_return_pct": 17.13276616789554,
+  "max_return_pct": 17.343544648840158,
+  "max_drawdown_pct": 2.037801790563698,
+  "cd_value": 114.74583256158938,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

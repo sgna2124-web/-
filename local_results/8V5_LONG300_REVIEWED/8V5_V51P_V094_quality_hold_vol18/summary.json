@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51P_V094_quality_hold_vol18",
+  "side": "long",
+  "description": "v51 parameter tuning + quality_hold + vol18",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 72,
+  "wins": 26,
+  "losses": 46,
+  "win_rate_pct": 36.11111111111111,
+  "final_return_pct": 0.7013642473226334,
+  "max_return_pct": 0.7013642473226334,
+  "max_drawdown_pct": 0.4085730123899678,
+  "cd_value": 100.28992564989956,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

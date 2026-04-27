@@ -1,0 +1,28 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51P_V067_spring_refire40",
+  "side": "long",
+  "description": "v51 parameter tuning + spring + refire40",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "8V5_LONG300_REVIEWED",
+    "strategy_name": "8V5_V51P_V067_spring_refire40",
+    "side": "long",
+    "description": "v51 parameter tuning + spring + refire40",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 671,
+    "wins": 314,
+    "losses": 357,
+    "win_rate_pct": 46.79582712369598,
+    "final_return_pct": 14.254605244018492,
+    "max_return_pct": 14.417470677130172,
+    "max_drawdown_pct": 1.6221564174148329,
+    "cd_value": 112.40121683286067,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V100_quality_hold_shortgap",
+  "side": "long",
+  "description": "v51 mdd cover + quality_hold + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 19,
+  "wins": 8,
+  "losses": 11,
+  "win_rate_pct": 42.10526315789473,
+  "final_return_pct": -0.11961364841438504,
+  "max_return_pct": 0.20012807890879003,
+  "max_drawdown_pct": 0.3191031123946031,
+  "cd_value": 99.56166493006596,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

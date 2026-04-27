@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V038_shocklow_softscore",
+  "side": "long",
+  "description": "v51 edge boost + shocklow + softscore",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 960,
+  "wins": 420,
+  "losses": 540,
+  "win_rate_pct": 43.75,
+  "final_return_pct": 9.17607558384348,
+  "max_return_pct": 12.832995016205938,
+  "max_drawdown_pct": 3.6170861416242928,
+  "cd_value": 105.227082883931,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V013_strict_rare28_first",
+  "side": "long",
+  "description": "v51 edge boost + strict + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 467,
+  "wins": 138,
+  "losses": 329,
+  "win_rate_pct": 29.550321199143468,
+  "final_return_pct": -1.100651150123455,
+  "max_return_pct": 1.1200751958500677,
+  "max_drawdown_pct": 2.2732737658048507,
+  "cd_value": 96.65109589792048,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

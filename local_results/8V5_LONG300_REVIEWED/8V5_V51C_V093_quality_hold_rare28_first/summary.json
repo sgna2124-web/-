@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V093_quality_hold_rare28_first",
+  "side": "long",
+  "description": "v51 mdd cover + quality_hold + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 12,
+  "wins": 4,
+  "losses": 8,
+  "win_rate_pct": 33.33333333333333,
+  "final_return_pct": -0.02656056874339452,
+  "max_return_pct": 0.016189521455034495,
+  "max_drawdown_pct": 0.0850288448401404,
+  "cd_value": 99.88843317056126,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

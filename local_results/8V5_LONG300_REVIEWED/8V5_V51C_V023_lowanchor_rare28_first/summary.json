@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V023_lowanchor_rare28_first",
+  "side": "long",
+  "description": "v51 mdd cover + lowanchor + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 13,
+  "wins": 3,
+  "losses": 10,
+  "win_rate_pct": 23.076923076923077,
+  "final_return_pct": -0.06196364458632697,
+  "max_return_pct": 0.015204776164101652,
+  "max_drawdown_pct": 0.11750547449599358,
+  "cd_value": 99.82060369159225,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

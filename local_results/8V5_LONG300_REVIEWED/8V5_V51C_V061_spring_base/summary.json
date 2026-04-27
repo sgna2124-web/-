@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51C_V061_spring_base",
+  "side": "long",
+  "description": "v51 mdd cover + spring + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 14,
+  "wins": 6,
+  "losses": 8,
+  "win_rate_pct": 42.857142857142854,
+  "final_return_pct": -0.004161096306876111,
+  "max_return_pct": 0.26009839503013943,
+  "max_drawdown_pct": 0.26357393975000587,
+  "cd_value": 99.7322759315086,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "8V5_LONG300_REVIEWED",
+  "strategy_name": "8V5_V51E_V039_shocklow_microguard",
+  "side": "long",
+  "description": "v51 edge boost + shocklow + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "win_rate_pct": 0.0,
+  "final_return_pct": 0.0,
+  "max_return_pct": 0.0,
+  "max_drawdown_pct": 0.0,
+  "cd_value": 100.0,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}
