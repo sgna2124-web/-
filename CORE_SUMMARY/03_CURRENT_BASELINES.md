@@ -6,21 +6,36 @@
 현재 프로젝트의 공식 판단 기준
 공식 판단 기준은 MDD와 cd_value다.
 현재 프로젝트에서 cd_value의 공식 정의는 다음과 같다.
-cd_value = max_return_pct / max_drawdown_pct
-final_return_pct는 참고 지표다.
+
+cd_value = (base_asset * (1 - (abs(max_drawdown_pct) / 100))) * (1 + (max_return_pct / 100))
+
+기본 base_asset은 100으로 둔다.
+따라서 실무 계산식은 다음과 같다.
+
+cd_value = 100 * (1 - (abs(max_drawdown_pct) / 100)) * (1 + (max_return_pct / 100))
+
+해석:
+1) 기초 자산 100에 MDD를 먼저 적용한다.
+2) MDD 적용 후 남은 자산에 max_return_pct를 적용한다.
+3) final_return_pct는 참고 지표이며 공식 cd_value 계산에 사용하지 않는다.
+4) max_return_pct / max_drawdown_pct 방식은 폐기된 비공식 ratio이며 앞으로 공식 cd_value로 쓰지 않는다.
 
 중요한 주의사항
 현재 기준선 교체 판단은 동일한 프로젝트 규칙을 따른 결과끼리 비교한다.
-즉 신규 전략은 MDD 5% 미만을 먼저 통과해야 하며, 그 다음 cd_value(max_return_pct 기반)를 본다.
+즉 신규 전략은 MDD 5% 미만을 먼저 통과해야 하며, 그 다음 공식 cd_value를 본다.
 거래 수가 0이거나 극단적으로 적은 전략은 cd_value 숫자가 높아 보여도 공식 기준선으로 승격하지 않는다.
 
 legacy 수치 보정
-이전 문서에 기록된 121.5300, 132.7352 같은 값은 legacy_equity_cd_value 성격이 섞여 있을 수 있다.
-공식 cd_value 비교가 필요하면 반드시 max_return_pct / max_drawdown_pct로 재계산한다.
-현재 long 공식 기준선 6V2_L01_doubleflush_core의 공식 ratio는 23.9191 / 1.7512 = 13.6587이다.
+이전 문서에 기록된 official_ratio, current_cd_value_ratio, legacy_equity_cd_value 표기는 혼동 가능성이 있다.
+신규 결과 해석에서는 official_cd_value 또는 cd_value만 사용한다.
+과거 max_return_pct / max_drawdown_pct 값은 비공식 ratio로만 취급한다.
+공식 비교가 필요하면 반드시 사용자 정의 공식 cd_value로 재계산한다.
+현재 long 공식 기준선 6V2_L01_doubleflush_core의 공식 cd_value는 다음과 같다.
+100 * (1 - 0.017512) * (1 + 0.239191) = 121.7490
 
 보조 후보 규칙
-MDD가 5%를 넘더라도 공식 ratio cd_value가 현 공식 long 기준선 13.6587 이상이면 candidate_cd_win_mdd_fail로 기록한다.
+MDD가 5%를 넘더라도 공식 cd_value가 배치 내 전체 1위이면 raw_cd_candidate_any_mdd로 기록한다.
+MDD가 5%를 넘고 공식 cd_value가 현 공식 long 기준선 121.7490 이상이면 candidate_cd_win_mdd_fail로 강하게 표시한다.
 이 표시는 공식 승격이 아니라, 다음 개선 시도의 우선 검토 후보라는 뜻이다.
 
 1. 현재 공식 long-only 기준선
@@ -32,8 +47,7 @@ summary_file: local_results/6V2_LONG10_REVIEWED/6V2_L01_doubleflush_core/summary
 final_return_pct: 23.6961
 max_return_pct: 23.9191
 max_drawdown_pct: 1.7512
-current_cd_value_ratio: 13.6587
-legacy_equity_cd_value: 121.5300
+official_cd_value: 121.7490
 win_rate_pct: 58.1081
 trades: 592
 status: official_long_reference
@@ -47,6 +61,7 @@ legacy_final_return_pct: 311.5456
 legacy_mdd_pct: 4.7589
 legacy_cd_value: 391.9606
 status: official_short_reference
+note: short 기준선은 max_return_pct 미기록 legacy이므로 추후 max_return_pct 확보 시 사용자 정의 공식 cd_value로 재계산한다.
 
 3. 직전 long 기준선 보관
 strategy_name: long_hybrid_wick_bridge_halfhalf
@@ -56,6 +71,7 @@ legacy_final_return_pct: 9.9603
 legacy_mdd_pct: 1.0456
 legacy_cd_value: 108.8106
 status: archived_previous_long_reference
+note: legacy reference. max_return_pct 미기록이면 공식 cd_value 재계산 전까지 직접 비교에 쓰지 않는다.
 
 4. mixed historical reference
 strategy_name: official_top200_reference
@@ -66,8 +82,8 @@ status: archive_reference_only
 
 5. 최근 상태 메모
 6V2_LONG10_REVIEWED에서 long 공식 기준선이 처음 교체되었다.
-- 1위: 6V2_L01_doubleflush_core | final_return_pct 23.6961 | max_return_pct 23.9191 | max_drawdown_pct 1.7512 | official_ratio 13.6587 | legacy_equity_cd_value 121.5300 | trades 592
-- 2위: 6V2_L04_doubleflush_extremeclose | final_return_pct 19.2086 | max_return_pct 19.4782 | max_drawdown_pct 1.0102 | official_ratio 19.2815 | legacy_equity_cd_value 118.0043 | trades 442
+- 1위: 6V2_L01_doubleflush_core | final_return_pct 23.6961 | max_return_pct 23.9191 | max_drawdown_pct 1.7512 | official_cd_value 121.7490 | trades 592
+- 2위: 6V2_L04_doubleflush_extremeclose | final_return_pct 19.2086 | max_return_pct 19.4782 | max_drawdown_pct 1.0102 | official_cd_value 118.2701 | trades 442
 
 6V3~6V5에서는 기준선 교체가 없었다.
 핵심 학습은 다음과 같았다.
@@ -78,51 +94,57 @@ status: archive_reference_only
 7V1에서는 신규 reversal family의 raw upside가 처음 확인되었다.
 하지만 broad same-bar reversal은 MDD와 거래 수가 함께 커졌다.
 
-7V2에서는 신규 family가 제한형 구조에서도 실제로 110대 legacy cd까지 올라왔다.
-- MDD<5 최고: 7V2_L09_V09_beartrap_extreme_synergy | final_return_pct 15.8330 | max_return_pct 16.0180 | max_drawdown_pct 2.5330 | legacy_cd_value 112.8990 | trades 730
-- 다음: 7V2_L07_V08_wick_closedrive | final_return_pct 15.3392 | max_return_pct 15.7100 | max_drawdown_pct 3.3512 | legacy_cd_value 111.4740 | trades 1439
+7V2에서는 신규 family가 제한형 구조에서도 실제로 110대 official_cd_value 영역에 도달했다.
+- MDD<5 최고: 7V2_L09_V09_beartrap_extreme_synergy | final_return_pct 15.8330 | max_return_pct 16.0180 | max_drawdown_pct 2.5330 | official_cd_value 113.0790 | trades 730
+- 다음: 7V2_L07_V08_wick_closedrive | final_return_pct 15.3392 | max_return_pct 15.7100 | max_drawdown_pct 3.3512 | official_cd_value 111.8318 | trades 1439
 이로써 L09 beartrap family가 1순위, L07 wick family가 2순위로 굳어졌다.
 
 7V3에서도 기준선 교체는 없었다.
-- MDD<5 최고: 7V3_L09_V02_beartrap_extreme_synergy | final_return_pct 15.8330 | max_return_pct 16.0180 | max_drawdown_pct 2.5330 | legacy_cd_value 112.8990 | trades 730
-- 다음: 7V3_L07_V02_wick_drive_reclaim | final_return_pct 15.6410 | max_return_pct 16.0068 | max_drawdown_pct 3.2136 | legacy_cd_value 111.9247 | trades 1443
+- MDD<5 최고: 7V3_L09_V02_beartrap_extreme_synergy | final_return_pct 15.8330 | max_return_pct 16.0180 | max_drawdown_pct 2.5330 | official_cd_value 113.0790 | trades 730
+- 다음: 7V3_L07_V02_wick_drive_reclaim | final_return_pct 15.6410 | max_return_pct 16.0068 | max_drawdown_pct 3.2136 | official_cd_value 112.2790 | trades 1443
 - 7V3에서는 속도 개선 구조가 실제 성과로 확인되어, 공통 feature/raw를 심볼당 한 번만 계산하는 실행 구조를 유지하기로 했다.
 
 7V4에서도 공식 기준선 교체는 없었다.
-- candidate_cd_win_mdd_fail 1위: 7V4_L09_V09_beartrap_cluster_pressure | final_return_pct 41.1544 | max_return_pct 42.1291 | max_drawdown_pct 11.2133 | legacy_cd_value 125.3264 | trades 6863
-- candidate_cd_win_mdd_fail 2위: 7V4_L09_V03_beartrap_lowanchor_drive | final_return_pct 39.3617 | max_return_pct 40.1602 | max_drawdown_pct 11.9139 | legacy_cd_value 122.7583 | trades 7664
-- MDD<5 최고: 7V4_L09_V02_beartrap_extreme_synergy | final_return_pct 15.8330 | max_return_pct 16.0180 | max_drawdown_pct 2.5330 | legacy_cd_value 112.8990 | trades 730
-- 다음: 7V4_L07_V02_wick_drive_reclaim | final_return_pct 15.6410 | max_return_pct 16.0068 | max_drawdown_pct 3.2136 | legacy_cd_value 111.9247 | trades 1443
+- raw_cd_candidate_any_mdd: 7V4_L09_V09_beartrap_cluster_pressure | final_return_pct 41.1544 | max_return_pct 42.1291 | max_drawdown_pct 11.2133 | official_cd_value 126.1899 | trades 6863
+- next: 7V4_L09_V03_beartrap_lowanchor_drive | final_return_pct 39.3617 | max_return_pct 40.1602 | max_drawdown_pct 11.9139 | official_cd_value 123.4597 | trades 7664
+- MDD<5 최고: 7V4_L09_V02_beartrap_extreme_synergy | final_return_pct 15.8330 | max_return_pct 16.0180 | max_drawdown_pct 2.5330 | official_cd_value 113.0790 | trades 730
+- 다음: 7V4_L07_V02_wick_drive_reclaim | final_return_pct 15.6410 | max_return_pct 16.0068 | max_drawdown_pct 3.2136 | official_cd_value 112.2790 | trades 1443
 해석은 명확하다. L09 family 안에는 높은 잠재력의 개선 후보가 존재한다. 다만 MDD를 충분히 낮추지 못해 아직 공식 승격은 아니다.
 
 8V1, 8V2에서는 완전히 새로운 family를 각각 50개, 100개씩 시도했지만 새로운 엣지를 만들지 못했다.
-- 8V1 최고: 8V1_L25_V01_washout_squeeze_release | legacy_cd_value 101.0640
-- 8V2 최고: 8V2_L31_V01_core_relaunch | legacy_cd_value 101.2929
+- 8V1 최고: 8V1_L25_V01_washout_squeeze_release | official_cd_value 101.0942
+- 8V2 최고: 8V2_L31_V01_core_relaunch | official_cd_value 101.3869
 따라서 long 주력 개발은 다시 L09/L07 중심으로 회귀했다.
 
 8V3에서는 L09/L07 회귀가 성공했다.
-- batch best candidate_cd_win_mdd_fail: 8V3_L09_V51_microbase_pop | final_return_pct 41.5097 | max_return_pct 42.0017 | max_drawdown_pct 6.3144 | legacy_cd_value 132.5742 | trades 2277
-- best under MDD<5: 8V3_L09_V41_exhaustion_recover | final_return_pct 19.4175 | max_return_pct 19.7022 | max_drawdown_pct 3.0952 | legacy_cd_value 115.7213 | trades 1126
+- batch best raw_cd_candidate_any_mdd: 8V3_L09_V51_microbase_pop | final_return_pct 41.5097 | max_return_pct 42.0017 | max_drawdown_pct 6.3144 | official_cd_value 133.0351 | trades 2277
+- best under MDD<5: 8V3_L09_V41_exhaustion_recover | final_return_pct 19.4175 | max_return_pct 19.7022 | max_drawdown_pct 3.0952 | official_cd_value 115.9970 | trades 1126
 즉 새 family 탐색이 아니라 L09 상위 후보들의 MDD를 5% 아래로 더 끌어내리는 단계로 전환되었다.
 
 8V4에서는 이 방향이 더 강화되었다.
-- batch best candidate_cd_win_mdd_fail: 8V4_V51_V002_core_rare22_c1 | final_return_pct 43.6673 | max_return_pct 44.2664 | max_drawdown_pct 6.7587 | official_ratio 6.5481 | legacy_cd_value 133.9572 | trades 2276
-- next: 8V4_V51_V001_core_base | final_return_pct 43.2929 | max_return_pct 43.8091 | max_drawdown_pct 6.7547 | official_ratio 6.4857 | legacy_cd_value 133.6139 | trades 2277
-- best under MDD<5 overall: 8V4_V51_V022_lowanchor_rare22_c1 | final_return_pct 21.2903 | max_return_pct 21.5445 | max_drawdown_pct 3.0752 | official_ratio 7.0059 | legacy_cd_value 117.5603 | trades 1040
+- batch best candidate_cd_win_mdd_fail: 8V4_V51_V002_core_rare22_c1 | final_return_pct 43.6673 | max_return_pct 44.2664 | max_drawdown_pct 6.7587 | official_cd_value 134.5127 | trades 2276
+- next: 8V4_V51_V001_core_base | final_return_pct 43.2929 | max_return_pct 43.8091 | max_drawdown_pct 6.7547 | official_cd_value 134.0880 | trades 2277
+- best under MDD<5 overall: 8V4_V51_V022_lowanchor_rare22_c1 | final_return_pct 21.2903 | max_return_pct 21.5445 | max_drawdown_pct 3.0752 | official_cd_value 117.8073 | trades 1040
 해석은 명확하다. 이제 L09 내부에서도 V51 microbase_pop 계열이 최우선 코어다.
 
 8V5에서는 V51만 300개를 세 그룹으로 확장했다.
-- batch best candidate_cd_win_mdd_fail: 8V5_V51P_V002_core_rare22_c1 | final_return_pct 41.6763 | max_return_pct 42.1517 | max_drawdown_pct 6.3109 | official_ratio 6.6792 | legacy_cd_value 132.7352 | trades 2277
-- next: 8V5_V51P_V001_core_base | final_return_pct 41.0096 | max_return_pct 41.4900 | max_drawdown_pct 6.2801 | official_ratio 6.6066 | legacy_cd_value 132.1541 | trades 2277
-- best under MDD<5 overall: 8V5_V51P_V012_strict_rare22_c1 | final_return_pct 19.5333 | max_return_pct 19.7596 | max_drawdown_pct 2.7359 | official_ratio 7.2223 | legacy_cd_value 116.2630 | trades 1040
-- next under MDD<5: 8V5_V51P_V011_strict_base | final_return_pct 19.1976 | max_return_pct 19.4241 | max_drawdown_pct 2.6505 | official_ratio 7.3285 | legacy_cd_value 116.0383 | trades 1040
-해석은 명확하다. 8V5는 V51 top candidate의 MDD를 8V4의 6.75대에서 6.28~6.31대로 실제 개선하는 데 성공했다. 반면 MDD<5 최고권은 8V4의 legacy 117.5603보다 약간 낮은 legacy 116.2630에 그쳤다. 즉 top candidate 접근은 진전했지만 safe branch는 소폭 후퇴했다.
+- batch best candidate_cd_win_mdd_fail: 8V5_V51P_V002_core_rare22_c1 | final_return_pct 41.6763 | max_return_pct 42.1517 | max_drawdown_pct 6.3109 | official_cd_value 133.1863 | trades 2277
+- next: 8V5_V51P_V001_core_base | final_return_pct 41.0096 | max_return_pct 41.4900 | max_drawdown_pct 6.2801 | official_cd_value 132.6036 | trades 2277
+- best under MDD<5 overall: 8V5_V51P_V012_strict_rare22_c1 | final_return_pct 19.5333 | max_return_pct 19.7596 | max_drawdown_pct 2.7359 | official_cd_value 116.4858 | trades 1040
+- next under MDD<5: 8V5_V51P_V011_strict_base | final_return_pct 19.1976 | max_return_pct 19.4241 | max_drawdown_pct 2.6505 | official_cd_value 116.2586 | trades 1040
+해석은 명확하다. 8V5는 V51 top candidate의 MDD를 8V4의 6.75대에서 6.28~6.31대로 실제 개선하는 데 성공했다. 반면 MDD<5 최고권은 8V4의 official_cd_value 117.8073보다 약간 낮은 116.4858에 그쳤다. 즉 top candidate 접근은 진전했지만 safe branch는 소폭 후퇴했다.
 
 8V6에서는 8V5 상위 3개를 각 100개씩 개선했다.
-- batch best: 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V001_core_base | final_return_pct 3.0599 | max_return_pct 5.2510 | max_drawdown_pct 2.1312 | official_ratio 2.4639 | legacy_equity_cd_value 100.8636 | trades 652
-- next: 8V6_P2_CORE_BASE_I050_mdd_compress_mdd15 | parent 8V5_V51P_V001_core_base | final_return_pct 2.2944 | max_return_pct 3.7822 | max_drawdown_pct 1.5658 | official_ratio 2.4155 | legacy_equity_cd_value 100.6927 | trades 501
-- next: 8V6_P3_SHOCKLOW_RARE22_C1_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V032_shocklow_rare22_c1 | final_return_pct 2.7986 | max_return_pct 5.1129 | max_drawdown_pct 2.2018 | official_ratio 2.3222 | legacy_equity_cd_value 100.5352 | trades 666
+- batch best: 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V001_core_base | final_return_pct 3.0599 | max_return_pct 5.2510 | max_drawdown_pct 2.1312 | official_cd_value 103.0070 | trades 652
+- next: 8V6_P2_CORE_BASE_I050_mdd_compress_mdd15 | parent 8V5_V51P_V001_core_base | final_return_pct 2.2944 | max_return_pct 3.7822 | max_drawdown_pct 1.5658 | official_cd_value 102.1572 | trades 501
+- next: 8V6_P3_SHOCKLOW_RARE22_C1_I088_hybrid_cover_hyb18 | parent 8V5_V51P_V032_shocklow_rare22_c1 | final_return_pct 2.7986 | max_return_pct 5.1129 | max_drawdown_pct 2.2018 | official_cd_value 102.7978 | trades 666
 해석은 명확하다. 8V6는 MDD 압축에는 성공했지만 V51의 raw edge를 과도하게 잘라냈다. 공식 MDD 조건은 통과했으나 max_return_pct가 3~5%대로 낮아져 공식 승격 후보가 아니다. 다음 단계는 진입 희소화가 아니라 core edge 보존형 drawdown brake와 exit/hold/stop 재조정이다.
+
+8V7에서는 8V6 후보를 200개 개선했다.
+- batch best: 8V7_AB_BEST_I070_post_loss_brake_plb20 | final_return_pct 1.1655 | max_return_pct 1.3290 | max_drawdown_pct 0.2122 | official_cd_value 101.1140 | trades 93
+- next: 8V7_AB_BEST_I068_post_loss_brake_plb18 | max_return_pct 1.2213 | max_drawdown_pct 0.2154 | official_cd_value 101.0032 | trades 104
+- next: 8V7_AB_BEST_I193_soft_safe_mix_ssm13 | max_return_pct 0.9030 | max_drawdown_pct 0.1729 | official_cd_value 100.7285 | trades 96
+해석은 명확하다. 8V7은 MDD를 극단적으로 낮췄지만, trades와 max_return_pct가 완전히 죽었다. post_loss_brake와 soft_safe_mix는 부분 모듈로는 재사용 가능하지만, 8V6처럼 이미 희소화된 후보 위에 얹으면 raw edge가 사라진다.
 
 6. 현재 우선순위
 1) V51 core_base / core_rare22_c1의 edge 보존형 MDD 압축
@@ -137,5 +159,5 @@ status: archive_reference_only
 7. 승격 규칙
 신규 long 전략은 1번 기준선과 비교한다.
 신규 short 전략은 2번 기준선과 비교한다.
-새 전략 결과에는 최소한 final_return_pct, max_return_pct, max_drawdown_pct, cd_value, result_path가 포함되어야 한다.
+새 전략 결과에는 최소한 final_return_pct, max_return_pct, max_drawdown_pct, official_cd_value, result_path가 포함되어야 한다.
 현재 공식 1위를 교체하려면 challenger와 incumbent가 동일 계산 규칙으로 비교 가능해야 한다.

@@ -202,6 +202,23 @@ notes:
 - 핵심 해석: V51 문제를 진입 희소화와 강한 전단 필터로 해결하려 하면 MDD보다 edge가 먼저 죽는다.
 - 다음 단계: core_base/core_rare22_c1의 진입 밀도를 최대한 유지하면서 사후 브레이크, 손실 군집 회피, exit/hold/stop 재조정으로 MDD를 낮춰야 한다.
 
+20. recent round note: 8V7_AB_BEST_200_FROM_8V6_CANDIDATE
+side: long_only
+version_reference: 8V7_AB_BEST_200_FROM_8V6_CANDIDATE
+summary_file: local_results/8V7_AB_BEST_200_FROM_8V6_CANDIDATE/master_summary.txt
+registry_file: local_results/8V7_AB_BEST_200_FROM_8V6_CANDIDATE/8V7_AB_BEST_200_FROM_8V6_CANDIDATE_registry.csv
+verdict: no_promotion_more_mdd_compression_but_edge_destroyed
+notes:
+- failed_symbols: 0
+- baseline_candidate_under_mdd5: 8V7_AB_BEST_I070_post_loss_brake_plb20 | parent 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | group post_loss_brake | trades 93 | win_rate_pct 60.2151 | final_return_pct 1.1655 | max_return_pct 1.3290 | max_drawdown_pct 0.2122 | cd_value 6.261968 | legacy_cd 100.9508
+- raw_cd_candidate_any_mdd: same_as_baseline_candidate_under_mdd5
+- candidate_cd_win_mdd_fail: none
+- next: 8V7_AB_BEST_I068_post_loss_brake_plb18 | trades 104 | max_return_pct 1.2213 | max_drawdown_pct 0.2154 | cd_value 5.669132
+- next: 8V7_AB_BEST_I193_soft_safe_mix_ssm13 | trades 96 | max_return_pct 0.9030 | max_drawdown_pct 0.1729 | cd_value 5.222699
+- 8V7은 MDD를 0.15~0.42% 수준까지 더 낮추었지만, max_return_pct가 0.7~1.8% 수준으로 붕괴했다.
+- post_loss_brake와 soft_safe_mix는 손실 군집 차단 도구로 유효하지만, 이미 희소화된 8V6 후보 위에 얹으면 edge가 완전히 죽는다.
+- 다음 단계는 8V7 top 전략을 부모로 삼지 않고, 8V5 core_base/core_rare22_c1로 되돌아가 post_loss_brake를 가벼운 부분 브레이크로만 이식하는 것이다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
