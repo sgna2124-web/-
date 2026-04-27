@@ -102,18 +102,26 @@ status: archive_reference_only
 8V4에서는 이 방향이 더 강화되었다.
 - batch best candidate_cd_win_mdd_fail: 8V4_V51_V002_core_rare22_c1 | final_return_pct 43.6673 | max_return_pct 44.2664 | max_drawdown_pct 6.7587 | cd_value 133.9572 | trades 2276
 - next: 8V4_V51_V001_core_base | final_return_pct 43.2929 | max_return_pct 43.8091 | max_drawdown_pct 6.7547 | cd_value 133.6139 | trades 2277
-- next: 8V4_V51_V032_shocklow_rare22_c1 | final_return_pct 42.0892 | max_return_pct 42.6508 | max_drawdown_pct 6.7352 | cd_value 132.5192 | trades 2275
-- next: 8V4_V51_V031_shocklow_base | final_return_pct 41.7279 | max_return_pct 42.2024 | max_drawdown_pct 6.7353 | cd_value 132.1821 | trades 2276
 - best under MDD<5 overall: 8V4_V51_V022_lowanchor_rare22_c1 | final_return_pct 21.2903 | max_return_pct 21.5445 | max_drawdown_pct 3.0752 | cd_value 117.5603 | trades 1040
-- next under MDD<5: 8V4_V51_V021_lowanchor_base | final_return_pct 20.9035 | max_return_pct 21.1577 | max_drawdown_pct 3.1165 | cd_value 117.1355 | trades 1040
-해석은 명확하다. 이제 L09 내부에서도 V51 microbase_pop 계열이 최우선 코어다. raw/cd는 이미 기준선을 크게 넘었고, 공식 후보군도 117대까지 올라왔다. 남은 과제는 V51의 MDD를 6.7대에서 5 아래로 더 내리는 것이다.
+해석은 명확하다. 이제 L09 내부에서도 V51 microbase_pop 계열이 최우선 코어다.
+
+8V5에서는 V51만 300개를 세 그룹으로 확장했다.
+- batch best candidate_cd_win_mdd_fail: 8V5_V51P_V002_core_rare22_c1 | final_return_pct 41.6763 | max_return_pct 42.1517 | max_drawdown_pct 6.3109 | cd_value 132.7352 | trades 2277
+- next: 8V5_V51P_V001_core_base | final_return_pct 41.0096 | max_return_pct 41.4900 | max_drawdown_pct 6.2801 | cd_value 132.1541 | trades 2277
+- best under MDD<5 overall: 8V5_V51P_V012_strict_rare22_c1 | final_return_pct 19.5333 | max_return_pct 19.7596 | max_drawdown_pct 2.7359 | cd_value 116.2630 | trades 1040
+- next under MDD<5: 8V5_V51P_V011_strict_base | final_return_pct 19.1976 | max_return_pct 19.4241 | max_drawdown_pct 2.6505 | cd_value 116.0383 | trades 1040
+해석은 명확하다. 8V5는 V51 top candidate의 MDD를 8V4의 6.75대에서 6.28~6.31대로 실제 개선하는 데 성공했다. 반면 MDD<5 최고권은 8V4의 117.5603보다 약간 낮은 116.2630에 그쳤다. 즉 top candidate 접근은 진전했지만 safe branch는 소폭 후퇴했다.
+현재 최우선 과제는 V51 core_base/core_rare22_c1의 MDD를 5 아래로 더 내리고, strict/lowanchor의 MDD<5 후보군 cd를 다시 121.53 이상으로 끌어올리는 것이다.
 
 6. 현재 우선순위
-1) V51 microbase_pop family
-2) V28 refire_block family
-3) V09 cluster/shocklow family
-4) V27 failed_break_pivot family
-5) L07 wick family
+1) V51 core_base / core_rare22_c1
+2) V51 strict_base / strict_rare22_c1
+3) V51 lowanchor_base / lowanchor_rare22_c1
+4) V51 shocklow_base / shocklow_rare22_c1
+5) V28 refire_block family
+6) V09 cluster/shocklow family
+7) V27 failed_break_pivot family
+8) L07 wick family
 
 7. 승격 규칙
 신규 long 전략은 1번 기준선과 비교한다.
