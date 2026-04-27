@@ -1,0 +1,37 @@
+batch=8V8_LONG_DUAL_BEST_200_UNTRIED
+cd_value_formula=max_return_pct / max_drawdown_pct
+official_promotion=max_drawdown_pct < 5.0
+strategies=200
+failed_symbols=0
+
+TOP 30
+01. 8V8_RAWV51_I080_raw_official_conversion_r080 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_official_conversion | verdict=official_mdd_pass | trades=1027 | win=52.6777 | final=6.0489 | max=9.6311 | mdd=3.5251 | cd=105.766560 | old_ratio_cd=2.7322
+02. 8V8_RAWV51_I090_raw_official_conversion_r090 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_official_conversion | verdict=official_mdd_pass | trades=584 | win=51.3699 | final=5.3096 | max=7.7293 | mdd=2.5052 | cd=105.030527 | old_ratio_cd=3.0854
+03. 8V8_SAFE6V2_I040_safe_dd_brake_s040 | parent=6V2_L01_doubleflush_core | group=safe_dd_brake | verdict=official_mdd_pass | trades=1110 | win=42.7027 | final=4.3342 | max=6.4903 | mdd=2.3197 | cd=104.020008 | old_ratio_cd=2.7979
+04. 8V8_RAWV51_I100_raw_official_conversion_r100 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_official_conversion | verdict=official_mdd_pass | trades=675 | win=49.7778 | final=4.1693 | max=6.5341 | mdd=2.7078 | cd=103.649405 | old_ratio_cd=2.4131
+05. 8V8_RAWV51_I004_raw_cluster_cover_r004 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_cluster_cover | verdict=official_mdd_pass | trades=1324 | win=47.4320 | final=3.7615 | max=7.1702 | mdd=3.3138 | cd=103.618780 | old_ratio_cd=2.1637
+06. 8V8_SAFE6V2_I050_safe_dd_brake_s050 | parent=6V2_L01_doubleflush_core | group=safe_dd_brake | verdict=official_mdd_pass | trades=1181 | win=44.0305 | final=3.8916 | max=6.5359 | mdd=2.8681 | cd=103.480343 | old_ratio_cd=2.2788
+07. 8V8_SAFE6V2_I015_safe_density_release_s015 | parent=6V2_L01_doubleflush_core | group=safe_density_release | verdict=official_mdd_pass | trades=1097 | win=44.0292 | final=3.6869 | max=5.9422 | mdd=2.4769 | cd=103.318078 | old_ratio_cd=2.3990
+08. 8V8_RAWV51_I014_raw_cluster_cover_r014 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_cluster_cover | verdict=official_mdd_pass | trades=342 | win=59.3567 | final=3.9129 | max=4.1771 | mdd=0.8309 | cd=103.311525 | old_ratio_cd=5.0274
+09. 8V8_SAFE6V2_I005_safe_density_release_s005 | parent=6V2_L01_doubleflush_core | group=safe_density_release | verdict=official_mdd_pass | trades=1502 | win=43.6751 | final=3.6431 | max=6.8454 | mdd=3.4352 | cd=103.175041 | old_ratio_cd=1.9927
+10. 8V8_SAFE6V2_I055_safe_reclaim_quality_s055 | parent=6V2_L01_doubleflush_core | group=safe_reclaim_quality | verdict=official_mdd_pass | trades=1502 | win=43.6751 | final=3.6431 | max=6.8454 | mdd=3.4352 | cd=103.175041 | old_ratio_cd=1.9927
+11. 8V8_SAFE6V2_I025_safe_density_release_s025 | parent=6V2_L01_doubleflush_core | group=safe_density_release | verdict=official_mdd_pass | trades=551 | win=41.7423 | final=3.2862 | max=4.3382 | mdd=1.1324 | cd=103.156601 | old_ratio_cd=3.8308
+12. 8V8_RAWV51_I089_raw_official_conversion_r089 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_official_conversion | verdict=official_mdd_pass | trades=308 | win=54.8701 | final=3.4029 | max=3.6689 | mdd=0.6855 | cd=102.958171 | old_ratio_cd=5.3517
+13. 8V8_RAWV51_I041_raw_safe_graft_r041 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_safe_graft | verdict=official_mdd_pass | trades=1468 | win=40.3270 | final=3.1732 | max=6.1624 | mdd=3.0484 | cd=102.926137 | old_ratio_cd=2.0215
+14. 8V8_SAFE6V2_I075_safe_reclaim_quality_s075 | parent=6V2_L01_doubleflush_core | group=safe_reclaim_quality | verdict=official_mdd_pass | trades=551 | win=45.1906 | final=2.9719 | max=4.0278 | mdd=1.1375 | cd=102.844468 | old_ratio_cd=3.5409
+15. 8V8_SAFE6V2_I030_safe_dd_brake_s030 | parent=6V2_L01_doubleflush_core | group=safe_dd_brake | verdict=official_mdd_pass | trades=1629 | win=43.5850 | final=3.1756 | max=6.7146 | mdd=3.8088 | cd=102.650032 | old_ratio_cd=1.7629
+16. 8V8_RAWV51_I027_raw_safe_graft_r027 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_safe_graft | verdict=official_mdd_pass | trades=2282 | win=46.7134 | final=3.3563 | max=6.7847 | mdd=3.8885 | cd=102.632441 | old_ratio_cd=1.7448
+17. 8V8_SAFE6V2_I054_safe_reclaim_quality_s054 | parent=6V2_L01_doubleflush_core | group=safe_reclaim_quality | verdict=official_mdd_pass | trades=1646 | win=44.4107 | final=3.0320 | max=6.3357 | mdd=3.6853 | cd=102.416923 | old_ratio_cd=1.7192
+18. 8V8_RAWV51_I012_raw_cluster_cover_r012 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_cluster_cover | verdict=official_mdd_pass | trades=2178 | win=45.9137 | final=3.2226 | max=6.2588 | mdd=3.6315 | cd=102.400033 | old_ratio_cd=1.7235
+19. 8V8_SAFE6V2_I014_safe_density_release_s014 | parent=6V2_L01_doubleflush_core | group=safe_density_release | verdict=official_mdd_pass | trades=1518 | win=43.4783 | final=2.8092 | max=5.5482 | mdd=2.9982 | cd=102.383645 | old_ratio_cd=1.8505
+20. 8V8_RAWV51_I039_raw_safe_graft_r039 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_safe_graft | verdict=official_mdd_pass | trades=238 | win=57.9832 | final=2.5423 | max=3.0848 | mdd=0.7070 | cd=102.355978 | old_ratio_cd=4.3630
+21. 8V8_SAFE6V2_I024_safe_density_release_s024 | parent=6V2_L01_doubleflush_core | group=safe_density_release | verdict=official_mdd_pass | trades=900 | win=43.8889 | final=2.6818 | max=3.8719 | mdd=1.5387 | cd=102.273690 | old_ratio_cd=2.5164
+22. 8V8_SAFE6V2_I045_safe_dd_brake_s045 | parent=6V2_L01_doubleflush_core | group=safe_dd_brake | verdict=official_mdd_pass | trades=519 | win=40.6551 | final=2.5017 | max=3.3836 | mdd=1.0834 | cd=102.263518 | old_ratio_cd=3.1231
+23. 8V8_SAFE6V2_I070_safe_reclaim_quality_s070 | parent=6V2_L01_doubleflush_core | group=safe_reclaim_quality | verdict=official_mdd_pass | trades=516 | win=45.5426 | final=2.5229 | max=3.2644 | mdd=1.0164 | cd=102.214820 | old_ratio_cd=3.2118
+24. 8V8_SAFE6V2_I035_safe_dd_brake_s035 | parent=6V2_L01_doubleflush_core | group=safe_dd_brake | verdict=official_mdd_pass | trades=853 | win=39.7421 | final=2.5377 | max=3.9184 | mdd=1.6609 | cd=102.192378 | old_ratio_cd=2.3592
+25. 8V8_RAWV51_I042_raw_safe_graft_r042 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_safe_graft | verdict=official_mdd_pass | trades=508 | win=44.8819 | final=2.2736 | max=3.4356 | mdd=1.2286 | cd=102.164854 | old_ratio_cd=2.7965
+26. 8V8_SAFE6V2_I013_safe_density_release_s013 | parent=6V2_L01_doubleflush_core | group=safe_density_release | verdict=official_mdd_pass | trades=1714 | win=43.4656 | final=2.7925 | max=5.6076 | mdd=3.2711 | cd=102.153104 | old_ratio_cd=1.7143
+27. 8V8_SAFE6V2_I021_safe_density_release_s021 | parent=6V2_L01_doubleflush_core | group=safe_density_release | verdict=official_mdd_pass | trades=1736 | win=49.1935 | final=2.8529 | max=3.6003 | mdd=1.4019 | cd=102.147950 | old_ratio_cd=2.5682
+28. 8V8_RAWV51_I040_raw_safe_graft_r040 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_safe_graft | verdict=official_mdd_pass | trades=167 | win=55.0898 | final=2.2320 | max=2.9117 | mdd=0.7832 | cd=102.105707 | old_ratio_cd=3.7176
+29. 8V8_RAWV51_I043_raw_safe_graft_r043 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_safe_graft | verdict=official_mdd_pass | trades=485 | win=45.1546 | final=2.0849 | max=3.9965 | mdd=1.8381 | cd=102.084864 | old_ratio_cd=2.1742
+30. 8V8_RAWV51_I079_raw_official_conversion_r079 | parent=8V4_V51_V002_core_rare22_c1 | group=raw_official_conversion | verdict=official_mdd_pass | trades=1093 | win=47.9414 | final=2.3339 | max=4.6702 | mdd=2.5300 | cd=102.022098 | old_ratio_cd=1.8460
