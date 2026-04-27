@@ -1,0 +1,37 @@
+batch=8V6_TOP3_300_FROM_8V5_WINDOWS_SAFE_V3
+cd_value_formula=max_return_pct / max_drawdown_pct
+official_promotion=max_drawdown_pct < 5.0
+strategies=300
+failed_symbols=0
+
+TOP 30
+01. 8V6_P2_CORE_BASE_I088_hybrid_cover_hyb18 | parent=8V5_V51P_V001_core_base | group=hybrid_cover | verdict=official_mdd_pass | trades=652 | win=43.7117 | final=3.0599 | max=5.2510 | mdd=2.1312 | cd=2.463921 | legacy_cd=100.8636
+02. 8V6_P2_CORE_BASE_I050_mdd_compress_mdd15 | parent=8V5_V51P_V001_core_base | group=mdd_compress | verdict=official_mdd_pass | trades=501 | win=47.9042 | final=2.2944 | max=3.7822 | mdd=1.5658 | cd=2.415487 | legacy_cd=100.6927
+03. 8V6_P3_SHOCKLOW_RARE22_C1_I088_hybrid_cover_hyb18 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=hybrid_cover | verdict=official_mdd_pass | trades=666 | win=43.0931 | final=2.7986 | max=5.1129 | mdd=2.2018 | cd=2.322179 | legacy_cd=100.5352
+04. 8V6_P1_CORE_RARE22_C1_I088_hybrid_cover_hyb18 | parent=8V5_V51P_V002_core_rare22_c1 | group=hybrid_cover | verdict=official_mdd_pass | trades=668 | win=42.6647 | final=2.6855 | max=4.9854 | mdd=2.1985 | cd=2.267695 | legacy_cd=100.4280
+05. 8V6_P3_SHOCKLOW_RARE22_C1_I050_mdd_compress_mdd15 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=514 | win=47.2763 | final=2.1172 | max=3.6256 | mdd=1.6221 | cd=2.235118 | legacy_cd=100.4608
+06. 8V6_P1_CORE_RARE22_C1_I050_mdd_compress_mdd15 | parent=8V5_V51P_V002_core_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=515 | win=47.1845 | final=2.0743 | max=3.6256 | mdd=1.6635 | cd=2.179510 | legacy_cd=100.3763
+07. 8V6_P3_SHOCKLOW_RARE22_C1_I055_mdd_compress_mdd20 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=659 | win=46.5857 | final=2.2595 | max=4.6020 | mdd=2.2621 | cd=2.034386 | legacy_cd=99.9462
+08. 8V6_P1_CORE_RARE22_C1_I055_mdd_compress_mdd20 | parent=8V5_V51P_V002_core_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=661 | win=46.5961 | final=2.2228 | max=4.6085 | mdd=2.3032 | cd=2.000875 | legacy_cd=99.8683
+09. 8V6_P1_CORE_RARE22_C1_I070_mdd_compress_mdd35 | parent=8V5_V51P_V002_core_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=469 | win=48.6141 | final=1.4039 | max=2.7643 | mdd=1.4296 | cd=1.933630 | legacy_cd=99.9543
+10. 8V6_P2_CORE_BASE_I055_mdd_compress_mdd20 | parent=8V5_V51P_V001_core_base | group=mdd_compress | verdict=official_mdd_pass | trades=651 | win=46.5438 | final=2.1628 | max=4.4518 | mdd=2.3096 | cd=1.927535 | legacy_cd=99.8033
+11. 8V6_P1_CORE_RARE22_C1_I100_hybrid_cover_hyb30 | parent=8V5_V51P_V002_core_rare22_c1 | group=hybrid_cover | verdict=official_mdd_pass | trades=823 | win=49.4532 | final=2.3565 | max=5.1993 | mdd=2.7579 | cd=1.885231 | legacy_cd=99.5336
+12. 8V6_P2_CORE_BASE_I065_mdd_compress_mdd30 | parent=8V5_V51P_V001_core_base | group=mdd_compress | verdict=official_mdd_pass | trades=885 | win=46.1017 | final=2.6501 | max=5.6145 | mdd=3.0112 | cd=1.864510 | legacy_cd=99.5591
+13. 8V6_P3_SHOCKLOW_RARE22_C1_I100_hybrid_cover_hyb30 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=hybrid_cover | verdict=official_mdd_pass | trades=822 | win=49.3917 | final=2.2886 | max=5.1295 | mdd=2.7579 | cd=1.859928 | legacy_cd=99.4676
+14. 8V6_P3_SHOCKLOW_RARE22_C1_I083_hybrid_cover_hyb13 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=hybrid_cover | verdict=official_mdd_pass | trades=2077 | win=45.1613 | final=4.0964 | max=8.0463 | mdd=4.3344 | cd=1.856378 | legacy_cd=99.5844
+15. 8V6_P1_CORE_RARE22_C1_I083_hybrid_cover_hyb13 | parent=8V5_V51P_V002_core_rare22_c1 | group=hybrid_cover | verdict=official_mdd_pass | trades=2085 | win=45.1799 | final=4.1988 | max=8.2273 | mdd=4.4420 | cd=1.852143 | legacy_cd=99.5703
+16. 8V6_P2_CORE_BASE_I083_hybrid_cover_hyb13 | parent=8V5_V51P_V001_core_base | group=hybrid_cover | verdict=official_mdd_pass | trades=2004 | win=45.7086 | final=4.4992 | max=8.0602 | mdd=4.3692 | cd=1.844769 | legacy_cd=99.9335
+17. 8V6_P2_CORE_BASE_I045_mdd_compress_mdd10 | parent=8V5_V51P_V001_core_base | group=mdd_compress | verdict=official_mdd_pass | trades=436 | win=52.7523 | final=1.4263 | max=2.7067 | mdd=1.4914 | cd=1.814856 | legacy_cd=99.9136
+18. 8V6_P3_SHOCKLOW_RARE22_C1_I045_mdd_compress_mdd10 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=440 | win=51.8182 | final=1.2978 | max=2.7408 | mdd=1.5445 | cd=1.774519 | legacy_cd=99.7332
+19. 8V6_P3_SHOCKLOW_RARE22_C1_I021_edge_preserve_edge21 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=edge_preserve | verdict=official_mdd_pass | trades=2696 | win=40.6528 | final=3.7782 | max=8.7057 | mdd=4.9282 | cd=1.766513 | legacy_cd=98.6639
+20. 8V6_P2_CORE_BASE_I087_hybrid_cover_hyb17 | parent=8V5_V51P_V001_core_base | group=hybrid_cover | verdict=official_mdd_pass | trades=739 | win=36.4005 | final=1.5801 | max=3.7847 | mdd=2.1485 | cd=1.761506 | legacy_cd=99.3976
+21. 8V6_P1_CORE_RARE22_C1_I065_mdd_compress_mdd30 | parent=8V5_V51P_V002_core_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=896 | win=45.5357 | final=2.4065 | max=5.4792 | mdd=3.1186 | cd=1.756925 | legacy_cd=99.2129
+22. 8V6_P2_CORE_BASE_I100_hybrid_cover_hyb30 | parent=8V5_V51P_V001_core_base | group=hybrid_cover | verdict=official_mdd_pass | trades=792 | win=49.2424 | final=2.0637 | max=5.0709 | mdd=2.9176 | cd=1.738020 | legacy_cd=99.0858
+23. 8V6_P3_SHOCKLOW_RARE22_C1_I065_mdd_compress_mdd30 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=893 | win=45.4647 | final=2.3311 | max=5.3736 | mdd=3.0930 | cd=1.737339 | legacy_cd=99.1660
+24. 8V6_P1_CORE_RARE22_C1_I045_mdd_compress_mdd10 | parent=8V5_V51P_V002_core_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=472 | win=51.2712 | final=1.3031 | max=2.9859 | mdd=1.7354 | cd=1.720574 | legacy_cd=99.5450
+25. 8V6_P1_CORE_RARE22_C1_I060_mdd_compress_mdd25 | parent=8V5_V51P_V002_core_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=859 | win=47.2643 | final=1.6869 | max=4.5588 | mdd=2.8797 | cd=1.583089 | legacy_cd=98.7587
+26. 8V6_P3_SHOCKLOW_RARE22_C1_I060_mdd_compress_mdd25 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=858 | win=47.2028 | final=1.6641 | max=4.5353 | mdd=2.8797 | cd=1.574944 | legacy_cd=98.7365
+27. 8V6_P3_SHOCKLOW_RARE22_C1_I087_hybrid_cover_hyb17 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=hybrid_cover | verdict=official_mdd_pass | trades=756 | win=35.8466 | final=1.2607 | max=3.6952 | mdd=2.3477 | cd=1.573922 | legacy_cd=98.8833
+28. 8V6_P3_SHOCKLOW_RARE22_C1_I070_mdd_compress_mdd35 | parent=8V5_V51P_V032_shocklow_rare22_c1 | group=mdd_compress | verdict=official_mdd_pass | trades=256 | win=45.3125 | final=0.4853 | max=1.1415 | mdd=0.7431 | cd=1.536032 | legacy_cd=99.7386
+29. 8V6_P2_CORE_BASE_I060_mdd_compress_mdd25 | parent=8V5_V51P_V001_core_base | group=mdd_compress | verdict=official_mdd_pass | trades=825 | win=47.5152 | final=1.6956 | max=4.3468 | mdd=2.8380 | cd=1.531637 | legacy_cd=98.8095
+30. 8V6_P1_CORE_RARE22_C1_I087_hybrid_cover_hyb17 | parent=8V5_V51P_V002_core_rare22_c1 | group=hybrid_cover | verdict=official_mdd_pass | trades=758 | win=35.3562 | final=1.1492 | max=3.5671 | mdd=2.3347 | cd=1.527892 | legacy_cd=98.7877
