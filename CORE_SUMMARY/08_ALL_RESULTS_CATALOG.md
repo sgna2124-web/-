@@ -257,6 +257,22 @@ notes:
 - 핵심 해석: trade cap 제거 방향은 맞지만, entry_timing_window와 candle_quality_gate만으로는 V51 raw edge를 기준선 초과 수준까지 복원하지 못한다.
 - 다음 단계: 거래 수를 인위적으로 제한하지 않고, V51 raw core에 사후 위험 제어, 손실 군집 회피, exit/hold/stop 조정, 시장 상태 회피를 약하게 결합해야 한다.
 
+23. recent round note: 8V10_LONG_DUAL_LEADERS_400_NEW_NO_TRADE_CAP
+side: long_only
+version_reference: 8V10_LONG_DUAL_LEADERS_400_NEW_NO_TRADE_CAP
+summary_file: local_results/8V10_LONG_DUAL_LEADERS_400_NEW_NO_TRADE_CAP/master_summary.txt
+verdict: no_promotion_big_improvement_but_6v2_still_not_exceeded
+notes:
+- failed_symbols: 0
+- baseline_candidate_under_mdd5: 8V10_B_ANYCD_I013_I376_b_rescue_mix_b176 | parent 8V9_RAWV51_I013_entry_timing_window_r013 | group b_rescue_mix | trades 1714 | win_rate_pct 38.7981 | final_return_pct 15.7815 | max_return_pct 20.9416 | max_drawdown_pct 4.4791 | official_cd_value 115.524476
+- raw_cd_candidate_any_mdd: 8V10_B_ANYCD_I013_I302_b_trend_runner_b102 | parent 8V9_RAWV51_I013_entry_timing_window_r013 | group b_trend_runner | trades 1263 | win_rate_pct 46.9517 | final_return_pct 20.0025 | max_return_pct 26.3362 | max_drawdown_pct 5.6679 | official_cd_value 119.175585 | MDD 초과
+- official long reference remains 6V2_L01_doubleflush_core | max_return_pct 23.9191 | max_drawdown_pct 1.7512 | official_cd_value 121.7490
+- 8V10은 8V8/8V9의 105대 cd_value 정체를 115.524476까지 끌어올렸다.
+- MDD<5 1위는 거래 수 1714로 거래 밀도도 좋고 max_return_pct도 20.9416까지 회복했다.
+- MDD 무관 1위는 max_return_pct 26.3362와 cd_value 119.175585로 기준선에 근접했지만 MDD 5.6679로 승격 실패.
+- 다음 후보 A는 8V10_B_ANYCD_I013_I376_b_rescue_mix_b176, 후보 B는 8V10_B_ANYCD_I013_I302_b_trend_runner_b102.
+- 다음 라운드는 A의 max_return_pct를 23~26%로 올리거나, B의 MDD를 4.9 이하로 압축하는 방향이다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
