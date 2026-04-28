@@ -291,6 +291,26 @@ notes:
 - short 개선군은 trades 2~38 수준으로 극단적으로 적어 기준 후보로 삼지 않는다.
 - 다음 라운드는 8V10 후보 A b_rescue_mix와 후보 B b_trend_runner를 중심으로 하고, 8V11 lx_deep_absorb/lx_trend_repair는 보조 모듈로만 혼합한다.
 
+25. recent round note: 8V12_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP
+side: long_and_short
+version_reference: 8V12_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP
+summary_file: local_results/8V12_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP/master_summary.txt
+addendum_file: CORE_SUMMARY/34_8V12_LONG_SHORT_MAIN_MAX_400_ADDENDUM.md
+verdict: no_promotion_mdd_compression_or_density_recovery_but_below_8v10_short_invalid_low_trades
+notes:
+- failed_symbols: 0
+- long_mdd5_cd_1: long_max_v1_55_lx12_second_leg_absorption_lx12_2_14 | parent 8V4_V51_V002_core_rare22_c1 | group lx12_second_leg_absorption | trades 849 | win_rate_pct 43.2273 | final_return_pct 5.7941 | max_return_pct 7.0913 | max_drawdown_pct 1.2955 | official_cd_value 105.703904
+- long_any_cd_1: long_max_v1_1_lx12_range_expansion_runner_lx12_0_00 | parent 8V4_V51_V002_core_rare22_c1 | group lx12_range_expansion_runner | trades 5737 | max_return_pct 17.3243 | max_drawdown_pct 7.5061 | official_cd_value 108.517839 | MDD 초과
+- short_mdd5_cd_1: short_max_v1_25_sx12_pullback_continuation_sx12_1_04 | parent short_only_reference_1x | group sx12_pullback_continuation | trades 3 | max_return_pct 0.0304 | max_drawdown_pct 0.0077 | official_cd_value 100.022693 | low_trade_invalid
+- short_any_cd_1: same_as_short_mdd5_cd_1 | low_trade_invalid
+- baseline change check: long_main_v1 beat False, long_max_v1 beat False, short_main_v1 beat False, short_max_v1 beat False.
+- 8V12는 기준선 갱신 실패다.
+- 8V12 long top은 8V11 long top 114.028108 및 8V10 A 115.524476보다 낮다.
+- lx12_second_leg_absorption은 MDD 압축 보조 모듈로 보관한다.
+- lx12_range_expansion_runner는 거래 밀도/수익률 회복 보조 모듈로 보관한다.
+- short 개선군은 trades 3 수준으로 검증 불능이므로 부모 후보로 쓰지 않는다.
+- 다음 라운드는 8V10 후보 A b_rescue_mix와 후보 B b_trend_runner를 중심으로 하고, 8V12 모듈은 hard filter가 아니라 부분 brake/점수 보정/exit-hold 조정으로만 혼합한다.
+
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
 공식 1위가 바뀌면 verdict와 notes를 즉시 갱신한다.
