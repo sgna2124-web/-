@@ -241,7 +241,7 @@ notes:
 side: long_only
 version_reference: 8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED
 summary_file: local_results/8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED/master_summary.txt
-registry_file: local_results/8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED/8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED_registry.csv
+registry_file: local_results/8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED_registry.csv
 verdict: no_promotion_trade_density_improved_but_mdd_rise_cancelled_cd_gain
 notes:
 - failed_symbols: 0
@@ -272,6 +272,24 @@ notes:
 - MDD 무관 1위는 max_return_pct 26.3362와 cd_value 119.175585로 기준선에 근접했지만 MDD 5.6679로 승격 실패.
 - 다음 후보 A는 8V10_B_ANYCD_I013_I376_b_rescue_mix_b176, 후보 B는 8V10_B_ANYCD_I013_I302_b_trend_runner_b102.
 - 다음 라운드는 A의 max_return_pct를 23~26%로 올리거나, B의 MDD를 4.9 이하로 압축하는 방향이다.
+
+24. recent round note: 8V11_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP
+side: long_and_short
+version_reference: 8V11_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP
+summary_file: local_results/8V11_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP/master_summary.txt
+addendum_file: CORE_SUMMARY/33_8V11_LONG_SHORT_MAIN_MAX_400_ADDENDUM.md
+verdict: no_promotion_long_safe_below_8v10_short_failed_by_low_trade_count
+notes:
+- failed_symbols: 0
+- long_mdd5_cd_1: long_max_v1_51_lx_deep_absorb_lx051 | parent 8V4_V51_V002_core_rare22_c1 | group lx_deep_absorb | trades 1024 | win_rate_pct 47.5586 | final_return_pct 14.0480 | max_return_pct 18.2706 | max_drawdown_pct 3.5871 | official_cd_value 114.028108
+- long_any_cd_1: same_as_long_mdd5_cd_1
+- short_mdd5_cd_1: short_max_v1_87_sx_vol_reversal_sx087 | parent short_only_reference_1x | group sx_vol_reversal | trades 6 | win_rate_pct 16.6667 | final_return_pct 0.3790 | max_return_pct 0.3800 | max_drawdown_pct 0.0554 | official_cd_value 100.324360
+- short_any_cd_1: same_as_short_mdd5_cd_1
+- baseline change check: long_main_v1 beat False, long_max_v1 beat False, short_main_v1 beat False, short_max_v1 beat False.
+- 8V11 long top은 8V8/8V9보다는 낫지만 8V10 MDD<5 1위 115.524476보다 낮고, 공식 long 기준선 121.749029를 넘지 못했다.
+- lx_deep_absorb는 MDD 압축 모듈로 보관하되 단독 심화 우선순위는 낮춘다.
+- short 개선군은 trades 2~38 수준으로 극단적으로 적어 기준 후보로 삼지 않는다.
+- 다음 라운드는 8V10 후보 A b_rescue_mix와 후보 B b_trend_runner를 중심으로 하고, 8V11 lx_deep_absorb/lx_trend_repair는 보조 모듈로만 혼합한다.
 
 후속 규칙
 새 전략 결과를 업로드하면 이 형식대로 항목을 추가한다.
