@@ -1,0 +1,5 @@
+﻿bucket,strategy_name,side,status,decision,anomaly_fragility_score,trades_used,total_pnl,positive_pnl,negative_pnl,top_1pct_profit_share,top_5pct_profit_share,shock_profit_share,nonshock_pf,adverse_shock_loss_ratio,directional_shock_bias,notes
+long_main,6V2_L01_doubleflush_core,long,INSUFFICIENT_EVENT_DATA,NO_SCORE,,0,,,,,,,,,,거래별 exit_time/pnl 이벤트 파일을 찾지 못함. 400개 백테스트는 실행하지 않음.
+long_max,8V4_V51_V002_core_rare22_c1,long,INSUFFICIENT_EVENT_DATA,NO_SCORE,,0,,,,,,,,,,거래별 exit_time/pnl 이벤트 파일을 찾지 못함. 400개 백테스트는 실행하지 않음.
+short_main,short_beh_dd_brake,short,INSUFFICIENT_EVENT_DATA,NO_SCORE,,0,,,,,,,,,,거래별 exit_time/pnl 이벤트 파일을 찾지 못함. 400개 백테스트는 실행하지 않음.
+short_max,short_only_reference_1x,short,INSUFFICIENT_EVENT_DATA,NO_SCORE,,0,,,,,,,,,,거래별 exit_time/pnl 이벤트 파일을 찾지 못함. 400개 백테스트는 실행하지 않음.
