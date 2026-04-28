@@ -91,5 +91,65 @@ cd_value = 100 * (1 - 0.10) * (1 + 0.10) = 99
 개선 후보 = MDD 5% 미만 중 official_cd_value 1위 + MDD 관계없는 전체 official_cd_value 1위
 candidate_cd_win_mdd_fail = official_cd_value는 공식 기준선보다 높지만 MDD 5%를 초과한 전략
 
+10. main / max 기준선 별칭 및 버전 표기 규칙
+앞으로 long/short 개선은 main과 max 두 축으로 관리한다.
+main은 MDD 5% 미만 중 cd_value 1위인 공식 기준선이다.
+max는 MDD와 관계없는 전체 cd_value 1위인 raw 개선 기준선이다.
+
+현재 기준선 별칭은 다음과 같이 고정한다.
+long_main_v1 = 6V2_L01_doubleflush_core
+- 의미: 롱 공식 기준선
+- 조건: MDD 5% 미만 중 cd_value 1위
+- max_return_pct: 23.9191
+- max_drawdown_pct: 1.7512
+- cd_value: 121.7490
+
+long_max_v1 = 8V4_V51_V002_core_rare22_c1
+- 의미: 롱 raw 개선 후보 기준선
+- 조건: MDD 무관 롱 cd_value 1위
+- max_return_pct: 44.2664
+- max_drawdown_pct: 6.7587
+- cd_value: 약 134.5172
+
+short_main_v1 = short_beh_dd_brake
+- 의미: 숏 공식 기준선
+- 조건: MDD 5% 미만 중 cd_value 1위
+- max_return_pct: 311.8122
+- max_drawdown_pct: 4.7589
+- cd_value: 약 392.2145
+
+short_max_v1 = short_only_reference_1x
+- 의미: 숏 raw 개선 후보 기준선
+- 조건: MDD 무관 1x 숏 cd_value 1위
+- max_return_pct: 394.6145
+- max_drawdown_pct: 7.7792
+- cd_value: 약 456.1372
+- note: 10x 실험 short_only_leverage_10x는 숫자상 cd_value가 더 높지만 fail/레버리지 실험 성격이므로 공식 short_max 기준선에서 제외한다.
+
+개선안 이름 표기법은 다음과 같이 고정한다.
+long_main_v(기준선버전)_(개선안버전)_(전략명)
+long_max_v(기준선버전)_(개선안버전)_(전략명)
+short_main_v(기준선버전)_(개선안버전)_(전략명)
+short_max_v(기준선버전)_(개선안버전)_(전략명)
+
+예시:
+long_main_v1_1_rescue_mix
+long_main_v1_2_trend_runner_brake
+long_max_v1_1_raw_mdd_compress
+short_main_v1_1_dd_brake_refine
+short_max_v1_1_reference_mdd_compress
+
+버전 상승 규칙:
+1) 기준선 자체가 유지되는 상태에서 개선 실험을 이어가면 마지막 개선안 버전만 올린다.
+   예: long_main_v1_1, long_main_v1_2, long_main_v1_3
+2) main 기준선을 넘어서는 전략이 나오면 해당 축의 기준선 버전을 v2로 승격한다.
+   예: long_main_v2 = 신규 공식 long 기준선
+3) max 기준선을 넘어서는 전략이 나오면 해당 축의 기준선 버전을 v2로 승격한다.
+   예: long_max_v2 = 신규 long raw cd_value 기준선
+4) 이후 기준선이 다시 올라갈 때마다 v3, v4, v5 순서로 올린다.
+5) main과 max는 서로 독립적으로 승격한다. long_main_v2가 나와도 long_max는 그대로 v1일 수 있고, 반대도 가능하다.
+6) long과 short도 독립적으로 관리한다.
+7) 공식 승격은 여전히 MDD 5% 미만 조건을 통과해야 한다. max 기준선은 MDD 초과도 허용하되, raw 개선 축으로만 쓴다.
+
 이 규칙은 즉시 고정 규칙으로 적용한다.
 앞으로 max_return_pct / max_drawdown_pct는 공식 cd_value로 쓰지 않는다.
