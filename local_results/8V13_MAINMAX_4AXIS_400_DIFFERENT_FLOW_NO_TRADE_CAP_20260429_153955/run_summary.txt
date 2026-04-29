@@ -1,0 +1,19 @@
+batch_label: 8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP
+data_dir: C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+output_dir: C:\Users\user\Desktop\LCD\파이썬\local_results\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955
+symbols: 597
+processed: 597
+errors: 0
+position_fraction: 0.01
+fee_rate_per_side: 0.0004
+
+axis leaders:
+- long_main reference long_main_v1 cd=121.749029
+  best_any_mdd long_main_v1_053_lm13_failed_break_reclaim_02 cd=93.924096 max_ret=0.2703 mdd=6.3291 trades=3994 candidate_cd_win_mdd_fail=False
+- long_max reference long_max_v1 cd=134.515867
+  best_any_mdd long_max_v1_050_lx13_breakout_pullback_gate_24 cd=84.639659 max_ret=0.0000 mdd=15.3603 trades=4219 candidate_cd_win_mdd_fail=False
+- short_main reference short_main_v1 cd=392.214469
+  best_under_mdd5 short_main_v1_010_sm13_exhaustion_snapback_09 cd=99.715193 max_ret=0.1064 mdd=0.3908 trades=231
+  best_any_mdd short_main_v1_010_sm13_exhaustion_snapback_09 cd=99.715193 max_ret=0.1064 mdd=0.3908 trades=231 candidate_cd_win_mdd_fail=False
+- short_max reference short_max_v1 cd=456.137449
+  best_any_mdd short_max_v1_075_sx13_upperwick_distribution_24 cd=99.233229 max_ret=10.8091 mdd=10.4467 trades=8478 candidate_cd_win_mdd_fail=False
