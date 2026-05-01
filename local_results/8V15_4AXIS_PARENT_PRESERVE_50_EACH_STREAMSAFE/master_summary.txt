@@ -1,0 +1,60 @@
+8V15_4AXIS_PARENT_PRESERVE_50_EACH_STREAMSAFE
+
+reference baselines
+long_main=6V2_L01_doubleflush_core cd=121.7490287208
+long_max=8V4_V51_V002_core_rare22_c1 cd=134.5158668232
+short_main=short_beh_dd_brake cd=392.214469
+short_max=short_only_reference_1x cd=456.137449
+
+axis candidates
+[long_main] MDD<5 best
+none
+[long_main] any-MDD best
+none
+
+[long_max] MDD<5 best
+none
+[long_max] any-MDD best
+none
+
+[short_main] MDD<5 best
+none
+[short_main] any-MDD best
+{"strategy": "8V15_short_main_024_s52_wick_guard", "side": "short", "axis": "short_main", "parent": "short_beh_dd_brake", "group": "parent_preserve_short_beh_dd_brake", "entry": "sm_parent_v52_overextension_reversion_dd_brake", "trades": 21020, "wins": 7663, "losses": 13357, "win_rate_pct": 36.455756422454805, "final_return_pct": -46.283759069687804, "max_return_pct": 0.0, "max_drawdown_pct": 94.35272943586914, "official_cd_value": 5.647270564130869, "parent_baseline_trades": 28017, "parent_trade_ratio": 0.7502587714601849, "name": "8V15_short_main_024_s52_wick_guard", "quality_tag": "s52_wick_guard", "dev_long": 0.0, "dev_short": 0.0345, "rsi_long_max": 0.0, "rsi_short_min": 80.0, "stop_atr": 1.945, "rr": 6.3, "hold": 200, "cooldown": 6, "atrp_min": 0.0021, "atrp_max": 0.07799999999999999, "range20_max": 0.256, "vol_min": 1.02, "body_min": 0.09, "close_pos_long_min": 0.0, "close_pos_short_max": 0.755, "wick_min": 1.25, "ret3_floor": -1.0, "ret5_floor": -1.0, "ret10_floor": -1.0, "ret20_floor": -1.0, "ret3_ceil": 0.11399999999999999, "ret5_ceil": 0.157, "ret10_ceil": 0.22, "ret20_ceil": 0.39, "trend_required": false, "reclaim_required": false, "anchor_required": true, "breakout_bonus": 0.0, "absorb_bonus": 0.0, "be_r": 1.4000000000000001, "trail_r": 2.21, "trail_atr": 1.79, "fail_bars": 11, "fail_pnl": -0.91, "post_loss_after": 3, "post_loss_bars": 23, "sym_dd_pct": 0.048, "sym_dd_bars": 7, "shock_lb": 10, "shock_ret5": 0.126, "shock_range": 0.152, "shock_close_pos": 0.92}
+
+[short_max] MDD<5 best
+none
+[short_max] any-MDD best
+{"strategy": "8V15_short_max_024_s42_wick_guard", "side": "short", "axis": "short_max", "parent": "short_only_reference_1x", "group": "parent_preserve_short_reference_1x", "entry": "sx_parent_v42_overextension_reversion_reference", "trades": 26208, "wins": 9536, "losses": 16672, "win_rate_pct": 36.385836385836384, "final_return_pct": -50.285056603354604, "max_return_pct": 0.0, "max_drawdown_pct": 97.2993909322182, "official_cd_value": 2.7006090677818007, "parent_baseline_trades": 36505, "parent_trade_ratio": 0.7179290508149568, "name": "8V15_short_max_024_s42_wick_guard", "quality_tag": "s42_wick_guard", "dev_long": 0.0, "dev_short": 0.0335, "rsi_long_max": 0.0, "rsi_short_min": 79.0, "stop_atr": 1.965, "rr": 6.449999999999999, "hold": 210, "cooldown": 6, "atrp_min": 0.002, "atrp_max": 0.08399999999999999, "range20_max": 0.27199999999999996, "vol_min": 0.98, "body_min": 0.07899999999999999, "close_pos_long_min": 0.0, "close_pos_short_max": 0.79, "wick_min": 1.15, "ret3_floor": -1.0, "ret5_floor": -1.0, "ret10_floor": -1.0, "ret20_floor": -1.0, "ret3_ceil": 0.119, "ret5_ceil": 0.162, "ret10_ceil": 0.23, "ret20_ceil": 0.40499999999999997, "trend_required": false, "reclaim_required": false, "anchor_required": true, "breakout_bonus": 0.0, "absorb_bonus": 0.0, "be_r": 1.44, "trail_r": 2.26, "trail_atr": 1.84, "fail_bars": 11, "fail_pnl": -0.94, "post_loss_after": 3, "post_loss_bars": 23, "sym_dd_pct": 0.064, "sym_dd_bars": 7, "shock_lb": 10, "shock_ret5": 0.131, "shock_range": 0.157, "shock_close_pos": 0.93}
+
+top30 overall
+1. 8V15_long_main_001_base_keep | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+2. 8V15_long_main_002_extremeclose | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+3. 8V15_long_main_003_lowanchor | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+4. 8V15_long_main_004_soft_rare22 | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+5. 8V15_long_main_005_mdd_brake | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+6. 8V15_long_main_006_wick_quality | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+7. 8V15_long_main_007_ema_reclaim | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+8. 8V15_long_main_008_vol_confirm | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+9. 8V15_long_main_009_thin_trail | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+10. 8V15_long_main_010_hold_trim | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+11. 8V15_long_main_011_base_keep | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+12. 8V15_long_main_012_extremeclose | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+13. 8V15_long_main_013_lowanchor | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+14. 8V15_long_main_014_soft_rare22 | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+15. 8V15_long_main_015_mdd_brake | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+16. 8V15_long_main_016_wick_quality | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+17. 8V15_long_main_017_ema_reclaim | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+18. 8V15_long_main_018_vol_confirm | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+19. 8V15_long_main_019_thin_trail | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+20. 8V15_long_main_020_hold_trim | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+21. 8V15_long_main_021_base_keep | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+22. 8V15_long_main_022_extremeclose | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+23. 8V15_long_main_023_lowanchor | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+24. 8V15_long_main_024_soft_rare22 | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+25. 8V15_long_main_025_mdd_brake | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+26. 8V15_long_main_026_wick_quality | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+27. 8V15_long_main_027_ema_reclaim | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+28. 8V15_long_main_028_vol_confirm | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+29. 8V15_long_main_029_thin_trail | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
+30. 8V15_long_main_030_hold_trim | axis=long_main | side=long | trades=0 | parent_ratio=0.000 | max_return=0.000000 | mdd=0.000000 | cd=100.000000
