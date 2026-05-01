@@ -1,0 +1,60 @@
+8V14_4AXIS_50_EACH_STREAMSAFE
+
+reference baselines
+long_main=6V2_L01_doubleflush_core cd=121.7490287208
+long_max=8V4_V51_V002_core_rare22_c1 cd=134.5158668232
+short_main=short_beh_dd_brake cd=392.214469
+short_max=short_only_reference_1x cd=456.137449
+
+axis candidates
+[long_main] MDD<5 best
+none
+[long_main] any-MDD best
+{"strategy": "8V14_long_main_v1_040_lm_return_lift", "side": "long", "axis": "long_main", "parent": "6V2_L01_doubleflush_core", "group": "lm_return_lift", "entry": "long_return_lift", "trades": 106453, "wins": 27992, "losses": 78461, "win_rate_pct": 26.295172517449018, "final_return_pct": -92.34342204614534, "max_return_pct": 0.0, "max_drawdown_pct": 98.59367220811868, "official_cd_value": 1.4063277918813233, "name": "8V14_long_main_v1_040_lm_return_lift", "stop_atr": 1.25, "rr": 2.25, "hold": 27, "cooldown": 16, "atrp_min": 0.0037, "atrp_max": 0.068, "range20_max": 0.232, "vol_min": 1.075, "body_min": 0.16, "close_pos_long_min": 0.605, "close_pos_short_max": 0.4, "wick_min": 0.6000000000000001, "ret3_floor": -0.068, "ret5_floor": -0.10200000000000001, "ret10_floor": -0.15, "ret20_floor": -0.19, "ret3_ceil": 0.2, "ret5_ceil": 0.26, "ret10_ceil": 0.32, "ret20_ceil": 0.42, "trend_required": true, "reclaim_required": true, "anchor_required": true, "breakout_bonus": 0.38, "absorb_bonus": 0.36, "be_r": 1.14, "trail_r": 1.44, "trail_atr": 1.7200000000000002, "fail_bars": 8, "fail_pnl": -0.67, "post_loss_after": 3, "post_loss_bars": 22, "sym_dd_pct": 0.204, "sym_dd_bars": 32, "shock_lb": 9, "shock_ret5": -0.044, "shock_range": 0.098, "shock_close_pos": 0.28}
+
+[long_max] MDD<5 best
+none
+[long_max] any-MDD best
+{"strategy": "8V14_long_max_v1_026_lx_dd_compress", "side": "long", "axis": "long_max", "parent": "8V4_V51_V002_core_rare22_c1", "group": "lx_dd_compress", "entry": "long_dd_compress", "trades": 290854, "wins": 44965, "losses": 245889, "win_rate_pct": 15.45964642054089, "final_return_pct": -99.83422081711272, "max_return_pct": 0.0, "max_drawdown_pct": 99.97957180386871, "official_cd_value": 0.02042819613129465, "name": "8V14_long_max_v1_026_lx_dd_compress", "stop_atr": 1.05, "rr": 1.9, "hold": 21, "cooldown": 16, "atrp_min": 0.0031, "atrp_max": 0.0475, "range20_max": 0.18, "vol_min": 1.295, "body_min": 0.265, "close_pos_long_min": 0.71, "close_pos_short_max": 0.31, "wick_min": 0.4, "ret3_floor": -0.056, "ret5_floor": -0.086, "ret10_floor": -0.13, "ret20_floor": -0.21, "ret3_ceil": 0.2, "ret5_ceil": 0.26, "ret10_ceil": 0.32, "ret20_ceil": 0.42, "trend_required": false, "reclaim_required": true, "anchor_required": true, "breakout_bonus": 0.22, "absorb_bonus": 0.26, "be_r": 0.82, "trail_r": 1.1, "trail_atr": 1.45, "fail_bars": 6, "fail_pnl": -1.03, "post_loss_after": 3, "post_loss_bars": 10, "sym_dd_pct": 0.22000000000000003, "sym_dd_bars": 28, "shock_lb": 9, "shock_ret5": -0.062, "shock_range": 0.08800000000000001, "shock_close_pos": 0.28}
+
+[short_main] MDD<5 best
+none
+[short_main] any-MDD best
+{"strategy": "8V14_short_main_v1_022_sm_edge_preserve", "side": "short", "axis": "short_main", "parent": "short_beh_dd_brake", "group": "sm_edge_preserve", "entry": "short_edge_preserve", "trades": 369762, "wins": 74155, "losses": 295607, "win_rate_pct": 20.054792001341404, "final_return_pct": -99.96771339277221, "max_return_pct": 0.0, "max_drawdown_pct": 99.99907863812768, "official_cd_value": 0.0009213618723191708, "name": "8V14_short_main_v1_022_sm_edge_preserve", "stop_atr": 1.1500000000000001, "rr": 2.4499999999999997, "hold": 24, "cooldown": 8, "atrp_min": 0.0031, "atrp_max": 0.052, "range20_max": 0.218, "vol_min": 1.24, "body_min": 0.265, "close_pos_long_min": 0.6749999999999999, "close_pos_short_max": 0.33999999999999997, "wick_min": 0.6000000000000001, "ret3_floor": -0.2, "ret5_floor": -0.26, "ret10_floor": -0.32, "ret20_floor": -0.42, "ret3_ceil": 0.056, "ret5_ceil": 0.086, "ret10_ceil": 0.13, "ret20_ceil": 0.19, "trend_required": true, "reclaim_required": true, "anchor_required": true, "breakout_bonus": 0.26, "absorb_bonus": 0.46, "be_r": 0.8999999999999999, "trail_r": 1.66, "trail_atr": 1.52, "fail_bars": 8, "fail_pnl": -0.91, "post_loss_after": 3, "post_loss_bars": 30, "sym_dd_pct": 0.252, "sym_dd_bars": 24, "shock_lb": 5, "shock_ret5": 0.056, "shock_range": 0.08800000000000001, "shock_close_pos": 0.72}
+
+[short_max] MDD<5 best
+none
+[short_max] any-MDD best
+{"strategy": "8V14_short_max_v1_026_sx_dd_compress", "side": "short", "axis": "short_max", "parent": "short_only_reference_1x", "group": "sx_dd_compress", "entry": "short_dd_compress", "trades": 334992, "wins": 58566, "losses": 276426, "win_rate_pct": 17.48280555953575, "final_return_pct": -99.92613068404823, "max_return_pct": 0.0, "max_drawdown_pct": 99.9944212177553, "official_cd_value": 0.005578782244697322, "name": "8V14_short_max_v1_026_sx_dd_compress", "stop_atr": 1.1, "rr": 1.9, "hold": 18, "cooldown": 16, "atrp_min": 0.0031, "atrp_max": 0.0475, "range20_max": 0.18, "vol_min": 1.295, "body_min": 0.265, "close_pos_long_min": 0.71, "close_pos_short_max": 0.31, "wick_min": 0.4, "ret3_floor": -0.2, "ret5_floor": -0.26, "ret10_floor": -0.32, "ret20_floor": -0.42, "ret3_ceil": 0.056, "ret5_ceil": 0.086, "ret10_ceil": 0.13, "ret20_ceil": 0.21, "trend_required": false, "reclaim_required": true, "anchor_required": true, "breakout_bonus": 0.22, "absorb_bonus": 0.26, "be_r": 0.82, "trail_r": 1.1, "trail_atr": 1.45, "fail_bars": 6, "fail_pnl": -1.03, "post_loss_after": 3, "post_loss_bars": 10, "sym_dd_pct": 0.22000000000000003, "sym_dd_bars": 28, "shock_lb": 9, "shock_ret5": 0.062, "shock_range": 0.08800000000000001, "shock_close_pos": 0.72}
+
+top30 overall
+1. 8V14_long_main_v1_040_lm_return_lift | axis=long_main | side=long | trades=106453 | max_return=0.000000 | mdd=98.593672 | cd=1.406328
+2. 8V14_long_main_v1_007_lm_return_lift | axis=long_main | side=long | trades=149297 | max_return=0.000000 | mdd=99.054204 | cd=0.945796
+3. 8V14_long_main_v1_022_lm_return_lift | axis=long_main | side=long | trades=159640 | max_return=0.000000 | mdd=99.119991 | cd=0.880009
+4. 8V14_long_main_v1_025_lm_return_lift | axis=long_main | side=long | trades=204141 | max_return=0.000000 | mdd=99.882959 | cd=0.117041
+5. 8V14_long_main_v1_010_lm_return_lift | axis=long_main | side=long | trades=197460 | max_return=0.000000 | mdd=99.897702 | cd=0.102298
+6. 8V14_long_main_v1_037_lm_return_lift | axis=long_main | side=long | trades=257791 | max_return=0.000000 | mdd=99.924502 | cd=0.075498
+7. 8V14_long_main_v1_030_lm_return_lift | axis=long_main | side=long | trades=199156 | max_return=0.000000 | mdd=99.963938 | cd=0.036062
+8. 8V14_long_max_v1_026_lx_dd_compress | axis=long_max | side=long | trades=290854 | max_return=0.000000 | mdd=99.979572 | cd=0.020428
+9. 8V14_long_main_v1_012_lm_return_lift | axis=long_main | side=long | trades=242688 | max_return=0.000000 | mdd=99.990655 | cd=0.009345
+10. 8V14_long_main_v1_020_lm_return_lift | axis=long_main | side=long | trades=200940 | max_return=0.000000 | mdd=99.990895 | cd=0.009105
+11. 8V14_short_max_v1_026_sx_dd_compress | axis=short_max | side=short | trades=334992 | max_return=0.000000 | mdd=99.994421 | cd=0.005579
+12. 8V14_long_max_v1_022_lx_dd_compress | axis=long_max | side=long | trades=320258 | max_return=0.000000 | mdd=99.995404 | cd=0.004596
+13. 8V14_long_main_v1_032_lm_return_lift | axis=long_main | side=long | trades=259322 | max_return=0.000000 | mdd=99.995562 | cd=0.004438
+14. 8V14_long_max_v1_046_lx_dd_compress | axis=long_max | side=long | trades=348200 | max_return=0.000000 | mdd=99.995644 | cd=0.004356
+15. 8V14_long_main_v1_027_lm_return_lift | axis=long_main | side=long | trades=263988 | max_return=0.000000 | mdd=99.997307 | cd=0.002693
+16. 8V14_long_max_v1_030_lx_dd_compress | axis=long_max | side=long | trades=286607 | max_return=0.000000 | mdd=99.997540 | cd=0.002460
+17. 8V14_long_main_v1_017_lm_return_lift | axis=long_main | side=long | trades=343375 | max_return=0.000000 | mdd=99.998365 | cd=0.001635
+18. 8V14_short_max_v1_046_sx_dd_compress | axis=short_max | side=short | trades=392011 | max_return=0.000000 | mdd=99.998823 | cd=0.001177
+19. 8V14_short_max_v1_022_sx_dd_compress | axis=short_max | side=short | trades=370221 | max_return=0.000000 | mdd=99.999024 | cd=0.000976
+20. 8V14_short_main_v1_022_sm_edge_preserve | axis=short_main | side=short | trades=369762 | max_return=0.000000 | mdd=99.999079 | cd=0.000921
+21. 8V14_long_max_v1_042_lx_dd_compress | axis=long_max | side=long | trades=378029 | max_return=0.000000 | mdd=99.999132 | cd=0.000868
+22. 8V14_long_main_v1_042_lm_return_lift | axis=long_main | side=long | trades=336940 | max_return=0.000000 | mdd=99.999170 | cd=0.000830
+23. 8V14_long_max_v1_018_lx_dd_compress | axis=long_max | side=long | trades=358551 | max_return=0.000000 | mdd=99.999288 | cd=0.000712
+24. 8V14_long_main_v1_050_lm_return_lift | axis=long_main | side=long | trades=287873 | max_return=0.000000 | mdd=99.999334 | cd=0.000666
+25. 8V14_short_main_v1_012_sm_edge_preserve | axis=short_main | side=short | trades=342268 | max_return=0.000000 | mdd=99.999418 | cd=0.000582
+26. 8V14_short_max_v1_030_sx_dd_compress | axis=short_max | side=short | trades=329881 | max_return=0.000000 | mdd=99.999457 | cd=0.000543
+27. 8V14_short_main_v1_027_sm_edge_preserve | axis=short_main | side=short | trades=339392 | max_return=0.000000 | mdd=99.999463 | cd=0.000537
+28. 8V14_short_main_v1_040_sm_edge_preserve | axis=short_main | side=short | trades=305810 | max_return=0.000000 | mdd=99.999644 | cd=0.000356
+29. 8V14_short_main_v1_020_sm_edge_preserve | axis=short_main | side=short | trades=302212 | max_return=0.000000 | mdd=99.999684 | cd=0.000316
+30. 8V14_long_max_v1_006_lx_dd_compress | axis=long_max | side=long | trades=446935 | max_return=0.000000 | mdd=99.999713 | cd=0.000287
