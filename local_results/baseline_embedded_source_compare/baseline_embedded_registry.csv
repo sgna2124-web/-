@@ -1,0 +1,5 @@
+﻿axis,strategy,source_label,status,ref_trades,got_trades,diff_trades,ref_max_return_pct,got_max_return_pct,diff_max_return_pct,ref_max_drawdown_pct,got_max_drawdown_pct,diff_max_drawdown_pct,ref_official_cd_value,got_official_cd_value,diff_official_cd_value,notes
+long_main,6V2_L01_doubleflush_core,embedded_reference_self_check,PASS,592,592,0,23.919059992296397,23.919059992296397,0.0,1.7511833415334799,1.7511833415334799,0.0,121.74901005672643,121.74901005672643,0.0,기준값과 일치
+long_max,8V4_V51_V002_core_rare22_c1,embedded_reference_self_check,PASS,2276,2276,0,44.2663709059274,44.2663709059274,0.0,6.758721629897446,6.758721629897446,0.0,134.5158084908404,134.5158084908404,0.0,기준값과 일치
+short_main,short_beh_dd_brake,embedded_reference_self_check,PASS,28017,28017,0,311.8121500140241,311.8121500140241,0.0,4.758886171835797,4.758886171835797,0.0,392.214478553067,392.214478553067,0.0,기준값과 일치
+short_max,short_only_reference_1x,embedded_reference_self_check,PASS,36505,36505,0,394.614495645555,394.614495645555,0.0,7.77924006723626,7.77924006723626,0.0,456.13724662193744,456.13724662193744,0.0,기준값과 일치

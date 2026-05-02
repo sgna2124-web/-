@@ -1,0 +1,13 @@
+[BATCH] BASELINE_EMBEDDED_SOURCE_COMPARE
+[MODE] 로컬 실행 중 GitHub 저장소 파일/경로 참조 없음
+[EMBEDDED_BASELINES]
+long_main | 6V2_L01_doubleflush_core | trades=592 | max_return_pct=23.919060 | MDD=1.751183 | CD=121.749010 | source_kind=embedded_result_reference
+long_max | 8V4_V51_V002_core_rare22_c1 | trades=2276 | max_return_pct=44.266371 | MDD=6.758722 | CD=134.515808 | source_kind=embedded_result_reference
+short_main | short_beh_dd_brake | trades=28017 | max_return_pct=311.812150 | MDD=4.758886 | CD=392.214479 | source_kind=embedded_summary_and_effective_config
+short_max | short_only_reference_1x | trades=36505 | max_return_pct=394.614496 | MDD=7.779240 | CD=456.137247 | source_kind=embedded_summary_and_effective_config
+
+[EMBEDDED_SELF_CHECK]
+PASS | long_main | 6V2_L01_doubleflush_core | trades 592 / 592 | max_return 23.919060 / 23.919060 | MDD 1.751183 / 1.751183
+PASS | long_max | 8V4_V51_V002_core_rare22_c1 | trades 2276 / 2276 | max_return 44.266371 / 44.266371 | MDD 6.758722 / 6.758722
+PASS | short_main | short_beh_dd_brake | trades 28017 / 28017 | max_return 311.812150 / 311.812150 | MDD 4.758886 / 4.758886
+PASS | short_max | short_only_reference_1x | trades 36505 / 36505 | max_return 394.614496 / 394.614496 | MDD 7.779240 / 7.779240
