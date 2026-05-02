@@ -1,0 +1,38 @@
+{
+  "long_main": {
+    "axis": "long_main",
+    "strategy": "6V2_L01_doubleflush_core",
+    "source_batch": "6V2_LONG10_REVIEWED",
+    "trades": 592,
+    "max_return_pct": 23.9190599923,
+    "max_drawdown_pct": 1.7511833415,
+    "official_cd_value": 121.7490287208
+  },
+  "long_max": {
+    "axis": "long_max",
+    "strategy": "8V4_V51_V002_core_rare22_c1",
+    "source_batch": "8V4_LONG400_REVIEWED",
+    "trades": 2276,
+    "max_return_pct": 44.2663709059,
+    "max_drawdown_pct": 6.7587216299,
+    "official_cd_value": 134.5158668232
+  },
+  "short_main": {
+    "axis": "short_main",
+    "strategy": "short_beh_dd_brake",
+    "source_batch": "results_json_only_timeout18_time_reduce_v52_short_only_behavioral_guards",
+    "trades": 28017,
+    "max_return_pct": 311.8122,
+    "max_drawdown_pct": 4.7589,
+    "official_cd_value": 392.2144692142
+  },
+  "short_max": {
+    "axis": "short_max",
+    "strategy": "short_only_reference_1x",
+    "source_batch": "results_json_only_timeout18_time_reduce_v42_rr60_t200_short_only_leverage10",
+    "trades": 36505,
+    "max_return_pct": 394.6145,
+    "max_drawdown_pct": 7.7792,
+    "official_cd_value": 456.137448816
+  }
+}

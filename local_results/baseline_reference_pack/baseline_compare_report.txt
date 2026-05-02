@@ -1,0 +1,22 @@
+[BATCH] BASELINE_REFERENCE_PACK_COMPARE
+[MODE] GitHub 결과 파일을 로컬에서 찾지 않는다. 기준선 참조값은 코드 내부 내장.
+[REFERENCE_ONLY_COUNT] 2
+[HAS_FAIL] False
+
+[REFERENCE_VALUES]
+long_main | 6V2_L01_doubleflush_core | trades=592 | max_return=23.919060 | MDD=1.751183 | CD=121.749029
+long_max | 8V4_V51_V002_core_rare22_c1 | trades=2276 | max_return=44.266371 | MDD=6.758722 | CD=134.515867
+short_main | short_beh_dd_brake | trades=28017 | max_return=311.812200 | MDD=4.758900 | CD=392.214469
+short_max | short_only_reference_1x | trades=36505 | max_return=394.614500 | MDD=7.779200 | CD=456.137449
+
+[LOCAL_COMPARE]
+PASS | long_main | 6V2_L01_doubleflush_core | trades 592 / 592 | max_return 23.919060 / 23.919060 | MDD 1.751183 / 1.751183 | CD 121.749010 / 121.749029
+  - path: C:\Users\user\Desktop\LCD\파이썬\local_results\6V2_LONG10_REVIEWED\6V2_L01_doubleflush_core\summary.json
+  - 기준선 참조값과 일치
+PASS | long_max | 8V4_V51_V002_core_rare22_c1 | trades 2276 / 2276 | max_return 44.266371 / 44.266371 | MDD 6.758722 / 6.758722 | CD 134.515808 / 134.515867
+  - path: C:\Users\user\Desktop\LCD\파이썬\local_results\8V4_LONG400_REVIEWED\8V4_V51_V002_core_rare22_c1\summary.json
+  - 기준선 참조값과 일치
+REFERENCE_ONLY | short_main | short_beh_dd_brake | trades  / 28017 | max_return  / 311.812200 | MDD  / 4.758900 | CD  / 392.214469
+  - 로컬 후보 summary.json 없음. 내장 기준선 참조값만 출력.
+REFERENCE_ONLY | short_max | short_only_reference_1x | trades  / 36505 | max_return  / 394.614500 | MDD  / 7.779200 | CD  / 456.137449
+  - 로컬 후보 summary.json 없음. 내장 기준선 참조값만 출력.
