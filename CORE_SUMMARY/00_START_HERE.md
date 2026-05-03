@@ -1,6 +1,11 @@
 이 파일은 새 대화창의 첫 진입점이다.
 새 대화창의 어시스턴트는 다른 요약 문서보다 먼저 이 파일을 읽고 현재 프로젝트 상태를 복원한다.
 
+최우선 인수인계 패치
+이 파일을 읽은 직후 CORE_SUMMARY/38_CORE_SUMMARY_READ_ORDER_AND_TP03_RULE_PATCH.md 를 반드시 읽는다.
+기존의 선별 읽기 목록만 따르면 일부 최신 문서와 코드 산출 규칙이 누락될 수 있으므로, 새 대화창은 CORE_SUMMARY 안의 모든 .md 문서를 읽기 대상으로 본다.
+신규 백테스트 개선안은 TP 기대값이 0.3% 이상일 때만 진입해야 하며, 코드상 min_expected_tp >= 0.003 또는 동등한 필터를 반드시 포함한다.
+
 현재 프로젝트 목표
 코인/주식 차트 전략 중 MDD 5% 미만 전략을 우선 후보로 보고, 그중 공식 cd_value가 가장 높은 전략을 찾는다.
 롱 전용 전략 1위와 숏 전용 전략 1위를 별도 기준으로 유지하며, 앞으로의 모든 백테스트 결과는 이 기준과 비교한다.
@@ -39,6 +44,7 @@ FAST 예비검사는 사용하지 않는다.
 조기탈락 규칙은 사용하지 않는다.
 거래 로그 파일은 필수가 아니다.
 백테스트 결과 요약에는 max_return_pct를 반드시 포함한다.
+신규 개선안은 TP 기대값 0.3% 이상 진입 조건을 반드시 포함한다.
 
 무효 실험 처리 규칙
 정상 환경에서 실패한 전략은 기록으로 남긴다.
@@ -111,15 +117,16 @@ MDD 초과 전략은 공식 기준선으로 승격하지 않는다.
 6. 승격이면 CORE_SUMMARY/03_CURRENT_BASELINES.md 도 갱신한다.
 7. 결과만 보고 끝내지 말고, 왜 그런 결과가 나왔는지 장점과 단점을 남긴다.
 8. 다음 전략 설계 전에 방금 추가한 장단점 기록을 다시 읽고, 생성 규칙으로 반영한다.
+9. 신규 개선안의 진입 조건에 TP 기대값 0.3% 이상 필터가 들어갔는지 확인한다.
 
 다음으로 읽을 문서
-1. CORE_SUMMARY/03_CURRENT_BASELINES.md
-2. CORE_SUMMARY/06_LOCAL_BACKTEST_AND_GITHUB_POLICY.md
-3. CORE_SUMMARY/08_ALL_RESULTS_CATALOG.md
-4. CORE_SUMMARY/12_STRATEGY_STRENGTHS_WEAKNESSES.md
-5. CORE_SUMMARY/24_8V4_LONG400_STRENGTHS_WEAKNESSES_ADDENDUM.md
-6. CORE_SUMMARY/25_8V5_LONG300_STRENGTHS_WEAKNESSES_ADDENDUM.md
-7. CORE_SUMMARY/26_8V6_TOP3_300_STRENGTHS_WEAKNESSES_ADDENDUM.md
-8. CORE_SUMMARY/28_BASELINE_AND_IMPROVEMENT_CANDIDATE_RULES.md
-9. CORE_SUMMARY/29_8V7_AB_BEST_200_STRENGTHS_WEAKNESSES_ADDENDUM.md
-10. CORE_SUMMARY/09_NEXT_CHAT_MANUAL.md
+1. CORE_SUMMARY/38_CORE_SUMMARY_READ_ORDER_AND_TP03_RULE_PATCH.md
+2. CORE_SUMMARY 폴더 내 모든 .md 문서 전체
+3. CORE_SUMMARY/03_CURRENT_BASELINES.md
+4. CORE_SUMMARY/06_LOCAL_BACKTEST_AND_GITHUB_POLICY.md
+5. CORE_SUMMARY/08_ALL_RESULTS_CATALOG.md
+6. CORE_SUMMARY/12_STRATEGY_STRENGTHS_WEAKNESSES.md
+7. CORE_SUMMARY/28_BASELINE_AND_IMPROVEMENT_CANDIDATE_RULES.md
+8. 최신 번호 addendum 전체
+9. CORE_SUMMARY/09_NEXT_CHAT_MANUAL.md
+10. CORE_SUMMARY/35_ASSISTANT_RESPONSE_AND_CODE_RULES.md
