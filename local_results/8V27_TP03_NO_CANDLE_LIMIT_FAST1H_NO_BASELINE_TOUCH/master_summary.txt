@@ -1,0 +1,15 @@
+[BATCH] 8V27_TP03_NO_CANDLE_LIMIT_FAST1H_NO_BASELINE_TOUCH
+[ROWS] 8
+[ERRORS] 0
+
+[BASELINE_CHECK]
+long_main | 6V2_L01_doubleflush_core | trades=592 | max_return=23.919060 | mdd=1.751183 | cd=121.749029
+long_max | 8V4_V51_V002_core_rare22_c1 | trades=2276 | max_return=44.266371 | mdd=6.758722 | cd=134.515867
+short_main | short_beh_dd_brake | trades=28017 | max_return=311.812150 | mdd=4.758886 | cd=392.214469
+short_max | short_only_reference_1x | trades=36505 | max_return=394.614496 | mdd=7.779240 | cd=456.137449
+
+[BASELINE_GATE_PASSED]
+
+[TOP_ANY_MDD]
+
+[TOP_MDD_UNDER_5]
