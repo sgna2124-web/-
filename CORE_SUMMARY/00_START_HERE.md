@@ -1,9 +1,12 @@
 이 파일은 새 대화창의 첫 진입점이다.
 새 대화창의 어시스턴트는 다른 요약 문서보다 먼저 이 파일을 읽고 현재 프로젝트 상태를 복원한다.
 
-최우선 인수인계 패치
-이 파일을 읽은 직후 CORE_SUMMARY/38_CORE_SUMMARY_READ_ORDER_AND_TP03_RULE_PATCH.md 를 반드시 읽는다.
-기존의 선별 읽기 목록만 따르면 일부 최신 문서와 코드 산출 규칙이 누락될 수 있으므로, 새 대화창은 CORE_SUMMARY 안의 모든 .md 문서를 읽기 대상으로 본다.
+CORE_SUMMARY 읽기 순서
+새 대화창은 CORE_SUMMARY 폴더 안의 .md 문서를 파일명 숫자 기준으로 00번부터 끝까지 차례대로 1회 읽는다.
+특정 문서로 먼저 점프하지 않는다.
+00_START_HERE를 읽은 뒤에는 01, 02, 03 순서로 계속 읽고, 38번 문서는 순서가 왔을 때 읽는다.
+동일 파일은 한 세션에서 한 번만 읽는다.
+최신 addendum은 전체 순회가 끝난 뒤 현재 판단 보정용으로만 다시 확인한다.
 신규 백테스트 개선안은 TP 기대값이 0.3% 이상일 때만 진입해야 하며, 코드상 min_expected_tp >= 0.003 또는 동등한 필터를 반드시 포함한다.
 
 현재 프로젝트 목표
@@ -120,13 +123,8 @@ MDD 초과 전략은 공식 기준선으로 승격하지 않는다.
 9. 신규 개선안의 진입 조건에 TP 기대값 0.3% 이상 필터가 들어갔는지 확인한다.
 
 다음으로 읽을 문서
-1. CORE_SUMMARY/38_CORE_SUMMARY_READ_ORDER_AND_TP03_RULE_PATCH.md
-2. CORE_SUMMARY 폴더 내 모든 .md 문서 전체
-3. CORE_SUMMARY/03_CURRENT_BASELINES.md
-4. CORE_SUMMARY/06_LOCAL_BACKTEST_AND_GITHUB_POLICY.md
-5. CORE_SUMMARY/08_ALL_RESULTS_CATALOG.md
-6. CORE_SUMMARY/12_STRATEGY_STRENGTHS_WEAKNESSES.md
-7. CORE_SUMMARY/28_BASELINE_AND_IMPROVEMENT_CANDIDATE_RULES.md
-8. 최신 번호 addendum 전체
-9. CORE_SUMMARY/09_NEXT_CHAT_MANUAL.md
-10. CORE_SUMMARY/35_ASSISTANT_RESPONSE_AND_CODE_RULES.md
+CORE_SUMMARY 폴더 안의 .md 파일을 파일명 숫자 기준으로 00번부터 끝까지 차례대로 읽는다.
+이미 읽은 파일은 다시 읽지 않는다.
+특정 문서로 점프하지 않는다.
+파일명이 같은 번호로 시작하는 경우에는 파일명 전체의 오름차순으로 읽는다.
+전체 순회를 마친 뒤 최신 번호 addendum만 현재 판단 보정용으로 다시 확인한다.
