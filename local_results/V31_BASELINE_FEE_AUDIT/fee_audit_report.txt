@@ -1,0 +1,22 @@
+V31 기준선 수수료 감사 보고서
+
+감사 조건
+- 기준선 4개만 실행
+- 기준선에는 TP03 미적용
+- max-bars 0, 캔들 제한 없음
+- POS_FRAC 0.01
+- fee_004: COST_PCT 0.04
+- fee_010: COST_PCT 0.10
+
+[fee_004] MATCH=0 DRIFT=4 MISSING=0
+  - long_main 6V2_L01_doubleflush_core status=DRIFT trades=859776 ref=592 max_ret=0.0 ref=23.91906 mdd=100.0 ref=1.751183 cd=0.0 ref=121.7490287208
+  - long_max 8V4_V51_V002_core_rare22_c1 status=DRIFT trades=438074 ref=2276 max_ret=0.0 ref=44.266371 mdd=99.99999982602851 ref=6.758722 cd=1.739714816650917e-07 ref=134.5158668232
+  - short_main short_beh_dd_brake status=DRIFT trades=79059 ref=28017 max_ret=376.86114451622564 ref=311.81215 mdd=99.9989414110949 ref=4.758886 cd=0.005047999168584923 ref=392.2144692142
+  - short_max short_only_reference_1x status=DRIFT trades=95045 ref=36505 max_ret=499.0004459848927 ref=394.614496 mdd=99.99987319166237 ref=7.77924 cd=0.0007595825079524684 ref=456.137448816
+
+[fee_010] MATCH=0 DRIFT=4 MISSING=0
+  - long_main 6V2_L01_doubleflush_core status=DRIFT trades=860656 ref=592 max_ret=0.0 ref=23.91906 mdd=100.0 ref=1.751183 cd=0.0 ref=121.7490287208
+  - long_max 8V4_V51_V002_core_rare22_c1 status=DRIFT trades=438074 ref=2276 max_ret=0.0 ref=44.266371 mdd=99.99999996969828 ref=6.758722 cd=3.030171669138326e-08 ref=134.5158668232
+  - short_main short_beh_dd_brake status=DRIFT trades=79059 ref=28017 max_ret=196.74679546264468 ref=311.81215 mdd=99.99926763255111 ref=4.758886 cd=0.00217327693557989 ref=392.2144692142
+  - short_max short_only_reference_1x status=DRIFT trades=95045 ref=36505 max_ret=238.66157420006977 ref=394.614496 mdd=99.99991861630659 ref=7.77924 cd=0.0002756152972705501 ref=456.137448816
+

@@ -1,0 +1,4 @@
+[GATE_FAIL] long_main 6V2_L01_doubleflush_core | trades 859776 vs 592 | max_ret 0.000000 vs 23.919060 | mdd 100.000000 vs 1.751183
+[GATE_FAIL] long_max 8V4_V51_V002_core_rare22_c1 | trades 438074 vs 2276 | max_ret 0.000000 vs 44.266371 | mdd 100.000000 vs 6.758722
+[GATE_FAIL] short_main short_beh_dd_brake | trades 79059 vs 28017 | max_ret 376.861145 vs 311.812150 | mdd 99.998941 vs 4.758886
+[GATE_FAIL] short_max short_only_reference_1x | trades 95045 vs 36505 | max_ret 499.000446 vs 394.614496 | mdd 99.999873 vs 7.779240

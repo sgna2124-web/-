@@ -1,0 +1,95 @@
+{
+  "batch": "V31_BASELINE_AUDIT_FEE_004",
+  "seed": 821,
+  "min_expected_tp": 0.0,
+  "baseline_source": {
+    "long_main": {
+      "source": "CORE_SUMMARY 8V12 base_safe6v2_profile",
+      "strategy": "6V2_L01_doubleflush_core"
+    },
+    "long_max": {
+      "source": "CORE_SUMMARY 8V12 base_rawv51_profile",
+      "strategy": "8V4_V51_V002_core_rare22_c1"
+    },
+    "short_main": {
+      "source": "v52 short_only_behavioral_guards JSON embedded",
+      "strategy": "short_beh_dd_brake",
+      "quality": {
+        "short_dev": 0.033,
+        "short_rsi_min": 77
+      },
+      "risk": {
+        "atr_stop_mult": 1.8975,
+        "rr_mult": 6.0,
+        "timeout_bars": 200
+      },
+      "trade_control": {
+        "dd_brake_trigger_pct": 0.03,
+        "dd_brake_freeze_steps": 5
+      }
+    },
+    "short_max": {
+      "source": "v42 rr60 t200 short_only JSON embedded",
+      "strategy": "short_only_reference_1x",
+      "quality": {
+        "short_dev": 0.032,
+        "short_rsi_min": 76
+      },
+      "risk": {
+        "atr_stop_mult": 1.8975,
+        "rr_mult": 6.0,
+        "timeout_bars": 200
+      }
+    }
+  },
+  "baselines": {
+    "long_main": {
+      "name": "6V2_L01_doubleflush_core",
+      "side": "long",
+      "trades": 592,
+      "max_return_pct": 23.91906,
+      "max_drawdown_pct": 1.751183,
+      "official_cd_value": 121.7490287208
+    },
+    "long_max": {
+      "name": "8V4_V51_V002_core_rare22_c1",
+      "side": "long",
+      "trades": 2276,
+      "max_return_pct": 44.266371,
+      "max_drawdown_pct": 6.758722,
+      "official_cd_value": 134.5158668232
+    },
+    "short_main": {
+      "name": "short_beh_dd_brake",
+      "side": "short",
+      "trades": 28017,
+      "max_return_pct": 311.81215,
+      "max_drawdown_pct": 4.758886,
+      "official_cd_value": 392.2144692142
+    },
+    "short_max": {
+      "name": "short_only_reference_1x",
+      "side": "short",
+      "trades": 36505,
+      "max_return_pct": 394.614496,
+      "max_drawdown_pct": 7.77924,
+      "official_cd_value": 456.137448816
+    }
+  },
+  "pos_frac": 0.01,
+  "cost_pct": 0.04,
+  "warmup": 140,
+  "min_bars": 260,
+  "max_bars": 0,
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "symbols": 597,
+  "workers": 11,
+  "gate_mode": "warn",
+  "axis_plan": {
+    "long_main": 50,
+    "long_max": 50,
+    "short_main": 50,
+    "short_max": 50
+  }
+}
