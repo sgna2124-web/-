@@ -1,0 +1,23 @@
+{
+  "tag": "fee_004",
+  "runner": "C:\\Users\\user\\Documents\\GitHub\\-\\run_v40_live_baseline_fee_004.py",
+  "out_root": "C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\V40_LIVE_BASELINE_FEE_004_010\\fee_004",
+  "cmd": [
+    "c:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Documents\\GitHub\\-\\run_v40_live_baseline_fee_004.py",
+    "--baseline-only",
+    "--live-baseline-gate",
+    "--max-bars",
+    "0",
+    "--workers",
+    "11",
+    "--data-root",
+    "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+    "--output-root",
+    "C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\V40_LIVE_BASELINE_FEE_004_010\\fee_004"
+  ],
+  "returncode": 2,
+  "elapsed_sec": 3350.3295979499817,
+  "log_path": "C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\V40_LIVE_BASELINE_FEE_004_010\\fee_004\\v40_fee_004_stdout_stderr.log",
+  "log_tail": "[BATCH] V40_LIVE_BASELINE_FEE_004\n[DATA] C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\n[SYMBOLS] 597\n[RULE] 첫 4개는 코드 내부에 완전 내장한 기준선 4개 복제본이다. 기준선 게이트 통과 후 축별 50개 개선안만 실제 백테스트한다.\n[BASELINE_MODE] live-baseline-gate: 기준선 4개도 현재 내장 신호엔진으로 실제 재계산한다.\n[PROGRESS] processed=25/597 errors=0 trade_rows=15159 elapsed=129.0s\n[PROGRESS] processed=50/597 errors=0 trade_rows=29767 elapsed=215.2s\n[PROGRESS] processed=75/597 errors=0 trade_rows=53501 elapsed=378.8s\n[PROGRESS] processed=100/597 errors=0 trade_rows=75260 elapsed=524.8s\n[PROGRESS] processed=125/597 errors=0 trade_rows=92965 elapsed=643.3s\n[PROGRESS] processed=150/597 errors=0 trade_rows=107379 elapsed=785.3s\n[PROGRESS] processed=175/597 errors=0 trade_rows=129212 elapsed=949.6s\n[PROGRESS] processed=200/597 errors=0 trade_rows=153834 elapsed=1104.7s\n[PROGRESS] processed=225/597 errors=0 trade_rows=170608 elapsed=1253.1s\n[PROGRESS] processed=250/597 errors=0 trade_rows=191466 elapsed=1374.9s\n[PROGRESS] processed=275/597 errors=0 trade_rows=210545 elapsed=1532.2s\n[PROGRESS] processed=300/597 errors=0 trade_rows=229266 elapsed=1657.3s\n[PROGRESS] processed=325/597 errors=0 trade_rows=254005 elapsed=1870.8s\n[PROGRESS] processed=350/597 errors=0 trade_rows=270291 elapsed=1954.1s\n[PROGRESS] processed=375/597 errors=0 trade_rows=288603 elapsed=2122.2s\n[PROGRESS] processed=400/597 errors=0 trade_rows=307623 elapsed=2253.2s\n[PROGRESS] processed=425/597 errors=0 trade_rows=322246 elapsed=2356.3s\n[PROGRESS] processed=450/597 errors=0 trade_rows=338806 elapsed=2526.0s\n[PROGRESS] processed=475/597 errors=0 trade_rows=354924 elapsed=2622.1s\n[PROGRESS] processed=500/597 errors=0 trade_rows=376391 elapsed=2785.1s\n[PROGRESS] processed=525/597 errors=0 trade_rows=390429 elapsed=2890.2s\n[PROGRESS] processed=550/597 errors=0 trade_rows=405204 elapsed=3025.0s\n[PROGRESS] processed=575/597 errors=0 trade_rows=424314 elapsed=3162.6s\n[PROGRESS] processed=597/597 errors=0 trade_rows=450916 elapsed=3347.6s\n[SAVE] C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\V40_LIVE_BASELINE_FEE_004_010\\fee_004\\V40_LIVE_BASELINE_FEE_004\\V40_LIVE_BASELINE_FEE_004_registry.csv\n[SAVE] C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\V40_LIVE_BASELINE_FEE_004_010\\fee_004\\V40_LIVE_BASELINE_FEE_004\\master_summary.txt\n[STOP] 기준선 결과가 CORE_SUMMARY 기준과 불일치한다. 개선안 백테스트를 시작하지 않는다.\n - long_main trades 불일치: got=13116, target=592, ratio=22.1554\n - long_main max_return_pct 불일치: got=0.000000, target=23.919060\n - long_main MDD 불일치: got=70.820034, target=1.751183\n - long_max trades 불일치: got=433571, target=2276, ratio=190.4969\n - long_max max_return_pct 불일치: got=0.000000, target=44.266371\n - long_max MDD 불일치: got=100.000000, target=6.758722\n - short_main trades 불일치: got=1032, target=28017, ratio=0.0368\n - short_main max_return_pct 불일치: got=15.563553, target=311.812150\n - short_main MDD 불일치: got=27.678444, target=4.758886\n - short_max trades 불일치: got=3197, target=36505, ratio=0.0876\n - short_max max_return_pct 불일치: got=49.269175, target=394.614496\n - short_max MDD 불일치: got=63.387475, target=7.779240"
+}
