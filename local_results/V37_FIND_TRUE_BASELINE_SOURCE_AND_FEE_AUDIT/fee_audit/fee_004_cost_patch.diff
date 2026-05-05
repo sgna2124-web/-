@@ -1,0 +1,11 @@
+--- original
++++ fee_0.04
+@@ -19,7 +19,7 @@
+ 
+ BATCH = "8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH"
+ POS_FRAC = 0.01
+-COST_PCT = 0.10
++COST_PCT = 0.04
+ WARMUP = 140
+ MIN_BARS = 260
+ SEED = 820

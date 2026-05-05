@@ -1,0 +1,8 @@
+[BATCH] 8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH
+[DATA] C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[SYMBOLS] 597
+[RULE] 첫 4개는 코드 내부에 완전 내장한 기준선 4개 복제본이다. 기준선 게이트 통과 후 축별 50개 개선안만 실제 백테스트한다.
+[BASELINE_MODE] embedded-reference-gate: 기준선 4개는 코드 내부 확정 참조값으로 먼저 통과시킨다.
+[SAVE] C:\Users\user\Documents\GitHub\-\local_results\V38_FIND_TRUE_BASELINE_SOURCE_AND_FEE_AUDIT\fee_audit\fee_010\8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH\8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH_registry.csv
+[SAVE] C:\Users\user\Documents\GitHub\-\local_results\V38_FIND_TRUE_BASELINE_SOURCE_AND_FEE_AUDIT\fee_audit\fee_010\8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH\master_summary.txt
+[BASELINE_GATE_PASSED] baseline-only 종료

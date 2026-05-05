@@ -1,0 +1,59 @@
+V38 기준선 원본 추적 + 수수료 감사 보고서
+
+핵심 원칙
+- 기준선 파일을 미리 단정하지 않았다.
+- 저장소 전체에서 기존 결과와 파이썬 후보를 스캔했다.
+- 후보 원본을 무수정 실행해 기준선 4개가 실제 재현되는지 확인했다.
+- 기준선 4개가 재현된 원본이 발견될 때만 COST_PCT 한 줄만 바꿔 수수료 감사를 실행했다.
+- --live-baseline-gate는 전달하지 않았다.
+- --max-symbols는 전달하지 않았다.
+- returncode가 0이 아니어도 summary가 있으면 판정을 계속했다.
+
+repo_root: C:\Users\user\Documents\GitHub\-
+results_root: C:\Users\user\Documents\GitHub\-\local_results\V38_FIND_TRUE_BASELINE_SOURCE_AND_FEE_AUDIT
+data_root: C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+
+[기존 결과 스캔 TOP 10]
+1. matched=4 drift=0 missing=0 score=400 path=local_results\V37_FIND_TRUE_BASELINE_SOURCE_AND_FEE_AUDIT\candidate_runs\001_run_8v21_tp03_no_baseline_touch_4axis_50_each\8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH\8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH_registry.csv
+2. matched=1 drift=0 missing=3 score=40 path=local_results\6V2_LONG10_REVIEWED\6V2_LONG10_REVIEWED_registry.csv
+3. matched=1 drift=0 missing=3 score=40 path=local_results\8V4_LONG400_REVIEWED\8V4_LONG400_REVIEWED_registry.csv
+4. matched=0 drift=4 missing=0 score=-20 path=local_results\8V14_4AXIS_50_EACH_STREAMSAFE\8V14_4AXIS_50_EACH_STREAMSAFE_registry.csv
+5. matched=0 drift=4 missing=0 score=-20 path=local_results\8V15_4AXIS_PARENT_PRESERVE_50_EACH_STREAMSAFE\8V15_4AXIS_PARENT_PRESERVE_50_EACH_STREAMSAFE_registry.csv
+6. matched=0 drift=4 missing=0 score=-20 path=local_results\8V25_TP03_FAST1H_FORCE_LOCAL_RESULTS_KEEP_DATA_CWD_NO_BASELINE_TOUCH\8V25_TP03_FAST1H_FORCE_LOCAL_RESULTS_KEEP_DATA_CWD_NO_BASELINE_TOUCH_registry.csv
+7. matched=0 drift=4 missing=0 score=-20 path=local_results\8V27_TP03_NO_CANDLE_LIMIT_FAST1H_NO_BASELINE_TOUCH\8V27_TP03_NO_CANDLE_LIMIT_FAST1H_NO_BASELINE_TOUCH_registry.csv
+8. matched=0 drift=4 missing=0 score=-20 path=local_results\8V28_LOCAL_MUTATION_NO_CANDLE_LIMIT_1H_NO_BASELINE_TOUCH\8V28_LOCAL_MUTATION_NO_CANDLE_LIMIT_1H_NO_BASELINE_TOUCH_registry.csv
+9. matched=0 drift=4 missing=0 score=-20 path=local_results\8V29_LONG_QUALITY_SHORT_NO_TP03_LOCAL_1H\8V29_LONG_QUALITY_SHORT_NO_TP03_LOCAL_1H_registry.csv
+10. matched=0 drift=4 missing=0 score=-20 path=local_results\8V30_TP03_PROBE_LONG_LOOSEN_SHORT_TRIM_1H\8V30_TP03_PROBE_LONG_LOOSEN_SHORT_TRIM_1H_registry.csv
+
+[파이썬 후보 TOP 10]
+1. score=1280 names=4 cost=0.1 batch=8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH path=run_8v21_tp03_no_baseline_touch_4axis_50_each.py
+2. score=1280 names=4 cost=0.04 batch=8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH path=run_8v21_tp03_no_baseline_touch_4axis_50_each__v37_fee_004_cost_audit.py
+3. score=680 names=4 cost=0.1 batch=8V22_TP03_LOCAL_RESULTS_NO_BASELINE_TOUCH_4AXIS_50_EACH path=run_8v22_tp03_local_results_no_baseline_touch_4axis_50_each.py
+4. score=680 names=4 cost=0.1 batch=8V23_TP03_FORCE_LOCAL_RESULTS_NO_BASELINE_TOUCH_4AXIS_50_EACH path=run_8v23_generated_tp03_force_local_results_no_baseline_touch_4axis_50_each.py
+5. score=680 names=4 cost=0.1 batch=8V24_TP03_FORCE_LOCAL_RESULTS_KEEP_DATA_CWD_NO_BASELINE_TOUCH path=run_8v24_generated_tp03_force_local_results_keep_data_cwd_no_baseline_touch.py
+6. score=660 names=4 cost=0.1 batch=8V25_TP03_FAST1H_FORCE_LOCAL_RESULTS_KEEP_DATA_CWD_NO_BASELINE_TOUCH path=run_8v25_generated_tp03_fast1h_force_local_results_keep_data_cwd_no_baseline_touch.py
+7. score=660 names=4 cost=0.1 batch=8V27_TP03_NO_CANDLE_LIMIT_FAST1H_NO_BASELINE_TOUCH path=run_8v27_generated_tp03_no_candle_limit_fast1h_no_baseline_touch.py
+8. score=660 names=4 cost=0.1 batch=8V28_LOCAL_MUTATION_NO_CANDLE_LIMIT_1H_NO_BASELINE_TOUCH path=run_8v28_generated_local_mutation_no_candle_limit_1h_no_baseline_touch.py
+9. score=660 names=4 cost=0.1 batch=8V29_LONG_QUALITY_SHORT_NO_TP03_LOCAL_1H path=run_8v29_generated_long_quality_short_no_tp03_local_1h.py
+10. score=660 names=4 cost=0.1 batch=8V30_TP03_PROBE_LONG_LOOSEN_SHORT_TRIM_1H path=run_8v30_generated_tp03_probe_long_loosen_short_trim_1h.py
+
+[후보 실행 결과]
+#1 status=ALL4_MATCH returncode=0 matched=4 drift=0 missing=0 path=run_8v21_tp03_no_baseline_touch_4axis_50_each.py
+  best_summary=local_results\V38_FIND_TRUE_BASELINE_SOURCE_AND_FEE_AUDIT\candidate_runs\001_run_8v21_tp03_no_baseline_touch_4axis_50_each\8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH\8V21_TP03_NO_BASELINE_TOUCH_4AXIS_50_EACH_registry.csv
+
+[판정]
+기준선 4개를 실제 재현하는 원본 후보를 찾았다.
+exact_source=run_8v21_tp03_no_baseline_touch_4axis_50_each.py
+sha256=51e12001323824b6524bdbba0432cb6802f268077f8609a8b38a617e32eb8909
+
+[수수료 감사 결과]
+fee_004 status=ALL4_MATCH returncode=0 matched=4 drift=0 missing=0
+  - long_main MATCH trades=592 ref=592 max_ret=23.91906 ref=23.91906 mdd=1.751183 ref=1.751183 cd=121.7490287208 ref=121.7490287208
+  - long_max MATCH trades=2276 ref=2276 max_ret=44.266371 ref=44.266371 mdd=6.758722 ref=6.758722 cd=134.5158668232 ref=134.5158668232
+  - short_main MATCH trades=28017 ref=28017 max_ret=311.81215 ref=311.81215 mdd=4.758886 ref=4.758886 cd=392.2144692142 ref=392.2144692142
+  - short_max MATCH trades=36505 ref=36505 max_ret=394.614496 ref=394.614496 mdd=7.77924 ref=7.77924 cd=456.137448816 ref=456.137448816
+fee_010 status=ALL4_MATCH returncode=0 matched=4 drift=0 missing=0
+  - long_main MATCH trades=592 ref=592 max_ret=23.91906 ref=23.91906 mdd=1.751183 ref=1.751183 cd=121.7490287208 ref=121.7490287208
+  - long_max MATCH trades=2276 ref=2276 max_ret=44.266371 ref=44.266371 mdd=6.758722 ref=6.758722 cd=134.5158668232 ref=134.5158668232
+  - short_main MATCH trades=28017 ref=28017 max_ret=311.81215 ref=311.81215 mdd=4.758886 ref=4.758886 cd=392.2144692142 ref=392.2144692142
+  - short_max MATCH trades=36505 ref=36505 max_ret=394.614496 ref=394.614496 mdd=7.77924 ref=7.77924 cd=456.137448816 ref=456.137448816
