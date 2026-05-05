@@ -1,0 +1,27 @@
+[BATCH] 8V20_EMBEDDED_PARENT_GATE_4AXIS_50_EACH
+[ROWS] 4
+[ERRORS] 0
+
+[BASELINE_CHECK]
+long_main | 6V2_L01_doubleflush_core | trades=13116 | max_return=0.000000 | mdd=72.282116 | cd=27.717884
+long_max | 8V4_V51_V002_core_rare22_c1 | trades=433571 | max_return=0.000000 | mdd=100.000000 | cd=0.000000
+short_main | short_beh_dd_brake | trades=1032 | max_return=14.850291 | mdd=27.998117 | cd=82.694373
+short_max | short_only_reference_1x | trades=3197 | max_return=46.433522 | mdd=63.890660 | cd=52.876179
+
+[BASELINE_GATE_FAILED]
+long_main trades 불일치: got=13116, target=592, ratio=22.1554
+long_main max_return_pct 불일치: got=0.000000, target=23.919060
+long_main MDD 불일치: got=72.282116, target=1.751183
+long_max trades 불일치: got=433571, target=2276, ratio=190.4969
+long_max max_return_pct 불일치: got=0.000000, target=44.266371
+long_max MDD 불일치: got=100.000000, target=6.758722
+short_main trades 불일치: got=1032, target=28017, ratio=0.0368
+short_main max_return_pct 불일치: got=14.850291, target=311.812150
+short_main MDD 불일치: got=27.998117, target=4.758886
+short_max trades 불일치: got=3197, target=36505, ratio=0.0876
+short_max max_return_pct 불일치: got=46.433522, target=394.614496
+short_max MDD 불일치: got=63.890660, target=7.779240
+
+[TOP_ANY_MDD]
+
+[TOP_MDD_UNDER_5]

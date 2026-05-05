@@ -1,0 +1,27 @@
+{
+  "tag": "original_as_is",
+  "runner": "C:\\Users\\user\\Documents\\GitHub\\-\\CORE_SUMMARY\\run_8v20_embedded_parent_gate_4axis_50_each.py",
+  "runner_sha256": "0e6fa90e54d1b4a3d4961f4614e1262125ac79d6c00bbaed5cd8fd0b97613c6e",
+  "outdir": "C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\V36_EXACT_SOURCE_BASELINE_FEE_AUDIT\\original_as_is",
+  "launch_cwd": "C:\\Users\\user\\Desktop\\LCD\\파이썬",
+  "cmd": [
+    "c:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Documents\\GitHub\\-\\CORE_SUMMARY\\run_8v20_embedded_parent_gate_4axis_50_each.py",
+    "--baseline-only",
+    "--live-baseline-gate",
+    "--allow-baseline-mismatch",
+    "--max-bars",
+    "0",
+    "--workers",
+    "11",
+    "--data-root",
+    "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+    "--clean",
+    "--output-root",
+    "C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\V36_EXACT_SOURCE_BASELINE_FEE_AUDIT\\original_as_is"
+  ],
+  "started_at_epoch": 1777935764.4194517,
+  "ended_at_epoch": 1777937758.531202,
+  "elapsed_sec": 1994.1117503643036,
+  "returncode": 2
+}
