@@ -1,0 +1,26 @@
+{
+  "axis": "long_max",
+  "fee_tag": "fee_004",
+  "status": "original_long_runner_missing_no_rerun_performed",
+  "checked_runner_candidates": [
+    "C:\\Users\\user\\Documents\\GitHub\\-\\scripts\\run_backtest_8v4_long400_reviewed.py",
+    "C:\\Users\\user\\Documents\\GitHub\\-\\scripts\\run_8V4_LONG400_REVIEWED.py",
+    "C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\8V4_LONG400_REVIEWED\\8V4_LONG400_REVIEWED.py"
+  ],
+  "reference_summary_path": "C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\8V4_LONG400_REVIEWED\\8V4_V51_V002_core_rare22_c1\\summary.json",
+  "reference_summary_normalized": {
+    "axis": "long_max",
+    "fee_tag": "fee_004",
+    "strategy": "8V4_V51_V002_core_rare22_c1",
+    "source_batch": "8V4_LONG400_REVIEWED",
+    "trades": 2276,
+    "wins": 1030,
+    "losses": 1246,
+    "win_rate_pct": 45.254833040421794,
+    "final_return_pct": 43.66726412539022,
+    "max_return_pct": 44.2663709059274,
+    "max_drawdown_pct": 6.758721629897446,
+    "cd_value": 133.95719366986557
+  },
+  "note": "원본 결과 폴더는 있으나 실행 가능한 원본 long runner가 저장소에 없어 수수료 변경 재백테스트를 하지 않음. 조건 임의 재구현 금지 원칙 적용."
+}

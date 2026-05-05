@@ -1,0 +1,15 @@
+{
+  "group_name": "v52_short_only_behavioral_guards_ONLY_short_beh_dd_brake",
+  "experiments": [
+    {
+      "name": "short_beh_dd_brake",
+      "enabled": true,
+      "overrides": {
+        "trade_control": {
+          "dd_brake_trigger_pct": 0.03,
+          "dd_brake_freeze_steps": 5
+        }
+      }
+    }
+  ]
+}
