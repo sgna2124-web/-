@@ -1,0 +1,5 @@
+﻿axis,strategy,parent,side,kind,tag,verdict,trades,baseline_trades,parent_trade_ratio,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,official_cd_value,note
+long_main,6V2_L01_doubleflush_core,6V2_L01_doubleflush_core,long,baseline,baseline,baseline,13116,592,22.155405405405407,4568,8548,34.827691369319915,-4.349966310054065,0.0,70.820034253884,29.179965746116,
+long_max,8V4_V51_V002_core_rare22_c1,8V4_V51_V002_core_rare22_c1,long,baseline,baseline,baseline,433571,2276,190.4969244288225,145575,287996,33.57581572568276,-85.74071500234413,0.0,99.99999998471326,1.528674964390575e-08,
+short_main,short_beh_dd_brake,short_beh_dd_brake,short,baseline,baseline,baseline,1032,28017,0.036834778884248846,294,738,28.488372093023255,15.563553117343165,15.563553117343165,27.678443991200908,83.57735979351763,
+short_max,short_only_reference_1x,short_only_reference_1x,short,baseline,baseline,baseline,3197,36505,0.087577044240515,893,2304,27.93243665936816,49.269175223982245,49.269175223982245,63.38747464865884,54.65121462061836,

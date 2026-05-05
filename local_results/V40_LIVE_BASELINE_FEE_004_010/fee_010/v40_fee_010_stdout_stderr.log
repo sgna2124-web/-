@@ -1,0 +1,44 @@
+[BATCH] V40_LIVE_BASELINE_FEE_010
+[DATA] C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[SYMBOLS] 597
+[RULE] 첫 4개는 코드 내부에 완전 내장한 기준선 4개 복제본이다. 기준선 게이트 통과 후 축별 50개 개선안만 실제 백테스트한다.
+[BASELINE_MODE] live-baseline-gate: 기준선 4개도 현재 내장 신호엔진으로 실제 재계산한다.
+[PROGRESS] processed=25/597 errors=0 trade_rows=15888 elapsed=155.6s
+[PROGRESS] processed=50/597 errors=0 trade_rows=29767 elapsed=262.0s
+[PROGRESS] processed=75/597 errors=0 trade_rows=53501 elapsed=445.2s
+[PROGRESS] processed=100/597 errors=0 trade_rows=75260 elapsed=607.7s
+[PROGRESS] processed=125/597 errors=0 trade_rows=92965 elapsed=732.3s
+[PROGRESS] processed=150/597 errors=0 trade_rows=107379 elapsed=876.6s
+[PROGRESS] processed=175/597 errors=0 trade_rows=129212 elapsed=1033.1s
+[PROGRESS] processed=200/597 errors=0 trade_rows=153834 elapsed=1180.1s
+[PROGRESS] processed=225/597 errors=0 trade_rows=170608 elapsed=1326.3s
+[PROGRESS] processed=250/597 errors=0 trade_rows=191466 elapsed=1443.1s
+[PROGRESS] processed=275/597 errors=0 trade_rows=210545 elapsed=1582.3s
+[PROGRESS] processed=300/597 errors=0 trade_rows=229266 elapsed=1704.2s
+[PROGRESS] processed=325/597 errors=0 trade_rows=254005 elapsed=1920.9s
+[PROGRESS] processed=350/597 errors=0 trade_rows=270291 elapsed=2007.5s
+[PROGRESS] processed=375/597 errors=0 trade_rows=288603 elapsed=2173.0s
+[PROGRESS] processed=400/597 errors=0 trade_rows=307623 elapsed=2300.0s
+[PROGRESS] processed=425/597 errors=0 trade_rows=322246 elapsed=2403.2s
+[PROGRESS] processed=450/597 errors=0 trade_rows=338806 elapsed=2557.4s
+[PROGRESS] processed=475/597 errors=0 trade_rows=354924 elapsed=2659.1s
+[PROGRESS] processed=500/597 errors=0 trade_rows=376391 elapsed=2831.2s
+[PROGRESS] processed=525/597 errors=0 trade_rows=392441 elapsed=2947.1s
+[PROGRESS] processed=550/597 errors=0 trade_rows=405423 elapsed=3091.3s
+[PROGRESS] processed=575/597 errors=0 trade_rows=424314 elapsed=3230.2s
+[PROGRESS] processed=597/597 errors=0 trade_rows=450916 elapsed=3421.9s
+[SAVE] C:\Users\user\Documents\GitHub\-\local_results\V40_LIVE_BASELINE_FEE_004_010\fee_010\V40_LIVE_BASELINE_FEE_010\V40_LIVE_BASELINE_FEE_010_registry.csv
+[SAVE] C:\Users\user\Documents\GitHub\-\local_results\V40_LIVE_BASELINE_FEE_004_010\fee_010\V40_LIVE_BASELINE_FEE_010\master_summary.txt
+[STOP] 기준선 결과가 CORE_SUMMARY 기준과 불일치한다. 개선안 백테스트를 시작하지 않는다.
+ - long_main trades 불일치: got=13116, target=592, ratio=22.1554
+ - long_main max_return_pct 불일치: got=0.000000, target=23.919060
+ - long_main MDD 불일치: got=72.282116, target=1.751183
+ - long_max trades 불일치: got=433571, target=2276, ratio=190.4969
+ - long_max max_return_pct 불일치: got=0.000000, target=44.266371
+ - long_max MDD 불일치: got=100.000000, target=6.758722
+ - short_main trades 불일치: got=1032, target=28017, ratio=0.0368
+ - short_main max_return_pct 불일치: got=14.850291, target=311.812150
+ - short_main MDD 불일치: got=27.998117, target=4.758886
+ - short_max trades 불일치: got=3197, target=36505, ratio=0.0876
+ - short_max max_return_pct 불일치: got=46.433522, target=394.614496
+ - short_max MDD 불일치: got=63.890660, target=7.779240
