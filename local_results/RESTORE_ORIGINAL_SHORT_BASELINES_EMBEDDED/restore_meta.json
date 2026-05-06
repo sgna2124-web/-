@@ -1,0 +1,34 @@
+{
+  "purpose": "embedded original short baseline restoration",
+  "no_external_runner_import": true,
+  "no_external_json_config": true,
+  "launch_cwd": "C:\\Users\\user\\Desktop\\LCD\\파이썬",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\RESTORE_ORIGINAL_SHORT_BASELINES_EMBEDDED",
+  "csv_file_count": 597,
+  "targets": [
+    "short_only_reference_1x",
+    "short_beh_dd_brake"
+  ],
+  "reference": {
+    "short_only_reference_1x": {
+      "axis": "short_max",
+      "reference_trades": 36505,
+      "reference_max_return_pct": 394.614496,
+      "reference_max_drawdown_pct": 7.77924,
+      "reference_official_cd_value": 456.137449
+    },
+    "short_beh_dd_brake": {
+      "axis": "short_main",
+      "reference_trades": 28017,
+      "reference_max_return_pct": 311.81215,
+      "reference_max_drawdown_pct": 4.758886,
+      "reference_official_cd_value": 392.214469
+    }
+  },
+  "notes": [
+    "This file embeds the original v27/v42/v52 short baseline engine/config values.",
+    "Only OHLCV CSV data is read from --data-dir.",
+    "If reference values do not match, first verify that data_dir exactly matches the original 5m_data used for reference summaries."
+  ]
+}

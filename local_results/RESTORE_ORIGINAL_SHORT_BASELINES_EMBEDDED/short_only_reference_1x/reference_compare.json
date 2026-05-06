@@ -1,0 +1,23 @@
+{
+  "strategy": "short_only_reference_1x",
+  "axis": "short_max",
+  "trades": 36834,
+  "reference_trades": 36505,
+  "trade_diff": 329,
+  "trade_ratio": 1.0090124640460212,
+  "final_return_pct": 408.6547709998406,
+  "max_return_pct": 408.9954916988155,
+  "reference_max_return_pct": 394.614496,
+  "max_return_diff_pct": 14.380995698815525,
+  "max_drawdown_pct": 7.395550425783604,
+  "reference_max_drawdown_pct": 7.77924,
+  "mdd_diff_pct": -0.3836895742163957,
+  "official_cd_value": 471.3524734452645,
+  "reference_official_cd_value": 456.137449,
+  "win_rate": 0.1471466579790411,
+  "pf": 1.4013066651299806,
+  "max_conc": 294,
+  "max_conc_unique_symbols": 294,
+  "same_bar_trades": 3766,
+  "active_leftover": 0
+}

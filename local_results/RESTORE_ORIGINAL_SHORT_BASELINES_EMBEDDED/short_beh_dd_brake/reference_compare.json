@@ -1,0 +1,23 @@
+{
+  "strategy": "short_beh_dd_brake",
+  "axis": "short_main",
+  "trades": 28308,
+  "reference_trades": 28017,
+  "trade_diff": 291,
+  "trade_ratio": 1.0103865510225933,
+  "final_return_pct": 322.48410704162137,
+  "max_return_pct": 322.7577232826396,
+  "reference_max_return_pct": 311.81215,
+  "max_return_diff_pct": 10.9455732826396,
+  "max_drawdown_pct": 4.4066222161057595,
+  "reference_max_drawdown_pct": 4.758886,
+  "mdd_diff_pct": -0.35226378389424085,
+  "official_cd_value": 404.12838752816384,
+  "reference_official_cd_value": 392.214469,
+  "win_rate": 0.15257171117705243,
+  "pf": 1.441356672437088,
+  "max_conc": 286,
+  "max_conc_unique_symbols": 286,
+  "same_bar_trades": 3357,
+  "active_leftover": 0
+}
