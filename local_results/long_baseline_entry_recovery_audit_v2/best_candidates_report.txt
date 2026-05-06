@@ -1,0 +1,62 @@
+[LONG_BASELINE_ENTRY_RECOVERY_AUDIT_V2]
+data_dir=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+out_dir=C:\Users\user\Desktop\LCD\파이썬\local_result\long_baseline_entry_recovery_audit_v2
+csv_files=597
+position_fraction=0.01
+fee_per_side=0.0004
+round_trip_fee_pct=0.08
+TP03_added=False
+
+[BEST_SIGNAL_CANDIDATES]
+long_main target_trades=592
+  LM_DF2934 approx=592 raw=593 diff=0 ratio=1.0000 | current=near_ll20_002, prior=prior_ll20_006_l18, cap=hh5, vol>=1.7, close_pos>=0.8, drop=range20_ge_055
+  LM_DF4023 approx=592 raw=593 diff=0 ratio=1.0000 | current=near_ll20_004, prior=prior_ll20_004_l18, cap=hh3, vol>=1.5, close_pos>=0.72, drop=ret10_le_m025
+  LM_DF3615 approx=591 raw=595 diff=-1 ratio=0.9983 | current=near_ll20_004, prior=prior_ll20_002_l12, cap=hh3, vol>=1.35, close_pos>=0.8, drop=range20_ge_075
+  LM_DF3804 approx=593 raw=593 diff=1 ratio=1.0017 | current=near_ll20_004, prior=prior_ll20_002_l12, cap=hh6, vol>=1.7, close_pos>=0.72, drop=range20_ge_055
+  LM_DF4209 approx=593 raw=593 diff=1 ratio=1.0017 | current=near_ll20_004, prior=prior_ll20_004_l18, cap=hh6, vol>=1.7, close_pos>=0.76, drop=range20_ge_055
+  LM_DF4423 approx=593 raw=594 diff=1 ratio=1.0017 | current=near_ll20_004, prior=prior_ll20_006_l18, cap=hh3, vol>=1.5, close_pos>=0.72, drop=ret10_le_m025
+  LM_DF4549 approx=593 raw=593 diff=1 ratio=1.0017 | current=near_ll20_004, prior=prior_ll20_006_l18, cap=hh5, vol>=2.0, close_pos>=0.76, drop=range20_ge_055
+  LM_DF4790 approx=593 raw=596 diff=1 ratio=1.0017 | current=near_ll20_004, prior=prior_ll20_006_l18, cap=ema20_reclaim, vol>=2.0, close_pos>=0.76, drop=range20_ge_075
+  LM_DF5630 approx=593 raw=597 diff=1 ratio=1.0017 | current=near_ll20_006, prior=prior_ll20_004_l18, cap=hh3, vol>=1.5, close_pos>=0.76, drop=range20_ge_075
+  LM_DF3623 approx=590 raw=591 diff=-2 ratio=0.9966 | current=near_ll20_004, prior=prior_ll20_002_l12, cap=hh3, vol>=1.5, close_pos>=0.72, drop=ret10_le_m025
+long_max target_trades=2276
+  LX_R2200078 approx=18703 raw=19429 diff=16427 ratio=8.2175 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range6_t035, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2204078 approx=18704 raw=19430 diff=16428 ratio=8.2179 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range6_t035, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2200077 approx=18864 raw=19596 diff=16588 ratio=8.2882 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range6_t035, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret1_pos
+  LX_R2204077 approx=18865 raw=19597 diff=16589 ratio=8.2887 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range6_t035, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret1_pos
+  LX_R2200878 approx=18871 raw=19597 diff=16595 ratio=8.2913 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range8_t050, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2204878 approx=18872 raw=19598 diff=16596 ratio=8.2917 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range8_t050, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2200478 approx=18895 raw=19621 diff=16619 ratio=8.3018 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range6_t045, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2204478 approx=18896 raw=19622 diff=16620 ratio=8.3023 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range6_t045, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2201278 approx=18984 raw=19710 diff=16708 ratio=8.3409 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range8_t065, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2205278 approx=18985 raw=19711 diff=16709 ratio=8.3414 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range8_t065, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+
+[BEST_BACKTEST_CANDIDATES]
+long_main target_trades=592
+  LM_DF2934 trades=592 diff=0 max_return=0.000000 diff_ret=-23.919060 MDD=1.818934 diff_mdd=0.067751 CD=98.181066 | current=near_ll20_002, prior=prior_ll20_006_l18, cap=hh5, vol>=1.7, close_pos>=0.8, drop=range20_ge_055
+  LM_DF1980 trades=596 diff=4 max_return=0.134145 diff_ret=-23.784915 MDD=1.576960 diff_mdd=-0.174223 CD=98.555069 | current=near_ll20_002, prior=prior_ll20_000_l12, cap=ema20_reclaim, vol>=1.7, close_pos>=0.84, drop=range20_ge_075
+  LM_DF1764 trades=588 diff=-4 max_return=0.000000 diff_ret=-23.919060 MDD=1.792772 diff_mdd=0.041589 CD=98.207228 | current=near_ll20_002, prior=prior_ll20_000_l12, cap=hh6, vol>=1.35, close_pos>=0.72, drop=range20_ge_055
+  LM_DF4790 trades=594 diff=2 max_return=0.033621 diff_ret=-23.885439 MDD=1.592905 diff_mdd=-0.158279 CD=98.440181 | current=near_ll20_004, prior=prior_ll20_006_l18, cap=ema20_reclaim, vol>=2.0, close_pos>=0.76, drop=range20_ge_075
+  LM_DF2534 trades=582 diff=-10 max_return=0.000000 diff_ret=-23.919060 MDD=1.833653 diff_mdd=0.082470 CD=98.166347 | current=near_ll20_002, prior=prior_ll20_004_l18, cap=hh5, vol>=1.7, close_pos>=0.8, drop=range20_ge_055
+  LM_DF2169 trades=584 diff=-8 max_return=0.000000 diff_ret=-23.919060 MDD=1.893043 diff_mdd=0.141860 CD=98.106957 | current=near_ll20_002, prior=prior_ll20_002_l12, cap=hh6, vol>=1.35, close_pos>=0.76, drop=range20_ge_055
+  LM_DF3185 trades=583 diff=-9 max_return=0.022507 diff_ret=-23.896553 MDD=1.595046 diff_mdd=-0.156138 CD=98.427103 | current=near_ll20_002, prior=prior_ll20_006_l18, cap=ema20_reclaim, vol>=2.0, close_pos>=0.72, drop=range20_ge_075
+  LM_DF3223 trades=589 diff=-3 max_return=0.024510 diff_ret=-23.894550 MDD=1.985619 diff_mdd=0.234436 CD=98.038404 | current=near_ll20_004, prior=prior_ll20_000_l12, cap=hh3, vol>=1.5, close_pos>=0.72, drop=ret10_le_m025
+  LM_DF3623 trades=591 diff=-1 max_return=0.024510 diff_ret=-23.894550 MDD=2.005636 diff_mdd=0.254452 CD=98.018383 | current=near_ll20_004, prior=prior_ll20_002_l12, cap=hh3, vol>=1.5, close_pos>=0.72, drop=ret10_le_m025
+  LM_DF4023 trades=593 diff=1 max_return=0.024510 diff_ret=-23.894550 MDD=2.020286 diff_mdd=0.269103 CD=98.003728 | current=near_ll20_004, prior=prior_ll20_004_l18, cap=hh3, vol>=1.5, close_pos>=0.72, drop=ret10_le_m025
+long_max target_trades=2276
+  LX_R2200078 trades=18983 diff=16707 max_return=0.043529 diff_ret=-44.222842 MDD=24.811100 diff_mdd=18.052378 CD=75.221629 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range6_t035, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2204078 trades=18984 diff=16708 max_return=0.043529 diff_ret=-44.222842 MDD=24.816787 diff_mdd=18.058065 CD=75.215939 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range6_t035, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2200878 trades=19151 diff=16875 max_return=0.004177 diff_ret=-44.262193 MDD=24.599931 diff_mdd=17.841210 CD=75.403218 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range8_t050, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2204878 trades=19152 diff=16876 max_return=0.004177 diff_ret=-44.262193 MDD=24.605634 diff_mdd=17.846913 CD=75.397515 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range8_t050, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2200478 trades=19175 diff=16899 max_return=0.023130 diff_ret=-44.243241 MDD=24.711170 diff_mdd=17.952448 CD=75.306244 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range6_t045, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2204478 trades=19176 diff=16900 max_return=0.023130 diff_ret=-44.243241 MDD=24.716864 diff_mdd=17.958143 CD=75.300549 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range6_t045, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2200077 trades=19151 diff=16875 max_return=0.033494 diff_ret=-44.232877 MDD=25.096973 diff_mdd=18.338251 CD=74.928115 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range6_t035, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret1_pos
+  LX_R2204077 trades=19152 diff=16876 max_return=0.033494 diff_ret=-44.232877 MDD=25.102638 diff_mdd=18.343916 CD=74.922448 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range6_t035, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret1_pos
+  LX_R2201278 trades=19264 diff=16988 max_return=0.004177 diff_ret=-44.262193 MDD=24.603189 diff_mdd=17.844467 CD=75.399961 | rare=near_ll22_0005, prior=prior_ll22_0005_l18, microbase=range8_t065, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+  LX_R2205278 trades=19265 diff=16989 max_return=0.004177 diff_ret=-44.262193 MDD=24.608891 diff_mdd=17.850170 CD=75.394258 | rare=near_ll22_002, prior=prior_ll22_0005_l18, microbase=range8_t065, pop=hh3_000, close_pos>=0.82, vol>=2.0, c1=ret2_pos
+
+[NEXT_DECISION]
+1. candidate_signal_audit.csv에서 target trade 수에 가까운 후보를 확인한다.
+2. candidate_backtest_top.csv에서 trade 수, max_return, MDD가 동시에 가까운 후보를 고른다.
+3. 둘 다 멀면 double_flush/cap_reclaim 또는 rare22_c1 정의 후보를 더 강하게 좁힌 v3를 만든다.
+4. 이번 단계에서는 기준선 갱신 금지. 목적은 진입 조건 원형 복원이다.
