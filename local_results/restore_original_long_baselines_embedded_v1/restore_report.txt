@@ -1,0 +1,17 @@
+[RESTORE_LONG_BASELINES_EMBEDDED_V1]
+data_dir=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+out_dir=C:\Users\user\Desktop\LCD\파이썬\local_result\restore_original_long_baselines_embedded_v1
+csv_files=597
+position_fraction=0.01
+fee_per_side=0.0004
+round_trip_fee_pct=0.08
+TP03_added=False
+
+[SUMMARY]
+long_main | 6V2_L01_doubleflush_core | mode=recovered | trades=198701 ref=592 diff=198109 | max_return=0.124385 ref=23.919060 diff=-23.794675 | MDD=81.819703 ref=1.751183 diff=80.068519 | CD=18.202911 ref=121.749029 diff=-103.546118
+long_max | 8V4_V51_V002_core_rare22_c1 | mode=recovered | trades=359256 ref=2276 diff=356980 | max_return=0.001591 ref=44.266371 diff=-44.264780 | MDD=96.274322 ref=6.758722 diff=89.515600 | CD=3.725737 ref=134.515867 diff=-130.790129
+
+[NOTE]
+spec_only가 과다발화하면 CORE_SUMMARY2 수치 조건만으로는 원본 복원이 불충분하다는 뜻이다.
+recovered/strict 중 reference에 가까운 모드를 다음 복구 기준으로 삼고, 업로드 결과를 보고 보정한다.
+결과가 reference와 크게 다르면 원본 long 코드가 저장소에 없거나, 문서화되지 않은 hidden gate가 더 있다는 뜻이다.
