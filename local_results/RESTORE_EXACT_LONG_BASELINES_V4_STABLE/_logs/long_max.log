@@ -1,0 +1,14 @@
+[CMD] c:\Users\user\AppData\Local\Programs\Python\Python311\python.exe C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_LONG_BASELINES_V4_STABLE\_patched_sources\restore_exact_8V4_V51_V002_core_rare22_c1__v4_patched.py
+[CWD] C:\Users\user\Desktop\LCD\파이썬\코인
+
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_V51_V002_FEE008_V4
+[TARGET_ONLY] 8V4_V51_V002_core_rare22_c1 | l09 v51 microbase pop + core + rare22_c1 | atr_stop=0.92 | rr=2.55 | hold=18 | cooldown=25
+repo_root=C:\Users\user\Desktop\LCD\파이썬\코인
+data_root=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+result_root=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_V51_V002_FEE008_V4
+symbols=597 | strategies=1
+8V4_V51_V002_core_rare22_c1 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+done | strategies=1 | elapsed_sec=974.93

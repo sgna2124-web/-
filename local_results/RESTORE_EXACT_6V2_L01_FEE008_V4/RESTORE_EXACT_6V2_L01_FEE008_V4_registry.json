@@ -1,0 +1,21 @@
+[
+  {
+    "batch_label": "RESTORE_EXACT_6V2_L01_FEE008_V4",
+    "strategy_name": "6V2_L01_doubleflush_core",
+    "side": "long",
+    "description": "cap reclaim + double flush core",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 592,
+    "wins": 346,
+    "losses": 246,
+    "win_rate_pct": 58.445945945945944,
+    "final_return_pct": 23.842607902995372,
+    "max_return_pct": 24.062339972372413,
+    "max_drawdown_pct": 1.727990430616011,
+    "cd_value": 121.7026194894063,
+    "baseline_cd_value": 108.8106,
+    "ruined": false,
+    "verdict": "baseline_win"
+  }
+]

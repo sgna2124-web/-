@@ -1,0 +1,4 @@
+batch=RESTORE_EXACT_8V4_V51_V002_FEE008_V4
+timeframe=5m
+
+8V4_V51_V002_core_rare22_c1 | verdict=baseline_fail | final_return_pct=0.0000 | max_return_pct=0.0000 | max_drawdown_pct=0.0000 | cd_value=100.0000 | trades=0

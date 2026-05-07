@@ -1,0 +1,2 @@
+﻿batch_label,strategy_name,side,description,timeframe,processed_symbols,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,cd_value,baseline_cd_value,ruined,verdict
+RESTORE_EXACT_8V4_V51_V002_FEE008_V4,8V4_V51_V002_core_rare22_c1,long,l09 v51 microbase pop + core + rare22_c1,5m,597,0,0,0,0.0,0.0,0.0,0.0,100.0,121.53,False,baseline_fail

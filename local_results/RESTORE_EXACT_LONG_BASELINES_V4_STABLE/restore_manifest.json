@@ -1,0 +1,50 @@
+{
+  "script": "restore_exact_long_baselines_v4_stable.py",
+  "axes": [
+    "long_main",
+    "long_max"
+  ],
+  "repo_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "out_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_EXACT_LONG_BASELINES_V4_STABLE",
+  "mode": "sequential",
+  "fee_bps": 8.0,
+  "position_fraction": 0.01,
+  "runs": [
+    {
+      "axis": "long_main",
+      "target_name": "6V2_L01_doubleflush_core",
+      "source_path": "C:\\Users\\user\\Documents\\GitHub\\-\\base_line\\6V2_long10_reviewed.py",
+      "patched_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_EXACT_LONG_BASELINES_V4_STABLE\\_patched_sources\\restore_exact_6V2_L01_doubleflush_core__v4_patched.py",
+      "log_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_EXACT_LONG_BASELINES_V4_STABLE\\_logs\\long_main.log",
+      "batch_label": "RESTORE_EXACT_6V2_L01_FEE008_V4",
+      "repo_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인",
+      "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+      "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+      "fee_bps": 8.0,
+      "position_fraction": 0.01,
+      "sequential": true,
+      "dry_run": false,
+      "returncode": 0,
+      "elapsed_sec": 464.78976011276245
+    },
+    {
+      "axis": "long_max",
+      "target_name": "8V4_V51_V002_core_rare22_c1",
+      "source_path": "C:\\Users\\user\\Documents\\GitHub\\-\\base_line\\8V4_long400_reviewed.py",
+      "patched_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_EXACT_LONG_BASELINES_V4_STABLE\\_patched_sources\\restore_exact_8V4_V51_V002_core_rare22_c1__v4_patched.py",
+      "log_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_EXACT_LONG_BASELINES_V4_STABLE\\_logs\\long_max.log",
+      "batch_label": "RESTORE_EXACT_8V4_V51_V002_FEE008_V4",
+      "repo_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인",
+      "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+      "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+      "fee_bps": 8.0,
+      "position_fraction": 0.01,
+      "sequential": true,
+      "dry_run": false,
+      "returncode": 0,
+      "elapsed_sec": 975.7137086391449
+    }
+  ]
+}

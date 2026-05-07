@@ -1,0 +1,2 @@
+﻿batch_label,strategy_name,side,description,timeframe,processed_symbols,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,cd_value,baseline_cd_value,ruined,verdict
+RESTORE_EXACT_6V2_L01_FEE008_V4,6V2_L01_doubleflush_core,long,cap reclaim + double flush core,5m,597,592,346,246,58.445945945945944,23.842607902995372,24.062339972372413,1.727990430616011,121.7026194894063,108.8106,False,baseline_win

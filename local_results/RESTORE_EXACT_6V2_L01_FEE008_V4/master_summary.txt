@@ -1,0 +1,4 @@
+batch=RESTORE_EXACT_6V2_L01_FEE008_V4
+timeframe=5m
+
+6V2_L01_doubleflush_core | verdict=baseline_win | final_return_pct=23.8426 | max_return_pct=24.0623 | max_drawdown_pct=1.7280 | cd_value=121.7026 | trades=592

@@ -1,0 +1,14 @@
+[CMD] c:\Users\user\AppData\Local\Programs\Python\Python311\python.exe C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_LONG_BASELINES_V4_STABLE\_patched_sources\restore_exact_6V2_L01_doubleflush_core__v4_patched.py
+[CWD] C:\Users\user\Desktop\LCD\파이썬\코인
+
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_6V2_L01_FEE008_V4
+[TARGET_ONLY] 6V2_L01_doubleflush_core | cap reclaim + double flush core | atr_stop=1.05 | rr=2.5 | hold=18 | cooldown=18
+repo_root=C:\Users\user\Desktop\LCD\파이썬\코인
+data_root=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+result_root=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_6V2_L01_FEE008_V4
+symbols=597 | strategies=1
+6V2_L01_doubleflush_core | side=long | trades=592 | win_rate=58.45% | final=23.8426% | max=24.0623% | mdd=1.7280% | cd=121.7026 | verdict=baseline_win
+done | strategies=1 | elapsed_sec=463.70
