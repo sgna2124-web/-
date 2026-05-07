@@ -1,0 +1,480 @@
+[CMD] c:\Users\user\AppData\Local\Programs\Python\Python311\python.exe C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_LONG_MAX_8V4_FULLRUN_EXTRACT_V1\_patched_sources\restore_8V4_long400_fullrun_fee008_v1__patched.py
+[CWD] C:\Users\user\Desktop\LCD\파이썬\코인
+
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+repo_root=C:\Users\user\Desktop\LCD\파이썬\코인
+data_root=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+result_root=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+symbols=597 | strategies=400
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+[PATHS] REPO_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인
+[PATHS] DATA_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+[PATHS] SYMBOL_COST_PATH=C:\Users\user\Desktop\LCD\파이썬\symbol_cost exists=True
+[PATHS] RESULT_ROOT=C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+[TARGET_PROBE] target=8V4_V51_V002_core_rare22_c1 count=1 total_strategies=400
+[TARGET_PROBE] found=8V4_V51_V002_core_rare22_c1 desc=l09 v51 microbase pop + core + rare22_c1 atr_stop=0.92 rr=2.55 hold=18 cooldown=25
+8V4_V51_V001_core_base | side=long | trades=2277 | win_rate=45.50% | final=43.9468% | max=44.4532% | mdd=6.8233% | cd=134.1248 | verdict=candidate_cd_win_mdd_fail
+8V4_V51_V002_core_rare22_c1 | side=long | trades=2276 | win_rate=45.34% | final=44.3226% | max=44.9123% | mdd=6.8270% | cd=134.4697 | verdict=candidate_cd_win_mdd_fail
+8V4_V51_V003_core_rare28_first | side=long | trades=476 | win_rate=30.67% | final=-0.9279% | max=1.2725% | mdd=2.2805% | cd=96.8128 | verdict=baseline_fail
+8V4_V51_V004_core_vol18 | side=long | trades=199 | win_rate=43.22% | final=2.7832% | max=2.8057% | mdd=0.7529% | cd=102.0093 | verdict=baseline_fail
+8V4_V51_V005_core_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V006_core_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V007_core_refire40 | side=long | trades=671 | win_rate=47.39% | final=15.0923% | max=15.2396% | mdd=1.6671% | cd=113.1736 | verdict=baseline_fail
+8V4_V51_V008_core_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0170% | max=0.0000% | mdd=0.0170% | cd=99.9660 | verdict=baseline_fail
+8V4_V51_V009_core_microguard | side=long | trades=563 | win_rate=46.71% | final=11.1017% | max=11.2042% | mdd=1.7232% | cd=109.1872 | verdict=baseline_fail
+8V4_V51_V010_core_shortgap | side=long | trades=28 | win_rate=35.71% | final=-0.3304% | max=0.1688% | mdd=0.4984% | cd=99.1729 | verdict=baseline_fail
+8V4_V51_V011_strict_base | side=long | trades=1040 | win_rate=47.02% | final=20.4365% | max=20.6787% | mdd=2.8648% | cd=116.9862 | verdict=baseline_fail
+8V4_V51_V012_strict_rare22_c1 | side=long | trades=1040 | win_rate=47.02% | final=20.8413% | max=21.0836% | mdd=2.9344% | cd=117.2954 | verdict=baseline_fail
+8V4_V51_V013_strict_rare28_first | side=long | trades=476 | win_rate=31.72% | final=-0.9030% | max=1.2798% | mdd=2.2667% | cd=96.8508 | verdict=baseline_fail
+8V4_V51_V014_strict_vol18 | side=long | trades=78 | win_rate=38.46% | final=1.1014% | max=1.1014% | mdd=0.4229% | cd=100.6738 | verdict=baseline_fail
+8V4_V51_V015_strict_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V016_strict_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V017_strict_refire40 | side=long | trades=671 | win_rate=48.14% | final=15.4989% | max=15.6509% | mdd=1.7061% | cd=113.5284 | verdict=baseline_fail
+8V4_V51_V018_strict_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0175% | max=0.0000% | mdd=0.0175% | cd=99.9649 | verdict=baseline_fail
+8V4_V51_V019_strict_microguard | side=long | trades=563 | win_rate=47.25% | final=11.4545% | max=11.5602% | mdd=1.7822% | cd=109.4682 | verdict=baseline_fail
+8V4_V51_V020_strict_shortgap | side=long | trades=20 | win_rate=50.00% | final=-0.1524% | max=0.1545% | mdd=0.3064% | cd=99.5416 | verdict=baseline_fail
+8V4_V51_V021_lowanchor_base | side=long | trades=1040 | win_rate=47.79% | final=21.1552% | max=21.4067% | mdd=3.0568% | cd=117.4517 | verdict=baseline_fail
+8V4_V51_V022_lowanchor_rare22_c1 | side=long | trades=1040 | win_rate=47.79% | final=21.5428% | max=21.7944% | mdd=3.0155% | cd=117.8777 | verdict=baseline_fail
+8V4_V51_V023_lowanchor_rare28_first | side=long | trades=476 | win_rate=32.77% | final=-0.6007% | max=1.6369% | mdd=2.3167% | cd=97.0965 | verdict=baseline_fail
+8V4_V51_V024_lowanchor_vol18 | side=long | trades=78 | win_rate=38.46% | final=1.0379% | max=1.0379% | mdd=0.4335% | cd=100.5999 | verdict=baseline_fail
+8V4_V51_V025_lowanchor_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V026_lowanchor_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V027_lowanchor_refire40 | side=long | trades=671 | win_rate=48.73% | final=15.9063% | max=16.0630% | mdd=1.7431% | cd=113.8860 | verdict=baseline_fail
+8V4_V51_V028_lowanchor_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0181% | max=0.0000% | mdd=0.0181% | cd=99.9639 | verdict=baseline_fail
+8V4_V51_V029_lowanchor_microguard | side=long | trades=563 | win_rate=47.96% | final=11.6474% | max=11.7560% | mdd=2.0937% | cd=109.3098 | verdict=baseline_fail
+8V4_V51_V030_lowanchor_shortgap | side=long | trades=20 | win_rate=50.00% | final=-0.1769% | max=0.1396% | mdd=0.3160% | cd=99.5076 | verdict=baseline_fail
+8V4_V51_V031_shocklow_base | side=long | trades=2276 | win_rate=44.99% | final=42.3745% | max=42.8415% | mdd=6.8040% | cd=132.6873 | verdict=candidate_cd_win_mdd_fail
+8V4_V51_V032_shocklow_rare22_c1 | side=long | trades=2275 | win_rate=44.84% | final=42.7371% | max=43.2929% | mdd=6.8035% | cd=133.0259 | verdict=candidate_cd_win_mdd_fail
+8V4_V51_V033_shocklow_rare28_first | side=long | trades=476 | win_rate=29.83% | final=-0.8765% | max=1.3414% | mdd=2.2963% | cd=96.8473 | verdict=baseline_fail
+8V4_V51_V034_shocklow_vol18 | side=long | trades=199 | win_rate=43.22% | final=2.8046% | max=2.8314% | mdd=0.7529% | cd=102.0305 | verdict=baseline_fail
+8V4_V51_V035_shocklow_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V036_shocklow_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V037_shocklow_refire40 | side=long | trades=671 | win_rate=46.50% | final=14.5286% | max=14.6862% | mdd=1.6797% | cd=112.6049 | verdict=baseline_fail
+8V4_V51_V038_shocklow_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0170% | max=0.0000% | mdd=0.0170% | cd=99.9660 | verdict=baseline_fail
+8V4_V51_V039_shocklow_microguard | side=long | trades=563 | win_rate=45.29% | final=10.6807% | max=10.7936% | mdd=1.7485% | cd=108.7454 | verdict=baseline_fail
+8V4_V51_V040_shocklow_shortgap | side=long | trades=27 | win_rate=33.33% | final=-0.2703% | max=0.2333% | mdd=0.5025% | cd=99.2286 | verdict=baseline_fail
+8V4_V51_V041_prevhigh_base | side=long | trades=17 | win_rate=58.82% | final=0.7303% | max=0.7611% | mdd=0.0708% | cd=100.6590 | verdict=baseline_fail
+8V4_V51_V042_prevhigh_rare22_c1 | side=long | trades=17 | win_rate=58.82% | final=0.7484% | max=0.7791% | mdd=0.0708% | cd=100.6771 | verdict=baseline_fail
+8V4_V51_V043_prevhigh_rare28_first | side=long | trades=4 | win_rate=25.00% | final=-0.0690% | max=0.0042% | mdd=0.0731% | cd=99.8580 | verdict=baseline_fail
+8V4_V51_V044_prevhigh_vol18 | side=long | trades=4 | win_rate=75.00% | final=0.4234% | max=0.4373% | mdd=0.0138% | cd=100.4095 | verdict=baseline_fail
+8V4_V51_V045_prevhigh_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V046_prevhigh_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V047_prevhigh_refire40 | side=long | trades=7 | win_rate=57.14% | final=0.3786% | max=0.3953% | mdd=0.0514% | cd=100.3270 | verdict=baseline_fail
+8V4_V51_V048_prevhigh_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V049_prevhigh_microguard | side=long | trades=5 | win_rate=60.00% | final=0.2809% | max=0.3136% | mdd=0.0326% | cd=100.2482 | verdict=baseline_fail
+8V4_V51_V050_prevhigh_shortgap | side=long | trades=7 | win_rate=42.86% | final=0.1011% | max=0.1476% | mdd=0.0514% | cd=100.0497 | verdict=baseline_fail
+8V4_V51_V051_extreme_base | side=long | trades=8 | win_rate=50.00% | final=0.3393% | max=0.3903% | mdd=0.0530% | cd=100.2862 | verdict=baseline_fail
+8V4_V51_V052_extreme_rare22_c1 | side=long | trades=8 | win_rate=50.00% | final=0.3476% | max=0.3986% | mdd=0.0530% | cd=100.2945 | verdict=baseline_fail
+8V4_V51_V053_extreme_rare28_first | side=long | trades=2 | win_rate=0.00% | final=-0.0609% | max=0.0000% | mdd=0.0609% | cd=99.8782 | verdict=baseline_fail
+8V4_V51_V054_extreme_vol18 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V055_extreme_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V056_extreme_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V057_extreme_refire40 | side=long | trades=7 | win_rate=57.14% | final=0.3897% | max=0.4069% | mdd=0.0530% | cd=100.3365 | verdict=baseline_fail
+8V4_V51_V058_extreme_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V059_extreme_microguard | side=long | trades=5 | win_rate=60.00% | final=0.2888% | max=0.3226% | mdd=0.0336% | cd=100.2551 | verdict=baseline_fail
+8V4_V51_V060_extreme_shortgap | side=long | trades=4 | win_rate=25.00% | final=0.0284% | max=0.0620% | mdd=0.0609% | cd=99.9674 | verdict=baseline_fail
+8V4_V51_V061_spring_base | side=long | trades=675 | win_rate=45.93% | final=14.1799% | max=14.3448% | mdd=1.7390% | cd=112.1943 | verdict=baseline_fail
+8V4_V51_V062_spring_rare22_c1 | side=long | trades=675 | win_rate=45.93% | final=14.4949% | max=14.6595% | mdd=1.7126% | cd=112.5341 | verdict=baseline_fail
+8V4_V51_V063_spring_rare28_first | side=long | trades=318 | win_rate=28.93% | final=-0.5099% | max=0.9797% | mdd=1.5302% | cd=97.9676 | verdict=baseline_fail
+8V4_V51_V064_spring_vol18 | side=long | trades=17 | win_rate=29.41% | final=0.2575% | max=0.2984% | mdd=0.1248% | cd=100.1324 | verdict=baseline_fail
+8V4_V51_V065_spring_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V066_spring_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V067_spring_refire40 | side=long | trades=671 | win_rate=45.75% | final=14.5535% | max=14.7175% | mdd=1.6861% | cd=112.6220 | verdict=baseline_fail
+8V4_V51_V068_spring_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0170% | max=0.0000% | mdd=0.0170% | cd=99.9660 | verdict=baseline_fail
+8V4_V51_V069_spring_microguard | side=long | trades=555 | win_rate=45.05% | final=10.6696% | max=10.7886% | mdd=1.7852% | cd=108.6939 | verdict=baseline_fail
+8V4_V51_V070_spring_shortgap | side=long | trades=13 | win_rate=38.46% | final=-0.1449% | max=0.1427% | mdd=0.2872% | cd=99.5683 | verdict=baseline_fail
+8V4_V51_V071_ema_mid_base | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V072_ema_mid_rare22_c1 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V073_ema_mid_rare28_first | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V074_ema_mid_vol18 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V075_ema_mid_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V076_ema_mid_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V077_ema_mid_refire40 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V078_ema_mid_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V079_ema_mid_microguard | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V080_ema_mid_shortgap | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V081_hammer_outside_base | side=long | trades=563 | win_rate=45.83% | final=11.1852% | max=11.3120% | mdd=2.1415% | cd=108.8041 | verdict=baseline_fail
+8V4_V51_V082_hammer_outside_rare22_c1 | side=long | trades=563 | win_rate=45.83% | final=11.3336% | max=11.4600% | mdd=2.1247% | cd=108.9681 | verdict=baseline_fail
+8V4_V51_V083_hammer_outside_rare28_first | side=long | trades=281 | win_rate=30.96% | final=-0.3080% | max=1.1822% | mdd=1.4877% | cd=98.2089 | verdict=baseline_fail
+8V4_V51_V084_hammer_outside_vol18 | side=long | trades=22 | win_rate=36.36% | final=0.4379% | max=0.4563% | mdd=0.1504% | cd=100.2869 | verdict=baseline_fail
+8V4_V51_V085_hammer_outside_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V086_hammer_outside_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V087_hammer_outside_refire40 | side=long | trades=552 | win_rate=45.83% | final=11.4899% | max=11.6157% | mdd=2.1319% | cd=109.1131 | verdict=baseline_fail
+8V4_V51_V088_hammer_outside_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0181% | max=0.0000% | mdd=0.0181% | cd=99.9639 | verdict=baseline_fail
+8V4_V51_V089_hammer_outside_microguard | side=long | trades=563 | win_rate=45.83% | final=11.1852% | max=11.3120% | mdd=2.1415% | cd=108.8041 | verdict=baseline_fail
+8V4_V51_V090_hammer_outside_shortgap | side=long | trades=11 | win_rate=36.36% | final=-0.0759% | max=0.0956% | mdd=0.1713% | cd=99.7529 | verdict=baseline_fail
+8V4_V51_V091_quality_hold_base | side=long | trades=969 | win_rate=43.14% | final=11.5262% | max=12.0052% | mdd=2.9044% | cd=108.2870 | verdict=baseline_fail
+8V4_V51_V092_quality_hold_rare22_c1 | side=long | trades=969 | win_rate=43.03% | final=11.7199% | max=12.1594% | mdd=2.8705% | cd=108.5130 | verdict=baseline_fail
+8V4_V51_V093_quality_hold_rare28_first | side=long | trades=467 | win_rate=28.91% | final=-1.2104% | max=0.9357% | mdd=2.2340% | cd=96.5826 | verdict=baseline_fail
+8V4_V51_V094_quality_hold_vol18 | side=long | trades=72 | win_rate=33.33% | final=0.6676% | max=0.6676% | mdd=0.4040% | cd=100.2608 | verdict=baseline_fail
+8V4_V51_V095_quality_hold_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V096_quality_hold_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V51_V097_quality_hold_refire40 | side=long | trades=620 | win_rate=43.06% | final=7.4365% | max=7.9169% | mdd=1.8224% | cd=105.4785 | verdict=baseline_fail
+8V4_V51_V098_quality_hold_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0170% | max=0.0000% | mdd=0.0170% | cd=99.9660 | verdict=baseline_fail
+8V4_V51_V099_quality_hold_microguard | side=long | trades=522 | win_rate=42.53% | final=5.3137% | max=6.1416% | mdd=1.8153% | cd=103.4020 | verdict=baseline_fail
+8V4_V51_V100_quality_hold_shortgap | side=long | trades=20 | win_rate=45.00% | final=-0.1065% | max=0.2188% | mdd=0.3246% | cd=99.5692 | verdict=baseline_fail
+8V4_V27_V001_core_base | side=long | trades=7644 | win_rate=35.88% | final=37.0336% | max=37.9318% | mdd=12.8646% | cd=119.4049 | verdict=mdd_fail
+8V4_V27_V002_core_rare22_c1 | side=long | trades=7640 | win_rate=35.64% | final=36.8364% | max=37.7683% | mdd=13.7166% | cd=118.0671 | verdict=mdd_fail
+8V4_V27_V003_core_rare28_first | side=long | trades=1711 | win_rate=29.34% | final=-3.3444% | max=0.3960% | mdd=3.9628% | cd=92.8253 | verdict=baseline_fail
+8V4_V27_V004_core_vol18 | side=long | trades=1382 | win_rate=34.59% | final=1.4968% | max=2.4527% | mdd=2.7047% | cd=98.7516 | verdict=baseline_fail
+8V4_V27_V005_core_vol16_quiet | side=long | trades=5 | win_rate=20.00% | final=-0.1315% | max=0.0000% | mdd=0.1315% | cd=99.7372 | verdict=baseline_fail
+8V4_V27_V006_core_noshock14 | side=long | trades=357 | win_rate=34.45% | final=-0.0788% | max=0.4088% | mdd=0.4921% | cd=99.4295 | verdict=baseline_fail
+8V4_V27_V007_core_refire40 | side=long | trades=671 | win_rate=46.05% | final=15.3040% | max=15.4842% | mdd=1.7399% | cd=113.2978 | verdict=baseline_fail
+8V4_V27_V008_core_softscore | side=long | trades=2366 | win_rate=37.11% | final=6.9481% | max=10.3165% | mdd=3.1552% | cd=103.5737 | verdict=baseline_fail
+8V4_V27_V009_core_microguard | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V27_V010_core_shortgap | side=long | trades=531 | win_rate=33.52% | final=0.2450% | max=1.7777% | mdd=1.5326% | cd=98.7087 | verdict=baseline_fail
+8V4_V27_V011_strict_base | side=long | trades=4078 | win_rate=35.65% | final=19.1409% | max=19.5012% | mdd=5.6497% | cd=112.4098 | verdict=mdd_fail
+8V4_V27_V012_strict_rare22_c1 | side=long | trades=4077 | win_rate=35.59% | final=19.5945% | max=19.9436% | mdd=5.5601% | cd=112.9450 | verdict=mdd_fail
+8V4_V27_V013_strict_rare28_first | side=long | trades=1711 | win_rate=30.33% | final=-2.9223% | max=0.7551% | mdd=3.8949% | cd=93.2966 | verdict=baseline_fail
+8V4_V27_V014_strict_vol18 | side=long | trades=525 | win_rate=34.10% | final=0.7222% | max=0.8628% | mdd=0.7573% | cd=99.9594 | verdict=baseline_fail
+8V4_V27_V015_strict_vol16_quiet | side=long | trades=3 | win_rate=0.00% | final=-0.1163% | max=0.0000% | mdd=0.1163% | cd=99.7676 | verdict=baseline_fail
+8V4_V27_V016_strict_noshock14 | side=long | trades=357 | win_rate=34.73% | final=-0.1057% | max=0.3828% | mdd=0.4931% | cd=99.4017 | verdict=baseline_fail
+8V4_V27_V017_strict_refire40 | side=long | trades=671 | win_rate=46.80% | final=15.4738% | max=15.6512% | mdd=1.7761% | cd=113.4228 | verdict=baseline_fail
+8V4_V27_V018_strict_softscore | side=long | trades=2366 | win_rate=37.83% | final=7.3263% | max=10.9547% | mdd=3.3742% | cd=103.7048 | verdict=baseline_fail
+8V4_V27_V019_strict_microguard | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V27_V020_strict_shortgap | side=long | trades=334 | win_rate=34.73% | final=0.5593% | max=1.0352% | mdd=0.4990% | cd=100.0575 | verdict=baseline_fail
+8V4_V27_V021_lowanchor_base | side=long | trades=3041 | win_rate=36.90% | final=18.9971% | max=19.4067% | mdd=5.6611% | cd=112.2606 | verdict=mdd_fail
+8V4_V27_V022_lowanchor_rare22_c1 | side=long | trades=3040 | win_rate=36.81% | final=19.2648% | max=19.6687% | mdd=5.6917% | cd=112.4767 | verdict=mdd_fail
+8V4_V27_V023_lowanchor_rare28_first | side=long | trades=1711 | win_rate=30.92% | final=-3.0418% | max=0.7112% | mdd=3.9811% | cd=93.0981 | verdict=baseline_fail
+8V4_V27_V024_lowanchor_vol18 | side=long | trades=523 | win_rate=34.03% | final=0.5921% | max=0.8787% | mdd=0.9107% | cd=99.6760 | verdict=baseline_fail
+8V4_V27_V025_lowanchor_vol16_quiet | side=long | trades=1 | win_rate=0.00% | final=-0.0202% | max=0.0000% | mdd=0.0202% | cd=99.9596 | verdict=baseline_fail
+8V4_V27_V026_lowanchor_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V027_lowanchor_refire40 | side=long | trades=671 | win_rate=47.54% | final=15.7912% | max=15.9742% | mdd=1.8615% | cd=113.6358 | verdict=baseline_fail
+8V4_V27_V028_lowanchor_softscore | side=long | trades=2032 | win_rate=36.76% | final=4.8548% | max=10.3700% | mdd=5.1016% | cd=99.5055 | verdict=mdd_fail
+8V4_V27_V029_lowanchor_microguard | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V27_V030_lowanchor_shortgap | side=long | trades=331 | win_rate=35.35% | final=0.6268% | max=0.9362% | mdd=0.3779% | cd=100.2465 | verdict=baseline_fail
+8V4_V27_V031_shocklow_base | side=long | trades=6184 | win_rate=37.11% | final=40.1382% | max=41.1186% | mdd=12.0059% | cd=123.3133 | verdict=candidate_cd_win_mdd_fail
+8V4_V27_V032_shocklow_rare22_c1 | side=long | trades=6177 | win_rate=36.88% | final=39.9725% | max=41.0059% | mdd=12.8044% | cd=122.0499 | verdict=candidate_cd_win_mdd_fail
+8V4_V27_V033_shocklow_rare28_first | side=long | trades=1651 | win_rate=30.47% | final=-2.6636% | max=0.7814% | mdd=3.6581% | cd=93.7758 | verdict=baseline_fail
+8V4_V27_V034_shocklow_vol18 | side=long | trades=1382 | win_rate=33.79% | final=1.3427% | max=2.3647% | mdd=2.7497% | cd=98.5560 | verdict=baseline_fail
+8V4_V27_V035_shocklow_vol16_quiet | side=long | trades=2 | win_rate=0.00% | final=-0.0550% | max=0.0000% | mdd=0.0550% | cd=99.8900 | verdict=baseline_fail
+8V4_V27_V036_shocklow_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V037_shocklow_refire40 | side=long | trades=671 | win_rate=47.09% | final=15.8116% | max=15.9836% | mdd=1.7050% | cd=113.8370 | verdict=baseline_fail
+8V4_V27_V038_shocklow_softscore | side=long | trades=1993 | win_rate=36.68% | final=5.7360% | max=10.5431% | mdd=4.4453% | cd=101.0357 | verdict=baseline_fail
+8V4_V27_V039_shocklow_microguard | side=long | trades=1 | win_rate=100.00% | final=0.0413% | max=0.0413% | mdd=0.0000% | cd=100.0413 | verdict=baseline_fail
+8V4_V27_V040_shocklow_shortgap | side=long | trades=428 | win_rate=35.51% | final=0.5158% | max=1.8018% | mdd=1.2901% | cd=99.2190 | verdict=baseline_fail
+8V4_V27_V041_prevhigh_base | side=long | trades=632 | win_rate=26.90% | final=-0.7814% | max=0.2298% | mdd=2.7332% | cd=96.5067 | verdict=baseline_fail
+8V4_V27_V042_prevhigh_rare22_c1 | side=long | trades=630 | win_rate=26.67% | final=-0.7355% | max=0.2512% | mdd=2.7632% | cd=96.5216 | verdict=baseline_fail
+8V4_V27_V043_prevhigh_rare28_first | side=long | trades=69 | win_rate=20.29% | final=-0.6731% | max=0.0000% | mdd=0.6731% | cd=98.6583 | verdict=baseline_fail
+8V4_V27_V044_prevhigh_vol18 | side=long | trades=237 | win_rate=24.47% | final=-0.7181% | max=0.3147% | mdd=1.5648% | cd=97.7283 | verdict=baseline_fail
+8V4_V27_V045_prevhigh_vol16_quiet | side=long | trades=5 | win_rate=20.00% | final=-0.1434% | max=0.0000% | mdd=0.1434% | cd=99.7134 | verdict=baseline_fail
+8V4_V27_V046_prevhigh_noshock14 | side=long | trades=3 | win_rate=0.00% | final=-0.0511% | max=0.0000% | mdd=0.0511% | cd=99.8978 | verdict=baseline_fail
+8V4_V27_V047_prevhigh_refire40 | side=long | trades=7 | win_rate=71.43% | final=0.4127% | max=0.4303% | mdd=0.0540% | cd=100.3585 | verdict=baseline_fail
+8V4_V27_V048_prevhigh_softscore | side=long | trades=100 | win_rate=35.00% | final=0.1935% | max=0.2806% | mdd=0.2854% | cd=99.9076 | verdict=baseline_fail
+8V4_V27_V049_prevhigh_microguard | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V050_prevhigh_shortgap | side=long | trades=191 | win_rate=24.08% | final=-0.9630% | max=0.0846% | mdd=1.0467% | cd=98.0005 | verdict=baseline_fail
+8V4_V27_V051_extreme_base | side=long | trades=676 | win_rate=48.82% | final=16.3026% | max=16.4870% | mdd=1.8111% | cd=114.1962 | verdict=baseline_fail
+8V4_V27_V052_extreme_rare22_c1 | side=long | trades=675 | win_rate=48.89% | final=16.6306% | max=16.8148% | mdd=1.7940% | cd=114.5382 | verdict=baseline_fail
+8V4_V27_V053_extreme_rare28_first | side=long | trades=318 | win_rate=32.39% | final=-0.3564% | max=1.1391% | mdd=1.6647% | cd=97.9848 | verdict=baseline_fail
+8V4_V27_V054_extreme_vol18 | side=long | trades=17 | win_rate=35.29% | final=0.3192% | max=0.3373% | mdd=0.1393% | cd=100.1794 | verdict=baseline_fail
+8V4_V27_V055_extreme_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V056_extreme_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V057_extreme_refire40 | side=long | trades=671 | win_rate=48.73% | final=16.4968% | max=16.6800% | mdd=1.8073% | cd=114.3913 | verdict=baseline_fail
+8V4_V27_V058_extreme_softscore | side=long | trades=530 | win_rate=43.96% | final=4.4376% | max=6.8552% | mdd=2.2804% | cd=102.0560 | verdict=baseline_fail
+8V4_V27_V059_extreme_microguard | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V060_extreme_shortgap | side=long | trades=13 | win_rate=61.54% | final=0.0489% | max=0.1837% | mdd=0.1790% | cd=99.8698 | verdict=baseline_fail
+8V4_V27_V061_spring_base | side=long | trades=676 | win_rate=47.04% | final=15.4045% | max=15.5815% | mdd=1.6653% | cd=113.4826 | verdict=baseline_fail
+8V4_V27_V062_spring_rare22_c1 | side=long | trades=675 | win_rate=47.11% | final=15.7737% | max=15.9506% | mdd=1.6409% | cd=113.8740 | verdict=baseline_fail
+8V4_V27_V063_spring_rare28_first | side=long | trades=318 | win_rate=30.19% | final=-0.3624% | max=1.1623% | mdd=1.5590% | cd=98.0842 | verdict=baseline_fail
+8V4_V27_V064_spring_vol18 | side=long | trades=17 | win_rate=35.29% | final=0.3285% | max=0.3457% | mdd=0.1314% | cd=100.1967 | verdict=baseline_fail
+8V4_V27_V065_spring_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V066_spring_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V067_spring_refire40 | side=long | trades=671 | win_rate=46.65% | final=15.5612% | max=15.7371% | mdd=1.6403% | cd=113.6656 | verdict=baseline_fail
+8V4_V27_V068_spring_softscore | side=long | trades=530 | win_rate=42.08% | final=4.1072% | max=6.2537% | mdd=2.0369% | cd=101.9867 | verdict=baseline_fail
+8V4_V27_V069_spring_microguard | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V070_spring_shortgap | side=long | trades=13 | win_rate=46.15% | final=-0.0965% | max=0.1808% | mdd=0.2768% | cd=99.6269 | verdict=baseline_fail
+8V4_V27_V071_ema_mid_base | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V072_ema_mid_rare22_c1 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V073_ema_mid_rare28_first | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V074_ema_mid_vol18 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V075_ema_mid_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V076_ema_mid_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V077_ema_mid_refire40 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V078_ema_mid_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V079_ema_mid_microguard | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V080_ema_mid_shortgap | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V081_hammer_outside_base | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V082_hammer_outside_rare22_c1 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V083_hammer_outside_rare28_first | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V084_hammer_outside_vol18 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V085_hammer_outside_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V086_hammer_outside_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V087_hammer_outside_refire40 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V088_hammer_outside_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V089_hammer_outside_microguard | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V090_hammer_outside_shortgap | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V27_V091_quality_hold_base | side=long | trades=3990 | win_rate=34.06% | final=9.9571% | max=12.6995% | mdd=5.5228% | cd=103.8844 | verdict=mdd_fail
+8V4_V27_V092_quality_hold_rare22_c1 | side=long | trades=3989 | win_rate=33.89% | final=10.1476% | max=12.9883% | mdd=5.6047% | cd=103.9742 | verdict=mdd_fail
+8V4_V27_V093_quality_hold_rare28_first | side=long | trades=1702 | win_rate=28.67% | final=-3.2447% | max=0.5597% | mdd=4.0457% | cd=92.8408 | verdict=baseline_fail
+8V4_V27_V094_quality_hold_vol18 | side=long | trades=514 | win_rate=32.68% | final=0.8879% | max=0.9386% | mdd=0.5624% | cd=100.3206 | verdict=baseline_fail
+8V4_V27_V095_quality_hold_vol16_quiet | side=long | trades=2 | win_rate=0.00% | final=-0.0368% | max=0.0000% | mdd=0.0368% | cd=99.9264 | verdict=baseline_fail
+8V4_V27_V096_quality_hold_noshock14 | side=long | trades=357 | win_rate=33.05% | final=-0.2161% | max=0.3367% | mdd=0.5558% | cd=99.2294 | verdict=baseline_fail
+8V4_V27_V097_quality_hold_refire40 | side=long | trades=620 | win_rate=43.87% | final=7.9238% | max=8.2286% | mdd=1.8466% | cd=105.9309 | verdict=baseline_fail
+8V4_V27_V098_quality_hold_softscore | side=long | trades=2360 | win_rate=36.99% | final=7.8701% | max=11.4269% | mdd=3.2861% | cd=104.3254 | verdict=baseline_fail
+8V4_V27_V099_quality_hold_microguard | side=long | trades=1 | win_rate=100.00% | final=0.0669% | max=0.0669% | mdd=0.0000% | cd=100.0669 | verdict=baseline_fail
+8V4_V27_V100_quality_hold_shortgap | side=long | trades=334 | win_rate=34.43% | final=0.6371% | max=1.0357% | mdd=0.4270% | cd=100.2074 | verdict=baseline_fail
+8V4_V09_V001_core_base | side=long | trades=6868 | win_rate=36.53% | final=39.6573% | max=40.5551% | mdd=12.0089% | cd=122.8860 | verdict=candidate_cd_win_mdd_fail
+8V4_V09_V002_core_rare22_c1 | side=long | trades=6866 | win_rate=36.38% | final=39.0682% | max=39.9976% | mdd=12.7715% | cd=121.3071 | verdict=mdd_fail
+8V4_V09_V003_core_rare28_first | side=long | trades=3635 | win_rate=32.27% | final=-2.9342% | max=2.5467% | mdd=6.9877% | cd=90.2832 | verdict=mdd_fail
+8V4_V09_V004_core_vol18 | side=long | trades=1406 | win_rate=34.21% | final=1.4260% | max=2.4384% | mdd=2.7059% | cd=98.6815 | verdict=baseline_fail
+8V4_V09_V005_core_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V006_core_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V007_core_refire40 | side=long | trades=724 | win_rate=44.48% | final=14.7109% | max=14.9028% | mdd=2.2881% | cd=112.0862 | verdict=baseline_fail
+8V4_V09_V008_core_softscore | side=long | trades=581 | win_rate=27.54% | final=-1.0089% | max=0.3381% | mdd=2.0999% | cd=96.9124 | verdict=baseline_fail
+8V4_V09_V009_core_microguard | side=long | trades=5639 | win_rate=33.87% | final=-1.8071% | max=5.3300% | mdd=7.6776% | cd=90.6541 | verdict=mdd_fail
+8V4_V09_V010_core_shortgap | side=long | trades=578 | win_rate=34.08% | final=0.2981% | max=1.8764% | mdd=1.5750% | cd=98.7185 | verdict=baseline_fail
+8V4_V09_V011_strict_base | side=long | trades=3346 | win_rate=35.36% | final=17.6809% | max=18.1622% | mdd=6.6115% | cd=109.9005 | verdict=mdd_fail
+8V4_V09_V012_strict_rare22_c1 | side=long | trades=3344 | win_rate=35.17% | final=17.7410% | max=18.2213% | mdd=6.7412% | cd=109.8038 | verdict=mdd_fail
+8V4_V09_V013_strict_rare28_first | side=long | trades=1913 | win_rate=29.85% | final=-3.3944% | max=0.8690% | mdd=4.5649% | cd=92.1956 | verdict=baseline_fail
+8V4_V09_V014_strict_vol18 | side=long | trades=541 | win_rate=33.46% | final=0.5727% | max=0.9057% | mdd=0.9045% | cd=99.6631 | verdict=baseline_fail
+8V4_V09_V015_strict_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V016_strict_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V017_strict_refire40 | side=long | trades=724 | win_rate=44.89% | final=14.8327% | max=15.0304% | mdd=2.3729% | cd=112.1078 | verdict=baseline_fail
+8V4_V09_V018_strict_softscore | side=long | trades=179 | win_rate=31.84% | final=0.4685% | max=0.7015% | mdd=0.4163% | cd=100.0502 | verdict=baseline_fail
+8V4_V09_V019_strict_microguard | side=long | trades=2775 | win_rate=31.24% | final=-3.6250% | max=3.0950% | mdd=6.7560% | cd=89.8639 | verdict=mdd_fail
+8V4_V09_V020_strict_shortgap | side=long | trades=359 | win_rate=34.82% | final=0.5811% | max=1.0524% | mdd=0.4931% | cd=100.0851 | verdict=baseline_fail
+8V4_V09_V021_lowanchor_base | side=long | trades=3636 | win_rate=33.33% | final=-2.9804% | max=3.0909% | mdd=7.5880% | cd=89.6578 | verdict=mdd_fail
+8V4_V09_V022_lowanchor_rare22_c1 | side=long | trades=3635 | win_rate=33.26% | final=-2.9446% | max=3.2248% | mdd=7.6552% | cd=89.6256 | verdict=mdd_fail
+8V4_V09_V023_lowanchor_rare28_first | side=long | trades=3634 | win_rate=33.16% | final=-2.9251% | max=3.2604% | mdd=7.7110% | cd=89.5894 | verdict=mdd_fail
+8V4_V09_V024_lowanchor_vol18 | side=long | trades=654 | win_rate=34.71% | final=0.0419% | max=0.1605% | mdd=0.8064% | cd=99.2352 | verdict=baseline_fail
+8V4_V09_V025_lowanchor_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V026_lowanchor_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V027_lowanchor_refire40 | side=long | trades=354 | win_rate=29.94% | final=-0.8010% | max=1.1899% | mdd=1.9834% | cd=97.2315 | verdict=baseline_fail
+8V4_V09_V028_lowanchor_softscore | side=long | trades=158 | win_rate=21.52% | final=-0.9506% | max=0.0000% | mdd=0.9506% | cd=98.1078 | verdict=baseline_fail
+8V4_V09_V029_lowanchor_microguard | side=long | trades=3411 | win_rate=33.30% | final=-3.1097% | max=1.0696% | mdd=5.2749% | cd=91.7794 | verdict=mdd_fail
+8V4_V09_V030_lowanchor_shortgap | side=long | trades=383 | win_rate=32.90% | final=-0.4563% | max=0.7476% | mdd=1.2347% | cd=98.3147 | verdict=baseline_fail
+8V4_V09_V031_shocklow_base | side=long | trades=6160 | win_rate=37.03% | final=40.0092% | max=40.7668% | mdd=10.7170% | cd=125.0044 | verdict=candidate_cd_win_mdd_fail
+8V4_V09_V032_shocklow_rare22_c1 | side=long | trades=6159 | win_rate=36.86% | final=39.5090% | max=40.2914% | mdd=11.5032% | cd=123.4610 | verdict=candidate_cd_win_mdd_fail
+8V4_V09_V033_shocklow_rare28_first | side=long | trades=3188 | win_rate=32.25% | final=-3.1794% | max=1.9240% | mdd=6.0369% | cd=90.9756 | verdict=mdd_fail
+8V4_V09_V034_shocklow_vol18 | side=long | trades=1364 | win_rate=33.65% | final=1.3568% | max=2.3384% | mdd=2.7261% | cd=98.5937 | verdict=baseline_fail
+8V4_V09_V035_shocklow_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V036_shocklow_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V037_shocklow_refire40 | side=long | trades=671 | win_rate=47.09% | final=15.6086% | max=15.7776% | mdd=1.6792% | cd=113.6673 | verdict=baseline_fail
+8V4_V09_V038_shocklow_softscore | side=long | trades=540 | win_rate=26.67% | final=-0.9318% | max=0.4016% | mdd=2.1593% | cd=96.9289 | verdict=baseline_fail
+8V4_V09_V039_shocklow_microguard | side=long | trades=5016 | win_rate=34.13% | final=-1.2502% | max=4.7314% | mdd=6.3726% | cd=92.4568 | verdict=mdd_fail
+8V4_V09_V040_shocklow_shortgap | side=long | trades=425 | win_rate=35.53% | final=0.5093% | max=1.8551% | mdd=1.3470% | cd=99.1554 | verdict=baseline_fail
+8V4_V09_V041_prevhigh_base | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V042_prevhigh_rare22_c1 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V043_prevhigh_rare28_first | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V044_prevhigh_vol18 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V045_prevhigh_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V046_prevhigh_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V047_prevhigh_refire40 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V048_prevhigh_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V049_prevhigh_microguard | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V050_prevhigh_shortgap | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V051_extreme_base | side=long | trades=672 | win_rate=48.36% | final=15.8767% | max=16.0578% | mdd=1.7954% | cd=113.7962 | verdict=baseline_fail
+8V4_V09_V052_extreme_rare22_c1 | side=long | trades=672 | win_rate=48.21% | final=15.9221% | max=16.1025% | mdd=1.8049% | cd=113.8298 | verdict=baseline_fail
+8V4_V09_V053_extreme_rare28_first | side=long | trades=318 | win_rate=31.76% | final=-0.3482% | max=1.2457% | mdd=1.6220% | cd=98.0355 | verdict=baseline_fail
+8V4_V09_V054_extreme_vol18 | side=long | trades=17 | win_rate=35.29% | final=0.3448% | max=0.3627% | mdd=0.1366% | cd=100.2077 | verdict=baseline_fail
+8V4_V09_V055_extreme_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V056_extreme_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V057_extreme_refire40 | side=long | trades=671 | win_rate=48.14% | final=16.0459% | max=16.2257% | mdd=1.7806% | cd=113.9796 | verdict=baseline_fail
+8V4_V09_V058_extreme_softscore | side=long | trades=6 | win_rate=66.67% | final=0.1388% | max=0.1566% | mdd=0.0546% | cd=100.0842 | verdict=baseline_fail
+8V4_V09_V059_extreme_microguard | side=long | trades=396 | win_rate=33.59% | final=-0.6032% | max=1.4084% | mdd=1.9837% | cd=97.4251 | verdict=baseline_fail
+8V4_V09_V060_extreme_shortgap | side=long | trades=12 | win_rate=58.33% | final=-0.0737% | max=0.1803% | mdd=0.2536% | cd=99.6729 | verdict=baseline_fail
+8V4_V09_V061_spring_base | side=long | trades=725 | win_rate=45.10% | final=14.6474% | max=14.8438% | mdd=2.2380% | cd=112.0816 | verdict=baseline_fail
+8V4_V09_V062_spring_rare22_c1 | side=long | trades=725 | win_rate=45.10% | final=14.7596% | max=14.9555% | mdd=2.2162% | cd=112.2163 | verdict=baseline_fail
+8V4_V09_V063_spring_rare28_first | side=long | trades=354 | win_rate=29.66% | final=-0.6226% | max=1.2021% | mdd=1.8681% | cd=97.5209 | verdict=baseline_fail
+8V4_V09_V064_spring_vol18 | side=long | trades=17 | win_rate=35.29% | final=0.3106% | max=0.3274% | mdd=0.1287% | cd=100.1815 | verdict=baseline_fail
+8V4_V09_V065_spring_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V066_spring_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V067_spring_refire40 | side=long | trades=724 | win_rate=45.03% | final=14.9720% | max=15.1675% | mdd=2.1903% | cd=112.4538 | verdict=baseline_fail
+8V4_V09_V068_spring_softscore | side=long | trades=7 | win_rate=42.86% | final=0.1109% | max=0.1276% | mdd=0.0768% | cd=100.0340 | verdict=baseline_fail
+8V4_V09_V069_spring_microguard | side=long | trades=426 | win_rate=30.75% | final=-0.9294% | max=1.2179% | mdd=2.1548% | cd=96.9358 | verdict=baseline_fail
+8V4_V09_V070_spring_shortgap | side=long | trades=12 | win_rate=50.00% | final=-0.0647% | max=0.1744% | mdd=0.2386% | cd=99.6968 | verdict=baseline_fail
+8V4_V09_V071_ema_mid_base | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V072_ema_mid_rare22_c1 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V073_ema_mid_rare28_first | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V074_ema_mid_vol18 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V075_ema_mid_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V076_ema_mid_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V077_ema_mid_refire40 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V078_ema_mid_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V079_ema_mid_microguard | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V080_ema_mid_shortgap | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V081_hammer_outside_base | side=long | trades=1249 | win_rate=31.71% | final=-1.8589% | max=1.6352% | mdd=3.6533% | cd=94.5557 | verdict=baseline_fail
+8V4_V09_V082_hammer_outside_rare22_c1 | side=long | trades=1249 | win_rate=31.47% | final=-1.9174% | max=1.6451% | mdd=3.6826% | cd=94.4706 | verdict=baseline_fail
+8V4_V09_V083_hammer_outside_rare28_first | side=long | trades=786 | win_rate=28.88% | final=-2.0594% | max=0.7085% | mdd=2.9252% | cd=95.0757 | verdict=baseline_fail
+8V4_V09_V084_hammer_outside_vol18 | side=long | trades=132 | win_rate=28.03% | final=-0.6041% | max=0.0309% | mdd=0.7067% | cd=98.6934 | verdict=baseline_fail
+8V4_V09_V085_hammer_outside_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V086_hammer_outside_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V087_hammer_outside_refire40 | side=long | trades=353 | win_rate=32.58% | final=-0.6274% | max=1.0913% | mdd=1.7161% | cd=97.6673 | verdict=baseline_fail
+8V4_V09_V088_hammer_outside_softscore | side=long | trades=126 | win_rate=30.16% | final=0.1283% | max=0.2553% | mdd=0.3960% | cd=99.7318 | verdict=baseline_fail
+8V4_V09_V089_hammer_outside_microguard | side=long | trades=1248 | win_rate=31.73% | final=-1.8402% | max=1.6546% | mdd=3.6533% | cd=94.5738 | verdict=baseline_fail
+8V4_V09_V090_hammer_outside_shortgap | side=long | trades=93 | win_rate=35.48% | final=0.1283% | max=0.3192% | mdd=0.2785% | cd=99.8494 | verdict=baseline_fail
+8V4_V09_V091_quality_hold_base | side=long | trades=2936 | win_rate=34.30% | final=9.5403% | max=12.3166% | mdd=5.2907% | cd=103.7449 | verdict=mdd_fail
+8V4_V09_V092_quality_hold_rare22_c1 | side=long | trades=2936 | win_rate=34.23% | final=9.3226% | max=12.3893% | mdd=5.5799% | cd=103.2225 | verdict=mdd_fail
+8V4_V09_V093_quality_hold_rare28_first | side=long | trades=1703 | win_rate=28.48% | final=-3.3723% | max=0.6498% | mdd=4.2707% | cd=92.5010 | verdict=baseline_fail
+8V4_V09_V094_quality_hold_vol18 | side=long | trades=530 | win_rate=31.89% | final=0.7552% | max=0.9717% | mdd=0.7394% | cd=100.0102 | verdict=baseline_fail
+8V4_V09_V095_quality_hold_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V096_quality_hold_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V09_V097_quality_hold_refire40 | side=long | trades=620 | win_rate=43.71% | final=7.7864% | max=8.0844% | mdd=1.8224% | cd=105.8221 | verdict=baseline_fail
+8V4_V09_V098_quality_hold_softscore | side=long | trades=161 | win_rate=29.81% | final=0.3375% | max=0.4637% | mdd=0.4009% | cd=99.9353 | verdict=baseline_fail
+8V4_V09_V099_quality_hold_microguard | side=long | trades=2500 | win_rate=30.64% | final=-2.7604% | max=3.1662% | mdd=6.0062% | cd=91.3992 | verdict=mdd_fail
+8V4_V09_V100_quality_hold_shortgap | side=long | trades=331 | win_rate=34.14% | final=0.5293% | max=0.8671% | mdd=0.5002% | cd=100.0264 | verdict=baseline_fail
+8V4_V28_V001_core_base | side=long | trades=6355 | win_rate=38.38% | final=43.5176% | max=44.2185% | mdd=10.1399% | cd=128.9650 | verdict=candidate_cd_win_mdd_fail
+8V4_V28_V002_core_rare22_c1 | side=long | trades=6285 | win_rate=37.93% | final=41.7597% | max=42.4428% | mdd=10.1161% | cd=127.4191 | verdict=candidate_cd_win_mdd_fail
+8V4_V28_V003_core_rare28_first | side=long | trades=1713 | win_rate=30.65% | final=-3.4090% | max=0.4053% | mdd=4.0182% | cd=92.7098 | verdict=baseline_fail
+8V4_V28_V004_core_vol18 | side=long | trades=652 | win_rate=34.82% | final=0.0261% | max=0.2087% | mdd=0.7275% | cd=99.2985 | verdict=baseline_fail
+8V4_V28_V005_core_vol16_quiet | side=long | trades=12 | win_rate=25.00% | final=-0.0679% | max=0.0000% | mdd=0.2542% | cd=99.6781 | verdict=baseline_fail
+8V4_V28_V006_core_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V007_core_refire40 | side=long | trades=2726 | win_rate=37.97% | final=18.9185% | max=19.2343% | mdd=5.0979% | cd=112.8561 | verdict=mdd_fail
+8V4_V28_V008_core_softscore | side=long | trades=2 | win_rate=50.00% | final=0.0208% | max=0.0208% | mdd=0.0174% | cd=100.0034 | verdict=baseline_fail
+8V4_V28_V009_core_microguard | side=long | trades=6266 | win_rate=38.11% | final=41.0036% | max=41.6922% | mdd=9.8354% | cd=127.1353 | verdict=candidate_cd_win_mdd_fail
+8V4_V28_V010_core_shortgap | side=long | trades=533 | win_rate=33.40% | final=-0.3335% | max=1.7167% | mdd=2.0404% | cd=97.6328 | verdict=baseline_fail
+8V4_V28_V011_strict_base | side=long | trades=3108 | win_rate=38.48% | final=20.5117% | max=20.8091% | mdd=4.9487% | cd=114.5480 | verdict=baseline_fail
+8V4_V28_V012_strict_rare22_c1 | side=long | trades=3044 | win_rate=38.07% | final=19.5687% | max=19.8554% | mdd=5.2518% | cd=113.2893 | verdict=mdd_fail
+8V4_V28_V013_strict_rare28_first | side=long | trades=1713 | win_rate=31.52% | final=-3.0740% | max=0.5949% | mdd=3.8726% | cd=93.1724 | verdict=baseline_fail
+8V4_V28_V014_strict_vol18 | side=long | trades=262 | win_rate=34.73% | final=-0.1398% | max=0.2669% | mdd=0.5606% | cd=99.3004 | verdict=baseline_fail
+8V4_V28_V015_strict_vol16_quiet | side=long | trades=3 | win_rate=33.33% | final=0.0196% | max=0.0196% | mdd=0.0394% | cd=99.9802 | verdict=baseline_fail
+8V4_V28_V016_strict_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V017_strict_refire40 | side=long | trades=2725 | win_rate=38.68% | final=19.5767% | max=19.9066% | mdd=5.1362% | cd=113.4350 | verdict=mdd_fail
+8V4_V28_V018_strict_softscore | side=long | trades=2 | win_rate=50.00% | final=0.0202% | max=0.0202% | mdd=0.0179% | cd=100.0023 | verdict=baseline_fail
+8V4_V28_V019_strict_microguard | side=long | trades=3035 | win_rate=38.09% | final=19.1706% | max=19.4646% | mdd=5.0225% | cd=113.1852 | verdict=mdd_fail
+8V4_V28_V020_strict_shortgap | side=long | trades=334 | win_rate=35.93% | final=0.1492% | max=0.6651% | mdd=0.6128% | cd=99.5354 | verdict=baseline_fail
+8V4_V28_V021_lowanchor_base | side=long | trades=3045 | win_rate=38.88% | final=20.1360% | max=20.4160% | mdd=5.3327% | cd=113.7295 | verdict=mdd_fail
+8V4_V28_V022_lowanchor_rare22_c1 | side=long | trades=3043 | win_rate=38.84% | final=20.4880% | max=20.7601% | mdd=5.3067% | cd=114.0940 | verdict=mdd_fail
+8V4_V28_V023_lowanchor_rare28_first | side=long | trades=1713 | win_rate=32.57% | final=-2.5781% | max=1.0654% | mdd=3.8316% | cd=93.6892 | verdict=baseline_fail
+8V4_V28_V024_lowanchor_vol18 | side=long | trades=257 | win_rate=34.63% | final=-0.1804% | max=0.2270% | mdd=0.5646% | cd=99.2560 | verdict=baseline_fail
+8V4_V28_V025_lowanchor_vol16_quiet | side=long | trades=3 | win_rate=33.33% | final=0.0203% | max=0.0203% | mdd=0.0405% | cd=99.9798 | verdict=baseline_fail
+8V4_V28_V026_lowanchor_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V027_lowanchor_refire40 | side=long | trades=2725 | win_rate=39.41% | final=20.4936% | max=20.8928% | mdd=5.2605% | cd=114.1551 | verdict=mdd_fail
+8V4_V28_V028_lowanchor_softscore | side=long | trades=2 | win_rate=50.00% | final=0.0197% | max=0.0197% | mdd=0.0184% | cd=100.0013 | verdict=baseline_fail
+8V4_V28_V029_lowanchor_microguard | side=long | trades=3032 | win_rate=38.85% | final=19.8434% | max=20.1227% | mdd=5.3175% | cd=113.4707 | verdict=mdd_fail
+8V4_V28_V030_lowanchor_shortgap | side=long | trades=331 | win_rate=36.56% | final=0.3135% | max=0.8139% | mdd=0.5502% | cd=99.7616 | verdict=baseline_fail
+8V4_V28_V031_shocklow_base | side=long | trades=3199 | win_rate=32.89% | final=-2.9957% | max=2.0138% | mdd=5.9195% | cd=91.2621 | verdict=mdd_fail
+8V4_V28_V032_shocklow_rare22_c1 | side=long | trades=3167 | win_rate=32.52% | final=-3.3699% | max=1.7819% | mdd=6.1181% | cd=90.7181 | verdict=mdd_fail
+8V4_V28_V033_shocklow_rare28_first | side=long | trades=1631 | win_rate=29.80% | final=-3.2829% | max=0.3126% | mdd=3.8364% | cd=93.0067 | verdict=baseline_fail
+8V4_V28_V034_shocklow_vol18 | side=long | trades=616 | win_rate=34.09% | final=0.1238% | max=0.2331% | mdd=0.6804% | cd=99.4425 | verdict=baseline_fail
+8V4_V28_V035_shocklow_vol16_quiet | side=long | trades=10 | win_rate=30.00% | final=0.0008% | max=0.0008% | mdd=0.2194% | cd=99.7814 | verdict=baseline_fail
+8V4_V28_V036_shocklow_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V037_shocklow_refire40 | side=long | trades=1429 | win_rate=30.37% | final=-2.6974% | max=0.5729% | mdd=3.4858% | cd=93.9108 | verdict=baseline_fail
+8V4_V28_V038_shocklow_softscore | side=long | trades=1 | win_rate=100.00% | final=0.0298% | max=0.0298% | mdd=0.0000% | cd=100.0298 | verdict=baseline_fail
+8V4_V28_V039_shocklow_microguard | side=long | trades=3171 | win_rate=32.70% | final=-3.2625% | max=1.7596% | mdd=5.9439% | cd=90.9875 | verdict=mdd_fail
+8V4_V28_V040_shocklow_shortgap | side=long | trades=263 | win_rate=33.84% | final=-0.1728% | max=0.6247% | mdd=0.8850% | cd=98.9437 | verdict=baseline_fail
+8V4_V28_V041_prevhigh_base | side=long | trades=574 | win_rate=29.27% | final=-0.1213% | max=0.4511% | mdd=2.1093% | cd=97.7720 | verdict=baseline_fail
+8V4_V28_V042_prevhigh_rare22_c1 | side=long | trades=557 | win_rate=28.55% | final=-0.2320% | max=0.3097% | mdd=2.2215% | cd=97.5516 | verdict=baseline_fail
+8V4_V28_V043_prevhigh_rare28_first | side=long | trades=67 | win_rate=17.91% | final=-0.6360% | max=0.0000% | mdd=0.6360% | cd=98.7321 | verdict=baseline_fail
+8V4_V28_V044_prevhigh_vol18 | side=long | trades=76 | win_rate=21.05% | final=-0.5598% | max=0.0492% | mdd=0.6087% | cd=98.8349 | verdict=baseline_fail
+8V4_V28_V045_prevhigh_vol16_quiet | side=long | trades=2 | win_rate=0.00% | final=-0.0550% | max=0.0000% | mdd=0.0550% | cd=99.8900 | verdict=baseline_fail
+8V4_V28_V046_prevhigh_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V047_prevhigh_refire40 | side=long | trades=113 | win_rate=38.94% | final=0.7675% | max=0.8665% | mdd=0.2118% | cd=100.5541 | verdict=baseline_fail
+8V4_V28_V048_prevhigh_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V049_prevhigh_microguard | side=long | trades=560 | win_rate=29.11% | final=-0.0842% | max=0.3664% | mdd=2.1185% | cd=97.7990 | verdict=baseline_fail
+8V4_V28_V050_prevhigh_shortgap | side=long | trades=188 | win_rate=23.94% | final=-0.9506% | max=0.1155% | mdd=1.0649% | cd=97.9946 | verdict=baseline_fail
+8V4_V28_V051_extreme_base | side=long | trades=9 | win_rate=55.56% | final=0.4158% | max=0.4678% | mdd=0.0540% | cd=100.3615 | verdict=baseline_fail
+8V4_V28_V052_extreme_rare22_c1 | side=long | trades=8 | win_rate=50.00% | final=0.3542% | max=0.4062% | mdd=0.0540% | cd=100.3000 | verdict=baseline_fail
+8V4_V28_V053_extreme_rare28_first | side=long | trades=2 | win_rate=0.00% | final=-0.0620% | max=0.0000% | mdd=0.0620% | cd=99.8760 | verdict=baseline_fail
+8V4_V28_V054_extreme_vol18 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V055_extreme_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V056_extreme_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V057_extreme_refire40 | side=long | trades=7 | win_rate=57.14% | final=0.3971% | max=0.4147% | mdd=0.0540% | cd=100.3428 | verdict=baseline_fail
+8V4_V28_V058_extreme_softscore | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V059_extreme_microguard | side=long | trades=8 | win_rate=50.00% | final=0.3457% | max=0.3977% | mdd=0.0540% | cd=100.2915 | verdict=baseline_fail
+8V4_V28_V060_extreme_shortgap | side=long | trades=4 | win_rate=25.00% | final=0.0292% | max=0.0635% | mdd=0.0620% | cd=99.9672 | verdict=baseline_fail
+8V4_V28_V061_spring_base | side=long | trades=2826 | win_rate=36.84% | final=19.5792% | max=19.9521% | mdd=4.5829% | cd=114.0990 | verdict=baseline_fail
+8V4_V28_V062_spring_rare22_c1 | side=long | trades=2765 | win_rate=36.24% | final=18.3572% | max=18.7195% | mdd=4.8710% | cd=112.5919 | verdict=baseline_fail
+8V4_V28_V063_spring_rare28_first | side=long | trades=1501 | win_rate=29.38% | final=-2.9716% | max=0.5880% | mdd=3.7603% | cd=93.3798 | verdict=baseline_fail
+8V4_V28_V064_spring_vol18 | side=long | trades=204 | win_rate=30.39% | final=-0.4180% | max=0.0327% | mdd=0.6329% | cd=98.9517 | verdict=baseline_fail
+8V4_V28_V065_spring_vol16_quiet | side=long | trades=3 | win_rate=33.33% | final=0.0189% | max=0.0189% | mdd=0.0382% | cd=99.9807 | verdict=baseline_fail
+8V4_V28_V066_spring_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V067_spring_refire40 | side=long | trades=2726 | win_rate=35.88% | final=17.4962% | max=17.8492% | mdd=5.3447% | cd=111.2164 | verdict=mdd_fail
+8V4_V28_V068_spring_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0174% | max=0.0000% | mdd=0.0174% | cd=99.9653 | verdict=baseline_fail
+8V4_V28_V069_spring_microguard | side=long | trades=2758 | win_rate=36.48% | final=18.2515% | max=18.6202% | mdd=4.6243% | cd=112.7832 | verdict=baseline_fail
+8V4_V28_V070_spring_shortgap | side=long | trades=221 | win_rate=34.39% | final=0.2038% | max=0.5500% | mdd=0.5309% | cd=99.6718 | verdict=baseline_fail
+8V4_V28_V071_ema_mid_base | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V28_V072_ema_mid_rare22_c1 | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V28_V073_ema_mid_rare28_first | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V28_V074_ema_mid_vol18 | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V28_V075_ema_mid_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V076_ema_mid_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V077_ema_mid_refire40 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V078_ema_mid_softscore | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V28_V079_ema_mid_microguard | side=long | trades=1 | win_rate=100.00% | final=0.0330% | max=0.0330% | mdd=0.0000% | cd=100.0330 | verdict=baseline_fail
+8V4_V28_V080_ema_mid_shortgap | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V081_hammer_outside_base | side=long | trades=1439 | win_rate=37.46% | final=11.2527% | max=11.4732% | mdd=3.4091% | cd=107.4600 | verdict=baseline_fail
+8V4_V28_V082_hammer_outside_rare22_c1 | side=long | trades=1433 | win_rate=37.26% | final=11.5670% | max=11.7941% | mdd=3.3745% | cd=107.8022 | verdict=baseline_fail
+8V4_V28_V083_hammer_outside_rare28_first | side=long | trades=757 | win_rate=30.12% | final=-1.5917% | max=0.7759% | mdd=2.4761% | cd=95.9716 | verdict=baseline_fail
+8V4_V28_V084_hammer_outside_vol18 | side=long | trades=69 | win_rate=27.54% | final=-0.3127% | max=0.0664% | mdd=0.5373% | cd=99.1517 | verdict=baseline_fail
+8V4_V28_V085_hammer_outside_vol16_quiet | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V086_hammer_outside_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V087_hammer_outside_refire40 | side=long | trades=1343 | win_rate=37.60% | final=11.1705% | max=11.3018% | mdd=3.6641% | cd=107.0971 | verdict=baseline_fail
+8V4_V28_V088_hammer_outside_softscore | side=long | trades=1 | win_rate=0.00% | final=-0.0184% | max=0.0000% | mdd=0.0184% | cd=99.9632 | verdict=baseline_fail
+8V4_V28_V089_hammer_outside_microguard | side=long | trades=1437 | win_rate=37.44% | final=11.2063% | max=11.4267% | mdd=3.4091% | cd=107.4151 | verdict=baseline_fail
+8V4_V28_V090_hammer_outside_shortgap | side=long | trades=94 | win_rate=32.98% | final=0.1679% | max=0.4750% | mdd=0.3057% | cd=99.8617 | verdict=baseline_fail
+8V4_V28_V091_quality_hold_base | side=long | trades=2997 | win_rate=35.40% | final=7.6646% | max=13.2036% | mdd=5.2859% | cd=101.9735 | verdict=mdd_fail
+8V4_V28_V092_quality_hold_rare22_c1 | side=long | trades=2940 | win_rate=34.83% | final=6.9303% | max=12.5124% | mdd=5.3890% | cd=101.1678 | verdict=mdd_fail
+8V4_V28_V093_quality_hold_rare28_first | side=long | trades=1701 | win_rate=29.28% | final=-3.5181% | max=0.4581% | mdd=4.2000% | cd=92.4297 | verdict=baseline_fail
+8V4_V28_V094_quality_hold_vol18 | side=long | trades=262 | win_rate=32.82% | final=-0.2087% | max=0.1930% | mdd=0.5586% | cd=99.2338 | verdict=baseline_fail
+8V4_V28_V095_quality_hold_vol16_quiet | side=long | trades=3 | win_rate=33.33% | final=0.0189% | max=0.0189% | mdd=0.0382% | cd=99.9807 | verdict=baseline_fail
+8V4_V28_V096_quality_hold_noshock14 | side=long | trades=0 | win_rate=0.00% | final=0.0000% | max=0.0000% | mdd=0.0000% | cd=100.0000 | verdict=baseline_fail
+8V4_V28_V097_quality_hold_refire40 | side=long | trades=2624 | win_rate=35.21% | final=6.9418% | max=12.3722% | mdd=5.2346% | cd=101.3438 | verdict=mdd_fail
+8V4_V28_V098_quality_hold_softscore | side=long | trades=2 | win_rate=50.00% | final=0.0239% | max=0.0239% | mdd=0.0174% | cd=100.0065 | verdict=baseline_fail
+8V4_V28_V099_quality_hold_microguard | side=long | trades=2932 | win_rate=35.10% | final=7.1182% | max=12.4642% | mdd=5.1669% | cd=101.5835 | verdict=mdd_fail
+8V4_V28_V100_quality_hold_shortgap | side=long | trades=334 | win_rate=34.13% | final=0.1947% | max=0.7211% | mdd=0.6518% | cd=99.5416 | verdict=baseline_fail
+done | strategies=400 | elapsed_sec=3981.31

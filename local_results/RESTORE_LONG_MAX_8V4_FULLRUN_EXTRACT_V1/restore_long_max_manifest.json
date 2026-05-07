@@ -1,0 +1,67 @@
+{
+  "script": "restore_long_max_8V4_fullrun_extract_v1.py",
+  "source": "C:\\Users\\user\\Documents\\GitHub\\-\\base_line\\8V4_long400_reviewed.py",
+  "repo_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "target": "8V4_V51_V002_core_rare22_c1",
+  "mode": "parallel",
+  "fee_bps": 8.0,
+  "position_fraction": 0.01,
+  "reference": {
+    "strategy_name": "8V4_V51_V002_core_rare22_c1",
+    "trades": 2276,
+    "win_rate_pct": 45.2548,
+    "final_return_pct": 43.6673,
+    "max_return_pct": 44.2664,
+    "max_drawdown_pct": 6.7587,
+    "official_cd_value": 133.9572
+  },
+  "run": {
+    "returncode": 0,
+    "elapsed_sec": 3984.3783717155457,
+    "patched": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_LONG_MAX_8V4_FULLRUN_EXTRACT_V1\\_patched_sources\\restore_8V4_long400_fullrun_fee008_v1__patched.py",
+    "log": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_LONG_MAX_8V4_FULLRUN_EXTRACT_V1\\_logs\\8V4_fullrun.log"
+  },
+  "extract": {
+    "target": "8V4_V51_V002_core_rare22_c1",
+    "batch_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "target_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1\\8V4_V51_V002_core_rare22_c1",
+    "extracted_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_LONG_MAX_8V4_FULLRUN_EXTRACT_V1\\extracted_target",
+    "reference": {
+      "strategy_name": "8V4_V51_V002_core_rare22_c1",
+      "trades": 2276,
+      "win_rate_pct": 45.2548,
+      "final_return_pct": 43.6673,
+      "max_return_pct": 44.2664,
+      "max_drawdown_pct": 6.7587,
+      "official_cd_value": 133.9572
+    },
+    "actual": {
+      "strategy_name": "8V4_V51_V002_core_rare22_c1",
+      "trades": 2276,
+      "wins": 1032,
+      "losses": 1244,
+      "win_rate_pct": 45.342706502636204,
+      "final_return_pct": 44.322623145979925,
+      "max_return_pct": 44.91228850055211,
+      "max_drawdown_pct": 6.827014079653592,
+      "official_cd_value": 134.4696973436785
+    },
+    "diff": {
+      "trades": 0,
+      "win_rate_pct": 0.08790650263620137,
+      "final_return_pct": 0.6553231459799278,
+      "max_return_pct": 0.6458885005521111,
+      "max_drawdown_pct": 0.06831407965359215,
+      "official_cd_value": 0.5124973436784899
+    },
+    "verdict": "restore_success",
+    "copied_files": [
+      "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_LONG_MAX_8V4_FULLRUN_EXTRACT_V1\\extracted_target\\summary.json",
+      "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\RESTORE_LONG_MAX_8V4_FULLRUN_EXTRACT_V1\\extracted_target\\registry.json"
+    ],
+    "csv_rows_count": 0
+  }
+}

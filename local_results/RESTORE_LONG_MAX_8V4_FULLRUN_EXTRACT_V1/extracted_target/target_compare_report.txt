@@ -1,0 +1,33 @@
+LONG_MAX 8V4 RESTORE COMPARE
+target: 8V4_V51_V002_core_rare22_c1
+verdict: restore_success
+batch_root: C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1
+target_dir: C:\Users\user\Desktop\LCD\파이썬\코인\local_results\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1\8V4_V51_V002_core_rare22_c1
+
+[reference]
+strategy_name: 8V4_V51_V002_core_rare22_c1
+trades: 2276
+win_rate_pct: 45.2548
+final_return_pct: 43.6673
+max_return_pct: 44.2664
+max_drawdown_pct: 6.7587
+official_cd_value: 133.9572
+
+[actual]
+strategy_name: 8V4_V51_V002_core_rare22_c1
+trades: 2276
+wins: 1032
+losses: 1244
+win_rate_pct: 45.342706502636204
+final_return_pct: 44.322623145979925
+max_return_pct: 44.91228850055211
+max_drawdown_pct: 6.827014079653592
+official_cd_value: 134.4696973436785
+
+[diff]
+trades: 0
+win_rate_pct: 0.08790650263620137
+final_return_pct: 0.6553231459799278
+max_return_pct: 0.6458885005521111
+max_drawdown_pct: 0.06831407965359215
+official_cd_value: 0.5124973436784899
