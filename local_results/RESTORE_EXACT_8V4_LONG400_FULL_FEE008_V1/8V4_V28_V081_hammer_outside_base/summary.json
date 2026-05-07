@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V28_V081_hammer_outside_base",
+  "side": "long",
+  "description": "l09 v28 refire block + hammer_outside + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1439,
+  "wins": 539,
+  "losses": 900,
+  "win_rate_pct": 37.45656706045865,
+  "final_return_pct": 11.252691106239343,
+  "max_return_pct": 11.473215355239375,
+  "max_drawdown_pct": 3.409095312500521,
+  "cd_value": 107.45998082870585,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

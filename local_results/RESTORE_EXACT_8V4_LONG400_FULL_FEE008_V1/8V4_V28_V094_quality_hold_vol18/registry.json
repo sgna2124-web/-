@@ -1,0 +1,28 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V28_V094_quality_hold_vol18",
+  "side": "long",
+  "description": "l09 v28 refire block + quality_hold + vol18",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "strategy_name": "8V4_V28_V094_quality_hold_vol18",
+    "side": "long",
+    "description": "l09 v28 refire block + quality_hold + vol18",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 262,
+    "wins": 86,
+    "losses": 176,
+    "win_rate_pct": 32.82442748091603,
+    "final_return_pct": -0.20871938594987371,
+    "max_return_pct": 0.19303196105673326,
+    "max_drawdown_pct": 0.5586140691724695,
+    "cd_value": 99.23383248073267,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

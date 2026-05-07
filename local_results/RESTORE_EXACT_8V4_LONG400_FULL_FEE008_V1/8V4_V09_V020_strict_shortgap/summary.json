@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V020_strict_shortgap",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + strict + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 359,
+  "wins": 125,
+  "losses": 234,
+  "win_rate_pct": 34.81894150417828,
+  "final_return_pct": 0.5811327379011466,
+  "max_return_pct": 1.0523500175561695,
+  "max_drawdown_pct": 0.4931177665502662,
+  "cd_value": 100.08514930257304,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

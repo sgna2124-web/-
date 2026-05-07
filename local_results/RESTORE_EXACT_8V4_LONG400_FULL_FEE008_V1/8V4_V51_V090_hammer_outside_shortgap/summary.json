@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V51_V090_hammer_outside_shortgap",
+  "side": "long",
+  "description": "l09 v51 microbase pop + hammer_outside + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 11,
+  "wins": 4,
+  "losses": 7,
+  "win_rate_pct": 36.36363636363637,
+  "final_return_pct": -0.07588366045654382,
+  "max_return_pct": 0.09561302845966235,
+  "max_drawdown_pct": 0.17133287236819061,
+  "cd_value": 99.75291348083037,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V28_V009_core_microguard",
+  "side": "long",
+  "description": "l09 v28 refire block + core + microguard",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "strategy_name": "8V4_V28_V009_core_microguard",
+    "side": "long",
+    "description": "l09 v28 refire block + core + microguard",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 6266,
+    "wins": 2388,
+    "losses": 3878,
+    "win_rate_pct": 38.11043728056176,
+    "final_return_pct": 41.003575835420406,
+    "max_return_pct": 41.69223672278311,
+    "max_drawdown_pct": 9.83537765643019,
+    "cd_value": 127.13534164293587,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "candidate_cd_win_mdd_fail"
+  }
+}

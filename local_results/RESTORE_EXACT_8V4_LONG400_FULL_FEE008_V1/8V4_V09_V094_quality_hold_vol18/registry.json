@@ -1,0 +1,28 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V094_quality_hold_vol18",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + quality_hold + vol18",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "strategy_name": "8V4_V09_V094_quality_hold_vol18",
+    "side": "long",
+    "description": "l09 v09 cluster pressure + quality_hold + vol18",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 530,
+    "wins": 169,
+    "losses": 361,
+    "win_rate_pct": 31.886792452830186,
+    "final_return_pct": 0.7551718955496334,
+    "max_return_pct": 0.9716679469049749,
+    "max_drawdown_pct": 0.7393771411365324,
+    "cd_value": 100.01021118604112,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

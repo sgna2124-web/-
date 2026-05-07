@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V28_V031_shocklow_base",
+  "side": "long",
+  "description": "l09 v28 refire block + shocklow + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3199,
+  "wins": 1052,
+  "losses": 2147,
+  "win_rate_pct": 32.8852766489528,
+  "final_return_pct": -2.995746432416535,
+  "max_return_pct": 2.013786693862052,
+  "max_drawdown_pct": 5.919522345113459,
+  "cd_value": 91.26206510193984,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

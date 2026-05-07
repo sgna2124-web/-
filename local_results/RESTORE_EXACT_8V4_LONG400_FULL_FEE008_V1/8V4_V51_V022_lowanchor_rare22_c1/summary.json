@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V51_V022_lowanchor_rare22_c1",
+  "side": "long",
+  "description": "l09 v51 microbase pop + lowanchor + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1040,
+  "wins": 497,
+  "losses": 543,
+  "win_rate_pct": 47.78846153846154,
+  "final_return_pct": 21.542779559576843,
+  "max_return_pct": 21.79436654064788,
+  "max_drawdown_pct": 3.0154938273529996,
+  "cd_value": 117.87766454436454,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V28_V019_strict_microguard",
+  "side": "long",
+  "description": "l09 v28 refire block + strict + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3035,
+  "wins": 1156,
+  "losses": 1879,
+  "win_rate_pct": 38.088962108731465,
+  "final_return_pct": 19.170556437285867,
+  "max_return_pct": 19.464573701606525,
+  "max_drawdown_pct": 5.022513729820832,
+  "cd_value": 113.18519887831931,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

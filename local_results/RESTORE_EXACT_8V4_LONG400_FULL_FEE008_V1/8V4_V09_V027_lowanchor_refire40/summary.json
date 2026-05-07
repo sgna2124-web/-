@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V027_lowanchor_refire40",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + lowanchor + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 354,
+  "wins": 106,
+  "losses": 248,
+  "win_rate_pct": 29.943502824858758,
+  "final_return_pct": -0.8009612921196063,
+  "max_return_pct": 1.1899193400054742,
+  "max_drawdown_pct": 1.983397080132543,
+  "cd_value": 97.23152787062874,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V002_core_rare22_c1",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + core + rare22_c1",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "strategy_name": "8V4_V09_V002_core_rare22_c1",
+    "side": "long",
+    "description": "l09 v09 cluster pressure + core + rare22_c1",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 6866,
+    "wins": 2498,
+    "losses": 4368,
+    "win_rate_pct": 36.38217302650743,
+    "final_return_pct": 39.068188517498,
+    "max_return_pct": 39.997552525347004,
+    "max_drawdown_pct": 12.771502005400414,
+    "cd_value": 121.30709203211171,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "mdd_fail"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V061_spring_base",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + spring + base",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "strategy_name": "8V4_V09_V061_spring_base",
+    "side": "long",
+    "description": "l09 v09 cluster pressure + spring + base",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 725,
+    "wins": 327,
+    "losses": 398,
+    "win_rate_pct": 45.10344827586207,
+    "final_return_pct": 14.647393219111326,
+    "max_return_pct": 14.843834975994508,
+    "max_drawdown_pct": 2.237976280645504,
+    "cd_value": 112.08161175248924,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

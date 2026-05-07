@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V28_V001_core_base",
+  "side": "long",
+  "description": "l09 v28 refire block + core + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 6355,
+  "wins": 2439,
+  "losses": 3916,
+  "win_rate_pct": 38.379228953579855,
+  "final_return_pct": 43.51758238264978,
+  "max_return_pct": 44.21852166770128,
+  "max_drawdown_pct": 10.139944703817417,
+  "cd_value": 128.96497888879347,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V033_shocklow_rare28_first",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + shocklow + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3188,
+  "wins": 1028,
+  "losses": 2160,
+  "win_rate_pct": 32.24592220828105,
+  "final_return_pct": -3.179445568481476,
+  "max_return_pct": 1.9239805690308698,
+  "max_drawdown_pct": 6.036867247770495,
+  "cd_value": 90.97562609193238,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

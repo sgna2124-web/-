@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V51_V089_hammer_outside_microguard",
+  "side": "long",
+  "description": "l09 v51 microbase pop + hammer_outside + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 563,
+  "wins": 258,
+  "losses": 305,
+  "win_rate_pct": 45.825932504440495,
+  "final_return_pct": 11.185183611889403,
+  "max_return_pct": 11.312049171044226,
+  "max_drawdown_pct": 2.1415150428150342,
+  "cd_value": 108.80413617945928,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

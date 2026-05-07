@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V099_quality_hold_microguard",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + quality_hold + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2500,
+  "wins": 766,
+  "losses": 1734,
+  "win_rate_pct": 30.64,
+  "final_return_pct": -2.7604228413040333,
+  "max_return_pct": 3.166240615937488,
+  "max_drawdown_pct": 6.006201086973828,
+  "cd_value": 91.39917261842162,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V081_hammer_outside_base",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + hammer_outside + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1249,
+  "wins": 396,
+  "losses": 853,
+  "win_rate_pct": 31.705364291433145,
+  "final_return_pct": -1.8589334809312352,
+  "max_return_pct": 1.6351696906464541,
+  "max_drawdown_pct": 3.6532543765810055,
+  "cd_value": 94.55572371123762,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

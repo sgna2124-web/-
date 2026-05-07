@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V093_quality_hold_rare28_first",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + quality_hold + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1703,
+  "wins": 485,
+  "losses": 1218,
+  "win_rate_pct": 28.479154433352903,
+  "final_return_pct": -3.3722973534177414,
+  "max_return_pct": 0.6498333431370185,
+  "max_drawdown_pct": 4.270731237946757,
+  "cd_value": 92.50099316514437,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

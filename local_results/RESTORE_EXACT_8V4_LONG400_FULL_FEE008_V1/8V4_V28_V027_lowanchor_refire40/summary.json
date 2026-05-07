@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V28_V027_lowanchor_refire40",
+  "side": "long",
+  "description": "l09 v28 refire block + lowanchor + refire40",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2725,
+  "wins": 1074,
+  "losses": 1651,
+  "win_rate_pct": 39.41284403669725,
+  "final_return_pct": 20.493636500381783,
+  "max_return_pct": 20.89276700932501,
+  "max_drawdown_pct": 5.260508574674027,
+  "cd_value": 114.15505842034264,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}

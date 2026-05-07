@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V27_V062_spring_rare22_c1",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + spring + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 675,
+  "wins": 318,
+  "losses": 357,
+  "win_rate_pct": 47.11111111111111,
+  "final_return_pct": 15.773679101246696,
+  "max_return_pct": 15.95058220216259,
+  "max_drawdown_pct": 1.640874438352724,
+  "cd_value": 113.87397839453382,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

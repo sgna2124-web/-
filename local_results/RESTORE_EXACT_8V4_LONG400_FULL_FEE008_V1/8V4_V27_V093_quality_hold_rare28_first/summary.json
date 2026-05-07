@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V27_V093_quality_hold_rare28_first",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + quality_hold + rare28_first",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 1702,
+  "wins": 488,
+  "losses": 1214,
+  "win_rate_pct": 28.672150411280846,
+  "final_return_pct": -3.244724884188599,
+  "max_return_pct": 0.5597192379546145,
+  "max_drawdown_pct": 4.045735422099805,
+  "cd_value": 92.8408126777009,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

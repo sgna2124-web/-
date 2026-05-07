@@ -1,0 +1,28 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V27_V031_shocklow_base",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + shocklow + base",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "strategy_name": "8V4_V27_V031_shocklow_base",
+    "side": "long",
+    "description": "l09 v27 failed break pivot + shocklow + base",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 6184,
+    "wins": 2295,
+    "losses": 3889,
+    "win_rate_pct": 37.11190168175938,
+    "final_return_pct": 40.138205123934554,
+    "max_return_pct": 41.11861027187729,
+    "max_drawdown_pct": 12.005946047672023,
+    "cd_value": 123.31328782457902,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "candidate_cd_win_mdd_fail"
+  }
+}

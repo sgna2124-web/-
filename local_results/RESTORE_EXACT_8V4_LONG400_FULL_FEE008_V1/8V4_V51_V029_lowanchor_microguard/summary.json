@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V51_V029_lowanchor_microguard",
+  "side": "long",
+  "description": "l09 v51 microbase pop + lowanchor + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 563,
+  "wins": 270,
+  "losses": 293,
+  "win_rate_pct": 47.95737122557727,
+  "final_return_pct": 11.647377516461322,
+  "max_return_pct": 11.75595973374579,
+  "max_drawdown_pct": 2.0936942275716963,
+  "cd_value": 109.30982281816398,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V27_V054_extreme_vol18",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + extreme + vol18",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 17,
+  "wins": 6,
+  "losses": 11,
+  "win_rate_pct": 35.294117647058826,
+  "final_return_pct": 0.3191716656675059,
+  "max_return_pct": 0.33733753270608346,
+  "max_drawdown_pct": 0.13928905811791958,
+  "cd_value": 100.17943803634269,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

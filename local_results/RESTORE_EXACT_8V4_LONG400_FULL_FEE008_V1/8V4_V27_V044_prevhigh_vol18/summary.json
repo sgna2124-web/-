@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V27_V044_prevhigh_vol18",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + prevhigh + vol18",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 237,
+  "wins": 58,
+  "losses": 179,
+  "win_rate_pct": 24.47257383966245,
+  "final_return_pct": -0.7181019268297062,
+  "max_return_pct": 0.3147097264939225,
+  "max_drawdown_pct": 1.564805418227122,
+  "cd_value": 97.72832955280259,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

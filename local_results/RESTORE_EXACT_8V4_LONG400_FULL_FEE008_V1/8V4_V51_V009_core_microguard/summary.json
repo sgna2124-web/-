@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V51_V009_core_microguard",
+  "side": "long",
+  "description": "l09 v51 microbase pop + core + microguard",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 563,
+  "wins": 263,
+  "losses": 300,
+  "win_rate_pct": 46.714031971580816,
+  "final_return_pct": 11.101739768274266,
+  "max_return_pct": 11.20424831861393,
+  "max_drawdown_pct": 1.7231907973715543,
+  "cd_value": 109.18724481286766,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

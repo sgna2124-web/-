@@ -1,0 +1,28 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V28_V087_hammer_outside_refire40",
+  "side": "long",
+  "description": "l09 v28 refire block + hammer_outside + refire40",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "strategy_name": "8V4_V28_V087_hammer_outside_refire40",
+    "side": "long",
+    "description": "l09 v28 refire block + hammer_outside + refire40",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 1343,
+    "wins": 505,
+    "losses": 838,
+    "win_rate_pct": 37.602382725241995,
+    "final_return_pct": 11.170512447453396,
+    "max_return_pct": 11.301842628690162,
+    "max_drawdown_pct": 3.664111990377894,
+    "cd_value": 107.09710037110172,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

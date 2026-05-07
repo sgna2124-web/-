@@ -1,0 +1,28 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V007_core_refire40",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + core + refire40",
+  "timeframe": "5m",
+  "summary_file": "summary.json",
+  "per_symbol_file": "per_symbol_summary.json",
+  "summary": {
+    "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+    "strategy_name": "8V4_V09_V007_core_refire40",
+    "side": "long",
+    "description": "l09 v09 cluster pressure + core + refire40",
+    "timeframe": "5m",
+    "processed_symbols": 597,
+    "trades": 724,
+    "wins": 322,
+    "losses": 402,
+    "win_rate_pct": 44.47513812154696,
+    "final_return_pct": 14.710931414451988,
+    "max_return_pct": 14.902757588384063,
+    "max_drawdown_pct": 2.288087709468356,
+    "cd_value": 112.08624469134124,
+    "baseline_cd_value": 121.53,
+    "ruined": false,
+    "verdict": "baseline_fail"
+  }
+}

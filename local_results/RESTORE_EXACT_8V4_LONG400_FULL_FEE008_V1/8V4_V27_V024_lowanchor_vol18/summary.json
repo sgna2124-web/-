@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V27_V024_lowanchor_vol18",
+  "side": "long",
+  "description": "l09 v27 failed break pivot + lowanchor + vol18",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 523,
+  "wins": 178,
+  "losses": 345,
+  "win_rate_pct": 34.03441682600382,
+  "final_return_pct": 0.5921174863380729,
+  "max_return_pct": 0.8787219120083734,
+  "max_drawdown_pct": 0.9106994107283217,
+  "cd_value": 99.67602566515085,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

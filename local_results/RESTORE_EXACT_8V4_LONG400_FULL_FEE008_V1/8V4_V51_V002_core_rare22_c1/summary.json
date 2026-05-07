@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V51_V002_core_rare22_c1",
+  "side": "long",
+  "description": "l09 v51 microbase pop + core + rare22_c1",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2276,
+  "wins": 1032,
+  "losses": 1244,
+  "win_rate_pct": 45.342706502636204,
+  "final_return_pct": 44.322623145979925,
+  "max_return_pct": 44.91228850055211,
+  "max_drawdown_pct": 6.827014079653592,
+  "cd_value": 134.4696973436785,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V51_V031_shocklow_base",
+  "side": "long",
+  "description": "l09 v51 microbase pop + shocklow + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 2276,
+  "wins": 1024,
+  "losses": 1252,
+  "win_rate_pct": 44.991212653778554,
+  "final_return_pct": 42.374453226717314,
+  "max_return_pct": 42.84154028989129,
+  "max_drawdown_pct": 6.803989386473786,
+  "cd_value": 132.6873105401214,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "candidate_cd_win_mdd_fail"
+}

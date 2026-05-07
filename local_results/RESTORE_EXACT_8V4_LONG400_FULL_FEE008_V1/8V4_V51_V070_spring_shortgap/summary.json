@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V51_V070_spring_shortgap",
+  "side": "long",
+  "description": "l09 v51 microbase pop + spring + shortgap",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 13,
+  "wins": 5,
+  "losses": 8,
+  "win_rate_pct": 38.46153846153847,
+  "final_return_pct": -0.14491854952003447,
+  "max_return_pct": 0.14267134763237266,
+  "max_drawdown_pct": 0.2871801733289825,
+  "cd_value": 99.56831745449269,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "baseline_fail"
+}

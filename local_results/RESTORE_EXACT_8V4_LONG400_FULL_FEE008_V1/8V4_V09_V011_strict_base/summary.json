@@ -1,0 +1,19 @@
+{
+  "batch_label": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1",
+  "strategy_name": "8V4_V09_V011_strict_base",
+  "side": "long",
+  "description": "l09 v09 cluster pressure + strict + base",
+  "timeframe": "5m",
+  "processed_symbols": 597,
+  "trades": 3346,
+  "wins": 1183,
+  "losses": 2163,
+  "win_rate_pct": 35.35564853556485,
+  "final_return_pct": 17.680945245279368,
+  "max_return_pct": 18.162208381519072,
+  "max_drawdown_pct": 6.611464409624157,
+  "cd_value": 109.90051143347843,
+  "baseline_cd_value": 121.53,
+  "ruined": false,
+  "verdict": "mdd_fail"
+}
