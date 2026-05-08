@@ -1,0 +1,68 @@
+BATCH=LONG_MAX_ORIGINAL_ENTRY_DEV_V3
+created_at=2026-05-08T22:47:49
+data_dir=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+cost_pct_round_trip=0.08
+min_tp_expect_pct_default=0.3
+elapsed_sec=155.6
+errors=597
+
+[REFERENCE_LONG_MAX]
+strategy=8V4_V51_V002_core_rare22_c1
+trades=2276
+max_return_pct=44.2663709059
+max_drawdown_pct=6.7587216299
+official_cd_value=134.5158668232
+
+[TOP_20_BY_OFFICIAL_CD]
+01. 8V4_V51_V002_core_rare22_c1 | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=baseline
+02. LMAX_V3_001_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+03. LMAX_V3_002_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+04. LMAX_V3_003_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+05. LMAX_V3_004_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+06. LMAX_V3_005_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+07. LMAX_V3_006_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+08. LMAX_V3_007_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+09. LMAX_V3_008_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+10. LMAX_V3_009_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+11. LMAX_V3_010_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+12. LMAX_V3_011_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+13. LMAX_V3_012_rr_hold_lift | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=rr_hold_lift
+14. LMAX_V3_013_quality_tight | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=quality_tight
+15. LMAX_V3_014_quality_tight | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=quality_tight
+16. LMAX_V3_015_quality_tight | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=quality_tight
+17. LMAX_V3_016_quality_tight | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=quality_tight
+18. LMAX_V3_017_quality_tight | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=quality_tight
+19. LMAX_V3_018_quality_tight | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=quality_tight
+20. LMAX_V3_019_quality_tight | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000% | tag=quality_tight
+
+[BASELINE_ROW]
+8V4_V51_V002_core_rare22_c1 | cd=0.000000 | max=0.000000 | mdd=0.000000 | trades=0 | win=0.000%
+
+[ENTRY_CONDITION_EMBEDDED]
+기준선 이름: 8V4_V51_V002_core_rare22_c1
+기준선 구조: V51 microbase-pop + rare22_c1
+핵심 조건: 22봉 저점권 재터치/스윕, 22봉 저점 회수, 높은 종가 위치, 초과 윗꼬리 배제, 10/20봉 조정 흔적, 거래량/몸통/변동성 필터
+고정 조건: TP 기대값은 수수료 차감 후 최소 0.3% 이상
+외부 기준선 파일 참조: 없음
+
+[ERROR_SAMPLE]
+0G: ValueError: 유효한 OHLCV 행이 없다
+1000000BOB: ValueError: 유효한 OHLCV 행이 없다
+1000000MOG: ValueError: 유효한 OHLCV 행이 없다
+1000CAT: ValueError: 유효한 OHLCV 행이 없다
+1000CHEEMS: ValueError: 유효한 OHLCV 행이 없다
+1000BONK: ValueError: 유효한 OHLCV 행이 없다
+: ValueError: 유효한 OHLCV 행이 없다
+1000FLOKI: ValueError: 유효한 OHLCV 행이 없다
+1000RATS: ValueError: 유효한 OHLCV 행이 없다
+1000PEPE: ValueError: 유효한 OHLCV 행이 없다
+1000LUNC: ValueError: 유효한 OHLCV 행이 없다
+1000WHY: ValueError: 유효한 OHLCV 행이 없다
+1000SATS: ValueError: 유효한 OHLCV 행이 없다
+1000X: ValueError: 유효한 OHLCV 행이 없다
+1MBABYDOGE: ValueError: 유효한 OHLCV 행이 없다
+2Z: ValueError: 유효한 OHLCV 행이 없다
+4: ValueError: 유효한 OHLCV 행이 없다
+42: ValueError: 유효한 OHLCV 행이 없다
+A: ValueError: 유효한 OHLCV 행이 없다
+1000SHIB: ValueError: 유효한 OHLCV 행이 없다
