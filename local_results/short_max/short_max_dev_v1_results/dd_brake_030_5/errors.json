@@ -1,0 +1,17 @@
+[
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError('missing required column group: date')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_dev_v1.py\", line 619, in run_strategy\n    df = load_df(path)\n         ^^^^^^^^^^^^^\nValueError: missing required column group: date\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError('missing required column group: date')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_dev_v1.py\", line 619, in run_strategy\n    df = load_df(path)\n         ^^^^^^^^^^^^^\nValueError: missing required column group: date\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError('missing required column group: date')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_dev_v1.py\", line 619, in run_strategy\n    df = load_df(path)\n         ^^^^^^^^^^^^^\nValueError: missing required column group: date\n"
+  }
+]
