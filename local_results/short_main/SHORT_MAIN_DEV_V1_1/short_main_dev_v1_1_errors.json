@@ -1,0 +1,920 @@
+[
+  {
+    "strategy": "SM00_parent_short_beh_dd_brake",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM00_parent_short_beh_dd_brake",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM00_parent_short_beh_dd_brake",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM01_dev0335_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM01_dev0335_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM01_dev0335_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM02_dev034_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM02_dev034_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM02_dev034_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM03_dev0345_score230",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM03_dev0345_score230",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM03_dev0345_score230",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM04_rsi78_score220",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM04_rsi78_score220",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM04_rsi78_score220",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM05_rsi78_score230",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM05_rsi78_score230",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM05_rsi78_score230",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM06_wick135_score220",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM06_wick135_score220",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM06_wick135_score220",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM07_wick140_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM07_wick140_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM07_wick140_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM08_score230_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM08_score230_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM08_score230_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM09_score240_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM09_score240_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM09_score240_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM10_score250_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM10_score250_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM10_score250_only",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM11_dev0325_rsi78_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM11_dev0325_rsi78_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM11_dev0325_rsi78_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM12_dev033_rsi775_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM12_dev033_rsi775_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM12_dev033_rsi775_score225",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM13_dd025_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM13_dd025_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM13_dd025_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM14_dd025_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM14_dd025_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM14_dd025_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM15_dd025_f7",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM15_dd025_f7",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM15_dd025_f7",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM16_dd030_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM16_dd030_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM16_dd030_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM17_dd030_f7",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM17_dd030_f7",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM17_dd030_f7",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM18_dd035_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM18_dd035_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM18_dd035_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM19_dd035_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM19_dd035_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM19_dd035_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM20_dd040_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM20_dd040_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM20_dd040_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM21_dd020_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM21_dd020_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM21_dd020_f3",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM22_dd020_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM22_dd020_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM22_dd020_f5",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM23_rr550",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM23_rr550",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM23_rr550",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM24_rr575",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM24_rr575",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM24_rr575",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM25_rr625",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM25_rr625",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM25_rr625",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM26_stop180_rr600",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM26_stop180_rr600",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM26_stop180_rr600",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM27_stop200_rr600",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM27_stop200_rr600",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM27_stop200_rr600",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM28_timeout160",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM28_timeout160",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM28_timeout160",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM29_timeout240",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM29_timeout240",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM29_timeout240",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM30_failfast8",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM30_failfast8",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM30_failfast8",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM31_tr8_frac003",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM31_tr8_frac003",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM31_tr8_frac003",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM32_tr12_frac008",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM32_tr12_frac008",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM32_tr12_frac008",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM33_tp0035",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM33_tp0035",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM33_tp0035",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM34_tp0040",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM34_tp0040",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM34_tp0040",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM35_closepos095",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM35_closepos095",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM35_closepos095",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM36_closepos090",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM36_closepos090",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM36_closepos090",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM37_closepos085",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM37_closepos085",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM37_closepos085",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM38_atrp_0018_0110",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM38_atrp_0018_0110",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM38_atrp_0018_0110",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM39_atrp_0025_0100",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM39_atrp_0025_0100",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM39_atrp_0025_0100",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM40_bodyatr_max180",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM40_bodyatr_max180",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM40_bodyatr_max180",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM41_bodyatr_max120",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM41_bodyatr_max120",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM41_bodyatr_max120",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM42_ret3_max018",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM42_ret3_max018",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM42_ret3_max018",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM43_ret5_max028",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM43_ret5_max028",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM43_ret5_max028",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM44_ret10_max045",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM44_ret10_max045",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM44_ret10_max045",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM45_upperatr_min030",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM45_upperatr_min030",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM45_upperatr_min030",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM46_upperatr_min050",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM46_upperatr_min050",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM46_upperatr_min050",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM47_require_red",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM47_require_red",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM47_require_red",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM48_highdev040",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM48_highdev040",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM48_highdev040",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM49_upper_sweep20",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM49_upper_sweep20",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM49_upper_sweep20",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  },
+  {
+    "strategy": "SM50_ema_reject",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_fixed.csv\n"
+  },
+  {
+    "strategy": "SM50_ema_reject",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\backtest_results_optimized.csv\n"
+  },
+  {
+    "strategy": "SM50_ema_reject",
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv",
+    "error": "ValueError(\"missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 932, in run_one_strategy\n    df = load_df(csv_path)\n         ^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_main_dev_backtest_v1_1.py\", line 320, in load_df\n    raise ValueError(f\"missing columns {missing}: {path}\")\nValueError: missing columns ['date', 'open', 'high', 'low', 'close', 'volume']: C:\\Users\\user\\Desktop\\LCD\\파이썬\\ETHUSDT_backtest_detailed.csv\n"
+  }
+]
