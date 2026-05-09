@@ -1,0 +1,33 @@
+{
+  "strategy": "dev_wick_mild",
+  "description": "dev/wick 소폭 강화",
+  "trades": 33579,
+  "wins": 4982,
+  "losses": 28597,
+  "win_rate_pct": 14.836653861044105,
+  "final_return_pct": 334.1950211130853,
+  "max_return_pct": 334.4762217726265,
+  "max_drawdown_pct": 6.512997125567022,
+  "official_cd_value": 406.1787979373031,
+  "profit_factor": 1.3696976342373917,
+  "max_conc": 290,
+  "max_conc_unique_symbols": 290,
+  "same_bar_trades": 3233,
+  "active_leftover": 0,
+  "exit_reason_counts": {
+    "stop": 28597,
+    "target": 1098,
+    "timeout": 3884
+  },
+  "score_min_short": 2.0,
+  "short_dev": 0.033,
+  "short_rsi_min": 76.0,
+  "short_wick_mult": 1.4,
+  "min_expected_tp": 0.003,
+  "timeout_bars": 200,
+  "dd_brake_trigger_pct": null,
+  "dd_brake_freeze_steps": 0,
+  "generated_trades_before_score_filter": 36089,
+  "symbol_files": 597,
+  "errors": 0
+}

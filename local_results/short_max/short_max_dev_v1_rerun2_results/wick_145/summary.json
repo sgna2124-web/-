@@ -1,0 +1,33 @@
+{
+  "strategy": "wick_145",
+  "description": "short_wick_mult 1.45",
+  "trades": 34963,
+  "wins": 5131,
+  "losses": 29832,
+  "win_rate_pct": 14.675514114921489,
+  "final_return_pct": 319.9882057858673,
+  "max_return_pct": 320.2602055894665,
+  "max_drawdown_pct": 6.900081513185096,
+  "official_cd_value": 391.2619088363141,
+  "profit_factor": 1.353672155876627,
+  "max_conc": 291,
+  "max_conc_unique_symbols": 291,
+  "same_bar_trades": 3333,
+  "active_leftover": 0,
+  "exit_reason_counts": {
+    "stop": 29832,
+    "target": 1146,
+    "timeout": 3985
+  },
+  "score_min_short": 2.0,
+  "short_dev": 0.032,
+  "short_rsi_min": 76.0,
+  "short_wick_mult": 1.45,
+  "min_expected_tp": 0.003,
+  "timeout_bars": 200,
+  "dd_brake_trigger_pct": null,
+  "dd_brake_freeze_steps": 0,
+  "generated_trades_before_score_filter": 37491,
+  "symbol_files": 597,
+  "errors": 0
+}

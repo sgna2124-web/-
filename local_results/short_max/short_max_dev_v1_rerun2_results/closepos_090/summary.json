@@ -1,0 +1,33 @@
+{
+  "strategy": "closepos_090",
+  "description": "종가 위치가 고가권에 너무 붙은 신호 제외",
+  "trades": 36662,
+  "wins": 5395,
+  "losses": 31267,
+  "win_rate_pct": 14.71550924663139,
+  "final_return_pct": 355.77591809308507,
+  "max_return_pct": 356.0812180691049,
+  "max_drawdown_pct": 7.350687923570143,
+  "official_cd_value": 422.55611105082755,
+  "profit_factor": 1.3620358896274996,
+  "max_conc": 294,
+  "max_conc_unique_symbols": 294,
+  "same_bar_trades": 3551,
+  "active_leftover": 0,
+  "exit_reason_counts": {
+    "stop": 31267,
+    "target": 1199,
+    "timeout": 4196
+  },
+  "score_min_short": 2.0,
+  "short_dev": 0.032,
+  "short_rsi_min": 76.0,
+  "short_wick_mult": 1.3,
+  "min_expected_tp": 0.003,
+  "timeout_bars": 200,
+  "dd_brake_trigger_pct": null,
+  "dd_brake_freeze_steps": 0,
+  "generated_trades_before_score_filter": 39649,
+  "symbol_files": 597,
+  "errors": 0
+}

@@ -1,0 +1,33 @@
+{
+  "strategy": "dev_0330",
+  "description": "short_dev 0.0330",
+  "trades": 34705,
+  "wins": 5160,
+  "losses": 29545,
+  "win_rate_pct": 14.868174614608845,
+  "final_return_pct": 360.2823130666361,
+  "max_return_pct": 360.59063163654474,
+  "max_drawdown_pct": 6.961446098223323,
+  "official_cd_value": 428.5268630817003,
+  "profit_factor": 1.3773932569785123,
+  "max_conc": 291,
+  "max_conc_unique_symbols": 291,
+  "same_bar_trades": 3393,
+  "active_leftover": 0,
+  "exit_reason_counts": {
+    "stop": 29545,
+    "target": 1133,
+    "timeout": 4027
+  },
+  "score_min_short": 2.0,
+  "short_dev": 0.033,
+  "short_rsi_min": 76.0,
+  "short_wick_mult": 1.3,
+  "min_expected_tp": 0.003,
+  "timeout_bars": 200,
+  "dd_brake_trigger_pct": null,
+  "dd_brake_freeze_steps": 0,
+  "generated_trades_before_score_filter": 37586,
+  "symbol_files": 597,
+  "errors": 0
+}
