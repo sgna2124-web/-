@@ -1,0 +1,8 @@
+BASELINE GATE - exact restore engine
+trades: value=36834 ref=36834 diff=0 tolerance=0 pass=True
+max_return_pct: value=408.9954916988155 ref=408.9954916988155 diff=0.0 tolerance=1e-06 pass=True
+max_drawdown_pct: value=7.395550425783604 ref=7.395550425783604 diff=0.0 tolerance=1e-06 pass=True
+official_cd_value: value=471.3524734452645 ref=471.3524734452645 diff=0.0 tolerance=1e-06 pass=True
+errors: value=0 ref=None diff=0 tolerance=0 pass=True
+active_leftover: value=0 ref=0 diff=0 tolerance=0 pass=True
+gate_pass=True
