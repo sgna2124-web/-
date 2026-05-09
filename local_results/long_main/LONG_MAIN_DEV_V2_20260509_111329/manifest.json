@@ -1,0 +1,50 @@
+{
+  "batch_label": "LONG_MAIN_DEV_V2_BASELINE_EMBEDDED",
+  "created_at": "2026-05-09T02:49:48.282961+00:00",
+  "path_policy": "No external hardcoded path. Data dir is CLI argument or current/script relative auto-detection. Results are written under Path.cwd() unless --out-dir is provided.",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_main\\LONG_MAIN_DEV_V2_20260509_111329",
+  "csv_files": 597,
+  "variants": [
+    "LM2_000_BASELINE_EXACT_EMBEDDED",
+    "LM2_001_BASE_PLUS_TP03",
+    "LM2_002_ADD_CLOSEPOS_080",
+    "LM2_003_ADD_WICK_150",
+    "LM2_004_ADD_VOL_160",
+    "LM2_005_ADD_BODY_040",
+    "LM2_006_ADD_ATRP_MAX_050",
+    "LM2_007_ADD_RET20_FLOOR",
+    "LM2_008_ADD_EMA50_GAP",
+    "LM2_009_ADD_EMA50_SLOPE",
+    "LM2_010_ADD_TREND_FLOOR",
+    "LM2_011_ADD_QUIET_095",
+    "LM2_012_ADD_UPPER_REJECT_070",
+    "LM2_013_ADD_RECLAIM_BUFFER_001",
+    "LM2_014_VAR_DF_LOOKBACK_8",
+    "LM2_015_VAR_DF_LOOKBACK_12",
+    "LM2_016_VAR_RAW_VOL_150",
+    "LM2_017_VAR_RAW_BODY_038",
+    "LM2_018_VAR_RAW_CLOSEPOS_073",
+    "LM2_019_VAR_DF_LOW_10015",
+    "LM2_020_VAR_DF_WICK_145"
+  ],
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "official_long_main_reference": {
+    "strategy": "6V2_L01_doubleflush_core",
+    "side": "long",
+    "restored_trades": 592,
+    "restored_max_return_pct": 24.0623,
+    "restored_max_drawdown_pct": 1.728,
+    "restored_official_cd_value": 121.7026
+  },
+  "baseline_entry_source": "Embedded from base_line/6V2_long10_reviewed.py: raw_l01_cap_reclaim + double_flush_ok.",
+  "files": {
+    "summary": "summary.csv",
+    "per_symbol_summary": "per_symbol_summary.csv",
+    "trades": "trades.csv",
+    "errors": "errors.csv",
+    "strategies": "strategies.json"
+  },
+  "elapsed_sec": 2178.590524673462
+}
