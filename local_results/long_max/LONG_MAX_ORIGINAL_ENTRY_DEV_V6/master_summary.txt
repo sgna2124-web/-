@@ -1,0 +1,75 @@
+[BATCH] LONG_MAX_ORIGINAL_ENTRY_DEV_V6
+[BASELINE] 8V4_V51_V002_core_rare22_c1
+[RULE] base_line의 long_max 기준선 진입 구조를 코드 내부에 내장. 외부 기준선 파일/runner/combinations 참조 없음.
+[OBJECTIVE] long_max = official_cd_value 최대화. MDD 5% 제한 없음.
+[MIN_TP_PCT] 0.3
+
+[BASELINE_RESULT_THIS_RUN]
+trades=2283 | max_return=0.000000 | mdd=10.169711 | cd=89.830289
+target_ref trades=2276 | max_return=44.2664 | mdd=6.7587 | cd=134.5158668232
+
+[TOP_30_BY_CD]
+01. V6_LM_D08_anchor_variant | kind=improve | tag=anchor_variant | cd=99.829392 | max=0.011042 | mdd=0.181630 | trades=17 | ratio=0.007
+02. V6_LM_D09_anchor_variant | kind=improve | tag=anchor_variant | cd=99.823727 | max=0.009894 | mdd=0.186149 | trades=17 | ratio=0.007
+03. V6_LM_D10_anchor_variant | kind=improve | tag=anchor_variant | cd=99.788951 | max=0.000000 | mdd=0.211049 | trades=17 | ratio=0.007
+04. V6_LM_D07_anchor_variant | kind=improve | tag=anchor_variant | cd=99.780422 | max=0.000000 | mdd=0.219578 | trades=18 | ratio=0.008
+05. V6_LM_I11_cd_mix | kind=improve | tag=cd_mix | cd=98.970711 | max=0.042537 | mdd=1.071371 | trades=84 | ratio=0.037
+06. V6_LM_D06_anchor_variant | kind=improve | tag=anchor_variant | cd=93.235697 | max=0.000000 | mdd=6.764303 | trades=1749 | ratio=0.766
+07. V6_LM_D02_anchor_variant | kind=improve | tag=anchor_variant | cd=93.000656 | max=0.000000 | mdd=6.999344 | trades=1747 | ratio=0.765
+08. V6_LM_D03_anchor_variant | kind=improve | tag=anchor_variant | cd=92.475791 | max=0.000000 | mdd=7.524209 | trades=1800 | ratio=0.788
+09. V6_LM_D05_anchor_variant | kind=improve | tag=anchor_variant | cd=92.167318 | max=0.000000 | mdd=7.832682 | trades=1711 | ratio=0.749
+10. V6_LM_I10_cd_mix | kind=improve | tag=cd_mix | cd=91.695722 | max=0.000000 | mdd=8.304278 | trades=1860 | ratio=0.815
+11. V6_LM_G04_exit_guard_add | kind=improve | tag=exit_guard_add | cd=91.058522 | max=0.000000 | mdd=8.941478 | trades=2302 | ratio=1.008
+12. V6_LM_F07_quality_add | kind=improve | tag=quality_add | cd=90.923147 | max=0.000000 | mdd=9.076853 | trades=2029 | ratio=0.889
+13. V6_LM_G01_exit_guard_add | kind=improve | tag=exit_guard_add | cd=90.812687 | max=0.000000 | mdd=9.187313 | trades=2297 | ratio=1.006
+14. V6_LM_G06_exit_guard_add | kind=improve | tag=exit_guard_add | cd=90.577025 | max=0.000000 | mdd=9.422975 | trades=2291 | ratio=1.004
+15. V6_LM_F10_quality_add | kind=improve | tag=quality_add | cd=90.570347 | max=0.000000 | mdd=9.429653 | trades=1911 | ratio=0.837
+16. V6_LM_G02_exit_guard_add | kind=improve | tag=exit_guard_add | cd=90.510337 | max=0.000000 | mdd=9.489663 | trades=2287 | ratio=1.002
+17. V6_LM_G10_exit_guard_add | kind=improve | tag=exit_guard_add | cd=90.509849 | max=0.000000 | mdd=9.490151 | trades=2286 | ratio=1.001
+18. V6_LM_F03_quality_add | kind=improve | tag=quality_add | cd=90.499735 | max=0.000000 | mdd=9.500265 | trades=2052 | ratio=0.899
+19. V6_LM_F06_quality_add | kind=improve | tag=quality_add | cd=90.410158 | max=0.000000 | mdd=9.589842 | trades=2190 | ratio=0.959
+20. V6_LM_G08_exit_guard_add | kind=improve | tag=exit_guard_add | cd=90.357651 | max=0.000000 | mdd=9.642349 | trades=2287 | ratio=1.002
+21. V6_LM_G03_exit_guard_add | kind=improve | tag=exit_guard_add | cd=90.260535 | max=0.000000 | mdd=9.739465 | trades=2274 | ratio=0.996
+22. V6_LM_A01_rr_hold_extend | kind=improve | tag=rr_hold_extend | cd=90.165081 | max=0.000000 | mdd=9.834919 | trades=2366 | ratio=1.036
+23. V6_LM_F08_quality_add | kind=improve | tag=quality_add | cd=90.139187 | max=0.000000 | mdd=9.860813 | trades=2072 | ratio=0.908
+24. V6_LM_H16_loss_pause_add | kind=improve | tag=loss_pause_add | cd=90.112688 | max=0.000000 | mdd=9.887312 | trades=2227 | ratio=0.975
+25. V6_LM_E06_flush_sensitivity | kind=improve | tag=flush_sensitivity | cd=90.110835 | max=0.000000 | mdd=9.889165 | trades=2221 | ratio=0.973
+26. V6_LM_F01_quality_add | kind=improve | tag=quality_add | cd=90.078502 | max=0.000000 | mdd=9.921498 | trades=2264 | ratio=0.992
+27. V6_LM_G09_exit_guard_add | kind=improve | tag=exit_guard_add | cd=90.043434 | max=0.000000 | mdd=9.956566 | trades=2269 | ratio=0.994
+28. V6_LM_F09_quality_add | kind=improve | tag=quality_add | cd=89.955555 | max=0.000000 | mdd=10.044445 | trades=2095 | ratio=0.918
+29. V6_LM_F02_quality_add | kind=improve | tag=quality_add | cd=89.948763 | max=0.000000 | mdd=10.051237 | trades=2224 | ratio=0.974
+30. V6_LM_G07_exit_guard_add | kind=improve | tag=exit_guard_add | cd=89.909798 | max=0.000000 | mdd=10.090202 | trades=2282 | ratio=1.000
+
+[TOP_30_NON_BASELINE_BY_CD]
+01. V6_LM_D08_anchor_variant | tag=anchor_variant | cd=99.829392 | max=0.011042 | mdd=0.181630 | trades=17
+02. V6_LM_D09_anchor_variant | tag=anchor_variant | cd=99.823727 | max=0.009894 | mdd=0.186149 | trades=17
+03. V6_LM_D10_anchor_variant | tag=anchor_variant | cd=99.788951 | max=0.000000 | mdd=0.211049 | trades=17
+04. V6_LM_D07_anchor_variant | tag=anchor_variant | cd=99.780422 | max=0.000000 | mdd=0.219578 | trades=18
+05. V6_LM_I11_cd_mix | tag=cd_mix | cd=98.970711 | max=0.042537 | mdd=1.071371 | trades=84
+06. V6_LM_D06_anchor_variant | tag=anchor_variant | cd=93.235697 | max=0.000000 | mdd=6.764303 | trades=1749
+07. V6_LM_D02_anchor_variant | tag=anchor_variant | cd=93.000656 | max=0.000000 | mdd=6.999344 | trades=1747
+08. V6_LM_D03_anchor_variant | tag=anchor_variant | cd=92.475791 | max=0.000000 | mdd=7.524209 | trades=1800
+09. V6_LM_D05_anchor_variant | tag=anchor_variant | cd=92.167318 | max=0.000000 | mdd=7.832682 | trades=1711
+10. V6_LM_I10_cd_mix | tag=cd_mix | cd=91.695722 | max=0.000000 | mdd=8.304278 | trades=1860
+11. V6_LM_G04_exit_guard_add | tag=exit_guard_add | cd=91.058522 | max=0.000000 | mdd=8.941478 | trades=2302
+12. V6_LM_F07_quality_add | tag=quality_add | cd=90.923147 | max=0.000000 | mdd=9.076853 | trades=2029
+13. V6_LM_G01_exit_guard_add | tag=exit_guard_add | cd=90.812687 | max=0.000000 | mdd=9.187313 | trades=2297
+14. V6_LM_G06_exit_guard_add | tag=exit_guard_add | cd=90.577025 | max=0.000000 | mdd=9.422975 | trades=2291
+15. V6_LM_F10_quality_add | tag=quality_add | cd=90.570347 | max=0.000000 | mdd=9.429653 | trades=1911
+16. V6_LM_G02_exit_guard_add | tag=exit_guard_add | cd=90.510337 | max=0.000000 | mdd=9.489663 | trades=2287
+17. V6_LM_G10_exit_guard_add | tag=exit_guard_add | cd=90.509849 | max=0.000000 | mdd=9.490151 | trades=2286
+18. V6_LM_F03_quality_add | tag=quality_add | cd=90.499735 | max=0.000000 | mdd=9.500265 | trades=2052
+19. V6_LM_F06_quality_add | tag=quality_add | cd=90.410158 | max=0.000000 | mdd=9.589842 | trades=2190
+20. V6_LM_G08_exit_guard_add | tag=exit_guard_add | cd=90.357651 | max=0.000000 | mdd=9.642349 | trades=2287
+21. V6_LM_G03_exit_guard_add | tag=exit_guard_add | cd=90.260535 | max=0.000000 | mdd=9.739465 | trades=2274
+22. V6_LM_A01_rr_hold_extend | tag=rr_hold_extend | cd=90.165081 | max=0.000000 | mdd=9.834919 | trades=2366
+23. V6_LM_F08_quality_add | tag=quality_add | cd=90.139187 | max=0.000000 | mdd=9.860813 | trades=2072
+24. V6_LM_H16_loss_pause_add | tag=loss_pause_add | cd=90.112688 | max=0.000000 | mdd=9.887312 | trades=2227
+25. V6_LM_E06_flush_sensitivity | tag=flush_sensitivity | cd=90.110835 | max=0.000000 | mdd=9.889165 | trades=2221
+26. V6_LM_F01_quality_add | tag=quality_add | cd=90.078502 | max=0.000000 | mdd=9.921498 | trades=2264
+27. V6_LM_G09_exit_guard_add | tag=exit_guard_add | cd=90.043434 | max=0.000000 | mdd=9.956566 | trades=2269
+28. V6_LM_F09_quality_add | tag=quality_add | cd=89.955555 | max=0.000000 | mdd=10.044445 | trades=2095
+29. V6_LM_F02_quality_add | tag=quality_add | cd=89.948763 | max=0.000000 | mdd=10.051237 | trades=2224
+30. V6_LM_G07_exit_guard_add | tag=exit_guard_add | cd=89.909798 | max=0.000000 | mdd=10.090202 | trades=2282
+
+[ERROR_SYMBOLS] 0
