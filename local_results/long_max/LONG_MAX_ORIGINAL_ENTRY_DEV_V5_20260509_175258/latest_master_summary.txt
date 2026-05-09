@@ -1,0 +1,47 @@
+BATCH=LONG_MAX_ORIGINAL_ENTRY_DEV_V5
+created_at=2026-05-09T19:49:55
+data_dir=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+cost_pct_round_trip=0.08
+min_tp_expect_pct_default=0.3
+elapsed_sec=7017.4
+errors=0
+
+[REFERENCE_LONG_MAX]
+strategy=8V4_V51_V002_core_rare22_c1
+trades=2276
+max_return_pct=44.2663709059
+max_drawdown_pct=6.7587216299
+official_cd_value=134.5158668232
+
+[TOP_20_BY_OFFICIAL_CD]
+01. LMAX_V5_044_tp_vol_clip | cd=6.437422 | max=0.000000 | mdd=93.562578 | trades=311761 | win=33.747% | tag=tp_vol_clip
+02. LMAX_V5_048_tp_vol_clip | cd=6.417864 | max=0.000000 | mdd=93.582136 | trades=311721 | win=33.746% | tag=tp_vol_clip
+03. LMAX_V5_040_tp_vol_clip | cd=6.406994 | max=0.000000 | mdd=93.593006 | trades=311748 | win=33.746% | tag=tp_vol_clip
+04. LMAX_V5_043_tp_vol_clip | cd=4.482842 | max=0.000000 | mdd=95.517158 | trades=349732 | win=33.644% | tag=tp_vol_clip
+05. LMAX_V5_039_tp_vol_clip | cd=4.479868 | max=0.000000 | mdd=95.520132 | trades=349723 | win=33.644% | tag=tp_vol_clip
+06. LMAX_V5_047_tp_vol_clip | cd=4.475610 | max=0.000000 | mdd=95.524390 | trades=349703 | win=33.644% | tag=tp_vol_clip
+07. LMAX_V5_022_quality_tight | cd=4.330990 | max=0.000000 | mdd=95.669010 | trades=355973 | win=33.469% | tag=quality_tight
+08. LMAX_V5_016_quality_tight | cd=4.294757 | max=0.000000 | mdd=95.705243 | trades=352457 | win=33.415% | tag=quality_tight
+09. LMAX_V5_017_quality_tight | cd=4.261032 | max=0.000000 | mdd=95.738968 | trades=358235 | win=33.476% | tag=quality_tight
+10. LMAX_V5_024_quality_tight | cd=3.751442 | max=0.000000 | mdd=96.248558 | trades=363834 | win=33.376% | tag=quality_tight
+11. LMAX_V5_021_quality_tight | cd=3.484949 | max=0.000000 | mdd=96.515051 | trades=380577 | win=33.479% | tag=quality_tight
+12. LMAX_V5_020_quality_tight | cd=3.476223 | max=0.000000 | mdd=96.523777 | trades=373261 | win=33.403% | tag=quality_tight
+13. LMAX_V5_031_rare22_reclaim | cd=3.433716 | max=0.000000 | mdd=96.566284 | trades=370303 | win=33.420% | tag=rare22_reclaim
+14. LMAX_V5_015_quality_tight | cd=3.399256 | max=0.000000 | mdd=96.600744 | trades=377498 | win=33.414% | tag=quality_tight
+15. LMAX_V5_058_loss_dd_brake | cd=3.114321 | max=0.000000 | mdd=96.885679 | trades=393419 | win=33.324% | tag=loss_dd_brake
+16. LMAX_V5_053_loss_dd_brake | cd=3.088110 | max=0.000000 | mdd=96.911890 | trades=394632 | win=33.331% | tag=loss_dd_brake
+17. LMAX_V5_038_tp_vol_clip | cd=3.038876 | max=0.000000 | mdd=96.961124 | trades=390948 | win=33.519% | tag=tp_vol_clip
+18. LMAX_V5_042_tp_vol_clip | cd=3.029023 | max=0.000000 | mdd=96.970977 | trades=390909 | win=33.518% | tag=tp_vol_clip
+19. LMAX_V5_046_tp_vol_clip | cd=3.024512 | max=0.000000 | mdd=96.975488 | trades=390935 | win=33.517% | tag=tp_vol_clip
+20. LMAX_V5_052_loss_dd_brake | cd=2.971751 | max=0.000000 | mdd=97.028249 | trades=398403 | win=33.257% | tag=loss_dd_brake
+
+[BASELINE_ROW]
+8V4_V51_V002_core_rare22_c1 | cd=2.062189 | max=0.000000 | mdd=97.937811 | trades=435248 | win=33.470%
+
+[ENTRY_CONDITION_EMBEDDED]
+기준선 이름: 8V4_V51_V002_core_rare22_c1
+기준선 구조: V51 microbase-pop + rare22_c1
+핵심 조건: atrp/range20/vol/body 공통 필터, green, ret3/ret5/ret10/ret20 하한, close_pos, lw_body, uw_body, ll20 reclaim, rare22 저점권
+기준선 TP03: 미적용. 개선안 TP03: 수수료 차감 후 최소 0.3% 이상
+외부 기준선 파일 참조: 없음
+
