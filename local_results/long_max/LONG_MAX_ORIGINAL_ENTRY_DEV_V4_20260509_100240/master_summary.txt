@@ -1,0 +1,47 @@
+BATCH=LONG_MAX_ORIGINAL_ENTRY_DEV_V4
+created_at=2026-05-09T12:03:48
+data_dir=C:\Users\user\Desktop\LCD\파이썬\코인\Data\time
+cost_pct_round_trip=0.08
+min_tp_expect_pct_default=0.3
+elapsed_sec=7268.1
+errors=0
+
+[REFERENCE_LONG_MAX]
+strategy=8V4_V51_V002_core_rare22_c1
+trades=2276
+max_return_pct=44.2663709059
+max_drawdown_pct=6.7587216299
+official_cd_value=134.5158668232
+
+[TOP_20_BY_OFFICIAL_CD]
+01. LMAX_V4_057_loss_dd_brake | cd=112.400843 | max=13.461055 | mdd=0.934428 | trades=2245 | win=43.296% | tag=loss_dd_brake
+02. LMAX_V4_052_loss_dd_brake | cd=112.382444 | max=13.442483 | mdd=0.934428 | trades=2240 | win=43.304% | tag=loss_dd_brake
+03. LMAX_V4_053_loss_dd_brake | cd=112.316895 | max=13.393000 | mdd=0.949005 | trades=2245 | win=43.608% | tag=loss_dd_brake
+04. LMAX_V4_058_loss_dd_brake | cd=112.257344 | max=13.332879 | mdd=0.949005 | trades=2241 | win=43.597% | tag=loss_dd_brake
+05. LMAX_V4_024_quality_tight | cd=112.253076 | max=13.532583 | mdd=1.126996 | trades=1909 | win=46.726% | tag=quality_tight
+06. LMAX_V4_006_rr_hold_lift | cd=112.152876 | max=13.814395 | mdd=1.459849 | trades=2245 | win=44.588% | tag=rr_hold_lift
+07. LMAX_V4_019_quality_tight | cd=112.117468 | max=13.399898 | mdd=1.130892 | trades=2096 | win=45.611% | tag=quality_tight
+08. LMAX_V4_056_loss_dd_brake | cd=112.091948 | max=13.111694 | mdd=0.901538 | trades=2241 | win=42.793% | tag=loss_dd_brake
+09. LMAX_V4_060_loss_dd_brake | cd=112.076994 | max=13.131746 | mdd=0.932322 | trades=2242 | win=42.150% | tag=loss_dd_brake
+10. LMAX_V4_051_loss_dd_brake | cd=112.049881 | max=13.069244 | mdd=0.901538 | trades=2242 | win=42.774% | tag=loss_dd_brake
+11. LMAX_V4_055_loss_dd_brake | cd=112.034932 | max=13.089288 | mdd=0.932322 | trades=2243 | win=42.131% | tag=loss_dd_brake
+12. LMAX_V4_050_loss_dd_brake | cd=111.993864 | max=13.047833 | mdd=0.932322 | trades=2244 | win=42.112% | tag=loss_dd_brake
+13. LMAX_V4_049_loss_dd_brake | cd=111.992235 | max=13.129011 | mdd=1.004849 | trades=2246 | win=41.229% | tag=loss_dd_brake
+14. LMAX_V4_074_ema_context | cd=111.943835 | max=13.268160 | mdd=1.169194 | trades=2207 | win=45.129% | tag=ema_context
+15. LMAX_V4_059_loss_dd_brake | cd=111.939922 | max=13.076167 | mdd=1.004849 | trades=2242 | win=41.213% | tag=loss_dd_brake
+16. LMAX_V4_004_rr_hold_lift | cd=111.917858 | max=13.459180 | mdd=1.358482 | trades=2246 | win=44.167% | tag=rr_hold_lift
+17. LMAX_V4_054_loss_dd_brake | cd=111.869313 | max=13.004840 | mdd=1.004849 | trades=2244 | win=41.176% | tag=loss_dd_brake
+18. 8V4_V51_V002_core_rare22_c1 | cd=111.791888 | max=13.128705 | mdd=1.181678 | trades=2245 | win=45.033% | tag=baseline
+19. LMAX_V4_037_tp_vol_clip | cd=111.791888 | max=13.128705 | mdd=1.181678 | trades=2245 | win=45.033% | tag=tp_vol_clip
+20. LMAX_V4_043_tp_vol_clip | cd=111.791888 | max=13.128705 | mdd=1.181678 | trades=2245 | win=45.033% | tag=tp_vol_clip
+
+[BASELINE_ROW]
+8V4_V51_V002_core_rare22_c1 | cd=111.791888 | max=13.128705 | mdd=1.181678 | trades=2245 | win=45.033%
+
+[ENTRY_CONDITION_EMBEDDED]
+기준선 이름: 8V4_V51_V002_core_rare22_c1
+기준선 구조: V51 microbase-pop + rare22_c1
+핵심 조건: 22봉 저점권 재터치/스윕, 22봉 저점 회수, 높은 종가 위치, 초과 윗꼬리 배제, 10/20봉 조정 흔적, 거래량/몸통/변동성 필터
+고정 조건: TP 기대값은 수수료 차감 후 최소 0.3% 이상
+외부 기준선 파일 참조: 없음
+
