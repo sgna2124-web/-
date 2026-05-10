@@ -1,0 +1,2 @@
+﻿batch,strategy,description,side,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,official_cd_value,pf,max_conc_unique_symbols,symbol_files,errors,verdict,ref_trades,ref_max_return_pct,ref_max_drawdown_pct,ref_official_cd_value
+LONG_MAIN_V2_TRADE_DIAGNOSTICS_V6,LM6_000_LONG_MAIN_V2_EXACT_EMBEDDED,official long_main v2 exact diagnostic baseline,long,557,333,224,59.78456014362658,23.951457064508542,24.147725340344927,1.3005547460754885,122.33940050682635,3.8956015264756867,281,597,0,baseline_win,557,24.1477,1.3006,122.3394
