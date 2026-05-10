@@ -1,0 +1,56 @@
+LONG_MAX_EMBEDDED_ENTRY_DEV_V7
+
+purpose
+- long_max 전용 개발 코드
+- 외부 기준선 파일을 읽지 않고 8V4_V51_V002_core_rare22_c1 진입 조건을 코드 내부에 고정
+- 기준선 행을 1번으로 포함하고, 그 다음부터 기준선 진입 조건의 추가/변형/완화 후보를 테스트
+- long_max 선별 기준은 official_cd_value 최대값
+
+embedded baseline
+{"strategy": "8V4_V51_V002_core_rare22_c1", "trades": 2276, "max_return_pct": 44.2663709059274, "max_drawdown_pct": 6.758721629897446, "official_cd_value": 134.5158668232}
+
+run
+- elapsed_sec=9403.4
+- strategies=73
+- errors=0
+
+baseline result
+{"batch": "LONG_MAX_EMBEDDED_ENTRY_DEV_V7", "strategy": "8V4_V51_V002_core_rare22_c1", "parent": "8V4_V51_V002_core_rare22_c1", "group": "baseline_embedded_v51_rare22", "entry": "lx_parent_v51_core_rare22_c1", "kind": "baseline", "tag": "baseline_exact_embedded", "trades": 436665, "wins": 148951, "losses": 287714, "win_rate_pct": 34.11104622536727, "final_return_pct": -98.50872957640362, "max_return_pct": 0.15134573817261465, "max_drawdown_pct": 98.51248381359409, "official_cd_value": 1.4897674787586659, "delta_cd_vs_expected": -133.02609934444135, "name": "8V4_V51_V002_core_rare22_c1", "stop_atr": 1.1, "rr": 2.05, "hold": 22, "cooldown": 6, "atrp_min": 0.0035, "atrp_max": 0.095, "range20_min": 0.01, "range20_max": 0.24, "vol_min": 1.35, "body_min": 0.32, "ret3_floor": -0.038, "ret5_floor": -0.055, "ret10_floor": -0.075, "ret20_floor": -0.115, "close_pos_min": 0.7, "wick_min": 0.0, "upper_wick_max": 0.92, "reclaim_buffer": 0.0, "low_buffer": 0.0, "require_green": true, "require_reclaim": true, "require_rare22": true, "require_lowanchor": false, "require_strict": false, "require_shocklow": false, "ema_guard": "none", "min_tp_net_pct": 0.0, "be_r": 999.0, "trail_r": 999.0, "trail_atr": 1.8, "fail_bars": 999, "fail_pnl": -999.0, "post_loss_after": 999, "post_loss_bars": 0, "sym_dd_pct": 999.0, "sym_dd_bars": 0, "shock_lb": 0, "shock_ret5": -0.095, "shock_range": 0.125, "shock_close_pos": 0.18}
+
+best by cd
+{"batch": "LONG_MAX_EMBEDDED_ENTRY_DEV_V7", "strategy": "LMX_V7_050_ema_reclaim", "parent": "8V4_V51_V002_core_rare22_c1", "group": "entry_add_reclaim_context", "entry": "lx_parent_v51_core_rare22_c1", "kind": "improve", "tag": "ema_reclaim", "trades": 317820, "wins": 107367, "losses": 210453, "win_rate_pct": 33.78232962053993, "final_return_pct": -95.33641547948794, "max_return_pct": 0.05640929413799345, "max_drawdown_pct": 95.34011969086617, "official_cd_value": 4.662508914723881, "delta_cd_vs_expected": -129.85335790847614, "name": "LMX_V7_050_ema_reclaim", "stop_atr": 1.1, "rr": 2.05, "hold": 22, "cooldown": 6, "atrp_min": 0.0035, "atrp_max": 0.095, "range20_min": 0.01, "range20_max": 0.24, "vol_min": 1.35, "body_min": 0.32, "ret3_floor": -0.038, "ret5_floor": -0.055, "ret10_floor": -0.075, "ret20_floor": -0.115, "close_pos_min": 0.69, "wick_min": 0.0, "upper_wick_max": 0.905, "reclaim_buffer": 0.002, "low_buffer": 0.0, "require_green": true, "require_reclaim": true, "require_rare22": true, "require_lowanchor": false, "require_strict": false, "require_shocklow": false, "ema_guard": "hard", "min_tp_net_pct": 0.3, "be_r": 999.0, "trail_r": 999.0, "trail_atr": 1.8, "fail_bars": 999, "fail_pnl": -999.0, "post_loss_after": 999, "post_loss_bars": 0, "sym_dd_pct": 999.0, "sym_dd_bars": 0, "shock_lb": 0, "shock_ret5": -0.095, "shock_range": 0.125, "shock_close_pos": 0.18}
+
+best improve by cd
+{"batch": "LONG_MAX_EMBEDDED_ENTRY_DEV_V7", "strategy": "LMX_V7_050_ema_reclaim", "parent": "8V4_V51_V002_core_rare22_c1", "group": "entry_add_reclaim_context", "entry": "lx_parent_v51_core_rare22_c1", "kind": "improve", "tag": "ema_reclaim", "trades": 317820, "wins": 107367, "losses": 210453, "win_rate_pct": 33.78232962053993, "final_return_pct": -95.33641547948794, "max_return_pct": 0.05640929413799345, "max_drawdown_pct": 95.34011969086617, "official_cd_value": 4.662508914723881, "delta_cd_vs_expected": -129.85335790847614, "name": "LMX_V7_050_ema_reclaim", "stop_atr": 1.1, "rr": 2.05, "hold": 22, "cooldown": 6, "atrp_min": 0.0035, "atrp_max": 0.095, "range20_min": 0.01, "range20_max": 0.24, "vol_min": 1.35, "body_min": 0.32, "ret3_floor": -0.038, "ret5_floor": -0.055, "ret10_floor": -0.075, "ret20_floor": -0.115, "close_pos_min": 0.69, "wick_min": 0.0, "upper_wick_max": 0.905, "reclaim_buffer": 0.002, "low_buffer": 0.0, "require_green": true, "require_reclaim": true, "require_rare22": true, "require_lowanchor": false, "require_strict": false, "require_shocklow": false, "ema_guard": "hard", "min_tp_net_pct": 0.3, "be_r": 999.0, "trail_r": 999.0, "trail_atr": 1.8, "fail_bars": 999, "fail_pnl": -999.0, "post_loss_after": 999, "post_loss_bars": 0, "sym_dd_pct": 999.0, "sym_dd_bars": 0, "shock_lb": 0, "shock_ret5": -0.095, "shock_range": 0.125, "shock_close_pos": 0.18}
+
+top 30 by official_cd_value
+1. LMX_V7_050_ema_reclaim | kind=improve | tag=ema_reclaim | trades=317820 | win_rate=33.7823 | max_return=0.056409 | mdd=95.340120 | cd=4.662509 | delta_vs_baseline=-129.853358
+2. LMX_V7_042_ema_reclaim | kind=improve | tag=ema_reclaim | trades=324778 | win_rate=33.7923 | max_return=0.056409 | mdd=95.622430 | cd=4.380039 | delta_vs_baseline=-130.135827
+3. LMX_V7_046_ema_reclaim | kind=improve | tag=ema_reclaim | trades=324832 | win_rate=33.7922 | max_return=0.056409 | mdd=95.624921 | cd=4.377547 | delta_vs_baseline=-130.138320
+4. LMX_V7_044_ema_reclaim | kind=improve | tag=ema_reclaim | trades=328146 | win_rate=33.7883 | max_return=0.056409 | mdd=95.796216 | cd=4.206156 | delta_vs_baseline=-130.309711
+5. LMX_V7_048_ema_reclaim | kind=improve | tag=ema_reclaim | trades=329520 | win_rate=33.7907 | max_return=0.056409 | mdd=95.847383 | cd=4.154959 | delta_vs_baseline=-130.360908
+6. LMX_V7_014_quality_tight | kind=improve | tag=quality_tight | trades=350627 | win_rate=34.1659 | max_return=0.091471 | mdd=96.414908 | cd=3.588372 | delta_vs_baseline=-130.927495
+7. LMX_V7_018_quality_tight | kind=improve | tag=quality_tight | trades=355404 | win_rate=34.1639 | max_return=0.091471 | mdd=96.606699 | cd=3.396405 | delta_vs_baseline=-131.119462
+8. LMX_V7_013_quality_tight | kind=improve | tag=quality_tight | trades=376029 | win_rate=34.1298 | max_return=0.080061 | mdd=97.315738 | cd=2.686411 | delta_vs_baseline=-131.829456
+9. LMX_V7_017_quality_tight | kind=improve | tag=quality_tight | trades=381204 | win_rate=34.1135 | max_return=0.127205 | mdd=97.475455 | cd=2.527757 | delta_vs_baseline=-131.988110
+10. LMX_V7_020_quality_tight | kind=improve | tag=quality_tight | trades=388341 | win_rate=34.1566 | max_return=0.080061 | mdd=97.590547 | cd=2.411382 | delta_vs_baseline=-132.104485
+11. LMX_V7_069_rare22_soften | kind=improve | tag=rare22_soften | trades=392562 | win_rate=34.1521 | max_return=0.138621 | mdd=97.626137 | cd=2.377154 | delta_vs_baseline=-132.138713
+12. LMX_V7_072_rare22_soften | kind=improve | tag=rare22_soften | trades=392562 | win_rate=34.1521 | max_return=0.138621 | mdd=97.626137 | cd=2.377154 | delta_vs_baseline=-132.138713
+13. LMX_V7_012_quality_tight | kind=improve | tag=quality_tight | trades=403334 | win_rate=34.1251 | max_return=0.127205 | mdd=97.967949 | cd=2.034636 | delta_vs_baseline=-132.481231
+14. LMX_V7_016_quality_tight | kind=improve | tag=quality_tight | trades=408826 | win_rate=34.1285 | max_return=0.127205 | mdd=98.034360 | cd=1.968140 | delta_vs_baseline=-132.547726
+15. LMX_V7_015_quality_tight | kind=improve | tag=quality_tight | trades=410573 | win_rate=34.1476 | max_return=0.104190 | mdd=98.057902 | cd=1.944121 | delta_vs_baseline=-132.571746
+16. LMX_V7_068_rare22_soften | kind=improve | tag=rare22_soften | trades=414913 | win_rate=34.1187 | max_return=0.151346 | mdd=98.145712 | cd=1.857094 | delta_vs_baseline=-132.658773
+17. LMX_V7_071_rare22_soften | kind=improve | tag=rare22_soften | trades=414913 | win_rate=34.1187 | max_return=0.151346 | mdd=98.145712 | cd=1.857094 | delta_vs_baseline=-132.658773
+18. LMX_V7_060_risk_cd_mix | kind=improve | tag=risk_cd_mix | trades=432233 | win_rate=34.5876 | max_return=0.191982 | mdd=98.161616 | cd=1.841913 | delta_vs_baseline=-132.673953
+19. LMX_V7_019_quality_tight | kind=improve | tag=quality_tight | trades=414924 | win_rate=34.1299 | max_return=0.104190 | mdd=98.162703 | cd=1.839211 | delta_vs_baseline=-132.676656
+20. LMX_V7_055_risk_cd_mix | kind=improve | tag=risk_cd_mix | trades=435813 | win_rate=34.4081 | max_return=0.199447 | mdd=98.179351 | cd=1.824280 | delta_vs_baseline=-132.691587
+21. LMX_V7_054_risk_cd_mix | kind=improve | tag=risk_cd_mix | trades=426358 | win_rate=34.0580 | max_return=0.177509 | mdd=98.225767 | cd=1.777382 | delta_vs_baseline=-132.738485
+22. LMX_V7_058_risk_cd_mix | kind=improve | tag=risk_cd_mix | trades=427056 | win_rate=34.2164 | max_return=0.143140 | mdd=98.248569 | cd=1.753938 | delta_vs_baseline=-132.761929
+23. LMX_V7_010_rr_extend | kind=improve | tag=rr_extend | trades=434026 | win_rate=30.9500 | max_return=0.226859 | mdd=98.308637 | cd=1.695200 | delta_vs_baseline=-132.820667
+24. LMX_V7_053_risk_cd_mix | kind=improve | tag=risk_cd_mix | trades=429826 | win_rate=33.9361 | max_return=0.150018 | mdd=98.328107 | cd=1.674402 | delta_vs_baseline=-132.841465
+25. LMX_V7_057_risk_cd_mix | kind=improve | tag=risk_cd_mix | trades=430691 | win_rate=34.1853 | max_return=0.129418 | mdd=98.331316 | cd=1.670844 | delta_vs_baseline=-132.845023
+26. LMX_V7_059_risk_cd_mix | kind=improve | tag=risk_cd_mix | trades=436355 | win_rate=34.3260 | max_return=0.170239 | mdd=98.334936 | cd=1.667898 | delta_vs_baseline=-132.847968
+27. LMX_V7_052_risk_cd_mix | kind=improve | tag=risk_cd_mix | trades=433770 | win_rate=33.8802 | max_return=0.136108 | mdd=98.348552 | cd=1.653696 | delta_vs_baseline=-132.862171
+28. LMX_V7_064_loss_brake | kind=improve | tag=loss_brake | trades=424848 | win_rate=34.0607 | max_return=0.168457 | mdd=98.355725 | cd=1.647045 | delta_vs_baseline=-132.868822
+29. LMX_V7_011_quality_tight | kind=improve | tag=quality_tight | trades=426527 | win_rate=34.1132 | max_return=0.151346 | mdd=98.379967 | cd=1.622485 | delta_vs_baseline=-132.893382
+30. LMX_V7_009_rr_extend | kind=improve | tag=rr_extend | trades=443989 | win_rate=31.5323 | max_return=0.150436 | mdd=98.411402 | cd=1.590988 | delta_vs_baseline=-132.924879
