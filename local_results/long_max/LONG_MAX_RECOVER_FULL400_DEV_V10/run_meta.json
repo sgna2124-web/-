@@ -1,0 +1,44 @@
+{
+  "run_label": "LONG_MAX_RECOVER_FULL400_DEV_V10",
+  "baseline_name": "8V4_V51_V002_core_rare22_c1",
+  "baseline_source_reference": "base_line/long_max/long_max_v1/8V4_long400_reviewed.py",
+  "baseline_entry_condition": "V51 microbase_pop(raw_rangefloor_pop) + core; V002 rare22_c1 reflected by rr_target=2.55 and cooldown_bars=25, not by an extra rolling-count filter",
+  "baseline_risk": {
+    "atr_stop": 0.92,
+    "rr_target": 2.55,
+    "max_hold_bars": 18,
+    "cooldown_bars": 25
+  },
+  "official_baseline_cd_value_recorded": 134.4697,
+  "official_fee008_restore_reference": {
+    "trades": 2276,
+    "win_rate_pct": 45.34,
+    "final_return_pct": 44.3226,
+    "max_return_pct": 44.9123,
+    "max_drawdown_pct": 6.827,
+    "cd_value": 134.4697
+  },
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_RECOVER_FULL400_DEV_V10",
+  "symbols": 597,
+  "strategies": 478,
+  "workers": 11,
+  "max_bars": 0,
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "elapsed_sec": 2251.005113840103,
+  "outputs": {
+    "aggregate_results": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_RECOVER_FULL400_DEV_V10\\aggregate_results.csv",
+    "symbol_strategy_results": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_RECOVER_FULL400_DEV_V10\\symbol_strategy_results.csv",
+    "trades": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_RECOVER_FULL400_DEV_V10\\trades_compact.csv",
+    "strategies": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_RECOVER_FULL400_DEV_V10\\strategies.json",
+    "errors": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_RECOVER_FULL400_DEV_V10\\errors.json"
+  },
+  "notes": [
+    "No external baseline code path is read by this script.",
+    "Results are written under the execution directory by default.",
+    "The first row after sorting is the long_max candidate by maximum cd_value.",
+    "Baseline reproduction should be checked against trades=2276 and cd_value about 134.4697 under full symbols, full bars, fee_rt_bps=8."
+  ]
+}
