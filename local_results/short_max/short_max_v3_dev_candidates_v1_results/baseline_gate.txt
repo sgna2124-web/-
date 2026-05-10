@@ -1,0 +1,8 @@
+BASELINE GATE - short_max v3 embedded
+trades: value=34782 ref=34782 diff=0 tolerance=0 pass=True
+max_return_pct: value=451.8246548170149 ref=451.8246548170149 diff=0.0 tolerance=1e-06 pass=True
+max_drawdown_pct: value=7.484506060174601 ref=7.484506060174601 diff=0.0 tolerance=1e-06 pass=True
+official_cd_value: value=510.52330508569787 ref=510.52330508569787 diff=0.0 tolerance=1e-06 pass=True
+errors: value=0 ref=None diff=0 tolerance=0 pass=True
+active_leftover: value=0 ref=0 diff=0 tolerance=0 pass=True
+gate_pass=True
