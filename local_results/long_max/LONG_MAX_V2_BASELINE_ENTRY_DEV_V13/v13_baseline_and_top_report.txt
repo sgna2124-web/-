@@ -1,0 +1,44 @@
+LONG_MAX_V2_BASELINE_ENTRY_DEV_V13
+
+baseline_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20
+baseline_reproduction_ok: True
+baseline_cd_expected: 311.3750675807
+baseline_cd_actual: 311.37506758074795
+
+baseline_trades: 57243
+baseline_wins: 20312
+baseline_losses: 36931
+baseline_win_rate_pct: 35.48381461488741
+baseline_final_return_pct: 214.71444608282576
+baseline_max_return_pct: 215.22710202673295
+baseline_max_drawdown_pct: 1.221987075736386
+baseline_cd_value: 311.37506758074795
+baseline_max_conc: 429
+baseline_errors: 0
+baseline_ruined: False
+
+top_is_update_candidate: True
+top_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110
+top_entry_key: child::orig_V09_extreme_vol18::tp03
+top_description: baseline entry + atr_stop 1.10
+top_atr_stop: 1.1
+top_rr_target: 2.9
+top_max_hold_bars: 21
+top_cooldown_bars: 31
+top_trades: 57114
+top_wins: 20911
+top_losses: 36203
+top_win_rate_pct: 36.61273943341388
+top_final_return_pct: 240.73077476542824
+top_max_return_pct: 241.34271423661838
+top_max_drawdown_pct: 1.3408670828358504
+top_cd_value: 336.7657621417611
+top_max_conc: 435
+top_errors: 0
+top_ruined: False
+top_delta_vs_baseline_cd: 25.39069456106114
+
+update_rule:
+- long_main 후보: max_drawdown_pct < 5 and cd_value > 311.3750675807 and 단독 재현 성공
+- long_max 후보: cd_value > 311.3750675807 and 단독 재현 성공
+- 이번 파일은 저부하 탐색 파일이므로 1위가 나오면 다음 단계에서 단독 재검증 파일을 만들어야 한다.
