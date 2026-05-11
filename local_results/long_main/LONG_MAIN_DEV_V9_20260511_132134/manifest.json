@@ -1,0 +1,51 @@
+{
+  "batch_label": "LONG_MAIN_DEV_V9_V4_BASELINE_RESOURCE_AWARE_DEV",
+  "created_at": "2026-05-11T05:51:26.830073+00:00",
+  "path_policy": "No external hardcoded path. Data dir is CLI argument or current/script relative auto-detection. Results are written under Path.cwd() unless --out-dir is provided.",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_main\\LONG_MAIN_DEV_V9_20260511_132134",
+  "csv_files": 597,
+  "variants": [
+    "LM9_000_LONG_MAIN_V4_EXACT_EMBEDDED",
+    "LM9_010_V4_RECLAIM_CAP_190",
+    "LM9_011_V4_RECLAIM_CAP_175",
+    "LM9_012_V4_SHOCK_RECENCY_3",
+    "LM9_013_V4_SHOCK_RECENCY_4",
+    "LM9_014_V4_RECLAIM190_SHOCK3",
+    "LM9_020_V4_VOL160",
+    "LM9_021_V4_VOL160_RECLAIM190",
+    "LM9_030_V4_REMOVE_BODY_GUARD_SANITY",
+    "LM9_031_V4_BODY250_RECLAIM190",
+    "LM9_040_V4_CP077_RECLAIM190",
+    "LM9_041_V4_UPPER020_RECLAIM190",
+    "LM9_050_V4_RET20_FLOOR_32",
+    "LM9_051_V4_RET20_FLOOR_28_RECLAIM190"
+  ],
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "resource_profile": {
+    "default_workers": 1,
+    "selected_workers": 1,
+    "variant_count": 14,
+    "cooldown_ms": 0,
+    "reason": "Designed to run alongside long_max, short_main and short_max without multiplying process count."
+  },
+  "official_long_main_reference": {
+    "strategy": "LONG_MAIN_V4_LM8_021_LOOSER_BODY_GUARD_220",
+    "side": "long",
+    "restored_trades": 479,
+    "restored_max_return_pct": 25.2064,
+    "restored_max_drawdown_pct": 1.0905,
+    "restored_official_cd_value": 123.5781
+  },
+  "baseline_entry_source": "Embedded current long_main v4: v1 raw_l01_cap_reclaim + double_flush_ok + vol>=1.45 + body_atr<=2.20 + ret20<=-0.08 + TP03. Extra cp>=0.77 is not part of v4.",
+  "v9_focus": "Resource-aware structural improvement around v4. Default workers=1 and fewer variants to avoid CPU/RAM overload when long_main, long_max, short_main, short_max are run together. Tests MDD defense, reclaim_atr loose caps, shock freshness, volume/body structural variants. No MFE/MAE future-info filters.",
+  "files": {
+    "summary": "summary.csv",
+    "per_symbol_summary": "per_symbol_summary.csv",
+    "trades": "trades.csv",
+    "errors": "errors.csv",
+    "strategies": "strategies.json"
+  },
+  "elapsed_sec": 5392.597267627716
+}
