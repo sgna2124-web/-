@@ -1,0 +1,104 @@
+{
+  "baseline_source": "base_line/long_max/v3/03_FROZEN_BASELINE_RUNNER.py core logic embedded",
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110",
+  "baseline_candidate": "LM12_000_LONG_MAIN_V7_EXACT_FROZEN",
+  "pass_frozen_reproduction_gate": true,
+  "expected": {
+    "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110",
+    "trades": 57114,
+    "wins": 20911,
+    "losses": 36203,
+    "win_rate_pct": 36.6127394334,
+    "final_return_pct": 240.7307747654,
+    "max_return_pct": 241.3427142366,
+    "max_drawdown_pct": 1.3408670828,
+    "official_cd_value": 336.7657621418,
+    "max_conc": 435,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "actual_baseline_row": {
+    "run_label": "LONG_MAIN_DEV_V12_V7_FROZEN_ENTRY_BASED_LOW_RESOURCE",
+    "fee_tag": "fee_008_rt_bps",
+    "round_trip_cost_bps": 8.0,
+    "position_fraction": 0.01,
+    "axis": "long_main_v7_dev",
+    "strategy": "LM12_000_LONG_MAIN_V7_EXACT_FROZEN",
+    "side": "long",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "filter_name": "BASELINE_EXACT_NO_EXTRA_FILTER",
+    "description": "EXACT frozen long_main v7 / long_max v3 baseline. Must reproduce 57114 trades and cd 336.7657621418.",
+    "atr_stop": 1.1,
+    "rr_target": 2.9,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true,
+    "trades": 57114,
+    "wins": 20911,
+    "losses": 36203,
+    "win_rate_pct": 36.61273943341388,
+    "final_return_pct": 240.73077476542824,
+    "max_return_pct": 241.34271423661838,
+    "max_drawdown_pct": 1.3408670828358504,
+    "official_cd_value": 336.7657621417611,
+    "cd_value": 336.7657621417611,
+    "max_conc": 435,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "diffs": {
+    "trades": {
+      "actual": 57114.0,
+      "expected": 57114.0,
+      "delta": 0.0
+    },
+    "wins": {
+      "actual": 20911.0,
+      "expected": 20911.0,
+      "delta": 0.0
+    },
+    "losses": {
+      "actual": 36203.0,
+      "expected": 36203.0,
+      "delta": 0.0
+    },
+    "win_rate_pct": {
+      "actual": 36.61273943341388,
+      "expected": 36.6127394334,
+      "delta": 1.3876899629394757e-11
+    },
+    "final_return_pct": {
+      "actual": 240.73077476542824,
+      "expected": 240.7307747654,
+      "delta": 2.822275746439118e-11
+    },
+    "max_return_pct": {
+      "actual": 241.34271423661838,
+      "expected": 241.3427142366,
+      "delta": 1.8388846001471393e-11
+    },
+    "max_drawdown_pct": {
+      "actual": 1.3408670828358504,
+      "expected": 1.3408670828,
+      "delta": 3.5850433732775855e-11
+    },
+    "official_cd_value": {
+      "actual": 336.7657621417611,
+      "expected": 336.7657621418,
+      "delta": -3.888089850079268e-11
+    },
+    "max_conc": {
+      "actual": 435.0,
+      "expected": 435.0,
+      "delta": 0.0
+    },
+    "errors": {
+      "actual": 0.0,
+      "expected": 0.0,
+      "delta": 0.0
+    }
+  },
+  "candidate_evaluation_rule": "If baseline reproduction fails, improvement candidates are invalid and rank files are empty."
+}
