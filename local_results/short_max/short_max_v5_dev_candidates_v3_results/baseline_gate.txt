@@ -1,0 +1,8 @@
+BASELINE GATE - short_max v5 embedded v3 exact-entry-mask
+trades: value=34005 ref=31798 diff=2207 tolerance=0 pass=False
+max_return_pct: value=899.0095709169104 ref=821.9869251730971 diff=77.02264574381331 tolerance=1e-06 pass=False
+max_drawdown_pct: value=4.559023920452521 ref=4.6783483625391975 diff=0.11932444208667636 tolerance=1e-06 pass=False
+official_cd_value: value=953.4644856111984 ref=878.8531649564361 diff=74.61132065476227 tolerance=1e-06 pass=False
+errors: value=0 ref=0 diff=0 tolerance=0 pass=True
+active_leftover: value=0 ref=0 diff=0 tolerance=0 pass=True
+gate_pass=False
