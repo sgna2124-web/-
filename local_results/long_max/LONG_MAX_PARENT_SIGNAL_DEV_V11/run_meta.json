@@ -1,0 +1,42 @@
+{
+  "run_label": "LONG_MAX_PARENT_SIGNAL_DEV_V11",
+  "method": "parent-signal development: run full400 parents, select top parents by cd_value, then attach TP03-based filters/risk variants as children",
+  "long_max_selection_rule": "maximum cd_value only",
+  "baseline_name": "8V4_V51_V002_core_rare22_c1",
+  "baseline_reference_cd_value": 134.4697,
+  "baseline_parent_result": {
+    "strategy": "8V4_V51_V002_core_rare22_c1",
+    "trades": 671,
+    "win_rate_pct": 32.04172876304024,
+    "final_return_pct": -0.6924713875376076,
+    "max_return_pct": 0.19773554652975367,
+    "max_drawdown_pct": 1.0190670349284114,
+    "cd_value": 99.17665345383033,
+    "official_reference_cd_value": 134.4697,
+    "delta_vs_official_reference": -35.29304654616966
+  },
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_PARENT_SIGNAL_DEV_V11",
+  "symbols": 597,
+  "parent_strategies": 400,
+  "selected_parents": 20,
+  "child_strategies": 400,
+  "workers": 11,
+  "max_bars": 0,
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "elapsed_sec": 11241.282442808151,
+  "outputs": {
+    "parent_aggregate": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\parent400_aggregate_results.csv",
+    "child_aggregate": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\childdev_aggregate_results.csv",
+    "combined_aggregate": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\combined_aggregate_results.csv",
+    "selected_parents": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\selected_parent_strategies.csv"
+  },
+  "notes": [
+    "이 파일은 고정 외부 경로를 참조하지 않고 실행 위치 기준으로 Data/time과 symbol_cost를 탐색한다.",
+    "parent400은 8V4 원본 구조 400개를 부모 신호 후보로 삼는다.",
+    "childdev는 상위 부모 신호를 그대로 부모로 두고, TP 기대폭 0.3% 이상 계열 필터와 리스크 변형을 붙인다.",
+    "기준선 갱신 판단은 combined_aggregate_results.csv의 cd_value 최대값을 본다."
+  ]
+}
