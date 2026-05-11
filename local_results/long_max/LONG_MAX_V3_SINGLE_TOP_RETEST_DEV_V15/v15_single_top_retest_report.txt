@@ -1,0 +1,57 @@
+LONG_MAX_V3_SINGLE_TOP_RETEST_DEV_V15
+
+purpose: V14 1위 전략 1개 단독 재검증
+old_baseline_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110
+old_baseline_cd_value: 336.7657621418
+target_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320
+target_entry_key: child::orig_V09_extreme_vol18::tp03
+target_params: atr_stop=1.10, rr_target=3.20, max_hold_bars=21, cooldown_bars=31, use_tp03_gate=True
+
+pass_single_retest_gate: True
+long_main_update_candidate: True
+long_max_update_candidate: True
+
+actual_result:
+- strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320
+- trades: 57065
+- wins: 20612
+- losses: 36453
+- win_rate_pct: 36.12021379129063
+- final_return_pct: 267.69672178096005
+- max_return_pct: 268.493097319925
+- max_drawdown_pct: 1.341232112567814
+- cd_value: 363.55074956607444
+- max_conc: 439
+- errors: 0
+- ruined: False
+
+expected_v14_top_result:
+- strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320
+- trades: 57065
+- wins: 20612
+- losses: 36453
+- win_rate_pct: 36.1202137913
+- final_return_pct: 267.696721781
+- max_return_pct: 268.4930973199
+- max_drawdown_pct: 1.3412321126
+- cd_value: 363.5507495661
+- max_conc: 439
+- errors: 0
+- ruined: False
+
+diff_vs_expected:
+- trades: actual=57065, expected=57065, delta=0.0
+- wins: actual=20612, expected=20612, delta=0.0
+- losses: actual=36453, expected=36453, delta=0.0
+- win_rate_pct: actual=36.12021379129063, expected=36.1202137913, delta=-9.372058684675721e-12
+- final_return_pct: actual=267.69672178096005, expected=267.696721781, delta=-3.9960923459148034e-11
+- max_return_pct: actual=268.493097319925, expected=268.4930973199, delta=2.5011104298755527e-11
+- max_drawdown_pct: actual=1.341232112567814, expected=1.3412321126, delta=-3.218603161769806e-11
+- cd_value: actual=363.55074956607444, expected=363.5507495661, delta=-2.5579538487363607e-11
+- max_conc: actual=439, expected=439, delta=0.0
+- errors: actual=0, expected=0, delta=0.0
+
+update_rule:
+- long_main: pass_single_retest_gate true AND MDD < 5 AND cd_value > 336.7657621418
+- long_max: pass_single_retest_gate true AND cd_value > 336.7657621418
+- 통과하면 long_main은 v8, long_max는 v4 기준선 갱신 후보로 본다.
