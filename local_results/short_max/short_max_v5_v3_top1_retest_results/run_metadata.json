@@ -1,0 +1,98 @@
+{
+  "script_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\short_max_v5_v3_top1_retest_results",
+  "baseline_engine_source": "embedded_short_max_v5_constants",
+  "strategy_reference_source": "embedded_v3_top1_observed_result",
+  "reference": {
+    "strategy": "SM16_C05_remove_no_rsi_dev035",
+    "record_name": "short_max_v5_v3_top1_exact_entrymask_ddedge_retest",
+    "axis": "short_max",
+    "source_result": "local_results/short_max/short_max_v5_v3_top1_retest_results/baseline/summary.json",
+    "trades": 34005,
+    "max_return_pct": 899.0095709169104,
+    "max_drawdown_pct": 4.559023920452521,
+    "official_cd_value": 953.4644856111984,
+    "active_leftover": 0,
+    "generated_trades_before_score_filter": 34044,
+    "errors": 0
+  },
+  "base_config": {
+    "strategy_name": "SM16_C05_remove_no_rsi_dev035",
+    "short_max_record_name": "short_max_v5_SM16_C05_remove_no_rsi_dev035",
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "min_bars": 120,
+    "signal": {
+      "ema_period": 20,
+      "rsi_period": 14,
+      "atr_period": 14,
+      "long_dev": 0.028,
+      "short_dev": 0.035,
+      "long_rsi_max": 25,
+      "short_rsi_min": 77.0,
+      "use_rsi_gate": false,
+      "long_wick_mult": 1.2,
+      "short_wick_mult": 1.3
+    },
+    "quality": {
+      "long_dev": null,
+      "long_rsi_max": null,
+      "long_wick_mult": null,
+      "short_dev": null,
+      "short_rsi_min": null,
+      "use_rsi_gate": null,
+      "short_wick_mult": null
+    },
+    "risk": {
+      "atr_stop_mult": 1.8975,
+      "rr_mult": 5.75,
+      "min_expected_tp": 0.003,
+      "timeout_bars": 200,
+      "stop_mode": "atr_only",
+      "target_mode": "rr_only",
+      "fail_fast_bars": 10,
+      "fail_fast_min_progress_r": 0.1,
+      "protect_mode": "time_reduce",
+      "time_reduce_bars": 8,
+      "time_reduce_to_risk_frac": 0.05
+    },
+    "trade_control": {
+      "cooldown_bars_same_symbol_same_side": 0,
+      "top_n_per_timestamp": null,
+      "top_n_long_per_timestamp": null,
+      "top_n_short_per_timestamp": null,
+      "score_min": null,
+      "score_min_long": 1.6,
+      "score_min_short": 2.35,
+      "use_score_gate": true,
+      "score_dev_weight": 1.0,
+      "score_rsi_weight": 0.8,
+      "score_wick_weight": 0.7,
+      "score_dev_cap": 2.0,
+      "score_rsi_cap": 2.0,
+      "score_wick_cap": 2.5,
+      "wick_atr_floor_mult": 0.2,
+      "max_active_cap": null,
+      "max_per_symbol": null,
+      "loss_streak_trigger_losses": null,
+      "loss_streak_window": null,
+      "loss_streak_freeze_steps": 0,
+      "dd_brake_trigger_pct": 0.03,
+      "dd_brake_freeze_steps": 5
+    },
+    "execution": {
+      "entry_on_next_bar_open": true,
+      "allow_long": false,
+      "allow_short": true
+    }
+  },
+  "strategy_names": [
+    "baseline"
+  ],
+  "dd_brake_mode_arg": "auto",
+  "runtime_external_path_reference": false,
+  "critical_note": "short_max v5 embedded from base_line/short_main/v4 strategy_code.py; RSI direct gate is disabled; score_min_short is included in entry mask; DD brake is portfolio-level; same-bar trades are closed immediately in the same timestamp."
+}
