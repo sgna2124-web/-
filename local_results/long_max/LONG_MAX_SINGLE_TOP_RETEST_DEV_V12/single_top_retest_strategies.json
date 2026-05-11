@@ -1,0 +1,13 @@
+[
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20",
+    "side": "long",
+    "description": "single retest of V11 combined rank #1: V09 extreme vol18 parent + TP03 + risk_rr_plus20",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.01,
+    "rr_target": 2.9,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true
+  }
+]

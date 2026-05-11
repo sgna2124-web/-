@@ -1,0 +1,28 @@
+LONG_MAX_SINGLE_TOP_RETEST_DEV_V12
+
+target_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20
+parent_strategy: 8V4_V09_V054_extreme_vol18
+entry_key: child::orig_V09_extreme_vol18::tp03
+
+actual_trades: 57243
+actual_wins: 20312
+actual_losses: 36931
+actual_win_rate_pct: 35.48381461488741
+actual_final_return_pct: 214.71444608282576
+actual_max_return_pct: 215.22710202673295
+actual_max_drawdown_pct: 1.221987075736386
+actual_cd_value: 311.37506758074795
+actual_max_conc: 429
+actual_errors: 0
+
+pass_basic_reproduction_gate: True
+
+diff_vs_v11_expected:
+- trades: actual=57243.0, expected_v11=57243.0, delta=0.0
+- wins: actual=20312.0, expected_v11=20312.0, delta=0.0
+- losses: actual=36931.0, expected_v11=36931.0, delta=0.0
+- win_rate_pct: actual=35.48381461488741, expected_v11=35.483814, delta=6.148874049927144e-07
+- final_return_pct: actual=214.71444608282576, expected_v11=214.7144, delta=4.608282574736222e-05
+- max_return_pct: actual=215.22710202673295, expected_v11=215.2271, delta=2.0267329432499537e-06
+- max_drawdown_pct: actual=1.221987075736386, expected_v11=1.222, delta=-1.292426361398924e-05
+- cd_value: actual=311.37506758074795, expected_v11=311.3751, delta=-3.241925202246421e-05

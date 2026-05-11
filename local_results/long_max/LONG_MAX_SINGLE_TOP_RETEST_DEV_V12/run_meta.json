@@ -1,0 +1,128 @@
+{
+  "run_label": "LONG_MAX_SINGLE_TOP_RETEST_DEV_V12",
+  "method": "single strategy retest of V11 combined rank #1 only",
+  "target_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20",
+  "target_parent_strategy": "8V4_V09_V054_extreme_vol18",
+  "target_spec": {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20",
+    "side": "long",
+    "description": "single retest of V11 combined rank #1: V09 extreme vol18 parent + TP03 + risk_rr_plus20",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.01,
+    "rr_target": 2.9,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true
+  },
+  "expected_v11_result": {
+    "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20",
+    "trades": 57243,
+    "wins": 20312,
+    "losses": 36931,
+    "win_rate_pct": 35.483814,
+    "final_return_pct": 214.7144,
+    "max_return_pct": 215.2271,
+    "max_drawdown_pct": 1.222,
+    "cd_value": 311.3751
+  },
+  "actual_result": {
+    "run_label": "LONG_MAX_SINGLE_TOP_RETEST_DEV_V12",
+    "fee_tag": "fee_008_rt_bps",
+    "round_trip_cost_bps": 8.0,
+    "position_fraction": 0.01,
+    "axis": "long_max",
+    "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20",
+    "side": "long",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "description": "single retest of V11 combined rank #1: V09 extreme vol18 parent + TP03 + risk_rr_plus20",
+    "atr_stop": 1.01,
+    "rr_target": 2.9,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true,
+    "trades": 57243,
+    "wins": 20312,
+    "losses": 36931,
+    "win_rate_pct": 35.48381461488741,
+    "final_return_pct": 214.71444608282576,
+    "max_return_pct": 215.22710202673295,
+    "max_drawdown_pct": 1.221987075736386,
+    "cd_value": 311.37506758074795,
+    "official_baseline_cd_value": NaN,
+    "baseline_delta_cd": NaN,
+    "max_conc": 429,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "compare_with_v11_expected": {
+    "target_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20",
+    "expected_source": "V11 combined_aggregate_results.csv rank #1",
+    "pass_basic_reproduction_gate": true,
+    "diffs": {
+      "trades": {
+        "actual": 57243.0,
+        "expected_v11": 57243.0,
+        "delta": 0.0
+      },
+      "wins": {
+        "actual": 20312.0,
+        "expected_v11": 20312.0,
+        "delta": 0.0
+      },
+      "losses": {
+        "actual": 36931.0,
+        "expected_v11": 36931.0,
+        "delta": 0.0
+      },
+      "win_rate_pct": {
+        "actual": 35.48381461488741,
+        "expected_v11": 35.483814,
+        "delta": 6.148874049927144e-07
+      },
+      "final_return_pct": {
+        "actual": 214.71444608282576,
+        "expected_v11": 214.7144,
+        "delta": 4.608282574736222e-05
+      },
+      "max_return_pct": {
+        "actual": 215.22710202673295,
+        "expected_v11": 215.2271,
+        "delta": 2.0267329432499537e-06
+      },
+      "max_drawdown_pct": {
+        "actual": 1.221987075736386,
+        "expected_v11": 1.222,
+        "delta": -1.292426361398924e-05
+      },
+      "cd_value": {
+        "actual": 311.37506758074795,
+        "expected_v11": 311.3751,
+        "delta": -3.241925202246421e-05
+      }
+    },
+    "note": "pass_basic_reproduction_gate가 true이면 V11 1위 전략의 단독 재현 성공으로 볼 수 있다. false이면 V11의 parent/child 생성 흐름 또는 입력 조건과 단독 실행 조건 차이를 점검해야 한다."
+  },
+  "long_max_selection_rule": "maximum cd_value only, but baseline update requires single-strategy reproduction",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_SINGLE_TOP_RETEST_DEV_V12",
+  "symbols": 597,
+  "workers": 11,
+  "max_bars": 0,
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "elapsed_sec": 853.889034986496,
+  "outputs": {
+    "aggregate": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_SINGLE_TOP_RETEST_DEV_V12\\single_top_retest_aggregate_results.csv",
+    "symbol_results": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_SINGLE_TOP_RETEST_DEV_V12\\single_top_retest_symbol_strategy_results.csv",
+    "trades": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_SINGLE_TOP_RETEST_DEV_V12\\single_top_retest_trades_compact.csv",
+    "compare_report": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_SINGLE_TOP_RETEST_DEV_V12\\single_target_compare_report.txt"
+  },
+  "notes": [
+    "이 파일은 V11에서 1위로 나온 전략 하나만 단독으로 재검증한다.",
+    "외부 기준선 파일을 읽지 않고, V11의 parent/child 신호 생성 로직을 파일 안에 포함한다.",
+    "단독 결과가 V11 expected와 일치하면 frozen 기준선 후보로 승격 검토한다.",
+    "일치하지 않으면 V11의 selected parent 흐름, child 생성 순서, 계산식 또는 입력 데이터 차이를 다시 감사한다."
+  ]
+}
