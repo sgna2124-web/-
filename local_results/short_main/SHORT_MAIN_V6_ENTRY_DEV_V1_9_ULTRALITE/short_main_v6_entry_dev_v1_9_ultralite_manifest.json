@@ -1,0 +1,97 @@
+{
+  "script": "short_main_v6_entry_dev_v1_9_ultralite.py",
+  "purpose": "short_main v6 parent-based entry-condition development backtest ultralite",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "data_dir_mode": "default_script_parent_Data_time_or_explicit_data_dir",
+  "min_csv_files": 100,
+  "allow_small_data": false,
+  "ignore_non_ohlcv_csv": false,
+  "csv_file_count": 597,
+  "max_files": null,
+  "limit_strategies": null,
+  "reference_short_main": {
+    "axis": "short_main",
+    "strategy": "short_main_v6_timeout210",
+    "candidate": "timeout210",
+    "parent": "SM16_C05_remove_no_rsi_dev035_exact_entrymask_ddedge",
+    "version": "v6",
+    "current_597_trades": 33989,
+    "current_597_win_rate_pct": 14.213421989467182,
+    "current_597_final_return_pct": 931.1433546380067,
+    "current_597_max_return_pct": 931.6464095007982,
+    "current_597_max_drawdown_pct": 4.506694290977831,
+    "current_597_official_cd_value": 985.153259660748,
+    "current_597_profit_factor": 1.5653897913886468,
+    "current_597_max_conc": 277,
+    "current_597_same_bar_trades": 3112,
+    "current_597_active_leftover": 0,
+    "current_597_blocked_by_guard": 30,
+    "current_597_generated_trades_before_score_filter": 34019,
+    "current_597_errors": 0
+  },
+  "v1_9_ultralite_focus": "short_main v6 기준선 주변값 초저부하 개발",
+  "strategy_count_note": "SMV6 baseline + 15 ultralite variants; no candle limit; no multiprocessing",
+  "baseline_rules": {
+    "entry": "signal candle i -> next bar open i+1",
+    "base_signal": "v6 exact: close/ema20-1 >= short_dev and upper_wick >= short_wick_mult * body and short_score >= score_min_short in entry mask; rsi direct gate disabled",
+    "short_main_values": {
+      "quality": {
+        "short_dev": 0.035,
+        "short_rsi_min": 77.0,
+        "short_wick_mult": 1.3
+      },
+      "risk": {
+        "atr_stop_mult": 1.8975,
+        "rr_mult": 5.75,
+        "min_expected_tp": 0.003,
+        "timeout_bars": 210,
+        "fail_fast_bars": 10,
+        "fail_fast_min_progress_r": 0.1,
+        "time_reduce_bars": 8,
+        "time_reduce_to_risk_frac": 0.05
+      },
+      "trade_control": {
+        "score_min_short": 2.35,
+        "use_score_gate": false,
+        "score_dev_weight": 1.0,
+        "score_rsi_weight": 0.8,
+        "score_wick_weight": 0.7,
+        "score_dev_cap": 2.0,
+        "score_rsi_cap": 2.0,
+        "score_wick_cap": 2.5,
+        "wick_atr_floor_mult": 0.2,
+        "dd_brake_trigger_pct": 0.03,
+        "dd_brake_freeze_steps": 5,
+        "dd_brake_mode": "edge_current"
+      },
+      "entry_gate": {
+        "use_dev": true,
+        "use_rsi": false,
+        "use_wick": true,
+        "use_score": true
+      }
+    },
+    "fee_per_side": 0.0004,
+    "position_fraction": 0.01,
+    "initial_asset": 100.0
+  },
+  "strategy_count": 16,
+  "strategy_names": [
+    "SMV6_00_parent_short_main_v6_timeout210",
+    "SM19_A01_timeout205",
+    "SM19_A02_timeout215",
+    "SM19_A03_timeout220",
+    "SM19_B01_dev03475",
+    "SM19_B02_dev03525",
+    "SM19_B03_score2325",
+    "SM19_B04_score2375",
+    "SM19_B05_wick125",
+    "SM19_B06_wick135",
+    "SM19_C01_rr570",
+    "SM19_C02_rr580",
+    "SM19_C03_tr7",
+    "SM19_C04_tr9",
+    "SM19_D01_dd00275_f5",
+    "SM19_D02_dd0030_f4"
+  ]
+}
