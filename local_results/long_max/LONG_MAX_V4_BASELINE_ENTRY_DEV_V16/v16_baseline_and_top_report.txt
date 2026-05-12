@@ -1,0 +1,48 @@
+LONG_MAX_V4_BASELINE_ENTRY_DEV_V16
+
+baseline_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320
+baseline_reproduction_ok: True
+baseline_cd_expected: 363.5507495661
+baseline_cd_actual: 363.55074956607444
+
+baseline_trades: 57065
+baseline_wins: 20612
+baseline_losses: 36453
+baseline_win_rate_pct: 36.12021379129063
+baseline_final_return_pct: 267.69672178096005
+baseline_max_return_pct: 268.493097319925
+baseline_max_drawdown_pct: 1.341232112567814
+baseline_cd_value: 363.55074956607444
+baseline_max_conc: 439
+baseline_errors: 0
+baseline_ruined: False
+
+top_is_update_candidate: True
+top_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350
+top_entry_key: child::orig_V09_extreme_vol18::tp03
+top_description: baseline entry + rr_target 3.50
+top_atr_stop: 1.1
+top_rr_target: 3.5
+top_max_hold_bars: 21
+top_cooldown_bars: 31
+top_trades: 57035
+top_wins: 20451
+top_losses: 36584
+top_win_rate_pct: 35.85692995529061
+top_final_return_pct: 305.0347181084117
+top_max_return_pct: 305.87752111644033
+top_max_drawdown_pct: 1.2432451598606287
+top_cd_value: 400.83146848019794
+top_max_conc: 441
+top_errors: 0
+top_ruined: False
+top_delta_vs_baseline_cd: 37.28071891409792
+
+axis_winner_comparison:
+- long_main: winner=8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350, cd=400.83146848019794, mdd=1.2432451598606287, update_candidate=True
+- long_max: winner=8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350, cd=400.83146848019794, mdd=1.2432451598606287, update_candidate=True
+
+update_rule:
+- long_main 후보: max_drawdown_pct < 5 and cd_value > 363.5507495661 and 단독 재현 성공
+- long_max 후보: cd_value > 363.5507495661 and 단독 재현 성공
+- 이번 파일은 v4/v8 저부하 탐색 파일이므로 1위가 나오면 다음 단계에서 해당 1개 전략 단독 재검증 파일을 만들어야 한다.
