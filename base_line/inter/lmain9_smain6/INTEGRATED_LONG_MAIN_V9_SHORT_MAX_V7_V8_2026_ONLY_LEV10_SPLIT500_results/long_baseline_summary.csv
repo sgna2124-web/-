@@ -1,0 +1,2 @@
+﻿label,initial_asset,fee_per_side,round_trip_fee,position_fraction,trades,long_trades,short_trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,official_cd_value,max_conc,same_bar_trades,errors,ruined,expected_trades,count_match,raw_candidates,blocked_by_cooldown,skipped_invalid,active_leftover,stage
+long_main_v9_baseline_trade_generation,100.0,0.0004,0.0008,0.01,314,314,0,95,219,30.254777070063692,-0.9350502623286627,0.023394339519033913,0.9582204325063669,99.06494973767134,7,85,0,False,57035,0,702,388,0,0,baseline_trade_generation
