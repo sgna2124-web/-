@@ -1,0 +1,50 @@
+LONG_MAX_V5_2025_BASELINE_ENTRY_DEV_V19
+
+baseline_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350
+result_scope: 2025년까지의 데이터 기준
+train_end_exclusive_utc: 2026-01-01 00:00:00
+baseline_reproduction_ok: True
+baseline_cd_expected: 400.7817008962534
+baseline_cd_actual: 400.7817008962534
+
+baseline_trades: 56704
+baseline_wins: 20348
+baseline_losses: 36356
+baseline_win_rate_pct: 35.884593679458234
+baseline_final_return_pct: 305.5299492881062
+baseline_max_return_pct: 305.8271270102085
+baseline_max_drawdown_pct: 1.24324515986044
+baseline_cd_value: 400.7817008962534
+baseline_max_conc: 441
+baseline_errors: 0
+baseline_ruined: False
+
+top_is_update_candidate: True
+top_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380
+top_entry_key: child::orig_V09_extreme_vol18::tp03
+top_description: baseline entry + rr_target 3.80
+top_atr_stop: 1.1
+top_rr_target: 3.8
+top_max_hold_bars: 21
+top_cooldown_bars: 31
+top_trades: 56673
+top_wins: 20255
+top_losses: 36418
+top_win_rate_pct: 35.740123162705345
+top_final_return_pct: 332.2800895520915
+top_max_return_pct: 332.5601665725121
+top_max_drawdown_pct: 1.2943172013524573
+top_cd_value: 426.96146593036525
+top_max_conc: 442
+top_errors: 0
+top_ruined: False
+top_delta_vs_baseline_cd: 26.179765034111824
+
+axis_winner_comparison:
+- long_main: winner=8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380, cd=426.96146593036525, mdd=1.2943172013524573, update_candidate=True
+- long_max: winner=8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380, cd=426.96146593036525, mdd=1.2943172013524573, update_candidate=True
+
+update_rule:
+- long_main 후보: max_drawdown_pct < 5 and cd_value > 400.7817008962534 and 단독 재현 성공
+- long_max 후보: cd_value > 400.7817008962534 and 단독 재현 성공
+- 이번 파일은 v5/v9 저부하 탐색 파일이므로 1위가 나오면 다음 단계에서 해당 1개 전략 단독 재검증 파일을 만들어야 한다.

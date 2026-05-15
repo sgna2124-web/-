@@ -1,0 +1,106 @@
+{
+  "baseline_source": "base_line/long_main/v9 and long_max/v5 code reference / frozen baseline logic embedded",
+  "result_scope": "2025년까지의 데이터 기준; 2026년 데이터 제외",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350",
+  "baseline_candidate": "LM14_000_LONG_MAIN_V9_EXACT_FROZEN",
+  "pass_frozen_reproduction_gate": true,
+  "expected": {
+    "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350",
+    "trades": 56704,
+    "wins": 20348,
+    "losses": 36356,
+    "win_rate_pct": 35.884593679458234,
+    "final_return_pct": 305.5299492881062,
+    "max_return_pct": 305.8271270102085,
+    "max_drawdown_pct": 1.24324515986044,
+    "official_cd_value": 400.7817008962534,
+    "max_conc": 441,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "actual_baseline_row": {
+    "run_label": "LONG_MAIN_DEV_V14_V9_FROZEN_ENTRY_BASED_LOW_RESOURCE",
+    "fee_tag": "fee_008_rt_bps",
+    "round_trip_cost_bps": 8.0,
+    "position_fraction": 0.01,
+    "axis": "long_main_v9_dev",
+    "strategy": "LM14_000_LONG_MAIN_V9_EXACT_FROZEN",
+    "side": "long",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "filter_name": "BASELINE_EXACT_NO_EXTRA_FILTER",
+    "description": "EXACT frozen long_main v9 / long_max v5 baseline. Must reproduce 56704 trades and cd 400.7817008962534 on data before 2026-01-01 UTC.",
+    "atr_stop": 1.1,
+    "rr_target": 3.5,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true,
+    "trades": 56704,
+    "wins": 20348,
+    "losses": 36356,
+    "win_rate_pct": 35.884593679458234,
+    "final_return_pct": 305.5299492881062,
+    "max_return_pct": 305.8271270102085,
+    "max_drawdown_pct": 1.24324515986044,
+    "official_cd_value": 400.7817008962534,
+    "cd_value": 400.7817008962534,
+    "max_conc": 441,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "diffs": {
+    "trades": {
+      "actual": 56704.0,
+      "expected": 56704.0,
+      "delta": 0.0
+    },
+    "wins": {
+      "actual": 20348.0,
+      "expected": 20348.0,
+      "delta": 0.0
+    },
+    "losses": {
+      "actual": 36356.0,
+      "expected": 36356.0,
+      "delta": 0.0
+    },
+    "win_rate_pct": {
+      "actual": 35.884593679458234,
+      "expected": 35.884593679458234,
+      "delta": 0.0
+    },
+    "final_return_pct": {
+      "actual": 305.5299492881062,
+      "expected": 305.5299492881062,
+      "delta": 0.0
+    },
+    "max_return_pct": {
+      "actual": 305.8271270102085,
+      "expected": 305.8271270102085,
+      "delta": 0.0
+    },
+    "max_drawdown_pct": {
+      "actual": 1.24324515986044,
+      "expected": 1.24324515986044,
+      "delta": 0.0
+    },
+    "official_cd_value": {
+      "actual": 400.7817008962534,
+      "expected": 400.7817008962534,
+      "delta": 0.0
+    },
+    "max_conc": {
+      "actual": 441.0,
+      "expected": 441.0,
+      "delta": 0.0
+    },
+    "errors": {
+      "actual": 0.0,
+      "expected": 0.0,
+      "delta": 0.0
+    }
+  },
+  "candidate_evaluation_rule": "If baseline reproduction fails, improvement candidates are invalid and rank files are empty."
+}

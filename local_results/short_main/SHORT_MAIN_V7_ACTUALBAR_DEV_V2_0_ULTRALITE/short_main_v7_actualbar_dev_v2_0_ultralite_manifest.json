@@ -1,0 +1,99 @@
+{
+  "script": "short_main_v7_actualbar_dev_v2_0_ultralite.py",
+  "purpose": "short_main v7 actual-bar-engine parent-based development backtest ultralite train<=2025",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "data_dir_mode": "default_script_parent_Data_time_or_explicit_data_dir",
+  "min_csv_files": 100,
+  "allow_small_data": false,
+  "ignore_non_ohlcv_csv": false,
+  "csv_file_count": 597,
+  "max_files": null,
+  "limit_strategies": null,
+  "reference_short_main": {
+    "axis": "short_main",
+    "strategy": "short_main_v6_timeout210_actual_bar_engine",
+    "baseline_version": "short_main/v7",
+    "source_old_strategy": "short_main_v6_timeout210",
+    "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231",
+    "data_scope": "train_only_until_2025_12_31_end",
+    "train_end": "2025-12-31 23:59:59",
+    "holdout_start": "2026-01-01 00:00:00",
+    "current_597_trades": 35330,
+    "current_597_wins": 4997,
+    "current_597_losses": 30333,
+    "current_597_win_rate_pct": 14.143787149731107,
+    "current_597_final_return_pct": 1114.6701489565148,
+    "current_597_max_return_pct": 1115.0033786152128,
+    "current_597_max_drawdown_pct": 4.607649926423363,
+    "current_597_official_cd_value": 1159.0202763344078,
+    "current_597_profit_factor": 1.5743323511471792,
+    "current_597_max_conc": 284,
+    "current_597_same_bar_trades": 3187,
+    "current_597_active_leftover": 0,
+    "current_597_pending_leftover": 0,
+    "current_597_load_errors": 0
+  },
+  "v2_0_ultralite_focus": "short_main v6 기준선 주변값 초저부하 개발",
+  "strategy_count_note": "SMV6 baseline + 15 ultralite variants; no candle limit; no multiprocessing",
+  "baseline_rules": {
+    "entry": "signal candle i -> next bar open i+1",
+    "base_signal": "v7 exact actual bar engine; train<=2025; score in entry mask; current-bar exits affect next timestamp only; forced_end enabled",
+    "short_main_values": {
+      "quality": {
+        "short_dev": 0.035,
+        "short_rsi_min": 77.0,
+        "short_wick_mult": 1.3
+      },
+      "risk": {
+        "atr_stop_mult": 1.8975,
+        "rr_mult": 5.75,
+        "min_expected_tp": 0.003,
+        "timeout_bars": 210,
+        "fail_fast_bars": 10,
+        "fail_fast_min_progress_r": 0.1,
+        "time_reduce_bars": 8,
+        "time_reduce_to_risk_frac": 0.05
+      },
+      "trade_control": {
+        "score_min_short": 2.35,
+        "use_score_gate": false,
+        "score_dev_weight": 1.0,
+        "score_rsi_weight": 0.8,
+        "score_wick_weight": 0.7,
+        "score_dev_cap": 2.0,
+        "score_rsi_cap": 2.0,
+        "score_wick_cap": 2.5,
+        "wick_atr_floor_mult": 0.2,
+        "dd_brake_trigger_pct": 0.03,
+        "dd_brake_freeze_steps": 5,
+        "dd_brake_mode": "edge_current"
+      },
+      "entry_gate": {
+        "use_dev": true,
+        "use_rsi": false,
+        "use_wick": true,
+        "use_score": true
+      }
+    },
+    "fee_per_side": 0.0004,
+    "position_fraction": 0.01,
+    "initial_asset": 100.0
+  },
+  "strategy_count": 14,
+  "strategy_names": [
+    "SMV7_00_parent_actualbar_timeout210",
+    "SM20_A01_timeout205",
+    "SM20_A02_timeout215",
+    "SM20_A03_timeout220",
+    "SM20_B01_dev03475",
+    "SM20_B02_dev03525",
+    "SM20_B03_score2325",
+    "SM20_B04_score2375",
+    "SM20_C01_rr570",
+    "SM20_C02_rr580",
+    "SM20_C03_tr7",
+    "SM20_C04_tr9",
+    "SM20_D01_dd00275_f5",
+    "SM20_D02_dd0030_f4"
+  ]
+}
