@@ -1,0 +1,65 @@
+LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20
+
+purpose: V19 탐색 1위 DEV19_risk_rr_380 단독 리테스트
+result_scope: 2025년까지의 데이터 기준
+train_end_exclusive_utc: 2026-01-01 00:00:00
+2026 data: excluded and reserved for validation
+
+baseline_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350
+baseline_entry_key: child::orig_V09_extreme_vol18::tp03
+baseline_cd_value_2025: 400.7817008962534
+
+target_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380
+target_parent_strategy: 8V4_V09_V054_extreme_vol18
+target_entry_key: child::orig_V09_extreme_vol18::tp03
+target_change: 기준선 진입 조건 유지, rr_target 3.50 -> 3.80
+
+fixed_params:
+- name: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380
+- side: long
+- description: V20 single retest of V19 top: baseline V09/extreme/vol18/TP03 entry + rr_target 3.80
+- entry_key: child::orig_V09_extreme_vol18::tp03
+- atr_stop: 1.1
+- rr_target: 3.8
+- max_hold_bars: 21
+- cooldown_bars: 31
+- use_tp03_gate: True
+- round_trip_cost_bps: 8.0
+- position_fraction: 0.01
+
+actual_result:
+- trades: 56673
+- wins: 20255
+- losses: 36418
+- win_rate_pct: 35.740123162705345
+- final_return_pct: 332.2800895520915
+- max_return_pct: 332.5601665725121
+- max_drawdown_pct: 1.2943172013524573
+- cd_value: 426.96146593036525
+- max_conc: 442
+- symbol_files: 597
+- errors: 0
+- ruined: False
+
+pass_single_retest_gate: True
+long_main_update_candidate: True
+long_max_update_candidate: True
+delta_vs_baseline_cd: 26.179765034111824
+
+diff_vs_v19_top_expected:
+- trades: actual=56673, expected=56673, delta=0.0
+- wins: actual=20255, expected=20255, delta=0.0
+- losses: actual=36418, expected=36418, delta=0.0
+- win_rate_pct: actual=35.740123162705345, expected=35.740123162705345, delta=0.0
+- final_return_pct: actual=332.2800895520915, expected=332.2800895520915, delta=0.0
+- max_return_pct: actual=332.5601665725121, expected=332.5601665725121, delta=0.0
+- max_drawdown_pct: actual=1.2943172013524573, expected=1.2943172013524573, delta=0.0
+- cd_value: actual=426.96146593036525, expected=426.96146593036525, delta=0.0
+- max_conc: actual=442, expected=442, delta=0.0
+- errors: actual=0, expected=0, delta=0.0
+
+reentry_timing_rule:
+- 신호는 signal_i 봉 마감 후 확정한다.
+- 실제 진입은 entry_i = signal_i + 1에서 한다.
+- 청산 후 next_allowed_signal_i = exit_i + cooldown_bars로 제한한다.
+- 따라서 청산이 발생한 봉 내부에서 같은 봉 재진입은 허용하지 않는다.

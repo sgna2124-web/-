@@ -1,0 +1,230 @@
+{
+  "run_label": "LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20",
+  "method": "single retest of V19 top candidate from frozen long_main v9 / long_max v5 2025-only baseline",
+  "result_scope": "2025년까지의 데이터 기준",
+  "train_end_exclusive": "2026-01-01 00:00:00",
+  "train_end_ts_utc_seconds": 1767225600,
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350",
+  "baseline_entry_key": "child::orig_V09_extreme_vol18::tp03",
+  "baseline_cd_value_2025": 400.7817008962534,
+  "baseline_expected_2025": {
+    "trades": 56704,
+    "wins": 20348,
+    "losses": 36356,
+    "win_rate_pct": 35.884593679458234,
+    "final_return_pct": 305.5299492881062,
+    "max_return_pct": 305.8271270102085,
+    "max_drawdown_pct": 1.24324515986044,
+    "cd_value": 400.7817008962534,
+    "max_conc": 441
+  },
+  "target_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380",
+  "target_entry_key": "child::orig_V09_extreme_vol18::tp03",
+  "target_expected_from_v19": {
+    "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380",
+    "trades": 56673,
+    "wins": 20255,
+    "losses": 36418,
+    "win_rate_pct": 35.740123162705345,
+    "final_return_pct": 332.2800895520915,
+    "max_return_pct": 332.5601665725121,
+    "max_drawdown_pct": 1.2943172013524573,
+    "cd_value": 426.96146593036525,
+    "official_cd_value": 426.96146593036525,
+    "max_conc": 442,
+    "errors": 0,
+    "ruined": false
+  },
+  "target_params": {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380",
+    "side": "long",
+    "description": "V20 single retest of V19 top: baseline V09/extreme/vol18/TP03 entry + rr_target 3.80",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.1,
+    "rr_target": 3.8,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true
+  },
+  "strategy_count": 1,
+  "strategies": [
+    {
+      "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380",
+      "side": "long",
+      "description": "V20 single retest of V19 top: baseline V09/extreme/vol18/TP03 entry + rr_target 3.80",
+      "entry_key": "child::orig_V09_extreme_vol18::tp03",
+      "atr_stop": 1.1,
+      "rr_target": 3.8,
+      "max_hold_bars": 21,
+      "cooldown_bars": 31,
+      "use_tp03_gate": true
+    }
+  ],
+  "report": {
+    "pass_single_retest_gate": true,
+    "long_main_update_candidate": true,
+    "long_max_update_candidate": true,
+    "baseline_cd_value_2025": 400.7817008962534,
+    "target_expected": {
+      "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380",
+      "trades": 56673,
+      "wins": 20255,
+      "losses": 36418,
+      "win_rate_pct": 35.740123162705345,
+      "final_return_pct": 332.2800895520915,
+      "max_return_pct": 332.5601665725121,
+      "max_drawdown_pct": 1.2943172013524573,
+      "cd_value": 426.96146593036525,
+      "official_cd_value": 426.96146593036525,
+      "max_conc": 442,
+      "errors": 0,
+      "ruined": false
+    },
+    "actual_result": {
+      "run_label": "LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20",
+      "fee_tag": "fee_008_rt_bps",
+      "round_trip_cost_bps": 8.0,
+      "position_fraction": 0.01,
+      "axis": "long_max",
+      "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380",
+      "side": "long",
+      "entry_key": "child::orig_V09_extreme_vol18::tp03",
+      "description": "V20 single retest of V19 top: baseline V09/extreme/vol18/TP03 entry + rr_target 3.80",
+      "atr_stop": 1.1,
+      "rr_target": 3.8,
+      "max_hold_bars": 21,
+      "cooldown_bars": 31,
+      "use_tp03_gate": true,
+      "trades": 56673,
+      "wins": 20255,
+      "losses": 36418,
+      "win_rate_pct": 35.740123162705345,
+      "final_return_pct": 332.2800895520915,
+      "max_return_pct": 332.5601665725121,
+      "max_drawdown_pct": 1.2943172013524573,
+      "official_cd_value": 426.96146593036525,
+      "cd_value": 426.96146593036525,
+      "official_baseline_cd_value": NaN,
+      "baseline_delta_cd": NaN,
+      "max_conc": 442,
+      "symbol_files": 597,
+      "errors": 0,
+      "ruined": false
+    },
+    "axis_update_judgement": [
+      {
+        "axis": "long_main",
+        "criterion": "2025-only max_drawdown_pct < 5 and cd_value > baseline",
+        "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350",
+        "baseline_cd_value": 400.7817008962534,
+        "candidate_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380",
+        "candidate_cd_value": 426.96146593036525,
+        "candidate_mdd": 1.2943172013524573,
+        "candidate_trades": 56673,
+        "candidate_errors": 0,
+        "candidate_ruined": false,
+        "delta_vs_baseline_cd": 26.179765034111824,
+        "update_candidate": true
+      },
+      {
+        "axis": "long_max",
+        "criterion": "2025-only no MDD cap and cd_value > baseline",
+        "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350",
+        "baseline_cd_value": 400.7817008962534,
+        "candidate_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380",
+        "candidate_cd_value": 426.96146593036525,
+        "candidate_mdd": 1.2943172013524573,
+        "candidate_trades": 56673,
+        "candidate_errors": 0,
+        "candidate_ruined": false,
+        "delta_vs_baseline_cd": 26.179765034111824,
+        "update_candidate": true
+      }
+    ],
+    "diffs": [
+      {
+        "metric": "trades",
+        "actual": 56673,
+        "expected_v19_top": 56673,
+        "delta": 0.0
+      },
+      {
+        "metric": "wins",
+        "actual": 20255,
+        "expected_v19_top": 20255,
+        "delta": 0.0
+      },
+      {
+        "metric": "losses",
+        "actual": 36418,
+        "expected_v19_top": 36418,
+        "delta": 0.0
+      },
+      {
+        "metric": "win_rate_pct",
+        "actual": 35.740123162705345,
+        "expected_v19_top": 35.740123162705345,
+        "delta": 0.0
+      },
+      {
+        "metric": "final_return_pct",
+        "actual": 332.2800895520915,
+        "expected_v19_top": 332.2800895520915,
+        "delta": 0.0
+      },
+      {
+        "metric": "max_return_pct",
+        "actual": 332.5601665725121,
+        "expected_v19_top": 332.5601665725121,
+        "delta": 0.0
+      },
+      {
+        "metric": "max_drawdown_pct",
+        "actual": 1.2943172013524573,
+        "expected_v19_top": 1.2943172013524573,
+        "delta": 0.0
+      },
+      {
+        "metric": "cd_value",
+        "actual": 426.96146593036525,
+        "expected_v19_top": 426.96146593036525,
+        "delta": 0.0
+      },
+      {
+        "metric": "max_conc",
+        "actual": 442,
+        "expected_v19_top": 442,
+        "delta": 0.0
+      },
+      {
+        "metric": "errors",
+        "actual": 0,
+        "expected_v19_top": 0,
+        "delta": 0.0
+      }
+    ]
+  },
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20",
+  "symbols": 597,
+  "workers": 1,
+  "max_bars": 0,
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "save_trade_rows": false,
+  "elapsed_sec": 2865.676876306534,
+  "outputs": {
+    "aggregate": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\v20_single_retest_aggregate_results.csv",
+    "symbol_results": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\v20_single_retest_symbol_strategy_results.csv",
+    "report": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\v20_single_top_retest_report.txt",
+    "diff": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\v20_single_top_retest_diff.csv",
+    "axis_update_judgement": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_result\\long_max\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\v20_axis_update_judgement.csv"
+  },
+  "notes": [
+    "2026년 데이터는 기준선 산출 및 단독 리테스트에서 제외한다.",
+    "결과 폴더는 실행 위치 기준 local_result/long_max 아래 한 곳에만 생성한다.",
+    "기본 workers=1이고 전략은 1개뿐이라 4개 동시 백테스트 환경에서도 부하를 낮춘다.",
+    "save_trade_rows 기본값은 false라서 대형 trades CSV를 쓰지 않는다."
+  ]
+}
