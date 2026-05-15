@@ -1,0 +1,13 @@
+[
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350",
+    "side": "long",
+    "description": "single retest target from v16: baseline entry + rr_target 3.50",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.1,
+    "rr_target": 3.5,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true
+  }
+]

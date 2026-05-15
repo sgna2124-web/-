@@ -1,0 +1,3 @@
+﻿axis,criterion,baseline_version_to_update,strategy,cd_value_2025_only,mdd_2025_only,trades_2025_only,wins_2025_only,losses_2025_only,eligible
+long_main,2025-only: max_drawdown_pct < 5 and cd_value max,long_main/v9,8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350,400.7817008962534,1.24324515986044,56704,20348,36356,True
+long_max,2025-only: no MDD cap and cd_value max,long_max/v5,8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350,400.7817008962534,1.24324515986044,56704,20348,36356,True

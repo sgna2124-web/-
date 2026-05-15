@@ -1,0 +1,37 @@
+LONG_MAIN_MAX_2025_BASELINE_RETEST_DEV_V18
+
+purpose: long_main v9 / long_max v5 기준선 전략을 2025년 데이터까지만 사용해 기준선 결과값을 재산출한다.
+train_end_exclusive_utc: 2026-01-01 00:00:00
+excluded_period: 2026 data and later
+
+strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350
+entry_key: child::orig_V09_extreme_vol18::tp03
+params: atr_stop=1.10, rr_target=3.50, max_hold_bars=21, cooldown_bars=31, use_tp03_gate=True
+fee_and_sizing: round_trip_cost_bps=8.0 default, position_fraction=0.01 default
+
+actual_2025_only_result:
+- strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350
+- trades: 56704
+- wins: 20348
+- losses: 36356
+- win_rate_pct: 35.884593679458234
+- final_return_pct: 305.5299492881062
+- max_return_pct: 305.8271270102085
+- max_drawdown_pct: 1.24324515986044
+- cd_value: 400.7817008962534
+- max_conc: 441
+- errors: 0
+- ruined: False
+- symbol_files: 597
+
+axis_rebaseline_judgement:
+- long_main: eligible=True, cd=400.7817008962534, mdd=1.24324515986044, trades=56704
+- long_max: eligible=True, cd=400.7817008962534, mdd=1.24324515986044, trades=56704
+
+important_notes:
+- 이 결과는 2026년 데이터를 완전히 제외한 학습/기준선용 결과다.
+- 2026년 데이터는 검증용으로 남긴다.
+- 필터는 feature 계산 전에 적용되므로 2026년 캔들이 지표 계산에 섞이지 않는다.
+- 신호는 signal_i에서 계산하고 실제 진입은 entry_i = signal_i + 1에서 수행한다.
+- 청산 후 next_allowed_signal_i = exit_i + cooldown_bars로 제한하므로 청산 봉 내부 재진입은 발생하지 않는다.
+- cd_value 계산에는 final_return_pct가 아니라 max_return_pct를 사용한다.
