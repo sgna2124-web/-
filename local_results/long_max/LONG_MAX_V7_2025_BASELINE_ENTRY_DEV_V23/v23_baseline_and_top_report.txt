@@ -1,0 +1,51 @@
+LONG_MAX_V7_2025_BASELINE_ENTRY_DEV_V23
+
+baseline_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420
+result_scope: 2025년까지의 데이터 기준
+train_end_exclusive_utc: 2026-01-01 00:00:00
+memory_safe_streaming: True
+baseline_reproduction_ok: True
+baseline_cd_expected: 453.60741100633686
+baseline_cd_actual: 453.60741100633686
+
+baseline_trades: 56651
+baseline_wins: 20168
+baseline_losses: 36483
+baseline_win_rate_pct: 35.600430707313194
+baseline_final_return_pct: 358.93258386772163
+baseline_max_return_pct: 359.3568623293992
+baseline_max_drawdown_pct: 1.2516306589841375
+baseline_cd_value: 453.60741100633686
+baseline_max_conc: 442
+baseline_errors: 0
+baseline_ruined: False
+
+top_is_update_candidate: True
+top_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV23_risk_rr_460
+top_entry_key: child::orig_V09_extreme_vol18::tp03
+top_description: baseline entry + rr_target 4.60
+top_atr_stop: 1.1
+top_rr_target: 4.6
+top_max_hold_bars: 21
+top_cooldown_bars: 31
+top_trades: 56639
+top_wins: 20124
+top_losses: 36515
+top_win_rate_pct: 35.53028831723724
+top_final_return_pct: 382.53640821779254
+top_max_return_pct: 382.9505374742767
+top_max_drawdown_pct: 1.2600340119813036
+top_cd_value: 476.86519644105437
+top_max_conc: 443
+top_errors: 0
+top_ruined: False
+top_delta_vs_baseline_cd: 23.257785434717505
+
+axis_winner_comparison:
+- long_main: winner=8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV23_risk_rr_460, cd=476.86519644105437, mdd=1.2600340119813036, update_candidate=True
+- long_max: winner=8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV23_risk_rr_460, cd=476.86519644105437, mdd=1.2600340119813036, update_candidate=True
+
+update_rule:
+- long_main 후보: baseline_reproduction_ok true, errors 0, max_drawdown_pct < 5, cd_value > 453.60741100633686, 단독 재현 성공
+- long_max 후보: baseline_reproduction_ok true, errors 0, cd_value > 453.60741100633686, 단독 재현 성공
+- 이번 V23 파일은 메모리 안전형 탐색 파일이다. 1위가 나오면 다음 단계에서 해당 1개 전략 단독 재검증 파일을 만든다.
