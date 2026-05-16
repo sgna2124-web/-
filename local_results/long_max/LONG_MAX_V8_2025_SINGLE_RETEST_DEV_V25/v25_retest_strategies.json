@@ -1,0 +1,24 @@
+[
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__LM18_stop115_rr520_body025",
+    "side": "long",
+    "description": "official v8/v12 2025-only frozen baseline: v7 frozen entry + body_atr >= 0.25, exit stop 1.15 rr 5.20",
+    "entry_key": "v8_exact_body025_fixedtp03",
+    "atr_stop": 1.15,
+    "rr_target": 5.2,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18",
+    "side": "long",
+    "description": "V24 top candidate retest against new v8/v12 baseline: original v7 entry, atr_stop 1.12, rr 4.70, hold 18, cooldown 31",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 4.7,
+    "max_hold_bars": 18,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true
+  }
+]
