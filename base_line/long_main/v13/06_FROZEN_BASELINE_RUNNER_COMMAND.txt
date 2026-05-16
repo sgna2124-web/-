@@ -1,0 +1,1 @@
+python ../../shared_frozen_runner_v09/runner_core.py --axis long_main
