@@ -1,0 +1,107 @@
+{
+  "baseline_source": "base_line/long_main/v11 and long_max/v6 code reference / frozen baseline logic embedded",
+  "result_scope": "2025년까지의 데이터 기준; 2026년 데이터 제외",
+  "entry_mask_source": "v10 frozen entry mask: atr_stop=1.10, rr_target=3.80 TP03 gate; promoted source candidate LM15_031 then exits with rr_target=4.20",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420",
+  "baseline_candidate": "LM16_000_LONG_MAIN_V11_EXACT_FROZEN",
+  "pass_frozen_reproduction_gate": true,
+  "expected": {
+    "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420",
+    "trades": 56651,
+    "wins": 20168,
+    "losses": 36483,
+    "win_rate_pct": 35.600430707313194,
+    "final_return_pct": 358.93258386772163,
+    "max_return_pct": 359.3568623293992,
+    "max_drawdown_pct": 1.2516306589841375,
+    "official_cd_value": 453.60741100633686,
+    "max_conc": 442,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "actual_baseline_row": {
+    "run_label": "LONG_MAIN_DEV_V16_V11_FROZEN_ENTRY_BASED_LOW_RESOURCE",
+    "fee_tag": "fee_008_rt_bps",
+    "round_trip_cost_bps": 8.0,
+    "position_fraction": 0.01,
+    "axis": "long_main_v11_dev",
+    "strategy": "LM16_000_LONG_MAIN_V11_EXACT_FROZEN",
+    "side": "long",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "filter_name": "BASELINE_EXACT_NO_EXTRA_FILTER",
+    "description": "EXACT frozen long_main v11 / long_max v7 baseline. This must reproduce source candidate LM15_031_V10_RR420: v10 frozen entry mask with TP03 rr_target 3.80, then rr_target 4.20 exit, 2025 data only.",
+    "atr_stop": 1.1,
+    "rr_target": 4.2,
+    "max_hold_bars": 21,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true,
+    "trades": 56651,
+    "wins": 20168,
+    "losses": 36483,
+    "win_rate_pct": 35.600430707313194,
+    "final_return_pct": 358.93258386772163,
+    "max_return_pct": 359.3568623293992,
+    "max_drawdown_pct": 1.2516306589841375,
+    "official_cd_value": 453.60741100633686,
+    "cd_value": 453.60741100633686,
+    "max_conc": 442,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "diffs": {
+    "trades": {
+      "actual": 56651.0,
+      "expected": 56651.0,
+      "delta": 0.0
+    },
+    "wins": {
+      "actual": 20168.0,
+      "expected": 20168.0,
+      "delta": 0.0
+    },
+    "losses": {
+      "actual": 36483.0,
+      "expected": 36483.0,
+      "delta": 0.0
+    },
+    "win_rate_pct": {
+      "actual": 35.600430707313194,
+      "expected": 35.600430707313194,
+      "delta": 0.0
+    },
+    "final_return_pct": {
+      "actual": 358.93258386772163,
+      "expected": 358.93258386772163,
+      "delta": 0.0
+    },
+    "max_return_pct": {
+      "actual": 359.3568623293992,
+      "expected": 359.3568623293992,
+      "delta": 0.0
+    },
+    "max_drawdown_pct": {
+      "actual": 1.2516306589841375,
+      "expected": 1.2516306589841375,
+      "delta": 0.0
+    },
+    "official_cd_value": {
+      "actual": 453.60741100633686,
+      "expected": 453.60741100633686,
+      "delta": 0.0
+    },
+    "max_conc": {
+      "actual": 442.0,
+      "expected": 442.0,
+      "delta": 0.0
+    },
+    "errors": {
+      "actual": 0.0,
+      "expected": 0.0,
+      "delta": 0.0
+    }
+  },
+  "candidate_evaluation_rule": "If baseline reproduction fails, improvement candidates are invalid and rank files are empty."
+}
