@@ -1,0 +1,50 @@
+LONG_MAX_V6_2025_BASELINE_ENTRY_DEV_V21
+
+baseline_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380
+result_scope: 2025년까지의 데이터 기준
+train_end_exclusive_utc: 2026-01-01 00:00:00
+baseline_reproduction_ok: True
+baseline_cd_expected: 426.96146593036525
+baseline_cd_actual: 426.96146593036525
+
+baseline_trades: 56673
+baseline_wins: 20255
+baseline_losses: 36418
+baseline_win_rate_pct: 35.740123162705345
+baseline_final_return_pct: 332.2800895520915
+baseline_max_return_pct: 332.5601665725121
+baseline_max_drawdown_pct: 1.2943172013524573
+baseline_cd_value: 426.96146593036525
+baseline_max_conc: 442
+baseline_errors: 0
+baseline_ruined: False
+
+top_is_update_candidate: True
+top_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__DEV21_risk_rr_410
+top_entry_key: child::orig_V09_extreme_vol18::tp03
+top_description: baseline entry + rr_target 4.10
+top_atr_stop: 1.1
+top_rr_target: 4.1
+top_max_hold_bars: 21
+top_cooldown_bars: 31
+top_trades: 56656
+top_wins: 20186
+top_losses: 36470
+top_win_rate_pct: 35.629059587687095
+top_final_return_pct: 351.43252446520927
+top_max_return_pct: 351.857347291386
+top_max_drawdown_pct: 1.2331438061300104
+top_cd_value: 446.2852964007189
+top_max_conc: 442
+top_errors: 0
+top_ruined: False
+top_delta_vs_baseline_cd: 19.32383047035364
+
+axis_winner_comparison:
+- long_main: winner=8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__DEV21_risk_rr_410, cd=446.2852964007189, mdd=1.2331438061300104, update_candidate=True
+- long_max: winner=8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__DEV21_risk_rr_410, cd=446.2852964007189, mdd=1.2331438061300104, update_candidate=True
+
+update_rule:
+- long_main 후보: max_drawdown_pct < 5 and cd_value > 426.96146593036525 and 단독 재현 성공
+- long_max 후보: cd_value > 426.96146593036525 and 단독 재현 성공
+- 이번 파일은 v6/v10 저부하 탐색 파일이므로 1위가 나오면 다음 단계에서 해당 1개 전략 단독 재검증 파일을 만들어야 한다.
