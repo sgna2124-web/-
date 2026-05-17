@@ -1,0 +1,119 @@
+{
+  "script": "short_main_v8_actualbar_dev_v2_2_1_ultralite_fix.py",
+  "purpose": "short_main v8 actual bar engine ultralite improvement v2.2.1 fix, train<=2025",
+  "baseline": "short_main_v8_wick125_actual_bar_engine",
+  "baseline_reproduction_gate_pass": true,
+  "baseline_reproduction_issues": [],
+  "official_v8": {
+    "trades": 35803,
+    "wins": 5070,
+    "losses": 30733,
+    "win_rate_pct": 14.16082451191241,
+    "final_return_pct": 1155.7636213036806,
+    "max_return_pct": 1156.1081244457819,
+    "max_drawdown_pct": 4.612307655489422,
+    "official_cd_value": 1198.1725532607445,
+    "profit_factor": 1.5763819188582828,
+    "max_conc": 285,
+    "same_bar_trades": 3246,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "train_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "data_scope": "train_only_until_2025_12_31_end_before_indicator_calculation",
+  "engine_rules": [
+    "previous candle close signal -> current open pending entry",
+    "same timestamp exit cannot enable same timestamp entry",
+    "current candle exit affects next timestamp",
+    "same-bar TP/SL allowed",
+    "DD brake applies from next timestamp",
+    "2026 excluded before indicator calculation",
+    "active positions force-closed at train final close"
+  ],
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "strategy_count": 15,
+  "no_multiprocessing": true,
+  "no_candle_limit": true,
+  "variants": [
+    {
+      "strategy": "SMV8_00_parent_short_main_v8_wick125_actual_bar_engine",
+      "family": "v8_baseline",
+      "description": "official short_main v8 baseline reproduction"
+    },
+    {
+      "strategy": "SM22_A01_wick120",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.25 -> 1.20"
+    },
+    {
+      "strategy": "SM22_A02_wick1225",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.25 -> 1.225"
+    },
+    {
+      "strategy": "SM22_A03_wick1275",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.25 -> 1.275"
+    },
+    {
+      "strategy": "SM22_A04_wick130",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.25 -> 1.30, v7 되돌림 확인"
+    },
+    {
+      "strategy": "SM22_B01_wick125_dev03475",
+      "family": "combo_entry",
+      "description": "wick 1.25 + short_dev 0.03475"
+    },
+    {
+      "strategy": "SM22_B02_wick125_dev03525",
+      "family": "combo_entry",
+      "description": "wick 1.25 + short_dev 0.03525"
+    },
+    {
+      "strategy": "SM22_B03_wick125_score2325",
+      "family": "combo_entry",
+      "description": "wick 1.25 + score 2.325"
+    },
+    {
+      "strategy": "SM22_B04_wick125_score2375",
+      "family": "combo_entry",
+      "description": "wick 1.25 + score 2.375"
+    },
+    {
+      "strategy": "SM22_C01_wick125_dd00275_f5",
+      "family": "defense_combo",
+      "description": "wick 1.25 + dd_brake 0.0275 freeze 5"
+    },
+    {
+      "strategy": "SM22_C02_wick125_timeout205",
+      "family": "exit_combo",
+      "description": "wick 1.25 + timeout 205"
+    },
+    {
+      "strategy": "SM22_C03_wick125_timeout215",
+      "family": "exit_combo",
+      "description": "wick 1.25 + timeout 215"
+    },
+    {
+      "strategy": "SM22_C04_wick125_rr570",
+      "family": "rr_combo",
+      "description": "wick 1.25 + rr 5.70"
+    },
+    {
+      "strategy": "SM22_C05_wick125_rr580",
+      "family": "rr_combo",
+      "description": "wick 1.25 + rr 5.80"
+    },
+    {
+      "strategy": "SM22_D01_wick1225_dev03475",
+      "family": "micro_combo",
+      "description": "wick 1.225 + dev 0.03475"
+    }
+  ]
+}
