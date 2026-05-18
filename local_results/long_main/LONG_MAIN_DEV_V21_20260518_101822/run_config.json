@@ -1,0 +1,63 @@
+{
+  "run_label": "LONG_MAIN_V21_RANK1_RETEST_LOW_RESOURCE",
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18",
+  "entry_key": "child::orig_V09_extreme_vol18::tp03",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_main\\LONG_MAIN_DEV_V21_20260518_101822",
+  "out_dir_policy": "Path.cwd()/local_results/long_main only",
+  "workers_requested": 1,
+  "workers_selected": 1,
+  "cooldown_ms": 10,
+  "gc_every": 50,
+  "max_bars": 0,
+  "no_candle_limit": true,
+  "no_symbol_limit": true,
+  "save_trades": false,
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "result_scope": "2025년까지의 데이터 기준; 2026년 데이터 제외",
+  "entry_mask_source": "long_main v13 exact baseline plus retest candidate LM21_071: v13 TP03 entry source atr_stop=1.10 rr_target=3.80; rank1 final entry adds body_atr>=0.20; rank1 final exit atr_stop=1.15 rr_target=4.80 max_hold=17",
+  "expected": {
+    "strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18",
+    "trades": 56697,
+    "wins": 20962,
+    "losses": 35735,
+    "win_rate_pct": 36.97197382577562,
+    "final_return_pct": 405.1480528315248,
+    "max_return_pct": 405.8734002703171,
+    "max_drawdown_pct": 1.228290350505734,
+    "official_cd_value": 499.6598061090216,
+    "max_conc": 444,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "variants": [
+    {
+      "name": "LM21R_000_LONG_MAIN_V13_EXACT_FROZEN",
+      "side": "long",
+      "description": "EXACT frozen long_main v13 baseline. Entry is child::orig_V09_extreme_vol18::tp03 with TP03 source atr_stop 1.10 and rr_target 3.80; final exit uses atr_stop 1.12, rr_target 4.70, max_hold_bars 18, 2025 data only.",
+      "entry_key": "child::orig_V09_extreme_vol18::tp03",
+      "atr_stop": 1.12,
+      "rr_target": 4.7,
+      "max_hold_bars": 18,
+      "cooldown_bars": 31,
+      "use_tp03_gate": true,
+      "filter_name": "BASELINE_EXACT: long_main v13 entry, no extra filter"
+    },
+    {
+      "name": "LM21R_071_RETEST_STOP115_RR480_BODY020_HOLD17",
+      "side": "long",
+      "description": "RETEST of v21 rank1 LM21_071. Entry is v13 child::orig_V09_extreme_vol18::tp03 plus body_atr >= 0.20; final exit uses atr_stop 1.15, rr_target 4.80, max_hold_bars 17, cooldown 31.",
+      "entry_key": "child::orig_V09_extreme_vol18::tp03",
+      "atr_stop": 1.15,
+      "rr_target": 4.8,
+      "max_hold_bars": 17,
+      "cooldown_bars": 31,
+      "use_tp03_gate": true,
+      "filter_name": "body_atr >= 0.20"
+    }
+  ]
+}
