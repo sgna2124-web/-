@@ -1,0 +1,45 @@
+LONG_MAX_V10_2025_TOP1_RETEST_V29_STANDALONE
+
+result_scope: 2025년까지의 데이터 기준
+train_end_exclusive_utc: 2026-01-01 00:00:00
+baseline_reproduction_ok: True
+baseline_cd_expected: 499.6598061090216
+baseline_cd_actual: 499.6598061090216
+
+environment_audit:
+- position_fraction: 0.01
+- leverage: 1x / no leverage multiplier in code
+- round_trip_cost_bps: 8.0
+- round_trip_cost_pct: 0.08
+- fee_interpretation: 8 bps round-trip = 0.08 pct total = 0.04 pct per side
+
+baseline_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18
+baseline_trades: 56697
+baseline_win_rate_pct: 36.97197382577562
+baseline_final_return_pct: 405.1480528315248
+baseline_max_return_pct: 405.8734002703171
+baseline_max_drawdown_pct: 1.228290350505734
+baseline_cd_value: 499.6598061090216
+
+top_is_update_candidate: True
+top_strategy: 8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr515_hold17_cool29
+top_description: sensitivity around V28 top1: stop 1.12 / rr 5.15 / hold 17 / cooldown 29
+top_atr_stop: 1.12
+top_rr_target: 5.15
+top_max_hold_bars: 17
+top_cooldown_bars: 29
+top_trades: 56973
+top_win_rate_pct: 37.254488968458745
+top_final_return_pct: 427.1577315711784
+top_max_return_pct: 427.93926907835413
+top_max_drawdown_pct: 1.2703839110099757
+top_cd_value: 521.232413544079
+top_delta_vs_baseline_cd: 21.57260743505742
+
+update_rule:
+- baseline_reproduction_ok true
+- errors 0
+- ruined false
+- max_drawdown_pct < 5
+- cd_value > 499.6598061090216
+- 단독 재검증 전까지 기준선 갱신 확정 금지

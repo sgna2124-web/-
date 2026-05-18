@@ -1,0 +1,17 @@
+{
+  "run_label": "LONG_MAX_V10_2025_TOP1_RETEST_V29_STANDALONE",
+  "method": "standalone long_main latest frozen baseline x long_max V27 winner exit/risk/cooldown cross mix",
+  "result_scope": "2025년까지의 데이터 기준",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_cd_expected": 499.6598061090216,
+  "baseline_trades_expected": 56697,
+  "baseline_mdd_expected": 1.228290350505734,
+  "strategy_count": 10,
+  "position_fraction": 0.01,
+  "leverage_assumption": "1x/no leverage multiplier in code",
+  "round_trip_cost_bps": 8.0,
+  "round_trip_cost_pct": 0.08,
+  "fee_interpretation": "8 bps round-trip = 0.08 pct total, equivalent to 0.04 pct per side",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_max\\LONG_MAX_V10_2025_TOP1_RETEST_V29_STANDALONE"
+}

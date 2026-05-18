@@ -1,0 +1,112 @@
+[
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18",
+    "side": "long",
+    "description": "official long_main v13 / long_max v9 frozen baseline: stop 1.12 rr 4.70 hold 18 cooldown 31",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 4.7,
+    "max_hold_bars": 18,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_RETEST_FROM_V28_TOP1_stop112_rr510_hold17_cool27",
+    "side": "long",
+    "description": "single retest from V28 top1: stop 1.12 / rr 5.10 / hold 17 / cooldown 27",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.1,
+    "max_hold_bars": 17,
+    "cooldown_bars": 27,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr505_hold17_cool25",
+    "side": "long",
+    "description": "sensitivity around V28 top1: stop 1.12 / rr 5.05 / hold 17 / cooldown 25",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.05,
+    "max_hold_bars": 17,
+    "cooldown_bars": 25,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr505_hold17_cool27",
+    "side": "long",
+    "description": "sensitivity around V28 top1: stop 1.12 / rr 5.05 / hold 17 / cooldown 27",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.05,
+    "max_hold_bars": 17,
+    "cooldown_bars": 27,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr505_hold17_cool29",
+    "side": "long",
+    "description": "sensitivity around V28 top1: stop 1.12 / rr 5.05 / hold 17 / cooldown 29",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.05,
+    "max_hold_bars": 17,
+    "cooldown_bars": 29,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr509_hold17_cool25",
+    "side": "long",
+    "description": "sensitivity around V28 top1: stop 1.12 / rr 5.10 / hold 17 / cooldown 25",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.1,
+    "max_hold_bars": 17,
+    "cooldown_bars": 25,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr509_hold17_cool29",
+    "side": "long",
+    "description": "sensitivity around V28 top1: stop 1.12 / rr 5.10 / hold 17 / cooldown 29",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.1,
+    "max_hold_bars": 17,
+    "cooldown_bars": 29,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr515_hold17_cool25",
+    "side": "long",
+    "description": "sensitivity around V28 top1: stop 1.12 / rr 5.15 / hold 17 / cooldown 25",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.15,
+    "max_hold_bars": 17,
+    "cooldown_bars": 25,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr515_hold17_cool27",
+    "side": "long",
+    "description": "sensitivity around V28 top1: stop 1.12 / rr 5.15 / hold 17 / cooldown 27",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.15,
+    "max_hold_bars": 17,
+    "cooldown_bars": 27,
+    "use_tp03_gate": true
+  },
+  {
+    "name": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18__V29_SENS_stop112_rr515_hold17_cool29",
+    "side": "long",
+    "description": "sensitivity around V28 top1: stop 1.12 / rr 5.15 / hold 17 / cooldown 29",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "atr_stop": 1.12,
+    "rr_target": 5.15,
+    "max_hold_bars": 17,
+    "cooldown_bars": 29,
+    "use_tp03_gate": true
+  }
+]
