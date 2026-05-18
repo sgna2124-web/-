@@ -55,8 +55,11 @@ python base_line/short_main/v10/frozen_reproduce_runner.py --data-dir "C:\Users\
 
 ## 결과 폴더
 
-현재 wrapper runner는 short_max/v8 frozen runner 엔진을 재사용한다. 따라서 기본 결과 폴더명에 v8 문자열이 남을 수 있다.
-공식 판정은 폴더명이 아니라 gate 값과 summary row 기준으로 한다.
+기본 결과 폴더:
+
+```text
+base_line/short_main/v10/short_main_v10_frozen_reproduce_results
+```
 
 결과 파일에서 확인할 항목:
 
@@ -65,15 +68,16 @@ python base_line/short_main/v10/frozen_reproduce_runner.py --data-dir "C:\Users\
 - run_metadata.json
 - BASELINE_GATE_FAILED_DO_NOT_USE.txt가 없어야 함
 
-## 엔진 의존성
+## 독립형 runner 원칙
 
-short_main/v10/frozen_reproduce_runner.py는 다음 엔진 파일을 재사용한다.
+short_main/v10/frozen_reproduce_runner.py는 완전 독립형 단일 파일이다.
 
-```text
-base_line/short_max/v8/frozen_reproduce_runner.py
-```
+- 외부 runner import 없음
+- short_max/v8/frozen_reproduce_runner.py 의존성 없음
+- 외부 json config 참조 없음
+- 전략 파라미터, 지표 계산, 진입/청산 엔진, gate 값을 파일 내부에 모두 내장
 
-따라서 short_main/v10 폴더만 따로 복사하면 재현이 안 된다. 저장소 전체를 clone하거나 최소한 v8 runner 파일이 같은 상대 경로에 있어야 한다.
+따라서 short_main/v10 폴더만 복사해도 같은 OHLCV 데이터셋이 있으면 재현 가능해야 한다.
 
 ## 공식 환경 설정
 
@@ -111,4 +115,4 @@ base_line/short_max/v8/frozen_reproduce_runner.py
 4. 2026 데이터가 지표 계산에 섞이지 않는지 확인한다.
 5. fee_per_side가 0.0004인지 확인한다.
 6. position_fraction이 0.01인지 확인한다.
-7. v8 runner 파일이 상대 경로에 존재하는지 확인한다.
+7. BASELINE_GATE_FAILED_DO_NOT_USE.txt가 생성되었는지 확인한다.
