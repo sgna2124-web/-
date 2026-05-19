@@ -1,0 +1,239 @@
+{
+  "script": "short_main_v9_next_dev_v2_4_balanced.py",
+  "purpose": "short_main v9 top-candidate combination dev v2.3 ultralite, train<=2025",
+  "baseline": "short_main_v9_wick120_dev03475_timeout215_actual_bar_engine",
+  "baseline_reproduction_gate_pass": true,
+  "baseline_reproduction_issues": [],
+  "official_v9": {
+    "trades": 36791,
+    "wins": 5171,
+    "losses": 31620,
+    "win_rate_pct": 14.055067815498356,
+    "final_return_pct": 1194.9206565723089,
+    "max_return_pct": 1195.2759019740386,
+    "max_drawdown_pct": 4.770262221769094,
+    "official_cd_value": 1233.487844954492,
+    "profit_factor": 1.5698636647889879,
+    "max_conc": 287,
+    "same_bar_trades": 3354,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "train_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "data_scope": "train_only_until_2025_12_31_end_before_indicator_calculation",
+  "engine_rules": [
+    "previous candle close signal -> current open pending entry",
+    "same timestamp exit cannot enable same timestamp entry",
+    "current candle exit affects next timestamp",
+    "same-bar TP/SL allowed",
+    "DD brake applies from next timestamp",
+    "2026 excluded before indicator calculation",
+    "active positions force-closed at train final close"
+  ],
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "strategy_count": 39,
+  "no_multiprocessing": true,
+  "no_candle_limit": true,
+  "variants": [
+    {
+      "strategy": "SMV9_00_parent_short_main_v9_wick120_dev03475_timeout215_actual_bar_engine",
+      "family": "v9_baseline",
+      "description": "official short_main v9 baseline reproduction"
+    },
+    {
+      "strategy": "SM24_A01_wick1150",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.20 -> 1.1500"
+    },
+    {
+      "strategy": "SM24_A02_wick1175",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.20 -> 1.1750"
+    },
+    {
+      "strategy": "SM24_A03_wick11875",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.20 -> 1.1875"
+    },
+    {
+      "strategy": "SM24_A04_wick12125",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.20 -> 1.2125"
+    },
+    {
+      "strategy": "SM24_A05_wick1225",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.20 -> 1.2250"
+    },
+    {
+      "strategy": "SM24_A06_wick12375",
+      "family": "wick_neighborhood",
+      "description": "short_wick_mult 1.20 -> 1.2375"
+    },
+    {
+      "strategy": "SM24_B01_dev03425",
+      "family": "dev_neighborhood",
+      "description": "short_dev 0.03475 -> 0.03425"
+    },
+    {
+      "strategy": "SM24_B02_dev03450",
+      "family": "dev_neighborhood",
+      "description": "short_dev 0.03475 -> 0.03450"
+    },
+    {
+      "strategy": "SM24_B03_dev034625",
+      "family": "dev_neighborhood",
+      "description": "short_dev 0.03475 -> 0.034625"
+    },
+    {
+      "strategy": "SM24_B04_dev034875",
+      "family": "dev_neighborhood",
+      "description": "short_dev 0.03475 -> 0.034875"
+    },
+    {
+      "strategy": "SM24_B05_dev03500",
+      "family": "dev_neighborhood",
+      "description": "short_dev 0.03475 -> 0.03500"
+    },
+    {
+      "strategy": "SM24_B06_dev03525",
+      "family": "dev_neighborhood",
+      "description": "short_dev 0.03475 -> 0.03525"
+    },
+    {
+      "strategy": "SM24_C01_timeout210",
+      "family": "exit_defense_single",
+      "description": "timeout 215 -> 210"
+    },
+    {
+      "strategy": "SM24_C02_timeout220",
+      "family": "exit_defense_single",
+      "description": "timeout 215 -> 220"
+    },
+    {
+      "strategy": "SM24_C03_timeout225",
+      "family": "exit_defense_single",
+      "description": "timeout 215 -> 225"
+    },
+    {
+      "strategy": "SM24_C04_dd00275_f5",
+      "family": "exit_defense_single",
+      "description": "dd 0.0300 -> 0.0275 freeze 5"
+    },
+    {
+      "strategy": "SM24_C05_dd00285_f5",
+      "family": "exit_defense_single",
+      "description": "dd 0.0300 -> 0.0285 freeze 5"
+    },
+    {
+      "strategy": "SM24_C06_dd00325_f5",
+      "family": "exit_defense_single",
+      "description": "dd 0.0300 -> 0.0325 freeze 5"
+    },
+    {
+      "strategy": "SM24_C07_rr570",
+      "family": "rr_single",
+      "description": "rr 5.75 -> 5.70"
+    },
+    {
+      "strategy": "SM24_C08_rr580",
+      "family": "rr_single",
+      "description": "rr 5.75 -> 5.80"
+    },
+    {
+      "strategy": "SM24_D01_wick1175_dev03450",
+      "family": "wick_dev_pair",
+      "description": "wick 1.175 + dev 0.03450"
+    },
+    {
+      "strategy": "SM24_D02_wick1175_dev034625",
+      "family": "wick_dev_pair",
+      "description": "wick 1.175 + dev 0.034625"
+    },
+    {
+      "strategy": "SM24_D03_wick11875_dev03450",
+      "family": "wick_dev_pair",
+      "description": "wick 1.1875 + dev 0.03450"
+    },
+    {
+      "strategy": "SM24_D04_wick11875_dev034625",
+      "family": "wick_dev_pair",
+      "description": "wick 1.1875 + dev 0.034625"
+    },
+    {
+      "strategy": "SM24_D05_wick12125_dev03450",
+      "family": "wick_dev_pair",
+      "description": "wick 1.2125 + dev 0.03450"
+    },
+    {
+      "strategy": "SM24_D06_wick12125_dev034625",
+      "family": "wick_dev_pair",
+      "description": "wick 1.2125 + dev 0.034625"
+    },
+    {
+      "strategy": "SM24_D07_wick1225_dev03450",
+      "family": "wick_dev_pair",
+      "description": "wick 1.225 + dev 0.03450"
+    },
+    {
+      "strategy": "SM24_E01_wick1175_timeout220",
+      "family": "timeout_pair",
+      "description": "wick 1.175 + timeout 220"
+    },
+    {
+      "strategy": "SM24_E02_wick11875_timeout220",
+      "family": "timeout_pair",
+      "description": "wick 1.1875 + timeout 220"
+    },
+    {
+      "strategy": "SM24_E03_wick12125_timeout220",
+      "family": "timeout_pair",
+      "description": "wick 1.2125 + timeout 220"
+    },
+    {
+      "strategy": "SM24_E04_dev03450_timeout220",
+      "family": "timeout_pair",
+      "description": "dev 0.03450 + timeout 220"
+    },
+    {
+      "strategy": "SM24_E05_dev034625_timeout220",
+      "family": "timeout_pair",
+      "description": "dev 0.034625 + timeout 220"
+    },
+    {
+      "strategy": "SM24_F01_wick1175_dev03450_timeout220",
+      "family": "focused_triple",
+      "description": "wick 1.175 + dev 0.03450 + timeout 220"
+    },
+    {
+      "strategy": "SM24_F02_wick11875_dev03450_timeout220",
+      "family": "focused_triple",
+      "description": "wick 1.1875 + dev 0.03450 + timeout 220"
+    },
+    {
+      "strategy": "SM24_F03_wick12125_dev03450_timeout220",
+      "family": "focused_triple",
+      "description": "wick 1.2125 + dev 0.03450 + timeout 220"
+    },
+    {
+      "strategy": "SM24_F04_wick1175_dev03450_dd00285",
+      "family": "defense_triple",
+      "description": "wick 1.175 + dev 0.03450 + dd 0.0285"
+    },
+    {
+      "strategy": "SM24_F05_wick11875_dev034625_dd00285",
+      "family": "defense_triple",
+      "description": "wick 1.1875 + dev 0.034625 + dd 0.0285"
+    },
+    {
+      "strategy": "SM24_F06_wick120_dev03450_timeout220_dd00285",
+      "family": "defense_quad",
+      "description": "wick 1.20 + dev 0.03450 + timeout 220 + dd 0.0285"
+    }
+  ]
+}
