@@ -1,0 +1,208 @@
+{
+  "baseline_source": "long_main LM22R_068 retest exact / frozen candidate logic embedded",
+  "result_scope": "2025년까지의 데이터 기준; 2026년 데이터 제외",
+  "entry_mask_source": "V23 narrow grid. Entry source v13 TP03 atr_stop=1.10 rr_target=3.80. Reference LM22R_068 plus stop119/120/121 rr495/500/505 body015/017/018/020/022 hold17 grid.",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18",
+  "baseline_candidate": "LM23R_000_LM22R_068_EXACT_REFERENCE",
+  "pass_frozen_reproduction_gate": true,
+  "expected": {
+    "strategy": "LM22R_068_RETEST_STOP120_RR500_BODY020_HOLD17",
+    "trades": 56591,
+    "wins": 21871,
+    "losses": 34720,
+    "win_rate_pct": 38.64748811648495,
+    "final_return_pct": 446.12552394206125,
+    "max_return_pct": 447.0278919263715,
+    "max_drawdown_pct": 1.4424051244910419,
+    "official_cd_value": 539.1375335808302,
+    "max_conc": 444,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "actual_baseline_row": {
+    "run_label": "LONG_MAIN_LM23_RANK1_RETEST_LOW_RESOURCE",
+    "fee_tag": "fee_008_rt_bps",
+    "round_trip_cost_bps": 8.0,
+    "position_fraction": 0.01,
+    "axis": "long_main_lm21_rank1_dev",
+    "strategy": "LM23R_000_LM22R_068_EXACT_REFERENCE",
+    "side": "long",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "filter_name": "reference LM22R_068: body_atr >= 0.20",
+    "description": "reference exact for LM22R_068: entry source child::orig_V09_extreme_vol18::tp03, TP03 source atr_stop 1.10 rr_target 3.80; final filter body_atr >= 0.20; final exit atr_stop 1.20 rr_target 5.00 max_hold 17, 2025 data only.",
+    "atr_stop": 1.2,
+    "rr_target": 5.0,
+    "max_hold_bars": 17,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true,
+    "trades": 56591,
+    "wins": 21871,
+    "losses": 34720,
+    "win_rate_pct": 38.64748811648495,
+    "final_return_pct": 446.12552394206125,
+    "max_return_pct": 447.0278919263715,
+    "max_drawdown_pct": 1.4424051244910419,
+    "official_cd_value": 539.1375335808302,
+    "cd_value": 539.1375335808302,
+    "max_conc": 444,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "target_expected": {
+    "strategy": "LM23R_001_RETEST_S121_RR505_B022_H17",
+    "source_strategy": "LM23_S121_RR505_B022_H17",
+    "trades": 56551,
+    "wins": 21969,
+    "losses": 34582,
+    "win_rate_pct": 38.84811939665081,
+    "final_return_pct": 454.0898854634718,
+    "max_return_pct": 455.0171719748199,
+    "max_drawdown_pct": 1.3974597812998368,
+    "official_cd_value": 547.2610302171641,
+    "max_conc": 445,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "actual_target_row": {
+    "run_label": "LONG_MAIN_LM23_RANK1_RETEST_LOW_RESOURCE",
+    "fee_tag": "fee_008_rt_bps",
+    "round_trip_cost_bps": 8.0,
+    "position_fraction": 0.01,
+    "axis": "long_main_lm21_rank1_dev",
+    "strategy": "LM23R_001_RETEST_S121_RR505_B022_H17",
+    "side": "long",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "filter_name": "retest LM23 rank1: body_atr >= 0.22",
+    "description": "single retest for v23 rank1: entry source child::orig_V09_extreme_vol18::tp03, TP03 source atr_stop 1.10 rr_target 3.80; final filter body_atr >= 0.22; final exit atr_stop 1.21 rr_target 5.05 max_hold 17, 2025 data only.",
+    "atr_stop": 1.21,
+    "rr_target": 5.05,
+    "max_hold_bars": 17,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true,
+    "trades": 56551,
+    "wins": 21969,
+    "losses": 34582,
+    "win_rate_pct": 38.84811939665081,
+    "final_return_pct": 454.0898854634718,
+    "max_return_pct": 455.0171719748199,
+    "max_drawdown_pct": 1.3974597812998368,
+    "official_cd_value": 547.2610302171641,
+    "cd_value": 547.2610302171641,
+    "max_conc": 445,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "target_retest_audit": {
+    "pass_rank1_retest_gate": true,
+    "diffs": {
+      "trades": {
+        "actual": 56551.0,
+        "expected": 56551.0,
+        "delta": 0.0
+      },
+      "wins": {
+        "actual": 21969.0,
+        "expected": 21969.0,
+        "delta": 0.0
+      },
+      "losses": {
+        "actual": 34582.0,
+        "expected": 34582.0,
+        "delta": 0.0
+      },
+      "win_rate_pct": {
+        "actual": 38.84811939665081,
+        "expected": 38.84811939665081,
+        "delta": 0.0
+      },
+      "final_return_pct": {
+        "actual": 454.0898854634718,
+        "expected": 454.0898854634718,
+        "delta": 0.0
+      },
+      "max_return_pct": {
+        "actual": 455.0171719748199,
+        "expected": 455.0171719748199,
+        "delta": 0.0
+      },
+      "max_drawdown_pct": {
+        "actual": 1.3974597812998368,
+        "expected": 1.3974597812998368,
+        "delta": 0.0
+      },
+      "official_cd_value": {
+        "actual": 547.2610302171641,
+        "expected": 547.2610302171641,
+        "delta": 0.0
+      },
+      "max_conc": {
+        "actual": 445.0,
+        "expected": 445.0,
+        "delta": 0.0
+      },
+      "errors": {
+        "actual": 0.0,
+        "expected": 0.0,
+        "delta": 0.0
+      }
+    }
+  },
+  "diffs": {
+    "trades": {
+      "actual": 56591.0,
+      "expected": 56591.0,
+      "delta": 0.0
+    },
+    "wins": {
+      "actual": 21871.0,
+      "expected": 21871.0,
+      "delta": 0.0
+    },
+    "losses": {
+      "actual": 34720.0,
+      "expected": 34720.0,
+      "delta": 0.0
+    },
+    "win_rate_pct": {
+      "actual": 38.64748811648495,
+      "expected": 38.64748811648495,
+      "delta": 0.0
+    },
+    "final_return_pct": {
+      "actual": 446.12552394206125,
+      "expected": 446.12552394206125,
+      "delta": 0.0
+    },
+    "max_return_pct": {
+      "actual": 447.0278919263715,
+      "expected": 447.0278919263715,
+      "delta": 0.0
+    },
+    "max_drawdown_pct": {
+      "actual": 1.4424051244910419,
+      "expected": 1.4424051244910419,
+      "delta": 0.0
+    },
+    "official_cd_value": {
+      "actual": 539.1375335808302,
+      "expected": 539.1375335808302,
+      "delta": 0.0
+    },
+    "max_conc": {
+      "actual": 444.0,
+      "expected": 444.0,
+      "delta": 0.0
+    },
+    "errors": {
+      "actual": 0.0,
+      "expected": 0.0,
+      "delta": 0.0
+    }
+  },
+  "candidate_evaluation_rule": "Narrow grid results are valid only when LM23_000 exact frozen reproduces LM22R_068 and errors == 0."
+}

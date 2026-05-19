@@ -1,0 +1,63 @@
+{
+  "run_label": "LONG_MAIN_LM23_RANK1_RETEST_LOW_RESOURCE",
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18",
+  "entry_key": "child::orig_V09_extreme_vol18::tp03",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "symbol_cost_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\symbol_cost",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_main\\LONG_MAIN_LM23_RANK1_RETEST_20260519_213610",
+  "out_dir_policy": "Path.cwd()/local_results/long_main only",
+  "workers_requested": 1,
+  "workers_selected": 1,
+  "cooldown_ms": 10,
+  "gc_every": 50,
+  "max_bars": 0,
+  "no_candle_limit": true,
+  "no_symbol_limit": true,
+  "save_trades": false,
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "result_scope": "2025년까지의 데이터 기준; 2026년 데이터 제외",
+  "entry_mask_source": "V23 narrow grid. Entry source v13 TP03 atr_stop=1.10 rr_target=3.80. Reference LM22R_068 plus stop119/120/121 rr495/500/505 body015/017/018/020/022 hold17 grid.",
+  "expected": {
+    "strategy": "LM22R_068_RETEST_STOP120_RR500_BODY020_HOLD17",
+    "trades": 56591,
+    "wins": 21871,
+    "losses": 34720,
+    "win_rate_pct": 38.64748811648495,
+    "final_return_pct": 446.12552394206125,
+    "max_return_pct": 447.0278919263715,
+    "max_drawdown_pct": 1.4424051244910419,
+    "official_cd_value": 539.1375335808302,
+    "max_conc": 444,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "variants": [
+    {
+      "name": "LM23R_000_LM22R_068_EXACT_REFERENCE",
+      "side": "long",
+      "description": "reference exact for LM22R_068: entry source child::orig_V09_extreme_vol18::tp03, TP03 source atr_stop 1.10 rr_target 3.80; final filter body_atr >= 0.20; final exit atr_stop 1.20 rr_target 5.00 max_hold 17, 2025 data only.",
+      "entry_key": "child::orig_V09_extreme_vol18::tp03",
+      "atr_stop": 1.2,
+      "rr_target": 5.0,
+      "max_hold_bars": 17,
+      "cooldown_bars": 31,
+      "use_tp03_gate": true,
+      "filter_name": "reference LM22R_068: body_atr >= 0.20"
+    },
+    {
+      "name": "LM23R_001_RETEST_S121_RR505_B022_H17",
+      "side": "long",
+      "description": "single retest for v23 rank1: entry source child::orig_V09_extreme_vol18::tp03, TP03 source atr_stop 1.10 rr_target 3.80; final filter body_atr >= 0.22; final exit atr_stop 1.21 rr_target 5.05 max_hold 17, 2025 data only.",
+      "entry_key": "child::orig_V09_extreme_vol18::tp03",
+      "atr_stop": 1.21,
+      "rr_target": 5.05,
+      "max_hold_bars": 17,
+      "cooldown_bars": 31,
+      "use_tp03_gate": true,
+      "filter_name": "retest LM23 rank1: body_atr >= 0.22"
+    }
+  ]
+}
