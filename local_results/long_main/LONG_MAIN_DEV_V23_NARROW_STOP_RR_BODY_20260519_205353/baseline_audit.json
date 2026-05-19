@@ -1,0 +1,107 @@
+{
+  "baseline_source": "long_main LM22R_068 retest exact / frozen candidate logic embedded",
+  "result_scope": "2025년까지의 데이터 기준; 2026년 데이터 제외",
+  "entry_mask_source": "V23 narrow grid. Entry source v13 TP03 atr_stop=1.10 rr_target=3.80. Reference LM22R_068 plus stop119/120/121 rr495/500/505 body015/017/018/020/022 hold17 grid.",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18",
+  "baseline_candidate": "LM23_000_LM22R_068_EXACT_FROZEN",
+  "pass_frozen_reproduction_gate": true,
+  "expected": {
+    "strategy": "LM22R_068_RETEST_STOP120_RR500_BODY020_HOLD17",
+    "trades": 56591,
+    "wins": 21871,
+    "losses": 34720,
+    "win_rate_pct": 38.64748811648495,
+    "final_return_pct": 446.12552394206125,
+    "max_return_pct": 447.0278919263715,
+    "max_drawdown_pct": 1.4424051244910419,
+    "official_cd_value": 539.1375335808302,
+    "max_conc": 444,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "actual_baseline_row": {
+    "run_label": "LONG_MAIN_DEV_V23_NARROW_STOP_RR_BODY_LOW_RESOURCE",
+    "fee_tag": "fee_008_rt_bps",
+    "round_trip_cost_bps": 8.0,
+    "position_fraction": 0.01,
+    "axis": "long_main_lm21_rank1_dev",
+    "strategy": "LM23_000_LM22R_068_EXACT_FROZEN",
+    "side": "long",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "filter_name": "exact LM22R_068: body_atr >= 0.20",
+    "description": "exact frozen reference for LM22R_068: entry source child::orig_V09_extreme_vol18::tp03, TP03 source atr_stop 1.10 rr_target 3.80; final filter body_atr >= 0.20; final exit atr_stop 1.20 rr_target 5.00 max_hold 17, 2025 data only.",
+    "atr_stop": 1.2,
+    "rr_target": 5.0,
+    "max_hold_bars": 17,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true,
+    "trades": 56591,
+    "wins": 21871,
+    "losses": 34720,
+    "win_rate_pct": 38.64748811648495,
+    "final_return_pct": 446.12552394206125,
+    "max_return_pct": 447.0278919263715,
+    "max_drawdown_pct": 1.4424051244910419,
+    "official_cd_value": 539.1375335808302,
+    "cd_value": 539.1375335808302,
+    "max_conc": 444,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "diffs": {
+    "trades": {
+      "actual": 56591.0,
+      "expected": 56591.0,
+      "delta": 0.0
+    },
+    "wins": {
+      "actual": 21871.0,
+      "expected": 21871.0,
+      "delta": 0.0
+    },
+    "losses": {
+      "actual": 34720.0,
+      "expected": 34720.0,
+      "delta": 0.0
+    },
+    "win_rate_pct": {
+      "actual": 38.64748811648495,
+      "expected": 38.64748811648495,
+      "delta": 0.0
+    },
+    "final_return_pct": {
+      "actual": 446.12552394206125,
+      "expected": 446.12552394206125,
+      "delta": 0.0
+    },
+    "max_return_pct": {
+      "actual": 447.0278919263715,
+      "expected": 447.0278919263715,
+      "delta": 0.0
+    },
+    "max_drawdown_pct": {
+      "actual": 1.4424051244910419,
+      "expected": 1.4424051244910419,
+      "delta": 0.0
+    },
+    "official_cd_value": {
+      "actual": 539.1375335808302,
+      "expected": 539.1375335808302,
+      "delta": 0.0
+    },
+    "max_conc": {
+      "actual": 444.0,
+      "expected": 444.0,
+      "delta": 0.0
+    },
+    "errors": {
+      "actual": 0.0,
+      "expected": 0.0,
+      "delta": 0.0
+    }
+  },
+  "candidate_evaluation_rule": "Narrow grid results are valid only when LM23_000 exact frozen reproduces LM22R_068 and errors == 0."
+}
