@@ -1,0 +1,42 @@
+LONG_MAX_V11_2025_LM23R001_LONGMAX_CORE_DEV_V30_STANDALONE
+
+result_scope: 2025년까지의 데이터 기준
+train_end_exclusive_utc: 2026-01-01 00:00:00
+baseline_reproduction_ok: True
+baseline_cd_expected: 547.2610302171641
+baseline_cd_actual: 547.2610302171641
+
+baseline_strategy: LM23R_001_RETEST_S121_RR505_B022_H17
+baseline_filter_name: body_atr >= 0.22
+baseline_body_atr_min: 0.22
+baseline_trades: 56551
+baseline_win_rate_pct: 38.84811939665081
+baseline_final_return_pct: 454.0898854634718
+baseline_max_return_pct: 455.0171719748199
+baseline_max_drawdown_pct: 1.3974597812998368
+baseline_cd_value: 547.2610302171641
+
+top_is_update_candidate: True
+top_strategy: LM23R_001_RETEST_S121_RR505_B022_H17__V30_AGGR_S123_RR600_B022_H17_C31
+top_description: aggressive long_max core on LM23R001: stop 1.23 / rr 6.00 / body 0.22 / hold 17 / cooldown 31
+top_filter_name: body_atr >= 0.22
+top_body_atr_min: 0.22
+top_atr_stop: 1.23
+top_rr_target: 6.0
+top_max_hold_bars: 17
+top_cooldown_bars: 31
+top_trades: 56533
+top_win_rate_pct: 39.17004227619267
+top_final_return_pct: 468.50915717774785
+top_max_return_pct: 469.4847055170838
+top_max_drawdown_pct: 1.3045981826485198
+top_cd_value: 562.0552183984466
+top_delta_vs_baseline_cd: 14.794188181282493
+
+update_rule:
+- baseline_reproduction_ok true
+- errors 0
+- ruined false
+- max_drawdown_pct < 5
+- cd_value > 547.2610302171641
+- 단독 재검증 전까지 기준선 갱신 확정 금지
