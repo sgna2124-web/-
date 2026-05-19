@@ -1,0 +1,107 @@
+{
+  "baseline_source": "long_main v21 rank1 retest exact / frozen candidate logic embedded",
+  "result_scope": "2025년까지의 데이터 기준; 2026년 데이터 제외",
+  "entry_mask_source": "Retest raw v22 top candidates. Entry source v13 TP03 atr_stop=1.10 rr_target=3.80. Reference LM21_071 plus raw top candidates stop120/118 rr500/490 body018 hold17.",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_strategy": "8V4_V09_V054_extreme_vol18__CH_tp03_risk_rr_plus20__DEV13_risk_stop_110__DEV14_risk_rr_320__DEV16_risk_rr_350__DEV19_risk_rr_380__LM15_rr420__DEV24_near_stop112_rr470_hold18",
+  "baseline_candidate": "LM22R_000_LM21_071_EXACT_REFERENCE",
+  "pass_frozen_reproduction_gate": true,
+  "expected": {
+    "strategy": "LM21_071_STOP115_RR480_BODY020_HOLD17",
+    "trades": 56630,
+    "wins": 21439,
+    "losses": 35191,
+    "win_rate_pct": 37.85802578138796,
+    "final_return_pct": 434.52328389135914,
+    "max_return_pct": 435.34976681291687,
+    "max_drawdown_pct": 1.3901025053261629,
+    "official_cd_value": 527.9078562921927,
+    "max_conc": 444,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "actual_baseline_row": {
+    "run_label": "LONG_MAIN_V22_RAW_TOP_RETEST_LOW_RESOURCE",
+    "fee_tag": "fee_008_rt_bps",
+    "round_trip_cost_bps": 8.0,
+    "position_fraction": 0.01,
+    "axis": "long_main_lm21_rank1_dev",
+    "strategy": "LM22R_000_LM21_071_EXACT_REFERENCE",
+    "side": "long",
+    "entry_key": "child::orig_V09_extreme_vol18::tp03",
+    "filter_name": "reference LM21_071: body_atr >= 0.20",
+    "description": "reference check for current long_main rank1 from v21 retest. Entry source remains child::orig_V09_extreme_vol18::tp03 with TP03 source atr_stop 1.10 and rr_target 3.80; final entry adds body_atr >= 0.20; final exit uses atr_stop 1.15, rr_target 4.80, max_hold_bars 17, 2025 data only.",
+    "atr_stop": 1.15,
+    "rr_target": 4.8,
+    "max_hold_bars": 17,
+    "cooldown_bars": 31,
+    "use_tp03_gate": true,
+    "trades": 56630,
+    "wins": 21439,
+    "losses": 35191,
+    "win_rate_pct": 37.85802578138796,
+    "final_return_pct": 434.52328389135914,
+    "max_return_pct": 435.34976681291687,
+    "max_drawdown_pct": 1.3901025053261629,
+    "official_cd_value": 527.9078562921927,
+    "cd_value": 527.9078562921927,
+    "max_conc": 444,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "diffs": {
+    "trades": {
+      "actual": 56630.0,
+      "expected": 56630.0,
+      "delta": 0.0
+    },
+    "wins": {
+      "actual": 21439.0,
+      "expected": 21439.0,
+      "delta": 0.0
+    },
+    "losses": {
+      "actual": 35191.0,
+      "expected": 35191.0,
+      "delta": 0.0
+    },
+    "win_rate_pct": {
+      "actual": 37.85802578138796,
+      "expected": 37.85802578138796,
+      "delta": 0.0
+    },
+    "final_return_pct": {
+      "actual": 434.52328389135914,
+      "expected": 434.52328389135914,
+      "delta": 0.0
+    },
+    "max_return_pct": {
+      "actual": 435.34976681291687,
+      "expected": 435.34976681291687,
+      "delta": 0.0
+    },
+    "max_drawdown_pct": {
+      "actual": 1.3901025053261629,
+      "expected": 1.3901025053261629,
+      "delta": 0.0
+    },
+    "official_cd_value": {
+      "actual": 527.9078562921927,
+      "expected": 527.9078562921927,
+      "delta": 0.0
+    },
+    "max_conc": {
+      "actual": 444.0,
+      "expected": 444.0,
+      "delta": 0.0
+    },
+    "errors": {
+      "actual": 0.0,
+      "expected": 0.0,
+      "delta": 0.0
+    }
+  },
+  "candidate_evaluation_rule": "User requested retest even if previous baseline reproduction failed. Rank files are generated regardless, but baseline_pass and errors must be reviewed."
+}
