@@ -1,0 +1,43 @@
+{
+  "run_label": "LONG_MAIN_LM26_TOP_CD32_RETEST",
+  "baseline_version": "LM26 top candidate retest from V26 top-mix result",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "data_dir_default_policy": "auto-detect: explicit --data-dir, cwd/script Data/time, parent/nested Data/time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_main\\LONG_MAIN_LM26_TOP_CD32_RETEST_20260520_140001",
+  "workers": 1,
+  "candidate_count": 1,
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "cand_grid": {
+    "mode": "single_candidate_retest",
+    "candidate": "LM26_S1280_RR5050_B0360_H17_CD32",
+    "atr_stop": 1.28,
+    "rr_target": 5.05,
+    "body_atr_min": 0.36,
+    "max_hold_bars": 17,
+    "cooldown_bars": 32
+  },
+  "baseline_expected": {
+    "trades": 55821,
+    "wins": 22425,
+    "losses": 33396,
+    "win_rate_pct": 40.17305315203956,
+    "final_return_pct": 508.8758,
+    "max_return_pct": 510.0165,
+    "max_drawdown_pct": 1.0931,
+    "official_cd_value": 603.3485,
+    "max_conc": 437,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "entry_key": "child::orig_V09_extreme_vol18::tp03",
+  "entry_source_atr_stop": 1.1,
+  "entry_source_rr_target": 3.8,
+  "tp03_min_target_pct": 0.3,
+  "cooldown_ms": 0,
+  "max_conc_top_n": 1,
+  "out_dir_policy": "Path.cwd()/local_results/long_main only",
+  "external_path_reference": false
+}
