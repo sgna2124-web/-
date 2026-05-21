@@ -1,0 +1,279 @@
+{
+  "script": "short_main_v9_topmix_dev_v2_5_balanced.py",
+  "purpose": "short_main v9 top-candidate combination dev v2.3 ultralite, train<=2025",
+  "baseline": "short_main_v9_wick120_dev03475_timeout215_actual_bar_engine",
+  "baseline_reproduction_gate_pass": true,
+  "baseline_reproduction_issues": [],
+  "official_v9": {
+    "trades": 36791,
+    "wins": 5171,
+    "losses": 31620,
+    "win_rate_pct": 14.055067815498356,
+    "final_return_pct": 1194.9206565723089,
+    "max_return_pct": 1195.2759019740386,
+    "max_drawdown_pct": 4.770262221769094,
+    "official_cd_value": 1233.487844954492,
+    "profit_factor": 1.5698636647889879,
+    "max_conc": 287,
+    "same_bar_trades": 3354,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "train_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "data_scope": "train_only_until_2025_12_31_end_before_indicator_calculation",
+  "engine_rules": [
+    "previous candle close signal -> current open pending entry",
+    "same timestamp exit cannot enable same timestamp entry",
+    "current candle exit affects next timestamp",
+    "same-bar TP/SL allowed",
+    "DD brake applies from next timestamp",
+    "2026 excluded before indicator calculation",
+    "active positions force-closed at train final close"
+  ],
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "strategy_count": 47,
+  "no_multiprocessing": true,
+  "no_candle_limit": true,
+  "variants": [
+    {
+      "strategy": "SMV9_00_parent_short_main_v9_wick120_dev03475_timeout215_actual_bar_engine",
+      "family": "v9_baseline",
+      "description": "official short_main v9 baseline reproduction"
+    },
+    {
+      "strategy": "SM25_A01_top_D01_wick1175_dev03450",
+      "family": "single_top",
+      "description": "v2.4 top1 D01: wick 1.175 + dev 0.03450"
+    },
+    {
+      "strategy": "SM25_A02_top_D02_wick1175_dev034625",
+      "family": "single_top",
+      "description": "v2.4 top2 D02: wick 1.175 + dev 0.034625"
+    },
+    {
+      "strategy": "SM25_A03_top_F01_wick1175_dev03450_timeout220",
+      "family": "single_top",
+      "description": "v2.4 top3 F01: wick 1.175 + dev 0.03450 + timeout 220"
+    },
+    {
+      "strategy": "SM25_A04_wick1175_only",
+      "family": "single_top",
+      "description": "wick 1.175 only"
+    },
+    {
+      "strategy": "SM25_A05_dev03450_only",
+      "family": "single_top",
+      "description": "dev 0.03450 only"
+    },
+    {
+      "strategy": "SM25_B01_wick11625_dev03450",
+      "family": "micro_wick_dev",
+      "description": "wick 1.1625 + dev 0.03450"
+    },
+    {
+      "strategy": "SM25_B02_wick1170_dev03450",
+      "family": "micro_wick_dev",
+      "description": "wick 1.1700 + dev 0.03450"
+    },
+    {
+      "strategy": "SM25_B03_wick1180_dev03450",
+      "family": "micro_wick_dev",
+      "description": "wick 1.1800 + dev 0.03450"
+    },
+    {
+      "strategy": "SM25_B04_wick11875_dev03450",
+      "family": "micro_wick_dev",
+      "description": "wick 1.1875 + dev 0.03450"
+    },
+    {
+      "strategy": "SM25_B05_wick1175_dev034375",
+      "family": "micro_wick_dev",
+      "description": "wick 1.175 + dev 0.034375"
+    },
+    {
+      "strategy": "SM25_B06_wick1175_dev0345625",
+      "family": "micro_wick_dev",
+      "description": "wick 1.175 + dev 0.0345625"
+    },
+    {
+      "strategy": "SM25_B07_wick1175_dev0346875",
+      "family": "micro_wick_dev",
+      "description": "wick 1.175 + dev 0.0346875"
+    },
+    {
+      "strategy": "SM25_C01_D01_timeout210",
+      "family": "timeout_mix",
+      "description": "D01 + timeout 210"
+    },
+    {
+      "strategy": "SM25_C02_D01_timeout212",
+      "family": "timeout_mix",
+      "description": "D01 + timeout 212"
+    },
+    {
+      "strategy": "SM25_C03_D01_timeout218",
+      "family": "timeout_mix",
+      "description": "D01 + timeout 218"
+    },
+    {
+      "strategy": "SM25_C04_D01_timeout220",
+      "family": "timeout_mix",
+      "description": "D01 + timeout 220"
+    },
+    {
+      "strategy": "SM25_C05_D01_timeout222",
+      "family": "timeout_mix",
+      "description": "D01 + timeout 222"
+    },
+    {
+      "strategy": "SM25_C06_D02_timeout210",
+      "family": "timeout_mix",
+      "description": "D02 + timeout 210"
+    },
+    {
+      "strategy": "SM25_C07_D02_timeout220",
+      "family": "timeout_mix",
+      "description": "D02 + timeout 220"
+    },
+    {
+      "strategy": "SM25_D01_D01_score2375",
+      "family": "score_rr_mix",
+      "description": "D01 + score 2.375"
+    },
+    {
+      "strategy": "SM25_D02_D01_score23625",
+      "family": "score_rr_mix",
+      "description": "D01 + score 2.3625"
+    },
+    {
+      "strategy": "SM25_D03_D01_score2325",
+      "family": "score_rr_mix",
+      "description": "D01 + score 2.325"
+    },
+    {
+      "strategy": "SM25_D04_D01_rr570",
+      "family": "score_rr_mix",
+      "description": "D01 + rr 5.70"
+    },
+    {
+      "strategy": "SM25_D05_D01_rr580",
+      "family": "score_rr_mix",
+      "description": "D01 + rr 5.80"
+    },
+    {
+      "strategy": "SM25_D06_D01_minTP00325",
+      "family": "score_rr_mix",
+      "description": "D01 + min_expected_tp 0.00325"
+    },
+    {
+      "strategy": "SM25_E01_D01_dd00275_f5",
+      "family": "defense_mix",
+      "description": "D01 + dd 0.0275 freeze 5"
+    },
+    {
+      "strategy": "SM25_E02_D01_dd00285_f5",
+      "family": "defense_mix",
+      "description": "D01 + dd 0.0285 freeze 5"
+    },
+    {
+      "strategy": "SM25_E03_D01_dd00325_f5",
+      "family": "defense_mix",
+      "description": "D01 + dd 0.0325 freeze 5"
+    },
+    {
+      "strategy": "SM25_E04_D01_failfast8",
+      "family": "defense_mix",
+      "description": "D01 + fail_fast_bars 8"
+    },
+    {
+      "strategy": "SM25_E05_D01_failfast12",
+      "family": "defense_mix",
+      "description": "D01 + fail_fast_bars 12"
+    },
+    {
+      "strategy": "SM25_E06_D01_timereduce6",
+      "family": "defense_mix",
+      "description": "D01 + time_reduce_bars 6"
+    },
+    {
+      "strategy": "SM25_E07_D01_timereduce10",
+      "family": "defense_mix",
+      "description": "D01 + time_reduce_bars 10"
+    },
+    {
+      "strategy": "SM25_F01_shortmax_v8_full_entry",
+      "family": "shortmax_mix",
+      "description": "short_max v8 entry full mix: dev 0.035 + wick 1.30 + score_dev_weight 1.2 + timeout 200"
+    },
+    {
+      "strategy": "SM25_F02_D01_scoredevw120",
+      "family": "shortmax_mix",
+      "description": "D01 + short_max score_dev_weight 1.2"
+    },
+    {
+      "strategy": "SM25_F03_D01_timeout200",
+      "family": "shortmax_mix",
+      "description": "D01 + short_max timeout 200"
+    },
+    {
+      "strategy": "SM25_F04_D01_scoredevw120_timeout200",
+      "family": "shortmax_mix",
+      "description": "D01 + score_dev_weight 1.2 + timeout 200"
+    },
+    {
+      "strategy": "SM25_F05_D01_scoredevw110",
+      "family": "shortmax_mix",
+      "description": "D01 + score_dev_weight 1.1"
+    },
+    {
+      "strategy": "SM25_F06_D01_scoredevw115",
+      "family": "shortmax_mix",
+      "description": "D01 + score_dev_weight 1.15"
+    },
+    {
+      "strategy": "SM25_F07_D01_dev035_scoredevw120",
+      "family": "shortmax_mix",
+      "description": "D01 wick + short_max dev 0.035 + score_dev_weight 1.2"
+    },
+    {
+      "strategy": "SM25_F08_D01_wick130_scoredevw120",
+      "family": "shortmax_mix",
+      "description": "D01 dev + short_max wick 1.30 + score_dev_weight 1.2"
+    },
+    {
+      "strategy": "SM25_G01_D01_scoredevw110_timeout212",
+      "family": "hybrid_top_shortmax",
+      "description": "D01 + score_dev_weight 1.1 + timeout 212"
+    },
+    {
+      "strategy": "SM25_G02_D01_scoredevw110_timeout218",
+      "family": "hybrid_top_shortmax",
+      "description": "D01 + score_dev_weight 1.1 + timeout 218"
+    },
+    {
+      "strategy": "SM25_G03_D01_scoredevw115_timeout212",
+      "family": "hybrid_top_shortmax",
+      "description": "D01 + score_dev_weight 1.15 + timeout 212"
+    },
+    {
+      "strategy": "SM25_G04_D01_scoredevw115_timeout218",
+      "family": "hybrid_top_shortmax",
+      "description": "D01 + score_dev_weight 1.15 + timeout 218"
+    },
+    {
+      "strategy": "SM25_G05_D02_scoredevw110_timeout215",
+      "family": "hybrid_top_shortmax",
+      "description": "D02 + score_dev_weight 1.1 + timeout 215"
+    },
+    {
+      "strategy": "SM25_G06_D02_scoredevw115_timeout215",
+      "family": "hybrid_top_shortmax",
+      "description": "D02 + score_dev_weight 1.15 + timeout 215"
+    }
+  ]
+}
