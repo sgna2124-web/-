@@ -1,0 +1,88 @@
+{
+  "run_label": "LONG_MAIN_DEV_V27_FROM_V17_LM26_BASELINE",
+  "baseline_version": "long_main/v17 + long_max/v12 official LM26 baseline",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "data_dir_default_policy": "auto-detect: explicit --data-dir, cwd/script Data/time, parent/nested Data/time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_main\\LONG_MAIN_DEV_V27_FROM_V17_LM26_BASELINE_20260521_095707",
+  "workers": 1,
+  "candidate_count": 333,
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "cand_grid": {
+    "baseline": "LONG_MAIN_V17_LM26_S128_RR505_B360_H17_CD32",
+    "core_stops": [
+      1.26,
+      1.27,
+      1.28,
+      1.29,
+      1.3,
+      1.32
+    ],
+    "core_rr_targets": [
+      5.0,
+      5.05,
+      5.1,
+      5.15,
+      5.2
+    ],
+    "core_body_atr_min": [
+      0.34,
+      0.36,
+      0.38,
+      0.4,
+      0.42,
+      0.46
+    ],
+    "cooldown_tests": [
+      32,
+      33,
+      34
+    ],
+    "hold_tests": [
+      16,
+      17,
+      18
+    ],
+    "mdd_guard_stops": [
+      1.24,
+      1.25,
+      1.26,
+      1.27
+    ],
+    "return_extension_rr_targets": [
+      5.15,
+      5.25,
+      5.3
+    ],
+    "optional_guards": [
+      "close_pos_min",
+      "quiet_ratio_max",
+      "vol_ratio_min",
+      "lower_wick_body_ratio_min"
+    ],
+    "max_conc_gate": "diagnostic_only_not_hard_gate"
+  },
+  "baseline_expected": {
+    "trades": 55821,
+    "wins": 22425,
+    "losses": 33396,
+    "win_rate_pct": 40.17305315203956,
+    "final_return_pct": 508.8757953955824,
+    "max_return_pct": 510.01650319972197,
+    "max_drawdown_pct": 1.0930827574126778,
+    "official_cd_value": 603.3485179858741,
+    "max_conc": 436,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "entry_key": "child::orig_V09_extreme_vol18::tp03",
+  "entry_source_atr_stop": 1.1,
+  "entry_source_rr_target": 3.8,
+  "tp03_min_target_pct": 0.3,
+  "cooldown_ms": 0,
+  "max_conc_top_n": 12,
+  "out_dir_policy": "Path.cwd()/local_results/long_main only",
+  "external_path_reference": false
+}
