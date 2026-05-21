@@ -31,4 +31,9 @@ max_conc는 리테스트에서 436으로 관측되었으나 공식 하드 게이
 
 결과 저장: Path.cwd()/local_results/long_max
 
+중요한 재현 조건:
+long_max v12의 08_STANDALONE_FROZEN_RUNNER.py는 long_main v17과 동일한 LM26 기준선 코드를 사용한다. 현재 파일은 저장소 내부 base_line/long_main/v17/08_STANDALONE_FROZEN_RUNNER.py를 읽어서 출력 라벨과 결과 폴더만 long_max용으로 바꾸는 방식이다.
+
+따라서 저장소의 base_line 전체를 받은 사람은 재현 가능하다. 다만 base_line/long_max/v12 폴더 하나만 단독 복사한 경우에는 실행 파일이 long_main/v17 runner를 찾지 못하므로 완전 단독 재현은 불가능하다.
+
 long_max 기준에서도 동일 후보가 summary_long_max_cd_rank.csv에서 VALID로 확인되었다.
