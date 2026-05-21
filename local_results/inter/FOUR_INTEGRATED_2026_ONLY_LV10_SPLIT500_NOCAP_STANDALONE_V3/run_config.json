@@ -1,0 +1,47 @@
+{
+  "run_label": "FOUR_INTEGRATED_2026_ONLY_LV10_SPLIT500_NOCAP_STANDALONE_V3",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "period": {
+    "start_date": "2026-01-01 00:00:00",
+    "end_date": "2027-01-01 00:00:00"
+  },
+  "source_csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "portfolio": {
+    "initial_asset": 100.0,
+    "leverage": 10.0,
+    "position_fraction": 0.002,
+    "fee_per_side": 0.0004,
+    "max_total_positions": null,
+    "cap_removed": true
+  },
+  "combos": [
+    [
+      "lm_sm",
+      "long_main",
+      "short_main"
+    ],
+    [
+      "lm_sx",
+      "long_main",
+      "short_max"
+    ],
+    [
+      "lx_sm",
+      "long_max",
+      "short_main"
+    ],
+    [
+      "lx_sx",
+      "long_max",
+      "short_max"
+    ]
+  ],
+  "no_repo_root_lookup": true,
+  "no_baseline_file_read": true,
+  "no_position_cap": true,
+  "long_condition_source": "embedded from long_main/v17 02_ENTRY_EXIT_CONDITIONS.md plus V09 source family implementation",
+  "short_main_source": "embedded from short_main/v10 frozen_reproduce_runner.py spec",
+  "short_max_source": "embedded from short_max/v9 frozen_reproduce_runner.py spec"
+}
