@@ -1,0 +1,14 @@
+{
+  "run_label": "LONG_MAX_V15_2025_LM26_TOP_MIX_FAST_V34_STANDALONE",
+  "method": "standalone LOW-RESOURCE top-candidate mix based on V33 top cluster; reduced candidate count for ~1h target",
+  "result_scope": "2025년까지의 데이터 기준",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_strategy": "LM26R_001_RETEST_S128_RR505_B360_H17_CD32",
+  "baseline_cd_expected": 603.3485179858741,
+  "baseline_trades_expected": 55821,
+  "baseline_mdd_expected": 1.0930827574126778,
+  "strategy_count": 28,
+  "resource_policy": "low-resource: reduced candidates, single process, trade rows disabled unless --save-trade-rows is explicitly used",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_max\\LONG_MAX_V15_2025_LM26_TOP_MIX_FAST_V34_STANDALONE"
+}
