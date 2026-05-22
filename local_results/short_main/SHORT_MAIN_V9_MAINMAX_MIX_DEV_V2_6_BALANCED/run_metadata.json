@@ -1,0 +1,319 @@
+{
+  "script": "short_main_v9_mainmax_mix_dev_v2_6_balanced.py",
+  "purpose": "short_main v9 top-candidate combination dev v2.3 ultralite, train<=2025",
+  "baseline": "short_main_v9_wick120_dev03475_timeout215_actual_bar_engine",
+  "baseline_reproduction_gate_pass": true,
+  "baseline_reproduction_issues": [],
+  "official_v9": {
+    "trades": 36791,
+    "wins": 5171,
+    "losses": 31620,
+    "win_rate_pct": 14.055067815498356,
+    "final_return_pct": 1194.9206565723089,
+    "max_return_pct": 1195.2759019740386,
+    "max_drawdown_pct": 4.770262221769094,
+    "official_cd_value": 1233.487844954492,
+    "profit_factor": 1.5698636647889879,
+    "max_conc": 287,
+    "same_bar_trades": 3354,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "train_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "data_scope": "train_only_until_2025_12_31_end_before_indicator_calculation",
+  "engine_rules": [
+    "previous candle close signal -> current open pending entry",
+    "same timestamp exit cannot enable same timestamp entry",
+    "current candle exit affects next timestamp",
+    "same-bar TP/SL allowed",
+    "DD brake applies from next timestamp",
+    "2026 excluded before indicator calculation",
+    "active positions force-closed at train final close"
+  ],
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "strategy_count": 55,
+  "no_multiprocessing": true,
+  "no_candle_limit": true,
+  "variants": [
+    {
+      "strategy": "SMV9_00_parent_short_main_v9_wick120_dev03475_timeout215_actual_bar_engine",
+      "family": "v9_baseline",
+      "description": "official short_main v9 baseline reproduction"
+    },
+    {
+      "strategy": "SM26_A01_main_B01_wick11625_dev03450",
+      "family": "single_main_top",
+      "description": "v2.5 main top1 B01"
+    },
+    {
+      "strategy": "SM26_A02_main_B02_wick1170_dev03450",
+      "family": "single_main_top",
+      "description": "v2.5 main top2 B02"
+    },
+    {
+      "strategy": "SM26_A03_main_B06_wick1175_dev0345625",
+      "family": "single_main_top",
+      "description": "v2.5 stable B06"
+    },
+    {
+      "strategy": "SM26_A04_max_F04_wick1175_dev03450_w120_t200",
+      "family": "single_max_top",
+      "description": "v2.5 max top1 F04"
+    },
+    {
+      "strategy": "SM26_A05_max_F02_wick1175_dev03450_w120",
+      "family": "single_max_top",
+      "description": "v2.5 max top F02"
+    },
+    {
+      "strategy": "SM26_A06_max_F07_wick1175_dev035_w120",
+      "family": "single_max_top",
+      "description": "v2.5 max top F07"
+    },
+    {
+      "strategy": "SM26_B01_B01_w1025",
+      "family": "main_plus_weight",
+      "description": "B01 + score_dev_weight 1.025"
+    },
+    {
+      "strategy": "SM26_B02_B01_w105",
+      "family": "main_plus_weight",
+      "description": "B01 + score_dev_weight 1.05"
+    },
+    {
+      "strategy": "SM26_B03_B01_w1075",
+      "family": "main_plus_weight",
+      "description": "B01 + score_dev_weight 1.075"
+    },
+    {
+      "strategy": "SM26_B04_B01_w110",
+      "family": "main_plus_weight",
+      "description": "B01 + score_dev_weight 1.10"
+    },
+    {
+      "strategy": "SM26_B05_B01_w115",
+      "family": "main_plus_weight",
+      "description": "B01 + score_dev_weight 1.15"
+    },
+    {
+      "strategy": "SM26_B06_B01_w120",
+      "family": "main_plus_weight",
+      "description": "B01 + score_dev_weight 1.20"
+    },
+    {
+      "strategy": "SM26_C01_B01_timeout200",
+      "family": "main_plus_timeout",
+      "description": "B01 + timeout 200"
+    },
+    {
+      "strategy": "SM26_C02_B01_timeout205",
+      "family": "main_plus_timeout",
+      "description": "B01 + timeout 205"
+    },
+    {
+      "strategy": "SM26_C03_B01_timeout208",
+      "family": "main_plus_timeout",
+      "description": "B01 + timeout 208"
+    },
+    {
+      "strategy": "SM26_C04_B01_timeout210",
+      "family": "main_plus_timeout",
+      "description": "B01 + timeout 210"
+    },
+    {
+      "strategy": "SM26_C05_B01_timeout212",
+      "family": "main_plus_timeout",
+      "description": "B01 + timeout 212"
+    },
+    {
+      "strategy": "SM26_C06_B01_timeout218",
+      "family": "main_plus_timeout",
+      "description": "B01 + timeout 218"
+    },
+    {
+      "strategy": "SM26_D01_B01_w105_t200",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.05 + timeout 200"
+    },
+    {
+      "strategy": "SM26_D02_B01_w105_t205",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.05 + timeout 205"
+    },
+    {
+      "strategy": "SM26_D03_B01_w105_t210",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.05 + timeout 210"
+    },
+    {
+      "strategy": "SM26_D04_B01_w110_t200",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.10 + timeout 200"
+    },
+    {
+      "strategy": "SM26_D05_B01_w110_t205",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.10 + timeout 205"
+    },
+    {
+      "strategy": "SM26_D06_B01_w110_t210",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.10 + timeout 210"
+    },
+    {
+      "strategy": "SM26_D07_B01_w115_t200",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.15 + timeout 200"
+    },
+    {
+      "strategy": "SM26_D08_B01_w115_t205",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.15 + timeout 205"
+    },
+    {
+      "strategy": "SM26_D09_B01_w120_t200",
+      "family": "mainmax_pair",
+      "description": "B01 + w1.20 + timeout 200"
+    },
+    {
+      "strategy": "SM26_E01_F04_wick11625",
+      "family": "max_to_main",
+      "description": "F04 but wick 1.1625"
+    },
+    {
+      "strategy": "SM26_E02_F04_wick1170",
+      "family": "max_to_main",
+      "description": "F04 but wick 1.1700"
+    },
+    {
+      "strategy": "SM26_E03_F04_dev0345625",
+      "family": "max_to_main",
+      "description": "F04 but dev 0.0345625"
+    },
+    {
+      "strategy": "SM26_E04_F04_dev034625",
+      "family": "max_to_main",
+      "description": "F04 but dev 0.034625"
+    },
+    {
+      "strategy": "SM26_E05_F04_timeout205",
+      "family": "max_to_main",
+      "description": "F04 but timeout 205"
+    },
+    {
+      "strategy": "SM26_E06_F04_timeout210",
+      "family": "max_to_main",
+      "description": "F04 but timeout 210"
+    },
+    {
+      "strategy": "SM26_E07_F04_w115",
+      "family": "max_to_main",
+      "description": "F04 but score_dev_weight 1.15"
+    },
+    {
+      "strategy": "SM26_E08_F04_w110",
+      "family": "max_to_main",
+      "description": "F04 but score_dev_weight 1.10"
+    },
+    {
+      "strategy": "SM26_F01_B01_w110_score2375",
+      "family": "score_filter_defense",
+      "description": "B01 + w1.10 + score 2.375"
+    },
+    {
+      "strategy": "SM26_F02_B01_w115_score2375",
+      "family": "score_filter_defense",
+      "description": "B01 + w1.15 + score 2.375"
+    },
+    {
+      "strategy": "SM26_F03_B01_w120_score2375",
+      "family": "score_filter_defense",
+      "description": "B01 + w1.20 + score 2.375"
+    },
+    {
+      "strategy": "SM26_F04_B01_w110_score240",
+      "family": "score_filter_defense",
+      "description": "B01 + w1.10 + score 2.40"
+    },
+    {
+      "strategy": "SM26_F05_B01_w115_score240",
+      "family": "score_filter_defense",
+      "description": "B01 + w1.15 + score 2.40"
+    },
+    {
+      "strategy": "SM26_F06_F04_score2375",
+      "family": "score_filter_defense",
+      "description": "F04 + score 2.375"
+    },
+    {
+      "strategy": "SM26_F07_F04_score240",
+      "family": "score_filter_defense",
+      "description": "F04 + score 2.40"
+    },
+    {
+      "strategy": "SM26_G01_B01_w110_rr570",
+      "family": "risk_defense",
+      "description": "B01 + w1.10 + rr 5.70"
+    },
+    {
+      "strategy": "SM26_G02_B01_w110_rr580",
+      "family": "risk_defense",
+      "description": "B01 + w1.10 + rr 5.80"
+    },
+    {
+      "strategy": "SM26_G03_B01_w110_failfast8",
+      "family": "risk_defense",
+      "description": "B01 + w1.10 + failfast 8"
+    },
+    {
+      "strategy": "SM26_G04_B01_w110_failfast12",
+      "family": "risk_defense",
+      "description": "B01 + w1.10 + failfast 12"
+    },
+    {
+      "strategy": "SM26_G05_B01_w110_dd00275",
+      "family": "risk_defense",
+      "description": "B01 + w1.10 + dd 0.0275"
+    },
+    {
+      "strategy": "SM26_G06_B01_w110_dd00285",
+      "family": "risk_defense",
+      "description": "B01 + w1.10 + dd 0.0285"
+    },
+    {
+      "strategy": "SM26_H01_B06_w105",
+      "family": "stable_plus_weight",
+      "description": "B06 + w1.05"
+    },
+    {
+      "strategy": "SM26_H02_B06_w110",
+      "family": "stable_plus_weight",
+      "description": "B06 + w1.10"
+    },
+    {
+      "strategy": "SM26_H03_B06_w115",
+      "family": "stable_plus_weight",
+      "description": "B06 + w1.15"
+    },
+    {
+      "strategy": "SM26_H04_B06_w120",
+      "family": "stable_plus_weight",
+      "description": "B06 + w1.20"
+    },
+    {
+      "strategy": "SM26_H05_B06_w110_t205",
+      "family": "stable_plus_weight",
+      "description": "B06 + w1.10 + timeout 205"
+    },
+    {
+      "strategy": "SM26_H06_B06_w115_t205",
+      "family": "stable_plus_weight",
+      "description": "B06 + w1.15 + timeout 205"
+    }
+  ]
+}
