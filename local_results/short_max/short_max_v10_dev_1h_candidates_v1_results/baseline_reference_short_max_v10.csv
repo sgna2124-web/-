@@ -1,0 +1,2 @@
+﻿trades,max_return_pct,max_drawdown_pct,official_cd_value,active_leftover,pending_leftover,load_errors,strategy,axis,baseline_version,reference_only
+64339,3689.4315334640614,4.629389056231814,3614.004004760479,0,0,0,smv9_topcombo1_01_tr4_stop205_rr550,short_max,short_max/v10,True
