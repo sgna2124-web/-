@@ -1,0 +1,28 @@
+{
+  "script": "run_short_max_v9_top_combo_1h_candidates_v1.py",
+  "baseline_version": "short_max/v9",
+  "baseline_gate_pass": false,
+  "baseline_gate_problems": [
+    "trades: got=64339 expected=63105",
+    "max_return_pct: got=3689.4315334640614 expected=2743.3304850694603",
+    "max_drawdown_pct: got=4.629389056231814 expected=5.686879318598392",
+    "official_cd_value: got=3614.004004760479 expected=2681.6337117546423"
+  ],
+  "data_scope": "train_only_until_2025_12_31_end",
+  "end_date": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max_v9_top_combo_1h_candidates_v1_results",
+  "baseline_expected": {
+    "trades": 63105,
+    "max_return_pct": 2743.3304850694603,
+    "max_drawdown_pct": 5.686879318598392,
+    "official_cd_value": 2681.6337117546423,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  }
+}

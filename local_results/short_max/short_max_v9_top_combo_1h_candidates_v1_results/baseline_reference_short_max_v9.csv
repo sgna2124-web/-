@@ -1,0 +1,2 @@
+﻿trades,max_return_pct,max_drawdown_pct,official_cd_value,active_leftover,pending_leftover,load_errors,strategy,axis,baseline_version,reference_only
+63105,2743.3304850694603,5.686879318598392,2681.6337117546423,0,0,0,smv8_mix2_13_all_timereduce5,short_max,short_max/v9,True

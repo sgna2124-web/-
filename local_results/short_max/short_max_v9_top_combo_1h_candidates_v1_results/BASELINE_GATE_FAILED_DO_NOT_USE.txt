@@ -1,0 +1,5 @@
+short_max v9 baseline gate failed:
+trades: got=64339 expected=63105
+max_return_pct: got=3689.4315334640614 expected=2743.3304850694603
+max_drawdown_pct: got=4.629389056231814 expected=5.686879318598392
+official_cd_value: got=3614.004004760479 expected=2681.6337117546423
