@@ -1,0 +1,2 @@
+strategy,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,official_cd_value,max_conc,symbol_files,errors,ruined
+LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_RETEST_FROM_V34_TOP1_S130_RR625_B400_H17_C32,55597,22513,33084,40.493192078709285,525.6012732388051,526.8003775673284,1.3626489750456883,618.2592886468248,446,597,0,false
