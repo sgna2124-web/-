@@ -1,0 +1,54 @@
+{
+  "script": "short_main_v9_B01_single_retest_v2_7.py",
+  "purpose": "short_main v9 top-candidate combination dev v2.3 ultralite, train<=2025",
+  "baseline": "short_main_v9_wick120_dev03475_timeout215_actual_bar_engine",
+  "baseline_reproduction_gate_pass": true,
+  "baseline_reproduction_issues": [],
+  "official_v9": {
+    "trades": 36791,
+    "wins": 5171,
+    "losses": 31620,
+    "win_rate_pct": 14.055067815498356,
+    "final_return_pct": 1194.9206565723089,
+    "max_return_pct": 1195.2759019740386,
+    "max_drawdown_pct": 4.770262221769094,
+    "official_cd_value": 1233.487844954492,
+    "profit_factor": 1.5698636647889879,
+    "max_conc": 287,
+    "same_bar_trades": 3354,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "train_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "data_scope": "train_only_until_2025_12_31_end_before_indicator_calculation",
+  "engine_rules": [
+    "previous candle close signal -> current open pending entry",
+    "same timestamp exit cannot enable same timestamp entry",
+    "current candle exit affects next timestamp",
+    "same-bar TP/SL allowed",
+    "DD brake applies from next timestamp",
+    "2026 excluded before indicator calculation",
+    "active positions force-closed at train final close"
+  ],
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "strategy_count": 2,
+  "no_multiprocessing": true,
+  "no_candle_limit": true,
+  "variants": [
+    {
+      "strategy": "SMV9_00_parent_short_main_v9_wick120_dev03475_timeout215_actual_bar_engine",
+      "family": "v9_baseline",
+      "description": "official short_main v9 baseline reproduction"
+    },
+    {
+      "strategy": "SM27_B01_single_retest_wick11625_dev03450",
+      "family": "single_retest",
+      "description": "short_main top candidate B01 single retest: wick 1.1625 + dev 0.03450 + timeout 215"
+    }
+  ]
+}
