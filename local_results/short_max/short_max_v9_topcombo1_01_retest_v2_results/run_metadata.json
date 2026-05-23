@@ -1,0 +1,59 @@
+{
+  "script": "run_short_max_v9_topcombo1_01_retest_v2.py",
+  "baseline_version": "short_max/v9",
+  "source_baseline": "base_line/short_max/v9",
+  "data_scope": "train_only_until_2025_12_31_end",
+  "end_date": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "holdout_policy": "2026 data is excluded before indicator calculation and reserved for validation",
+  "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231",
+  "engine_rules": [
+    "t open entry uses pending signal from t-1 close only",
+    "current candle exit cannot fund same timestamp new entry",
+    "current close signal becomes next timestamp pending entry",
+    "same-bar TP/SL remains enabled",
+    "DD brake edge applies from next timestamp",
+    "remaining active positions are force-closed at train-end final close"
+  ],
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max_v9_topcombo1_01_retest_v2_results",
+  "baseline_expected": {
+    "trades": 63105,
+    "max_return_pct": 2743.3304850694603,
+    "max_drawdown_pct": 5.686879318598392,
+    "official_cd_value": 2681.6337117546423,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "candidate_count": 1,
+  "candidate_total_available": 1,
+  "candidate_start": 1,
+  "run_baseline_gate": false,
+  "max_runtime_min": 65.0,
+  "stopped_by_runtime_budget": false,
+  "elapsed_minutes": 52.331,
+  "candidates": [
+    {
+      "strategy": "smv9_topcombo1_01_tr4_stop205_rr550",
+      "short_dev": 0.032,
+      "short_wick_mult": 1.3,
+      "score_min_short": 2.35,
+      "score_dev_weight": 1.3,
+      "score_rsi_weight": 0.8,
+      "score_wick_weight": 0.7,
+      "atr_stop_mult": 2.05,
+      "rr_mult": 5.5,
+      "min_expected_tp": 0.003,
+      "timeout_bars": 200,
+      "time_reduce_bars": 4,
+      "fail_fast_bars": 10,
+      "atr_pct_min": 0.0,
+      "atr_pct_max": 999.0,
+      "close_position_min": -999.0
+    }
+  ]
+}
