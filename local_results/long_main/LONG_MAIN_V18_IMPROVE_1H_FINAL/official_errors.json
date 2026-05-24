@@ -1,0 +1,1018 @@
+[
+  {
+    "symbol": "1V2_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\1V2\\\\1V2_registry.csv\")"
+  },
+  {
+    "symbol": "23_8_7 KEYWORD",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\카카오뷰\\\\컴1\\\\바탕 화면\\\\파이썬\\\\워프\\\\23_8_7 keyword.csv\")"
+  },
+  {
+    "symbol": "2V2_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\2V2\\\\FAST\\\\2V2_registry.csv\")"
+  },
+  {
+    "symbol": "3V2_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\3V2\\\\3V2_registry.csv\")"
+  },
+  {
+    "symbol": "4V2R1_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\4V2R1\\\\4V2R1_registry.csv\")"
+  },
+  {
+    "symbol": "4V2_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\4V2\\\\4V2_registry.csv\")"
+  },
+  {
+    "symbol": "5V2_COMBO10_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\5V2_COMBO10_REVIEWED\\\\5V2_COMBO10_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "5V2_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\5V2\\\\5V2_registry.csv\")"
+  },
+  {
+    "symbol": "6V1_LONG10_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\6V1_LONG10_REVIEWED\\\\6V1_LONG10_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "6V2_LONG10_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\6V2_LONG10_REVIEWED\\\\6V2_LONG10_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "6V2_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\6V2\\\\6V2_registry.csv\")"
+  },
+  {
+    "symbol": "6V3_LONG10_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\6V3_LONG10_REVIEWED\\\\6V3_LONG10_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "6V4_LONG10_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\6V4_LONG10_REVIEWED\\\\6V4_LONG10_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "6V5_LONG10_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\6V5_LONG10_REVIEWED\\\\6V5_LONG10_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "7V1_LONG10_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\7V1_LONG10_REVIEWED\\\\7V1_LONG10_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "7V2_LONG40_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\7V2_LONG40_REVIEWED\\\\7V2_LONG40_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "7V3_LONG40_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\7V3_LONG40_REVIEWED\\\\7V3_LONG40_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "7V4_LONG40_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\7V4_LONG40_REVIEWED\\\\7V4_LONG40_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "7V5_LONG40_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\7V5_LONG40_REVIEWED\\\\7V5_LONG40_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "8V10_LONG_DUAL_LEADERS_400_NEW_NO_TRADE_CAP_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V10_LONG_DUAL_LEADERS_400_NEW_NO_TRADE_CAP\\\\8V10_LONG_DUAL_LEADERS_400_NEW_NO_TRADE_CAP_registry.csv\")"
+  },
+  {
+    "symbol": "8V11_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V11_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP\\\\8V11_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP_registry.csv\")"
+  },
+  {
+    "symbol": "8V12_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V12_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP\\\\8V12_LONG_SHORT_MAIN_MAX_400_NEW_NO_TRADE_CAP_registry.csv\")"
+  },
+  {
+    "symbol": "8V14_4AXIS_50_EACH_STREAMSAFE_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V14_4AXIS_50_EACH_STREAMSAFE\\\\8V14_4AXIS_50_EACH_STREAMSAFE_registry.csv\")"
+  },
+  {
+    "symbol": "8V15_4AXIS_PARENT_PRESERVE_50_EACH_STREAMSAFE_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V15_4AXIS_PARENT_PRESERVE_50_EACH_STREAMSAFE\\\\8V15_4AXIS_PARENT_PRESERVE_50_EACH_STREAMSAFE_registry.csv\")"
+  },
+  {
+    "symbol": "8V16B_SELF_CONTAINED_BASELINE_GATE_4AXIS_50_EACH_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V16B_SELF_CONTAINED_BASELINE_GATE_4AXIS_50_EACH\\\\8V16B_SELF_CONTAINED_BASELINE_GATE_4AXIS_50_EACH_registry.csv\")"
+  },
+  {
+    "symbol": "8V16C_EXACT_BASELINE_GATE_PARENT_PRESERVE_4AXIS_50_EACH_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V16C_EXACT_BASELINE_GATE_PARENT_PRESERVE_4AXIS_50_EACH\\\\8V16C_EXACT_BASELINE_GATE_PARENT_PRESERVE_4AXIS_50_EACH_registry.csv\")"
+  },
+  {
+    "symbol": "8V18_SELF_CONTAINED_EXACT_PARENT_GATE_4AXIS_50_EACH_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V18_SELF_CONTAINED_EXACT_PARENT_GATE_4AXIS_50_EACH\\\\8V18_SELF_CONTAINED_EXACT_PARENT_GATE_4AXIS_50_EACH_registry.csv\")"
+  },
+  {
+    "symbol": "8V1_LONG50_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V1_LONG50_REVIEWED\\\\8V1_LONG50_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "8V25_TP03_FAST1H_FORCE_LOCAL_RESULTS_KEEP_DATA_CWD_NO_BASELINE_TOUCH_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V25_TP03_FAST1H_FORCE_LOCAL_RESULTS_KEEP_DATA_CWD_NO_BASELINE_TOUCH\\\\8V25_TP03_FAST1H_FORCE_LOCAL_RESULTS_KEEP_DATA_CWD_NO_BASELINE_TOUCH_registry.csv\")"
+  },
+  {
+    "symbol": "8V27_TP03_NO_CANDLE_LIMIT_FAST1H_NO_BASELINE_TOUCH_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V27_TP03_NO_CANDLE_LIMIT_FAST1H_NO_BASELINE_TOUCH\\\\8V27_TP03_NO_CANDLE_LIMIT_FAST1H_NO_BASELINE_TOUCH_registry.csv\")"
+  },
+  {
+    "symbol": "8V28_LOCAL_MUTATION_NO_CANDLE_LIMIT_1H_NO_BASELINE_TOUCH_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V28_LOCAL_MUTATION_NO_CANDLE_LIMIT_1H_NO_BASELINE_TOUCH\\\\8V28_LOCAL_MUTATION_NO_CANDLE_LIMIT_1H_NO_BASELINE_TOUCH_registry.csv\")"
+  },
+  {
+    "symbol": "8V29_LONG_QUALITY_SHORT_NO_TP03_LOCAL_1H_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V29_LONG_QUALITY_SHORT_NO_TP03_LOCAL_1H\\\\8V29_LONG_QUALITY_SHORT_NO_TP03_LOCAL_1H_registry.csv\")"
+  },
+  {
+    "symbol": "8V2_LONG100_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V2_LONG100_REVIEWED\\\\8V2_LONG100_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "8V30_TP03_PROBE_LONG_LOOSEN_SHORT_TRIM_1H_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V30_TP03_PROBE_LONG_LOOSEN_SHORT_TRIM_1H\\\\8V30_TP03_PROBE_LONG_LOOSEN_SHORT_TRIM_1H_registry.csv\")"
+  },
+  {
+    "symbol": "8V3_LONG100_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V3_LONG100_REVIEWED\\\\8V3_LONG100_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "8V4_LONG400_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V4_LONG400_REVIEWED\\\\8V4_LONG400_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "8V5_LONG300_REVIEWED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V5_LONG300_REVIEWED\\\\8V5_LONG300_REVIEWED_registry.csv\")"
+  },
+  {
+    "symbol": "8V6_TOP3_300_FROM_8V5_STANDALONE_FIXED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V6_TOP3_300_FROM_8V5_STANDALONE_FIXED\\\\8V6_TOP3_300_FROM_8V5_STANDALONE_FIXED_registry.csv\")"
+  },
+  {
+    "symbol": "8V6_TOP3_300_FROM_8V5_WINDOWS_SAFE_V3_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V6_TOP3_300_FROM_8V5_WINDOWS_SAFE_V3\\\\8V6_TOP3_300_FROM_8V5_WINDOWS_SAFE_V3_registry.csv\")"
+  },
+  {
+    "symbol": "8V7_AB_BEST_200_FROM_8V6_CANDIDATE_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V7_AB_BEST_200_FROM_8V6_CANDIDATE\\\\8V7_AB_BEST_200_FROM_8V6_CANDIDATE_registry.csv\")"
+  },
+  {
+    "symbol": "8V8_LONG_DUAL_BEST_200_UNTRIED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V8_LONG_DUAL_BEST_200_UNTRIED\\\\8V8_LONG_DUAL_BEST_200_UNTRIED_registry.csv\")"
+  },
+  {
+    "symbol": "8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED\\\\8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_FIXED_registry.csv\")"
+  },
+  {
+    "symbol": "8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP\\\\8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP_registry.csv\")"
+  },
+  {
+    "symbol": "AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_EMBEDDED_ENTRY_DEV_V8\\\\aggregate_results.csv\")"
+  },
+  {
+    "symbol": "ALL_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\all_results.csv\")"
+  },
+  {
+    "symbol": "BACKTEST_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\21_machine_leaning\\\\backtest_results.csv\")"
+  },
+  {
+    "symbol": "BACKTEST_RESULTS_FIXED",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_fixed.csv\")"
+  },
+  {
+    "symbol": "BACKTEST_RESULTS_OPTIMIZED",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\backtest_results_optimized.csv\")"
+  },
+  {
+    "symbol": "BASELINE_COMPARE_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\baseline_reference_pack\\\\baseline_compare_registry.csv\")"
+  },
+  {
+    "symbol": "BASELINE_EMBEDDED_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\baseline_embedded_source_compare\\\\baseline_embedded_registry.csv\")"
+  },
+  {
+    "symbol": "BASELINE_REFERENCE_SHORT_MAX_V10",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_max\\\\short_max_v10_dev_1h_candidates_v1_results\\\\baseline_reference_short_max_v10.csv\")"
+  },
+  {
+    "symbol": "BASELINE_REFERENCE_SHORT_MAX_V11",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_max\\\\short_max_v11_exit_dev_fast_1h_v1_results\\\\baseline_reference_short_max_v11.csv\")"
+  },
+  {
+    "symbol": "BASELINE_REFERENCE_SHORT_MAX_V9",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_max\\\\short_max_v9_top_combo_1h_candidates_v1_results\\\\baseline_reference_short_max_v9.csv\")"
+  },
+  {
+    "symbol": "BEST_VARIANT_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\SHORT_MAIN_V6_ONLY_REPRO_V1_1_results\\\\best_variant_summary.csv\")"
+  },
+  {
+    "symbol": "BEST_VARIANT_TRADES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\SHORT_MAIN_V6_ONLY_REPRO_V1_1_results\\\\best_variant_trades.csv\")"
+  },
+  {
+    "symbol": "BTC/USDT_BINANCE_FUTURES_2020_MINUTE",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\머신러닝\\\\바이낸스 데이터(22.07.23)\\\\BTCUSDT_Binance_futures_2020_minute.csv\")"
+  },
+  {
+    "symbol": "BTC/USDT_BINANCE_FUTURES_2021_MINUTE",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\머신러닝\\\\바이낸스 데이터(22.07.23)\\\\BTCUSDT_Binance_futures_2021_minute.csv\")"
+  },
+  {
+    "symbol": "BTC/USDT_BINANCE_FUTURES_2022_MINUTE",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\머신러닝\\\\바이낸스 데이터(22.07.23)\\\\BTCUSDT_Binance_futures_2022_minute.csv\")"
+  },
+  {
+    "symbol": "BTC/USDT_BINANCE_FUTURES_DATA_DAY (1)",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\머신러닝\\\\바이낸스 데이터(22.07.23)\\\\BTCUSDT_Binance_futures_data_day (1).csv\")"
+  },
+  {
+    "symbol": "BTC/USDT_BINANCE_FUTURES_DATA_HOUR",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\머신러닝\\\\바이낸스 데이터(22.07.23)\\\\BTCUSDT_Binance_futures_data_hour.csv\")"
+  },
+  {
+    "symbol": "BTC/USDT_BINANCE_FUTURES_DATA_MINUTE",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\Data\\\\BTCUSDT_Binance_futures_data_minute.csv\")"
+  },
+  {
+    "symbol": "CANDIDATES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\1V2\\\\FAST\\\\_staging\\\\1V2_L01_mirror_exact\\\\candidates.csv\")"
+  },
+  {
+    "symbol": "CANDIDATE_BACKTEST_TOP",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_baseline_entry_recovery_audit_v2\\\\candidate_backtest_top.csv\")"
+  },
+  {
+    "symbol": "CANDIDATE_SIGNAL_AUDIT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_baseline_entry_recovery_audit_v2\\\\candidate_signal_audit.csv\")"
+  },
+  {
+    "symbol": "CHILDDEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\\\childdev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "CHILDDEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\\\childdev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "CHILDDEV_TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\\\childdev_trades_compact.csv\")"
+  },
+  {
+    "symbol": "COIN_LIST",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\ema_trend\\\\coin_list.csv\")"
+  },
+  {
+    "symbol": "COMBINED_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\\\combined_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "CURRENT_BASELINE_REFERENCE_SHORT_MAX_V11",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_max\\\\short_max_v11_exit_dev_fast_1h_v1_results\\\\current_baseline_reference_short_max_v11.csv\")"
+  },
+  {
+    "symbol": "CURRENT_TOP_REFERENCE_STOP210",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_max\\\\short_max_v10_entry_combo_fast_1h_v1_results\\\\current_top_reference_stop210.csv\")"
+  },
+  {
+    "symbol": "ERRORS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\errors.csv\")"
+  },
+  {
+    "symbol": "ETH/USDT_BACKTEST_DETAILED",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\ETHUSDT_backtest_detailed.csv\")"
+  },
+  {
+    "symbol": "FAILED_SYMBOLS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V9_LONG_DUAL_BEST_200_UNTRIED_NO_TRADE_CAP\\\\failed_symbols.csv\")"
+  },
+  {
+    "symbol": "FEATURE_DECILE_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_V2_DIAG_V6_20260510_184756\\\\feature_decile_summary.csv\")"
+  },
+  {
+    "symbol": "FEATURE_WIN_LOSS_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_V2_DIAG_V6_20260510_184756\\\\feature_win_loss_summary.csv\")"
+  },
+  {
+    "symbol": "IMPROVED_CANDIDATES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\22_gpt_\\\\short_max\\\\short_max_v3_dev_candidates_v1_results\\\\improved_candidates.csv\")"
+  },
+  {
+    "symbol": "INTEGRATED_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\integrated_four_2026\\\\FOUR_INTEGRATED_2026_ONLY_LV10_SPLIT100_NOCAP_STANDALONE_V3\\\\combo_results\\\\lm_sm\\\\integrated_summary.csv\")"
+  },
+  {
+    "symbol": "KEYWORD",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\카카오뷰\\\\컴1\\\\바탕 화면\\\\파이썬\\\\워프\\\\keyword.csv\")"
+  },
+  {
+    "symbol": "LATEST_LONG_MAX_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V3_20260508_224518\\\\latest_long_max_registry.csv\")"
+  },
+  {
+    "symbol": "LONG_MAIN_ALL_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\long_main_all_results.csv\")"
+  },
+  {
+    "symbol": "LONG_MAIN_TOP_ANY_MDD",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\long_main_top_any_mdd.csv\")"
+  },
+  {
+    "symbol": "LONG_MAIN_TOP_CANDIDATE_HYBRID_MIX_V2_STANDALONE_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_TOP_CANDIDATE_HYBRID_MIX_V2_STANDALONE\\\\LONG_MAIN_TOP_CANDIDATE_HYBRID_MIX_V2_STANDALONE_registry.csv\")"
+  },
+  {
+    "symbol": "LONG_MAIN_TOP_UNDER_MDD5",
+    "error": "EmptyDataError('No columns to parse from file')"
+  },
+  {
+    "symbol": "LONG_MAX_ALL_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\long_max_all_results.csv\")"
+  },
+  {
+    "symbol": "LONG_MAX_EMBEDDED_ENTRY_DEV_V7_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_EMBEDDED_ENTRY_DEV_V7\\\\LONG_MAX_EMBEDDED_ENTRY_DEV_V7_registry.csv\")"
+  },
+  {
+    "symbol": "LONG_MAX_ORIGINAL_ENTRY_DEV_V3_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V3_20260508_224518\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V3_registry.csv\")"
+  },
+  {
+    "symbol": "LONG_MAX_ORIGINAL_ENTRY_DEV_V4_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V4_20260509_100240\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V4_registry.csv\")"
+  },
+  {
+    "symbol": "LONG_MAX_ORIGINAL_ENTRY_DEV_V5_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V5_20260509_175258\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V5_registry.csv\")"
+  },
+  {
+    "symbol": "LONG_MAX_ORIGINAL_ENTRY_DEV_V6_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V6\\\\LONG_MAX_ORIGINAL_ENTRY_DEV_V6_registry.csv\")"
+  },
+  {
+    "symbol": "LONG_MAX_TOP_ANY_MDD",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\long_max_top_any_mdd.csv\")"
+  },
+  {
+    "symbol": "LONG_MAX_TOP_UNDER_MDD5",
+    "error": "EmptyDataError('No columns to parse from file')"
+  },
+  {
+    "symbol": "LOSS_CLUSTER_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_V2_DIAG_V6_20260510_184756\\\\loss_cluster_summary.csv\")"
+  },
+  {
+    "symbol": "LOTTO_DATA",
+    "error": "ValueError(\"필수 컬럼 누락: ['open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\NogarderLotto\\\\data\\\\lotto_data.csv\")"
+  },
+  {
+    "symbol": "MASTER_FOUR_COMBO_SIDE_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\integrated_four_2026\\\\FOUR_INTEGRATED_2026_ONLY_LV10_SPLIT100_NOCAP_STANDALONE_V3\\\\master_four_combo_side_summary.csv\")"
+  },
+  {
+    "symbol": "MASTER_FOUR_COMBO_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\integrated_four_2026\\\\FOUR_INTEGRATED_2026_ONLY_LV10_SPLIT100_NOCAP_STANDALONE_V3\\\\master_four_combo_summary.csv\")"
+  },
+  {
+    "symbol": "MT19937_TESTSET_1",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\mt19937-testset-1.csv\")"
+  },
+  {
+    "symbol": "MT19937_TESTSET_2",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\mt19937-testset-2.csv\")"
+  },
+  {
+    "symbol": "PAIR_FEEDBACK",
+    "error": "UnicodeDecodeError('utf-8', b'#,\\xb3\\xaf\\xc2\\xa5,\\xc0\\xce\\xc1\\xf5\\xb9\\xf8\\xc8\\xa3\\r\\n', 2, 3, 'invalid start byte')"
+  },
+  {
+    "symbol": "PARENT400_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\\\parent400_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "PARENT400_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\\\parent400_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "PARENT400_TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\\\parent400_trades_compact.csv\")"
+  },
+  {
+    "symbol": "PCG64DXSM_TESTSET_1",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\pcg64dxsm-testset-1.csv\")"
+  },
+  {
+    "symbol": "PCG64DXSM_TESTSET_2",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\pcg64dxsm-testset-2.csv\")"
+  },
+  {
+    "symbol": "PCG64_TESTSET_1",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\pcg64-testset-1.csv\")"
+  },
+  {
+    "symbol": "PCG64_TESTSET_2",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\pcg64-testset-2.csv\")"
+  },
+  {
+    "symbol": "PER_SYMBOL_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_DEV_V10_20260511_171158\\\\per_symbol_summary.csv\")"
+  },
+  {
+    "symbol": "PHILOX_TESTSET_1",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\philox-testset-1.csv\")"
+  },
+  {
+    "symbol": "PHILOX_TESTSET_2",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\philox-testset-2.csv\")"
+  },
+  {
+    "symbol": "PREDICTION_HISTORY",
+    "error": "ValueError(\"필수 컬럼 누락: ['open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\NogarderLotto\\\\prediction_history.csv\")"
+  },
+  {
+    "symbol": "RESTORE_EXACT_6V2_L01_FEE008_V3_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\local_results\\\\RESTORE_EXACT_6V2_L01_FEE008_V3\\\\RESTORE_EXACT_6V2_L01_FEE008_V3_registry.csv\")"
+  },
+  {
+    "symbol": "RESTORE_EXACT_6V2_L01_FEE008_V4_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\local_results\\\\RESTORE_EXACT_6V2_L01_FEE008_V4\\\\RESTORE_EXACT_6V2_L01_FEE008_V4_registry.csv\")"
+  },
+  {
+    "symbol": "RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\local_results\\\\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1\\\\RESTORE_EXACT_8V4_LONG400_FULL_FEE008_V1_registry.csv\")"
+  },
+  {
+    "symbol": "RESTORE_EXACT_8V4_V51_V002_FEE008_V4_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\local_results\\\\RESTORE_EXACT_8V4_V51_V002_FEE008_V4\\\\RESTORE_EXACT_8V4_V51_V002_FEE008_V4_registry.csv\")"
+  },
+  {
+    "symbol": "RESTORE_SHORT_BASELINES_REGISTRY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\RESTORE_ORIGINAL_SHORT_BASELINES_EMBEDDED\\\\restore_short_baselines_registry.csv\")"
+  },
+  {
+    "symbol": "REVERSE_4COMBO_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\reverse\\\\reverse_4combo_2026_lev10_split500_20260522_235807\\\\reverse_4combo_summary.csv\")"
+  },
+  {
+    "symbol": "SELECTED_PARENT_STRATEGIES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_PARENT_SIGNAL_DEV_V11\\\\selected_parent_strategies.csv\")"
+  },
+  {
+    "symbol": "SFC64_TESTSET_1",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\sfc64-testset-1.csv\")"
+  },
+  {
+    "symbol": "SFC64_TESTSET_2",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\random\\\\tests\\\\data\\\\sfc64-testset-2.csv\")"
+  },
+  {
+    "symbol": "SHADOW_FILTER_SCREEN",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_V2_DIAG_V6_20260510_184756\\\\shadow_filter_screen.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_ALL_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\short_main_all_results.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_DEV_V1_1_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\SHORT_MAIN_DEV_V1_1\\\\short_main_dev_v1_1_summary.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_DEV_V1_4_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_main\\\\SHORT_MAIN_DEV_V1_4\\\\short_main_dev_v1_4_summary.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_SM24_AROUND_V1_5_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_main\\\\SHORT_MAIN_SM24_AROUND_V1_5\\\\short_main_sm24_around_v1_5_summary.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_TOP_ANY_MDD",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\short_main_top_any_mdd.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_TOP_UNDER_MDD5",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\short_main_top_under_mdd5.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_V3_ENTRY_DEV_V1_6_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_main\\\\SHORT_MAIN_V3_ENTRY_DEV_V1_6\\\\short_main_v3_entry_dev_v1_6_summary.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_V5_ENTRY_DEV_V1_8_LITE_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_main\\\\SHORT_MAIN_V5_ENTRY_DEV_V1_8_LITE\\\\short_main_v5_entry_dev_v1_8_lite_summary.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_V6_ENTRY_DEV_V1_9_ULTRALITE_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_main\\\\SHORT_MAIN_V6_ENTRY_DEV_V1_9_ULTRALITE\\\\short_main_v6_entry_dev_v1_9_ultralite_summary.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAIN_V7_ACTUALBAR_DEV_V2_0_ULTRALITE_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_main\\\\SHORT_MAIN_V7_ACTUALBAR_DEV_V2_0_ULTRALITE\\\\short_main_v7_actualbar_dev_v2_0_ultralite_summary.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAX_ALL_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\short_max_all_results.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAX_TOP_ANY_MDD",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\8V13_MAINMAX_4AXIS_400_DIFFERENT_FLOW_NO_TRADE_CAP_20260429_153955\\\\short_max_top_any_mdd.csv\")"
+  },
+  {
+    "symbol": "SHORT_MAX_TOP_UNDER_MDD5",
+    "error": "EmptyDataError('No columns to parse from file')"
+  },
+  {
+    "symbol": "SHORT_RAW_PLANS_BEFORE_RUNNER_CONTROL",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\SHORT_MAIN_V6_ONLY_REPRO_V1_1_results\\\\short_raw_plans_before_runner_control.csv\")"
+  },
+  {
+    "symbol": "SHORT_RAW_TRADES_FROM_EXACT_STRATEGY_CODE",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\SHORT_MAIN_V6_COPY_PASTE_STRATEGY_CODE_REPRO_V2_results\\\\short_raw_trades_from_exact_strategy_code.csv\")"
+  },
+  {
+    "symbol": "SHORT_REPRODUCED_TRADES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\SHORT_MAIN_V6_COPY_PASTE_STRATEGY_CODE_REPRO_V2_results\\\\short_reproduced_trades.csv\")"
+  },
+  {
+    "symbol": "SHORT_REPRO_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\SHORT_MAIN_V6_COPY_PASTE_STRATEGY_CODE_REPRO_V2_results\\\\short_repro_summary.csv\")"
+  },
+  {
+    "symbol": "SIDE_GENERATION_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\integrated_four_2026\\\\FOUR_INTEGRATED_2026_ONLY_LV10_SPLIT100_NOCAP_STANDALONE_V3\\\\side_generation_summary.csv\")"
+  },
+  {
+    "symbol": "SIDE_SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\integrated_four_2026\\\\FOUR_INTEGRATED_2026_ONLY_LV10_SPLIT100_NOCAP_STANDALONE_V3\\\\combo_results\\\\lm_sm\\\\side_summary.csv\")"
+  },
+  {
+    "symbol": "SINGLE_TOP_RETEST_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_SINGLE_TOP_RETEST_DEV_V12\\\\single_top_retest_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "SINGLE_TOP_RETEST_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_SINGLE_TOP_RETEST_DEV_V12\\\\single_top_retest_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "SINGLE_TOP_RETEST_TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_SINGLE_TOP_RETEST_DEV_V12\\\\single_top_retest_trades_compact.csv\")"
+  },
+  {
+    "symbol": "STAGE_GATE_COUNTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_baseline_entry_recovery_audit_v2\\\\stage_gate_counts.csv\")"
+  },
+  {
+    "symbol": "SUMMARY",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_DEV_V10_20260511_171158\\\\summary.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_ALL",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_DEV_V11_20260511_212538\\\\summary_all.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_BEAT_V18",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_V18_IMPROVE_1H\\\\summary_beat_v18.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_BY_CD",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\LONG_MAX_CD_ENTRY_DEV_V1_20260508_133731\\\\summary_by_cd.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_main\\\\SHORT_MAIN_V7_ACTUALBAR_DEV_V2_1_FROZEN_ENGINE\\\\summary_compact.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_FULL",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_main\\\\SHORT_MAIN_V7_ACTUALBAR_DEV_V2_1_FROZEN_ENGINE\\\\summary_full.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_FULL_UNSORTED",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_max\\\\short_max_v10_dev_1h_candidates_v1_results\\\\summary_full_unsorted.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_LONG_MAIN_MDD_LT5",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_DEV_V11_20260511_212538\\\\summary_long_main_mdd_lt5.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_LONG_MAX_CD_RANK",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_DEV_V11_20260511_212538\\\\summary_long_max_cd_rank.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_MDD_LT5",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_V18_IMPROVE_1H\\\\summary_mdd_lt5.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_PROGRESS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\short_max\\\\short_max_v10_dev_1h_candidates_v1_results\\\\summary_progress.csv\")"
+  },
+  {
+    "symbol": "SUMMARY_TOP_ANY_MDD",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_V18_IMPROVE_1H\\\\summary_top_any_mdd.csv\")"
+  },
+  {
+    "symbol": "SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_EMBEDDED_ENTRY_DEV_V8\\\\symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "SYMBOL_SUMMARIES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_DEV_V11_20260511_212538\\\\symbol_summaries.csv\")"
+  },
+  {
+    "symbol": "TEST2",
+    "error": "ValueError(\"필수 컬럼 누락: ['open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\코인\\\\19_squuze\\\\test2.csv\")"
+  },
+  {
+    "symbol": "TRADES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\1V2\\\\1V2_L01_mirror_exact\\\\trades.csv\")"
+  },
+  {
+    "symbol": "TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_EMBEDDED_ENTRY_DEV_V8\\\\trades_compact.csv\")"
+  },
+  {
+    "symbol": "TRADE_FEATURES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_main\\\\LONG_MAIN_V2_DIAG_V6_20260510_184756\\\\trade_features.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_ARCCOS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-arccos.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_ARCCOSH",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-arccosh.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_ARCSIN",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-arcsin.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_ARCSINH",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-arcsinh.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_ARCTAN",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-arctan.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_ARCTANH",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-arctanh.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_CBRT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-cbrt.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_COS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-cos.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_COSH",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-cosh.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_EXP",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-exp.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_EXP2",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-exp2.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_EXPM1",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-expm1.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_LOG",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-log.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_LOG10",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-log10.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_LOG1P",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-log1p.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_LOG2",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-log2.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_SIN",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-sin.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_SINH",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-sinh.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_TAN",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-tan.csv\")"
+  },
+  {
+    "symbol": "UMATH_VALIDATION_SET_TANH",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\주식\\\\kiwoom_2\\\\Lib\\\\site-packages\\\\numpy\\\\core\\\\tests\\\\data\\\\umath-validation-set-tanh.csv\")"
+  },
+  {
+    "symbol": "V13_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V2_BASELINE_ENTRY_DEV_V13\\\\v13_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V13_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V2_BASELINE_ENTRY_DEV_V13\\\\v13_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V14_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V3_BASELINE_ENTRY_DEV_V14\\\\v14_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V14_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V3_BASELINE_ENTRY_DEV_V14\\\\v14_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V14_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V3_BASELINE_ENTRY_DEV_V14\\\\v14_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V15_AXIS_UPDATE_JUDGEMENT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V3_SINGLE_TOP_RETEST_DEV_V15\\\\v15_axis_update_judgement.csv\")"
+  },
+  {
+    "symbol": "V15_SINGLE_RETEST_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V3_SINGLE_TOP_RETEST_DEV_V15\\\\v15_single_retest_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V15_SINGLE_RETEST_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V3_SINGLE_TOP_RETEST_DEV_V15\\\\v15_single_retest_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V15_SINGLE_TOP_RETEST_DIFF",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V3_SINGLE_TOP_RETEST_DEV_V15\\\\v15_single_top_retest_diff.csv\")"
+  },
+  {
+    "symbol": "V16_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V4_BASELINE_ENTRY_DEV_V16\\\\v16_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V16_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V4_BASELINE_ENTRY_DEV_V16\\\\v16_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V16_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V4_BASELINE_ENTRY_DEV_V16\\\\v16_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V17_AXIS_UPDATE_JUDGEMENT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V4_SINGLE_TOP_RETEST_DEV_V17\\\\v17_axis_update_judgement.csv\")"
+  },
+  {
+    "symbol": "V17_SINGLE_RETEST_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V4_SINGLE_TOP_RETEST_DEV_V17\\\\v17_single_retest_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V17_SINGLE_RETEST_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V4_SINGLE_TOP_RETEST_DEV_V17\\\\v17_single_retest_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V17_SINGLE_TOP_RETEST_DIFF",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V4_SINGLE_TOP_RETEST_DEV_V17\\\\v17_single_top_retest_diff.csv\")"
+  },
+  {
+    "symbol": "V18_2025_AXIS_REBASELINE_JUDGEMENT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAIN_MAX_2025_BASELINE_RETEST_DEV_V18\\\\v18_2025_axis_rebaseline_judgement.csv\")"
+  },
+  {
+    "symbol": "V18_2025_BASELINE_RETEST_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAIN_MAX_2025_BASELINE_RETEST_DEV_V18\\\\v18_2025_baseline_retest_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V18_2025_BASELINE_RETEST_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAIN_MAX_2025_BASELINE_RETEST_DEV_V18\\\\v18_2025_baseline_retest_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V19_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V5_2025_BASELINE_ENTRY_DEV_V19\\\\v19_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V19_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V5_2025_BASELINE_ENTRY_DEV_V19\\\\v19_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V19_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V5_2025_BASELINE_ENTRY_DEV_V19\\\\v19_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V20_AXIS_UPDATE_JUDGEMENT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\\\v20_axis_update_judgement.csv\")"
+  },
+  {
+    "symbol": "V20_SINGLE_RETEST_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\\\v20_single_retest_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V20_SINGLE_RETEST_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\\\v20_single_retest_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V20_SINGLE_TOP_RETEST_DIFF",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V5_2025_SINGLE_TOP_RETEST_DEV_V20\\\\v20_single_top_retest_diff.csv\")"
+  },
+  {
+    "symbol": "V21_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V6_2025_BASELINE_ENTRY_DEV_V21\\\\v21_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V21_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V6_2025_BASELINE_ENTRY_DEV_V21\\\\v21_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V21_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_result\\\\long_max\\\\LONG_MAX_V6_2025_BASELINE_ENTRY_DEV_V21\\\\v21_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V22_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_BASELINE_ENTRY_DEV_V22\\\\v22_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V22_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_BASELINE_ENTRY_DEV_V22\\\\v22_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V22_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_BASELINE_ENTRY_DEV_V22\\\\v22_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V23_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_BASELINE_ENTRY_DEV_V23\\\\v23_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V23_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_BASELINE_ENTRY_DEV_V23\\\\v23_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V23_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_BASELINE_ENTRY_DEV_V23\\\\v23_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V23_DEV_TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_BASELINE_ENTRY_DEV_V23\\\\v23_dev_trades_compact.csv\")"
+  },
+  {
+    "symbol": "V24_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_COMBO_ENTRY_DEV_V24\\\\v24_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V24_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_COMBO_ENTRY_DEV_V24\\\\v24_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V24_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_COMBO_ENTRY_DEV_V24\\\\v24_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V24_DEV_TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V7_2025_COMBO_ENTRY_DEV_V24\\\\v24_dev_trades_compact.csv\")"
+  },
+  {
+    "symbol": "V25_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V8_2025_SINGLE_RETEST_DEV_V25\\\\v25_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V25_RETEST_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V8_2025_SINGLE_RETEST_DEV_V25\\\\v25_retest_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V25_RETEST_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V8_2025_SINGLE_RETEST_DEV_V25\\\\v25_retest_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V25_RETEST_TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V8_2025_SINGLE_RETEST_DEV_V25\\\\v25_retest_trades_compact.csv\")"
+  },
+  {
+    "symbol": "V26_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V9_2025_ENTRY_DEV_V26\\\\v26_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V26_DEV_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V9_2025_ENTRY_DEV_V26\\\\v26_dev_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V26_DEV_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V9_2025_ENTRY_DEV_V26\\\\v26_dev_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V26_DEV_TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V9_2025_ENTRY_DEV_V26\\\\v26_dev_trades_compact.csv\")"
+  },
+  {
+    "symbol": "V27_AXIS_WINNER_COMPARISON",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V9_2025_COMBO_DEV_V27\\\\v27_axis_winner_comparison.csv\")"
+  },
+  {
+    "symbol": "V27_COMBO_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V9_2025_COMBO_DEV_V27\\\\v27_combo_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V27_COMBO_SYMBOL_STRATEGY_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V9_2025_COMBO_DEV_V27\\\\v27_combo_symbol_strategy_results.csv\")"
+  },
+  {
+    "symbol": "V27_COMBO_TRADES_COMPACT",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V9_2025_COMBO_DEV_V27\\\\v27_combo_trades_compact.csv\")"
+  },
+  {
+    "symbol": "V28_CROSS_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V10_2025_CROSS_LONGMAIN_LONGMAX_DEV_V28_STANDALONE\\\\v28_cross_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V28_TOP20",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V10_2025_CROSS_LONGMAIN_LONGMAX_DEV_V28_STANDALONE\\\\v28_top20.csv\")"
+  },
+  {
+    "symbol": "V29_RETEST_AGGREGATE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V10_2025_TOP1_RETEST_V29_STANDALONE\\\\v29_retest_aggregate_results.csv\")"
+  },
+  {
+    "symbol": "V29_TOP20",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V10_2025_TOP1_RETEST_V29_STANDALONE\\\\v29_top20.csv\")"
+  },
+  {
+    "symbol": "V30_LM23R001_LONGMAX_CORE_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V11_2025_LM23R001_LONGMAX_CORE_DEV_V30_STANDALONE\\\\v30_lm23r001_longmax_core_results.csv\")"
+  },
+  {
+    "symbol": "V30_TOP30",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V11_2025_LM23R001_LONGMAX_CORE_DEV_V30_STANDALONE\\\\v30_top30.csv\")"
+  },
+  {
+    "symbol": "V31_TOP1_RETEST_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V12_2025_V30_TOP1_RETEST_V31_STANDALONE\\\\v31_top1_retest_results.csv\")"
+  },
+  {
+    "symbol": "V31_TOP20",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V12_2025_V30_TOP1_RETEST_V31_STANDALONE\\\\v31_top20.csv\")"
+  },
+  {
+    "symbol": "V33_LM26_LONGMAX_DEV_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V14_2025_LM26_BASELINE_DEV_V33_STANDALONE\\\\v33_lm26_longmax_dev_results.csv\")"
+  },
+  {
+    "symbol": "V33_TOP30",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V14_2025_LM26_BASELINE_DEV_V33_STANDALONE\\\\v33_top30.csv\")"
+  },
+  {
+    "symbol": "V34_LM26_TOP_MIX_FAST_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V15_2025_LM26_TOP_MIX_FAST_V34_STANDALONE\\\\v34_lm26_top_mix_fast_results.csv\")"
+  },
+  {
+    "symbol": "V34_TOP20",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V15_2025_LM26_TOP_MIX_FAST_V34_STANDALONE\\\\v34_top20.csv\")"
+  },
+  {
+    "symbol": "V35_TOP1_RETEST_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V16_2025_V34_TOP1_RETEST_V35_STANDALONE\\\\v35_top1_retest_results.csv\")"
+  },
+  {
+    "symbol": "V35_TOP20",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V16_2025_V34_TOP1_RETEST_V35_STANDALONE\\\\v35_top20.csv\")"
+  },
+  {
+    "symbol": "V36_FAST_DEV_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V17_2025_V35_BASELINE_FAST_DEV_V36_STANDALONE\\\\v36_fast_dev_results.csv\")"
+  },
+  {
+    "symbol": "V36_TOP20",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V17_2025_V35_BASELINE_FAST_DEV_V36_STANDALONE\\\\v36_top20.csv\")"
+  },
+  {
+    "symbol": "V37_BODY44_EXPANSION_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V18_2025_BODY44_EXPANSION_DEV_V37_STANDALONE\\\\v37_body44_expansion_results.csv\")"
+  },
+  {
+    "symbol": "V37_TOP20",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V18_2025_BODY44_EXPANSION_DEV_V37_STANDALONE\\\\v37_top20.csv\")"
+  },
+  {
+    "symbol": "V38_DYNAMIC_RETURN_RESULTS",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V19_2025_DYNAMIC_RETURN_DEV_V38_STANDALONE\\\\v38_dynamic_return_results.csv\")"
+  },
+  {
+    "symbol": "V38_TOP20",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\local_results\\\\long_max\\\\LONG_MAX_V19_2025_DYNAMIC_RETURN_DEV_V38_STANDALONE\\\\v38_top20.csv\")"
+  },
+  {
+    "symbol": "VARIANT_SUMMARIES",
+    "error": "ValueError(\"필수 컬럼 누락: ['timestamp', 'open', 'high', 'low', 'close', 'volume'] / file=C:\\\\Users\\\\user\\\\Desktop\\\\LCD\\\\파이썬\\\\SHORT_MAIN_V6_ONLY_REPRO_V1_1_results\\\\variant_summaries.csv\")"
+  }
+]
