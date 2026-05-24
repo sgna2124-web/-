@@ -1,0 +1,2 @@
+﻿strategy,note,trades,max_return_pct,max_drawdown_pct,official_cd_value,profit_factor
+smv10_dev1_01_v10_stop210_rr550,현재 공식 기준선 short_max v11. v10에서 atr_stop_mult 2.05 -> 2.10 변경.,64128,3942.1044355472736,4.38893845928694,3864.6989594109964,1.7555392280496656
