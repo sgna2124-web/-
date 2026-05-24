@@ -1,0 +1,9 @@
+trades: got=8395147, expected=55597
+wins: got=3399463, expected=22513
+losses: got=4995684, expected=33084
+symbol_files: got=851, expected=597
+errors: got=254, expected=0
+final_return_pct: got=1.7415711221185035e+122, expected=525.6012732388051
+max_return_pct: got=1.744909231486716e+122, expected=526.8003775673284
+max_drawdown_pct: got=79.56493577387714, expected=1.3626489750456883
+official_cd_value: got=3.5657332214185714e+121, expected=618.2592886468248
