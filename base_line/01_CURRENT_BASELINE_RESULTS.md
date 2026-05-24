@@ -32,92 +32,92 @@ official_cd_value = 100 * (1 - abs(max_drawdown_pct) / 100) * (1 + max_return_pc
 - 2026 데이터는 EMA, RSI, ATR 계산 전부터 제외한다.
 
 1. short_max 현재 기준선
-전략명: smv10_dev1_01_v10_stop210_rr550
+전략명: smv11_topcombo1_03_combo03_stop215_rr540_tr4_top1_plus_rr540
 축: short_max
-기준선 버전: base_line/short_max/v11
-이전 기준선: base_line/short_max/v10
-선택 기준: short_max식, MDD 10% 미만, 단독 결과에서 기존 v10보다 official_cd_value가 높고 MDD가 낮음
+기준선 버전: base_line/short_max/v12
+이전 기준선: base_line/short_max/v11
+선택 기준: short_max식, MDD 10% 미만, 기존 v11보다 official_cd_value가 높고 MDD가 낮음
 엔진: actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231
-실행 코드/사양: base_line/short_max/v11
-결과 출처: local_results/short_max/short_max_v10_dev_1h_candidates_v1_results/summary_compact.csv
+실행 코드/사양: base_line/short_max/v12
+결과 출처: local_results/short_max/short_max_v11_top_exit_combo_fast_1h_v1_results/summary_compact.csv
 
 2025 train 기준 결과
+trades: 63863
+wins: 7025
+losses: 56838
+win_rate_pct: 11.000109609633121
+final_return_pct: 4220.190005886
+max_return_pct: 4220.190005886
+max_drawdown_pct: 4.260534220480682
+official_cd_value: 4136.12683229544
+profit_factor: 1.7783712609125915
+max_conc: 310
+max_conc_unique_symbols: 310
+same_bar_trades: 3477
+active_leftover: 0
+pending_leftover: 0
+blocked_by_guard: 169
+generated_entry_candidates: 64032
+executed_entries: 63863
+load_errors: 0
+
+이전 short_max v11 기준선
+strategy: smv10_dev1_01_v10_stop210_rr550
 trades: 64128
-wins: 7022
-losses: 57106
-win_rate_pct: 10.9499750499002
-final_return_pct: 3942.1044355472736
 max_return_pct: 3942.1044355472736
 max_drawdown_pct: 4.38893845928694
 official_cd_value: 3864.6989594109964
 profit_factor: 1.7555392280496656
-max_conc: 310
-max_conc_unique_symbols: 310
-same_bar_trades: 3696
-active_leftover: 0
-pending_leftover: 0
-blocked_by_guard: 151
-generated_entry_candidates: 64279
-executed_entries: 64128
-load_errors: 0
-
-이전 short_max v10 기준선
-strategy: smv9_topcombo1_01_tr4_stop205_rr550
-trades: 64339
-max_return_pct: 3689.4315334640614
-max_drawdown_pct: 4.629389056231814
-official_cd_value: 3614.004004760479
-profit_factor: 1.726703002070718
 
 차이
-delta_cd_vs_v10: +250.6949546505175
-delta_mdd_vs_v10: -0.24045059694487403
-delta_trades_vs_v10: -211
-판단: short_max 공식 기준선으로 승격한다. 이후 short_max 개선은 v11 기준으로 한다.
+delta_cd_vs_v11: +271.4278728844438
+delta_mdd_vs_v11: -0.12840423880625718
+delta_trades_vs_v11: -265
+판단: short_max 공식 기준선으로 승격한다. 이후 short_max 개선은 v12 기준으로 한다.
 
 2. short_main 현재 기준선
-전략명: smv10_dev1_01_v10_stop210_rr550
+전략명: smv11_topcombo1_03_combo03_stop215_rr540_tr4_top1_plus_rr540
 축: short_main
-기준선 버전: base_line/short_main/v12
-이전 기준선: base_line/short_main/v11
-선택 기준: short_main식, MDD 5% 미만, 기존 v11보다 official_cd_value가 높고 MDD가 낮음
+기준선 버전: base_line/short_main/v13
+이전 기준선: base_line/short_main/v12
+선택 기준: short_main식, MDD 5% 미만, 기존 v12보다 official_cd_value가 높고 MDD가 낮음
 엔진: actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231
-실행 코드/사양: base_line/short_main/v12
-결과 출처: local_results/short_max/short_max_v10_dev_1h_candidates_v1_results/summary_compact.csv
+실행 코드/사양: base_line/short_main/v13
+결과 출처: local_results/short_max/short_max_v11_top_exit_combo_fast_1h_v1_results/summary_compact.csv
 
 2025 train 기준 결과
+trades: 63863
+wins: 7025
+losses: 56838
+win_rate_pct: 11.000109609633121
+final_return_pct: 4220.190005886
+max_return_pct: 4220.190005886
+max_drawdown_pct: 4.260534220480682
+official_cd_value: 4136.12683229544
+profit_factor: 1.7783712609125915
+max_conc: 310
+max_conc_unique_symbols: 310
+same_bar_trades: 3477
+active_leftover: 0
+pending_leftover: 0
+blocked_by_guard: 169
+generated_entry_candidates: 64032
+executed_entries: 63863
+load_errors: 0
+
+이전 short_main v12 기준선
+strategy: smv10_dev1_01_v10_stop210_rr550
 trades: 64128
-wins: 7022
-losses: 57106
-win_rate_pct: 10.9499750499002
-final_return_pct: 3942.1044355472736
 max_return_pct: 3942.1044355472736
 max_drawdown_pct: 4.38893845928694
 official_cd_value: 3864.6989594109964
 profit_factor: 1.7555392280496656
-max_conc: 310
-max_conc_unique_symbols: 310
-same_bar_trades: 3696
-active_leftover: 0
-pending_leftover: 0
-blocked_by_guard: 151
-generated_entry_candidates: 64279
-executed_entries: 64128
-load_errors: 0
-
-이전 short_main v11 기준선
-strategy: smv9_topcombo1_01_tr4_stop205_rr550
-trades: 64339
-max_return_pct: 3689.4315334640614
-max_drawdown_pct: 4.629389056231814
-official_cd_value: 3614.004004760479
-profit_factor: 1.726703002070718
 
 차이
-delta_cd_vs_v11: +250.6949546505175
-delta_mdd_vs_v11: -0.24045059694487403
-delta_trades_vs_v11: -211
-판단: MDD 4.38893845928694로 short_main식 5% 미만 조건을 통과하므로 short_main 공식 기준선으로도 승격한다. 이후 short_main 개선은 v12 기준으로 한다.
+delta_cd_vs_v12: +271.4278728844438
+delta_mdd_vs_v12: -0.12840423880625718
+delta_trades_vs_v12: -265
+판단: MDD 4.260534220480682로 short_main식 5% 미만 조건을 통과하므로 short_main 공식 기준선으로도 승격한다. 이후 short_main 개선은 v13 기준으로 한다.
 
 운영 판단
-short_max는 v11, short_main은 v12가 현재 공식 기준선이다. 이후 숏 계열 후보 개발은 반드시 actual bar engine과 2025 train / 2026 holdout 분리 규칙을 따른다. 구엔진 결과는 참고값으로만 사용한다.
+short_max는 v12, short_main은 v13이 현재 공식 기준선이다. 이후 숏 계열 후보 개발은 반드시 actual bar engine과 2025 train / 2026 holdout 분리 규칙을 따른다. 구엔진 결과는 참고값으로만 사용한다.
