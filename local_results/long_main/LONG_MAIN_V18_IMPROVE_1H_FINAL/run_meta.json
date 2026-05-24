@@ -1,0 +1,14 @@
+{
+  "run_label": "LONG_MAIN_V18_IMPROVE_1H_FINAL",
+  "method": "standalone LOW-RESOURCE retest of V34 top1 candidate with minimal sensitivity checks",
+  "result_scope": "2025년까지의 데이터 기준",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_strategy": "LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_RETEST_FROM_V34_TOP1_S130_RR625_B400_H17_C32",
+  "baseline_cd_expected": 618.2592886468248,
+  "baseline_trades_expected": 55597,
+  "baseline_mdd_expected": 1.3626489750456883,
+  "strategy_count": 151,
+  "resource_policy": "low-resource: reduced candidates, single process, trade rows disabled unless --save-trade-rows is explicitly used",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬",
+  "out_dir": "C:\\Users\\user\\Documents\\GitHub\\-\\local_results\\long_main\\LONG_MAIN_V18_IMPROVE_1H_FINAL"
+}
