@@ -1,0 +1,2 @@
+﻿combo,run_label,trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,official_cd_value,max_conc,same_bar_trades,active_leftover,blocked_by_cap,cap_removed,ruined,leverage,position_fraction,effective_notional_fraction,fee_per_side,split_n,rank_metric
+short_max_v12_L30_SPLIT50,SHORT_MAX_V12_2026_ONLY_LEVERAGE_SPLIT_SWEEP_V1,874,136,738,15.560640732265446,2672.1043657217056,2717.5549733164103,65.49539992930282,972.186075314866,25,62,0,0,True,False,30.0,0.02,0.6,0.0004,50,2672.1043657217056
