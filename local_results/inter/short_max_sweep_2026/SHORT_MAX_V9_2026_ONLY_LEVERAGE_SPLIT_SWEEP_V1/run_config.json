@@ -1,0 +1,30 @@
+{
+  "run_label": "SHORT_MAX_V9_2026_ONLY_LEVERAGE_SPLIT_SWEEP_V1",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "period": {
+    "start_date": "2026-01-01 00:00:00",
+    "end_date": "2027-01-01 00:00:00"
+  },
+  "source_csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "short_max_meta": {
+    "generated_entry_candidates": 868,
+    "executed_entries": 868,
+    "blocked_by_guard": 0,
+    "max_conc_side": 27,
+    "max_conc_unique_symbols": 27,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "engine": "actual_bar_engine_embedded",
+    "load_errors": 0
+  },
+  "short_max_trades": 868,
+  "leverage_grid": "1,2,3,5,7,10,12,15,20,25,30",
+  "split_grid": "50,75,100,125,150,200,250,300,400,500,700,800,1000",
+  "fee_per_side": 0.0004,
+  "no_repo_root_lookup": true,
+  "no_baseline_file_read": true,
+  "no_position_cap": true,
+  "selection_rule": "best final_return_pct; use best_by_mdd_limit.csv for risk-constrained selection"
+}
