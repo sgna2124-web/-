@@ -1,0 +1,14 @@
+{
+  "run_label": "LONG_MAX_V19_2025_DYNAMIC_RETURN_DEV_V38_STANDALONE",
+  "method": "standalone LOW-RESOURCE V38 dynamic return expansion from V37 body48 winner; high RR/hold expansion, candidate count limited",
+  "result_scope": "2025년까지의 데이터 기준",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "baseline_strategy": "LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32",
+  "baseline_cd_expected": 618.2592886468248,
+  "baseline_trades_expected": 55597,
+  "baseline_mdd_expected": 1.3626489750456883,
+  "strategy_count": 38,
+  "resource_policy": "low-resource: reduced candidates, single process, trade rows disabled unless --save-trade-rows is explicitly used",
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\long_max\\LONG_MAX_V19_2025_DYNAMIC_RETURN_DEV_V38_STANDALONE"
+}
