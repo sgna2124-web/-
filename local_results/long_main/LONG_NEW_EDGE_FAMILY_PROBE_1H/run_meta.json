@@ -1,0 +1,19 @@
+{
+  "batch": "LONG_NEW_EDGE_FAMILY_PROBE_1H",
+  "purpose": "new long edge family exploration, not baseline improvement",
+  "families": [
+    "breadth_leadership_proxy",
+    "regime_transition_continuation",
+    "relative_strength_long",
+    "slow_momentum_persistence",
+    "vol_contraction_expansion"
+  ],
+  "spec_count": 126,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "cost_pct_round_trip": 0.08,
+  "notes": [
+    "No baseline reproduction is attempted because this is a new family probe.",
+    "Focus is continuation/drift/relative strength, not flush/reclaim recovery."
+  ]
+}
