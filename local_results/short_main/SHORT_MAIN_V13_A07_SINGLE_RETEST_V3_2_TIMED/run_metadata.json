@@ -1,0 +1,75 @@
+{
+  "script": "short_main_v13_A07_single_retest_v3_2_timed.py",
+  "purpose": "SM31_A07_timereduce3 single retest vs official short_main v13, timed 1h target",
+  "baseline": "smv11_topcombo1_03_combo03_stop215_rr540_tr4_top1_plus_rr540",
+  "baseline_version": "short_main/v13",
+  "official_v13": {
+    "trades": 63863,
+    "wins": 7025,
+    "losses": 56838,
+    "win_rate_pct": 11.000109609633121,
+    "final_return_pct": 4220.190005886,
+    "max_return_pct": 4220.190005886,
+    "max_drawdown_pct": 4.260534220480682,
+    "official_cd_value": 4136.12683229544,
+    "profit_factor": 1.7783712609125915,
+    "max_conc": 310,
+    "max_conc_unique_symbols": 310,
+    "same_bar_trades": 3477,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "expected_candidate": {
+    "trades": 66502,
+    "wins": 6605,
+    "losses": 59897,
+    "win_rate_pct": 9.932032119334757,
+    "max_return_pct": 4614.482985993597,
+    "max_drawdown_pct": 3.9607898619140935,
+    "official_cd_value": 4527.752221842698,
+    "profit_factor": 1.8866243023753528,
+    "max_conc": 305,
+    "same_bar_trades": 3742,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "include_parent": false,
+  "baseline_reproduction_gate_pass": null,
+  "baseline_reproduction_gate_mode": "skipped_parent_not_run",
+  "baseline_reproduction_issues": [
+    "parent_not_run_default_candidate_only"
+  ],
+  "train_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "data_scope": "train_only_until_2025_12_31_end_before_indicator_calculation",
+  "engine_rules": [
+    "previous candle close signal -> current open pending entry",
+    "same timestamp exit cannot enable same timestamp entry",
+    "current candle exit affects next timestamp",
+    "same-bar TP/SL allowed",
+    "DD brake applies from next timestamp",
+    "2026 excluded before indicator calculation",
+    "active positions force-closed at train final close"
+  ],
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "strategy_count": 1,
+  "target_runtime_minutes": 60,
+  "total_elapsed_seconds": 2133.567151699999,
+  "total_elapsed_minutes": 35.55945252833332,
+  "run_started_at": "2026-05-25T19:05:19",
+  "run_finished_at": "2026-05-25T19:40:53",
+  "no_multiprocessing": true,
+  "no_candle_limit": true,
+  "variants": [
+    {
+      "strategy": "SM32_A07_single_retest_timereduce3_vs_v13",
+      "family": "single_retest",
+      "description": "SM31_A07_timereduce3 single retest against official short_main v13"
+    }
+  ]
+}
