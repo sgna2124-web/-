@@ -1,0 +1,2 @@
+﻿strategy,note,trades,max_return_pct,max_drawdown_pct,official_cd_value,profit_factor
+smv11_topcombo1_03_combo03_stop215_rr540_tr4_top1_plus_rr540,"현재 공식 기준선 short_max v12. v11에서 atr_stop_mult 2.10 -> 2.15, rr_mult 5.5 -> 5.4 변경.",63863,4220.190005886,4.260534220480682,4136.12683229544,1.7783712609125915
