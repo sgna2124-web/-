@@ -1,0 +1,13 @@
+{
+  "script": "short_main_v12_next_dev_v3_1_1h_timed.py",
+  "target_runtime_minutes": 60,
+  "total_elapsed_seconds": 58254.02558179997,
+  "total_elapsed_minutes": 970.9004263633328,
+  "planned_strategy_count": 18,
+  "completed_strategy_count": 18,
+  "avg_strategy_elapsed_seconds": 3209.956629549994,
+  "max_strategy_elapsed_seconds": 4396.967799299979,
+  "min_strategy_elapsed_seconds": 2339.0940955000115,
+  "run_started_at": "2026-05-24T19:12:42",
+  "run_finished_at": "2026-05-25T11:23:36"
+}

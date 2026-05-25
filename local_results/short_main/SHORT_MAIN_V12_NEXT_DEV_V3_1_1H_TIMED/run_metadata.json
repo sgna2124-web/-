@@ -1,0 +1,142 @@
+{
+  "script": "short_main_v12_next_dev_v3_1_1h_timed.py",
+  "purpose": "short_main v12 next dev v3.1, 1h-target timed run, train<=2025",
+  "baseline": "smv10_dev1_01_v10_stop210_rr550",
+  "baseline_version": "short_main/v12",
+  "baseline_reproduction_gate_pass": true,
+  "baseline_reproduction_issues": [],
+  "official_v12": {
+    "trades": 64128,
+    "wins": 7022,
+    "losses": 57106,
+    "win_rate_pct": 10.9499750499002,
+    "final_return_pct": 3942.1044355472736,
+    "max_return_pct": 3942.1044355472736,
+    "max_drawdown_pct": 4.38893845928694,
+    "official_cd_value": 3864.6989594109964,
+    "profit_factor": 1.7555392280496656,
+    "max_conc": 310,
+    "max_conc_unique_symbols": 310,
+    "same_bar_trades": 3696,
+    "active_leftover": 0,
+    "pending_leftover": 0,
+    "load_errors": 0
+  },
+  "train_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "data_scope": "train_only_until_2025_12_31_end_before_indicator_calculation",
+  "engine_rules": [
+    "previous candle close signal -> current open pending entry",
+    "same timestamp exit cannot enable same timestamp entry",
+    "current candle exit affects next timestamp",
+    "same-bar TP/SL allowed",
+    "DD brake applies from next timestamp",
+    "2026 excluded before indicator calculation",
+    "active positions force-closed at train final close"
+  ],
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "strategy_count": 18,
+  "planned_strategy_count": 18,
+  "target_runtime_minutes": 60,
+  "total_elapsed_seconds": 58254.02558179997,
+  "total_elapsed_minutes": 970.9004263633328,
+  "run_started_at": "2026-05-24T19:12:42",
+  "run_finished_at": "2026-05-25T11:23:36",
+  "no_multiprocessing": true,
+  "no_candle_limit": true,
+  "variants": [
+    {
+      "strategy": "SMV12_00_parent_smv10_dev1_01_v10_stop210_rr550",
+      "family": "v12_baseline",
+      "description": "official short_main v12 baseline reproduction"
+    },
+    {
+      "strategy": "SM31_A01_atrstop2075",
+      "family": "single_exit",
+      "description": "atr_stop 2.10 -> 2.075"
+    },
+    {
+      "strategy": "SM31_A02_atrstop2125",
+      "family": "single_exit",
+      "description": "atr_stop 2.10 -> 2.125"
+    },
+    {
+      "strategy": "SM31_A03_rr540",
+      "family": "single_exit",
+      "description": "rr 5.50 -> 5.40"
+    },
+    {
+      "strategy": "SM31_A04_rr560",
+      "family": "single_exit",
+      "description": "rr 5.50 -> 5.60"
+    },
+    {
+      "strategy": "SM31_A05_timeout195",
+      "family": "single_time",
+      "description": "timeout 200 -> 195"
+    },
+    {
+      "strategy": "SM31_A06_timeout205",
+      "family": "single_time",
+      "description": "timeout 200 -> 205"
+    },
+    {
+      "strategy": "SM31_A07_timereduce3",
+      "family": "single_time",
+      "description": "time_reduce 4 -> 3"
+    },
+    {
+      "strategy": "SM31_A08_timereduce5",
+      "family": "single_time",
+      "description": "time_reduce 4 -> 5"
+    },
+    {
+      "strategy": "SM31_B01_dev0315",
+      "family": "single_entry",
+      "description": "short_dev 0.032 -> 0.0315"
+    },
+    {
+      "strategy": "SM31_B02_dev0325",
+      "family": "single_entry",
+      "description": "short_dev 0.032 -> 0.0325"
+    },
+    {
+      "strategy": "SM31_B03_wick1275",
+      "family": "single_entry",
+      "description": "wick 1.30 -> 1.275"
+    },
+    {
+      "strategy": "SM31_B04_wick1325",
+      "family": "single_entry",
+      "description": "wick 1.30 -> 1.325"
+    },
+    {
+      "strategy": "SM31_B05_scoredevw1275",
+      "family": "single_score",
+      "description": "score_dev_weight 1.30 -> 1.275"
+    },
+    {
+      "strategy": "SM31_B06_scoredevw1325",
+      "family": "single_score",
+      "description": "score_dev_weight 1.30 -> 1.325"
+    },
+    {
+      "strategy": "SM31_C01_atr2075_rr560",
+      "family": "focused_combo",
+      "description": "atr_stop 2.075 + rr 5.60"
+    },
+    {
+      "strategy": "SM31_C02_atr2125_rr540",
+      "family": "focused_combo",
+      "description": "atr_stop 2.125 + rr 5.40"
+    },
+    {
+      "strategy": "SM31_C03_timeout195_tr3",
+      "family": "focused_combo",
+      "description": "timeout 195 + time_reduce 3"
+    }
+  ]
+}
