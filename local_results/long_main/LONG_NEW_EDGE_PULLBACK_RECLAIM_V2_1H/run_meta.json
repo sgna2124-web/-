@@ -1,0 +1,18 @@
+{
+  "batch": "LONG_NEW_EDGE_PULLBACK_RECLAIM_V2_1H",
+  "purpose": "new long edge family v2: strength + pullback + reclaim",
+  "families": [
+    "failed_breakdown_reclaim",
+    "leader_shallow_pullback_continuation",
+    "rs_pullback_reclaim",
+    "tight_leader_reacceleration"
+  ],
+  "spec_count": 99,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "cost_pct_round_trip": 0.08,
+  "notes": [
+    "No baseline reproduction is attempted because this is a new family probe.",
+    "Focus is strength + shallow pullback + reclaim confirmation."
+  ]
+}
