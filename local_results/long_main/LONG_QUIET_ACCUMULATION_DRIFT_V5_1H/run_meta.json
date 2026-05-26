@@ -1,0 +1,19 @@
+{
+  "batch": "LONG_QUIET_ACCUMULATION_DRIFT_V5_1H",
+  "purpose": "new long edge family v5: quiet accumulation / low volatility drift",
+  "families": [
+    "low_volume_micro_drift",
+    "quiet_ema_accumulation",
+    "quiet_low_vol_drift",
+    "quiet_range_upper_drift"
+  ],
+  "spec_count": 81,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "cost_pct_round_trip": 0.08,
+  "notes": [
+    "Fifth attempt after strong-move-centered long families failed.",
+    "Focus is low volatility, low noise, small positive drift, no breakout.",
+    "No baseline/frozen runner touched."
+  ]
+}
