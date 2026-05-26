@@ -1,0 +1,90 @@
+[
+  {
+    "symbol": "ARPA",
+    "error": "MemoryError((441930,), dtype('float64'))"
+  },
+  {
+    "symbol": "ASR",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "ASTER",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "ASTR",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AT",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "ATA",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "ATH",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "ATOM",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AUCTION",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AVA",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AVAAI",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AVAX",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AVNT",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AWE",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AXL",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "AXS",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "B",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "B2",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "B3",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "BABY",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "BADGER",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  },
+  {
+    "symbol": "BAKE",
+    "error": "ParserError('Error tokenizing data. C error: out of memory')"
+  }
+]
