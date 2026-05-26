@@ -1,0 +1,19 @@
+{
+  "script": "short_main_v14_new_axis_dev_v4_0_fast.py",
+  "target_runtime_minutes": 60,
+  "total_elapsed_seconds": 1083.7633362999986,
+  "total_elapsed_minutes": 18.062722271666644,
+  "load_elapsed_seconds": 699.3612447999985,
+  "load_elapsed_minutes": 11.656020746666643,
+  "planned_strategy_count": 1,
+  "completed_strategy_count": 1,
+  "include_parent": false,
+  "candidate": "climax_v01",
+  "candidate_label": "volume + pump + rejection exhaustion",
+  "candidate_intent": "거래량 과열, 12캔들 급등, 단기 가속, 윗꼬리 rejection, 연속 상승 피로도를 결합한 신규축",
+  "avg_strategy_elapsed_seconds": 256.89599090000047,
+  "max_strategy_elapsed_seconds": 256.89599090000047,
+  "min_strategy_elapsed_seconds": 256.89599090000047,
+  "run_started_at": "2026-05-26T16:29:15",
+  "run_finished_at": "2026-05-26T16:47:18"
+}
