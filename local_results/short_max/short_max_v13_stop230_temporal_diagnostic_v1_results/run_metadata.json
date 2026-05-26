@@ -1,0 +1,31 @@
+{
+  "script": "run_short_max_v13_stop230_temporal_diagnostic_v1.py",
+  "purpose": "Check whether smv13_structdev1_24_stop230_rr540 performance is broad across time or concentrated in special periods.",
+  "data_scope": "train_only_until_2025_12_31_end",
+  "end_date": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "holdout_policy": "2026 data is excluded before indicator calculation and reserved for validation",
+  "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231_TEMPORAL_DIAGNOSTIC",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max_v13_stop230_temporal_diagnostic_v1_results",
+  "elapsed_minutes": 9.258,
+  "include_baseline": false,
+  "files_created": [
+    "summary_compact.csv",
+    "monthly_breakdown.csv",
+    "quarterly_breakdown.csv",
+    "yearly_breakdown.csv",
+    "concentration_report.csv",
+    "equity_month_end.csv",
+    "trade_detail.csv"
+  ],
+  "concentration_interpretation": [
+    "positive_month_ratio_pct가 높으면 신호가 기간 전체에 넓게 분포한 것이다.",
+    "top3_month_share_pct가 과도하게 높으면 소수 특수월 의존도가 높다.",
+    "yearly_breakdown에서 특정 연도만 큰 플러스면 특수 구간 의존 가능성이 크다.",
+    "trade_detail로 월별, 심볼별, 청산사유별 원인을 재검증할 수 있다."
+  ]
+}
