@@ -1,0 +1,18 @@
+{
+  "script": "short_main_v14_new_axis_mdd10_sweep_v4_1_fast.py",
+  "target_runtime_minutes": 60,
+  "total_elapsed_seconds": 3201.7281159999984,
+  "total_elapsed_minutes": 53.36213526666664,
+  "load_elapsed_seconds": 500.4122408999974,
+  "load_elapsed_minutes": 8.340204014999957,
+  "planned_strategy_count": 8,
+  "completed_strategy_count": 8,
+  "include_parent": false,
+  "candidate": "all",
+  "criterion": "max official_cd_value among max_drawdown_pct < 10.0",
+  "avg_strategy_elapsed_seconds": 328.1284187625015,
+  "max_strategy_elapsed_seconds": 383.0140553000019,
+  "min_strategy_elapsed_seconds": 285.12519079999765,
+  "run_started_at": "2026-05-26T21:38:17",
+  "run_finished_at": "2026-05-26T22:31:39"
+}
