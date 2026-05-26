@@ -1,0 +1,19 @@
+{
+  "script": "short_main_v14_next_single_dev_v3_3_1_fixed.py",
+  "target_runtime_minutes": 60,
+  "total_elapsed_seconds": 5583.341895800001,
+  "total_elapsed_minutes": 93.05569826333335,
+  "load_elapsed_seconds": 654.8847901999998,
+  "load_elapsed_minutes": 10.91474650333333,
+  "planned_strategy_count": 1,
+  "completed_strategy_count": 1,
+  "include_parent": false,
+  "candidate": "rr545",
+  "candidate_label": "rr_mult 5.40 -> 5.45",
+  "candidate_intent": "v14의 낮은 MDD 구조를 유지하면서 목표가를 소폭 늘려 CD 확장 확인",
+  "avg_strategy_elapsed_seconds": 4816.234956599999,
+  "max_strategy_elapsed_seconds": 4816.234956599999,
+  "min_strategy_elapsed_seconds": 4816.234956599999,
+  "run_started_at": "2026-05-26T12:08:44",
+  "run_finished_at": "2026-05-26T13:41:47"
+}

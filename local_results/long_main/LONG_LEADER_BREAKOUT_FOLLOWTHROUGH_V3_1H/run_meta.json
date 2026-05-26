@@ -1,0 +1,19 @@
+{
+  "batch": "LONG_LEADER_BREAKOUT_FOLLOWTHROUGH_V3_1H",
+  "purpose": "new long edge family v3: leader breakout follow-through",
+  "families": [
+    "delayed_followthrough",
+    "elite_leader_breakout",
+    "leader_breakout_followthrough",
+    "tight_volume_breakout"
+  ],
+  "spec_count": 75,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "cost_pct_round_trip": 0.08,
+  "notes": [
+    "Third attempt after persistence and pullback/reclaim failed.",
+    "Focus is strong leader breakout candle followed by 1-3 bar confirmation.",
+    "No baseline/frozen runner touched."
+  ]
+}
