@@ -1,0 +1,43 @@
+{
+  "script": "short_main_mdd10_aggr_v01_single_retest_v4_2_envlocked.py",
+  "target_runtime_minutes": 60,
+  "total_elapsed_seconds": 1470.8156894999993,
+  "total_elapsed_minutes": 24.513594824999988,
+  "load_elapsed_seconds": 956.4084780999983,
+  "load_elapsed_minutes": 15.940141301666639,
+  "planned_strategy_count": 1,
+  "completed_strategy_count": 1,
+  "include_parent": false,
+  "candidate": "mdd10_aggr_v01",
+  "environment_lock": {
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "leverage": 1.0,
+    "fee_per_side": 0.0004,
+    "round_trip_fee": 0.0008
+  },
+  "source_v41_mdd10_aggr_v01": {
+    "strategy": "SM41_mdd10_aggr_v01_mdd10_new_axis",
+    "trades": 140827,
+    "wins": 11167,
+    "losses": 129660,
+    "win_rate_pct": 7.9295873660590654,
+    "max_return_pct": 25200.7456885644,
+    "max_drawdown_pct": 5.524791831439535,
+    "official_cd_value": 23902.932157469306,
+    "profit_factor": 1.7005605337643628,
+    "generated_signals": 239776,
+    "executed_entries": 140827,
+    "blocked_entries": 0,
+    "same_bar_trades": 10412,
+    "max_conc": 361,
+    "active_leftover": 0,
+    "pending_leftover": 0
+  },
+  "criterion": "single retest match, MDD<10, compare against official v14 and v4.1 source result",
+  "avg_strategy_elapsed_seconds": 394.3415019000022,
+  "max_strategy_elapsed_seconds": 394.3415019000022,
+  "min_strategy_elapsed_seconds": 394.3415019000022,
+  "run_started_at": "2026-05-27T01:51:35",
+  "run_finished_at": "2026-05-27T02:16:06"
+}
