@@ -1,0 +1,15 @@
+{
+  "script": "short_main_mdd10_aggr_v01_q4_regime_check_v4_3.py",
+  "total_elapsed_seconds": 1778.5611488999998,
+  "total_elapsed_minutes": 29.642685814999997,
+  "load_elapsed_seconds": 725.9710485999999,
+  "load_elapsed_minutes": 12.099517476666666,
+  "precompute_elapsed_seconds": 130.5559714000001,
+  "precompute_elapsed_minutes": 2.1759328566666682,
+  "period_count": 8,
+  "avg_period_elapsed_seconds": 100.59133447500005,
+  "max_period_elapsed_seconds": 264.5030606999999,
+  "min_period_elapsed_seconds": 8.356835500000216,
+  "run_started_at": "2026-05-27T12:18:43",
+  "run_finished_at": "2026-05-27T12:48:22"
+}
