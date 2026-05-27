@@ -1,0 +1,2 @@
+﻿strategy,note,trades,max_return_pct,max_drawdown_pct,official_cd_value,profit_factor
+smv12_topmix2_07_mix2_07_top1_reduce_frac000,"현재 공식 기준선 short_max v13. short_max v12 계열 진입 조건은 유지하고 보호청산 reduce_frac=0.00, timeout=240, fail_fast=12, dd=0.035/freeze4로 개선.",66572,6864.507074601753,3.2701695697124222,6736.755883567657,2.190937542731158
