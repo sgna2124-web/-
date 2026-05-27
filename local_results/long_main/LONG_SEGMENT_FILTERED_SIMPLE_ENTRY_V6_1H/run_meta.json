@@ -1,0 +1,7 @@
+{
+  "batch": "LONG_SEGMENT_FILTERED_SIMPLE_ENTRY_V6_1H",
+  "purpose": "segment filtered simple long",
+  "spec_count": 66,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004
+}
