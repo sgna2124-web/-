@@ -1,0 +1,227 @@
+[
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\2Z_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\42_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\4_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ALLO_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\APR_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\AT_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BEAT_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BLUAI_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BOB_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\CC_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\CLANKER_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\CLO_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\COMMON_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\EDEN_5m.csv",
+    "error": "ValueError('too few bars after train cut: 48')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 48\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ENSO_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\EUL_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\EVAA_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\FOLKS_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\GIGGLE_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\IRYS_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\JCT_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\KGEN_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\KITE_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\LAB_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\LYN_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\MET_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\MMT_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\MON_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\NOM_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ON_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\PIEVERSE_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\RECALL_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\RIVER_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\RLS_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\RVV_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\SENT_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\STABLE_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\TRUST_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\TRUTH_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\TURTLE_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\UAI_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\VFY_5m.csv",
+    "error": "ValueError('too few bars after train cut: 36')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 36\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\YB_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ZBT_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  },
+  {
+    "file": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\币安人生_5m.csv",
+    "error": "ValueError('too few bars after train cut: 0')",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_short_max_v13_general_top_combo_pre_q4_v2_memsafe.py\", line 709, in main\n    symbols.append(load_symbol(path, BASE_CFG, end_dt))\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too few bars after train cut: 0\n"
+  }
+]

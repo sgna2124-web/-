@@ -1,0 +1,53 @@
+LONG_MAX_V28_2025_V14_BASELINE_REFINE_DEV_STANDALONE
+
+result_scope: 2025년까지의 데이터 기준
+train_end_exclusive_utc: 2026-01-01 00:00:00
+baseline_reproduction_ok: True
+baseline_cd_expected: 618.2592886468248
+baseline_cd_actual: 618.2592886468248
+
+baseline_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32
+baseline_filter_name: body_atr >= 0.40
+baseline_body_atr_min: 0.4
+baseline_trades: 55597
+baseline_win_rate_pct: 40.493192078709285
+baseline_final_return_pct: 525.6012732388051
+baseline_max_return_pct: 526.8003775673284
+baseline_max_drawdown_pct: 1.3626489750456883
+baseline_cd_value: 618.2592886468248
+
+top_is_update_candidate: True
+top_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V28_B2_FR010
+top_description: v14 refine: stop 1.30, rr 7.75, hold 17, cooldown 32, body 0.48, time_reduce 2->0.10R
+top_filter_name: body_atr >= 0.48 / time_reduce 2->0.10R
+top_body_atr_min: 0.48
+top_atr_stop: 1.3
+top_rr_target: 7.75
+top_max_hold_bars: 17
+top_cooldown_bars: 32
+top_trades: 55896
+top_win_rate_pct: 75.27372262773723
+top_final_return_pct: 909.1282541417137
+top_max_return_pct: 909.5094646389022
+top_max_drawdown_pct: 0.5057558732981193
+top_cd_value: 1004.4038112299907
+top_delta_vs_baseline_cd: 386.1445225831659
+
+runtime:
+- elapsed_seconds: 5705.863443613052
+- elapsed_minutes: 95.09772406021754
+- strategy_count: 18
+- symbol_files: 597
+
+time_reduce_fine_notes:
+- V28 refines the official long_max v14 time_reduce baseline.
+- Search around time_reduce_bars 3 and time_reduce_to_risk_frac 0.10 with small RR/stop/hold/cooldown perturbations.
+- Inspect v28_v14_refine_results.csv sorted by final_return_pct for pure return-max ranking.
+
+update_rule:
+- baseline_reproduction_ok true
+- errors 0
+- ruined false
+- max_drawdown_pct < 5
+- cd_value > 618.2592886468248
+- 단독 재검증 전까지 기준선 갱신 확정 금지
