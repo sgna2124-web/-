@@ -1,0 +1,15 @@
+{
+  "script": "short_main_v15_B04_q4_regime_check_v5_1.py",
+  "total_elapsed_seconds": 1170.6334782,
+  "total_elapsed_minutes": 19.510557969999997,
+  "load_elapsed_seconds": 489.49457870000003,
+  "load_elapsed_minutes": 8.158242978333334,
+  "precompute_elapsed_seconds": 80.72293330000002,
+  "precompute_elapsed_minutes": 1.345382221666667,
+  "period_count": 8,
+  "avg_period_elapsed_seconds": 68.68705826250002,
+  "max_period_elapsed_seconds": 268.2649549,
+  "min_period_elapsed_seconds": 3.9054146000000856,
+  "run_started_at": "2026-05-28T09:25:39",
+  "run_finished_at": "2026-05-28T09:45:10"
+}
