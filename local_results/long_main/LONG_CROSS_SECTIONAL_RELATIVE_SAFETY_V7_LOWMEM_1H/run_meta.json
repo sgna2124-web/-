@@ -1,0 +1,13 @@
+{
+  "batch": "LONG_CROSS_SECTIONAL_RELATIVE_SAFETY_V7_LOWMEM_1H",
+  "purpose": "cross-sectional relative strength / relative safety long lowmem",
+  "spec_count": 54,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "notes": [
+    "LOWMEM version.",
+    "Does not persist full rank columns.",
+    "Computes timestamp group ranks and stores only candidate rows.",
+    "Default max_bars=60000."
+  ]
+}

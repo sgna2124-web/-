@@ -1,0 +1,32 @@
+[BATCH] LONG_CROSS_SECTIONAL_RELATIVE_SAFETY_V7_LOWMEM_1H
+[SPECS] 54
+[ROWS] 54
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+
+[TOP_ANY_MDD]
+XSL_B_036_DD6085_S125_RR240 | verdict=valid_any_mdd | family=relative_safety | cd=100.103360 | max=42.825536 | mdd=29.912141 | trades=17421
+XSL_B_034_DD6085_S105_RR240 | verdict=valid_any_mdd | family=relative_safety | cd=91.307749 | max=27.258961 | mdd=28.250436 | trades=17849
+XSL_B_035_DD6085_S125_RR180 | verdict=valid_any_mdd | family=relative_safety | cd=89.157769 | max=24.886211 | mdd=28.608797 | trades=17781
+XSL_C_045_SAFE65_RR260 | verdict=valid_any_mdd | family=relative_strength_safe_vol | cd=87.837073 | max=8.663723 | mdd=19.166148 | trades=12953
+XSL_B_032_DD6085_S85_RR240 | verdict=valid_any_mdd | family=relative_safety | cd=84.937042 | max=15.062722 | mdd=26.181964 | trades=18346
+XSL_B_033_DD6085_S105_RR180 | verdict=valid_any_mdd | family=relative_safety | cd=84.831976 | max=15.656169 | mdd=26.651577 | trades=18170
+XSL_C_044_SAFE65_RR200 | verdict=valid_any_mdd | family=relative_strength_safe_vol | cd=84.356781 | max=3.419461 | mdd=18.432391 | trades=13193
+XSL_B_031_DD6085_S85_RR180 | verdict=valid_any_mdd | family=relative_safety | cd=79.704608 | max=6.077799 | mdd=24.862121 | trades=18620
+XSL_C_042_SAFE50_RR260 | verdict=valid_any_mdd | family=relative_strength_safe_vol | cd=79.563658 | max=21.905834 | mdd=34.733511 | trades=23060
+XSL_C_041_SAFE50_RR200 | verdict=valid_any_mdd | family=relative_strength_safe_vol | cd=73.020205 | max=10.051083 | mdd=33.648808 | trades=23591
+XSL_C_039_SAFE35_RR260 | verdict=valid_any_mdd | family=relative_strength_safe_vol | cd=71.577425 | max=40.984530 | mdd=49.230299 | trades=32953
+XSL_B_030_DD6075_S125_RR240 | verdict=valid_any_mdd | family=relative_safety | cd=62.514676 | max=64.632204 | mdd=62.027674 | trades=40518
+XSL_C_038_SAFE35_RR200 | verdict=valid_any_mdd | family=relative_strength_safe_vol | cd=61.546993 | max=18.755960 | mdd=48.173555 | trades=33790
+XSL_C_037_SAFE35_RR150 | verdict=valid_any_mdd | family=relative_strength_safe_vol | cd=56.655461 | max=4.691253 | mdd=45.883291 | trades=34617
+XSL_B_029_DD6075_S125_RR180 | verdict=valid_any_mdd | family=relative_safety | cd=52.049830 | max=31.685489 | mdd=60.474134 | trades=41833
+XSL_B_028_DD6075_S105_RR240 | verdict=valid_any_mdd | family=relative_safety | cd=50.279008 | max=27.934357 | mdd=60.699370 | trades=42233
+XSL_B_024_DD6065_S125_RR240 | verdict=valid_any_mdd | family=relative_safety | cd=46.038654 | max=52.166179 | mdd=69.744490 | trades=47277
+XSL_B_027_DD6075_S105_RR180 | verdict=valid_any_mdd | family=relative_safety | cd=43.692780 | max=6.885605 | mdd=59.121923 | trades=43441
+XSL_B_023_DD6065_S125_RR180 | verdict=valid_any_mdd | family=relative_safety | cd=38.158794 | max=20.622170 | mdd=68.365025 | trades=48844
+XSL_B_022_DD6065_S105_RR240 | verdict=valid_any_mdd | family=relative_safety | cd=37.426358 | max=17.729959 | mdd=68.209997 | trades=49346
+
+[BEST_BY_FAMILY]
+relative_safety: XSL_B_036_DD6085_S125_RR240 | cd=100.103360 | max=42.825536 | mdd=29.912141 | trades=17421
+relative_strength_safe_vol: XSL_C_045_SAFE65_RR260 | cd=87.837073 | max=8.663723 | mdd=19.166148 | trades=12953
