@@ -87,52 +87,59 @@ dd_brake_freeze_steps: 4
 atr_stop_mult: 2.15
 rr_mult: 5.4
 
-2. short_main 현재 기준선
-전략명: SM42_mdd10_aggr_v01_single_retest
-축: short_main
-기준선 버전: base_line/short_main/v15
-이전 기준선: base_line/short_main/v14
-선택 기준: short_main식, MDD 10% 미만 후보 중 official_cd_value 최대
+2. short_main2 현재 기준선
+전략명: SM52_B04_stop230_score270_single_retest
+원 탐색 전략명: SM50_B04_stop230_score270
+축: short_main2
+기준선 버전: base_line/short_main2/v1
+이전 기준선: base_line/short_main/v15
+선택 기준: short_main식, MDD 10% 미만 후보 중 official_cd_value 최대 + 단독 리테스트 재현 통과 + Q4 의존성 점검 통과
 엔진: actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231
-실행 코드/사양: base_line/short_main/v15
-결과 출처: local_results/short_main/SHORT_MAIN_MDD10_AGGR_V01_SINGLE_RETEST_V4_2_ENVLOCKED/summary_compact.csv
+실행 코드/사양: base_line/short_main2/v1
+결과 출처: local_results/short_main/SHORT_MAIN_V15_B04_SINGLE_RETEST_V5_2_ENVLOCKED/summary_compact.csv
 
 2025 train 기준 공식 단독 리테스트 결과
-trades: 140827
-wins: 11167
-losses: 129660
-win_rate_pct: 7.9295873660590654
-final_return_pct: 25200.7456885644
-max_return_pct: 25200.7456885644
-max_drawdown_pct: 5.524791831439535
-official_cd_value: 23902.932157469306
-profit_factor: 1.7005605337643628
-generated_signals: 239776
-executed_entries: 140827
+trades: 154015
+wins: 11824
+losses: 142191
+win_rate_pct: 7.6771743012044285
+max_return_pct: 53676.46264218497
+max_drawdown_pct: 5.923149464550481
+official_cd_value: 50591.202383140204
+profit_factor: 1.7648350795085153
+generated_signals: 267412
+executed_entries: 154015
 blocked_entries: 0
-max_conc: 361
-same_bar_trades: 10412
+max_conc: 364
+same_bar_trades: 9995
 active_leftover: 0
 pending_leftover: 0
 load_errors: 0
 
-이전 short_main v14 기준선
-strategy: smv12_topmix2_07_mix2_07_top1_reduce_frac000
-trades: 66572
-max_return_pct: 6864.507074601753
-max_drawdown_pct: 3.2701695697124222
-official_cd_value: 6736.755883567657
-profit_factor: 2.190937542731158
+이전 short_main v15 기준선
+strategy: SM42_mdd10_aggr_v01_single_retest
+trades: 140827
+max_return_pct: 25200.7456885644
+max_drawdown_pct: 5.524791831439535
+official_cd_value: 23902.932157469306
+profit_factor: 1.7005605337643628
 
 차이
-delta_cd_vs_v14: +17166.17627390165
-delta_mdd_vs_v14: +2.254622261727113
-delta_trades_vs_v14: +74255
-delta_pf_vs_v14: -0.490377008966795
-판단: short_main v15는 MDD 5% 안정형 기준은 아니지만, MDD 10% 미만 고 CD 기준에서 v14를 크게 초과하므로 short_main 공식 기준선으로 승격한다. 이후 short_main 개선은 v15 기준으로 한다.
+delta_cd_vs_v15: +26688.270225670898
+delta_mdd_vs_v15: +0.398357633110946
+delta_trades_vs_v15: +13188
+delta_pf_vs_v15: +0.0642745457441525
+판단: short_main2 v1은 MDD 10% 미만 고 CD 기준에서 short_main v15를 크게 초과하고, 단독 리테스트 및 Q4 검증을 통과했으므로 공식 기준선으로 승격한다. 이후 이 대화창의 short_main 개선은 short_main2/v1 기준으로 한다.
 
-short_main v15 핵심 변경
-v15는 기존 v14의 EMA/RSI/윗꼬리 점수형 기준선과 다른 신규축이다.
+short_main2 v1 핵심 변경
+short_main v15의 climax_exhaustion 계열을 유지한다.
+climax_score_min: 2.8 -> 2.7
+atr_stop_mult: 2.20 -> 2.30
+timeout_bars: 270 -> 285
+dd_brake_trigger_pct: 0.070 -> 0.075
+rr_mult: 6.20 유지
+
+진입 핵심값
 entry_mode: climax_exhaustion
 precompute_signals: True
 short_dev: 0.025
@@ -144,34 +151,38 @@ close_position_max: 0.94
 green_streak_min: 0
 ema20_slope12_min: -0.025
 ema20_slope12_max: 0.095
-climax_score_min: 2.8
-atr_stop_mult: 2.20
+atr_pct_min: 0.0008
+atr_pct_max: 0.135
+range_spike_min: 0.0
+dist_roll_high20_min: -0.08
+climax_score_min: 2.7
+atr_stop_mult: 2.30
 rr_mult: 6.20
 time_reduce_bars: 3
 time_reduce_to_risk_frac: 0.00
-timeout_bars: 270
+timeout_bars: 285
 fail_fast_bars: 12
-dd_brake_trigger_pct: 0.070
+dd_brake_trigger_pct: 0.075
 dd_brake_freeze_steps: 3
 
 2025년 4분기 특이점 점검
-결과 출처: local_results/short_main/SHORT_MAIN_MDD10_AGGR_V01_Q4_REGIME_CHECK_V4_3
+결과 출처: local_results/short_main/SHORT_MAIN_V15_B04_Q4_REGIME_CHECK_V5_1
 자동 판정: GENERAL_EDGE_CONFIRMED_EX_Q4_STILL_BEATS_V14
-Q4 제외 official_cd_value: 6891.0141
-기존 v14 official_cd_value: 6736.755883567657
-판단: Q4를 제거해도 v14를 넘으므로 Q4 특이점만으로 만들어진 전략은 아니다. 다만 전체 CD 23902.932157469306은 Q4 후반 복리 증폭 효과가 크다.
+Q4 제외 official_cd_value: 12736.7326
+Q4 단독 official_cd_value: 378.1772
+판단: Q4를 제거해도 성과가 강하고 Q4 단독 성과가 전체를 설명할 정도로 크지 않으므로 Q4 몰빵 전략이 아니다.
 
 운영 판단
-short_max는 v13, short_main은 v15가 현재 공식 기준선이다. 이후 숏 계열 후보 개발은 반드시 actual bar engine과 2025 train / 2026 holdout 분리 규칙을 따른다. 구엔진 결과는 참고값으로만 사용한다.
+short_max는 v13, short_main2는 v1이 현재 공식 기준선이다. 이후 숏 계열 후보 개발은 반드시 actual bar engine과 2025 train / 2026 holdout 분리 규칙을 따른다. 구엔진 결과는 참고값으로만 사용한다.
 
 재현 관련 주의
-공식값은 탐색 결과가 아니라 환경 잠금 단독 리테스트 v4.2 결과를 사용한다.
-short_main v15 재현 gate 값:
-- trades 140827
-- max_return_pct 25200.7456885644
-- max_drawdown_pct 5.524791831439535
-- official_cd_value 23902.932157469306
-- profit_factor 1.7005605337643628
+공식값은 탐색 결과가 아니라 환경 잠금 단독 리테스트 v5.2 결과를 사용한다.
+short_main2 v1 재현 gate 값:
+- trades 154015
+- max_return_pct 53676.46264218497
+- max_drawdown_pct 5.923149464550481
+- official_cd_value 50591.202383140204
+- profit_factor 1.7648350795085153
 - active_leftover 0
 - pending_leftover 0
 - load_errors 0
