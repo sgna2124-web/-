@@ -1,0 +1,43 @@
+{
+  "script": "short_main2_v1_next_dev_v1_0_balanced.py",
+  "target_runtime_minutes": 60,
+  "total_elapsed_seconds": 4128.429853000009,
+  "total_elapsed_minutes": 68.8071642166668,
+  "load_elapsed_seconds": 428.68557950000104,
+  "load_elapsed_minutes": 7.144759658333351,
+  "planned_strategy_count": 10,
+  "completed_strategy_count": 10,
+  "include_parent": false,
+  "candidate": "all",
+  "environment_lock": {
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "leverage": 1.0,
+    "fee_per_side": 0.0004,
+    "round_trip_fee": 0.0008
+  },
+  "source_short_main2_v1_baseline": {
+    "strategy": "SM52_B04_stop230_score270_single_retest",
+    "trades": 154015,
+    "wins": 11824,
+    "losses": 142191,
+    "win_rate_pct": 7.6771743012044285,
+    "max_return_pct": 53676.46264218497,
+    "max_drawdown_pct": 5.923149464550481,
+    "official_cd_value": 50591.202383140204,
+    "profit_factor": 1.7648350795085153,
+    "generated_signals": 267412,
+    "executed_entries": 154015,
+    "blocked_entries": 0,
+    "same_bar_trades": 9995,
+    "max_conc": 364,
+    "active_leftover": 0,
+    "pending_leftover": 0
+  },
+  "criterion": "MDD<10 and max official_cd_value vs short_main2/v1",
+  "avg_strategy_elapsed_seconds": 362.6923413899989,
+  "max_strategy_elapsed_seconds": 415.37739429999783,
+  "min_strategy_elapsed_seconds": 294.4807931999967,
+  "run_started_at": "2026-05-29T09:25:30",
+  "run_finished_at": "2026-05-29T10:34:21"
+}
