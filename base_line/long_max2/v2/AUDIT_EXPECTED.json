@@ -1,0 +1,18 @@
+{
+  "audit_source": "LONG_MAX2_V35_2025_REALISTIC_PORTFOLIO_AUDIT_STANDALONE",
+  "official_judgement_basis": "chronological_portfolio_audit",
+  "approved_for_real_trading_evaluation": true,
+  "chronological_metrics": {
+    "return_pct": 902.1352059886217,
+    "max_drawdown_pct": 16.983488215379623,
+    "cd_value": 832.1846538467717,
+    "max_open_positions": 738,
+    "max_gross_exposure_pct": 738.0
+  },
+  "trade_list_metrics_reference_only": {
+    "return_pct": 998.5993537197343,
+    "max_drawdown_pct": 0.5592519919746852,
+    "cd_value": 1092.9450669668074
+  },
+  "rule": "All future baseline promotions must pass reproduction, no-lookahead validation, no same-bar retroactive activation validation, and chronological portfolio audit before promotion."
+}
