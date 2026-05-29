@@ -1,0 +1,7 @@
+{
+  "batch": "LONG_CROSS_SECTIONAL_OVERSOLD_REVERSAL_V8_1H",
+  "purpose": "cross-sectional oversold reversal long lowmem",
+  "spec_count": 63,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004
+}
