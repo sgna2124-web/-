@@ -1,0 +1,13 @@
+{
+  "batch": "LONG_CROSS_SECTIONAL_STATE_TRANSITION_V9_1H",
+  "purpose": "cross-sectional market state transition long",
+  "spec_count": 54,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "notes": [
+    "V9 new axis: state transition, not static state.",
+    "Uses delta breadth, delta median return, delta dispersion, delta volume participation.",
+    "Uses symbol rank improvement from previous timestamp.",
+    "Default max_bars=60000."
+  ]
+}
