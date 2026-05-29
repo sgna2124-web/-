@@ -1,9 +1,11 @@
 {
   "axis": "long_max2",
   "version": "v2",
-  "role": "realistic_execution_long_max2_baseline",
-  "official_strategy": "LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V34_RETEST_V33_TOP_WEAK_E1_CLOSE_000_BE_NEXT",
+  "role": "audited_realistic_execution_long_max2_baseline",
+  "status": "corrected_after_portfolio_audit",
+  "official_strategy": "LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V35_AUDIT_LONG_MAX2_V2_REALISTIC_WEAK_E1_BE_NEXT",
   "source_retest_folder": "local_results/long_max/LONG_MAX2_V34_2025_REALISTIC_RULE_DUAL_RETEST_STANDALONE",
+  "source_audit_folder": "local_results/long_max/LONG_MAX2_V35_2025_REALISTIC_PORTFOLIO_AUDIT_STANDALONE",
   "source_development_folder": "local_results/long_max/LONG_MAX2_V33_2025_NEXT_BAR_MANAGEMENT_DEV_STANDALONE",
   "result_scope": "2025_until_2026-01-01_exclusive",
   "train_end_exclusive_utc": "2026-01-01 00:00:00",
@@ -37,7 +39,18 @@
     "baseline_cd_actual": 618.2592886468248,
     "baseline_trades": 55597
   },
-  "official_result": {
+  "official_audited_result": {
+    "metric_basis": "chronological_portfolio_audit_timestamp_ordered_realized_equity_with_overlapping_positions",
+    "chron_final_return_pct": 902.1352059886217,
+    "chron_max_return_pct": 902.4326919514607,
+    "chron_max_drawdown_pct": 16.983488215379623,
+    "chron_cd_value": 832.1846538467717,
+    "chron_max_open_positions": 738,
+    "chron_max_gross_exposure_pct": 738.0,
+    "chron_win_rate_pct": 55.683893843343725
+  },
+  "trade_list_reference_result": {
+    "metric_basis": "trade_list_collection_order_compounding_reference_only_not_actual_trading_judgement",
     "trades": 55842,
     "wins": 31095,
     "losses": 24747,
@@ -51,13 +64,25 @@
     "errors": 0,
     "ruined": false
   },
+  "risk_warning": {
+    "previous_mdd_was_not_portfolio_mdd": true,
+    "chronological_mdd_is_official_for_real_trading_judgement": true,
+    "max_open_positions_is_excessive": true,
+    "max_gross_exposure_pct_is_excessive": true,
+    "next_improvement_priority": [
+      "reduce max open positions",
+      "reduce max gross exposure",
+      "reduce chronological MDD",
+      "then improve return"
+    ]
+  },
   "realistic_reference_comparison": {
     "reference_strategy": "V34_RETEST_V33_REF_REALISTIC_B2_FR015",
-    "reference_final_return_pct": 876.1017685298586,
-    "reference_max_drawdown_pct": 0.6298874252124054,
-    "reference_cd_value": 970.5145716189348,
-    "delta_cd_vs_realistic_reference": 122.4304953478726
+    "reference_final_return_pct_trade_list": 876.1017685298586,
+    "reference_max_drawdown_pct_trade_list": 0.6298874252124054,
+    "reference_cd_value_trade_list": 970.5145716189348,
+    "delta_cd_vs_realistic_reference_trade_list": 122.4304953478726
   },
-  "legacy_v1_note": "long_max2 v1 remains a legacy same-bar activation baseline. v2 is the official realistic execution baseline.",
-  "update_reason": "V34 standalone dual retest confirmed V33 top under realistic next-bar activation rules. This baseline avoids future entry filtering and same-bar retroactive stop activation."
+  "legacy_v1_note": "long_max2 v1 remains a legacy same-bar activation baseline. long_max2 v2 is corrected to use chronological portfolio audit values for actual-trading judgement.",
+  "correction_reason": "V35 portfolio audit showed that the previous v2 official_result used trade-list compounding metrics. The corrected official benchmark separates trade-list reference metrics from chronological portfolio audit metrics."
 }
