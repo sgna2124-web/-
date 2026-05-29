@@ -1,0 +1,63 @@
+{
+  "axis": "long_max2",
+  "version": "v2",
+  "role": "realistic_execution_long_max2_baseline",
+  "official_strategy": "LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V34_RETEST_V33_TOP_WEAK_E1_CLOSE_000_BE_NEXT",
+  "source_retest_folder": "local_results/long_max/LONG_MAX2_V34_2025_REALISTIC_RULE_DUAL_RETEST_STANDALONE",
+  "source_development_folder": "local_results/long_max/LONG_MAX2_V33_2025_NEXT_BAR_MANAGEMENT_DEV_STANDALONE",
+  "result_scope": "2025_until_2026-01-01_exclusive",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "entry_key": "child::orig_V09_extreme_vol18::tp03",
+  "side": "long",
+  "engine": "realistic_next_bar_reversal_entry_time_reduce_with_weak_be_management",
+  "body_atr_min": 0.48,
+  "atr_stop": 1.30,
+  "rr_target": 7.75,
+  "max_hold_bars": 17,
+  "cooldown_bars": 32,
+  "time_reduce_bars": 2,
+  "time_reduce_to_risk_frac": 0.15,
+  "weak_check_bars": 1,
+  "weak_close_r": 0.00,
+  "weak_exit_mode": "tighten_be_next",
+  "round_trip_cost_bps": 8.0,
+  "position_fraction": 0.01,
+  "execution_rule": {
+    "signal_timing": "signal candle close",
+    "entry_timing": "next candle open",
+    "management_observation": "bar close only",
+    "management_activation": "next bar only",
+    "no_future_entry_filter": true,
+    "no_same_bar_retroactive_stop": true,
+    "same_bar_stop_target_collision": "stop first"
+  },
+  "baseline_gate": {
+    "baseline_reproduction_ok": true,
+    "baseline_cd_expected": 618.2592886468248,
+    "baseline_cd_actual": 618.2592886468248,
+    "baseline_trades": 55597
+  },
+  "official_result": {
+    "trades": 55842,
+    "wins": 31095,
+    "losses": 24747,
+    "win_rate_pct": 55.683893843343725,
+    "final_return_pct": 998.5993537197343,
+    "max_return_pct": 999.0917595255839,
+    "max_drawdown_pct": 0.5592519919746852,
+    "official_cd_value": 1092.9450669668074,
+    "max_conc": 448,
+    "symbol_files": 597,
+    "errors": 0,
+    "ruined": false
+  },
+  "realistic_reference_comparison": {
+    "reference_strategy": "V34_RETEST_V33_REF_REALISTIC_B2_FR015",
+    "reference_final_return_pct": 876.1017685298586,
+    "reference_max_drawdown_pct": 0.6298874252124054,
+    "reference_cd_value": 970.5145716189348,
+    "delta_cd_vs_realistic_reference": 122.4304953478726
+  },
+  "legacy_v1_note": "long_max2 v1 remains a legacy same-bar activation baseline. v2 is the official realistic execution baseline.",
+  "update_reason": "V34 standalone dual retest confirmed V33 top under realistic next-bar activation rules. This baseline avoids future entry filtering and same-bar retroactive stop activation."
+}
