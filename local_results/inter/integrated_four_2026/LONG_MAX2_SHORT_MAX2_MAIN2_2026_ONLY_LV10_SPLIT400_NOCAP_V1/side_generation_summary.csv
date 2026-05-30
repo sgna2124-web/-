@@ -1,0 +1,4 @@
+﻿axis,baseline_version,trades,errors,engine,generated_entry_candidates,executed_entries,blocked_by_guard,max_conc_side,max_conc_unique_symbols,active_leftover,pending_leftover,load_errors
+long_max2,long_max2/v2,309,0,embedded_v34_retest_longmax2_condition,,,,,,,,
+short_max2,short_max2/v1,892,0,actual_bar_engine_embedded,892.0,892.0,0.0,30.0,30.0,0.0,0.0,0.0
+short_main2,short_main2/v1,1932,0,actual_bar_engine_embedded,1932.0,1932.0,0.0,53.0,53.0,0.0,0.0,0.0

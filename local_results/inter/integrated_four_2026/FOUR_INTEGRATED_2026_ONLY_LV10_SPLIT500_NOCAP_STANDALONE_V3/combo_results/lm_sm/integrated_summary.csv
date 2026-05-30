@@ -1,0 +1,2 @@
+﻿combo,run_label,trades,long_trades,short_trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,official_cd_value,max_conc,same_bar_trades,active_leftover,blocked_by_cap,cap_removed,ruined,leverage,position_fraction,effective_notional_fraction,fee_per_side,long_key,short_key
+lm_sm,FOUR_INTEGRATED_2026_ONLY_LV10_SPLIT500_NOCAP_STANDALONE_V3,998,309,689,231,767,23.146292585170343,11.654428713270025,11.70097076318184,3.5919737803711342,107.68870118094833,27,119,0,0,True,False,10.0,0.002,0.02,0.0004,long_main,short_main
