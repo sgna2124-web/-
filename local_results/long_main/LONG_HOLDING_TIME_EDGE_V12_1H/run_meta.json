@@ -1,0 +1,12 @@
+{
+  "batch": "LONG_HOLDING_TIME_EDGE_V12_1H",
+  "purpose": "holding-time edge / early path filter long",
+  "spec_count": 48,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "notes": [
+    "Fixed SL/TP at entry.",
+    "No trailing stop, no BE, no dynamic TP.",
+    "Early fail exit used as path-quality filter."
+  ]
+}
