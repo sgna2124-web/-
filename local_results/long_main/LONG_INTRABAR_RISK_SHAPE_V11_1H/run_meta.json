@@ -1,0 +1,12 @@
+{
+  "batch": "LONG_INTRABAR_RISK_SHAPE_V11_1H",
+  "purpose": "intrabar risk shape / stop-take interaction long",
+  "spec_count": 51,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "notes": [
+    "V11 new axis: individual intrabar risk shape.",
+    "No cross-sectional rank.",
+    "Focus on wick asymmetry, close position, range/body/ATR geometry."
+  ]
+}
