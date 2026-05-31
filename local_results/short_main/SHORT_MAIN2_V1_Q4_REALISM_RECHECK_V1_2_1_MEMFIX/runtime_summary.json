@@ -1,0 +1,49 @@
+{
+  "script": "short_main2_v1_q4_realism_recheck_v1_2_1_MEMFIX.py",
+  "no_position_limit": true,
+  "audit_set": "c03_baseline",
+  "candidate": "set",
+  "period_set": "q4_core",
+  "period_labels": [
+    "FULL_TRAIN_TO_2025_END",
+    "EXCL_2025_Q4_ALL_BEFORE_2025_10_01",
+    "2025_Q4_ONLY"
+  ],
+  "slippages": [
+    0.0,
+    0.0005
+  ],
+  "total_elapsed_seconds": 3099.726656099985,
+  "total_elapsed_minutes": 51.66211093499975,
+  "load_elapsed_seconds": 505.5410499999998,
+  "load_elapsed_minutes": 8.425684166666663,
+  "planned_scenario_count": 12,
+  "completed_scenario_count": 12,
+  "environment_lock": {
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "leverage": 1.0,
+    "fee_per_side": 0.0004,
+    "round_trip_fee": 0.0008
+  },
+  "source_short_main2_v1_baseline": {
+    "strategy": "SM52_B04_stop230_score270_single_retest",
+    "trades": 154015,
+    "wins": 11824,
+    "losses": 142191,
+    "win_rate_pct": 7.6771743012044285,
+    "max_return_pct": 53676.46264218497,
+    "max_drawdown_pct": 5.923149464550481,
+    "official_cd_value": 50591.202383140204,
+    "profit_factor": 1.7648350795085153,
+    "generated_signals": 267412,
+    "executed_entries": 154015,
+    "blocked_entries": 0,
+    "same_bar_trades": 9995,
+    "max_conc": 364,
+    "active_leftover": 0,
+    "pending_leftover": 0
+  },
+  "run_started_at": "2026-05-30T15:34:42",
+  "run_finished_at": "2026-05-30T16:26:22"
+}
