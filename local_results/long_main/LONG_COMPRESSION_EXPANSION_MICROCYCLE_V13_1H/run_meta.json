@@ -1,0 +1,12 @@
+{
+  "batch": "LONG_COMPRESSION_EXPANSION_MICROCYCLE_V13_1H",
+  "purpose": "event compression / expansion microcycle long",
+  "spec_count": 45,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "notes": [
+    "V13 new axis: compression release event.",
+    "Different from quiet drift: buys expansion after compression, not compression itself.",
+    "Fixed SL/TP at entry."
+  ]
+}
