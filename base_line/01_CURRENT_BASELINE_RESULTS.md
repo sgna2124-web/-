@@ -118,71 +118,60 @@ load_errors: 0
 
 이전 short_main v15 기준선
 strategy: SM42_mdd10_aggr_v01_single_retest
-trades: 140827
-max_return_pct: 25200.7456885644
-max_drawdown_pct: 5.524791831439535
-official_cd_value: 23902.932157469306
-profit_factor: 1.7005605337643628
 
-차이
-delta_cd_vs_v15: +26688.270225670898
-delta_mdd_vs_v15: +0.398357633110946
-delta_trades_vs_v15: +13188
-delta_pf_vs_v15: +0.0642745457441525
-판단: short_main2 v1은 MDD 10% 미만 고 CD 기준에서 short_main v15를 크게 초과하고, 단독 리테스트 및 Q4 검증을 통과했으므로 공식 기준선으로 승격한다. 이후 이 대화창의 short_main 개선은 short_main2/v1 기준으로 한다.
+3. short_max2 현재 기준선
+전략명: smx2v1_q4lowtop1_retest_stop250_rr500_t320_v1
+원 탐색 전략명: smx2v1_devq4low_18_stop250_rr500_t320
+축: short_max2
+기준선 버전: base_line/short_max2/v2
+이전 기준선: base_line/short_max2/v1
+선택 기준: 2025-Q4 특수 구간 저비중, pre-Q4 월평균 수익과 MDD 우선, float64 단독 리테스트 통과
+엔진: actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231
+실행 코드/사양: base_line/short_max2/v2
+결과 출처: local_results/short_max/short_max2_v1_q4low_top1_stop250_rr500_retest_v1_results/summary_compact.csv
 
-short_main2 v1 핵심 변경
-short_main v15의 climax_exhaustion 계열을 유지한다.
-climax_score_min: 2.8 -> 2.7
-atr_stop_mult: 2.20 -> 2.30
-timeout_bars: 270 -> 285
-dd_brake_trigger_pct: 0.070 -> 0.075
-rr_mult: 6.20 유지
+2025 train 기준 공식 단독 리테스트 결과
+trades: 65180
+wins: 5130
+losses: 60050
+win_rate_pct: 7.8705124271248845
+max_return_pct: 15588.585271121465
+max_drawdown_pct: 2.274010039088681
+official_cd_value: 15331.825267065175
+profit_factor: 2.6142284817799504
+positive_month_ratio_pct: 93.24324324324324
+q4_share_of_full_return_pct: 77.19914436251436
+top3_month_share_pct: 77.40116227608569
+active_leftover: 0
+pending_leftover: 0
+load_errors: 0
 
-진입 핵심값
-entry_mode: climax_exhaustion
-precompute_signals: True
-short_dev: 0.025
-ret12_min: 0.030
-ret3_min: 0.004
-volume_spike_min: 0.75
-upper_range_ratio_min: 0.16
-close_position_max: 0.94
-green_streak_min: 0
-ema20_slope12_min: -0.025
-ema20_slope12_max: 0.095
-atr_pct_min: 0.0008
-atr_pct_max: 0.135
-range_spike_min: 0.0
-dist_roll_high20_min: -0.08
-climax_score_min: 2.7
-atr_stop_mult: 2.30
-rr_mult: 6.20
+Q4 제외 pre-Q4 공식 참고 결과
+trades: 53580
+wins: 4156
+losses: 49424
+win_rate_pct: 7.7566256065696155
+max_return_pct: 3554.3308235947543
+max_drawdown_pct: 2.1769570997805077
+official_cd_value: 3574.7776092810404
+profit_factor: 2.29014107209504
+positive_month_ratio_pct: 92.95774647887323
+avg_month_pnl: 50.0609975154197
+positive_year_ratio_pct: 100.0
+
+short_max2 v2 핵심 파라미터
+진입 조건은 short_max2 v1 계열을 유지한다.
+short_dev: 0.032
+short_wick_mult: 1.30
+score_min_short: 2.35
+atr_stop_mult: 2.50
+rr_mult: 5.00
+timeout_bars: 320
 time_reduce_bars: 3
 time_reduce_to_risk_frac: 0.00
-timeout_bars: 285
 fail_fast_bars: 12
-dd_brake_trigger_pct: 0.075
-dd_brake_freeze_steps: 3
+dd_brake_trigger_pct: 0.035
+dd_brake_freeze_steps: 4
 
-2025년 4분기 특이점 점검
-결과 출처: local_results/short_main/SHORT_MAIN_V15_B04_Q4_REGIME_CHECK_V5_1
-자동 판정: GENERAL_EDGE_CONFIRMED_EX_Q4_STILL_BEATS_V14
-Q4 제외 official_cd_value: 12736.7326
-Q4 단독 official_cd_value: 378.1772
-판단: Q4를 제거해도 성과가 강하고 Q4 단독 성과가 전체를 설명할 정도로 크지 않으므로 Q4 몰빵 전략이 아니다.
-
-운영 판단
-short_max는 v13, short_main2는 v1이 현재 공식 기준선이다. 이후 숏 계열 후보 개발은 반드시 actual bar engine과 2025 train / 2026 holdout 분리 규칙을 따른다. 구엔진 결과는 참고값으로만 사용한다.
-
-재현 관련 주의
-공식값은 탐색 결과가 아니라 환경 잠금 단독 리테스트 v5.2 결과를 사용한다.
-short_main2 v1 재현 gate 값:
-- trades 154015
-- max_return_pct 53676.46264218497
-- max_drawdown_pct 5.923149464550481
-- official_cd_value 50591.202383140204
-- profit_factor 1.7648350795085153
-- active_leftover 0
-- pending_leftover 0
-- load_errors 0
+short_max2 v2 판정
+v1 대비 pre-Q4 월평균 수익, MDD, CD, PF가 모두 개선되었고 full train에서도 CD와 PF가 개선되었다. 단, Q4 share와 top3 month share는 v1보다 약간 상승했으므로 이후 개선 방향은 수익 집중도 완화와 일반 구간 안정성 강화를 병행한다.
