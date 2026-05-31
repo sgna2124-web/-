@@ -1,0 +1,77 @@
+{
+  "run_label": "LONG_MAX2_SHORT_MAX2_MAIN2_2026_LEVERAGE_SPLIT_SWEEP_V1",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "period": {
+    "start_date": "2026-01-01 00:00:00",
+    "end_date": "2027-01-01 00:00:00"
+  },
+  "source_csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "leverage_grid": "1,2,3,5,7,10,12,15,20,25,30",
+  "split_grid": "50,75,100,125,150,200,250,300,400,500,700,800,1000",
+  "fee_per_side": 0.0004,
+  "no_repo_root_lookup": true,
+  "no_baseline_file_read": true,
+  "no_position_cap": true,
+  "combos": [
+    [
+      "lx2_sx2",
+      "long_max2",
+      "short_max2"
+    ],
+    [
+      "lx2_sm2",
+      "long_max2",
+      "short_main2"
+    ]
+  ],
+  "side_generation": [
+    {
+      "axis": "long_max2",
+      "baseline_version": "long_max2/v2",
+      "trades": 309,
+      "errors": 0,
+      "engine": "embedded_v34_retest_condition",
+      "generated_entry_candidates": NaN,
+      "executed_entries": NaN,
+      "blocked_by_guard": NaN,
+      "max_conc_side": NaN,
+      "max_conc_unique_symbols": NaN,
+      "active_leftover": NaN,
+      "pending_leftover": NaN,
+      "load_errors": NaN
+    },
+    {
+      "axis": "short_max2",
+      "baseline_version": "short_max2/v1",
+      "trades": 892,
+      "errors": 0,
+      "engine": "actual_bar_engine_embedded",
+      "generated_entry_candidates": 892.0,
+      "executed_entries": 892.0,
+      "blocked_by_guard": 0.0,
+      "max_conc_side": 30.0,
+      "max_conc_unique_symbols": 30.0,
+      "active_leftover": 0.0,
+      "pending_leftover": 0.0,
+      "load_errors": 0.0
+    },
+    {
+      "axis": "short_main2",
+      "baseline_version": "short_main2/v1",
+      "trades": 1932,
+      "errors": 0,
+      "engine": "actual_bar_engine_embedded",
+      "generated_entry_candidates": 1932.0,
+      "executed_entries": 1932.0,
+      "blocked_by_guard": 0.0,
+      "max_conc_side": 53.0,
+      "max_conc_unique_symbols": 53.0,
+      "active_leftover": 0.0,
+      "pending_leftover": 0.0,
+      "load_errors": 0.0
+    }
+  ],
+  "selection_rule": "best final_return_pct by combo and best_by_mdd_limit for risk-constrained choice"
+}
