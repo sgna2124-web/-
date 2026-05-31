@@ -1,0 +1,63 @@
+LONG_MAX2_V40_2025_V40_TOP1_RETEST_STANDALONE
+
+result_scope: 2025년까지의 데이터 기준
+train_end_exclusive_utc: 2026-01-01 00:00:00
+baseline_reproduction_ok: True
+baseline_cd_expected: 618.2592886468248
+baseline_cd_actual: 618.2592886468248
+
+baseline_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32
+baseline_trades: 55597
+baseline_win_rate_pct: 40.493192078709285
+baseline_final_return_pct: 525.6012732388051
+baseline_max_drawdown_pct: 1.3626489750456883
+baseline_cd_value: 618.2592886468248
+
+official_selection_basis: chronological_portfolio_audit
+top_is_update_candidate_by_chron_audit: True
+trade_list_top_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V40_RETEST_V39_TOP1_H17_C40_TR2_FR020_WEAK_M005
+chron_audit_top_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V40_RETEST_V39_TOP1_H17_C40_TR2_FR020_WEAK_M005
+chron_audit_top_description: V39 top1 retest: hold17 cooldown40 time_reduce2->0.20R weak1 close<-0.05 tighten BE next bar
+chron_audit_top_filter_name: body_atr >= 0.48 / time_reduce 2->0.20R / weak 1 close<-0.05 tighten_be_next
+chron_audit_top_trades: 54735
+chron_audit_top_trade_list_return_pct: 1063.976792512196
+chron_audit_top_trade_list_mdd_pct: 0.6123527474947155
+chron_audit_top_trade_list_cd_value: 1157.2651453413132
+
+chronological_portfolio_audit_top:
+chron_final_return_pct: 963.2589331871931
+chron_max_return_pct: 963.4530686656736
+chron_max_drawdown_pct: 11.258872677948817
+chron_cd_value: 943.7202416748659
+chron_max_open_positions: 738
+chron_max_gross_exposure_pct: 738.0
+chron_win_rate_pct: 57.28692792545903
+
+reference_chronological_audit:
+ref_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V40_REF_LONG_MAX2_V2_AUDITED_WEAK_E1_BE_NEXT
+ref_chron_cd_value: 832.1846538467717
+ref_chron_max_drawdown_pct: 16.983488215379623
+ref_chron_max_gross_exposure_pct: 738.0
+delta_chron_cd_vs_ref: 111.53558782809421
+delta_chron_mdd_vs_ref: -5.724615537430806
+delta_chron_exposure_vs_ref: 0.0
+
+audit_warning:
+- trade-list compounding is reference only.
+- official judgement uses timestamp-ordered realized equity with overlapping positions.
+- candidate promotion requires chron CD improvement without worse MDD/exposure.
+
+runtime:
+- elapsed_seconds: 828.3320064544678
+- elapsed_minutes: 13.805533440907796
+- strategy_count: 3
+- symbol_files: 597
+
+update_rule:
+- baseline_reproduction_ok true
+- errors 0
+- ruined false
+- chronological CD must exceed audited v2 reference
+- chronological MDD must not exceed audited v2 reference
+- max gross exposure must not exceed audited v2 reference
+- 단독 재검증 전까지 기준선 갱신 확정 금지
