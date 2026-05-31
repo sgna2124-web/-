@@ -1,0 +1,10 @@
+{
+  "batch": "LONG_TIME_POSITION_CYCLE_EDGE_V14_1H",
+  "purpose": "time-position / cycle transition edge long",
+  "spec_count": 38,
+  "notes": [
+    "V14: bar_index modulo + volatility/return phase.",
+    "Not simple session filter.",
+    "No cross-sectional rank."
+  ]
+}
