@@ -1,0 +1,10 @@
+{
+  "batch": "LONG_STATE_MIGRATION_MULTISTAGE_V15_1H",
+  "purpose": "state migration / multi-stage qualification long",
+  "spec_count": 36,
+  "notes": [
+    "V15: multi-stage sequence, not 1-step transition.",
+    "old selloff/drawdown -> mid calm/slowdown -> recent reclaim -> current confirmation.",
+    "No cross-sectional rank."
+  ]
+}

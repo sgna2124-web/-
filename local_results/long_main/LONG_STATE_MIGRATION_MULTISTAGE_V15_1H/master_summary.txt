@@ -1,0 +1,13 @@
+[BATCH] LONG_STATE_MIGRATION_MULTISTAGE_V15_1H
+[SPECS] 36
+[ROWS] 36
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+
+[TOP_ANY_MDD]
+SMG_A_008 | verdict=valid_any_mdd | family=selloff_calm_reclaim | cd=53.469370 | max=0.078656 | mdd=46.572654 | trades=9716
+SMG_A_007 | verdict=valid_any_mdd | family=selloff_calm_reclaim | cd=49.470364 | max=0.214244 | mdd=50.635397 | trades=10892
+
+[BEST_BY_FAMILY]
+selloff_calm_reclaim: SMG_A_008 | cd=53.469370 | max=0.078656 | mdd=46.572654 | trades=9716
