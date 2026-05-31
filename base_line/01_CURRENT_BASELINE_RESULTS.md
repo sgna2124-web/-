@@ -88,36 +88,72 @@ atr_stop_mult: 2.15
 rr_mult: 5.4
 
 2. short_main2 현재 기준선
-전략명: SM52_B04_stop230_score270_single_retest
-원 탐색 전략명: SM50_B04_stop230_score270
+전략명: SM60_C03_stop240_score270_timeout315
+원 탐색/감사 후보명: C03_stop240_score270_timeout315
 축: short_main2
-기준선 버전: base_line/short_main2/v1
-이전 기준선: base_line/short_main/v15
-선택 기준: short_main식, MDD 10% 미만 후보 중 official_cd_value 최대 + 단독 리테스트 재현 통과 + Q4 의존성 점검 통과
+기준선 버전: base_line/short_main2/v2
+이전 기준선: base_line/short_main2/v1
+선택 기준: short_main2 v1 진입 조건 유지 + 청산/방어 파라미터 변형 + 단독 리테스트 완전 재현 + Q4 의존성/실전성 점검 통과
 엔진: actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231
-실행 코드/사양: base_line/short_main2/v1
-결과 출처: local_results/short_main/SHORT_MAIN_V15_B04_SINGLE_RETEST_V5_2_ENVLOCKED/summary_compact.csv
+실행 코드/사양: base_line/short_main2/v2
+결과 출처: local_results/short_main/SHORT_MAIN2_V2_C03_SINGLE_RETEST_V1_3_ENVLOCKED/single_retest_summary_compact.csv
+Q4 및 실전성 점검 출처: local_results/short_main/SHORT_MAIN2_V1_Q4_REALISM_RECHECK_V1_2_1_MEMFIX/q4_realism_summary_compact.csv
 
 2025 train 기준 공식 단독 리테스트 결과
-trades: 154015
-wins: 11824
-losses: 142191
-win_rate_pct: 7.6771743012044285
-max_return_pct: 53676.46264218497
-max_drawdown_pct: 5.923149464550481
-official_cd_value: 50591.202383140204
-profit_factor: 1.7648350795085153
+trades: 152030
+wins: 11364
+losses: 140666
+win_rate_pct: 7.4748404920081555
+max_return_pct: 73746.55353592646
+max_drawdown_pct: 5.888592725709996
+official_cd_value: 69498.03075622236
+profit_factor: 1.8286053579584032
 generated_signals: 267412
-executed_entries: 154015
+executed_entries: 152030
 blocked_entries: 0
 max_conc: 364
-same_bar_trades: 9995
+max_conc_unique_symbols: 364
+same_bar_trades: 8883
 active_leftover: 0
 pending_leftover: 0
 load_errors: 0
 
-이전 short_main v15 기준선
-strategy: SM42_mdd10_aggr_v01_single_retest
+실전성 MTM 참고 결과
+mtm_close_max_drawdown_pct: 15.017466599306728
+mtm_worstbar_max_drawdown_pct: 14.23277215250176
+mtm_worstbar_cd_value: 63347.67993125091
+
+이전 short_main2 v1 기준선
+strategy: SM52_B04_stop230_score270_single_retest
+trades: 154015
+max_return_pct: 53676.46264218497
+max_drawdown_pct: 5.923149464550481
+official_cd_value: 50591.202383140204
+profit_factor: 1.7648350795085153
+
+차이
+delta_cd_vs_v1: +18906.828373082157
+delta_mdd_vs_v1: -0.034556738840485046
+delta_trades_vs_v1: -1985
+delta_pf_vs_v1: +0.06377027844988792
+판단: short_main2 공식 기준선으로 갱신한다. 이후 short_main2 개선은 v2 기준으로 한다.
+
+short_main2 v2 핵심 변경
+진입 조건은 short_main2 v1 그대로 유지한다.
+atr_stop_mult: 2.40
+timeout_bars: 315
+dd_brake_trigger_pct: 0.080
+rr_mult: 6.20
+
+Q4 및 슬리피지 감사 요약
+q4_dependency_flag: GENERAL_EDGE_CONFIRMED
+EXCL_2025_Q4_ALL_BEFORE_2025_10_01 official_cd_value: 16979.64262769056
+2025_Q4_ONLY official_cd_value: 390.894405739309
+편도 0.05% 슬리피지 FULL official_cd_value: 15177.194065003236
+편도 0.05% 슬리피지 EXCL_Q4 official_cd_value: 4617.4606705665265
+
+주의
+realized MDD는 5.8886%지만 mtm_close MDD는 약 15.0175%, mtm_worstbar MDD는 약 14.2328%다. 앞으로 short_main2 개선에서는 realized MDD와 MTM MDD를 함께 기록한다.
 
 3. short_max2 현재 기준선
 전략명: smx2v1_q4lowtop1_retest_stop250_rr500_t320_v1
