@@ -9,7 +9,9 @@ baseline_version: short_main2/v2
 이전 기준선: short_main2/v1, SM52_B04_stop230_score270_single_retest
 공식 결과 출처: local_results/short_main/SHORT_MAIN2_V2_C03_SINGLE_RETEST_V1_3_ENVLOCKED/single_retest_summary_compact.csv
 Q4 및 실전성 점검 출처: local_results/short_main/SHORT_MAIN2_V1_Q4_REALISM_RECHECK_V1_2_1_MEMFIX/q4_realism_summary_compact.csv
-공식 러너: short_main2_v2_C03_single_retest_v1_3_envlocked.py
+공식 전체 러너: short_main2_v2_C03_single_retest_v1_3_envlocked.py
+기준선 폴더 실행 진입점: base_line/short_main2/v2/OFFICIAL_FROZEN_RUNNER.py
+공식 gate 파일: base_line/short_main2/v2/EXPECTED_RESULT.md
 
 필수 데이터
 OHLCV 5분봉 CSV 597개가 필요하다.
@@ -32,8 +34,17 @@ loaded_symbols: 597
 load_errors: 0
 포지션 수 제한: 없음
 
-공식 실행 명령
+공식 실행 명령, 권장
+python base_line/short_main2/v2/OFFICIAL_FROZEN_RUNNER.py --out-dir ./local_results/short_main/SHORT_MAIN2_V2_C03_SINGLE_RETEST_V1_3_ENVLOCKED
+
+공식 실행 명령, 전체 러너 직접 실행
 python short_main2_v2_C03_single_retest_v1_3_envlocked.py --out-dir ./local_results/short_main/SHORT_MAIN2_V2_C03_SINGLE_RETEST_V1_3_ENVLOCKED
+
+중요
+OFFICIAL_FROZEN_RUNNER.py는 기준선 폴더 안의 공식 실행 진입점이다.
+이 파일은 저장소 루트 또는 현재 작업 폴더에 있는 short_main2_v2_C03_single_retest_v1_3_envlocked.py를 찾아 실행한다.
+따라서 처음 재현하는 사람은 저장소 루트에 공식 전체 러너 파일이 있는지 먼저 확인해야 한다.
+공식 전체 러너가 없으면 이 기준선 폴더만으로는 실행이 아니라 사양 확인까지만 가능하다.
 
 외부 json config를 사용하지 않는다.
 외부 runner import를 사용하지 않는다.
