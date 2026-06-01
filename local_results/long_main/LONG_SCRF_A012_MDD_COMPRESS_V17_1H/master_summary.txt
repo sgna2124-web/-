@@ -1,0 +1,35 @@
+[BATCH] LONG_SCRF_A012_MDD_COMPRESS_V17_1H
+[SPECS] 43
+[ROWS] 43
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+SCR17_A_016 | family=a012_core_tighten | cd=97.319011 | max=0.424831 | mdd=3.092681 | trades=395 | win=38.481%
+
+[TOP_ANY_MDD]
+SCR17_A_016 | verdict=mdd_under5 | family=a012_core_tighten | cd=97.319011 | max=0.424831 | mdd=3.092681 | trades=395
+SCR17_A_015 | verdict=valid_any_mdd | family=a012_core_tighten | cd=95.016039 | max=1.044139 | mdd=5.965809 | trades=839
+SCR17_A_012 | verdict=valid_any_mdd | family=a012_core_tighten | cd=94.065142 | max=0.693942 | mdd=6.583117 | trades=938
+SCR17_A_014 | verdict=valid_any_mdd | family=a012_core_tighten | cd=92.653740 | max=1.226335 | mdd=8.468740 | trades=1229
+SCR17_A_013 | verdict=valid_any_mdd | family=a012_core_tighten | cd=91.933125 | max=1.482902 | mdd=9.410232 | trades=1407
+SCR17_A_011 | verdict=valid_any_mdd | family=a012_core_tighten | cd=87.988706 | max=1.590259 | mdd=13.388639 | trades=2092
+SCR17_A_010 | verdict=valid_any_mdd | family=a012_core_tighten | cd=83.447580 | max=2.705083 | mdd=18.750292 | trades=3110
+SCR17_A_009 | verdict=valid_any_mdd | family=a012_core_tighten | cd=81.938663 | max=3.411210 | mdd=20.764235 | trades=3559
+SCR17_A_007 | verdict=valid_any_mdd | family=a012_core_tighten | cd=76.282250 | max=0.357735 | mdd=23.989665 | trades=4110
+SCR17_D_041 | verdict=valid_any_mdd | family=close_quality_confirm | cd=73.252067 | max=0.911555 | mdd=27.409633 | trades=5594
+SCR17_D_042 | verdict=valid_any_mdd | family=close_quality_confirm | cd=72.436712 | max=1.360353 | mdd=28.535458 | trades=5592
+SCR17_D_043 | verdict=valid_any_mdd | family=close_quality_confirm | cd=71.921200 | max=1.465046 | mdd=29.117265 | trades=5592
+SCR17_D_038 | verdict=valid_any_mdd | family=close_quality_confirm | cd=71.835412 | max=1.007121 | mdd=28.880844 | trades=5940
+SCR17_D_039 | verdict=valid_any_mdd | family=close_quality_confirm | cd=71.108867 | max=1.615292 | mdd=30.021491 | trades=5937
+SCR17_D_040 | verdict=valid_any_mdd | family=close_quality_confirm | cd=70.581025 | max=1.760098 | mdd=30.639782 | trades=5937
+SCR17_D_035 | verdict=valid_any_mdd | family=close_quality_confirm | cd=70.217387 | max=0.331408 | mdd=30.014551 | trades=6169
+SCR17_D_036 | verdict=valid_any_mdd | family=close_quality_confirm | cd=69.579145 | max=1.073446 | mdd=31.159817 | trades=6167
+SCR17_B_022 | verdict=valid_any_mdd | family=failuretest_strict | cd=69.508770 | max=0.954082 | mdd=31.148133 | trades=5858
+SCR17_B_025 | verdict=valid_any_mdd | family=failuretest_strict | cd=69.252054 | max=0.854190 | mdd=31.334480 | trades=5894
+SCR17_D_037 | verdict=valid_any_mdd | family=close_quality_confirm | cd=69.108914 | max=1.294311 | mdd=31.774140 | trades=6167
+
+[BEST_BY_FAMILY]
+a012_core_tighten: SCR17_A_016 | cd=97.319011 | max=0.424831 | mdd=3.092681 | trades=395
+close_quality_confirm: SCR17_D_041 | cd=73.252067 | max=0.911555 | mdd=27.409633 | trades=5594
+failuretest_strict: SCR17_B_022 | cd=69.508770 | max=0.954082 | mdd=31.148133 | trades=5858
+risk_density_gate: SCR17_C_028 | cd=68.424444 | max=0.460498 | mdd=31.889205 | trades=6086
