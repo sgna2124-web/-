@@ -1,0 +1,134 @@
+{
+  "note": "개발 탐색용 기록 비교다. 기준선 확정 시에는 base_line/short_max2/v2/frozen_reproduce_runner.py로 공식 gate를 확인한다.",
+  "preq4_compare": {
+    "status": "record_only_not_strict_gate",
+    "trades": {
+      "got": 109810,
+      "expected": 53580,
+      "diff": 56230.0
+    },
+    "wins": {
+      "got": 8589,
+      "expected": 4156,
+      "diff": 4433.0
+    },
+    "losses": {
+      "got": 101221,
+      "expected": 49424,
+      "diff": 51797.0
+    },
+    "win_rate_pct": {
+      "got": 7.821692013477826,
+      "expected": 7.7566256065696155,
+      "diff": 0.06506640690821008
+    },
+    "max_return_pct": {
+      "got": 1391.8365716611643,
+      "expected": 3554.3308235947543,
+      "diff": -2162.49425193359
+    },
+    "max_drawdown_pct": {
+      "got": 11.659896934162132,
+      "expected": 2.1769570997805077,
+      "diff": 9.482939834381625
+    },
+    "official_cd_value": {
+      "got": 1317.8899649793348,
+      "expected": 3574.7776092810404,
+      "diff": -2256.8876443017057
+    },
+    "profit_factor": {
+      "got": 1.8168133204857928,
+      "expected": 2.29014107209504,
+      "diff": -0.4733277516092471
+    },
+    "positive_month_ratio_pct": {
+      "got": 88.73239436619718,
+      "expected": 92.95774647887323,
+      "diff": -4.225352112676049
+    },
+    "avg_month_pnl": {
+      "got": 19.57858414869349,
+      "expected": 50.0609975154197,
+      "diff": -30.48241336672621
+    },
+    "positive_year_ratio_pct": {
+      "got": 100.0,
+      "expected": 100.0,
+      "diff": 0.0
+    }
+  },
+  "fulltrain_compare": {
+    "status": "record_only_not_strict_gate",
+    "trades": {
+      "got": 134524,
+      "expected": 65180,
+      "diff": 69344.0
+    },
+    "wins": {
+      "got": 10584,
+      "expected": 5130,
+      "diff": 5454.0
+    },
+    "losses": {
+      "got": 123940,
+      "expected": 60050,
+      "diff": 63890.0
+    },
+    "win_rate_pct": {
+      "got": 7.86774107222503,
+      "expected": 7.8705124271248845,
+      "diff": -0.0027713548998544724
+    },
+    "max_return_pct": {
+      "got": 3273.4198286907817,
+      "expected": 15588.585271121465,
+      "diff": -12315.165442430683
+    },
+    "max_drawdown_pct": {
+      "got": 11.659896934162132,
+      "expected": 2.274010039088681,
+      "diff": 9.385886895073451
+    },
+    "official_cd_value": {
+      "got": 2980.082553508848,
+      "expected": 15331.825267065175,
+      "diff": -12351.742713556327
+    },
+    "profit_factor": {
+      "got": 1.876675656479171,
+      "expected": 2.6142284817799504,
+      "diff": -0.7375528253007795
+    },
+    "positive_month_ratio_pct": {
+      "got": 89.1891891891892,
+      "expected": 93.24324324324324,
+      "diff": -4.054054054054049
+    },
+    "q4_share_of_full_return_pct": {
+      "got": 57.66539747196203,
+      "expected": 77.19914436251436,
+      "diff": -19.53374689055233
+    },
+    "top3_month_share_pct": {
+      "got": 57.66539747196203,
+      "expected": 77.40116227608569,
+      "diff": -19.735764804123654
+    },
+    "load_errors": {
+      "got": 0,
+      "expected": 0,
+      "diff": 0.0
+    },
+    "active_leftover": {
+      "got": null,
+      "expected": 0,
+      "diff": null
+    },
+    "pending_leftover": {
+      "got": null,
+      "expected": 0,
+      "diff": null
+    }
+  }
+}

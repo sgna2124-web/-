@@ -1,0 +1,29 @@
+{
+  "script": "run_short_max2_v2_general_dev_1h_v1",
+  "axis": "short_max2",
+  "baseline_version": "v2",
+  "baseline_strategy": "smx2v1_q4lowtop1_retest_stop250_rr500_t320_v1",
+  "started_at": "2026-06-01 07:07:01",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "output_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max2_v2_general_dev_1h_v1_results",
+  "train_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "pre_q4_end": "2025-09-30 23:59:59",
+  "initial_asset": 100.0,
+  "position_fraction": 0.01,
+  "leverage": 1.0,
+  "fee_per_side": 0.0004,
+  "round_trip_fee": 0.0008,
+  "min_expected_tp": 0.003,
+  "engine_rules": [
+    "signal at i close enters at i+1 open",
+    "2026 data excluded before indicator calculation",
+    "exit effect is delayed to next 5m timestamp",
+    "same timestamp exit-to-entry reuse is forbidden by delayed effect_time",
+    "same-bar TP/SL allowed; if both touched, stop wins",
+    "active trades at period end are force-closed by local simulation"
+  ],
+  "candidate_count": 28,
+  "max_symbols": 0,
+  "full_top_n": 8
+}
