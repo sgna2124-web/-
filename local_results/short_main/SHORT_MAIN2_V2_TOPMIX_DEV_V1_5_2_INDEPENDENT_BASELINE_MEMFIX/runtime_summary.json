@@ -10,10 +10,10 @@
   "slippages": [
     0.0
   ],
-  "total_elapsed_seconds": 2447.0278380999807,
-  "total_elapsed_minutes": 40.78379730166635,
-  "load_elapsed_seconds": 488.9791650000261,
-  "load_elapsed_minutes": 8.149652750000435,
+  "total_elapsed_seconds": 2645.3599187,
+  "total_elapsed_minutes": 44.089331978333334,
+  "load_elapsed_seconds": 522.5127462,
+  "load_elapsed_minutes": 8.70854577,
   "planned_scenario_count": 7,
   "completed_scenario_count": 7,
   "environment_lock": {
@@ -41,6 +41,6 @@
     "active_leftover": 0,
     "pending_leftover": 0
   },
-  "run_started_at": "2026-06-01T17:04:39",
-  "run_finished_at": "2026-06-01T17:45:26"
+  "run_started_at": "2026-06-02T05:49:17",
+  "run_finished_at": "2026-06-02T06:33:23"
 }
