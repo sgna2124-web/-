@@ -1,0 +1,11 @@
+{
+  "batch": "LONG_SELLOFF_CALM_RECLAIM_FAILURETEST_V16_1H",
+  "purpose": "v15 selloff_calm_reclaim refinement with failure test",
+  "spec_count": 48,
+  "notes": [
+    "Refines only v15 surviving family.",
+    "Adds failure-test confirmation after reclaim.",
+    "Goal: reduce MDD and trade density.",
+    "No cross-sectional rank, fixed SL/TP."
+  ]
+}

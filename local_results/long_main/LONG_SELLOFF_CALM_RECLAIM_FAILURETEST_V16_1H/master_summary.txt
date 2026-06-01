@@ -1,0 +1,14 @@
+[BATCH] LONG_SELLOFF_CALM_RECLAIM_FAILURETEST_V16_1H
+[SPECS] 48
+[ROWS] 48
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+
+[TOP_ANY_MDD]
+SCRF_A_012 | verdict=valid_any_mdd | family=selloff_calm_reclaim_failuretest | cd=66.300264 | max=2.137985 | mdd=35.087555 | trades=6504
+SCRF_A_011 | verdict=valid_any_mdd | family=selloff_calm_reclaim_failuretest | cd=59.021838 | max=2.688671 | mdd=42.523516 | trades=8547
+SCRF_A_010 | verdict=valid_any_mdd | family=selloff_calm_reclaim_failuretest | cd=52.154805 | max=1.377165 | mdd=48.553696 | trades=10232
+
+[BEST_BY_FAMILY]
+selloff_calm_reclaim_failuretest: SCRF_A_012 | cd=66.300264 | max=2.137985 | mdd=35.087555 | trades=6504
