@@ -1,0 +1,56 @@
+[BATCH] LONG_SCR17_A016_RETEST_REFINE_V18_1H
+[SPECS] 97
+[ROWS] 97
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+SCR18_B_026 | family=calm_local | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103 | win=38.835%
+SCR18_B_027 | family=calm_local | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103 | win=38.835%
+SCR18_B_028 | family=calm_local | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103 | win=38.835%
+SCR18_B_029 | family=calm_local | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103 | win=38.835%
+SCR18_A_025 | family=old_reclaim_local | cd=99.240228 | max=0.028893 | mdd=0.788437 | trades=78 | win=37.179%
+SCR18_A_015 | family=old_reclaim_local | cd=99.165022 | max=0.243104 | mdd=1.075468 | trades=120 | win=41.667%
+SCR18_A_020 | family=old_reclaim_local | cd=99.158553 | max=0.119913 | mdd=0.960209 | trades=101 | win=39.604%
+SCR18_B_030 | family=calm_local | cd=98.858585 | max=0.136397 | mdd=1.276071 | trades=171 | win=37.427%
+SCR18_B_031 | family=calm_local | cd=98.858585 | max=0.136397 | mdd=1.276071 | trades=171 | win=37.427%
+SCR18_B_032 | family=calm_local | cd=98.858585 | max=0.136397 | mdd=1.276071 | trades=171 | win=37.427%
+SCR18_B_033 | family=calm_local | cd=98.858585 | max=0.136397 | mdd=1.276071 | trades=171 | win=37.427%
+SCR18_A_010 | family=old_reclaim_local | cd=98.754582 | max=0.152421 | mdd=1.395712 | trades=156 | win=38.462%
+SCR18_A_019 | family=old_reclaim_local | cd=98.573277 | max=0.088236 | mdd=1.513624 | trades=171 | win=36.842%
+SCR18_B_034 | family=calm_local | cd=98.507123 | max=0.535925 | mdd=2.017987 | trades=277 | win=39.711%
+SCR18_B_035 | family=calm_local | cd=98.507123 | max=0.535925 | mdd=2.017987 | trades=277 | win=39.711%
+SCR18_B_036 | family=calm_local | cd=98.507123 | max=0.535925 | mdd=2.017987 | trades=277 | win=39.711%
+SCR18_B_037 | family=calm_local | cd=98.507123 | max=0.535925 | mdd=2.017987 | trades=277 | win=39.711%
+SCR18_A_014 | family=old_reclaim_local | cd=98.441415 | max=0.268748 | mdd=1.822436 | trades=219 | win=38.813%
+SCR18_A_005 | family=old_reclaim_local | cd=98.331372 | max=0.396901 | mdd=2.057364 | trades=259 | win=41.313%
+SCR18_A_023 | family=old_reclaim_local | cd=98.229280 | max=0.183194 | mdd=1.950341 | trades=231 | win=36.797%
+
+[TOP_ANY_MDD]
+SCR18_B_026 | verdict=research_too_few_trades | family=calm_local | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103
+SCR18_B_027 | verdict=research_too_few_trades | family=calm_local | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103
+SCR18_B_028 | verdict=research_too_few_trades | family=calm_local | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103
+SCR18_B_029 | verdict=research_too_few_trades | family=calm_local | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103
+SCR18_A_025 | verdict=research_too_few_trades | family=old_reclaim_local | cd=99.240228 | max=0.028893 | mdd=0.788437 | trades=78
+SCR18_A_015 | verdict=research_too_few_trades | family=old_reclaim_local | cd=99.165022 | max=0.243104 | mdd=1.075468 | trades=120
+SCR18_A_020 | verdict=research_too_few_trades | family=old_reclaim_local | cd=99.158553 | max=0.119913 | mdd=0.960209 | trades=101
+SCR18_B_030 | verdict=research_too_few_trades | family=calm_local | cd=98.858585 | max=0.136397 | mdd=1.276071 | trades=171
+SCR18_B_031 | verdict=research_too_few_trades | family=calm_local | cd=98.858585 | max=0.136397 | mdd=1.276071 | trades=171
+SCR18_B_032 | verdict=research_too_few_trades | family=calm_local | cd=98.858585 | max=0.136397 | mdd=1.276071 | trades=171
+SCR18_B_033 | verdict=research_too_few_trades | family=calm_local | cd=98.858585 | max=0.136397 | mdd=1.276071 | trades=171
+SCR18_A_010 | verdict=research_too_few_trades | family=old_reclaim_local | cd=98.754582 | max=0.152421 | mdd=1.395712 | trades=156
+SCR18_A_019 | verdict=research_too_few_trades | family=old_reclaim_local | cd=98.573277 | max=0.088236 | mdd=1.513624 | trades=171
+SCR18_B_034 | verdict=research_too_few_trades | family=calm_local | cd=98.507123 | max=0.535925 | mdd=2.017987 | trades=277
+SCR18_B_035 | verdict=research_too_few_trades | family=calm_local | cd=98.507123 | max=0.535925 | mdd=2.017987 | trades=277
+SCR18_B_036 | verdict=research_too_few_trades | family=calm_local | cd=98.507123 | max=0.535925 | mdd=2.017987 | trades=277
+SCR18_B_037 | verdict=research_too_few_trades | family=calm_local | cd=98.507123 | max=0.535925 | mdd=2.017987 | trades=277
+SCR18_A_014 | verdict=research_too_few_trades | family=old_reclaim_local | cd=98.441415 | max=0.268748 | mdd=1.822436 | trades=219
+SCR18_A_005 | verdict=research_too_few_trades | family=old_reclaim_local | cd=98.331372 | max=0.396901 | mdd=2.057364 | trades=259
+SCR18_A_023 | verdict=research_too_few_trades | family=old_reclaim_local | cd=98.229280 | max=0.183194 | mdd=1.950341 | trades=231
+
+[BEST_BY_FAMILY]
+calm_local: SCR18_B_026 | cd=99.372267 | max=0.134707 | mdd=0.761414 | trades=103
+density_quality_local: SCR18_E_084 | cd=97.536821 | max=0.421615 | mdd=2.872682 | trades=367
+exact_retest: SCR18_EXACT_A016 | cd=97.319011 | max=0.424831 | mdd=3.092681 | trades=395
+exit_geometry_local: SCR18_D_066 | cd=97.420309 | max=0.265096 | mdd=2.837265 | trades=395
+failuretest_local: SCR18_C_050 | cd=97.457483 | max=0.496251 | mdd=3.023763 | trades=391
+old_reclaim_local: SCR18_A_025 | cd=99.240228 | max=0.028893 | mdd=0.788437 | trades=78
