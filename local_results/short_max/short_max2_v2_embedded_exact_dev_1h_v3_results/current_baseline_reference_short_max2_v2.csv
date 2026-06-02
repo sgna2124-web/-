@@ -1,0 +1,2 @@
+﻿strategy,note,trades,wins,losses,win_rate_pct,max_return_pct,max_drawdown_pct,official_cd_value,profit_factor
+BASE_short_max2_v2_stop250_rr500_t320,현재 공식 기준선 short_max2/v2. stop250_rr500_t320 실전형 actual-bar 기준선. 이 값이 재현되지 않으면 개발 후보는 무효다.,65180,5130,60050,7.8705124271248845,15588.585271121465,2.274010039088681,15331.825267065175,2.6142284817799504

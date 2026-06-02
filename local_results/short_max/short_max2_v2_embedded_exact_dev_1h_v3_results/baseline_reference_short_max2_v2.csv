@@ -1,0 +1,2 @@
+﻿strategy,baseline_version,trades,wins,losses,win_rate_pct,max_return_pct,max_drawdown_pct,official_cd_value,profit_factor,active_leftover,pending_leftover
+BASE_short_max2_v2_stop250_rr500_t320,short_max2/v2,65180,5130,60050,7.8705124271248845,15588.585271121465,2.274010039088681,15331.825267065175,2.6142284817799504,0,0
