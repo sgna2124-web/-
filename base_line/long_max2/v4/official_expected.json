@@ -1,0 +1,81 @@
+{
+  "axis": "long_max2",
+  "version": "v4",
+  "role": "official_audited_realistic_execution_long_max2_baseline",
+  "status": "promoted_after_v46_single_retest",
+  "official_strategy": "LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V46_RETEST_V45_TOP1_C38_FR035_WEAK_M010",
+  "source_retest_folder": "local_results/long_max/LONG_MAX2_V46_2025_V46_TOP1_RETEST_STANDALONE",
+  "source_development_folder": "local_results/long_max/LONG_MAX2_V45_2025_V45_TOP_MIX_DEV_STANDALONE",
+  "previous_baseline_folder": "base_line/long_max2/v3",
+  "result_scope": "2025_until_2026-01-01_exclusive",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "side": "long",
+  "body_atr_min": 0.48,
+  "atr_stop": 1.30,
+  "rr_target": 7.75,
+  "max_hold_bars": 17,
+  "cooldown_bars": 38,
+  "time_reduce_bars": 2,
+  "time_reduce_to_risk_frac": 0.35,
+  "weak_check_bars": 1,
+  "weak_close_r": -0.10,
+  "weak_exit_mode": "tighten_be_next",
+  "position_fraction": 0.01,
+  "round_trip_cost_bps": 8.0,
+  "fee_per_side": 0.0004,
+  "execution_rule": {
+    "signal_timing": "signal candle close",
+    "entry_timing": "next candle open",
+    "management_observation": "bar close only",
+    "management_activation": "next bar only",
+    "no_future_entry_filter": true,
+    "no_same_bar_retroactive_stop": true,
+    "same_bar_stop_target_collision": "stop first"
+  },
+  "baseline_gate": {
+    "baseline_reproduction_ok": true,
+    "baseline_cd_expected": 618.2592886468248,
+    "baseline_cd_actual": 618.2592886468248,
+    "baseline_trades": 55597
+  },
+  "official_audited_result": {
+    "metric_basis": "chronological_portfolio_audit_timestamp_ordered_realized_equity_with_overlapping_positions",
+    "chron_final_return_pct": 1354.9732560631458,
+    "chron_max_return_pct": 1355.238912828799,
+    "chron_max_drawdown_pct": 8.518206175003654,
+    "chron_cd_value": 1331.2786618951602,
+    "chron_max_open_positions": 738,
+    "chron_max_gross_exposure_pct": 738.0,
+    "chron_win_rate_pct": 59.03907170700753,
+    "chron_trades": 55155
+  },
+  "trade_list_reference_result": {
+    "metric_basis": "trade_list_reference_only_not_actual_trading_judgement",
+    "trades": 55155,
+    "final_return_pct": 1492.1494905867526,
+    "max_drawdown_pct": 0.5959474820930177,
+    "official_cd_value": 1583.330967102259,
+    "max_conc_interval": 448
+  },
+  "comparison_vs_v3": {
+    "v3_chron_cd_value": 1108.5166462173966,
+    "v3_chron_max_drawdown_pct": 9.525300865204432,
+    "v3_chron_max_gross_exposure_pct": 738.0,
+    "delta_chron_cd_value": 222.76201567776356,
+    "delta_chron_max_drawdown_pct": -1.007094690200778,
+    "delta_chron_max_gross_exposure_pct": 0.0
+  },
+  "comparison_vs_v2": {
+    "v2_chron_cd_value": 832.1846538467717,
+    "v2_chron_max_drawdown_pct": 16.983488215379623,
+    "delta_chron_cd_value": 499.09400804838856,
+    "delta_chron_max_drawdown_pct": -8.46528204037597
+  },
+  "promotion_reason": "V46 single retest reproduced V45 top1 exactly under chronological audit: CD 1331.2786618951602, MDD 8.518206175003654, baseline gate true, exposure not worse than v3/v2.",
+  "next_improvement_priority": [
+    "test whether time_reduce_to_risk_frac above 0.35 still improves",
+    "reduce max open positions and gross exposure",
+    "portfolio-level entry throttling",
+    "keep v4 frozen during future development"
+  ]
+}
