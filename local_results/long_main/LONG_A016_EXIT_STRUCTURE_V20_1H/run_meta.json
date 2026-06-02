@@ -1,0 +1,10 @@
+{
+  "batch": "LONG_A016_EXIT_STRUCTURE_V20_1H",
+  "purpose": "A016 fixed entry with exit structure experiments",
+  "spec_count": 110,
+  "success_threshold": {
+    "mdd_max": 5.0,
+    "trades_min": 300,
+    "target_max_return_min": 3.0
+  }
+}

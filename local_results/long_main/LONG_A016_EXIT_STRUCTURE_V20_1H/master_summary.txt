@@ -1,0 +1,67 @@
+[BATCH] LONG_A016_EXIT_STRUCTURE_V20_1H
+[SPECS] 110
+[ROWS] 110
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+A016_TS_028 | family=tight_stop_big_rr | cd=97.357118 | max=0.931102 | mdd=3.541014 | trades=431 | win=30.626%
+A016_TS_033 | family=tight_stop_big_rr | cd=97.348394 | max=1.078148 | mdd=3.689970 | trades=431 | win=32.715%
+A016_RR_008 | family=rr_expand | cd=97.323461 | max=1.052259 | mdd=3.689970 | trades=431 | win=32.715%
+A016_TS_032 | family=tight_stop_big_rr | cd=97.279829 | max=1.006956 | mdd=3.689970 | trades=431 | win=32.715%
+A016_TS_027 | family=tight_stop_big_rr | cd=97.265070 | max=0.835675 | mdd=3.541014 | trades=431 | win=30.626%
+A016_RR_007 | family=rr_expand | cd=97.203250 | max=0.927442 | mdd=3.689970 | trades=431 | win=32.715%
+A016_RR_006 | family=rr_expand | cd=97.161352 | max=0.869575 | mdd=3.676255 | trades=431 | win=32.947%
+A016_TS_031 | family=tight_stop_big_rr | cd=97.161352 | max=0.869575 | mdd=3.676255 | trades=431 | win=32.947%
+A016_HOLD_037 | family=hold_expand | cd=97.161352 | max=0.869575 | mdd=3.676255 | trades=431 | win=32.947%
+A016_TS_026 | family=tight_stop_big_rr | cd=97.146171 | max=0.699663 | mdd=3.528802 | trades=431 | win=30.858%
+A016_TS_025 | family=tight_stop_big_rr | cd=97.089127 | max=0.578437 | mdd=3.469243 | trades=431 | win=32.019%
+A016_RR_004 | family=rr_expand | cd=96.995619 | max=0.666348 | mdd=3.646431 | trades=431 | win=33.643%
+A016_TS_030 | family=tight_stop_big_rr | cd=96.995619 | max=0.666348 | mdd=3.646431 | trades=431 | win=33.643%
+A016_RR_005 | family=rr_expand | cd=96.988849 | max=0.690488 | mdd=3.676255 | trades=431 | win=32.947%
+A016_HOLD_036 | family=hold_expand | cd=96.988849 | max=0.690488 | mdd=3.676255 | trades=431 | win=32.947%
+A016_TS_016 | family=tight_stop_big_rr | cd=96.960991 | max=0.035877 | mdd=3.073783 | trades=431 | win=24.826%
+A016_FAIL_069 | family=fail_exit_relax | cd=96.930318 | max=1.197135 | mdd=4.216342 | trades=431 | win=18.794%
+A016_RR_003 | family=rr_expand | cd=96.907950 | max=0.541037 | mdd=3.613537 | trades=431 | win=34.107%
+A016_HOLD_035 | family=hold_expand | cd=96.907950 | max=0.541037 | mdd=3.613537 | trades=431 | win=34.107%
+A016_EXIT_ANCHOR | family=anchor | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+A016_RR_001 | family=rr_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+A016_HOLD_034 | family=hold_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+A016_HOLD_038 | family=hold_expand | cd=96.767917 | max=0.279892 | mdd=3.502172 | trades=431 | win=35.963%
+A016_RR_002 | family=rr_expand | cd=96.760055 | max=0.329982 | mdd=3.558185 | trades=431 | win=35.035%
+A016_TS_029 | family=tight_stop_big_rr | cd=96.760055 | max=0.329982 | mdd=3.558185 | trades=431 | win=35.035%
+
+[TOP_ANY_MDD]
+A016_TS_028 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=97.357118 | max=0.931102 | mdd=3.541014 | trades=431
+A016_TS_033 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=97.348394 | max=1.078148 | mdd=3.689970 | trades=431
+A016_RR_008 | verdict=mdd_under5 | family=rr_expand | cd=97.323461 | max=1.052259 | mdd=3.689970 | trades=431
+A016_TS_032 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=97.279829 | max=1.006956 | mdd=3.689970 | trades=431
+A016_TS_027 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=97.265070 | max=0.835675 | mdd=3.541014 | trades=431
+A016_RR_007 | verdict=mdd_under5 | family=rr_expand | cd=97.203250 | max=0.927442 | mdd=3.689970 | trades=431
+A016_RR_006 | verdict=mdd_under5 | family=rr_expand | cd=97.161352 | max=0.869575 | mdd=3.676255 | trades=431
+A016_TS_031 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=97.161352 | max=0.869575 | mdd=3.676255 | trades=431
+A016_HOLD_037 | verdict=mdd_under5 | family=hold_expand | cd=97.161352 | max=0.869575 | mdd=3.676255 | trades=431
+A016_TS_026 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=97.146171 | max=0.699663 | mdd=3.528802 | trades=431
+A016_TS_025 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=97.089127 | max=0.578437 | mdd=3.469243 | trades=431
+A016_RR_004 | verdict=mdd_under5 | family=rr_expand | cd=96.995619 | max=0.666348 | mdd=3.646431 | trades=431
+A016_TS_030 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=96.995619 | max=0.666348 | mdd=3.646431 | trades=431
+A016_RR_005 | verdict=mdd_under5 | family=rr_expand | cd=96.988849 | max=0.690488 | mdd=3.676255 | trades=431
+A016_HOLD_036 | verdict=mdd_under5 | family=hold_expand | cd=96.988849 | max=0.690488 | mdd=3.676255 | trades=431
+A016_TS_016 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=96.960991 | max=0.035877 | mdd=3.073783 | trades=431
+A016_FAIL_069 | verdict=mdd_under5 | family=fail_exit_relax | cd=96.930318 | max=1.197135 | mdd=4.216342 | trades=431
+A016_RR_003 | verdict=mdd_under5 | family=rr_expand | cd=96.907950 | max=0.541037 | mdd=3.613537 | trades=431
+A016_HOLD_035 | verdict=mdd_under5 | family=hold_expand | cd=96.907950 | max=0.541037 | mdd=3.613537 | trades=431
+A016_EXIT_ANCHOR | verdict=mdd_under5 | family=anchor | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+A016_RR_001 | verdict=mdd_under5 | family=rr_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+A016_HOLD_034 | verdict=mdd_under5 | family=hold_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+A016_HOLD_038 | verdict=mdd_under5 | family=hold_expand | cd=96.767917 | max=0.279892 | mdd=3.502172 | trades=431
+A016_RR_002 | verdict=mdd_under5 | family=rr_expand | cd=96.760055 | max=0.329982 | mdd=3.558185 | trades=431
+A016_TS_029 | verdict=mdd_under5 | family=tight_stop_big_rr | cd=96.760055 | max=0.329982 | mdd=3.558185 | trades=431
+
+[BEST_BY_FAMILY]
+anchor: A016_EXIT_ANCHOR | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+fail_exit_relax: A016_FAIL_069 | cd=96.930318 | max=1.197135 | mdd=4.216342 | trades=431
+fail_exit_removed: A016_NOFAIL_089 | cd=96.228769 | max=1.289704 | mdd=4.996495 | trades=431
+hold_expand: A016_HOLD_037 | cd=97.161352 | max=0.869575 | mdd=3.676255 | trades=431
+rr_expand: A016_RR_008 | cd=97.323461 | max=1.052259 | mdd=3.689970 | trades=431
+tight_stop_big_rr: A016_TS_028 | cd=97.357118 | max=0.931102 | mdd=3.541014 | trades=431
+wide_stop_big_tp: A016_WS_090 | cd=95.576206 | max=0.071221 | mdd=4.491816 | trades=431
