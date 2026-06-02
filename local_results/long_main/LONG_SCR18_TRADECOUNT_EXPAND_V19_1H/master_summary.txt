@@ -1,0 +1,66 @@
+[BATCH] LONG_SCR18_TRADECOUNT_EXPAND_V19_1H
+[SPECS] 69
+[ROWS] 69
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+SCR19_D_056 | family=profit_expand | cd=97.042193 | max=0.680313 | mdd=3.613537 | trades=431 | win=34.107%
+SCR19_E_060 | family=density_control | cd=96.934564 | max=0.145910 | mdd=3.206668 | trades=432 | win=37.963%
+SCR19_E_063 | family=density_control | cd=96.925198 | max=0.136234 | mdd=3.206668 | trades=431 | win=37.819%
+SCR19_E_066 | family=density_control | cd=96.925198 | max=0.136234 | mdd=3.206668 | trades=431 | win=37.819%
+SCR19_C_035 | family=test_expand | cd=96.890133 | max=0.326119 | mdd=3.424818 | trades=433 | win=38.106%
+SCR19_C_036 | family=test_expand | cd=96.890133 | max=0.326119 | mdd=3.424818 | trades=433 | win=38.106%
+SCR19_C_037 | family=test_expand | cd=96.890133 | max=0.326119 | mdd=3.424818 | trades=433 | win=38.106%
+SCR19_E_061 | family=density_control | cd=96.889523 | max=0.314196 | mdd=3.413947 | trades=432 | win=38.194%
+SCR19_D_052 | family=profit_expand | cd=96.889318 | max=0.499584 | mdd=3.592319 | trades=431 | win=34.339%
+SCR19_EXACT_A016 | family=anchor | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_A_015 | family=entry_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_B_016 | family=calm_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_B_017 | family=calm_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_B_018 | family=calm_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_B_019 | family=calm_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_C_032 | family=test_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_C_033 | family=test_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_C_034 | family=test_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_D_044 | family=profit_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_E_064 | family=density_control | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_E_067 | family=density_control | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431 | win=38.051%
+SCR19_D_059 | family=profit_expand | cd=96.865371 | max=0.713232 | mdd=3.820610 | trades=431 | win=29.002%
+SCR19_D_057 | family=profit_expand | cd=96.864104 | max=0.669984 | mdd=3.780551 | trades=431 | win=30.162%
+SCR19_C_038 | family=test_expand | cd=96.857540 | max=0.309244 | mdd=3.441062 | trades=434 | win=38.018%
+SCR19_C_039 | family=test_expand | cd=96.857540 | max=0.309244 | mdd=3.441062 | trades=434 | win=38.018%
+
+[TOP_ANY_MDD]
+SCR19_D_056 | verdict=mdd_under5 | family=profit_expand | cd=97.042193 | max=0.680313 | mdd=3.613537 | trades=431
+SCR19_E_060 | verdict=mdd_under5 | family=density_control | cd=96.934564 | max=0.145910 | mdd=3.206668 | trades=432
+SCR19_E_063 | verdict=mdd_under5 | family=density_control | cd=96.925198 | max=0.136234 | mdd=3.206668 | trades=431
+SCR19_E_066 | verdict=mdd_under5 | family=density_control | cd=96.925198 | max=0.136234 | mdd=3.206668 | trades=431
+SCR19_C_035 | verdict=mdd_under5 | family=test_expand | cd=96.890133 | max=0.326119 | mdd=3.424818 | trades=433
+SCR19_C_036 | verdict=mdd_under5 | family=test_expand | cd=96.890133 | max=0.326119 | mdd=3.424818 | trades=433
+SCR19_C_037 | verdict=mdd_under5 | family=test_expand | cd=96.890133 | max=0.326119 | mdd=3.424818 | trades=433
+SCR19_E_061 | verdict=mdd_under5 | family=density_control | cd=96.889523 | max=0.314196 | mdd=3.413947 | trades=432
+SCR19_D_052 | verdict=mdd_under5 | family=profit_expand | cd=96.889318 | max=0.499584 | mdd=3.592319 | trades=431
+SCR19_EXACT_A016 | verdict=mdd_under5 | family=anchor | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_A_015 | verdict=mdd_under5 | family=entry_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_B_016 | verdict=mdd_under5 | family=calm_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_B_017 | verdict=mdd_under5 | family=calm_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_B_018 | verdict=mdd_under5 | family=calm_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_B_019 | verdict=mdd_under5 | family=calm_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_C_032 | verdict=mdd_under5 | family=test_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_C_033 | verdict=mdd_under5 | family=test_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_C_034 | verdict=mdd_under5 | family=test_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_D_044 | verdict=mdd_under5 | family=profit_expand | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_E_064 | verdict=mdd_under5 | family=density_control | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_E_067 | verdict=mdd_under5 | family=density_control | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+SCR19_D_059 | verdict=mdd_under5 | family=profit_expand | cd=96.865371 | max=0.713232 | mdd=3.820610 | trades=431
+SCR19_D_057 | verdict=mdd_under5 | family=profit_expand | cd=96.864104 | max=0.669984 | mdd=3.780551 | trades=431
+SCR19_C_038 | verdict=mdd_under5 | family=test_expand | cd=96.857540 | max=0.309244 | mdd=3.441062 | trades=434
+SCR19_C_039 | verdict=mdd_under5 | family=test_expand | cd=96.857540 | max=0.309244 | mdd=3.441062 | trades=434
+
+[BEST_BY_FAMILY]
+anchor: SCR19_EXACT_A016 | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+calm_expand: SCR19_B_016 | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+density_control: SCR19_E_060 | cd=96.934564 | max=0.145910 | mdd=3.206668 | trades=432
+entry_expand: SCR19_A_015 | cd=96.880161 | max=0.304504 | mdd=3.413947 | trades=431
+profit_expand: SCR19_D_056 | cd=97.042193 | max=0.680313 | mdd=3.613537 | trades=431
+test_expand: SCR19_C_035 | cd=96.890133 | max=0.326119 | mdd=3.424818 | trades=433

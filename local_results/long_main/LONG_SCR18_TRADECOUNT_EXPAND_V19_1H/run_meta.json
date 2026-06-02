@@ -1,0 +1,5 @@
+{
+  "batch": "LONG_SCR18_TRADECOUNT_EXPAND_V19_1H",
+  "purpose": "A016 trade count expansion while preserving low MDD",
+  "spec_count": 69
+}
