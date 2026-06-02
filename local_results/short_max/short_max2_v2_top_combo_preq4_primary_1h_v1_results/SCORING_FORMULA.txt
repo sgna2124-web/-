@@ -1,0 +1,18 @@
+Q4 excluded primary robust scoring formula
+
+목적:
+2025년 4분기를 비정상/특수 장세로 보고, 이 구간 성과를 1차 순위 점수에서 제외한다.
+
+점수 비중:
+- 45점: pre-Q4 월별 평균 pnl, 높을수록 좋음
+- 35점: pre-Q4 MDD, 낮을수록 좋음
+- 10점: pre-Q4 profit factor, 높을수록 좋음
+- 10점: pre-Q4 positive_month_ratio_pct, 높을수록 좋음
+- 0점: Q4 delta return, 순위 점수에서는 제외하고 참고 지표로만 기록
+
+정렬 기준:
+rank_by_preq4_primary_score = robust_score_q4_excluded 내림차순
+
+추가 참고:
+robust_score_q4_penalized = robust_score_q4_low_weight - q4_dependency_penalty
+이 값은 Q4 의존 비중이 높은 후보를 참고 감점해서 볼 때 사용한다. 기본 순위는 Q4 제외 점수다.
