@@ -1,0 +1,17 @@
+[BATCH] LONG_COMPRESSION_RELEASE_V21_1H
+[SPECS] 65
+[ROWS] 65
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+CR21_C_022 | family=range_body_compression | cd=98.569079 | max=0.686717 | mdd=2.103195 | trades=538 | win=39.219%
+CR21_C_023 | family=range_body_compression | cd=98.166303 | max=0.555938 | mdd=2.376423 | trades=610 | win=38.033%
+CR21_C_024 | family=range_body_compression | cd=98.151534 | max=0.549569 | mdd=2.384928 | trades=614 | win=37.948%
+
+[TOP_ANY_MDD]
+CR21_C_022 | verdict=mdd_under5 | family=range_body_compression | cd=98.569079 | max=0.686717 | mdd=2.103195 | trades=538
+CR21_C_023 | verdict=mdd_under5 | family=range_body_compression | cd=98.166303 | max=0.555938 | mdd=2.376423 | trades=610
+CR21_C_024 | verdict=mdd_under5 | family=range_body_compression | cd=98.151534 | max=0.549569 | mdd=2.384928 | trades=614
+
+[BEST_BY_FAMILY]
+range_body_compression: CR21_C_022 | cd=98.569079 | max=0.686717 | mdd=2.103195 | trades=538

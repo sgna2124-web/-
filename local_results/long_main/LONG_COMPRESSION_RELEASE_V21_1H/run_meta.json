@@ -1,0 +1,11 @@
+{
+  "batch": "LONG_COMPRESSION_RELEASE_V21_1H",
+  "purpose": "compression to release long strategy search",
+  "spec_count": 65,
+  "notes": [
+    "V21 is not A016 continuation.",
+    "Tests repeated compression -> expansion structure.",
+    "Fixed SL/TP, no trailing, no BE.",
+    "Goal: more frequent and more scalable than A016."
+  ]
+}

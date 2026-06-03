@@ -1,0 +1,26 @@
+{
+  "load_errors": [],
+  "candidate_errors": {
+    "RETEST_smx2v2_combo08_stop253_rr5025_t320": [],
+    "SMX2V2_C08_R20_01_stop250_rr505": [],
+    "SMX2V2_C08_R20_02_stop256_rr505": [],
+    "SMX2V2_C08_R20_03_stop253_rr515": [],
+    "SMX2V2_C08_R20_04_stop258_rr510_t340": [],
+    "SMX2V2_C08_R20_05_stop248_rr500_t300": [],
+    "SMX2V2_C08_R20_06_score237": [],
+    "SMX2V2_C08_R20_07_score240": [],
+    "SMX2V2_C08_R20_08_dev033": [],
+    "SMX2V2_C08_R20_09_dev033_wick135": [],
+    "SMX2V2_C08_R20_10_rsi77_score238": [],
+    "SMX2V2_C08_R20_11_ema_reject": [],
+    "SMX2V2_C08_R20_12_upper_sweep": [],
+    "SMX2V2_C08_R20_13_closepos090": [],
+    "SMX2V2_C08_R20_14_range45_score237": [],
+    "SMX2V2_C08_R20_15_atrp095": [],
+    "SMX2V2_C08_R20_16_dd032_freeze5": [],
+    "SMX2V2_C08_R20_17_dd030_freeze6": [],
+    "SMX2V2_C08_R20_18_fail10": [],
+    "SMX2V2_C08_R20_19_fail14_treduce4": [],
+    "SMX2V2_C08_R20_20_hybrid_q4low": []
+  }
+}
