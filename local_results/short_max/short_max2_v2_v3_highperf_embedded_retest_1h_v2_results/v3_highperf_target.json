@@ -1,0 +1,15 @@
+{
+  "strategy": "RETEST_smx2v2_combo08_stop253_rr5025_t320",
+  "note": "v3 high-performance variant target. This is NOT the original official combo08 target.",
+  "source_result_dir": "local_results\\short_max\\short_max2_v2_combo08_exact_gate_retest20_periods_1h_v3_results",
+  "preq4_trades": 89070,
+  "preq4_final_return_pct": 5294.146847596259,
+  "preq4_max_drawdown_pct": 5.670488980583787,
+  "preq4_official_cd_value": 5088.272345006806,
+  "preq4_profit_factor": 1.9128216233050397,
+  "full_trades": 104963,
+  "full_final_return_pct": 17866.234985039257,
+  "full_max_drawdown_pct": 5.670488980583787,
+  "full_official_cd_value": 16947.461609986818,
+  "full_profit_factor": 1.9735331066098394
+}
