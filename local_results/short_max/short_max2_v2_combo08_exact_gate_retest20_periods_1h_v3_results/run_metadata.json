@@ -1,0 +1,13 @@
+{
+  "batch": "short_max2_v2_combo08_exact_gate_retest20_periods_1h_v3",
+  "script": "run_short_max2_v2_combo08_exact_gate_retest20_periods_1h_v3.py",
+  "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231_FAST_SIGNAL_PRECOMPUTE_CHUNKED_MEMSAFE",
+  "source_baseline": "embedded; no external baseline file reference",
+  "status": "GATE_FAILED_STOPPED",
+  "elapsed_min": 10.998,
+  "csv_files": 597,
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max2_v2_combo08_exact_gate_retest20_periods_1h_v3_results",
+  "fee_per_side": 0.0004,
+  "position_fraction": 0.01
+}

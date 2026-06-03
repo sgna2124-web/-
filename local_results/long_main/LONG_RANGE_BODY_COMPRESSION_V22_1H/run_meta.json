@@ -1,0 +1,11 @@
+{
+  "batch": "LONG_RANGE_BODY_COMPRESSION_V22_1H",
+  "purpose": "range/body compression local expansion after V21",
+  "spec_count": 148,
+  "notes": [
+    "V22 expands only CR21_C range_body_compression survivors.",
+    "Wider local grid for about one-hour class run.",
+    "Fixed SL/TP, no trailing, no BE.",
+    "Success target: MDD <= 5, trades 500-1500, max_return >= 2-3."
+  ]
+}
