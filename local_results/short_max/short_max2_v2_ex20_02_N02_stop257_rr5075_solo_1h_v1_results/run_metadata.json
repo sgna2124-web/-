@@ -1,0 +1,33 @@
+{
+  "batch": "short_max2_v2_ex20_02_N02_stop257_rr5075_solo_1h_v1",
+  "script": "run_short_max2_v2_ex20_02_N02_stop257_rr5075_solo_1h_v1.py",
+  "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231_FAST_SIGNAL_PRECOMPUTE_CHUNKED_MEMSAFE",
+  "source_baseline": "embedded N02 solo discovery run; no external source lookup; no external baseline file reference",
+  "status": "OK_N02_DISCOVERY_COMPLETED",
+  "candidate_count_requested": 1,
+  "candidate_count_completed": 1,
+  "elapsed_min": 30.528,
+  "max_runtime_min": 60.0,
+  "csv_files": 597,
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max2_v2_ex20_02_N02_stop257_rr5075_solo_1h_v1_results",
+  "preq4_end": "2025-09-30 23:59:59",
+  "full_end": "2025-12-31 23:59:59",
+  "holdout_start": "2026-01-01 00:00:00",
+  "fee_per_side": 0.0004,
+  "position_fraction": 0.01,
+  "n02_discovery_target_placeholder": {
+    "strategy": "SMX2V2_C08_EX20_02_N02_stop257_rr5075",
+    "note": "discovery solo run; no previous exact target exists yet. Use this run to establish N02 target if performance is good.",
+    "preq4_trades": null,
+    "preq4_final_return_pct": null,
+    "preq4_max_drawdown_pct": null,
+    "preq4_official_cd_value": null,
+    "preq4_profit_factor": null,
+    "full_trades": null,
+    "full_final_return_pct": null,
+    "full_max_drawdown_pct": null,
+    "full_official_cd_value": null,
+    "full_profit_factor": null
+  }
+}

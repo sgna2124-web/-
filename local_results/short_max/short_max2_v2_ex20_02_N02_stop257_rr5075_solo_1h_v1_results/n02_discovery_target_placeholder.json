@@ -1,0 +1,14 @@
+{
+  "strategy": "SMX2V2_C08_EX20_02_N02_stop257_rr5075",
+  "note": "discovery solo run; no previous exact target exists yet. Use this run to establish N02 target if performance is good.",
+  "preq4_trades": null,
+  "preq4_final_return_pct": null,
+  "preq4_max_drawdown_pct": null,
+  "preq4_official_cd_value": null,
+  "preq4_profit_factor": null,
+  "full_trades": null,
+  "full_final_return_pct": null,
+  "full_max_drawdown_pct": null,
+  "full_official_cd_value": null,
+  "full_profit_factor": null
+}
