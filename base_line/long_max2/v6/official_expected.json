@@ -1,0 +1,85 @@
+{
+  "axis": "long_max2",
+  "version": "v6",
+  "role": "official_audited_realistic_execution_long_max2_baseline",
+  "status": "promoted_after_v51_top_condition_mix_and_v52_period_audit",
+  "official_strategy": "LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V51_C38_FR085_WEAK_M025_RR800",
+  "source_development_folder": "local_results/long_max/LONG_MAX2_V51_2025_V51_TOP_CONDITION_MIX_DEV_STANDALONE",
+  "source_period_audit_folder": "local_results/long_max/LONG_MAX2_V52_V52_TOP1_PERIOD_AUDIT_STANDALONE",
+  "previous_baseline_folder": "base_line/long_max2/v5",
+  "result_scope": "2025_until_2026-01-01_exclusive",
+  "train_end_exclusive_utc": "2026-01-01 00:00:00",
+  "side": "long",
+  "body_atr_min": 0.48,
+  "atr_stop": 1.30,
+  "rr_target": 8.00,
+  "max_hold_bars": 17,
+  "cooldown_bars": 38,
+  "time_reduce_bars": 2,
+  "time_reduce_to_risk_frac": 0.85,
+  "weak_check_bars": 1,
+  "weak_close_r": -0.25,
+  "weak_exit_mode": "tighten_be_next",
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "round_trip_cost_bps": 8.0,
+  "execution_rule": {
+    "signal_timing": "signal candle close",
+    "entry_timing": "next candle open",
+    "management_observation": "bar close only",
+    "management_activation": "next bar only",
+    "no_future_entry_filter": true,
+    "no_same_bar_retroactive_stop": true,
+    "same_bar_stop_target_collision": "stop first"
+  },
+  "baseline_gate": {
+    "baseline_reproduction_ok": true,
+    "baseline_cd_expected": 618.2592886468248,
+    "baseline_cd_actual": 618.2592886468248,
+    "baseline_trades": 55597
+  },
+  "official_audited_result": {
+    "metric_basis": "chronological_portfolio_audit_timestamp_ordered_realized_equity_with_overlapping_positions",
+    "chron_final_return_pct": 7368.472441514601,
+    "chron_max_return_pct": 7369.836074986842,
+    "chron_max_drawdown_pct": 6.414126919816894,
+    "chron_cd_value": 6990.711308434917,
+    "chron_max_open_positions": 738,
+    "chron_max_gross_exposure_pct": 738.0,
+    "chron_win_rate_pct": 62.902758670624856,
+    "chron_trades": 55244
+  },
+  "trade_list_reference_result": {
+    "metric_basis": "trade_list_reference_only_not_actual_trading_judgement",
+    "trades": 55244,
+    "final_return_pct": 8065.477614323827,
+    "max_drawdown_pct": 0.27530069687876635,
+    "official_cd_value": 8144.181009774453,
+    "max_conc_interval": 450
+  },
+  "period_audit_2025_trade_sum_pnl_pct": {
+    "Q1": 3548.090870062308,
+    "Q2": 3423.914719863803,
+    "Q3": 4815.380154478314,
+    "Q4": 7581.408113741057,
+    "Q1_Q3_total": 11787.385744404425,
+    "Q4_share_estimate_pct": 39.14,
+    "conclusion": "Q4 is strongest but strategy is not Q4-only; all 2025 months were positive in monthly trade-sum audit."
+  },
+  "comparison_vs_v5": {
+    "v5_chron_cd_value": 2385.3856209991263,
+    "v5_chron_max_drawdown_pct": 6.619263071116042,
+    "v5_chron_max_gross_exposure_pct": 738.0,
+    "delta_chron_cd_value": 4605.325687435791,
+    "delta_chron_max_drawdown_pct": -0.205136151299148,
+    "delta_chron_max_gross_exposure_pct": 0.0
+  },
+  "promotion_reason": "V51 top condition mix produced CD 6990.711308434917 and MDD 6.414126919816894. V52 period audit reproduced the same top result and monthly audit showed gains were not limited to 2025 Q4.",
+  "next_improvement_priority": [
+    "preserve v6 reference block without reinterpretation",
+    "run Q1-Q3 only chronological audit before any large capital assumption",
+    "test FR above 0.85 carefully for over-tightening artifacts",
+    "reduce max open positions and gross exposure",
+    "portfolio-level entry throttling"
+  ]
+}
