@@ -1,0 +1,15 @@
+{
+  "strategy": "RETEST_SMX2V2_C08_EX20_02_stop256_rr505",
+  "note": "solo retest target from short_max2_v2_v3_highperf_embedded_retest_1h_v2_results; this is a separate high-performance candidate, not original official combo08.",
+  "source_result_dir": "local_results\\short_max\\short_max2_v2_v3_highperf_embedded_retest_1h_v2_results",
+  "preq4_trades": 88940,
+  "preq4_final_return_pct": 5631.482963705199,
+  "preq4_max_drawdown_pct": 5.657185952128341,
+  "preq4_official_cd_value": 5407.242314633839,
+  "preq4_profit_factor": 1.9381668354508443,
+  "full_trades": 104805,
+  "full_final_return_pct": 19160.880602965695,
+  "full_max_drawdown_pct": 5.657185952128341,
+  "full_official_cd_value": 18171.256771238506,
+  "full_profit_factor": 1.998399498007411
+}
