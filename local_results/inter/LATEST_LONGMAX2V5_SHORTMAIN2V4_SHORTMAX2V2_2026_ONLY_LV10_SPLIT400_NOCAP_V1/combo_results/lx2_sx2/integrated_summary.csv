@@ -1,0 +1,2 @@
+﻿combo,run_label,trades,long_trades,short_trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,official_cd_value,max_conc,same_bar_trades,active_leftover,blocked_by_cap,cap_removed,ruined,leverage,position_fraction,effective_notional_fraction,fee_per_side,long_key,short_key
+lx2_sx2,LATEST_LONGMAX2V5_SHORTMAIN2V4_SHORTMAX2V2_2026_ONLY_LV10_SPLIT400_NOCAP_V1,1201,310,891,344,857,28.642797668609493,28.33758374825237,28.416832077513465,3.3762401446042247,124.08117144048346,30,109,0,0,True,False,10.0,0.0025,0.025,0.0004,long_max2,short_max2
