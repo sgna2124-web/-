@@ -1,0 +1,52 @@
+{
+  "run_label": "WARMUP2025_ENTRY2026_LONGMAX2V5_SHORT1_SHORT2_LV10_SPLIT100_NOCAP_V1",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "period": {
+    "warmup_start_date": "2025-01-01 00:00:00",
+    "entry_start_date": "2026-01-01 00:00:00",
+    "end_date": "2027-01-01 00:00:00"
+  },
+  "source_csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "portfolio": {
+    "initial_asset": 100.0,
+    "leverage": 10.0,
+    "position_fraction": 0.01,
+    "fee_per_side": 0.0004,
+    "max_total_positions": null,
+    "cap_removed": true
+  },
+  "combos": [
+    [
+      "lx2_sx1",
+      "long_max2",
+      "short_max1"
+    ],
+    [
+      "lx2_sm1",
+      "long_max2",
+      "short_main1"
+    ],
+    [
+      "lx2_sx2",
+      "long_max2",
+      "short_max2"
+    ],
+    [
+      "lx2_sm2",
+      "long_max2",
+      "short_main2"
+    ]
+  ],
+  "no_repo_root_lookup": true,
+  "no_baseline_file_read": true,
+  "no_position_cap": true,
+  "latest_baselines": "long_max2/v5 + short_max/v12 + short_main/v10 + short_max2/v2 + short_main2/v4",
+  "long_condition_source": "embedded from long_max2/v2 REPRODUCTION_CHECKLIST plus V09 source family implementation",
+  "short_max1_source": "embedded short_max/v12 params",
+  "short_main1_source": "embedded short_main/v10 params",
+  "short_max2_source": "embedded from short_max2/v2 REPRODUCE.md",
+  "short_main2_source": "embedded from short_main2/v4 STRATEGY.md",
+  "execution_scope": "2025 warm-up + 2026 entry-only"
+}

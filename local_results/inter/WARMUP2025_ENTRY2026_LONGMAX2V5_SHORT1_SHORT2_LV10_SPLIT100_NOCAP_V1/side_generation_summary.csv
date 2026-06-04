@@ -1,0 +1,6 @@
+﻿axis,baseline_version,trades,errors,engine,entry_filter,generated_entry_candidates,executed_entries,blocked_by_guard,max_conc_side,max_conc_unique_symbols,active_leftover,pending_leftover,load_errors
+long_max2,long_max2/v5,326,0,embedded_v49_longmax2_condition,entry_ts>=2026-01-01,,,,,,,,
+short_max1,short_max/v12,869,0,actual_bar_engine_embedded,entry_ts>=2026-01-01,30250.0,30088.0,162.0,310.0,310.0,0.0,0.0,0.0
+short_main1,short_main/v10,684,0,actual_bar_engine_embedded,entry_ts>=2026-01-01,24226.0,24128.0,98.0,302.0,302.0,0.0,0.0,0.0
+short_max2,short_max2/v2,886,0,actual_bar_engine_embedded,entry_ts>=2026-01-01,30846.0,30846.0,0.0,306.0,306.0,0.0,0.0,0.0
+short_main2,short_main2/v4,1881,0,actual_bar_engine_embedded,entry_ts>=2026-01-01,60921.0,60921.0,0.0,365.0,365.0,0.0,0.0,0.0

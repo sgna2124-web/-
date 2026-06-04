@@ -1,0 +1,2 @@
+﻿combo,run_label,trades,long_trades,short_trades,wins,losses,win_rate_pct,final_return_pct,max_return_pct,max_drawdown_pct,official_cd_value,max_conc,same_bar_trades,active_leftover,blocked_by_cap,cap_removed,ruined,leverage,position_fraction,effective_notional_fraction,fee_per_side,long_key,short_key
+lx2_sx2,WARMUP2025_ENTRY2026_LONGMAX2V5_SHORT1_SHORT2_LV10_SPLIT100_NOCAP_V1,1212,326,886,360,852,29.7029702970297,186.30683734221677,187.0151342175928,6.668052213824936,267.876815206384,30,109,0,0,True,False,10.0,0.01,0.1,0.0004,long_max2,short_max2
