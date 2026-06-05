@@ -1,0 +1,11 @@
+{
+  "batch": "LONG_NEGATIVE_FILTER_V23_LIGHT2_SAFE_1H",
+  "purpose": "safe negative filter light2 search",
+  "spec_count": 26,
+  "notes": [
+    "Designed after v23_light produced many errors.",
+    "Per-symbol errors are isolated and logged.",
+    "Feature count and candidate count reduced.",
+    "Fixed SL/TP, no trailing, no BE."
+  ]
+}
