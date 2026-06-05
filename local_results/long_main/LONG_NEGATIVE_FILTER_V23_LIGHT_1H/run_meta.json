@@ -1,0 +1,10 @@
+{
+  "batch": "LONG_NEGATIVE_FILTER_V23_LIGHT_1H",
+  "purpose": "negative filter light search",
+  "spec_count": 45,
+  "notes": [
+    "Original v23 was too heavy and discarded.",
+    "Candidate count is limited to keep runtime reasonable.",
+    "Fixed SL/TP, no trailing, no BE."
+  ]
+}

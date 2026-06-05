@@ -1,0 +1,634 @@
+[
+  [
+    "FF",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FIDA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FIL",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FIO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FIS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FLM",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FLOCK",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FLOW",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FLUX",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FOLKS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FORM",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FORTH",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FTM",
+    "OSError: [Errno 22] Invalid argument\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n"
+  ],
+  [
+    "FTT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FUN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "FXS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "G",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GALA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GAS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GHST",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GIGGLE",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GLM",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GLMR",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GMT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GMX",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GOAT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GPS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GRASS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GRIFFAIN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GRT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GTC",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "GUN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "H",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HAEDAL",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HANA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HBAR",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HEI",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HEMI",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HFT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HIFI",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HIGH",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HIPPO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HIVE",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HMSTR",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HOLO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HOME",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HOOK",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HOT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HUMA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "HYPE",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "ICP",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "ICX",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "ID",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IDEX",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IDOL",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "ILV",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IMX",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "INIT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "INJ",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IOST",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IOTA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IOTX",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IP",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "IRYS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "JASMY",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "JCT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "JOE",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "JST",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "JTO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "JUP",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KAIA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KAITO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KAS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KAVA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KDA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KERNEL",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KEY",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KGEN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KITE",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KLAY",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KMNO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KNC",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KOMA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "KSM",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LAB",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LAYER",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LDO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LEVER",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LIGHT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LINA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LINEA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LINK",
+    "OSError: [Errno 22] Invalid argument\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n"
+  ],
+  [
+    "LISTA",
+    "OSError: [Errno 22] Invalid argument\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n"
+  ],
+  [
+    "LIT",
+    "OSError: [Errno 22] Invalid argument\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n"
+  ],
+  [
+    "LOKA",
+    "OSError: [Errno 22] Invalid argument\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n"
+  ],
+  [
+    "LOOM",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LPT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LQTY",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LRC",
+    "OSError: [Errno 22] Invalid argument\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n"
+  ],
+  [
+    "LSK",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LTC",
+    "OSError: [Errno 22] Invalid argument\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n"
+  ],
+  [
+    "LUMIA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LUNA2",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "LYN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "M",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MAGIC",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MANA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MANTA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MASK",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MAV",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MBOX",
+    "MemoryError: Unable to allocate 1.09 MiB for an array with shape (142711,) and data type int64\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nnumpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.09 MiB for an array with shape (142711,) and data type int64\n"
+  ],
+  [
+    "MDT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "ME",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MELANIA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MEME",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MEMEFI",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MERL",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MET",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "METIS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MEW",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MILK",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MINA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MIRA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MITO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MKR",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MLN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MMT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MOCA",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MON",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MOODENG",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MORPHO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MOVE",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MOVR",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MTL",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MUBARAK",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MYRO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "MYX",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NAORIS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NEAR",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NEIRO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NEIROETH",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NEO",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NEWT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NFP",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NIL",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NKN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NMR",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NOM",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NOT",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NTRN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NULS",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "NXPC",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "OBOL",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "OCEAN",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ],
+  [
+    "OG",
+    "ParserError: Error tokenizing data. C error: out of memory\nTraceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 304, in main\n    f=load_features(p, ns.max_bars)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\run_long_negative_filter_v23_light_1h.py\", line 161, in load_features\n    df = standardize(pd.read_csv(path, low_memory=False))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  ]
+]
