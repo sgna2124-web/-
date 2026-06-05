@@ -147,10 +147,10 @@
   "loaded_symbols": 597,
   "load_errors": 0,
   "scenario_count": 6,
-  "total_elapsed_seconds": 2261.336663000002,
-  "total_elapsed_minutes": 37.688944383333364,
-  "run_started_at": "2026-06-05T12:24:03",
-  "run_finished_at": "2026-06-05T13:01:45",
+  "total_elapsed_seconds": 2777.454932599998,
+  "total_elapsed_minutes": 46.2909155433333,
+  "run_started_at": "2026-06-05T14:45:32",
+  "run_finished_at": "2026-06-05T15:31:50",
   "no_multiprocessing": true,
   "no_candle_limit": true
 }
