@@ -1,0 +1,33 @@
+{
+  "batch": "short_max2_v2_N02_stop257_rr5075_solo_retest_through_2026_periods_1h_v1",
+  "script": "run_short_max2_v2_N02_stop257_rr5075_solo_retest_through_2026_periods_1h_v1_FIXED.py",
+  "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231_FAST_SIGNAL_PRECOMPUTE_CHUNKED_MEMSAFE",
+  "source_baseline": "embedded N02 frozen 2025 target + all-through-2026 retest; no external source lookup",
+  "status": "OK_2025_GATE_PASSED_ALL_THROUGH_2026_RETEST_COMPLETED",
+  "candidate_count_requested": 1,
+  "candidate_count_completed": 1,
+  "elapsed_min": 65.199,
+  "max_runtime_min": 120.0,
+  "csv_files": 597,
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max2_v2_N02_stop257_rr5075_solo_retest_through_2026_periods_1h_v1_results",
+  "preq4_end": "2025-09-30 23:59:59",
+  "full_2025_end": "2025-12-31 23:59:59",
+  "all_end": "2026-12-31 23:59:59",
+  "fee_per_side": 0.0004,
+  "position_fraction": 0.01,
+  "n02_frozen_2025_target": {
+    "strategy": "SMX2V2_C08_EX20_02_N02_stop257_rr5075",
+    "note": "frozen N02 2025 gate target from solo discovery run. This retest additionally evaluates all data through 2026.",
+    "preq4_trades": 88892,
+    "preq4_final_return_pct": 5636.697084804827,
+    "preq4_max_drawdown_pct": 5.655961392725716,
+    "preq4_official_cd_value": 5412.231712470644,
+    "preq4_profit_factor": 1.9410396856986845,
+    "full2025_trades": 104753,
+    "full2025_final_return_pct": 19461.28974837902,
+    "full2025_max_drawdown_pct": 5.655961392725716,
+    "full2025_official_cd_value": 18454.91075229149,
+    "full2025_profit_factor": 2.0040638913290496
+  }
+}
