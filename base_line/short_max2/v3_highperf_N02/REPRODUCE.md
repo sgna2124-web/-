@@ -1,7 +1,13 @@
 short_max2 v3_highperf_N02 reproduce guide
 
-Frozen runner
-Use the standalone runner that produced the accepted result:
+Baseline
+SMX2V2_C08_EX20_02_N02_stop257_rr5075
+
+Folder
+base_line/short_max2/v3_highperf_N02
+
+Full backtest runner
+The full runner that produced the accepted result is:
 run_short_max2_v2_N02_stop257_rr5075_solo_retest_2023_2026_periods_1h_v2_MEMSAFE_FIXED3.py
 
 Recommended command
@@ -17,6 +23,15 @@ Required files in result folder
 - period_summary.csv
 - scored_summary.csv
 - summary_full_unsorted.csv
+
+Result verifier in this baseline folder
+base_line/short_max2/v3_highperf_N02/frozen_result_verifier.py
+
+Verification command after full runner completes
+python base_line/short_max2/v3_highperf_N02/frozen_result_verifier.py --result-dir local_results/short_max/short_max2_v2_N02_stop257_rr5075_solo_retest_2023_2026_periods_1h_v2_MEMSAFE_FIXED3_results
+
+Expected verifier output
+[OK] short_max2 v3_highperf_N02 frozen result verification passed
 
 Expected metadata
 status: OK_2025_GATE_PASSED_ALL_THROUGH_2026_RETEST_COMPLETED
@@ -57,4 +72,10 @@ Important runtime note
 Use --period-workers 1 for period_summary on Windows. Repeated ProcessPool creation during period splits may cause BrokenProcessPool if period workers are set too high.
 
 Acceptance rule
-The baseline is accepted only if retest_gate_2025.json has gate_ok true and gate_misses empty.
+The baseline is accepted only if:
+1. retest_gate_2025.json has gate_ok true.
+2. retest_gate_2025.json has gate_misses [].
+3. frozen_result_verifier.py passes.
+
+Current limitation
+The complete full backtest runner file is referenced by exact filename and result path. The baseline folder now contains the verifier and all frozen target values. If the full runner file is moved, copy it into the working directory or run it from its existing project location using the command above.
