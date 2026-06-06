@@ -1,0 +1,28 @@
+{
+  "initial_capital": 100000.0,
+  "final_equity": 87726.77410085071,
+  "final_return_pct": -12.273225899149287,
+  "max_drawdown_pct": 13.887276369959379,
+  "trades": 20417,
+  "wins": 6878,
+  "losses": 13539,
+  "win_rate_pct": 33.687613263456925,
+  "gross_profit": 128332.45076620733,
+  "gross_loss": 140605.6766653571,
+  "profit_factor": 0.9127117326254175,
+  "max_concurrent_positions": 18,
+  "side_counts": {
+    "short": 10226,
+    "long": 10191
+  },
+  "exit_reason_counts": {
+    "stop": 13539,
+    "take_profit": 6875,
+    "eod": 3
+  },
+  "elapsed_sec": 73.09224605560303,
+  "selected_ohlcv_files": 20,
+  "processed_files": 20,
+  "error_files": 0,
+  "mode_note": "v10 20-files-only triage: hard-capped to 20 OHLCV files, VP off, trailing stop off, vector signals, candidate-only exits. Not Pine-exact."
+}
