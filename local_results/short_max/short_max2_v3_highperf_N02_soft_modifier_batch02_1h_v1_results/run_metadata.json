@@ -1,0 +1,22 @@
+{
+  "batch": "short_max2_v3_highperf_N02_soft_modifier_batch02_1h_v1",
+  "script": "run_short_max2_v3_highperf_N02_soft_modifier_batch02_1h_v1.py",
+  "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231_FAST_SIGNAL_PRECOMPUTE_CHUNKED_MEMSAFE",
+  "source_baseline": "short_max2/v3_highperf_N02; soft score-modifier improvement batch; no exit parameter tuning",
+  "status": "OK_GATE_PASSED_SOFT_MODIFIER_BATCH_COMPLETED",
+  "candidate_count_total": 7,
+  "candidate_start": 0,
+  "candidate_count_requested": 7,
+  "candidate_count_completed": 7,
+  "elapsed_min": 78.334,
+  "max_runtime_min": 240.0,
+  "csv_files": 597,
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max2_v3_highperf_N02_soft_modifier_batch02_1h_v1_results",
+  "period_calc_mode": "exit_ts_filter_from_all_through_2026_single_run",
+  "fee_per_side": 0.0004,
+  "position_fraction": 0.01,
+  "best_strategy_by_full2025_cd": "SMX2V3_N02_S02_soft_volr110_bonus020",
+  "best_full2025_exit_cd": 22571.358026613932,
+  "best_all2026_cd": 24376.48532499812
+}
