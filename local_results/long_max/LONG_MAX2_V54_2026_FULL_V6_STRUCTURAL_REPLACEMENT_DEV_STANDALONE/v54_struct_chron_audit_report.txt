@@ -1,0 +1,66 @@
+LONG_MAX2_V54_2026_FULL_V6_STRUCTURAL_REPLACEMENT_DEV_STANDALONE
+
+result_scope: 2026년까지의 전체 데이터 기준
+train_end_exclusive_utc: 2027-01-01 00:00:00
+baseline_reproduction_ok: False
+baseline_cd_expected: 618.2592886468248
+baseline_cd_actual: 617.4529484401239
+
+baseline_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32
+baseline_trades: 55923
+baseline_win_rate_pct: 40.466355524560555
+baseline_final_return_pct: 523.8246570871346
+baseline_max_drawdown_pct: 1.3626489750455772
+baseline_cd_value: 617.4529484401239
+
+official_selection_basis: chronological_portfolio_audit
+top_is_update_candidate_by_chron_audit: False
+trade_list_top_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V54_STOP145
+chron_audit_top_strategy: LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V54_STOP145
+chron_audit_top_description: V6 structural replacement: body/hold/cooldown/stop/time_reduce native engine variation
+chron_audit_top_filter_name: body_atr >= 0.48 / time_reduce 2->0.85R / weak 1 close<-0.25 tighten_be_next
+chron_audit_top_trades: 55574
+chron_audit_top_trade_list_return_pct: 17332.839095680036
+chron_audit_top_trade_list_mdd_pct: 0.30629576162447547
+chron_audit_top_trade_list_cd_value: 17382.778843915105
+
+chronological_portfolio_audit_top:
+chron_final_return_pct: 15801.33112600153
+chron_max_return_pct: 15819.489223271
+chron_max_drawdown_pct: 6.6837910957888935
+chron_cd_value: 14855.463820070941
+chron_max_open_positions: 740
+chron_max_gross_exposure_pct: 740.0
+chron_win_rate_pct: 65.37769460539101
+
+reference_chronological_audit:
+ref_strategy: None
+ref_chron_cd_value: 832.1846538467717
+ref_chron_max_drawdown_pct: 16.983488215379623
+ref_chron_max_gross_exposure_pct: 738.0
+delta_chron_cd_vs_ref: 14023.279166224169
+delta_chron_mdd_vs_ref: -10.299697119590729
+delta_chron_exposure_vs_ref: 2.0
+
+quarterly_audit_file: v54_struct_target_quarterly_trade_audit.csv
+monthly_audit_file: v54_struct_target_monthly_trade_audit.csv
+
+audit_warning:
+- trade-list compounding is reference only.
+- official judgement uses timestamp-ordered realized equity with overlapping positions.
+- candidate promotion requires chron CD improvement without worse MDD/exposure.
+
+runtime:
+- elapsed_seconds: 4396.840753316879
+- elapsed_minutes: 73.28067922194799
+- strategy_count: 25
+- symbol_files: 597
+
+update_rule:
+- baseline_reproduction_ok true
+- errors 0
+- ruined false
+- chronological CD must exceed audited v2 reference
+- chronological MDD must not exceed audited v2 reference
+- max gross exposure must not exceed audited v2 reference
+- 단독 재검증 전까지 기준선 갱신 확정 금지
