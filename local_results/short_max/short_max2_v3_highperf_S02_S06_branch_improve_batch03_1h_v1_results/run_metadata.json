@@ -1,0 +1,22 @@
+{
+  "batch": "short_max2_v3_highperf_S02_S06_branch_improve_batch03_1h_v1",
+  "script": "run_short_max2_v3_highperf_S02_S06_branch_improve_batch03_1h_v1.py",
+  "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231_FAST_SIGNAL_PRECOMPUTE_CHUNKED_MEMSAFE",
+  "source_baseline": "short_max2/v3_highperf_N02; S02/S06 branch soft-modifier improvement batch; no exit parameter tuning",
+  "status": "OK_GATE_PASSED_S02_S06_BRANCH_BATCH_COMPLETED",
+  "candidate_count_total": 14,
+  "candidate_start": 0,
+  "candidate_count_requested": 14,
+  "candidate_count_completed": 14,
+  "elapsed_min": 144.913,
+  "max_runtime_min": 240.0,
+  "csv_files": 597,
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max2_v3_highperf_S02_S06_branch_improve_batch03_1h_v1_results",
+  "period_calc_mode": "exit_ts_filter_from_all_through_2026_single_run",
+  "fee_per_side": 0.0004,
+  "position_fraction": 0.01,
+  "best_strategy_by_full2025_cd": "SMX2V3_B03_S02D_vol110_sweep",
+  "best_full2025_exit_cd": 22684.841610910207,
+  "best_all2026_cd": 24499.240667101054
+}
