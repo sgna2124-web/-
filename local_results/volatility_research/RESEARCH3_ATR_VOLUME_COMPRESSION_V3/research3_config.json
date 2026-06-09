@@ -1,0 +1,33 @@
+{
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\volatility_research\\RESEARCH3_ATR_VOLUME_COMPRESSION_V3",
+  "recursive": false,
+  "limit_files": null,
+  "min_csv_files": 100,
+  "allow_small_data": false,
+  "progress_every": 100,
+  "atr_len": 14,
+  "pct_window": 1000,
+  "atr_pct_th": 10.0,
+  "vol_pct_th": 10.0,
+  "horizons": [
+    12,
+    36,
+    72,
+    288
+  ],
+  "min_warmup": 1200,
+  "event_mode": "first_in_cluster",
+  "min_gap_bars": 12,
+  "compression_run_buckets": [
+    1,
+    5,
+    10,
+    20,
+    40,
+    80
+  ],
+  "start_date": "",
+  "end_date": "2026-12-31 23:59:59",
+  "save_xlsx": true
+}

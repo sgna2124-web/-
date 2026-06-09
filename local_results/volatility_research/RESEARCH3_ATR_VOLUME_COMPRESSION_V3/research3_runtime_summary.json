@@ -1,0 +1,20 @@
+{
+  "script": "research3_atr_volume_compression_event_study_v3.py",
+  "purpose": "ATR percentile + Volume percentile compression event study",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\volatility_research\\RESEARCH3_ATR_VOLUME_COMPRESSION_V3",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "event_rows": 13571636,
+  "horizons": [
+    12,
+    36,
+    72,
+    288
+  ],
+  "run_started_at": "2026-06-09T22:54:17",
+  "run_finished_at": "2026-06-10T00:41:54",
+  "elapsed_seconds": 6456.9213486,
+  "elapsed_minutes": 107.61535581
+}
