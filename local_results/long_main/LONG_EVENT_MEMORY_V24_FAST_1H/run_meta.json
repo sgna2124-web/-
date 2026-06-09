@@ -1,0 +1,14 @@
+{
+  "batch": "LONG_EVENT_MEMORY_V24_FAST_1H",
+  "purpose": "fast fixed event memory long search",
+  "spec_count": 24,
+  "fix": [
+    "Original v24 recalculated bars_since_event inside event_ok repeatedly.",
+    "This version precomputes bars_since crash arrays once per symbol.",
+    "Candidate count reduced to keep runtime near target."
+  ],
+  "notes": [
+    "Events: crash, recovery, expansion.",
+    "Fixed SL/TP, no trailing, no BE."
+  ]
+}

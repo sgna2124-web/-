@@ -1,0 +1,40 @@
+[BATCH] LONG_EVENT_MEMORY_V24_FAST_1H
+[SPECS] 24
+[ROWS] 24
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+EM24F_A_011 | family=crash_recovery | cd=101.918337 | max=4.476943 | mdd=2.448966 | trades=23662 | win=35.699%
+EM24F_A_012 | family=crash_recovery | cd=100.983373 | max=4.119397 | mdd=3.011950 | trades=17677 | win=36.019%
+EM24F_A_010 | family=crash_recovery | cd=97.100013 | max=2.020256 | mdd=4.822810 | trades=29180 | win=35.291%
+
+[TOP_ANY_MDD]
+EM24F_A_011 | verdict=mdd_under5 | family=crash_recovery | cd=101.918337 | max=4.476943 | mdd=2.448966 | trades=23662
+EM24F_A_012 | verdict=mdd_under5 | family=crash_recovery | cd=100.983373 | max=4.119397 | mdd=3.011950 | trades=17677
+EM24F_A_010 | verdict=mdd_under5 | family=crash_recovery | cd=97.100013 | max=2.020256 | mdd=4.822810 | trades=29180
+EM24F_B_014 | verdict=valid_any_mdd | family=event_recency_expansion | cd=87.470978 | max=0.322422 | mdd=12.810141 | trades=30640
+EM24F_B_013 | verdict=valid_any_mdd | family=event_recency_expansion | cd=84.907535 | max=0.137699 | mdd=15.209221 | trades=34460
+EM24F_A_009 | verdict=valid_any_mdd | family=crash_recovery | cd=84.562124 | max=0.690784 | mdd=16.018010 | trades=30600
+EM24F_C_024 | verdict=valid_any_mdd | family=exit_geometry | cd=82.580106 | max=0.588932 | mdd=17.903388 | trades=45835
+EM24F_C_022 | verdict=valid_any_mdd | family=exit_geometry | cd=81.638093 | max=0.517084 | mdd=18.781872 | trades=47550
+EM24F_C_023 | verdict=valid_any_mdd | family=exit_geometry | cd=79.906586 | max=0.301482 | mdd=20.333593 | trades=47200
+EM24F_A_008 | verdict=valid_any_mdd | family=crash_recovery | cd=79.407036 | max=0.138087 | mdd=20.702464 | trades=47947
+EM24F_B_016 | verdict=valid_any_mdd | family=event_recency_expansion | cd=79.407036 | max=0.138087 | mdd=20.702464 | trades=47947
+EM24F_C_020 | verdict=valid_any_mdd | family=exit_geometry | cd=78.618319 | max=0.248497 | mdd=21.576561 | trades=48983
+EM24F_C_021 | verdict=valid_any_mdd | family=exit_geometry | cd=76.723140 | max=0.105455 | mdd=23.357683 | trades=48774
+EM24F_C_019 | verdict=valid_any_mdd | family=exit_geometry | cd=76.184923 | max=0.085071 | mdd=23.879833 | trades=50045
+EM24F_B_015 | verdict=valid_any_mdd | family=event_recency_expansion | cd=75.133750 | max=0.137699 | mdd=24.969566 | trades=53284
+EM24F_A_006 | verdict=valid_any_mdd | family=crash_recovery | cd=72.595121 | max=0.311458 | mdd=27.630280 | trades=42476
+EM24F_B_018 | verdict=valid_any_mdd | family=event_recency_expansion | cd=70.189767 | max=0.138087 | mdd=29.907022 | trades=59746
+EM24F_A_007 | verdict=valid_any_mdd | family=crash_recovery | cd=66.391628 | max=0.151572 | mdd=33.708850 | trades=65880
+EM24F_B_017 | verdict=valid_any_mdd | family=event_recency_expansion | cd=64.973221 | max=0.137699 | mdd=35.116123 | trades=66094
+EM24F_A_003 | verdict=valid_any_mdd | family=crash_recovery | cd=56.708838 | max=0.085640 | mdd=43.339686 | trades=58712
+EM24F_A_005 | verdict=valid_any_mdd | family=crash_recovery | cd=55.195093 | max=0.154084 | mdd=44.889823 | trades=78133
+EM24F_A_004 | verdict=valid_any_mdd | family=crash_recovery | cd=37.362972 | max=0.128855 | mdd=62.685111 | trades=122203
+EM24F_A_002 | verdict=valid_any_mdd | family=crash_recovery | cd=29.620962 | max=0.037924 | mdd=70.390267 | trades=128183
+EM24F_A_001 | verdict=valid_any_mdd | family=crash_recovery | cd=9.790596 | max=0.016438 | mdd=90.211013 | trades=241865
+
+[BEST_BY_FAMILY]
+crash_recovery: EM24F_A_011 | cd=101.918337 | max=4.476943 | mdd=2.448966 | trades=23662
+event_recency_expansion: EM24F_B_014 | cd=87.470978 | max=0.322422 | mdd=12.810141 | trades=30640
+exit_geometry: EM24F_C_024 | cd=82.580106 | max=0.588932 | mdd=17.903388 | trades=45835
