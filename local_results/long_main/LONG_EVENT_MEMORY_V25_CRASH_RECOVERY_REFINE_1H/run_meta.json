@@ -1,0 +1,11 @@
+{
+  "batch": "LONG_EVENT_MEMORY_V25_CRASH_RECOVERY_REFINE_1H",
+  "purpose": "event memory crash recovery local refinement",
+  "spec_count": 48,
+  "runtime_target": "about 1 hour",
+  "source": "v24_fast crash_recovery survivors",
+  "notes": [
+    "bars_since crash arrays precomputed once per symbol",
+    "fixed SL/TP, no trailing, no BE"
+  ]
+}

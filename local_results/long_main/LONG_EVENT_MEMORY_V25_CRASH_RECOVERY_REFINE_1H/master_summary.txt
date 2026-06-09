@@ -1,0 +1,63 @@
+[BATCH] LONG_EVENT_MEMORY_V25_CRASH_RECOVERY_REFINE_1H
+[SPECS] 48
+[ROWS] 48
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+EM25_D_044 | family=exit_geometry | cd=109.747548 | max=12.844791 | mdd=2.744693 | trades=29518 | win=31.604%
+EM25_D_043 | family=exit_geometry | cd=105.907660 | max=8.717171 | mdd=2.584239 | trades=30128 | win=33.796%
+EM25_A_019 | family=crash_recovery_local | cd=104.243895 | max=6.174781 | mdd=1.818592 | trades=14975 | win=36.214%
+EM25_A_015 | family=crash_recovery_local | cd=102.814564 | max=4.762262 | mdd=1.859160 | trades=20470 | win=35.750%
+EM25_D_041 | family=exit_geometry | cd=102.703615 | max=5.458621 | mdd=2.612405 | trades=30393 | win=30.244%
+EM25_A_018 | family=crash_recovery_local | cd=102.335447 | max=4.944669 | mdd=2.486284 | trades=17032 | win=35.926%
+EM25_A_014 | family=crash_recovery_local | cd=101.918337 | max=4.476943 | mdd=2.448966 | trades=23662 | win=35.699%
+EM25_B_024 | family=recency_window | cd=101.462773 | max=4.026113 | mdd=2.464131 | trades=26171 | win=35.593%
+EM25_C_035 | family=post_recovery_expansion | cd=101.406581 | max=3.556122 | mdd=2.075726 | trades=23651 | win=35.305%
+EM25_A_020 | family=crash_recovery_local | cd=101.328487 | max=3.642049 | mdd=2.232262 | trades=13181 | win=35.999%
+EM25_A_016 | family=crash_recovery_local | cd=100.983373 | max=4.119397 | mdd=3.011950 | trades=17677 | win=36.019%
+EM25_D_042 | family=exit_geometry | cd=100.697849 | max=4.907646 | mdd=4.012860 | trades=30744 | win=36.807%
+EM25_A_011 | family=crash_recovery_local | cd=100.088825 | max=3.406042 | mdd=3.207952 | trades=26475 | win=35.347%
+EM25_A_013 | family=crash_recovery_local | cd=100.038663 | max=3.580492 | mdd=3.419397 | trades=27139 | win=35.698%
+EM25_A_017 | family=crash_recovery_local | cd=99.525612 | max=3.120994 | mdd=3.486567 | trades=19242 | win=35.599%
+EM25_D_038 | family=exit_geometry | cd=99.292633 | max=3.566258 | mdd=4.126464 | trades=31412 | win=29.466%
+EM25_D_040 | family=exit_geometry | cd=99.234247 | max=3.103282 | mdd=3.752581 | trades=31074 | win=33.645%
+EM25_A_012 | family=crash_recovery_local | cd=99.075869 | max=1.612863 | mdd=2.496725 | trades=22364 | win=35.441%
+EM25_C_033 | family=post_recovery_expansion | cd=98.555561 | max=1.971185 | mdd=3.349597 | trades=28947 | win=35.126%
+EM25_D_039 | family=exit_geometry | cd=97.043699 | max=1.616658 | mdd=4.500206 | trades=31643 | win=37.089%
+EM25_A_010 | family=crash_recovery_local | cd=97.040500 | max=1.558931 | mdd=4.449073 | trades=31353 | win=35.116%
+EM25_B_025 | family=recency_window | cd=97.040500 | max=1.558931 | mdd=4.449073 | trades=31353 | win=35.116%
+EM25_D_037 | family=exit_geometry | cd=96.547535 | max=1.352752 | mdd=4.741082 | trades=32053 | win=33.320%
+
+[TOP_ANY_MDD]
+EM25_D_044 | verdict=mdd_under5 | family=exit_geometry | cd=109.747548 | max=12.844791 | mdd=2.744693 | trades=29518
+EM25_D_043 | verdict=mdd_under5 | family=exit_geometry | cd=105.907660 | max=8.717171 | mdd=2.584239 | trades=30128
+EM25_A_019 | verdict=mdd_under5 | family=crash_recovery_local | cd=104.243895 | max=6.174781 | mdd=1.818592 | trades=14975
+EM25_A_015 | verdict=mdd_under5 | family=crash_recovery_local | cd=102.814564 | max=4.762262 | mdd=1.859160 | trades=20470
+EM25_D_041 | verdict=mdd_under5 | family=exit_geometry | cd=102.703615 | max=5.458621 | mdd=2.612405 | trades=30393
+EM25_A_018 | verdict=mdd_under5 | family=crash_recovery_local | cd=102.335447 | max=4.944669 | mdd=2.486284 | trades=17032
+EM25_A_014 | verdict=mdd_under5 | family=crash_recovery_local | cd=101.918337 | max=4.476943 | mdd=2.448966 | trades=23662
+EM25_B_024 | verdict=mdd_under5 | family=recency_window | cd=101.462773 | max=4.026113 | mdd=2.464131 | trades=26171
+EM25_C_035 | verdict=mdd_under5 | family=post_recovery_expansion | cd=101.406581 | max=3.556122 | mdd=2.075726 | trades=23651
+EM25_A_020 | verdict=mdd_under5 | family=crash_recovery_local | cd=101.328487 | max=3.642049 | mdd=2.232262 | trades=13181
+EM25_A_016 | verdict=mdd_under5 | family=crash_recovery_local | cd=100.983373 | max=4.119397 | mdd=3.011950 | trades=17677
+EM25_D_042 | verdict=mdd_under5 | family=exit_geometry | cd=100.697849 | max=4.907646 | mdd=4.012860 | trades=30744
+EM25_A_011 | verdict=mdd_under5 | family=crash_recovery_local | cd=100.088825 | max=3.406042 | mdd=3.207952 | trades=26475
+EM25_A_013 | verdict=mdd_under5 | family=crash_recovery_local | cd=100.038663 | max=3.580492 | mdd=3.419397 | trades=27139
+EM25_A_017 | verdict=mdd_under5 | family=crash_recovery_local | cd=99.525612 | max=3.120994 | mdd=3.486567 | trades=19242
+EM25_D_038 | verdict=mdd_under5 | family=exit_geometry | cd=99.292633 | max=3.566258 | mdd=4.126464 | trades=31412
+EM25_D_040 | verdict=mdd_under5 | family=exit_geometry | cd=99.234247 | max=3.103282 | mdd=3.752581 | trades=31074
+EM25_A_012 | verdict=mdd_under5 | family=crash_recovery_local | cd=99.075869 | max=1.612863 | mdd=2.496725 | trades=22364
+EM25_C_033 | verdict=mdd_under5 | family=post_recovery_expansion | cd=98.555561 | max=1.971185 | mdd=3.349597 | trades=28947
+EM25_D_039 | verdict=mdd_under5 | family=exit_geometry | cd=97.043699 | max=1.616658 | mdd=4.500206 | trades=31643
+EM25_A_010 | verdict=mdd_under5 | family=crash_recovery_local | cd=97.040500 | max=1.558931 | mdd=4.449073 | trades=31353
+EM25_B_025 | verdict=mdd_under5 | family=recency_window | cd=97.040500 | max=1.558931 | mdd=4.449073 | trades=31353
+EM25_D_037 | verdict=mdd_under5 | family=exit_geometry | cd=96.547535 | max=1.352752 | mdd=4.741082 | trades=32053
+EM25_C_031 | verdict=valid_any_mdd | family=post_recovery_expansion | cd=96.263666 | max=1.937165 | mdd=5.565682 | trades=33374
+EM25_B_026 | verdict=valid_any_mdd | family=recency_window | cd=95.771711 | max=0.823551 | mdd=5.010576 | trades=35729
+
+[BEST_BY_FAMILY]
+crash_recovery_local: EM25_A_019 | cd=104.243895 | max=6.174781 | mdd=1.818592 | trades=14975
+exit_geometry: EM25_D_044 | cd=109.747548 | max=12.844791 | mdd=2.744693 | trades=29518
+post_recovery_expansion: EM25_C_035 | cd=101.406581 | max=3.556122 | mdd=2.075726 | trades=23651
+recency_window: EM25_B_024 | cd=101.462773 | max=4.026113 | mdd=2.464131 | trades=26171
+state_risk: EM25_E_045 | cd=95.588929 | max=1.870972 | mdd=6.166666 | trades=30056
