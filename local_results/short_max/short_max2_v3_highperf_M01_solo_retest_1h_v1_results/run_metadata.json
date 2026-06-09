@@ -1,0 +1,22 @@
+{
+  "batch": "short_max2_v3_highperf_M01_solo_retest_1h_v1",
+  "script": "run_short_max2_v3_highperf_M01_solo_retest_1h_v1.py",
+  "engine": "actual_bar_engine_no_same_timestamp_reentry_force_final_close_train_to_20251231_FAST_SIGNAL_PRECOMPUTE_CHUNKED_MEMSAFE",
+  "source_baseline": "short_max2/v3_highperf_N02; M01 solo retest; no exit parameter tuning",
+  "status": "OK_GATE_PASSED_M01_SOLO_RETEST_COMPLETED",
+  "candidate_count_total": 2,
+  "candidate_start": 0,
+  "candidate_count_requested": 2,
+  "candidate_count_completed": 2,
+  "elapsed_min": 25.136,
+  "max_runtime_min": 240.0,
+  "csv_files": 597,
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max2_v3_highperf_M01_solo_retest_1h_v1_results",
+  "period_calc_mode": "exit_ts_filter_from_all_through_2026_single_run",
+  "fee_per_side": 0.0004,
+  "position_fraction": 0.01,
+  "best_strategy_by_full2025_cd": "SMX2V3_B04_M01_S02D_plus_upper020",
+  "best_full2025_exit_cd": 22691.09325550072,
+  "best_all2026_cd": 24505.99233625595
+}
