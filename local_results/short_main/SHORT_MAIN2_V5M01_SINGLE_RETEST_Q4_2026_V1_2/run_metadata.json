@@ -1,0 +1,182 @@
+{
+  "script": "short_main2_v5_V5M01_single_retest_q4_2026_v1_2.py",
+  "purpose": "short_main2/v5 V5M01 single retest, Q4 dependency, and 2026 validation",
+  "no_position_limit": true,
+  "audit_set": "v5m01_single_q4_2026",
+  "candidate": "set",
+  "period_set": "single_q4_2026_core",
+  "period_labels": [
+    "FULL_TRAIN_TO_2025_END",
+    "EXCL_2025_Q4_ALL_BEFORE_2025_10_01",
+    "2025_Q4_ONLY",
+    "2026_Q1_ONLY",
+    "FULL_TO_2026_END"
+  ],
+  "period_ranges": {
+    "FULL_TRAIN_TO_2025_END": [
+      "",
+      "2025-12-31 23:59:59"
+    ],
+    "FULL_TO_2026_END": [
+      "",
+      "2026-12-31 23:59:59"
+    ],
+    "EXCL_2025_Q4_ALL_BEFORE_2025_10_01": [
+      "",
+      "2025-09-30 23:59:59"
+    ],
+    "PRE_2025_ALL_TO_2024_END": [
+      "",
+      "2024-12-31 23:59:59"
+    ],
+    "2025_PRE_Q4_ONLY": [
+      "2025-01-01 00:00:00",
+      "2025-09-30 23:59:59"
+    ],
+    "2025_Q1_ONLY": [
+      "2025-01-01 00:00:00",
+      "2025-03-31 23:59:59"
+    ],
+    "2025_Q2_ONLY": [
+      "2025-04-01 00:00:00",
+      "2025-06-30 23:59:59"
+    ],
+    "2025_Q3_ONLY": [
+      "2025-07-01 00:00:00",
+      "2025-09-30 23:59:59"
+    ],
+    "2025_Q4_ONLY": [
+      "2025-10-01 00:00:00",
+      "2025-12-31 23:59:59"
+    ],
+    "2026_YTD_ONLY": [
+      "2026-01-01 00:00:00",
+      "2026-12-31 23:59:59"
+    ],
+    "2026_Q1_ONLY": [
+      "2026-01-01 00:00:00",
+      "2026-03-31 23:59:59"
+    ],
+    "2026_Q2_ONLY": [
+      "2026-04-01 00:00:00",
+      "2026-06-30 23:59:59"
+    ],
+    "2026_Q3_ONLY": [
+      "2026-07-01 00:00:00",
+      "2026-09-30 23:59:59"
+    ],
+    "2026_Q4_ONLY": [
+      "2026-10-01 00:00:00",
+      "2026-12-31 23:59:59"
+    ]
+  },
+  "slippages": [
+    0.0
+  ],
+  "audit_sets": {
+    "v5m01_single_q4_2026": [
+      "V5M01_D02_D03_rr615_stop265_t390"
+    ]
+  },
+  "candidate_library": {
+    "V5M01_D02_D03_rr615_stop265_t390": {
+      "label": "V5M01_D02_D03_rr615_stop265_t390",
+      "intent": "topmix v1.1 1위 후보 단독 리테스트, 2025 Q4 의존성 점검, 2026 Q1 validation",
+      "overrides": {
+        "entry_mode": "climax_exhaustion",
+        "precompute_signals": true,
+        "short_dev": 0.025,
+        "ret12_min": 0.03,
+        "ret3_min": 0.004,
+        "volume_spike_min": 0.75,
+        "upper_range_ratio_min": 0.16,
+        "close_position_max": 0.94,
+        "green_streak_min": 0,
+        "ema20_slope12_min": -0.025,
+        "ema20_slope12_max": 0.095,
+        "atr_pct_min": 0.0008,
+        "atr_pct_max": 0.135,
+        "range_spike_min": 0.0,
+        "dist_roll_high20_min": -0.08,
+        "climax_score_min": 2.7,
+        "climax_dev_weight": 1.05,
+        "climax_ret_weight": 0.75,
+        "climax_vol_weight": 0.15,
+        "climax_wick_weight": 0.55,
+        "climax_streak_weight": 0.1,
+        "ret12_ref": 0.07,
+        "volume_spike_ref": 2.0,
+        "upper_range_ratio_ref": 0.38,
+        "atr_stop_mult": 2.65,
+        "rr_mult": 6.15,
+        "timeout_bars": 390,
+        "time_reduce_bars": 3,
+        "time_reduce_to_risk_frac": 0.0,
+        "fail_fast_bars": 15,
+        "fail_fast_min_progress_r": 0.1,
+        "dd_brake_trigger_pct": 0.092,
+        "dd_brake_freeze_steps": 3,
+        "initial_asset": 100.0,
+        "position_fraction": 0.01,
+        "leverage": 1.0,
+        "fee_per_side": 0.0004
+      }
+    }
+  },
+  "baseline": "V4R05_stop262_rr620_t390_ff15",
+  "baseline_version": "short_main2/v3",
+  "source_short_main2_v1_baseline": {
+    "strategy": "SM52_B04_stop230_score270_single_retest",
+    "trades": 154015,
+    "wins": 11824,
+    "losses": 142191,
+    "win_rate_pct": 7.6771743012044285,
+    "max_return_pct": 53676.46264218497,
+    "max_drawdown_pct": 5.923149464550481,
+    "official_cd_value": 50591.202383140204,
+    "profit_factor": 1.7648350795085153,
+    "generated_signals": 267412,
+    "executed_entries": 154015,
+    "blocked_entries": 0,
+    "same_bar_trades": 9995,
+    "max_conc": 364,
+    "active_leftover": 0,
+    "pending_leftover": 0
+  },
+  "environment_lock": {
+    "initial_asset": 100.0,
+    "position_fraction": 0.01,
+    "leverage": 1.0,
+    "fee_per_side": 0.0004,
+    "round_trip_fee": 0.0008
+  },
+  "train_end": "2026-12-31 23:59:59",
+  "holdout_start": "2027-01-01 00:00:00",
+  "data_scope": "validation_includes_2026_until_2026_12_31_end_before_indicator_calculation",
+  "audit_rules": [
+    "no position count limit",
+    "exact period re-simulation, not simple trade replay",
+    "period symbols are sliced before engine run to prevent pre-period pending entry",
+    "slippage is adverse for shorts: entry lower and exit higher",
+    "previous candle close signal -> current open pending entry",
+    "same timestamp exit cannot enable same timestamp entry",
+    "current candle exit affects next timestamp",
+    "same-bar TP/SL allowed, stop first when both stop and target touch same bar",
+    "DD brake applies from next timestamp",
+    "2026 excluded before indicator calculation",
+    "active positions force-closed at each period final close",
+    "mtm_close equity includes unrealized active PnL at current candle close",
+    "mtm_worstbar equity includes adverse intrabar high capped at stop for active shorts"
+  ],
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "scenario_count": 10,
+  "total_elapsed_seconds": 2387.254669599999,
+  "total_elapsed_minutes": 39.78757782666665,
+  "run_started_at": "2026-06-09T18:07:53",
+  "run_finished_at": "2026-06-09T18:47:40",
+  "no_multiprocessing": true,
+  "no_candle_limit": true
+}
