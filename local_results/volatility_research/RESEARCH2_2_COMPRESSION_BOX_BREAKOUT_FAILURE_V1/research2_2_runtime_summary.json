@@ -1,0 +1,31 @@
+{
+  "script": "research2_2_compression_box_breakout_failure_v1.py",
+  "purpose": "Compression box first breakout failure/reentry event study",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\volatility_research\\RESEARCH2_2_COMPRESSION_BOX_BREAKOUT_FAILURE_V1",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "failure_rows": 1017360,
+  "save_event_rows": false,
+  "compression_type": "atr_volume",
+  "duration_thresholds": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "failure_horizons": [
+    3,
+    6,
+    12,
+    36,
+    72
+  ],
+  "first_break_search_horizon": 288,
+  "reentry_mode": "close",
+  "run_started_at": "2026-06-10T16:56:51",
+  "run_finished_at": "2026-06-10T17:41:12",
+  "elapsed_seconds": 2661.0929883999925,
+  "elapsed_minutes": 44.35154980666654
+}

@@ -1,0 +1,40 @@
+{
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\volatility_research\\RESEARCH2_2_COMPRESSION_BOX_BREAKOUT_FAILURE_V1",
+  "save_event_rows": false,
+  "recursive": false,
+  "limit_files": null,
+  "min_csv_files": 100,
+  "allow_small_data": false,
+  "progress_every": 100,
+  "atr_len": 14,
+  "pct_window": 1000,
+  "atr_pct_th": 10.0,
+  "vol_pct_th": 10.0,
+  "horizons": [
+    12,
+    36,
+    72,
+    288
+  ],
+  "failure_horizons": [
+    3,
+    6,
+    12,
+    36,
+    72
+  ],
+  "first_break_search_horizon": 288,
+  "reentry_mode": "close",
+  "min_warmup": 1200,
+  "compression_type": "atr_volume",
+  "duration_thresholds": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "start_date": "",
+  "end_date": "2026-12-31 23:59:59",
+  "save_xlsx": true
+}
