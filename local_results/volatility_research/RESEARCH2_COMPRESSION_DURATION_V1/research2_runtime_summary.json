@@ -1,0 +1,29 @@
+{
+  "script": "research2_compression_duration_event_study_v1.py",
+  "purpose": "Compression duration event study",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\volatility_research\\RESEARCH2_COMPRESSION_DURATION_V1",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "event_rows": 828216,
+  "horizons": [
+    12,
+    36,
+    72,
+    288
+  ],
+  "compression_type": "atr_volume",
+  "duration_thresholds": [
+    5,
+    10,
+    20,
+    40,
+    80,
+    160
+  ],
+  "run_started_at": "2026-06-10T10:15:47",
+  "run_finished_at": "2026-06-10T11:27:49",
+  "elapsed_seconds": 4321.658359300003,
+  "elapsed_minutes": 72.02763932166673
+}
