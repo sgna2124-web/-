@@ -1,0 +1,28 @@
+{
+  "script": "research2_1_compression_box_breakout_direction_v1.py",
+  "purpose": "Compression box first breakout direction event study",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\volatility_research\\RESEARCH2_1_COMPRESSION_BOX_BREAKOUT_DIRECTION_V1",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "event_horizon_rows": 826188,
+  "save_event_rows": false,
+  "horizons": [
+    12,
+    36,
+    72,
+    288
+  ],
+  "compression_type": "atr_volume",
+  "duration_thresholds": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "run_started_at": "2026-06-10T12:56:28",
+  "run_finished_at": "2026-06-10T14:44:56",
+  "elapsed_seconds": 6508.510493900001,
+  "elapsed_minutes": 108.47517489833335
+}
