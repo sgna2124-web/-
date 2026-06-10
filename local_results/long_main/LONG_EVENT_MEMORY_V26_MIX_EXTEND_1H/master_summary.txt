@@ -1,0 +1,65 @@
+[BATCH] LONG_EVENT_MEMORY_V26_MIX_EXTEND_1H
+[SPECS] 49
+[ROWS] 49
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+EM26_A_013 | family=top_exit_mix | cd=110.778279 | max=15.021172 | mdd=3.688793 | trades=29209 | win=32.723%
+EM26_A_010 | family=top_exit_mix | cd=109.747548 | max=12.844791 | mdd=2.744693 | trades=29518 | win=31.604%
+EM26_A_014 | family=top_exit_mix | cd=109.621464 | max=14.316373 | mdd=4.106944 | trades=29037 | win=32.162%
+EM26_A_009 | family=top_exit_mix | cd=108.798413 | max=11.795795 | mdd=2.681122 | trades=29693 | win=32.021%
+EM26_A_016 | family=top_exit_mix | cd=108.346109 | max=13.852600 | mdd=4.836509 | trades=28773 | win=31.377%
+EM26_D_042 | family=overheat_suppression | cd=108.088012 | max=11.545018 | mdd=3.099202 | trades=29791 | win=31.080%
+EM26_D_043 | family=overheat_suppression | cd=107.968252 | max=11.413005 | mdd=3.091878 | trades=29794 | win=31.080%
+EM26_A_011 | family=top_exit_mix | cd=107.963432 | max=12.167598 | mdd=3.748111 | trades=29363 | win=31.049%
+EM26_A_015 | family=top_exit_mix | cd=107.956841 | max=12.582971 | mdd=4.109085 | trades=28915 | win=31.766%
+EM26_E_044 | family=recency_exit_mix | cd=107.832267 | max=9.988572 | mdd=1.960481 | trades=25176 | win=32.968%
+EM26_D_041 | family=overheat_suppression | cd=107.641258 | max=11.287367 | mdd=3.276300 | trades=29752 | win=31.067%
+EM26_B_024 | family=pure_crash_recovery_mix | cd=107.418510 | max=9.505183 | mdd=1.905547 | trades=14722 | win=33.433%
+EM26_E_045 | family=recency_exit_mix | cd=107.347952 | max=10.403624 | mdd=2.767728 | trades=24738 | win=30.904%
+EM26_D_035 | family=overheat_suppression | cd=106.719534 | max=10.742220 | mdd=3.632477 | trades=29384 | win=31.197%
+EM26_E_047 | family=recency_exit_mix | cd=106.705438 | max=10.145560 | mdd=3.123251 | trades=29635 | win=30.596%
+EM26_D_036 | family=overheat_suppression | cd=106.510008 | max=10.385771 | mdd=3.511108 | trades=29421 | win=31.189%
+EM26_D_037 | family=overheat_suppression | cd=106.379051 | max=10.211258 | mdd=3.477147 | trades=29424 | win=31.185%
+EM26_E_049 | family=recency_exit_mix | cd=106.195207 | max=9.623983 | mdd=3.127760 | trades=33799 | win=30.572%
+EM26_D_038 | family=overheat_suppression | cd=105.949083 | max=9.906121 | mdd=3.600381 | trades=29680 | win=31.055%
+EM26_B_022 | family=pure_crash_recovery_mix | cd=105.938287 | max=7.835548 | mdd=1.759402 | trades=17389 | win=33.297%
+EM26_D_039 | family=overheat_suppression | cd=105.818069 | max=9.652405 | mdd=3.496809 | trades=29719 | win=31.058%
+EM26_D_040 | family=overheat_suppression | cd=105.678506 | max=9.507785 | mdd=3.496809 | trades=29721 | win=31.055%
+EM26_A_004 | family=top_exit_mix | cd=105.667641 | max=8.708640 | mdd=2.797384 | trades=30187 | win=28.658%
+EM26_B_020 | family=pure_crash_recovery_mix | cd=105.532910 | max=7.875488 | mdd=2.171557 | trades=23245 | win=32.880%
+EM26_B_021 | family=pure_crash_recovery_mix | cd=105.228586 | max=7.470919 | mdd=2.086456 | trades=20111 | win=32.912%
+
+[TOP_ANY_MDD]
+EM26_A_013 | verdict=mdd_under5 | family=top_exit_mix | cd=110.778279 | max=15.021172 | mdd=3.688793 | trades=29209
+EM26_A_010 | verdict=mdd_under5 | family=top_exit_mix | cd=109.747548 | max=12.844791 | mdd=2.744693 | trades=29518
+EM26_A_014 | verdict=mdd_under5 | family=top_exit_mix | cd=109.621464 | max=14.316373 | mdd=4.106944 | trades=29037
+EM26_A_009 | verdict=mdd_under5 | family=top_exit_mix | cd=108.798413 | max=11.795795 | mdd=2.681122 | trades=29693
+EM26_A_016 | verdict=mdd_under5 | family=top_exit_mix | cd=108.346109 | max=13.852600 | mdd=4.836509 | trades=28773
+EM26_D_042 | verdict=mdd_under5 | family=overheat_suppression | cd=108.088012 | max=11.545018 | mdd=3.099202 | trades=29791
+EM26_D_043 | verdict=mdd_under5 | family=overheat_suppression | cd=107.968252 | max=11.413005 | mdd=3.091878 | trades=29794
+EM26_A_011 | verdict=mdd_under5 | family=top_exit_mix | cd=107.963432 | max=12.167598 | mdd=3.748111 | trades=29363
+EM26_A_015 | verdict=mdd_under5 | family=top_exit_mix | cd=107.956841 | max=12.582971 | mdd=4.109085 | trades=28915
+EM26_E_044 | verdict=mdd_under5 | family=recency_exit_mix | cd=107.832267 | max=9.988572 | mdd=1.960481 | trades=25176
+EM26_D_041 | verdict=mdd_under5 | family=overheat_suppression | cd=107.641258 | max=11.287367 | mdd=3.276300 | trades=29752
+EM26_B_024 | verdict=mdd_under5 | family=pure_crash_recovery_mix | cd=107.418510 | max=9.505183 | mdd=1.905547 | trades=14722
+EM26_E_045 | verdict=mdd_under5 | family=recency_exit_mix | cd=107.347952 | max=10.403624 | mdd=2.767728 | trades=24738
+EM26_D_035 | verdict=mdd_under5 | family=overheat_suppression | cd=106.719534 | max=10.742220 | mdd=3.632477 | trades=29384
+EM26_E_047 | verdict=mdd_under5 | family=recency_exit_mix | cd=106.705438 | max=10.145560 | mdd=3.123251 | trades=29635
+EM26_D_036 | verdict=mdd_under5 | family=overheat_suppression | cd=106.510008 | max=10.385771 | mdd=3.511108 | trades=29421
+EM26_D_037 | verdict=mdd_under5 | family=overheat_suppression | cd=106.379051 | max=10.211258 | mdd=3.477147 | trades=29424
+EM26_E_049 | verdict=mdd_under5 | family=recency_exit_mix | cd=106.195207 | max=9.623983 | mdd=3.127760 | trades=33799
+EM26_D_038 | verdict=mdd_under5 | family=overheat_suppression | cd=105.949083 | max=9.906121 | mdd=3.600381 | trades=29680
+EM26_B_022 | verdict=mdd_under5 | family=pure_crash_recovery_mix | cd=105.938287 | max=7.835548 | mdd=1.759402 | trades=17389
+EM26_D_039 | verdict=mdd_under5 | family=overheat_suppression | cd=105.818069 | max=9.652405 | mdd=3.496809 | trades=29719
+EM26_D_040 | verdict=mdd_under5 | family=overheat_suppression | cd=105.678506 | max=9.507785 | mdd=3.496809 | trades=29721
+EM26_A_004 | verdict=mdd_under5 | family=top_exit_mix | cd=105.667641 | max=8.708640 | mdd=2.797384 | trades=30187
+EM26_B_020 | verdict=mdd_under5 | family=pure_crash_recovery_mix | cd=105.532910 | max=7.875488 | mdd=2.171557 | trades=23245
+EM26_B_021 | verdict=mdd_under5 | family=pure_crash_recovery_mix | cd=105.228586 | max=7.470919 | mdd=2.086456 | trades=20111
+
+[BEST_BY_FAMILY]
+overheat_suppression: EM26_D_042 | cd=108.088012 | max=11.545018 | mdd=3.099202 | trades=29791
+pure_crash_recovery_mix: EM26_B_024 | cd=107.418510 | max=9.505183 | mdd=1.905547 | trades=14722
+recency_exit_mix: EM26_E_044 | cd=107.832267 | max=9.988572 | mdd=1.960481 | trades=25176
+recovery_quality: EM26_C_028 | cd=102.554487 | max=6.174422 | mdd=3.409423 | trades=29766
+top_exit_mix: EM26_A_013 | cd=110.778279 | max=15.021172 | mdd=3.688793 | trades=29209

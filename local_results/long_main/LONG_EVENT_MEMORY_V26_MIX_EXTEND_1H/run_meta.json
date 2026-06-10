@@ -1,0 +1,37 @@
+{
+  "batch": "LONG_EVENT_MEMORY_V26_MIX_EXTEND_1H",
+  "purpose": "event memory v26 mix and extension",
+  "runtime_target": "about 1 hour",
+  "spec_count": 49,
+  "based_on": {
+    "EM25_D_044": {
+      "cd": 109.747548,
+      "max": 12.844791,
+      "mdd": 2.744693,
+      "trades": 29518
+    },
+    "EM25_D_043": {
+      "cd": 105.90766,
+      "max": 8.717171,
+      "mdd": 2.584239,
+      "trades": 30128
+    },
+    "EM25_A_019": {
+      "cd": 104.243895,
+      "max": 6.174781,
+      "mdd": 1.818592,
+      "trades": 14975
+    }
+  },
+  "new_extensions": [
+    "recovery quality filter",
+    "overheat suppression after recovery",
+    "exit payoff extension",
+    "recency-exit mix"
+  ],
+  "notes": [
+    "bars_since crash arrays precomputed once per symbol",
+    "fixed SL/TP, no trailing, no BE",
+    "no dynamic exits"
+  ]
+}
