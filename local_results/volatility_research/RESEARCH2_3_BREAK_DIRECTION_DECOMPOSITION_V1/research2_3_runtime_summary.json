@@ -1,0 +1,29 @@
+{
+  "script": "research2_3_break_direction_decomposition_v1.py",
+  "purpose": "Break direction decomposition after compression box breakout",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\volatility_research\\RESEARCH2_3_BREAK_DIRECTION_DECOMPOSITION_V1",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "event_horizon_rows": 1032735,
+  "save_event_rows": false,
+  "horizons": [
+    6,
+    12,
+    36,
+    72,
+    288
+  ],
+  "compression_type": "atr_volume",
+  "duration_thresholds": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "run_started_at": "2026-06-10T20:44:02",
+  "run_finished_at": "2026-06-10T21:31:49",
+  "elapsed_seconds": 2866.148865199997,
+  "elapsed_minutes": 47.769147753333286
+}
