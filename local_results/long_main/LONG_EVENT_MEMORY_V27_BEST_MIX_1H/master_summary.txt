@@ -1,0 +1,65 @@
+[BATCH] LONG_EVENT_MEMORY_V27_BEST_MIX_1H
+[SPECS] 44
+[ROWS] 44
+[ERRORS] 0
+
+[TOP_MDD_LT5]
+EM27_E_040 | family=deep_crash_payoff | cd=114.741022 | max=16.576969 | mdd=1.574879 | trades=19449 | win=30.840%
+EM27_E_041 | family=deep_crash_payoff | cd=112.873605 | max=14.343236 | mdd=1.285280 | trades=14347 | win=32.272%
+EM27_E_042 | family=deep_crash_payoff | cd=112.686411 | max=14.432766 | mdd=1.526097 | trades=14209 | win=31.248%
+EM27_C_026 | family=low_mdd_recency_crash_mix | cd=111.985109 | max=13.529651 | mdd=1.360475 | trades=19631 | win=31.634%
+EM27_E_039 | family=deep_crash_payoff | cd=111.985109 | max=13.529651 | mdd=1.360475 | trades=19631 | win=31.634%
+EM27_C_027 | family=low_mdd_recency_crash_mix | cd=111.082062 | max=12.579907 | mdd=1.330473 | trades=16985 | win=32.217%
+EM27_C_029 | family=low_mdd_recency_crash_mix | cd=110.563954 | max=12.132850 | mdd=1.399141 | trades=22197 | win=31.324%
+EM27_E_043 | family=deep_crash_payoff | cd=110.329115 | max=11.736806 | mdd=1.259827 | trades=11622 | win=32.000%
+EM27_C_023 | family=low_mdd_recency_crash_mix | cd=109.904069 | max=11.590363 | mdd=1.511146 | trades=16530 | win=31.936%
+EM27_C_030 | family=low_mdd_recency_crash_mix | cd=109.729509 | max=11.215045 | mdd=1.335733 | trades=18967 | win=31.861%
+EM27_E_044 | family=deep_crash_payoff | cd=109.539842 | max=11.160439 | mdd=1.457890 | trades=11512 | win=30.872%
+EM27_E_038 | family=deep_crash_payoff | cd=108.355847 | max=11.853067 | mdd=3.126619 | trades=25237 | win=30.055%
+EM27_C_024 | family=low_mdd_recency_crash_mix | cd=108.338313 | max=9.970693 | mdd=1.484378 | trades=14504 | win=32.295%
+EM27_D_031 | family=quality_payoff_mix | cd=108.084265 | max=11.532721 | mdd=3.091878 | trades=29795 | win=31.082%
+EM27_A_010 | family=a013_exit_local | cd=107.963432 | max=12.167598 | mdd=3.748111 | trades=29363 | win=31.049%
+EM27_C_028 | family=low_mdd_recency_crash_mix | cd=107.860320 | max=10.413907 | mdd=2.312740 | trades=25934 | win=31.179%
+EM27_C_022 | family=low_mdd_recency_crash_mix | cd=107.657370 | max=9.473541 | mdd=1.659005 | trades=18736 | win=31.608%
+EM27_E_037 | family=deep_crash_payoff | cd=107.367992 | max=10.541099 | mdd=2.870523 | trades=25470 | win=30.989%
+EM27_D_033 | family=quality_payoff_mix | cd=107.297676 | max=10.784435 | mdd=3.147337 | trades=29745 | win=31.061%
+EM27_C_025 | family=low_mdd_recency_crash_mix | cd=107.118112 | max=9.663647 | mdd=2.321220 | trades=22638 | win=31.248%
+EM27_A_007 | family=a013_exit_local | cd=106.852449 | max=10.313667 | mdd=3.137615 | trades=29567 | win=30.686%
+EM27_B_020 | family=a013_overheat_mix | cd=106.727183 | max=10.170853 | mdd=3.125754 | trades=29631 | win=30.596%
+EM27_B_021 | family=a013_overheat_mix | cd=106.597305 | max=10.033941 | mdd=3.123251 | trades=29634 | win=30.597%
+EM27_A_004 | family=a013_exit_local | cd=106.172047 | max=9.698709 | mdd=3.214862 | trades=29809 | win=30.320%
+EM27_B_014 | family=a013_overheat_mix | cd=105.763237 | max=9.495220 | mdd=3.408352 | trades=29278 | win=30.695%
+
+[TOP_ANY_MDD]
+EM27_E_040 | verdict=mdd_under5 | family=deep_crash_payoff | cd=114.741022 | max=16.576969 | mdd=1.574879 | trades=19449
+EM27_E_041 | verdict=mdd_under5 | family=deep_crash_payoff | cd=112.873605 | max=14.343236 | mdd=1.285280 | trades=14347
+EM27_E_042 | verdict=mdd_under5 | family=deep_crash_payoff | cd=112.686411 | max=14.432766 | mdd=1.526097 | trades=14209
+EM27_C_026 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=111.985109 | max=13.529651 | mdd=1.360475 | trades=19631
+EM27_E_039 | verdict=mdd_under5 | family=deep_crash_payoff | cd=111.985109 | max=13.529651 | mdd=1.360475 | trades=19631
+EM27_C_027 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=111.082062 | max=12.579907 | mdd=1.330473 | trades=16985
+EM27_C_029 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=110.563954 | max=12.132850 | mdd=1.399141 | trades=22197
+EM27_E_043 | verdict=mdd_under5 | family=deep_crash_payoff | cd=110.329115 | max=11.736806 | mdd=1.259827 | trades=11622
+EM27_C_023 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=109.904069 | max=11.590363 | mdd=1.511146 | trades=16530
+EM27_C_030 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=109.729509 | max=11.215045 | mdd=1.335733 | trades=18967
+EM27_E_044 | verdict=mdd_under5 | family=deep_crash_payoff | cd=109.539842 | max=11.160439 | mdd=1.457890 | trades=11512
+EM27_E_038 | verdict=mdd_under5 | family=deep_crash_payoff | cd=108.355847 | max=11.853067 | mdd=3.126619 | trades=25237
+EM27_C_024 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=108.338313 | max=9.970693 | mdd=1.484378 | trades=14504
+EM27_D_031 | verdict=mdd_under5 | family=quality_payoff_mix | cd=108.084265 | max=11.532721 | mdd=3.091878 | trades=29795
+EM27_A_010 | verdict=mdd_under5 | family=a013_exit_local | cd=107.963432 | max=12.167598 | mdd=3.748111 | trades=29363
+EM27_C_028 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=107.860320 | max=10.413907 | mdd=2.312740 | trades=25934
+EM27_C_022 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=107.657370 | max=9.473541 | mdd=1.659005 | trades=18736
+EM27_E_037 | verdict=mdd_under5 | family=deep_crash_payoff | cd=107.367992 | max=10.541099 | mdd=2.870523 | trades=25470
+EM27_D_033 | verdict=mdd_under5 | family=quality_payoff_mix | cd=107.297676 | max=10.784435 | mdd=3.147337 | trades=29745
+EM27_C_025 | verdict=mdd_under5 | family=low_mdd_recency_crash_mix | cd=107.118112 | max=9.663647 | mdd=2.321220 | trades=22638
+EM27_A_007 | verdict=mdd_under5 | family=a013_exit_local | cd=106.852449 | max=10.313667 | mdd=3.137615 | trades=29567
+EM27_B_020 | verdict=mdd_under5 | family=a013_overheat_mix | cd=106.727183 | max=10.170853 | mdd=3.125754 | trades=29631
+EM27_B_021 | verdict=mdd_under5 | family=a013_overheat_mix | cd=106.597305 | max=10.033941 | mdd=3.123251 | trades=29634
+EM27_A_004 | verdict=mdd_under5 | family=a013_exit_local | cd=106.172047 | max=9.698709 | mdd=3.214862 | trades=29809
+EM27_B_014 | verdict=mdd_under5 | family=a013_overheat_mix | cd=105.763237 | max=9.495220 | mdd=3.408352 | trades=29278
+
+[BEST_BY_FAMILY]
+a013_exit_local: EM27_A_010 | cd=107.963432 | max=12.167598 | mdd=3.748111 | trades=29363
+a013_overheat_mix: EM27_B_020 | cd=106.727183 | max=10.170853 | mdd=3.125754 | trades=29631
+deep_crash_payoff: EM27_E_040 | cd=114.741022 | max=16.576969 | mdd=1.574879 | trades=19449
+low_mdd_recency_crash_mix: EM27_C_026 | cd=111.985109 | max=13.529651 | mdd=1.360475 | trades=19631
+quality_payoff_mix: EM27_D_031 | cd=108.084265 | max=11.532721 | mdd=3.091878 | trades=29795

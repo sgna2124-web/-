@@ -1,0 +1,37 @@
+{
+  "batch": "LONG_EVENT_MEMORY_V27_BEST_MIX_1H",
+  "purpose": "event memory v27 best mix",
+  "runtime_target": "about 1 hour",
+  "spec_count": 44,
+  "based_on": {
+    "EM26_A_013": {
+      "cd": 110.778279,
+      "max": 15.021172,
+      "mdd": 3.688793,
+      "trades": 29209
+    },
+    "EM26_D_042": {
+      "cd": 108.088012,
+      "max": 11.545018,
+      "mdd": 3.099202,
+      "trades": 29791
+    },
+    "EM26_E_044": {
+      "cd": 107.832267,
+      "max": 9.988572,
+      "mdd": 1.960481,
+      "trades": 25176
+    },
+    "EM26_B_024": {
+      "cd": 107.41851,
+      "max": 9.505183,
+      "mdd": 1.905547,
+      "trades": 14722
+    }
+  },
+  "notes": [
+    "bars_since crash arrays precomputed once per symbol",
+    "fixed SL/TP, no trailing, no BE",
+    "no dynamic exits"
+  ]
+}
