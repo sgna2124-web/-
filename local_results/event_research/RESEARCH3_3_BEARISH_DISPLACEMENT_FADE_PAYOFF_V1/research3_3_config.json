@@ -1,0 +1,67 @@
+{
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\event_research\\RESEARCH3_3_BEARISH_DISPLACEMENT_FADE_PAYOFF_V1",
+  "recursive": false,
+  "limit_files": null,
+  "min_csv_files": 100,
+  "allow_small_data": false,
+  "progress_every": 50,
+  "start_date": "",
+  "end_date": "2026-12-31 23:59:59",
+  "atr_len": 14,
+  "vol_ma_len": 100,
+  "ema_len": 200,
+  "min_warmup": 300,
+  "event_cooldown_bars": 6,
+  "stop_atr_values": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "target_atr_values": [
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "max_hold_values": [
+    12,
+    36,
+    72
+  ],
+  "slippage_bps_values": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "official_slippage_bps": 1.0,
+  "fee_per_side": 0.0004,
+  "position_fraction": 0.01,
+  "min_tp_pct": 0.3,
+  "trend_states": [
+    "all",
+    "long_counter_trend",
+    "below_ema_slope_up"
+  ],
+  "top_n_retest": 36,
+  "min_retest_trades": 1000,
+  "min_symbol_trades_for_breadth": 10,
+  "min_quarter_trades_for_breadth": 30,
+  "save_xlsx": true,
+  "profiles": [
+    {
+      "name": "bear_body20_range22_vol20_cp20",
+      "body_atr_min": 2.0,
+      "range_atr_min": 2.2,
+      "vol_ratio_min": 2.0,
+      "close_pos_max": 0.2
+    },
+    {
+      "name": "bear_range25_body08_vol15_cp20",
+      "body_atr_min": 0.8,
+      "range_atr_min": 2.5,
+      "vol_ratio_min": 1.5,
+      "close_pos_max": 0.2
+    }
+  ]
+}

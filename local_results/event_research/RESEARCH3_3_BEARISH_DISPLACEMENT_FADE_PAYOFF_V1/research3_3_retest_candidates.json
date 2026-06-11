@@ -1,0 +1,362 @@
+[
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp3atr__h12",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp3atr__h36",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp3atr__h72",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp3atr__h12",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp3atr__h36",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp3atr__h72",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__all__slip1bps__sl0.5atr__tp3atr__h12",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__all__slip1bps__sl0.5atr__tp3atr__h36",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__all__slip1bps__sl0.5atr__tp3atr__h72",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__all__slip1bps__sl0.5atr__tp3atr__h12",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__all__slip1bps__sl0.5atr__tp3atr__h36",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__all__slip1bps__sl0.5atr__tp3atr__h72",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 3.0,
+    "rr": 6.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp2atr__h12",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp2atr__h12",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp2atr__h72",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp2atr__h36",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp2atr__h72",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp2atr__h36",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.75atr__tp3atr__h12",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.75,
+    "target_atr": 3.0,
+    "rr": 4.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.75atr__tp3atr__h12",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.75,
+    "target_atr": 3.0,
+    "rr": 4.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.75atr__tp3atr__h36",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.75,
+    "target_atr": 3.0,
+    "rr": 4.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.75atr__tp3atr__h36",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.75,
+    "target_atr": 3.0,
+    "rr": 4.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.75atr__tp3atr__h72",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.75,
+    "target_atr": 3.0,
+    "rr": 4.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__all__slip1bps__sl0.5atr__tp2atr__h12",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.75atr__tp3atr__h72",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.75,
+    "target_atr": 3.0,
+    "rr": 4.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__all__slip1bps__sl0.5atr__tp2atr__h72",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__all__slip1bps__sl0.5atr__tp2atr__h36",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp1.5atr__h12",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 1.5,
+    "rr": 3.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp1.5atr__h12",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 1.5,
+    "rr": 3.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp1.5atr__h36",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 1.5,
+    "rr": 3.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__sl0.5atr__tp1.5atr__h72",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 1.5,
+    "rr": 3.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp1.5atr__h36",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 1.5,
+    "rr": 3.0,
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__sl0.5atr__tp1.5atr__h72",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 1.5,
+    "rr": 3.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__all__slip1bps__sl0.5atr__tp2atr__h12",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 12
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__all__slip1bps__sl0.5atr__tp2atr__h72",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__all__slip1bps__sl0.5atr__tp2atr__h36",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "stop_atr": 0.5,
+    "target_atr": 2.0,
+    "rr": 4.0,
+    "max_hold_bars": 36
+  }
+]
