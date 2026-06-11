@@ -1,0 +1,17 @@
+[BATCH] LATEST_BASELINES_SYMBOL_CONTRIBUTION_V1
+[AXES_COMPLETED] 0/3
+[ERRORS] 3
+
+[COMBINED RESULTS]
+
+[ERRORS / MISSING LEDGERS]
+long_max2 | TradeLedgerNotFound | symbol과 pnl 컬럼이 있는 개별 거래 CSV를 찾지 못함
+short_max2 | TradeLedgerNotFound | symbol과 pnl 컬럼이 있는 개별 거래 CSV를 찾지 못함
+short_main2 | TradeLedgerNotFound | symbol과 pnl 컬럼이 있는 개별 거래 CSV를 찾지 못함
+
+[VERDICT GUIDE]
+BROAD_EDGE = 다수 종목에 고르게 분산
+MIXED_EDGE = 다수 종목 수익 + 상위 종목 기여도 큼
+CONCENTRATED_EDGE = 소수 승자 종목에 수익 집중
+
+주의: trade_list_compound_return은 거래 순서 단순 복리이며 공식 MTM 포트폴리오 수익/MDD와 동일하지 않다.

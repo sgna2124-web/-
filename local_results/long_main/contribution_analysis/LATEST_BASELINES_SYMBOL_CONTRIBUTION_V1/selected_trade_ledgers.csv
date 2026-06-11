@@ -1,0 +1,4 @@
+﻿axis,strategy,status,path,score,rows,note
+long_max2,LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V51_C38_FR085_WEAK_M025_RR800,NOT_FOUND,,,,개별 거래 원장 없음
+short_max2,SMX2V3_B04_M01_S02D_plus_upper020,NOT_FOUND,,,,개별 거래 원장 없음
+short_main2,V5M01_D02_D03_rr615_stop265_t390,NOT_FOUND,,,,개별 거래 원장 없음

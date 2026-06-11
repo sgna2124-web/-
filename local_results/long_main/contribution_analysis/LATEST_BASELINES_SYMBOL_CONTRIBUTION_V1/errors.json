@@ -1,0 +1,17 @@
+[
+  {
+    "axis": "long_max2",
+    "error_type": "TradeLedgerNotFound",
+    "message": "symbol과 pnl 컬럼이 있는 개별 거래 CSV를 찾지 못함"
+  },
+  {
+    "axis": "short_max2",
+    "error_type": "TradeLedgerNotFound",
+    "message": "symbol과 pnl 컬럼이 있는 개별 거래 CSV를 찾지 못함"
+  },
+  {
+    "axis": "short_main2",
+    "error_type": "TradeLedgerNotFound",
+    "message": "symbol과 pnl 컬럼이 있는 개별 거래 CSV를 찾지 못함"
+  }
+]
