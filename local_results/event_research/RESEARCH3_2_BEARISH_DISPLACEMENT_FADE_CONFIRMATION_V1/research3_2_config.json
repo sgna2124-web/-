@@ -1,0 +1,83 @@
+{
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\event_research\\RESEARCH3_2_BEARISH_DISPLACEMENT_FADE_CONFIRMATION_V1",
+  "recursive": false,
+  "limit_files": null,
+  "min_csv_files": 100,
+  "allow_small_data": false,
+  "progress_every": 100,
+  "atr_len": 14,
+  "vol_ma_len": 100,
+  "ema_len": 200,
+  "horizons": [
+    12,
+    36,
+    72,
+    288
+  ],
+  "min_warmup": 300,
+  "event_cooldown_bars": 6,
+  "confirm_max_bars": 5,
+  "target_atr_mult": 1.0,
+  "stop_atr_mult": 1.0,
+  "risk_atr_source": "confirm",
+  "start_date": "",
+  "end_date": "2026-12-31 23:59:59",
+  "save_xlsx": true,
+  "save_event_sample": false,
+  "max_event_sample_rows": 50000,
+  "profiles": [
+    {
+      "name": "bear_body10_range12_vol12_cp30",
+      "body_atr_min": 1.0,
+      "range_atr_min": 1.2,
+      "vol_ratio_min": 1.2,
+      "close_pos_max": 0.3
+    },
+    {
+      "name": "bear_body12_range15_vol15_cp25",
+      "body_atr_min": 1.2,
+      "range_atr_min": 1.5,
+      "vol_ratio_min": 1.5,
+      "close_pos_max": 0.25
+    },
+    {
+      "name": "bear_body15_range18_vol15_cp25",
+      "body_atr_min": 1.5,
+      "range_atr_min": 1.8,
+      "vol_ratio_min": 1.5,
+      "close_pos_max": 0.25
+    },
+    {
+      "name": "bear_body20_range22_vol20_cp20",
+      "body_atr_min": 2.0,
+      "range_atr_min": 2.2,
+      "vol_ratio_min": 2.0,
+      "close_pos_max": 0.2
+    },
+    {
+      "name": "bear_body15_range18_novol_cp20",
+      "body_atr_min": 1.5,
+      "range_atr_min": 1.8,
+      "vol_ratio_min": 0.0,
+      "close_pos_max": 0.2
+    },
+    {
+      "name": "bear_range25_body08_vol15_cp20",
+      "body_atr_min": 0.8,
+      "range_atr_min": 2.5,
+      "vol_ratio_min": 1.5,
+      "close_pos_max": 0.2
+    }
+  ],
+  "confirmation_rules": [
+    "base_no_confirm",
+    "close_above_disp_close",
+    "bull_close_above_disp_close",
+    "low_sweep_reclaim",
+    "body_mid_reclaim",
+    "range_mid_reclaim",
+    "no_lower_low_bull_reversal",
+    "two_close_above_disp_close"
+  ]
+}
