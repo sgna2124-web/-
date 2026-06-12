@@ -1,0 +1,53 @@
+{
+  "script": "research3_5_bearish_displacement_portfolio_v1.py",
+  "purpose": "Bearish displacement immediate-fade full portfolio validation",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\event_research\\RESEARCH3_5_BEARISH_DISPLACEMENT_PORTFOLIO_V1",
+  "csv_files": 597,
+  "candidate_runtime": [
+    {
+      "profile": "bear_range25_body08_vol15_cp20",
+      "role": "primary",
+      "raw_events": 201846,
+      "selected_trades": 176730,
+      "loaded_files": 597,
+      "load_errors": 0,
+      "mark_events": 12724560,
+      "elapsed_minutes": 9.906175577640534
+    },
+    {
+      "profile": "bear_body20_range22_vol20_cp20",
+      "role": "secondary",
+      "raw_events": 200257,
+      "selected_trades": 175223,
+      "loaded_files": 597,
+      "load_errors": 0,
+      "mark_events": 12616056,
+      "elapsed_minutes": 9.128430505593618
+    }
+  ],
+  "initial_capital": 100.0,
+  "leverage": 1.0,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "slippage_bps": 1.0,
+  "hold_bars": 72,
+  "entry_rule": "next_bar_open_market",
+  "exit_rule": "72nd_bar_close_market_no_stop_no_tp",
+  "mdd_rule": "bar_close_mark_to_market_plus_entry_fee_phase",
+  "overlap_rule": "one_position_per_symbol_no_global_cap",
+  "result_files": {
+    "summary": "research3_5_portfolio_summary.csv",
+    "quarterly": "research3_5_portfolio_quarterly.csv",
+    "symbol_contribution": "research3_5_symbol_contribution.csv",
+    "daily_equity": "research3_5_daily_equity.csv",
+    "tail_thresholds": "research3_5_tail_thresholds.csv"
+  },
+  "xlsx_result": null,
+  "final_decision": "TERMINATE_RESEARCH3_EVENT_BRANCH",
+  "run_started_at": "2026-06-12T15:51:33",
+  "run_finished_at": "2026-06-12T16:10:35",
+  "elapsed_seconds": 1142.5979716777802,
+  "elapsed_minutes": 19.043299527963004,
+  "errors": 0
+}
