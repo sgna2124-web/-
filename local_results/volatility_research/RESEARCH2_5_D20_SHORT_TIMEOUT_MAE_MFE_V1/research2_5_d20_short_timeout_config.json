@@ -1,0 +1,21 @@
+{
+  "data_dir": "",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\volatility_research\\RESEARCH2_5_D20_SHORT_TIMEOUT_MAE_MFE_V1",
+  "recursive": false,
+  "limit_files": 0,
+  "min_csv_files": 100,
+  "allow_small_data": false,
+  "progress_every": 50,
+  "duration": 20,
+  "timeouts": "24,48,72,96,144,288",
+  "atr_len": 14,
+  "pct_window": 1000,
+  "atr_pct_th": 10.0,
+  "vol_pct_th": 10.0,
+  "min_warmup": 1200,
+  "first_break_search_horizon": 288,
+  "initial_asset": 100.0,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "save_trades": false
+}
