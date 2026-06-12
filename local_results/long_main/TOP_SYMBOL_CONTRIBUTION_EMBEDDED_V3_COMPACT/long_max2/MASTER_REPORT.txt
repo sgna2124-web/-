@@ -1,0 +1,32 @@
+[AXIS] long_max2
+[STRATEGY] LM26R_001_RETEST_S128_RR505_B360_H17_CD32__V35_BASELINE_S130_RR625_B400_H17_C32__V51_C38_FR085_WEAK_M025_RR800
+reproduction_trade_count_ok=False
+trades=54654 expected=55244 delta=-590
+profitable_symbols=535/597 (89.614740%)
+top1=COAI / positive_pool_share=1.483043%
+top10_positive_pool_share_pct=8.686339
+top10pct_positive_pool_share_pct=29.443773
+HHI=31.707099
+verdict=BROAD_EDGE
+
+[TOP 20]
+001 COAI | asset_pnl=21.49942769 | trades=108 | win=35.185% | positive_share=1.483%
+002 PIPPIN | asset_pnl=20.20465838 | trades=179 | win=33.520% | positive_share=1.394%
+003 BEAT | asset_pnl=16.17789200 | trades=59 | win=32.203% | positive_share=1.116%
+004 BANK | asset_pnl=12.37617828 | trades=72 | win=36.111% | positive_share=0.854%
+005 DAM | asset_pnl=11.26101603 | trades=72 | win=36.111% | positive_share=0.777%
+006 PUMPBTC | asset_pnl=10.01823092 | trades=36 | win=41.667% | positive_share=0.691%
+007 FARTCOIN | asset_pnl=9.06032463 | trades=167 | win=27.545% | positive_share=0.625%
+008 PTB | asset_pnl=8.76327020 | trades=65 | win=30.769% | positive_share=0.604%
+009 PORT3 | asset_pnl=8.49199119 | trades=73 | win=36.986% | positive_share=0.586%
+010 LIGHT | asset_pnl=8.07143281 | trades=71 | win=28.169% | positive_share=0.557%
+011 MON | asset_pnl=7.90415900 | trades=41 | win=39.024% | positive_share=0.545%
+012 FHE | asset_pnl=7.77995473 | trades=94 | win=29.787% | positive_share=0.537%
+013 RSR | asset_pnl=7.63713088 | trades=342 | win=33.626% | positive_share=0.527%
+014 ICNT | asset_pnl=7.49321309 | trades=57 | win=36.842% | positive_share=0.517%
+015 PEOPLE | asset_pnl=7.46082141 | trades=301 | win=37.542% | positive_share=0.515%
+016 OL | asset_pnl=7.38217332 | trades=32 | win=56.250% | positive_share=0.509%
+017 MAGIC | asset_pnl=6.96608886 | trades=132 | win=40.152% | positive_share=0.481%
+018 STRK | asset_pnl=6.90685930 | trades=67 | win=43.284% | positive_share=0.476%
+019 AIN | asset_pnl=6.86475015 | trades=42 | win=45.238% | positive_share=0.474%
+020 H | asset_pnl=6.83069461 | trades=87 | win=27.586% | positive_share=0.471%

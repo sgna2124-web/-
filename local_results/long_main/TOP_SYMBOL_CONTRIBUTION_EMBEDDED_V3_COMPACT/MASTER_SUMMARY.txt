@@ -1,0 +1,19 @@
+[BATCH] TOP_SYMBOL_CONTRIBUTION_EMBEDDED_V3_COMPACT
+[STRATEGY_CODE_EMBEDDED] True
+[EXTERNAL_PYTHON_OR_BASELINE_IMPORTS] 0
+[RAW_TRADE_FILES_SAVED] False
+[SYMBOL_FILES] 597
+[LOAD_ERRORS] 0
+[ALL_TRADE_COUNT_GATES_PASS] False
+
+[RESULTS]
+long_max2 | count_gate=False | trades=54654/55244 | profitable_symbols=535/597 (89.615%) | top10_positive_share=8.686% | top10pct_positive_share=29.444% | verdict=BROAD_EDGE
+short_max2 | count_gate=False | trades=15784/113888 | profitable_symbols=370/597 (61.977%) | top10_positive_share=24.464% | top10pct_positive_share=53.858% | verdict=BROAD_EDGE
+short_main2 | count_gate=False | trades=137079/148281 | profitable_symbols=489/597 (81.910%) | top10_positive_share=13.903% | top10pct_positive_share=44.875% | verdict=BROAD_EDGE
+
+[VERDICT GUIDE]
+BROAD_EDGE = 다수 종목에 고르게 분산
+MIXED_EDGE = 다수 종목 수익 + 상위 종목 기여도 큼
+CONCENTRATED_EDGE = 소수 승자 종목에 수익 집중
+
+공식 해석은 해당 축의 count_gate=True일 때 우선한다.

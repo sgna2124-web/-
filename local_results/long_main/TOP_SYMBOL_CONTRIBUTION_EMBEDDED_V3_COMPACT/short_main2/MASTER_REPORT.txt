@@ -1,0 +1,32 @@
+[AXIS] short_main2
+[STRATEGY] V5M01_D02_D03_rr615_stop265_t390
+reproduction_trade_count_ok=False
+trades=137079 expected=148281 delta=-11202
+profitable_symbols=489/597 (81.909548%)
+top1=COAI / positive_pool_share=2.158065%
+top10_positive_pool_share_pct=13.902915
+top10pct_positive_pool_share_pct=44.875480
+HHI=53.070528
+verdict=BROAD_EDGE
+
+[TOP 20]
+001 COAI | asset_pnl=2611.98590938 | trades=305 | win=5.574% | positive_share=2.158%
+002 FOLKS | asset_pnl=2138.67061868 | trades=106 | win=5.660% | positive_share=1.767%
+003 TRUTH | asset_pnl=2016.51745872 | trades=236 | win=6.780% | positive_share=1.666%
+004 AIA | asset_pnl=1742.01273947 | trades=271 | win=4.428% | positive_share=1.439%
+005 FHE | asset_pnl=1543.29469419 | trades=270 | win=3.333% | positive_share=1.275%
+006 TRUST | asset_pnl=1507.06630395 | trades=47 | win=12.766% | positive_share=1.245%
+007 LAB | asset_pnl=1458.20104489 | trades=114 | win=8.772% | positive_share=1.205%
+008 PTB | asset_pnl=1355.29178013 | trades=220 | win=7.273% | positive_share=1.120%
+009 SLERF | asset_pnl=1241.17474654 | trades=51 | win=7.843% | positive_share=1.025%
+010 4 | asset_pnl=1212.99863297 | trades=175 | win=8.000% | positive_share=1.002%
+011 BLESS | asset_pnl=1194.31843940 | trades=245 | win=5.306% | positive_share=0.987%
+012 RVV | asset_pnl=1149.75180072 | trades=116 | win=7.759% | positive_share=0.950%
+013 LYN | asset_pnl=1122.53457255 | trades=121 | win=7.438% | positive_share=0.927%
+014 EVAA | asset_pnl=1068.50348150 | trades=214 | win=5.140% | positive_share=0.883%
+015 HANA | asset_pnl=1066.19562700 | trades=162 | win=10.494% | positive_share=0.881%
+016 BAS | asset_pnl=1045.62379669 | trades=251 | win=4.382% | positive_share=0.864%
+017 BEAT | asset_pnl=996.43262467 | trades=221 | win=2.262% | positive_share=0.823%
+018 FLOCK | asset_pnl=995.94150401 | trades=65 | win=18.462% | positive_share=0.823%
+019 BANANAS31 | asset_pnl=989.62015445 | trades=240 | win=7.500% | positive_share=0.818%
+020 TANSSI | asset_pnl=963.15078580 | trades=152 | win=9.211% | positive_share=0.796%

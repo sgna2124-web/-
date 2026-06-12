@@ -1,0 +1,32 @@
+[AXIS] short_max2
+[STRATEGY] SMX2V3_B04_M01_S02D_plus_upper020
+reproduction_trade_count_ok=False
+trades=15784 expected=113888 delta=-98104
+profitable_symbols=370/597 (61.976549%)
+top1=JELLYJELLY / positive_pool_share=6.101155%
+top10_positive_pool_share_pct=24.463609
+top10pct_positive_pool_share_pct=53.857728
+HHI=113.087263
+verdict=BROAD_EDGE
+
+[TOP 20]
+001 JELLYJELLY | asset_pnl=56.04294309 | trades=36 | win=8.333% | positive_share=6.101%
+002 BAS | asset_pnl=42.82776644 | trades=9 | win=11.111% | positive_share=4.662%
+003 BANANAS31 | asset_pnl=19.30599631 | trades=32 | win=6.250% | positive_share=2.102%
+004 BDXN | asset_pnl=19.29596596 | trades=8 | win=25.000% | positive_share=2.101%
+005 BROCCOLI714 | asset_pnl=18.40020801 | trades=19 | win=10.526% | positive_share=2.003%
+006 BLESS | asset_pnl=16.76659509 | trades=5 | win=20.000% | positive_share=1.825%
+007 TRUST | asset_pnl=14.34974527 | trades=2 | win=100.000% | positive_share=1.562%
+008 COAI | asset_pnl=12.69984701 | trades=9 | win=11.111% | positive_share=1.383%
+009 SLERF | asset_pnl=12.66508102 | trades=11 | win=9.091% | positive_share=1.379%
+010 BAKE | asset_pnl=12.35946408 | trades=54 | win=9.259% | positive_share=1.346%
+011 COMMON | asset_pnl=12.32238117 | trades=3 | win=66.667% | positive_share=1.341%
+012 BROCCOLIF3B | asset_pnl=11.46809389 | trades=22 | win=18.182% | positive_share=1.248%
+013 AT | asset_pnl=10.72381286 | trades=4 | win=25.000% | positive_share=1.167%
+014 NAORIS | asset_pnl=9.51440322 | trades=9 | win=11.111% | positive_share=1.036%
+015 PTB | asset_pnl=8.75102848 | trades=7 | win=14.286% | positive_share=0.953%
+016 COTI | asset_pnl=7.86691983 | trades=66 | win=7.576% | positive_share=0.856%
+017 GPS | asset_pnl=6.98004992 | trades=9 | win=22.222% | positive_share=0.760%
+018 TRB | asset_pnl=6.96815549 | trades=107 | win=7.477% | positive_share=0.759%
+019 XPIN | asset_pnl=6.91291149 | trades=3 | win=33.333% | positive_share=0.753%
+020 MYRO | asset_pnl=6.38761074 | trades=22 | win=9.091% | positive_share=0.695%
