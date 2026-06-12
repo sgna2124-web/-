@@ -1,0 +1,22 @@
+{
+  "data_dir": "",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\volatility_research\\RESEARCH2_6_D20_SHORT_T144_RISK_DECOMPOSITION_V1",
+  "recursive": false,
+  "limit_files": 0,
+  "min_csv_files": 100,
+  "allow_small_data": false,
+  "progress_every": 50,
+  "duration": 20,
+  "timeout": 144,
+  "atr_len": 14,
+  "pct_window": 1000,
+  "atr_pct_th": 10.0,
+  "vol_pct_th": 10.0,
+  "min_warmup": 1200,
+  "first_break_search_horizon": 288,
+  "fee_per_side": 0.0004,
+  "bucket_bins": 5,
+  "min_bucket_trades": 20,
+  "bad_mae_th": 10.0,
+  "save_trades": false
+}

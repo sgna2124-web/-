@@ -1,0 +1,83 @@
+{
+  "script": "research4_1_market_adjusted_residual_displacement_v1.py",
+  "purpose": "Market-adjusted residual displacement mean-reversion vs continuation event study",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\event_research\\RESEARCH4_1_MARKET_ADJUSTED_RESIDUAL_DISPLACEMENT_V1",
+  "csv_files": 597,
+  "market_factor_method": "median_of_group_means",
+  "market_groups": 15,
+  "market_min_symbols": 30,
+  "market_min_groups": 5,
+  "btc_symbol": "BTC",
+  "btc_valid_bars": 667449,
+  "event_profiles": [
+    {
+      "name": "z2",
+      "z_threshold": 2.0,
+      "min_abs_residual_pct": 0.0,
+      "min_volume_ratio": 0.0
+    },
+    {
+      "name": "z3",
+      "z_threshold": 3.0,
+      "min_abs_residual_pct": 0.0,
+      "min_volume_ratio": 0.0
+    },
+    {
+      "name": "z4",
+      "z_threshold": 4.0,
+      "min_abs_residual_pct": 0.0,
+      "min_volume_ratio": 0.0
+    },
+    {
+      "name": "z3_abs025",
+      "z_threshold": 3.0,
+      "min_abs_residual_pct": 0.25,
+      "min_volume_ratio": 0.0
+    },
+    {
+      "name": "z3_abs050",
+      "z_threshold": 3.0,
+      "min_abs_residual_pct": 0.5,
+      "min_volume_ratio": 0.0
+    },
+    {
+      "name": "z3_abs025_vol15",
+      "z_threshold": 3.0,
+      "min_abs_residual_pct": 0.25,
+      "min_volume_ratio": 1.5
+    }
+  ],
+  "residual_modes": [
+    "unit_beta",
+    "rolling_beta"
+  ],
+  "horizons": [
+    6,
+    12,
+    36,
+    72,
+    288
+  ],
+  "event_cooldown_bars": 12,
+  "cluster_horizons": [
+    12,
+    72,
+    288
+  ],
+  "entry_rule": "signal close confirmed, next bar open market",
+  "exit_rule": "fixed horizon close",
+  "fee_per_side": 0.0004,
+  "slippage_bps": 1.0,
+  "robust_pass_count": 4,
+  "summary_rows": 240,
+  "quarter_rows": 5880,
+  "cluster_rows": 60,
+  "errors": 0,
+  "run_started_at": "2026-06-12T23:42:19.948449",
+  "run_finished_at": "2026-06-13T00:15:48.431356",
+  "elapsed_seconds": 2008.4829063415527,
+  "elapsed_minutes": 33.474715105692546,
+  "xlsx_result": null,
+  "next_stage_rule": "If one direction is stable across BTC and MARKET_MOM, EX_2025Q4, 2026, symbols and quarters, continue to Research 4-2 same-time cross-sectional ranking and top-K portfolio."
+}
