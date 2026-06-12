@@ -1,10 +1,11 @@
 short_max2 baseline index
 
 Latest high-performance:
-v4_highperf_M01 = SMX2V3_B04_M01_S02D_plus_upper020
-folder = base_line/short_max2/v4_highperf_M01
+v5_highperf_A05 = SMX2V4_B07_A05_context_plus_FB20_only
+folder = base_line/short_max2/v5_highperf_A05
 
 Parent:
+v4_highperf_M01 = SMX2V3_B04_M01_S02D_plus_upper020
 v3_highperf_N02 = SMX2V2_C08_EX20_02_N02_stop257_rr5075
 
 Q4-low policy:
