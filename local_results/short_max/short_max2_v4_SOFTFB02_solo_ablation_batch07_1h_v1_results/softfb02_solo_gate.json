@@ -1,0 +1,41 @@
+{
+  "gate_ok": true,
+  "gate_misses": [],
+  "target": {
+    "strategy": "SMX2V4_B06_SOFTFB_02_lower_threshold_fb_bonus",
+    "period_calc_mode": "exit_ts_filter_from_all_through_2026_single_run",
+    "preq4_trades": 184274,
+    "preq4_final_return_pct": 80700.83922124772,
+    "preq4_max_drawdown_pct": 6.0355563090292,
+    "preq4_official_cd_value": 75924.05907188116,
+    "preq4_profit_factor": 1.9689536824329006,
+    "full2025_trades": 214231,
+    "full2025_final_return_pct": 400365.89143525,
+    "full2025_max_drawdown_pct": 6.0355563090292,
+    "full2025_official_cd_value": 376295.5470592197,
+    "full2025_profit_factor": 1.9974533465801028,
+    "all2026_trades": 217119,
+    "all2026_final_return_pct": 447398.9845346321,
+    "all2026_max_drawdown_pct": 6.0355563090292,
+    "all2026_official_cd_value": 420489.9313407105,
+    "all2026_profit_factor": 1.9950959155082557
+  },
+  "got": {
+    "preq4_trades": 184274,
+    "preq4_final_return_pct": 80700.83922124772,
+    "preq4_max_drawdown_pct": 6.0355563090292,
+    "preq4_official_cd_value": 75924.05907188116,
+    "preq4_profit_factor": 1.9689536824329006,
+    "full2025_trades": 214231,
+    "full2025_final_return_pct": 400365.89143525,
+    "full2025_max_drawdown_pct": 6.0355563090292,
+    "full2025_official_cd_value": 376295.5470592197,
+    "full2025_profit_factor": 1.9974533465801028,
+    "all2026_trades": 217119,
+    "all2026_final_return_pct": 447398.9845346321,
+    "all2026_max_drawdown_pct": 6.0355563090292,
+    "all2026_official_cd_value": 420489.9313407105,
+    "all2026_profit_factor": 1.9950959155082557
+  },
+  "note": "SOFTFB02 gate uses the solo candidate all-through-2026 run and exit_ts-filtered PREQ4/FULL2025 summaries."
+}
