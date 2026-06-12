@@ -1,0 +1,12 @@
+{
+  "symbols": 595,
+  "profitable_symbols": 551,
+  "top_1pct_symbol_count": 6,
+  "top_1pct_positive_profit_share_pct": 4.155477955351067,
+  "top_5pct_symbol_count": 30,
+  "top_5pct_positive_profit_share_pct": 16.748115941387223,
+  "top_10pct_symbol_count": 60,
+  "top_10pct_positive_profit_share_pct": 29.02673282248739,
+  "top_20pct_symbol_count": 119,
+  "top_20pct_positive_profit_share_pct": 48.09675631683793
+}

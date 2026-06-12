@@ -1,0 +1,16 @@
+{
+  "trades": 217114,
+  "unique_entry_timestamps": 124563,
+  "unique_exit_timestamps": 130810,
+  "max_entries_same_timestamp": 271,
+  "max_exits_same_timestamp": 232,
+  "entry_clustered_trades": 128329,
+  "exit_clustered_trades": 123122,
+  "baseline_same_bar_trades_definition": "sum of trades on exit timestamps having more than one exit",
+  "max_concurrency_entry_first": 346,
+  "max_unique_symbols_entry_first": 346,
+  "max_concurrency_exit_first": 319,
+  "max_unique_symbols_exit_first": 319,
+  "max_gross_exposure_pct_entry_first_at_1pct_each": 346.0,
+  "max_gross_exposure_pct_exit_first_at_1pct_each": 319.0
+}

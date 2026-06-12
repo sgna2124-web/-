@@ -1,0 +1,41 @@
+{
+  "gate_ok": true,
+  "gate_misses": [],
+  "target": {
+    "strategy": "SMX2V4_B07_A05_context_plus_FB20_only",
+    "period_calc_mode": "exit_ts_filter_from_all_through_2026_single_run",
+    "preq4_trades": 184271,
+    "preq4_final_return_pct": 80862.56834028331,
+    "preq4_max_drawdown_pct": 6.035556309029067,
+    "preq4_official_cd_value": 76076.02693886939,
+    "preq4_profit_factor": 1.9692793943831162,
+    "full2025_trades": 214226,
+    "full2025_final_return_pct": 401173.8751967264,
+    "full2025_max_drawdown_pct": 6.035556309029067,
+    "full2025_official_cd_value": 377054.764505805,
+    "full2025_profit_factor": 1.9977284935138309,
+    "all2026_trades": 217114,
+    "all2026_final_return_pct": 448301.8627085658,
+    "all2026_max_drawdown_pct": 6.035556309029067,
+    "all2026_official_cd_value": 421338.31579405506,
+    "all2026_profit_factor": 1.9953667122137084
+  },
+  "got": {
+    "preq4_trades": 184271,
+    "preq4_final_return_pct": 80862.56834028331,
+    "preq4_max_drawdown_pct": 6.035556309029067,
+    "preq4_official_cd_value": 76076.02693886939,
+    "preq4_profit_factor": 1.9692793943831162,
+    "full2025_trades": 214226,
+    "full2025_final_return_pct": 401173.8751967264,
+    "full2025_max_drawdown_pct": 6.035556309029067,
+    "full2025_official_cd_value": 377054.764505805,
+    "full2025_profit_factor": 1.9977284935138309,
+    "all2026_trades": 217114,
+    "all2026_final_return_pct": 448301.8627085658,
+    "all2026_max_drawdown_pct": 6.035556309029067,
+    "all2026_official_cd_value": 421338.31579405506,
+    "all2026_profit_factor": 1.9953667122137084
+  },
+  "note": "A05 gate uses the all-through-2026 run and exit_ts-filtered PREQ4/FULL2025 summaries."
+}

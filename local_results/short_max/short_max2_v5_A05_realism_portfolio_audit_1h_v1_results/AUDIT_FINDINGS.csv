@@ -1,0 +1,9 @@
+﻿detail,finding,severity
+Official baseline compounds 1% of current equity at exit and uses entry/exit-1 inverse-style short return.,BASELINE_FORMULA,INFO
+Max gross exposure is 319.00% at 1% per position.,LEV1_GROSS_EXPOSURE_EXCEEDS_100PCT,CRITICAL
+Exit-time compounding/inverse return differs materially from entry-staked linear gap-adjusted accounting.,ACCOUNTING_OR_PNL_FORMULA_MATERIAL_DIFFERENCE,CRITICAL
+73776 stop exits had bar open beyond the stop; official engine still filled at stop.,STOP_GAP_EXACT_FILL_ASSUMPTION,WARN
+7 trades touched stop and target in the same bar; stop-first policy is conservative.,TP_SL_SAME_BAR_COLLISIONS,INFO
+10 trades were closed at the final available close.,FORCED_FINAL_CLOSES,WARN
+"DD brake is calculated independently per symbol, not from merged portfolio equity.",DD_BRAKE_SCOPE,WARN
+100% gross exposure cap accepted 210145 of 217114 requested trades.,CAP100_RESULT,INFO

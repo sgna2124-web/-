@@ -1,0 +1,14 @@
+{
+  "strategy": "SMX2V2_C08_EX20_02_N02_stop257_rr5075",
+  "note": "frozen N02 2025 gate target from solo discovery run. This retest additionally evaluates all data through 2026.",
+  "preq4_trades": 88892,
+  "preq4_final_return_pct": 5636.697084804827,
+  "preq4_max_drawdown_pct": 5.655961392725716,
+  "preq4_official_cd_value": 5412.231712470644,
+  "preq4_profit_factor": 1.9410396856986845,
+  "full2025_trades": 104753,
+  "full2025_final_return_pct": 19461.28974837902,
+  "full2025_max_drawdown_pct": 5.655961392725716,
+  "full2025_official_cd_value": 18454.91075229149,
+  "full2025_profit_factor": 2.0040638913290496
+}
