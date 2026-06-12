@@ -1,0 +1,74 @@
+[
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__dsno_stop__time72",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "disaster_stop_atr": 0.0,
+    "stop_mode": "no_stop",
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__long_counter_trend__slip1bps__dsno_stop__time36",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "disaster_stop_atr": 0.0,
+    "stop_mode": "no_stop",
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__dsno_stop__time72",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "disaster_stop_atr": 0.0,
+    "stop_mode": "no_stop",
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__long_counter_trend__slip1bps__dsno_stop__time36",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "long_counter_trend",
+    "slippage_bps": 1.0,
+    "disaster_stop_atr": 0.0,
+    "stop_mode": "no_stop",
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__all__slip1bps__dsno_stop__time72",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "disaster_stop_atr": 0.0,
+    "stop_mode": "no_stop",
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_body20_range22_vol20_cp20__all__slip1bps__dsno_stop__time36",
+    "profile": "bear_body20_range22_vol20_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "disaster_stop_atr": 0.0,
+    "stop_mode": "no_stop",
+    "max_hold_bars": 36
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__all__slip1bps__dsno_stop__time72",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "disaster_stop_atr": 0.0,
+    "stop_mode": "no_stop",
+    "max_hold_bars": 72
+  },
+  {
+    "candidate_id": "bear_range25_body08_vol15_cp20__all__slip1bps__dsno_stop__time36",
+    "profile": "bear_range25_body08_vol15_cp20",
+    "trend_state": "all",
+    "slippage_bps": 1.0,
+    "disaster_stop_atr": 0.0,
+    "stop_mode": "no_stop",
+    "max_hold_bars": 36
+  }
+]

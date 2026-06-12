@@ -1,0 +1,39 @@
+{
+  "script": "research3_4_bearish_displacement_time_exit_survival_v1.py",
+  "purpose": "Bearish displacement immediate-fade time-exit survival study",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\event_research\\RESEARCH3_4_BEARISH_DISPLACEMENT_TIME_EXIT_SURVIVAL_V1",
+  "csv_files": 597,
+  "pass1_loaded_symbols": 597,
+  "pass2_loaded_symbols": 597,
+  "load_errors": 0,
+  "full_grid_candidates": 360,
+  "retest_candidates": 8,
+  "official_slippage_bps": 1.0,
+  "fee_per_side": 0.0004,
+  "fixed_take_profit": false,
+  "disaster_stop_atr_values": [
+    0.0,
+    2.0,
+    3.0,
+    5.0
+  ],
+  "time_exit_bars": [
+    6,
+    12,
+    24,
+    36,
+    72
+  ],
+  "entry_rule": "next_bar_open_market",
+  "exit_slippage_rule": "stop/time market adverse",
+  "overlap_rule_pass1": "independent_events",
+  "overlap_rule_pass2": "one_position_per_symbol",
+  "robust_pass_count": 2,
+  "final_decision": "CONTINUE_TO_PORTFOLIO_BACKTEST",
+  "run_started_at": "2026-06-12T08:49:19",
+  "run_finished_at": "2026-06-12T09:15:29",
+  "elapsed_seconds": 1570.5401372909546,
+  "elapsed_minutes": 26.175668954849243,
+  "xlsx_result": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\event_research\\RESEARCH3_4_BEARISH_DISPLACEMENT_TIME_EXIT_SURVIVAL_V1\\research3_4_summary.xlsx"
+}
