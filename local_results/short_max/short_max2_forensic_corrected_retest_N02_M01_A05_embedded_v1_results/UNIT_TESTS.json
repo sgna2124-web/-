@@ -1,0 +1,35 @@
+{
+  "all_passed": true,
+  "tests": [
+    {
+      "name": "linear_short_profit_with_exact_fees",
+      "ok": true,
+      "got": 9.924,
+      "expected": 9.924
+    },
+    {
+      "name": "linear_short_loss_with_exact_fees",
+      "ok": true,
+      "got": -10.084,
+      "expected": -10.084
+    },
+    {
+      "name": "adverse_gap_stop_fills_at_open",
+      "ok": true,
+      "got": 105.0,
+      "expected": 105.0
+    },
+    {
+      "name": "intrabar_stop_fills_at_stop",
+      "ok": true,
+      "got": 100.0,
+      "expected": 100.0
+    },
+    {
+      "name": "overlapping_entry_stakes_are_fixed",
+      "ok": true,
+      "got": 100.0,
+      "expected": 100.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "expected_minutes_input": null,
+  "auto_detected": true,
+  "official_expected_minutes": 1.66667e-11,
+  "dominant_interval_minutes": 1.66667e-11,
+  "dominant_interval_files": 597,
+  "files_total": 597,
+  "files_with_detected_interval": 597,
+  "matching_files": 597,
+  "matching_ratio": 1.0,
+  "interval_buckets": {
+    "1.66667e-11": 597
+  },
+  "gate_ok": true
+}

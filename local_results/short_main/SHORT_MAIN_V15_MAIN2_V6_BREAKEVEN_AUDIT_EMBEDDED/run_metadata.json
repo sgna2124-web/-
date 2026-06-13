@@ -1,0 +1,46 @@
+{
+  "script": "short_main_v15_main2_v6_breakeven_audit_embedded.py",
+  "purpose": "embedded audit for same-candle breakeven stop movement",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_main\\SHORT_MAIN_V15_MAIN2_V6_BREAKEVEN_AUDIT_EMBEDDED",
+  "csv_files": 597,
+  "strategies": [
+    "short_main_v15",
+    "short_main2_v6"
+  ],
+  "requested_period": "official",
+  "sample_limit": 2000,
+  "strategy_cfgs": {
+    "short_main_v15": {
+      "strategy": "SM42_mdd10_aggr_v01_single_retest",
+      "axis": "short_main",
+      "baseline_version": "short_main/v15",
+      "official_period": "FULL_TRAIN_TO_2025_END",
+      "climax_score_min": 2.8,
+      "atr_stop_mult": 2.2,
+      "rr_mult": 6.2,
+      "timeout_bars": 270,
+      "fail_fast_bars": 12,
+      "dd_brake_trigger_pct": 0.07
+    },
+    "short_main2_v6": {
+      "strategy": "V5M01_D02_D03_rr615_stop265_t390",
+      "axis": "short_main2",
+      "baseline_version": "short_main2/v6",
+      "official_period": "FULL_TO_2026_END",
+      "climax_score_min": 2.7,
+      "atr_stop_mult": 2.65,
+      "rr_mult": 6.15,
+      "timeout_bars": 390,
+      "fail_fast_bars": 15,
+      "dd_brake_trigger_pct": 0.092
+    }
+  },
+  "audit_modes": [
+    "official_like_samebar_reduce: MFE is updated from current bar low, stop can move to breakeven inside the same bar, then current bar high can stop out at the moved stop.",
+    "conservative_nextbar_reduce: current bar is checked with the previously active stop first; breakeven movement becomes effective only after the bar closes. If open gaps beyond stop, exit is open, not stop."
+  ],
+  "started_at": "2026-06-13T18:13:00",
+  "finished_at": "2026-06-13T18:59:54",
+  "elapsed_seconds": 2813.4352561999985
+}

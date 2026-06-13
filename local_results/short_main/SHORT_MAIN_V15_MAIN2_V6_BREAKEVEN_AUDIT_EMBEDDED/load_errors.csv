@@ -1,0 +1,685 @@
+﻿strategy_key,period,path,error,traceback
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SFP_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SKL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SNT_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SNX_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SOL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SOLV_5m.csv,"Unable to allocate 795. KiB for an array with shape (101767,) and data type int64","Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 795. KiB for an array with shape (101767,) and data type int64
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SOMI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SONIC_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SOON_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SOPH_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SPELL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SPK_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SQD_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SSV_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STBL_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STEEM_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STG_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STMX_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STO_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STORJ_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STPT_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STRAX_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STRK_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\STX_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SUI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SUN_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SUPER_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SUSHI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SWARMS_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SWELL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SXP_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SXT_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SYN_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\SYS_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\T_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TANSSI_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TAO_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\THE_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\THETA_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TIA_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TLM_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TNSR_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TOKEN_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TON_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TOSHI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TOWNS_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TRADOOR_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TRB_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TREE_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TROY_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TRU_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TRUMP_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TRUST_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TRUTH_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TRX_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TST_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TURBO_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TURTLE_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TUT_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\TWT_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\UB_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\UMA_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\UNFI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\UNI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\USDC_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\USELESS_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\USTC_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\USUAL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\UXLINK_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VANA_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VANRY_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VELODROME_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VELVET_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VET_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VFY_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VIC_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VIDT_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VINE_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VIRTUAL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VOXEL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VTHO_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\VVV_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\W_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\WAL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\WAVES_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\WAXP_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\WCT_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\WIF_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\WLD_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\WLFI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\WOO_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XAI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XAN_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XCN_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XEM_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XLM_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XMR_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XNY_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XPIN_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XPL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XRP_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XTZ_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XVG_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\XVS_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\YALA_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\YFI_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\YGG_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\ZEC_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\ZEN_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\ZETA_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\ZIL_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\ZK_5m.csv,Error tokenizing data. C error: out of memory,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas.errors.ParserError: Error tokenizing data. C error: out of memory
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\ZRO_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"
+short_main2_v6,FULL_TO_2026_END,C:\Users\user\Desktop\LCD\파이썬\코인\Data\time\ZRX_5m.csv,,"Traceback (most recent call last):
+  File ""c:\Users\user\Desktop\LCD\파이썬\코인\22_gpt_\short_main_v15_main2_v6_breakeven_audit_embedded.py"", line 760, in load_symbols_for_period
+    full = load_symbol(path, cfg, end_ts=end_ts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+"

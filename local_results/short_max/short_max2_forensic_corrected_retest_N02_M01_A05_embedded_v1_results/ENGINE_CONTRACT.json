@@ -1,0 +1,16 @@
+{
+  "engine": "forensic_corrected_next_open_linear_short_gap_stop_entry_stake_fixed_embedded_v1",
+  "source_strategy_logic": "embedded in this file; no external strategy file lookup/import/patch",
+  "input_dependency": "local OHLCV CSV data only",
+  "signal_time": "bar_close_i",
+  "entry_time": "bar_i_plus_1_open",
+  "short_pnl": "linear USDT: (entry-exit)/entry minus exact entry and exit notional fees",
+  "position_size": "equity_at_entry * position_fraction, frozen until exit",
+  "time_reduce_activation": "activation_bar_open after full configured bars",
+  "adverse_stop_gap": "fill at current bar open when open >= active stop",
+  "intrabar_collision": "stop first",
+  "target_gap": "conservative fill at target",
+  "portfolio_model": "unbounded gross exposure, realized equity, fixed entry stake",
+  "legacy_targets_used_as_gate": false,
+  "candidate_parameter_caution": "N02/M01/A05 parameters are explicitly embedded in candidate_configs.csv; no external baseline file is read at runtime."
+}

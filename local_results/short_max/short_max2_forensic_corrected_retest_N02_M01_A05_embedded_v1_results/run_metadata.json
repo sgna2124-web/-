@@ -1,0 +1,18 @@
+{
+  "batch": "short_max2_forensic_corrected_retest_N02_M01_A05_embedded_v1",
+  "status": "CORRECTED_RETEST_COMPLETED",
+  "engine": "forensic_corrected_next_open_linear_short_gap_stop_entry_stake_fixed_embedded_v1",
+  "elapsed_min": 23.442,
+  "csv_files": 597,
+  "data_root": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\short_max\\short_max2_forensic_corrected_retest_N02_M01_A05_embedded_v1_results",
+  "unit_tests_passed": true,
+  "interval_gate_ok": true,
+  "expected_bar_minutes_input": null,
+  "official_bar_minutes": 1.66667e-11,
+  "dominant_interval_minutes": 1.66667e-11,
+  "allow_interval_mismatch": false,
+  "strategies_completed": 3,
+  "strategies_requested": 3,
+  "best_corrected_preq4": "RETEST_SMX2V3_B04_M01_S02D_plus_upper020"
+}
