@@ -1,0 +1,48 @@
+{
+  "beta_lookback": 288,
+  "btc_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BTC_5m.csv",
+  "btc_symbol": "BTC",
+  "cooldown_modes": "horizon,144",
+  "csv_files_found": 597,
+  "csv_files_loaded": 597,
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "elapsed_minutes": 267.35532188018163,
+  "errors": 0,
+  "fee_per_side": 0.0004,
+  "final_decision_hint": "Promote only if MTM audit remains positive in EX_2025Q4 and 2026_ENTRY_ONLY.",
+  "gap_mins": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "horizons": [
+    24,
+    36,
+    48,
+    72,
+    96
+  ],
+  "initial_capital": 100.0,
+  "leverage": 1.0,
+  "max_concurrent_values": [
+    0,
+    20,
+    50
+  ],
+  "mtm_audit_rows": 120,
+  "out_dir": "local_results\\event_research\\RESEARCH4_2_1_BTC_POSITIVE_RESIDUAL_K1_AUDIT_V1",
+  "position_fraction": 0.01,
+  "purpose": "BTC z4/z4.5/z5 positive residual K1 short audit after Research 4-2",
+  "ranking_rows": 270,
+  "raw_event_timestamps": 186041,
+  "raw_events": 388101,
+  "robust_pass_count_quick": 270,
+  "script": "research4_2_1_btc_positive_residual_k1_audit_v1.py",
+  "slippage_bps": 1.0,
+  "z_lookback": 288,
+  "z_thresholds": [
+    4.0,
+    4.5,
+    5.0
+  ]
+}
