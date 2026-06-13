@@ -1,0 +1,33 @@
+{
+  "script": "research2_9_b_fast_break_position_leverage_sweep_v1_1.py",
+  "purpose": "B_FAST_BREAK position fraction and leverage sweep",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\volatility_research\\RESEARCH2_9_B_FAST_BREAK_POSITION_LEVERAGE_SWEEP_V1",
+  "csv_files": 597,
+  "loaded_symbols": 597,
+  "load_errors": 0,
+  "trade_rows": 348,
+  "duration": 20,
+  "timeout": 144,
+  "fast_break_bars": 3,
+  "position_fractions": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "leverages": [
+    1.0,
+    2.0,
+    3.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "save_trades": false
+}
