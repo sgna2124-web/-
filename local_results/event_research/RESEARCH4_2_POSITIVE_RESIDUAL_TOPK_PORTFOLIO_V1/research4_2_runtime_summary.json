@@ -1,0 +1,110 @@
+{
+  "script": "research4_2_positive_residual_topk_portfolio_v1.py",
+  "purpose": "Positive residual cross-sectional top-K short mean-reversion portfolio validation",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\local_results\\event_research\\RESEARCH4_2_POSITIVE_RESIDUAL_TOPK_PORTFOLIO_V1",
+  "csv_files": 597,
+  "specs": [
+    {
+      "name": "market_mom__rolling_beta__z4__positive_residual__short_reversion__h72",
+      "factor": "market_mom",
+      "residual_mode": "rolling_beta",
+      "profile": "z4",
+      "horizon": 72,
+      "role": "primary"
+    },
+    {
+      "name": "market_mom__rolling_beta__z3_abs050__positive_residual__short_reversion__h72",
+      "factor": "market_mom",
+      "residual_mode": "rolling_beta",
+      "profile": "z3_abs050",
+      "horizon": 72,
+      "role": "comparison"
+    },
+    {
+      "name": "btc__rolling_beta__z4__positive_residual__short_reversion__h72",
+      "factor": "btc",
+      "residual_mode": "rolling_beta",
+      "profile": "z4",
+      "horizon": 72,
+      "role": "comparison"
+    },
+    {
+      "name": "btc__rolling_beta__z3_abs050__positive_residual__short_reversion__h72",
+      "factor": "btc",
+      "residual_mode": "rolling_beta",
+      "profile": "z3_abs050",
+      "horizon": 72,
+      "role": "comparison"
+    }
+  ],
+  "candidate_runtime": [
+    {
+      "spec": "market_mom__rolling_beta__z4__positive_residual__short_reversion__h72",
+      "role": "primary",
+      "raw_events": 478033,
+      "top_pool_events": 350567,
+      "loaded_files": 597,
+      "errors": 0,
+      "mark_events": 25240824,
+      "elapsed_minutes": 10.140783548355103
+    },
+    {
+      "spec": "market_mom__rolling_beta__z3_abs050__positive_residual__short_reversion__h72",
+      "role": "comparison",
+      "raw_events": 776969,
+      "top_pool_events": 527661,
+      "loaded_files": 597,
+      "errors": 0,
+      "mark_events": 37991592,
+      "elapsed_minutes": 8.124651547273
+    },
+    {
+      "spec": "btc__rolling_beta__z4__positive_residual__short_reversion__h72",
+      "role": "comparison",
+      "raw_events": 384924,
+      "top_pool_events": 253115,
+      "loaded_files": 597,
+      "errors": 0,
+      "mark_events": 18224280,
+      "elapsed_minutes": 7.043605077266693
+    },
+    {
+      "spec": "btc__rolling_beta__z3_abs050__positive_residual__short_reversion__h72",
+      "role": "comparison",
+      "raw_events": 828186,
+      "top_pool_events": 476338,
+      "loaded_files": 597,
+      "errors": 0,
+      "mark_events": 34296336,
+      "elapsed_minutes": 7.884168589115143
+    }
+  ],
+  "initial_capital": 100.0,
+  "leverage": 1.0,
+  "position_fraction": 0.01,
+  "fee_per_side": 0.0004,
+  "slippage_bps": 1.0,
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "max_concurrent_values": [
+    0,
+    20,
+    50
+  ],
+  "horizons": [
+    72
+  ],
+  "ranking_rows": 48,
+  "robust_pass_count": 3,
+  "final_decision": "CONTINUE_TO_4_3_MARKET_NEUTRAL_OR_CAP_RETEST",
+  "run_started_at": "2026-06-13T14:36:47",
+  "run_finished_at": "2026-06-13T15:15:48",
+  "elapsed_seconds": 2340.995255947113,
+  "elapsed_minutes": 39.01658759911855,
+  "errors": 0
+}
