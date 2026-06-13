@@ -1,0 +1,287 @@
+[
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ASR_5m.csv",
+    "error": "Error tokenizing data. C error: out of memory",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 94, in read_csv_flexible\n    return pd.read_csv(path, low_memory=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ASTR_5m.csv",
+    "error": "Error tokenizing data. C error: out of memory",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 94, in read_csv_flexible\n    return pd.read_csv(path, low_memory=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ATA_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ATH_5m.csv",
+    "error": "Error tokenizing data. C error: out of memory",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 94, in read_csv_flexible\n    return pd.read_csv(path, low_memory=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\ATOM_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\AUCTION_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\AVAAI_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\AVAX_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\AVNT_5m.csv",
+    "error": "Error tokenizing data. C error: out of memory",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 94, in read_csv_flexible\n    return pd.read_csv(path, low_memory=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\AWE_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\AXL_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\AXS_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\B2_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\B3_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\B_5m.csv",
+    "error": "Error tokenizing data. C error: out of memory",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 94, in read_csv_flexible\n    return pd.read_csv(path, low_memory=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BABY_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BADGER_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BAKE_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BAL_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BAN_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BANANA_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BANANAS31_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BAND_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BANK_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BARD_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BAS_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BAT_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BB_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BCH_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BDXN_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BEAMX_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BEAT_5m.csv",
+    "error": "Error tokenizing data. C error: out of memory",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 94, in read_csv_flexible\n    return pd.read_csv(path, low_memory=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BEL_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BERA_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BICO_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BID_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BIGTIME_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BIO_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BLESS_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BLUAI_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BLUR_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BLZ_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BMT_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BNB_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BNT_5m.csv",
+    "error": "Error tokenizing data. C error: out of memory",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 94, in read_csv_flexible\n    return pd.read_csv(path, low_memory=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BNX_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BOB_5m.csv",
+    "error": "Error tokenizing data. C error: out of memory",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 94, in read_csv_flexible\n    return pd.read_csv(path, low_memory=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npandas.errors.ParserError: Error tokenizing data. C error: out of memory\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BOME_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BOND_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BR_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BRETT_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BROCCOLI714_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BROCCOLIF3B_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BSV_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BSW_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BTC_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  },
+  {
+    "path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BTCDOM_5m.csv",
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 478, in main\n    df = normalize_ohlcv(read_csv_flexible(path))\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\22_gpt_\\research2_8_d20_short_t144_candidate_retest_v1.py\", line 88, in read_csv_flexible\n    head = path.read_text(encoding=\"utf-8\", errors=\"ignore\")[:100]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nMemoryError\n"
+  }
+]

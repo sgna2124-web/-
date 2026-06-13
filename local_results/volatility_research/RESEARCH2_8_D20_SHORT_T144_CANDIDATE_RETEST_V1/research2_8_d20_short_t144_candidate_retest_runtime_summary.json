@@ -1,0 +1,18 @@
+{
+  "script": "research2_8_d20_short_t144_candidate_retest_v1.py",
+  "purpose": "D20 SHORT T144 candidate filter retest",
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "out_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\local_results\\volatility_research\\RESEARCH2_8_D20_SHORT_T144_CANDIDATE_RETEST_V1",
+  "csv_files": 597,
+  "loaded_symbols": 540,
+  "load_errors": 57,
+  "duration": 20,
+  "timeout": 144,
+  "trade_rows": 486,
+  "position_fraction": 0.01,
+  "save_trades": false,
+  "elapsed_seconds": 2816.7027883529663,
+  "elapsed_minutes": 46.945046472549436,
+  "run_started_at": "2026-06-13T17:04:10",
+  "run_finished_at": "2026-06-13T17:51:07"
+}
