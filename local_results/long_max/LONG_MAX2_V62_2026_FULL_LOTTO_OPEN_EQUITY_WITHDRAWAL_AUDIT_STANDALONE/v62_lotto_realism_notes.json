@@ -1,0 +1,12 @@
+{
+  "status": "written",
+  "source_trade_rows": "v62_lotto_trade_rows.csv",
+  "strategy_col": "strategy",
+  "pnl_col": "pnl_pct",
+  "entry_col": "entry_ts",
+  "exit_col": "exit_ts",
+  "mae_col": "mae_pct",
+  "mfe_col": "mfe_pct",
+  "exit_reason_col": "exit_reason",
+  "critical_limitation": "If MAE/MFE columns are blank, this runner still cannot prove true intratrade unrealized MDD. V62 must instrument bar-by-bar open-position equity."
+}

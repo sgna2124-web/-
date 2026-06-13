@@ -1,0 +1,6 @@
+{
+  "status": "written",
+  "method": "conservative open-equity proxy using each open trade's worst_unrealized_pct during full holding interval",
+  "withdrawal_rule": "seed 100000 KRW; first realized equity >= 10000000 KRW then withdraw 9900000 KRW",
+  "position_fraction": "1% per position"
+}
