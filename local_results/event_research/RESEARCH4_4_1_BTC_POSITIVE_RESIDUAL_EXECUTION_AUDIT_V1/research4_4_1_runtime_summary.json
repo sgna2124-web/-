@@ -1,0 +1,41 @@
+{
+  "beta_lookback": 288,
+  "btc_path": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time\\BTC_5m.csv",
+  "btc_symbol": "BTC",
+  "cooldown_modes": "144",
+  "csv_files_found": 597,
+  "csv_files_loaded": 597,
+  "data_dir": "C:\\Users\\user\\Desktop\\LCD\\파이썬\\코인\\Data\\time",
+  "elapsed_minutes": 145.04652530749638,
+  "errors": 0,
+  "fee_per_side": 0.0004,
+  "final_decision_hint": "Use research4_4_1_mtm_audit_ranking.csv. Rank primarily by max_leveraged_cd_value.",
+  "gap_mins": [
+    1.0
+  ],
+  "horizons": [
+    144
+  ],
+  "initial_capital": 100.0,
+  "leverage": 1.0,
+  "max_concurrent_values": [
+    0,
+    50
+  ],
+  "mtm_audit_rows": 10,
+  "mtm_ranking_rows": 2,
+  "official_execution": "signal close -> next open short fill=open*(1-slip); fixed horizon close cover=close*(1+slip); no SL/TP/trailing/BE",
+  "out_dir": "local_results\\event_research\\RESEARCH4_4_1_BTC_POSITIVE_RESIDUAL_EXECUTION_AUDIT_V1",
+  "position_fraction": 0.01,
+  "purpose": "BTC positive residual K1 short exact execution audit with linear-futures fills and fee accounting",
+  "ranking_rows": 2,
+  "raw_event_timestamps": 186001,
+  "raw_events": 387998,
+  "robust_pass_count_quick": 0,
+  "script": "research4_4_1_btc_positive_residual_execution_audit_v1.py",
+  "slippage_bps": 1.0,
+  "z_lookback": 288,
+  "z_thresholds": [
+    4.0
+  ]
+}
